@@ -4,6 +4,9 @@ import BrowseAllCategory  from './Header/BrowseAllCategory'
 import NavBigOptions  from './content/NavBigOptions'
 import FeathersCategory  from './feathers/Page'
 import PopularProducts  from './popular/page'
+import DailyBestSeller from './DailyBestSeller/page'
+import DealsOfTheDay from "./deals/Page";
+
 
 export {
   Header,
@@ -12,4 +15,6 @@ export {
   BrowseAllCategory,
   FeathersCategory,
   PopularProducts,
+  DailyBestSeller,
+  DealsOfTheDay
 }

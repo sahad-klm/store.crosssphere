@@ -861,3 +861,18 @@ export const popularProducts = [
 
   },
 ]
+
+export const dailyBestSellerCategory = [
+  {
+    id: 1,
+    name : 'Feathered'
+  },
+  {
+    id: 2,
+    name : 'Popular'
+  },
+  {
+    id: 3,
+    name : 'New added'
+  },
+]

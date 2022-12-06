@@ -1,29 +1,25 @@
+import TextCategory from '@/ui/TextCategory';
 import { popularProductCategory } from 'constants/data';
 import React, { Key } from 'react';
 import EachPopularProduct from './EachPopularProduct';
 
 const PopularProducts = () => {
-  const [isSelectedCatN, setIsSelectedCatN] = React.useState('All');
+  const [isSelectedCatN, setIsSelectedCatN] = React.useState(popularProductCategory[0].name);
 
   return (
-    <div className="mt-[50px] mb-96 flex w-full flex-col items-center justify-center overflow-hidden px-4">
+    <div className="mt-[50px] flex w-full flex-col items-center justify-center overflow-hidden px-4">
       <div className="mb-7 flex w-full items-center justify-between">
-        <h4 className="font-head shrink-0 mr-4 text-[32px] text-gray-800">
+        <h4 className="mr-4 shrink-0 font-head text-[32px] text-gray-800">
           Popular Products
         </h4>
-        <span className="flex flex-wrap flex-row gap-4 ">
+        <span className="flex flex-row flex-wrap gap-4 ">
           {popularProductCategory?.map((item: { id: Key; name: string }) => (
-            <p
+            <TextCategory
               key={item.id}
-              className={`font-head ${
-                isSelectedCatN === item.name
-                  ? 'text-emerald-500'
-                  : 'text-gray-800'
-              } cursor-pointer transition hover:-translate-y-1 hover:text-emerald-500`}
-              onClick={() => setIsSelectedCatN(item.name)}
-            >
-              {item.name}
-            </p>
+              {...item}
+              isSelectedCatN={isSelectedCatN}
+              setIsSelectedCatN={setIsSelectedCatN}
+            />
           ))}
         </span>
       </div>

@@ -1,5 +1,5 @@
 
-import { FeathersCategory, Header, HomeComponent, PopularProducts } from "components";
+import { DailyBestSeller, DealsOfTheDay, FeathersCategory, Header, HomeComponent, PopularProducts } from "components";
 
 export default function Home(): any {
   return (
@@ -9,6 +9,8 @@ export default function Home(): any {
         <HomeComponent />
         <FeathersCategory />
         <PopularProducts />
+        <DailyBestSeller />
+        <DealsOfTheDay />
       </main>
     </div>
   );

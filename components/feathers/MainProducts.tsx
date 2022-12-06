@@ -1,3 +1,4 @@
+import { ButtonShopNow } from "@/ui/button";
 import { fracturedMainProduct } from "constants/data";
 import { motion } from "framer-motion";
 
@@ -23,9 +24,7 @@ const MainProducts: React.FC | any = () => {
           <h4 className="font-head text-h4 max-w-[250px] z-[1] capitalize group-hover/edit:-translate-y-1 duration-500 transition-all">
             {item.title}
           </h4>
-          <button className="w-max px-3 py-3 mt-4 bg-emerald-500 text-white font-body text-xs rounded z-[1] gap-4 flex items-center hover:bg-yellow-500 hover:gap-5 transition-all">
-            Shop Now <i className="lni lni-arrow-right"></i>
-          </button>
+          <ButtonShopNow  paddingAndStyle='px-3 py-3' value='Shop Now' />
         </motion.div>
       ))}
     </div>

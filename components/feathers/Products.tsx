@@ -11,7 +11,7 @@ type Props = {
   bg?: string;
 };
 export const Products: React.FC | any = ({ swiperRef }: any) => {
-  const [isClickedOnThisOne, setIsClickedOnThisOne] = useState<Key>(undefined);
+  const [isClickedOnThisOne, setIsClickedOnThisOne] = useState<Key>();
 
   const windowWidth: number = useWindowWidth();
 

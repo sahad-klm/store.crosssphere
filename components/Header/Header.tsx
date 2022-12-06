@@ -13,7 +13,7 @@ function Header(): any {
 
 
   return (
-    <nav className="flex flex-col w-full sticky z-30">
+    <nav className="flex flex-col w-full sticky z-30 overflow-hidden">
 
       <div className="flex justify-between items-center py-4 px-5 bg-white h-20 border-b-[1px] border-solid border-gray-700 border-opacity-20">
 
