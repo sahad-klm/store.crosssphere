@@ -17,6 +17,7 @@ module.exports = {
           violet: '#7928CA',
         },
       },
+
       fontFamily: {
         head: 'Quicksand, sans-serif',
         body : 'Lato, sans-serif'

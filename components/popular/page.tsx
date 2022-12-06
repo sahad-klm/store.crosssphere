@@ -8,10 +8,10 @@ const PopularProducts = () => {
   return (
     <div className="mt-[50px] mb-96 flex w-full flex-col items-center justify-center overflow-hidden px-4">
       <div className="mb-7 flex w-full items-center justify-between">
-        <h4 className="font-head text-[32px] text-gray-800">
-          Feathered Categories
+        <h4 className="font-head shrink-0 mr-4 text-[32px] text-gray-800">
+          Popular Products
         </h4>
-        <span className="grid grid-flow-col gap-4">
+        <span className="flex flex-wrap flex-row gap-4 ">
           {popularProductCategory?.map((item: { id: Key; name: string }) => (
             <p
               key={item.id}
