@@ -1,3 +1,71 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Lato, sans-serif;
+}
+
+
+.font-head {
+  font-family: Quicksand, sans-serif;
+  font-weight: 700;
+}
+
+.font-body {
+  font-family: Lato, sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1.6rem;
+}
+.text-h1 {
+  font-size: 44px;
+}
+.text-h2 {
+  font-size: 40px;
+}
+.text-h3 {
+  font-size: 24px;
+}
+.text-h4 {
+  font-size: 24px;
+}
+.text-h5 {
+  font-size: 20px;
+}
+.text-h6 {
+  font-size: 16px;
+}
+.swiper .swiper-button-next,.swiper .swiper-button-prev {
+  width: 40px;
+  height: 40px;
+  background: #fff;
+  padding: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+
+}
+.swiper .swiper-button-next::after, .swiper .swiper-button-prev::after {
+  font-size: 14px;
+  color: gray;
+  font-weight: 700;
+}
+.swiper .swiper-pagination-bullet {
+  width: 14px;
+  height: 14px;
+  border:  1px solid black;
+  background-color: transparent;
+}
+.swiper .swiper-pagination-bullet-active {
+  border:  1px solid transparent;
+  background-color: rgb(16 185 129);
+}

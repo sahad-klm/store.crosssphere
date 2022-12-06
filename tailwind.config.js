@@ -1,7 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    './app/**/*.{js,ts,jsx,tsx}',
+    './components/**/*.{js,ts,jsx,tsx}',
     './page/**/*.{js,ts,jsx,tsx}',
     './ui/**/*.{js,ts,jsx,tsx}',
   ],
@@ -16,6 +16,27 @@ module.exports = {
           orange: '#F5A623',
           violet: '#7928CA',
         },
+      },
+      fontFamily: {
+        head: 'Quicksand, sans-serif',
+        body : 'Lato, sans-serif'
+      },
+      fontWeight : {
+        W_head: '700',
+        W_body:'400'
+      },
+      lineHeight: {
+        head:'1.3',
+        body:'1.6'
+      },
+      fontSize:{
+        body:'15px',
+        h1:'44px',
+        h2:'40px',
+        h3:'32px',
+        h4:'24px',
+        h5:'20px',
+        h6:'16px',
       },
       keyframes: ({ theme }) => ({
         rerender: {
