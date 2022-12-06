@@ -5,9 +5,12 @@ const nextConfig = {
   //   // Required:
   //   // appDir: true,
   // },
+  images: {
+    domains:[ 'cdn.hswstatic.com',]
+  },
   typescript:{
     ignoreBuildErrors: true
-  }
+  },
 };
 
 module.exports = nextConfig;

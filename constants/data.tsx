@@ -747,19 +747,19 @@ export const fracturedMainProduct = [
     id:1,
     title:'Everyday Fresh & clean with our products',
     bg:'yellow',
-    picture:'https://i.dlpng.com/static/png/7141804_preview.png',
+    picture:'https://i.scdn.co/image/ab67616d00001e02da7ce598b01adcb421e7bdce',
   },
   {
     id:2,
     title:'Everyday Fresh & clean with our products',
     bg:'green',
-    picture:'https://i.dlpng.com/static/png/7141804_preview.png',
+    picture:'https://i.scdn.co/image/ab67616d00001e02da7ce598b01adcb421e7bdce',
   },
   {
     id:3,
     title:'Everyday Fresh & clean with our products',
     bg:'blue',
-    picture:'https://i.dlpng.com/static/png/7141804_preview.png',
+    picture:'https://i.scdn.co/image/ab67616d00001e02da7ce598b01adcb421e7bdce',
   },
 ] 
 
@@ -852,7 +852,7 @@ export const popularProducts = [
   {
     id: Math.random(),
     name: 'Nasltlee orginal coffee-mate coffee creamer',
-    rating : 4.0,
+    rating : 4.5,
     tags: 'black plum , organic , silopy kujjapu',
     rate : 10.4,
     offer: 7,
