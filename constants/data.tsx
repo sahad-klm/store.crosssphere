@@ -876,3 +876,42 @@ export const dailyBestSellerCategory = [
     name : 'New added'
   },
 ]
+export const feathersInTotals = [
+  {
+    id: 1,
+    title : 'Best prices & offer',
+    subtitle: 'Order %50 or more',
+    icon : 'https://www.pngfind.com/pngs/m/155-1552084_construction-tools-png-clipart-black-and-white-transparent.png'
+
+  },
+  {
+    id: 2,
+    title : 'Free delivery (when you give 500 as tip)',
+    subtitle: '24/7 amazing service',
+    icon : 'https://www.pngfind.com/pngs/m/155-1552084_construction-tools-png-clipart-black-and-white-transparent.png'
+
+  },
+  {
+    id: 3,
+    title : 'Great daily',
+    subtitle: 'When you sing in',
+    icon : 'https://www.pngfind.com/pngs/m/155-1552084_construction-tools-png-clipart-black-and-white-transparent.png'
+
+  },
+  {
+    id: 4,
+    title : 'Wide as presents',
+    subtitle: 'Mega discount',
+    icon : 'https://www.pngfind.com/pngs/m/155-1552084_construction-tools-png-clipart-black-and-white-transparent.png'
+
+  },
+  {
+    id: 5,
+    title : 'Easy return',
+    subtitle: 'Within than 1 years',
+    icon : 'https://www.pngfind.com/pngs/m/155-1552084_construction-tools-png-clipart-black-and-white-transparent.png'
+
+  },
+  
+]
+

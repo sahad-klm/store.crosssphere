@@ -12,8 +12,8 @@ const FooterProducts = (): JSX.Element | any => {
     
 
   return (
-    <section className="mt-[50px] mb-96 flex w-full flex-col items-center justify-center overflow-hidden  px-4">
-      <div className="grid md:grid-cols-4 grid-cols-2 gap-5">
+    <section className="mt-[50px] flex w-full flex-col items-center justify-center overflow-hidden  px-4">
+      <div className="grid lg:grid-cols-4 grid-cols-2 gap-5">
         <div className="flex flex-col items-start justify-start gap-5">
           <h4 className={`${classNameForHead}`}>
             Popular Products
