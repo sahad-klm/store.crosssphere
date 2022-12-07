@@ -26,7 +26,7 @@ function Header(): any {
         " alt="" /></p>
           </span>
           <span className="w-[.5px] bg-gray-400 h-full mx-4" />
-          <input type="text" className="h-full w-full outline-none " placeholder="I'm looking for..." />
+          <input type="text" className="h-full w-full outline-none" placeholder="I'm looking for..." />
           <p className="w-6 h-6 bg-black ">s</p>
         </form>
 
