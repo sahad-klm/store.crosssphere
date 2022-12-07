@@ -8,6 +8,7 @@ import DailyBestSeller from './DailyBestSeller/page'
 import DealsOfTheDay from "./deals/Page";
 import FooterProducts from "./footerProducts/page";
 import Feathers from './feature/Page'
+import Footer from './footer/Page'
 
 
 export {
@@ -20,5 +21,6 @@ export {
   DailyBestSeller,
   DealsOfTheDay,
   FooterProducts,
-  Feathers
+  Feathers,
+  Footer
 }
