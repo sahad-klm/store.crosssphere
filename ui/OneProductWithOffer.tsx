@@ -1,20 +1,21 @@
 import { Icon } from 'constants/icon';
 import React from 'react';
-import {ButtonAdd, ButtonAddToCart} from "./button";
-
+import { ButtonAdd, ButtonAddToCart } from './button';
+import RateOfProduct from './rate';
+import { Rating } from './rating';
 
 type Props = {
-  id: React.Key;
-  name: string;
+  id?: React.Key;
+  name?: string;
   rating?: number | any;
   tags?: string;
   rate?: number | any;
   offer?: number | any;
   picture?: string | any;
   bacPicture?: string | any;
-  mouseOver: any;
-  setMouseOver: any;
-  buttonStyle?:any
+  mouseOver?: any;
+  setMouseOver?: any;
+  buttonStyle?: any;
 };
 function OneProductWithOffer({
   id,
@@ -27,16 +28,13 @@ function OneProductWithOffer({
   bacPicture,
   mouseOver,
   setMouseOver,
-  buttonStyle
+  buttonStyle,
 }: Props): any {
-
-  const addBtn = buttonStyle === 'add'
-  const addToCartBtn = buttonStyle === 'add-to-cart'
+  const addBtn = buttonStyle === 'add';
+  const addToCartBtn = buttonStyle === 'add-to-cart';
 
   return (
-    <div
-      className="group/body relative flex max-w-[290px] flex-col overflow-hidden rounded-[18px] border border-gray-300 bg-white hover:border-emerald-300 hover:shadow-xl"
-    >
+    <div className="group/body relative flex max-w-[290px] flex-col overflow-hidden rounded-[18px] border border-gray-300 bg-white hover:border-emerald-300 hover:shadow-xl">
       {offer && (
         <span className="absolute top-0 left-0 z-10  flex self-start rounded-br-[18px] bg-red-700 py-1 px-4 font-body text-sm text-white">
           {offer}%
@@ -91,25 +89,63 @@ function OneProductWithOffer({
         <i className="lni lni-star-filled text-xs text-yellow-500" />
         <i className="lni lni-star-filled text-xs text-yellow-500" />
       </span>
-      <div className={`mx-5 mb-5 flex flex-row items-center ${addBtn ? 'justify-between': 'justify-start'}`}>
-        <p className="flex items-center gap-2 font-head text-lg text-emerald-500">
-          ${rate - (rate * offer) / 100}
-          {offer && (
-            <span className="text-sm text-gray-500 line-through">${rate}</span>
-          )}
-        </p>
-        {addBtn &&
-          <ButtonAdd />
-        }
+      <div
+        className={`mx-5 mb-5 flex flex-row items-center ${
+          addBtn ? 'justify-between' : 'justify-start'
+        }`}
+      >
+        <RateOfProduct offer={offer} rate={rate} />
+        {addBtn && <ButtonAdd />}
       </div>
-      {addToCartBtn && 
-      <div className="flex w-full justify-center mb-5">
-
-      <ButtonAddToCart />
-      </div>
-      }
+      {addToCartBtn && (
+        <div className="mb-5 flex w-full justify-center">
+          <ButtonAddToCart />
+        </div>
+      )}
     </div>
   );
 }
 
-export default OneProductWithOffer;
+const OneProductLeftPicRightDetail = ({
+  productsData,
+  limitProductShow = null,
+}: any): any => {
+  const limitProduct = (): any => {
+    if (limitProductShow) return limitProductShow;
+    else if (limitProductShow === null) return productsData?.length;
+  };
+  return (
+    <React.Fragment>
+      {productsData?.map((item: Props, idx: number) => (
+        <React.Fragment>
+          {idx + 1 <= limitProduct() && (
+            <div
+              key={item.id}
+              className="fle-row flex items-start justify-center gap-4 transition-all duration-300 hover:-translate-y-1"
+            >
+              <div
+                className={`relative flex h-24 w-24 shrink-0 items-center justify-center overflow-hidden rounded-md
+      ${item.tags === 'vegetable' || 'organic' ? 'bg-gray-100' : 'bg-white'}`}
+              >
+                <img src={item.picture} width={85} />
+              </div>
+              <div className="justify-star flex h-28 w-full flex-col items-start ">
+                <h4 className="font-head text-gray-800 transition duration-200 hover:text-emerald-500">
+                  {item.name}
+                </h4>
+
+                <Rating
+                  rating={item.rating}
+                  className="mx-0 mt-1 mb-1 h-5 pb-0"
+                />
+                <RateOfProduct offer={item.offer} rate={item.rate} />
+              </div>
+            </div>
+          )}
+        </React.Fragment>
+      ))}
+    </React.Fragment>
+  );
+};
+
+export { OneProductWithOffer, OneProductLeftPicRightDetail };

@@ -1,6 +1,6 @@
 'use client'
 
-import OneProductWithOffer from '@/ui/OneProductWithOffer';
+import {OneProductWithOffer} from '@/ui/OneProductWithOffer';
 import TextCategory from '@/ui/TextCategory';
 import { dailyBestSellerCategory, popularProducts } from 'constants/data';
 import React from 'react';
@@ -18,7 +18,7 @@ const DailyBestSeller = ():any => {
 
   const windowWidth: number = useWindowWidth();
 
-  const swiperPrev: number = Math.round(windowWidth / 380);
+  const swiperPrev: number = Math.round((windowWidth - 300) / 300);
   
     
   return (
@@ -40,7 +40,7 @@ const DailyBestSeller = ():any => {
       </div>
 
       <div className="flex w-full justify-start gap-6">
-        <div className="relative z-[1] flex flex-grow-0 flex-col items-start justify-evenly overflow-hidden rounded-[18px] p-10 w-[40%] max-w-[300px]">
+        <div className="relative z-[1] flex flex-grow-0 flex-col items-start justify-evenly overflow-hidden rounded-[18px] p-10 md:min-w-[280px] min-w-[40%] max-w-[300px]">
           <img
             src="https://images.unsplash.com/photo-1483232539664-d89822fb5d3e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cGhvdG8lMjBiYWNrZ3JvdW5kfGVufDB8fDB8fA%3D%3D&w=1000&q=80"
             alt=""

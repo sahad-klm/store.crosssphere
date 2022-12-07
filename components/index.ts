@@ -6,6 +6,8 @@ import FeathersCategory  from './feathers/Page'
 import PopularProducts  from './popular/page'
 import DailyBestSeller from './DailyBestSeller/page'
 import DealsOfTheDay from "./deals/Page";
+import FooterProducts from "./footerProducts/page";
+
 
 
 export {
@@ -16,5 +18,6 @@ export {
   FeathersCategory,
   PopularProducts,
   DailyBestSeller,
-  DealsOfTheDay
+  DealsOfTheDay,
+  FooterProducts
 }
