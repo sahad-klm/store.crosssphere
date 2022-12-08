@@ -1,4 +1,5 @@
 import { Icon } from 'constants/icon';
+import Image from 'next/image';
 import React from 'react';
 import { ButtonAdd, ButtonAddToCart } from './button';
 import RateOfProduct from './rate';
@@ -6,7 +7,7 @@ import { Rating } from './rating';
 
 type Props = {
   id?: React.Key;
-  name?: string;
+  name?: string | undefined | any;
   rating?: number | any;
   tags?: string;
   rate?: number | any;
@@ -124,10 +125,13 @@ const OneProductLeftPicRightDetail = ({
               className="fle-row flex items-start justify-center gap-4 transition-all duration-300 hover:-translate-y-1"
             >
               <div
-                className={`relative flex h-24 w-24 shrink-0 items-center justify-center overflow-hidden rounded-md
-      ${item.tags === 'vegetable' || 'organic' ? 'bg-gray-100' : 'bg-white'}`}
+                className={`grid px-1 h-24 w-24 shrink-0 items-center justify-center overflow-hidden rounded-md ${
+                  item.tags === 'vegetable' || 'organic'
+                    ? 'bg-gray-100'
+                    : 'bg-white'
+                }`}
               >
-                <img src={item.picture} width={85} />
+                <img src={item.picture} className='object-contain w-full h-full' alt={item.name} />
               </div>
               <div className="justify-star flex h-28 w-full flex-col items-start ">
                 <h4 className="font-head text-gray-800 transition duration-200 hover:text-emerald-500">

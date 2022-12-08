@@ -10,7 +10,9 @@ import {
   Footer,
 } from 'components';
 import { footerSocialMedia } from 'constants/data';
-import { Icon } from 'constants/icon';
+
+import {CallIcon} from "constants/icon";
+
 
 export default function Home(): any {
   return (
@@ -25,46 +27,54 @@ export default function Home(): any {
       <Feathers />
       <Footer />
 
-      <div className="mt-[50px] flex flex-row items-center justify-between border-t px-4 py-6">
-        <p className="font-body text-gray-500">
+      <div className="mt-[50px] flex md:flex-row flex-col items-center md:justify-between justify-center gap-5 border-t px-4 py-6 ">
+        <p className="font-body text-gray-500 cursor-default select-none md:text-left text-center">
           © 2022, <span className="text-emerald-500">Nest</span>- Copied from
-          Boostify themes <br />
+          Boostify themes <br/>
           No rights reserved
         </p>
-        <div className="flex flex-row gap-10">
-          <div className="flex items-center gap-5">
-            <i className="lni lni-phone text-h1 text-gray-500" />
+        <div className="flex lg:flex-row xl:gap-10 lg:gap-5 gap-3 flex-col">
+          <div className="flex items-center lg:gap-3 gap-2">
+          <CallIcon className=' fill-gray-400 lg:w-10 w-9 lg:h-10 h-9' />
             <div>
-              <h1 className="font-head text-[26px] text-emerald-500">
-                1900 - 6666
+              <h1 className="font-head lg:text-[26px] text-emerald-500 text-h5  lg:leading-10 leading-3">
+                1900 - 6666 - 
               </h1>
-              <p className="font-body text-xs tracking-widest text-gray-500">
+              <p className="font-body lg:text-xs  text-[10px] tracking-widest text-gray-500">
                 Working 8: 00 - 2: 00
               </p>
             </div>
           </div>
-          <div className="flex items-center gap-5">
-            <i className="lni lni-phone text-h1 text-gray-500" />
+          <div className="flex items-center lg:gap-3 gap-2 justify-center">
+            <CallIcon className=' fill-gray-400 lg:w-10 w-9 lg:h-10 h-9' />
             <div>
-              <h1 className="font-head text-[26px] text-emerald-500">
+              <h1 className="font-head lg:text-[26px] text-emerald-500 text-h5  lg:leading-10 leading-3">
                 1900 - 6666
               </h1>
-              <p className="font-body text-xs tracking-widest text-gray-500">
+              <p className="font-body lg:text-xs  text-[10px] tracking-widest text-gray-500">
                 Working 8: 00 - 2: 00
               </p>
             </div>
           </div>
         </div>
         <div>
-          <div className='inline-flex items-center gap-2 w-full justify-between'>
-            <h3 className='font-head text-gray-700 mr-2'>Follows us</h3>
+          <div className="inline-flex w-full items-end justify-between lg:gap-4 gap-2 lg:flex-row md:flex-col flex-row">
+            <h3 className="font-head text-gray-700">Follows us</h3>
+            <div className='flex gap-2'>
             {footerSocialMedia?.map((item) => (
-              <a key={item.id} href={item.link} className='grid place-content-center w-7 h-7 hover:bg-lime-400 duration-300 shrink-0 bg-emerald-500 rounded-full'>
+              <a
+                key={item.id}
+                href={item.link}
+                className="grid h-7 w-7 shrink-0 place-content-center rounded-full bg-emerald-500 duration-300 hover:bg-lime-400"
+                >
                 <i className={`${item.icon} text-white`} title={item.name} />
               </a>
             ))}
+            </div>
           </div>
-          <p className='font-body text-sm text-gray-500 text-right mt-[1px]'>Upto 15% discount on your first subscribe</p>
+          <p className="mt-[1px] text-right font-body text-sm text-gray-500">
+            Upto 15% discount on your first subscribe
+          </p>
         </div>
       </div>
     </main>
