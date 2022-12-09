@@ -9,7 +9,7 @@ function Header(): any {
   const [browseAllCategory, setBrowseAllCategory] = useState<Boolean>(false);
 
   return (
-    <nav className="sticky z-50 flex w-full flex-col overflow-hidden">
+    <nav className=" relative top-0 z-50 flex w-full flex-col overflow-hidden">
       <div className="flex h-20 items-center justify-between border-b-[1px] border-solid border-gray-700 border-opacity-20 bg-white py-4 px-5">
         <Icon className="mr-4 h-full w-44 shrink-0 bg-red-300 object-contain" />
         <form className=" flex h-full w-full items-center rounded border-2 border-emerald-500 bg-white px-4 py-2">

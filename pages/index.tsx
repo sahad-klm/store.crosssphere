@@ -16,7 +16,7 @@ import {CallIcon} from "constants/icon";
 
 export default function Home(): any {
   return (
-    <main className='z-0'>
+    <main className='w-full max-w-[1440px] flex '>
       <Header />
       <HomeComponent />
       <FeathersCategory />
