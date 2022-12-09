@@ -23,7 +23,7 @@ const HomeComponent = (): any => {
         modules={[Navigation, Pagination, Scrollbar, Autoplay]}
         slidesPerView={1}
         pagination={{ clickable: true }}
-        // autoplay={{ delay: 5000 }}
+        autoplay={{ delay: 5000 }}
         style={{width:'100%', height:'100%'}}
       >
         {homeComponentBig.map(
