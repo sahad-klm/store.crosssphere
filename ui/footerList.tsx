@@ -23,7 +23,7 @@ const FooterList = ({
   return (
     <li className={`flex md:max-w-[300px] flex-col gap-[10px] ${className}`}>
       <h2
-        className="font-head text-h4 text-gray-700 max-md:cursor-pointer w-full flex justify-between"
+        className="font-head md:text-h4 text-[22px] text-gray-700 max-md:cursor-pointer w-full flex justify-between"
         onClick={() => onClick(heading)}
       >
         {heading} 
@@ -34,7 +34,7 @@ const FooterList = ({
         <a
         key={item.id}
         href={item.to}
-        className="font-body text-gray-900 duration-300 hover:translate-x-1 hover:text-emerald-500"
+        className="font-body md:text-base text-sm text-gray-900 duration-300 hover:translate-x-1 hover:text-emerald-500"
         >
           {item.name}
         </a>

@@ -17,14 +17,13 @@ const HomeComponent = (): any => {
       initial="hidden"
       whileInView="show"
       viewport={{ once: true, amount: 0.25 }}
-      className=" pt-12 px-4 flex justify-center items-center overflow-hidden relative md:h-[70vh] h-[90vh] z-10"
+      className=" pt-12 px-4 flex justify-center items-center overflow-hidden relative md:h-[90vh] h-[90vh] z-10"
     >
       <Swiper
         modules={[Navigation, Pagination, Scrollbar, Autoplay]}
         slidesPerView={1}
-        navigation
         pagination={{ clickable: true }}
-        autoplay={{ delay: 5000 }}
+        // autoplay={{ delay: 5000 }}
         style={{width:'100%', height:'100%'}}
       >
         {homeComponentBig.map(
@@ -67,15 +66,15 @@ const HomeComponent = (): any => {
                   initial="hidden"
                   whileInView="show"
                   viewport={{ once: false, amount: 0.25 }}
-                  className="flex flex-row bg-white w-min rounded-full h-14 items-center mt-10"
+                  className="flex flex-row bg-white sm:max-w-[50%] overflow-hidden  rounded-full h-14 items-center mt-10 relative"
                 >
-                  <Icon className="h-4 w-4 ml-6 mr-4 fill-gray-700" />
+                  <Icon className="h-4 ml-6 mr-4 fill-gray-700" />
                   <input
                     type="text"
                     placeholder="Your email address"
                     className="h-full outline-none font-body text-sm tracking-wide text-gray-700"
                   />
-                  <button className="h-full px-6 bg-emerald-500 rounded-full hover:bg-emerald-600 transition text-white font-body text-sm tracking-wider">
+                  <button className="absolute right-0 h-full px-6 bg-emerald-500 rounded-full hover:bg-emerald-600 transition text-white font-body text-sm tracking-wider">
                     Subscribe
                   </button>
                 </motion.form>

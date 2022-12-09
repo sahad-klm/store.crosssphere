@@ -27,12 +27,12 @@ const Footer = () => {
       <ul className="grid w-full grid-flow-row gap-x-5 gap-y-10 md:grid-cols-3 lg:grid-cols-6 lg:justify-items-center">
         <li className="md:flex max-w-[300px] flex-col gap-[10px] hidden">
           <Icon className="mb-4 h-16 w-full bg-slate-400" />
-          <p className="mb-[10px] font-body text-gray-900">
+          <p className="mb-[10px] font-body md:text-base text-sm text-gray-900">
             prevalent proposers alt holo sejm
           </p>
           {footerAddress?.map((item) => (
             <div className="inline-flex items-start">
-              <h6 className="inline font-head text-base capitalize text-gray-700">
+              <h6 className="inline font-head md:text-base text-sm capitalize text-gray-700">
                 <i
                   className={`${item.icon} mr-2 inline w-9 text-base font-bold text-emerald-500`}
                 />
@@ -49,30 +49,30 @@ const Footer = () => {
           links={footerCompany}
           onClick={handleToggle}
           footerToggle={footerToggle}
-          className='border-t'
+          className='md:border-none border-t'
         />
         <FooterList
           heading={'Account'}
           links={footerAccount}
           onClick={handleToggle}
           footerToggle={footerToggle}
-          className='border-t'
+          className='md:border-none border-t'
         />
         <FooterList
           heading={'Cooperate'}
           links={footerCoparent}
           onClick={handleToggle}
-          footerToggle={footerToggle} className='border-t'
+          footerToggle={footerToggle} className='md:border-none border-t'
         />
         <FooterList
           heading={'Information'}
           links={footerInformation}
           onClick={handleToggle}
           footerToggle={footerToggle}
-          className='border-t'
+          className='md:border-none border-t'
         />
-        <li className='flex md:max-w-[300px] flex-col gap-[10px] border-t'>
-          <h2 className="font-head text-h4 text-gray-700 max-md:cursor-pointer w-full flex justify-between"
+        <li className='flex md:max-w-[300px] flex-col gap-[10px] md:border-none border-t'>
+          <h2 className="font-head  md:text-h4 text-[22px] text-gray-700 max-md:cursor-pointer w-full flex justify-between"
           onClick={() => handleToggle('App & Payment')}
           >App & Payment
           <i className={`fa-solid fa-chevron-${footerToggle === 'App & Payment' ? 'up': 'down'} text-gray-500 duration-500 md:hidden block`} />
@@ -81,7 +81,7 @@ const Footer = () => {
 
           {footerApp_Payments?.map((item) => (
             <div className="flex flex-col">
-              <p className="mb-5 font-body text-gray-900">{item.title}</p>
+              <p className="mb-5 font-body md:text-base text-sm text-gray-900">{item.title}</p>
               <div
                 className={`flex ${
                   item.name === 'apps' ? 'md:flex-col flex-row' : 'flex-row'

@@ -15,11 +15,12 @@ export const Products: React.FC | any = ({ swiperRef }: any) => {
 
   const windowWidth: number = useWindowWidth();
 
-  const swiperPrev: number = Math.round(windowWidth / 132);
+  const swiperPrev: number = Math.round(windowWidth / 152);
 
   return (
     <div className="flex w-full items-center justify-center">
       <Swiper
+      spaceBetween={25}
         slidesPerView={swiperPrev}
         onBeforeInit={(swiper) => {
           swiperRef.current = swiper;
@@ -28,7 +29,7 @@ export const Products: React.FC | any = ({ swiperRef }: any) => {
         {fracturedProducts?.map((item: Props, ind) => (
           <SwiperSlide
             key={item.id}
-            className={` ${ind !== 0 && "lg:mr-[20px] ml-[24px]"} `}
+            className={` ${ind !== 0 && "lg:mr-[0] ml-[20px] "} `}
           >
             <motion.div
               whileInView="show"
