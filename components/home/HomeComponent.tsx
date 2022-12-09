@@ -17,7 +17,7 @@ const HomeComponent = (): any => {
       initial="hidden"
       whileInView="show"
       viewport={{ once: true, amount: 0.25 }}
-      className=" pt-12 px-4 flex justify-center items-center overflow-hidden relative h-[90vh] z-10"
+      className=" pt-12 px-4 flex justify-center items-center overflow-hidden relative md:h-[90vh] h-[60vh] z-10"
     >
       <Swiper
         modules={[Navigation, Pagination, Scrollbar, Autoplay]}
@@ -37,7 +37,7 @@ const HomeComponent = (): any => {
             <SwiperSlide key={item.id} style={{width:'100%', height:'100%'}} >
               <div
                 
-                className="relative rounded-3xl overflow-hidden h-full z-auto grid content-center pl-20"
+                className="relative rounded-3xl overflow-hidden h-full z-auto grid content-center md:pl-20 p-10"
               >
                 <img
                   className="-z-10 h-full w-full object-cover absolute top-0 left-0"
@@ -49,7 +49,7 @@ const HomeComponent = (): any => {
                   whileInView="show"
                   viewport={{ once: false, amount: 0.25 }}
                   variants={textVariant(0.2, 1)}
-                  className="text-h1 text-6xl font-head text-gray-800 max-w-[580px]"
+                  className="text-h1 md:text-6xl font-head text-gray-800 max-w-[580px] lg:leading-loose leading-10"
                 >
                   {item.title}
                 </motion.h1>
@@ -58,7 +58,7 @@ const HomeComponent = (): any => {
                   initial="hidden"
                   whileInView="show"
                   viewport={{ once: false, amount: 0.25 }}
-                  className="text-h4 font-head leading-9 mt-2 text-gray-700"
+                  className="md:text-h4 text-h6 font-head leading-9 mt-2 text-gray-700"
                 >
                   {item.subtitle}
                 </motion.h6>

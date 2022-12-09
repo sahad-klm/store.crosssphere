@@ -13,7 +13,7 @@ const ButtonShopNow = ({ paddingAndStyle, value }: any): any => {
 const ButtonAddToCart = ({ className }: any): any => {
   return (
     <button
-      className={`group/btn z-[1] mt-4 flex w-max items-center gap-4 rounded-md  bg-emerald-500 px-3 font-body text-xs text-white transition-all duration-300 hover:-translate-y-1 hover:bg-yellow-500 ${className}`}
+      className={`group/btn z-[1] mt-4 flex w-full mx-[10px] h-12 justify-center items-center gap-4 rounded-md  bg-emerald-500 px-3 font-body text-xs text-white transition-all duration-300 hover:-translate-y-1 hover:bg-yellow-500 ${className}`}
     >
       <Icon className="w-5 fill-white" />
       Add to cart

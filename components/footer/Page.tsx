@@ -10,10 +10,22 @@ import {
 import { Icon } from 'constants/icon';
 import React from 'react';
 const Footer = () => {
+  const [footerToggle, setFooterToggle] = React.useState<string | undefined>(
+    '',
+  );
+
+  const handleToggle = (prop : any) => {
+    if (prop !== undefined) {
+      if (footerToggle === prop) {
+        setFooterToggle('');
+      } else setFooterToggle(prop)
+    }
+  };
+
   return (
     <footer className="mt-[50px] flex w-full flex-col items-center justify-center overflow-hidden  px-4">
-      <ul className="grid lg:grid-cols-6 grid-cols-3 w-full lg:justify-items-center gap-x-5 gap-y-10">
-        <li className="flex max-w-[300px] flex-col gap-[10px]">
+      <ul className="grid w-full grid-flow-row gap-x-5 gap-y-10 md:grid-cols-3 lg:grid-cols-6 lg:justify-items-center">
+        <li className="md:flex max-w-[300px] flex-col gap-[10px] hidden">
           <Icon className="mb-4 h-16 w-full bg-slate-400" />
           <p className="mb-[10px] font-body text-gray-900">
             prevalent proposers alt holo sejm
@@ -32,29 +44,64 @@ const Footer = () => {
             </div>
           ))}
         </li>
-        <FooterList heading={'Company'} links={footerCompany} />
-        <FooterList heading={'Account'} links={footerAccount} />
-        <FooterList heading={'Cooperate'} links={footerCoparent} />
-        <FooterList heading={'Information'} links={footerInformation} />
-        <li className="flex max-w-[300px] flex-col gap-[10px]">
-          <h2 className="font-head text-h4 text-gray-700">App & Payment</h2>
+        <FooterList
+          heading={'Company'}
+          links={footerCompany}
+          onClick={handleToggle}
+          footerToggle={footerToggle}
+          className='border-t'
+        />
+        <FooterList
+          heading={'Account'}
+          links={footerAccount}
+          onClick={handleToggle}
+          footerToggle={footerToggle}
+          className='border-t'
+        />
+        <FooterList
+          heading={'Cooperate'}
+          links={footerCoparent}
+          onClick={handleToggle}
+          footerToggle={footerToggle} className='border-t'
+        />
+        <FooterList
+          heading={'Information'}
+          links={footerInformation}
+          onClick={handleToggle}
+          footerToggle={footerToggle}
+          className='border-t'
+        />
+        <li className='flex md:max-w-[300px] flex-col gap-[10px] border-t'>
+          <h2 className="font-head text-h4 text-gray-700 max-md:cursor-pointer w-full flex justify-between"
+          onClick={() => handleToggle('App & Payment')}
+          >App & Payment
+          <i className={`fa-solid fa-chevron-${footerToggle === 'App & Payment' ? 'up': 'down'} text-gray-500 duration-500 md:hidden block`} />
+          </h2>
+          <div className={`${footerToggle === 'App & Payment' ? "grid" :'hidden'} md:grid`}>
 
           {footerApp_Payments?.map((item) => (
             <div className="flex flex-col">
-              <p className="font-body text-gray-900 mb-5">{item.title}</p>
+              <p className="mb-5 font-body text-gray-900">{item.title}</p>
               <div
                 className={`flex ${
-                  item.name === 'apps' ? 'flex-col' : 'flex-row'
+                  item.name === 'apps' ? 'md:flex-col flex-row' : 'flex-row'
                 } gap-1`}
-              >
+                >
                 {item.items.map((link) => (
                   <a key={link.id} href={link.link}>
-                    <img src={link.picture} alt={link.link} className={`${item.name === 'apps' ? "h-12 w-32": ''} object-cover`}/>
+                    <img
+                      src={link.picture}
+                      alt={link.link}
+                      className={`${
+                        item.name === 'apps' ? 'h-12 w-32' : ''
+                      } object-cover`}
+                    />
                   </a>
                 ))}
               </div>
             </div>
           ))}
+          </div>
         </li>
       </ul>
     </footer>

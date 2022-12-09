@@ -9,10 +9,10 @@ const DealsOfTheDay = () => {
         <h4 className="mr-4 shrink-0 font-head text-[32px] text-gray-800">
           Popular Products
         </h4>
-        <span className="flex flex-row flex-wrap gap-4 ">All deals {'>'}</span>
+        <span className="flex flex-row flex-wrap gap-4 cursor-pointer font-head text-gray-800">All deals {'>'}</span>
       </div>
       <div
-        className="flex w-full grid-cols-4 gap-2 overflow-auto md:grid md:grid-cols-2 xl:grid-cols-4 scrollBar" 
+        className="flex w-full grid-cols-4 md:gap-5 gap-2 overflow-auto md:grid md:grid-cols-2 xl:grid-cols-4 scrollBar" 
       >
         {popularProducts?.map((item, idx) => (
           <React.Fragment>

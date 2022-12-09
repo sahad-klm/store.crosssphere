@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 const MainProducts: React.FC | any = () => {
   return (
-    <div className="grid w-full mx-4 mt-10  grid-cols-3 justify-between">
+    <div className="sm:grid w-full mx-4 mt-10  gap-5 lg:grid-cols-3 flex flex-col sm:grid-cols-2 justify-between">
       {fracturedMainProduct?.map((item ) => (
         <motion.div
         whileInView='show'
@@ -14,7 +14,7 @@ const MainProducts: React.FC | any = () => {
           x : 0,
         }}
           key={item.id}
-          className={`bg-${item.bg}-100 flex relative p-10 rounded-md flex-col justify-start w-[94%] max-w-lg group/edit`}
+          className={`bg-${item.bg}-100 flex relative p-10 rounded-md flex-col justify-start w-full sm:max-w-lg group/edit`}
         >
           <img
             src={item.picture}

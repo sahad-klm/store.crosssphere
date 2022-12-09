@@ -16,7 +16,7 @@ import {CallIcon} from "constants/icon";
 
 export default function Home(): any {
   return (
-    <main>
+    <main className='z-0'>
       <Header />
       <HomeComponent />
       <FeathersCategory />
@@ -27,7 +27,7 @@ export default function Home(): any {
       <Feathers />
       <Footer />
 
-      <div className="mt-[50px] flex md:flex-row flex-col items-center md:justify-between justify-center gap-5 border-t px-4 py-6 ">
+      <div className="mt-[50px] flex md:flex-row flex-col items-center md:justify-between justify-center gap-5 border-t border-emerald-300 px-4 py-6 ">
         <p className="font-body text-gray-500 cursor-default select-none md:text-left text-center">
           © 2022, <span className="text-emerald-500">Nest</span>- Copied from
           Boostify themes <br/>

@@ -25,7 +25,7 @@ function ProductWithTimer({
   return (
     <div className="group/body relative flex min-w-[310px] flex-1 flex-col overflow-hidden rounded-[18px] pb-10 md:min-w-full lg:max-w-[310px]">
       <div className="relative -z-[1] mb-[20%] flex h-[310px] max-w-full overflow-hidden rounded-[18px]">
-        <img src={picture} alt="" className="min-h-full w-full" />
+        <img src={picture} alt="" className="min-h-full w-full object-cover" />
       </div>
       <div className="absolute bottom-4 flex w-full flex-col items-center justify-center transition-transform duration-300 group-hover/body:-translate-y-1">
         <div className="mb-3 flex w-full flex-row items-center justify-center gap-1 rounded">

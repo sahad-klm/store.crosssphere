@@ -1,7 +1,7 @@
-import { Icon } from "constants/icon";
+import { Icon } from 'constants/icon';
 
-const Top = ():JSX.Element => (
-  <div className="relative block  w-full overflow-hidden rounded-xl bg-emerald-200 p-20 z-10">
+const Top = (): JSX.Element => (
+  <div className="relative z-10  block w-full overflow-hidden rounded-xl bg-emerald-200 lg:p-20 p-10">
     <img
       src="https://img.freepik.com/free-photo/cool-geometric-triangular-figure-neon-laser-light-great-backgrounds-wallpapers_181624-9331.jpg?w=2000"
       loading="lazy"
@@ -11,9 +11,9 @@ const Top = ():JSX.Element => (
     <img
       src="https://w7.pngwing.com/pngs/1020/967/png-transparent-tool-laborer-architectural-engineering-renovation-work-tool-construction-tools-building-sharing.png"
       alt=""
-      className="absolute right-10 bottom-0 max-h-[80%] w-[40%] -z-50 object-contain"
+      className="absolute right-10 bottom-0 -z-50 max-h-[80%] w-[40%] object-contain"
     />
-    <h1 className="font-head  text-h2 leading-[40px] text-gray-800 z-auto">
+    <h1 className="z-auto  font-head text-h2 leading-[40px] text-gray-800">
       Stay home & get your daily <br /> needs in our shop
     </h1>
     <h4 className="mt-2 font-body text-[18px] leading-9 text-gray-500">
