@@ -63,7 +63,7 @@ const DailyBestSeller = (): any => {
       </div>
 
       <div className="flex w-full flex-col justify-start gap-6 md:flex-row">
-        <div className="relative z-[1] flex h-[769px] w-full min-w-[40%] flex-grow-0 flex-col  items-start gap-12 overflow-hidden rounded-[18px] p-12 md:h-auto md:min-w-[280px] md:max-w-[300px] md:justify-evenly">
+        <div className="relative z-[1] flex h-[70vh] w-full min-w-[40%] flex-grow-0 flex-col  items-start gap-12 overflow-hidden rounded-[18px] p-12 md:h-auto md:min-w-[280px] md:max-w-[300px] md:justify-evenly">
           <img
             src="https://images.unsplash.com/photo-1483232539664-d89822fb5d3e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cGhvdG8lMjBiYWNrZ3JvdW5kfGVufDB8fDB8fA%3D%3D&w=1000&q=80"
             alt=""
@@ -90,7 +90,9 @@ const DailyBestSeller = (): any => {
                 setMouseOver={setMouseOver}
                 mouseOver={mouseOver}
                 buttonStyle="add-to-cart"
-                classNameForTotal="max-w-full"
+                classNameForTotal="max-w-full h-[80vh]"
+                classNameForPic='h-[30vh]'
+
               />
             </SwiperSlide>
           ))}

@@ -65,7 +65,7 @@ const PopularProducts = () => {
       </div>
 
       <div
-        className="md:grid w-full flex overflow-x-scroll flex-row justify-center gap-5 md:grid-cols-3 lg:grid-cols-4
+        className="md:grid w-full flex overflow-x-scroll flex-row md:justify-center gap-5 md:grid-cols-3 lg:grid-cols-4 
     "
       >
         {popularProducts?.map((item: Props) => (

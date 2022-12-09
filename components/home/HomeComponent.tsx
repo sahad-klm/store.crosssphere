@@ -17,7 +17,7 @@ const HomeComponent = (): any => {
       initial="hidden"
       whileInView="show"
       viewport={{ once: true, amount: 0.25 }}
-      className=" pt-12 px-4 flex justify-center items-center overflow-hidden relative md:h-[90vh] h-[60vh] z-10"
+      className=" pt-12 px-4 flex justify-center items-center overflow-hidden relative md:h-[70vh] h-[90vh] z-10"
     >
       <Swiper
         modules={[Navigation, Pagination, Scrollbar, Autoplay]}
@@ -37,7 +37,7 @@ const HomeComponent = (): any => {
             <SwiperSlide key={item.id} style={{width:'100%', height:'100%'}} >
               <div
                 
-                className="relative rounded-3xl overflow-hidden h-full z-auto grid content-center md:pl-20 p-10"
+                className="relative rounded-3xl overflow-hidden h-full z-auto grid content-center md:pl-20 sm:p-10 p-4"
               >
                 <img
                   className="-z-10 h-full w-full object-cover absolute top-0 left-0"
