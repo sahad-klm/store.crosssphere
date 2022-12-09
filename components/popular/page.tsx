@@ -27,7 +27,7 @@ const PopularProducts = () => {
   return (
     <div className="mt-[50px] flex w-full flex-col items-center justify-center overflow-hidden px-4">
       <div className="mb-7 flex w-full items-center justify-between">
-        <h4 className="mr-4 shrink-0 font-head text-[32px] text-gray-800">
+        <h4 className="mr-4 shrink-0 font-head md:text-[32px] text-[28px] text-gray-800">
           Popular Products
         </h4>
         <span className="flex flex-row flex-wrap gap-4 relative">
@@ -46,7 +46,7 @@ const PopularProducts = () => {
             <>
               <p
                 onClick={() => setToggleOn(!toggleOn)}
-                className="cursor-pointer font-head leading-3 text-gray-800"
+                className="cursor-pointer font-head md:text-base text-sm leading-3 text-gray-800"
               >
                 {isSelectedCatN}{' '}
                 <i className="fa-solid fa-chevron-down relative ml-2 text-gray-800 duration-700" />

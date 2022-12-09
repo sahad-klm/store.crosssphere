@@ -10,7 +10,7 @@ const FeathersCategory:React.FC = () => {
   return (
     <div className="flex px-4 mt-[50px] w-full overflow-hidden flex-col items-center justify-center">
       <div className="w-full flex justify-between items-center mb-7">
-        <h4 className="font-head text-[32px] text-gray-800">
+        <h4 className="font-head md:text-[32px] text-[28px] text-gray-800">
           Feathered Categories
         </h4>
         <span className="grid grid-flow-col gap-2">

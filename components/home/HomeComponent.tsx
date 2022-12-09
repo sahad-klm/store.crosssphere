@@ -49,7 +49,7 @@ const HomeComponent = (): any => {
                   whileInView="show"
                   viewport={{ once: false, amount: 0.25 }}
                   variants={textVariant(0.2, 1)}
-                  className="text-h1 md:text-6xl font-head text-gray-800 max-w-[580px] lg:leading-loose leading-10"
+                  className="md:text-6xl text-4xl font-head text-gray-800 max-w-[580px] lg:leading-loose leading-10"
                 >
                   {item.title}
                 </motion.h1>

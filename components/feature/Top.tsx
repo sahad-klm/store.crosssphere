@@ -1,7 +1,7 @@
 import { Icon } from 'constants/icon';
 
 const Top = (): JSX.Element => (
-  <div className="relative z-10  block w-full overflow-hidden rounded-xl bg-emerald-200 lg:p-20 p-10">
+  <div className="relative z-10  block w-full overflow-hidden rounded-xl bg-emerald-200 lg:p-20 md:p-10 p-4">
     <img
       src="https://img.freepik.com/free-photo/cool-geometric-triangular-figure-neon-laser-light-great-backgrounds-wallpapers_181624-9331.jpg?w=2000"
       loading="lazy"
@@ -13,14 +13,14 @@ const Top = (): JSX.Element => (
       alt=""
       className="absolute right-10 bottom-0 -z-50 max-h-[80%] w-[40%] object-contain"
     />
-    <h1 className="z-auto  font-head text-h2 leading-[40px] text-gray-800">
+    <h1 className="z-auto  font-head md:text-h2 text-[36px]  leading-[40px] text-gray-800">
       Stay home & get your daily <br /> needs in our shop
     </h1>
-    <h4 className="mt-2 font-body text-[18px] leading-9 text-gray-500">
+    <h4 className="mt-2 font-body md:text-[18px] text-[16px] leading-9 text-gray-500">
       Start you'r daily shopping with{' '}
       <span className="text-emerald-500">logistic shad's shop</span>
     </h4>
-    <form className="z-10 mt-5 flex h-14 w-min flex-row items-center rounded-full bg-white">
+    <form className="z-10 md:mt-5 mt-4 flex h-14 w-min flex-row items-center rounded-full bg-white">
       <Icon className="ml-6 mr-4 h-4 w-4 fill-gray-700" />
       <input
         type="text"

@@ -27,10 +27,10 @@ const DailyBestSeller = (): any => {
   return (
     <div className="z-1 relative mt-[50px] flex w-full flex-col  items-start justify-center overflow-hidden px-4">
       <div className="mb-7 flex w-full items-center justify-between">
-        <h4 className="mr-4 shrink-0 font-head text-[32px] text-gray-800">
+        <h4 className="mr-4 shrink-0 font-head md:text-[32px] text-[28px] text-gray-800">
           Daily best sells
         </h4>
-        <span className="flex flex-row flex-wrap gap-4 ">
+        <span className="flex flex-row flex-wrap gap-4">
           {windowWidth > 768 ? (
             dailyBestSellerCategory?.map((item) => (
               <TextCategory
@@ -44,7 +44,7 @@ const DailyBestSeller = (): any => {
             <>
               <p
                 onClick={() => setToggleOn(!toggleOn)}
-                className="cursor-pointer font-head leading-3 text-gray-800"
+                className="cursor-pointer font-head md:text-base text-base leading-3 text-gray-800"
               >
                 {isSelectedCatN}{' '}
                 <i className="fa-solid fa-chevron-down relative ml-2 text-gray-800 duration-700" />
@@ -62,15 +62,15 @@ const DailyBestSeller = (): any => {
         </span>
       </div>
 
-      <div className="flex w-full flex-col justify-start gap-6 md:flex-row">
+      <div className="flex w-full flex-col justify-start md:gap-6 gap-5 md:flex-row">
         <div className="relative z-[1] flex h-[70vh] w-full min-w-[40%] flex-grow-0 flex-col  items-start gap-12 overflow-hidden rounded-[18px] p-12 md:h-auto md:min-w-[280px] md:max-w-[300px] md:justify-evenly">
           <img
             src="https://images.unsplash.com/photo-1483232539664-d89822fb5d3e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cGhvdG8lMjBiYWNrZ3JvdW5kfGVufDB8fDB8fA%3D%3D&w=1000&q=80"
             alt=""
             width={200}
-            className="-hue-rotate-18 absolute inset-0 -z-10 h-full w-full object-fill brightness-150"
+            className=" absolute inset-0 -z-10 h-full w-full object-cover brightness-150"
           />
-          <h1 className="font-head text-h2 leading-10 text-gray-800">
+          <h1 className="font-head md:text-h2 text-[38px] md:leading-10 leading-9 text-gray-800">
             Bring <br className="hidden md:block" /> Nature into your home
           </h1>
           <ButtonShopNow paddingAndStyle="px-3 py-2" value="Shop Now" />
@@ -90,8 +90,8 @@ const DailyBestSeller = (): any => {
                 setMouseOver={setMouseOver}
                 mouseOver={mouseOver}
                 buttonStyle="add-to-cart"
-                classNameForTotal="max-w-full h-[80vh]"
-                classNameForPic='h-[30vh]'
+                classNameForTotal="max-w-full md:h-full h-[80%]"
+                classNameForPic='h-[37vh]'
 
               />
             </SwiperSlide>
