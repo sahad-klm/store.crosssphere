@@ -9,8 +9,9 @@ import {
 } from './[headerSlug]/NavLAstInFeistBar';
 import SearchBar from './[headerSlug]/searchBar';
 import { motion } from 'framer-motion';
-import {  textVariant2 } from 'utils/motion';
-import { NavBigOptionsTab,  NavBigOptions} from './NavBigOptions';
+import { textVariant2 } from 'utils/motion';
+import { NavBigOptionsTab, NavBigOptions } from './NavBigOptions';
+import { footerSocialMedia } from 'constants/data';
 
 function Header(): any {
   const [searchOption, setSearchOption] = useState<string | any>(
@@ -124,25 +125,34 @@ function Header(): any {
           </div>
         </div>
 
-
         {/*  */}
 
-
-        <div className={`${browseAllCategory ? 'fixed':'hidden'} fixed left-0 w-full bottom-0 z-50 h-[100vh] bg-black bg-opacity-25 sm:pr-[50%] pr-[20%]`}>
-          <div className="flex p-5 items-center justify-center bg-gray-100 relative">
+        <div
+          className={`
+          ${browseAllCategory ? 'fixed' : 'fixed'} 
+          left-0 bottom-0 z-50 flex h-[100vh] w-full flex-col bg-black bg-opacity-25 pr-[20%] sm:pr-[50%]`}
+        >
+          <div className="relative flex items-center justify-center bg-gray-100 p-5">
             <h1 className="font-head text-h3 text-slate-800">Loganstic shad</h1>
-        <i onClick={() => setBrowseAllCategory(false)} className="fa-solid fa-xmark absolute -right-14 w-10 h-10 bg-white flex items-center justify-center hover:bg-gray-100 duration-300 rounded-md " />
+            <i
+              onClick={() => setBrowseAllCategory(false)}
+              className="fa-solid fa-xmark absolute -right-14 flex h-10 w-10 items-center justify-center rounded-md bg-white duration-300 hover:bg-gray-100 "
+            />
           </div>
 
-
-          <div className='w-full bg-white flex '> 
-          <NavBigOptionsTab  />
+          <div className="flex h-max w-full overflow-hidden bg-white">
+            <NavBigOptionsTab />
           </div>
 
-
-          <div className='h-24 static top-0 bg-red-300 flex w-full'>skoi</div>
+          <div className="flex h-24 w-full items-center bg-gray-100 px-4">
+            {footerSocialMedia.map((item) => (
+              <a
+                href={item.link}
+                className={`${item.icon}   flex h-10 w-10 items-center justify-center rounded-md text-gray-600 hover:text-[${item.color}]`}
+              />
+            ))}
+          </div>
         </div>
-
       </nav>
     </>
   );

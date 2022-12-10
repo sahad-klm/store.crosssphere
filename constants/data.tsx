@@ -1202,31 +1202,37 @@ export const footerSocialMedia = [
   {
     id: 1,
     name: 'Face book',
-    icon: 'lni lni-facebook',
+    icon: 'fa-brands fa-facebook-f',
     link: '.facebook',
+    color: '#3b5998'
+  },
+  
+  {
+    id: 3,
+    name: 'Twitter',
+    icon: 'fa-brands fa-twitter',
+    link: '.facebook',
+    color: '#00acee'
   },
   {
     id: 2,
     name: 'Instagram',
     icon: 'lni lni-instagram',
     link: '.facebook',
-  },
-  {
-    id: 3,
-    name: 'Twitter',
-    icon: 'lni lni-twitter',
-    link: '.facebook',
+    color: '#8a3ab9'
   },
   {
     id: 4,
     name: 'Youtube',
     icon: 'lni lni-youtube',
     link: '.facebook',
+    color: '#FF0000'
   },
   {
     id: 5,
     name: 'HaloTalk',
     icon: 'fa-solid fa-hashtag',
     link: '.facebook',
+    color: '#D2B48C'
   },
 ];
