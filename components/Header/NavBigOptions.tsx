@@ -1,10 +1,10 @@
 import { navbarLastCategory } from 'constants/data';
-import { Icon } from 'constants/icon';
-import { Key } from 'react';
+import { Fire } from 'constants/icon';
+import React, { Key } from 'react';
 
-function NavBigOptions(): any {
+export function NavBigOptions(): any {
   return (
-    <ul className="ml-auto flex flex-row flex-wrap grid-flow-col gap-3 overflow-hidden">
+    <ul className="ml-5 flex grid-flow-col flex-row flex-wrap gap-3 overflow-hidden">
       {navbarLastCategory?.map((item) => (
         <li
           key={item.id}
@@ -39,12 +39,12 @@ function NavBigOptions(): any {
                       />
                     )}
                     {subName?.subMenu && (
-                      <div className="w-ful invisible absolute h-7 min-w-[192px] w-max hover:visible group-hover/edit:visible">
+                      <div className="w-ful invisible absolute h-7 w-max min-w-[192px] hover:visible group-hover/edit:visible">
                         <div className="invisible absolute -right-[195px] -bottom-3 z-10 grid gap-1 rounded bg-white p-4 shadow hover:visible group-hover/edit:visible">
                           {subName?.subMenu?.map(
                             (item: { id: Key; name: string }) => (
-                              <ul key={item.id} className='w-full'>
-                                <li className="w-full font-head text-base text-gray-600 hover:text-emerald-500 shrink-0">
+                              <ul key={item.id} className="w-full">
+                                <li className="w-full shrink-0 font-head text-base text-gray-600 hover:text-emerald-500">
                                   {item.name}
                                 </li>
                               </ul>
@@ -64,4 +64,99 @@ function NavBigOptions(): any {
   );
 }
 
-export default NavBigOptions;
+export const NavBigOptionsTab = () => {
+  const [naveOptionSwitch, setNaveOptionSwitch] = React.useState<any>(null);
+
+  console.log(naveOptionSwitch);
+
+  return (
+    <ul className="relative flex w-full flex-col overflow-y-scroll">
+      {navbarLastCategory?.map((item: any) => (
+        <>
+          <li
+            onClick={() => setNaveOptionSwitch(item.name)}
+            key={item.id}
+            className=" flex cursor-pointer flex-row place-content-center items-center justify-start border-b border-gray-200 px-4 py-5"
+          >
+            {item.name === 'Deals' && (
+              <Fire className="-m-3 -rotate-90 scale-50 fill-emerald-500" />
+            )}
+            <p className="shrink-0 font-head text-base text-slate-900 hover:text-emerald-500">
+              {item.name}
+            </p>
+            {item.subMenu && (
+              <i
+                className="fa-solid fa-chevron-right 
+         ml-2 flex w-full justify-end text-xs text-gray-400 transition-transform  "
+              />
+            )}
+          </li>
+          {/*  */}
+
+          {(naveOptionSwitch === item.name ||
+            naveOptionSwitch ===
+              item?.subMenu?.map((subName: any) => item?.name)) && (
+            <>
+              <ul className=" absolute top-0 left-0  z-10 h-full w-full cursor-pointer bg-white">
+                <li
+                  onClick={() => setNaveOptionSwitch(null)}
+                  className="flex cursor-pointer flex-row place-content-center items-center justify-start border-b border-gray-200 px-4 py-5 font-head text-sm text-gray-400"
+                >
+                  <i className="fa-solid fa-chevron-left mr-4 flex justify-end text-xs text-gray-400 transition-transform  " />
+                  Back
+                </li>
+
+                {item?.subMenu?.map((subName: any) => {
+                  return (
+                    <>
+                      <li
+                        onClick={() => setNaveOptionSwitch(subName?.name)}
+                        key={subName?.id}
+                        className="flex cursor-pointer flex-row place-content-center items-center justify-start border-b border-gray-200 px-4 py-5"
+                      >
+                        <p className="relative w-full font-head text-gray-600 hover:text-emerald-500">
+                          {subName?.name}
+                        </p>
+                        {subName?.subMenu && (
+                          <i
+                            className={`fa-solid fa-chevron-right ml-2 text-xs text-gray-400 transition-transform`}
+                          />
+                        )}
+                      </li>
+                    </>
+                  );
+
+                  {
+                    naveOptionSwitch === subName?.name && (
+                      <ul className=" z-11 absolute top-0  left-0 h-full w-full cursor-pointer bg-white">
+                        <li
+                          onClick={() => setNaveOptionSwitch(subName?.name)}
+                          className="flex cursor-pointer flex-row place-content-center items-center justify-start border-b border-gray-200 px-4 py-5 font-head text-sm text-gray-400"
+                        >
+                          <i className="fa-solid fa-chevron-left mr-4 flex justify-end text-xs text-gray-400 transition-transform  " />
+                          Back
+                        </li>
+                        {subName?.subMenu?.map(
+                          (item: { id: Key; name: string }) => (
+                            <li className="flex cursor-pointer flex-row place-content-center items-center justify-start border-b border-gray-200 px-4 py-5">
+                              {item.name}
+                            </li>
+                          ),
+                        )}
+                      </ul>
+                    );
+                  }
+
+                  {
+                    /*  */
+                  }
+                })}
+              </ul>
+            </>
+          )}
+        </>
+        //
+      ))}
+    </ul>
+  );
+};

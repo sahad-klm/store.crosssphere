@@ -2,9 +2,8 @@ import { BrowseAllCategories } from 'constants/data';
 import { GridApps } from 'constants/icon';
 import React from 'react';
 
-const BrowseAllButton = () => {
-  const [browseAllCategory, setBrowseAllCategory] =
-    React.useState<Boolean>(false);
+const BrowseAllButton = ({browseAllCategory, setBrowseAllCategory}:any):JSX.Element => {
+  
   return (
     <button
       className="relative flex shrink-0 items-center gap-1 rounded-md border-none bg-emerald-500 px-2 py-1 font-head text-base text-white hover:bg-emerald-600"

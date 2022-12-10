@@ -8,22 +8,22 @@ type Props = {
 export const lastOneInNav: Props[] = [
   {
     id: 1,
-    icon: <Spinner className="scale-[.6] fill-gray-700" />,
+    icon: <Spinner className="scale-[.6] fill-gray-700 hover:fill-emerald-500" />,
     name: 'Compare',
   },
   {
     id: 2,
-    icon: <Love className="scale-[.6] fill-gray-700" />,
+    icon: <Love className="scale-[.6] fill-gray-700 hover:fill-emerald-500" />,
     name: 'Wishlist',
   },
   {
     id: 3,
-    icon: <Cart className="scale-[.6] fill-gray-700 " />,
+    icon: <Cart className="scale-[.6] fill-gray-700 hover:fill-emerald-500" />,
     name: 'Cart',
   },
   {
     id: 4,
-    icon: <User className="scale-[.6] fill-gray-700" />,
+    icon: <User className="scale-[.6] fill-gray-700 hover:fill-emerald-500" />,
     name: 'Login',
   },
 ];
@@ -35,7 +35,7 @@ export const navbarLastCategory: {
 }[] = [
   {
     id: 1,
-    icon: <Fire className="scale-50 fill-emerald-500 -mr-2 mb-1" />,
+    icon: <Fire className="scale-50 fill-emerald-500  -mr-2" />,
     name: 'Deals',
   },
   {
