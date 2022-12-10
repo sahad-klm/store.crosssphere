@@ -129,7 +129,7 @@ function Header(): any {
 
         <div
           className={`
-          ${browseAllCategory ? 'fixed' : 'fixed'} 
+          ${browseAllCategory ? 'fixed' : 'hidden'} 
           left-0 bottom-0 z-50 flex h-[100vh] w-full flex-col bg-black bg-opacity-25 pr-[20%] sm:pr-[50%]`}
         >
           <div className="relative flex items-center justify-center bg-gray-100 p-5">
