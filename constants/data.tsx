@@ -8,22 +8,22 @@ type Props = {
 export const lastOneInNav: Props[] = [
   {
     id: 1,
-    icon: <Spinner className="scale-75 fill-gray-700" />,
+    icon: <Spinner className="scale-[.6] fill-gray-700" />,
     name: 'Compare',
   },
   {
     id: 2,
-    icon: <Love className="scale-75 fill-gray-700" />,
+    icon: <Love className="scale-[.6] fill-gray-700" />,
     name: 'Wishlist',
   },
   {
     id: 3,
-    icon: <Cart className="scale-75 fill-gray-700 " />,
+    icon: <Cart className="scale-[.6] fill-gray-700 " />,
     name: 'Cart',
   },
   {
     id: 4,
-    icon: <User className="scale-75 fill-gray-700" />,
+    icon: <User className="scale-[.6] fill-gray-700" />,
     name: 'Login',
   },
 ];
@@ -362,14 +362,14 @@ export const homeComponentBig = [
   {
     id: 1,
     picture:
-      'https://i.pinimg.com/736x/e2/cc/22/e2cc22f4ddd67b652a849aea58250489.jpg',
+      '970b8f66-193e-4546-a78e-abb98b57aabb.webp',
     title: "Don't miss amazing grossly deals",
     subtitle: 'Sign up for daily newsletter',
   },
   {
     id: 2,
     picture:
-      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnJeTeFYFOcyjz0ZkfiuKaFIgbbZM3xZ0upy5TOFL4k9Kazu9qgd_bnblPDPHVqapvfAw&usqp=CAU',
+    'Untitled(1)dddddd.webp',
     title: 'ivde onnul setta valla apnim',
     subtitle: 'Sign up for become a fool',
   },

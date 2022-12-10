@@ -1,0 +1,70 @@
+import React from 'react';
+
+const SearchBar = ({
+  setIsSearchOptionActive,
+  isSearchOptionActive,
+  searchOption,
+  handleClickSearchOption,
+  classNameOfListInSearch,
+}: any) => (
+  <form className=" relative flex h-full w-full items-center rounded-md border-[.5px] border-emerald-300 bg-white px-4 py-2 flex-1">
+    <div
+      className="flex w-40 shrink-0 items-center justify-between  font-head text-h6 font-W_head capitalize text-gray-800"
+      onClick={() => setIsSearchOptionActive(!isSearchOptionActive)}
+    >
+      {searchOption}
+      <i
+        className={`fa-solid fa-chevron-down ${
+          isSearchOptionActive && 'rotate-180'
+        } ml-4 grid h-5 w-5 place-items-center leading-3  text-gray-800 transition-transform`}
+      />
+
+      {/* searchboxFilter */}
+      {isSearchOptionActive && (
+        <div className="absolute top-12 left-0 z-[150] rounded-md bg-white py-5 pl-5 pr-8 shadow-xl">
+          <ul className="flex flex-col">
+            <li
+              onClick={handleClickSearchOption}
+              className={classNameOfListInSearch}
+            >
+              All categories
+            </li>
+            <li
+              onClick={handleClickSearchOption}
+              className={classNameOfListInSearch}
+            >
+              Body & Toddler
+            </li>
+            <li
+              onClick={handleClickSearchOption}
+              className={classNameOfListInSearch}
+            >
+              Crawam
+            </li>
+            <li
+              onClick={handleClickSearchOption}
+              className={classNameOfListInSearch}
+            >
+              polppod
+            </li>
+            <li
+              onClick={handleClickSearchOption}
+              className={classNameOfListInSearch}
+            >
+              jjdfsdfs
+            </li>
+          </ul>
+        </div>
+      )}
+    </div>
+    <span className="mx-4 h-full w-[.5px] bg-gray-400" />
+    <input
+      type="text"
+      className="h-full w-full outline-none"
+      placeholder="I'm looking for..."
+    />
+    <i className="fa-solid fa-magnifying-glass text-gray-700" />
+  </form>
+);
+
+export default SearchBar;

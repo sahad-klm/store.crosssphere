@@ -1,6 +1,5 @@
 import Header  from './Header/Header'
 import HomeComponent  from './home/HomeComponent'
-import BrowseAllCategory  from './Header/BrowseAllCategory'
 import NavBigOptions  from './Header/NavBigOptions'
 import FeathersCategory  from './feathersProducts/Page'
 import PopularProducts  from './popular/page'
@@ -15,7 +14,6 @@ export {
   Header,
   HomeComponent,
   NavBigOptions,
-  BrowseAllCategory,
   FeathersCategory,
   PopularProducts,
   DailyBestSeller,
