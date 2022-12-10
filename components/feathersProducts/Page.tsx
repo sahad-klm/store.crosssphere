@@ -1,3 +1,4 @@
+'use client'
 import { useRef } from "react";
 import { Products } from "./Products";
 import SwiperCore from "swiper";

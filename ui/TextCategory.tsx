@@ -1,28 +1,23 @@
-import { useWindowWidth } from '@react-hook/window-size';
 import React from 'react';
 
+
 type Props = {
-  name?: string;
-  isSelectedCatN: any;
-  setIsSelectedCatN: any;
+  name?: string | any;
+  isSelectedCatN?: any;
+  setIsSelectedCatN?: any;
   list?: any;
   setToggleOn?: React.Dispatch<React.SetStateAction<boolean>> | any;
 };
 
-function TextCategory({ name, isSelectedCatN, setIsSelectedCatN }: Props) {
-  return (
-    <p
-      className={`font-head md:text-base text-sm leading-3 ${
-        isSelectedCatN === name ? 'text-emerald-500' : 'text-gray-800'
-      } cursor-pointer transition hover:-translate-y-1 hover:text-emerald-500`}
+export const TextCategory = ({ name, isSelectedCatN, setIsSelectedCatN }: Props):any =>  (
+    <div
+      className={`font-head text-sm leading-3 md:text-base ${isSelectedCatN === name ? 'text-emerald-500' : 'text-gray-800'} cursor-pointer transition hover:-translate-y-1 hover:text-emerald-500`}
       onClick={() => setIsSelectedCatN(name)}
     >
       {name}
-    </p>
+    </div>
   );
-}
 
-export default TextCategory;
 
 export const TextCategoryMob = ({
   list,
@@ -41,7 +36,7 @@ export const TextCategoryMob = ({
     <>
       <div className="fixed inset-0  z-[100] flex items-end bg-black bg-opacity-40 sm:hidden">
         <div className=" w-full bg-white shadow-xl">
-          <h4 className="flex h-16 w-full items-center justify-between border-b px-4 font-body md:text-h6  text-[14px]text-gray-700">
+          <h4 className="text-[14px]text-gray-700 flex h-16 w-full items-center justify-between border-b px-4 font-body  md:text-h6">
             {isSelectedCatN}
             <i
               onClick={() => setToggleOn(false)}

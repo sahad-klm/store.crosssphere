@@ -1,4 +1,4 @@
-import { Icon } from './icon';
+import { Cart, Fire, Icon, Love, Spinner, User } from './icon';
 
 type Props = {
   id: number;
@@ -8,22 +8,22 @@ type Props = {
 export const lastOneInNav: Props[] = [
   {
     id: 1,
-    icon: <Icon className="w-7 fill-slate-800" />,
+    icon: <Spinner className="scale-75 fill-gray-700" />,
     name: 'Compare',
   },
   {
     id: 2,
-    icon: <Icon className="w-7 fill-slate-800" />,
+    icon: <Love className="scale-75 fill-gray-700" />,
     name: 'Wishlist',
   },
   {
     id: 3,
-    icon: <Icon className="w-7 fill-slate-800" />,
+    icon: <Cart className="scale-75 fill-gray-700 " />,
     name: 'Cart',
   },
   {
     id: 4,
-    icon: <Icon className="w-7 fill-slate-800" />,
+    icon: <User className="scale-75 fill-gray-700" />,
     name: 'Login',
   },
 ];
@@ -35,7 +35,7 @@ export const navbarLastCategory: {
 }[] = [
   {
     id: 1,
-    icon: <Icon className="w-7 fill-emerald-500" />,
+    icon: <Fire className="scale-50 fill-emerald-500 -mr-2 mb-1" />,
     name: 'Deals',
   },
   {
@@ -847,7 +847,7 @@ export const popularProductCategory = [
 ];
 export const popularProducts = [
   {
-    id: Math.random(),
+    id: 1,
     name: 'Nasltlee orginal coffee-mate coffee creamer',
     rating: 4.0,
     tags: 'black plum , organic , silopy kujjapu',
@@ -858,7 +858,7 @@ export const popularProducts = [
       'https://cdn.britannica.com/99/234299-050-9CDD78E1/Koi-fish-swimming-carp.jpg',
   },
   {
-    id: Math.random(),
+    id: 2,
     name: 'Nasltlee orginal coffee-mate coffee creamer',
     rating: 4.0,
     tags: 'black plum , organic , silopy kujjapu',
@@ -869,7 +869,7 @@ export const popularProducts = [
       'https://cdn.britannica.com/99/234299-050-9CDD78E1/Koi-fish-swimming-carp.jpg',
   },
   {
-    id: Math.random(),
+    id: 3,
     name: 'Nasltlee orginal coffee-mate coffee creamer',
     rating: 4.0,
     tags: 'black plum , organic , silopy kujjapu',
@@ -880,7 +880,7 @@ export const popularProducts = [
       'https://cdn.britannica.com/99/234299-050-9CDD78E1/Koi-fish-swimming-carp.jpg',
   },
   {
-    id: Math.random(),
+    id: 4,
     name: 'Nasltlee orginal coffee-mate coffee creamer',
     rating: 4.0,
     tags: 'black plum , organic , silopy kujjapu',
@@ -891,7 +891,7 @@ export const popularProducts = [
       'https://cdn.britannica.com/99/234299-050-9CDD78E1/Koi-fish-swimming-carp.jpg',
   },
   {
-    id: Math.random(),
+    id: 5,
     name: 'Nasltlee orginal coffee-mate coffee creamer',
     rating: 4.0,
     tags: 'black plum , organic , silopy kujjapu',
@@ -902,7 +902,7 @@ export const popularProducts = [
       'https://cdn.britannica.com/99/234299-050-9CDD78E1/Koi-fish-swimming-carp.jpg',
   },
   {
-    id: Math.random(),
+    id: 6,
     name: 'Nasltlee orginal coffee-mate coffee creamer',
     rating: 4.5,
     tags: 'black plum , organic , silopy kujjapu',
@@ -967,7 +967,6 @@ export const footerAddress = [
     title: 'Address',
     subtitle: 'Pathirikode Elnkur(po) majeri(vy) malppuram kerala india',
     icon: 'fas fa-map-marker-alt',
-
   },
   {
     id: 2,
@@ -980,14 +979,12 @@ export const footerAddress = [
     title: 'Email',
     subtitle: 'sales@gmile.com',
     icon: 'fas fa-envelope',
-
   },
   {
     id: 4,
     title: 'Hours',
     subtitle: '10:00 - 18:00, Mon - Sat',
     icon: 'far fa-clock',
-
   },
 ];
 export const footerCompany = [
@@ -1142,94 +1139,94 @@ export const footerInformation = [
     to: 'career',
   },
 ];
-export const footerApp_Payments = [{
-  id: 1,
-  title : 'From App Store or Google Play',
-  name :'apps',
-  items: [
-    {
-      id: 1,
-      name: 'app-store',
-      to: 'http//:delivery-information',
-      picture:
-        'https://w7.pngwing.com/pngs/270/658/png-transparent-app-store-apple-google-play-apple-text-logo-mobile-phones.png',
-    },
-    {
-      id: 2,
-      name: 'play-store',
-      link: 'https//:AboutUs.in',
-      picture:
-        'https://w7.pngwing.com/pngs/867/239/png-transparent-google-play-logo-google-play-android-app-store-play-now-button-text-label-logo.png',
-    },
-  ],
-},
-{
-  id: 2,
-  title:'Secured Payments Getaways',
-  name:'cards',
-  items: [
-    {
-      id: 1,
-      name: 'visa',
-      link: 'https//:AboutUs.in',
-      picture:
-        'https://www.investopedia.com/thmb/3H96L9iC_VUhvsqmnypxfEQW4UA=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/full-color-800x450-cee226a48bed4177b90351075b332227.jpg',
-    },
-    {
-      id: 1,
-      name: 'goi',
-      link: 'https//:AboutUs.in',
-      picture:
-        'https://www.investopedia.com/thmb/3H96L9iC_VUhvsqmnypxfEQW4UA=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/full-color-800x450-cee226a48bed4177b90351075b332227.jpg',
-    },
-    {
-      id: 1,
-      name: 'mater',
-      link: 'https//:AboutUs.in',
-      picture:
-        'https://www.investopedia.com/thmb/3H96L9iC_VUhvsqmnypxfEQW4UA=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/full-color-800x450-cee226a48bed4177b90351075b332227.jpg',
-    },
-    {
-      id: 1,
-      name: 'vills',
-      link: 'https//:AboutUs.in',
-      picture:
-        'https://www.investopedia.com/thmb/3H96L9iC_VUhvsqmnypxfEQW4UA=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/full-color-800x450-cee226a48bed4177b90351075b332227.jpg',
-    },
-  ],
-}
-]
+export const footerApp_Payments = [
+  {
+    id: 1,
+    title: 'From App Store or Google Play',
+    name: 'apps',
+    items: [
+      {
+        id: 1,
+        name: 'app-store',
+        to: 'http//:delivery-information',
+        picture:
+          'https://w7.pngwing.com/pngs/270/658/png-transparent-app-store-apple-google-play-apple-text-logo-mobile-phones.png',
+      },
+      {
+        id: 2,
+        name: 'play-store',
+        link: 'https//:AboutUs.in',
+        picture:
+          'https://w7.pngwing.com/pngs/867/239/png-transparent-google-play-logo-google-play-android-app-store-play-now-button-text-label-logo.png',
+      },
+    ],
+  },
+  {
+    id: 2,
+    title: 'Secured Payments Getaways',
+    name: 'cards',
+    items: [
+      {
+        id: 1,
+        name: 'visa',
+        link: 'https//:AboutUs.in',
+        picture:
+          'https://www.investopedia.com/thmb/3H96L9iC_VUhvsqmnypxfEQW4UA=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/full-color-800x450-cee226a48bed4177b90351075b332227.jpg',
+      },
+      {
+        id: 2,
+        name: 'goi',
+        link: 'https//:AboutUs.in',
+        picture:
+          'https://www.investopedia.com/thmb/3H96L9iC_VUhvsqmnypxfEQW4UA=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/full-color-800x450-cee226a48bed4177b90351075b332227.jpg',
+      },
+      {
+        id: 3,
+        name: 'mater',
+        link: 'https//:AboutUs.in',
+        picture:
+          'https://www.investopedia.com/thmb/3H96L9iC_VUhvsqmnypxfEQW4UA=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/full-color-800x450-cee226a48bed4177b90351075b332227.jpg',
+      },
+      {
+        id: 4,
+        name: 'vills',
+        link: 'https//:AboutUs.in',
+        picture:
+          'https://www.investopedia.com/thmb/3H96L9iC_VUhvsqmnypxfEQW4UA=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/full-color-800x450-cee226a48bed4177b90351075b332227.jpg',
+      },
+    ],
+  },
+];
 
 export const footerSocialMedia = [
   {
-    id:1,
+    id: 1,
     name: 'Face book',
     icon: 'lni lni-facebook',
-    link:'.facebook'
+    link: '.facebook',
   },
   {
-    id:2,
+    id: 2,
     name: 'Instagram',
     icon: 'lni lni-instagram',
-    link:'.facebook'
+    link: '.facebook',
   },
   {
-    id:3,
+    id: 3,
     name: 'Twitter',
     icon: 'lni lni-twitter',
-    link:'.facebook'
+    link: '.facebook',
   },
   {
-    id:4,
+    id: 4,
     name: 'Youtube',
     icon: 'lni lni-youtube',
-    link:'.facebook'
+    link: '.facebook',
   },
   {
-    id:5,
+    id: 5,
     name: 'HaloTalk',
     icon: 'fa-solid fa-hashtag',
-    link:'.facebook'
+    link: '.facebook',
   },
-  
-]
+];

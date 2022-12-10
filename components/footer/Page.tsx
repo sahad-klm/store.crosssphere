@@ -1,3 +1,4 @@
+'use client'
 import FooterList from '@/ui/footerList';
 import {
   footerAccount,
@@ -10,9 +11,7 @@ import {
 import { Icon } from 'constants/icon';
 import React from 'react';
 const Footer = () => {
-  const [footerToggle, setFooterToggle] = React.useState<string | undefined>(
-    '',
-  );
+  const [footerToggle, setFooterToggle] = React.useState<string | any>('');
 
   const handleToggle = (prop : any) => {
     if (prop !== undefined) {
@@ -31,7 +30,7 @@ const Footer = () => {
             prevalent proposers alt holo sejm
           </p>
           {footerAddress?.map((item) => (
-            <div className="inline-flex items-start">
+            <div key={item.id} className="inline-flex items-start">
               <h6 className="inline font-head md:text-base text-sm capitalize text-gray-700">
                 <i
                   className={`${item.icon} mr-2 inline w-9 text-base font-bold text-emerald-500`}
@@ -80,7 +79,7 @@ const Footer = () => {
           <div className={`${footerToggle === 'App & Payment' ? "grid" :'hidden'} md:grid`}>
 
           {footerApp_Payments?.map((item) => (
-            <div className="flex flex-col">
+            <div key={item.id} className="flex flex-col">
               <p className="mb-5 font-body md:text-base text-sm text-gray-900">{item.title}</p>
               <div
                 className={`flex ${

@@ -14,7 +14,7 @@ const FooterList = ({
 }:{
   heading: string;
   links: Props[];
-  className?: string
+  className?: string | any
   onClick?: any | undefined,
   footerToggle?:any
   

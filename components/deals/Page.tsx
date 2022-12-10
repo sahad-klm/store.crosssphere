@@ -15,8 +15,8 @@ const DealsOfTheDay = () => {
         className="flex w-full grid-cols-4 md:gap-5 gap-2 overflow-auto md:grid md:grid-cols-2 xl:grid-cols-4 scrollBar" 
       >
         {popularProducts?.map((item, idx) => (
-          <React.Fragment>
-            {idx <= 3 && <ProductWithTimer key={item.id} {...item} />}
+          <React.Fragment key={item.id}>
+            {idx <= 3 && <ProductWithTimer  {...item} />}
           </React.Fragment>
         ))}
       </div>

@@ -17,7 +17,7 @@ const HomeComponent = (): any => {
       initial="hidden"
       whileInView="show"
       viewport={{ once: true, amount: 0.25 }}
-      className=" pt-12 px-4 flex justify-center items-center overflow-hidden relative md:h-[90vh] h-[90vh] z-10"
+      className=" pt-12 px-4 flex justify-center items-center overflow-hidden relative h-[540px]  z-10"
     >
       <Swiper
         modules={[Navigation, Pagination, Scrollbar, Autoplay]}

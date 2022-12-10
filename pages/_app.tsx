@@ -28,9 +28,10 @@ function MyApp({ Component, pageProps }: any) {
           rel="stylesheet"
           href="https://cdn.lineicons.com/3.0/lineicons.css"
         />
-        <script src="https://cdn.tailwindcss.com"></script>
+        <script src="https://cdn.tailwindcss.com" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossOrigin="anonymous" referrerPolicy="no-referrer" />
       </Head>
+
       <Component {...pageProps} />
     </>
   );
