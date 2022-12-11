@@ -16,13 +16,13 @@ export const NavLAstInFeistBar = () => (
 export const NavLAstInFeistBar2 = () =>  (
     <div className="flex flex-row gap-1 sm:w-28 w-22 justify-end ">
       {lastOneInNav?.map((item) => (
-        <>
+        <React.Fragment key={item.id}>
           {(item.name === 'Wishlist' || item.name === 'Cart') && (
-            <span key={item.id} className="flex items-center scale-125 cursor-pointer">
+            <span className="flex items-center scale-125 cursor-pointer">
               {item.icon}
             </span>
           )}
-        </>
+        </React.Fragment>
       ))}
     </div>
   );

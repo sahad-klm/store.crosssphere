@@ -67,8 +67,6 @@ export function NavBigOptions(): any {
 export const NavBigOptionsTab = () => {
   const [naveOptionSwitch, setNaveOptionSwitch] = React.useState<any>(null);
 
-  console.log(naveOptionSwitch);
-
   return (
     <ul className="relative flex w-full flex-col">
       {navbarLastCategory?.map((item: any) => (
@@ -138,7 +136,7 @@ export const NavBigOptionsTab = () => {
                         </li>
                         {subName?.subMenu?.map(
                           (item: { id: Key; name: string }) => (
-                            <li className="flex cursor-pointer flex-row place-content-center items-center justify-start border-b border-gray-200 px-4 py-5">
+                            <li key={item.id} className="flex cursor-pointer flex-row place-content-center items-center justify-start border-b border-gray-200 px-4 py-5">
                               {item.name}
                             </li>
                           ),

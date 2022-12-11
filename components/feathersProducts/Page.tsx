@@ -1,31 +1,30 @@
-'use client'
-import { useRef } from "react";
-import { Products } from "./Products";
-import SwiperCore from "swiper";
-import MainProducts from "./MainProducts";
+'use client';
+import { useRef } from 'react';
+import { Products } from './Products';
+import SwiperCore from 'swiper';
+import MainProducts from './MainProducts';
 
-const FeathersCategory:React.FC = () => {
-
+const FeathersCategory: React.FC = () => {
   const swiperRef = useRef<SwiperCore>();
 
   return (
-    <div className="flex px-4 mt-[50px] w-full overflow-hidden flex-col items-center justify-center">
-      <div className="w-full flex justify-between items-center mb-7">
-        <h4 className="font-head md:text-[32px] text-[28px] leading-7 text-gray-800">
+    <div className="mt-[50px] flex w-full flex-col items-center justify-center overflow-hidden px-4">
+      <div className="mb-7 flex w-full items-center justify-between">
+        <h4 className="font-head text-[28px] leading-7 text-gray-800 md:text-[32px]">
           Feathered Categories
         </h4>
         <span className="grid grid-flow-col gap-2">
           <i
             onClick={() => swiperRef.current?.slidePrev()}
-            className="lni lni-chevron-left w-7 text-sm  h-7 p-2 bg-slate-200 grid place-content-center rounded-full hover:bg-slate-300 transition"
+            className="lni lni-chevron-left grid h-7  w-7 place-content-center rounded-full bg-slate-200 p-2 text-sm transition hover:bg-slate-300"
           />
           <i
             onClick={() => swiperRef.current?.slideNext()}
-            className="lni lni-chevron-right w-7 text-sm  h-7 p-2 bg-slate-200 grid place-content-center rounded-full hover:bg-slate-300 transition"
+            className="lni lni-chevron-right grid h-7  w-7 place-content-center rounded-full bg-slate-200 p-2 text-sm transition hover:bg-slate-300"
           />
         </span>
       </div>
-      <Products swiperRef={swiperRef}/>
+      <Products swiperRef={swiperRef} />
       <MainProducts />
     </div>
   );

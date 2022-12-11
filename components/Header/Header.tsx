@@ -173,6 +173,7 @@ function Header(): any {
             <div className="flex h-24 w-full items-center bg-gray-100 px-4 shrink-0">
               {footerSocialMedia.map((item) => (
                 <a
+                key={item.id}
                   href={item.link}
                   className={`${item.icon}   flex h-10 w-10 items-center justify-center rounded-md text-gray-600 hover:text-[${item.color}]`}
                 />

@@ -18,7 +18,9 @@ export const Products: React.FC | any = ({ swiperRef }: any) => {
     if (typeof window !== undefined) {
       window.addEventListener('resize', () => {
         if (window.innerWidth > 1100) {
+          console.log(window.innerWidth / 130);
           return setWindowWidth(window.innerWidth / 130);
+          
         } else if (window.innerWidth > 768) {
           return setWindowWidth(6);
         } else if (window.innerWidth > 640) {
