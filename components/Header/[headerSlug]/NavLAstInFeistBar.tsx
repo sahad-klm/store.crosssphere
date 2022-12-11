@@ -14,7 +14,7 @@ export const NavLAstInFeistBar = () => (
   </div>
 );
 export const NavLAstInFeistBar2 = () =>  (
-    <div className="flex flex-row gap-1 w-28 justify-end ">
+    <div className="flex flex-row gap-1 sm:w-28 w-22 justify-end ">
       {lastOneInNav?.map((item) => (
         <>
           {(item.name === 'Wishlist' || item.name === 'Cart') && (

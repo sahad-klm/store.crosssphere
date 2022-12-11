@@ -13,12 +13,12 @@ export const lastOneInNav: Props[] = [
   },
   {
     id: 2,
-    icon: <Love className="scale-[.6] fill-gray-700 hover:fill-emerald-500" />,
+    icon: <Love className="sm:scale-[.6] scale-[.4] fill-gray-700 hover:fill-emerald-500 max-sm:-mx-1" />,
     name: 'Wishlist',
   },
   {
     id: 3,
-    icon: <Cart className="scale-[.6] fill-gray-700 hover:fill-emerald-500" />,
+    icon: <Cart className="sm:scale-[.6] scale-[.4] fill-gray-700 hover:fill-emerald-500 max-sm:-mx-5" />,
     name: 'Cart',
   },
   {
