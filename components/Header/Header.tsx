@@ -166,7 +166,7 @@ function Header(): any {
               />
             </div>
 
-            <div className="flex  w-full h-full  items-start overflow-scroll bg-white">
+            <div className="flex  w-full flex-1 items-start overflow-scroll bg-white">
               <NavBigOptionsTab />
             </div>
 

@@ -25,9 +25,7 @@ export const Products: React.FC | any = ({ swiperRef }: any) => {
           return setWindowWidth(5);
         } else if (window.innerWidth > 540) {
           return setWindowWidth(4);
-        } else if (window.innerWidth > 340) {
-          return setWindowWidth(3);
-        } else if (window.innerWidth < 340) {
+        } else if (window.innerWidth < 540) {
           return setWindowWidth(2);
         }
       });
