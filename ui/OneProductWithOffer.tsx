@@ -41,11 +41,16 @@ function OneProductWithOffer({
   
 
   React.useEffect(() => {
-    window.addEventListener('resize', () => {
-      setWindowWidth(window.innerWidth);
-    });
+    if(typeof window !== undefined ) {
 
-    return window.removeEventListener('resize',() => setWindowWidth(windowWidth))
+      window.addEventListener('resize', () => {
+        setWindowWidth(window.innerWidth);
+      });
+      
+      setWindowWidth(window.innerWidth)
+      
+      return window.removeEventListener('resize',() => setWindowWidth(windowWidth))
+    }
   }, []);
 
   return (
@@ -146,11 +151,16 @@ const OneProductLeftPicRightDetail = ({
 
 
   React.useEffect(() => {
-    window.addEventListener('resize', () => {
-      setWindowWidth(window.innerWidth);
-    });
+    if(typeof window !== undefined ) {
 
-    return window.removeEventListener('resize',() => setWindowWidth(windowWidth))
+      window.addEventListener('resize', () => {
+        setWindowWidth(window.innerWidth);
+      });
+      
+      setWindowWidth(window.innerWidth)
+      
+      return window.removeEventListener('resize',() => setWindowWidth(windowWidth))
+    }
   }, []);
 
   return (

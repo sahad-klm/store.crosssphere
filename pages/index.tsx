@@ -36,7 +36,7 @@ export default function Home(): any {
       <Feathers />
       <Footer />
 
-      <div className="mt-[50px] flex md:flex-row flex-col items-center md:justify-between justify-center md:gap-5 gap-4 border-t border-emerald-300 px-4 py-6 ">
+      <div className="md:mt-[50px] mt-10 flex md:flex-row flex-col items-center md:justify-between justify-center md:gap-5 gap-4 border-t border-emerald-300 px-4 py-6 ">
         <p className="font-body md:text-base text-sm text-gray-500 cursor-default select-none md:text-left text-center">
           © 2022, <span className="text-emerald-500">Nest</span>- Copied from
           Boostify themes <br/>

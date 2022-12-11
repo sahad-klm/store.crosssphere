@@ -13,10 +13,8 @@ import { Key } from "react";
 
 const HomeComponent = (): any => {
   return (
-    <motion.div
-      initial="hidden"
-      whileInView="show"
-      viewport={{ once: true, amount: 0.25 }}
+    <div
+     
       className=" pt-12 px-4 flex justify-center items-center overflow-hidden relative h-[540px]  z-10"
     >
       <Swiper
@@ -48,7 +46,7 @@ const HomeComponent = (): any => {
                   whileInView="show"
                   viewport={{ once: false, amount: 0.25 }}
                   variants={textVariant(0.2, 1)}
-                  className="md:text-6xl text-4xl font-head text-gray-800 max-w-[580px] lg:leading-loose leading-10"
+                  className="md:text-7xl text-[42px] font-body font-bold text-gray-800 leading-10 max-w-[580px]"
                 >
                   {item.title}
                 </motion.h1>
@@ -74,7 +72,7 @@ const HomeComponent = (): any => {
                     placeholder="Your email address"
                     className="h-full outline-none font-body text-sm tracking-wide text-gray-700"
                   />
-                  <button className="absolute right-0 h-full px-6 bg-emerald-500 rounded-full hover:bg-emerald-600 transition text-white font-body text-sm tracking-wider">
+                  <button className="absolute -right-1 h-full md:px-10 px-5 bg-emerald-500 rounded-full hover:bg-emerald-600 transition text-white font-body text-sm tracking-wider">
                     Subscribe
                   </button>
                 </motion.form>
@@ -83,7 +81,7 @@ const HomeComponent = (): any => {
           ),
         )}
       </Swiper>
-    </motion.div>
+    </div>
   );
 };
 

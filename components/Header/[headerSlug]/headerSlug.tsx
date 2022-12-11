@@ -6,7 +6,7 @@ const BrowseAllButton = ({browseAllCategory, setBrowseAllCategory}:any):JSX.Elem
   
   return (
     <button
-      className="relative flex shrink-0 items-center gap-1 rounded-md border-none bg-emerald-500 px-2 py-1 font-head text-base text-white hover:bg-emerald-600"
+      className="relative flex shrink-0 items-center gap-1 rounded-md border-none bg-emerald-500 px-2 font-head text-base text-white hover:bg-emerald-600"
       onClick={() => setBrowseAllCategory(!browseAllCategory)}
     >
       <GridApps className="scale-[.7] fill-white" />

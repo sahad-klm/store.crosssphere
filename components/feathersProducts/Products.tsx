@@ -33,13 +33,20 @@ export const Products: React.FC | any = ({ swiperRef }: any) => {
   };
 
   React.useMemo(() => swiperPrev(), [windowWidth]);
-  React.useEffect(() => {
-    window.addEventListener('resize', () => {
-      setWindowWidth(window.innerWidth);
-    });
 
-    return window.removeEventListener('resize',() => setWindowWidth(windowWidth))
+  React.useEffect(() => {
+    if(typeof window !== undefined ) {
+
+      window.addEventListener('resize', () => {
+        setWindowWidth(window.innerWidth);
+      });
+      
+      setWindowWidth(window.innerWidth)
+      
+      return window.removeEventListener('resize',() => setWindowWidth(windowWidth))
+    }
   }, []);
+
 
   return (
     <div className="flex w-full items-center justify-center">

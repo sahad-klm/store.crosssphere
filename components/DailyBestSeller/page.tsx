@@ -13,9 +13,7 @@ const DailyBestSeller = (): any => {
   const [toggleOn, setToggleOn] = React.useState<boolean | any>(false);
 
   const [mouseOver, setMouseOver] = React.useState<string | any>('');
-  const [windowWidth, setWindowWidth] = React.useState<number|any>();
-  
-
+  const [windowWidth, setWindowWidth] = React.useState<number | any>();
 
   const swiperPrev: number | any = () => {
     if (windowWidth <= 768) return 1;
@@ -23,32 +21,37 @@ const DailyBestSeller = (): any => {
   };
 
   React.useEffect(() => {
-    window.addEventListener('resize', () => {
-      setWindowWidth(window.innerWidth);
-    });
+    if (typeof window !== undefined) {
+      window.addEventListener('resize', () => {
+        setWindowWidth(window.innerWidth);
+      });
 
-    return window.removeEventListener('resize',() => setWindowWidth(windowWidth))
+      setWindowWidth(window.innerWidth);
+
+      return window.removeEventListener('resize', () =>
+        setWindowWidth(windowWidth),
+      );
+    }
   }, []);
 
   return (
-    <div className="z-1 relative mt-[50px] flex w-full flex-col  items-start justify-center overflow-hidden px-4">
+    <div className="z-1 relative mt-10 flex w-full flex-col items-start  justify-center overflow-hidden px-4 md:mt-[50px]">
       <div className="mb-7 flex w-full items-center justify-between">
         <h4 className="mr-4 shrink-0 font-head text-[28px] text-gray-800 md:text-[32px]">
           Daily best sells
         </h4>
         <div className="flex flex-row flex-wrap gap-4">
-          <div className='md:flex hidden flex-row flex-wrap gap-4'>
-          {dailyBestSellerCategory?.map((item) => (
-            <TextCategory
-            key={item.id}
-            {...item}
-            isSelectedCatN={isSelectedCatN}
-            setIsSelectedCatN={setIsSelectedCatN}
-            />
+          <div className="hidden flex-row flex-wrap gap-4 md:flex">
+            {dailyBestSellerCategory?.map((item) => (
+              <TextCategory
+                key={item.id}
+                {...item}
+                isSelectedCatN={isSelectedCatN}
+                setIsSelectedCatN={setIsSelectedCatN}
+              />
             ))}
-          (
-            </div>
-          <div className='md:hidden block'>
+          </div>
+          <div className="block md:hidden">
             <p
               onClick={() => setToggleOn(!toggleOn)}
               className="cursor-pointer font-head text-base leading-3 text-gray-800 md:text-base"
@@ -65,7 +68,6 @@ const DailyBestSeller = (): any => {
               />
             )}
           </div>
-          )
         </div>
       </div>
 

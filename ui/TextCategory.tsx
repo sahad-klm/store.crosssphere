@@ -11,7 +11,7 @@ type Props = {
 
 export const TextCategory = ({ name, isSelectedCatN, setIsSelectedCatN }: Props):any =>  (
     <div
-      className={`font-head text-sm leading-3 md:text-base ${isSelectedCatN === name ? 'text-emerald-500' : 'text-gray-800'} cursor-pointer transition hover:-translate-y-1 hover:text-emerald-500`}
+      className={`font-head text-xl leading-3  ${isSelectedCatN === name ? 'text-emerald-500' : 'text-gray-800'} cursor-pointer transition hover:-translate-y-1 hover:text-emerald-500`}
       onClick={() => setIsSelectedCatN(name)}
     >
       {name}
@@ -36,7 +36,7 @@ export const TextCategoryMob = ({
     <>
       <div className="fixed inset-0  z-[100] flex items-end bg-black bg-opacity-40 sm:hidden">
         <div className=" w-full bg-white shadow-xl">
-          <h4 className="text-[14px]text-gray-700 flex h-16 w-full items-center justify-between border-b px-4 font-body  md:text-h6">
+          <h4 className="text-xl text-gray-700 flex h-16 w-full items-center justify-between border-b px-4 font-body  md:text-h6">
             {isSelectedCatN}
             <i
               onClick={() => setToggleOn(false)}
@@ -48,7 +48,7 @@ export const TextCategoryMob = ({
               <li
                 key={item.id}
                 onClick={() => handleClick(item.name)}
-                className={`flex h-14 cursor-pointer items-center px-4 font-body text-base text-gray-500 hover:bg-gray-200 ${
+                className={`flex h-14 cursor-pointer items-center px-4 font-body text-xl text-gray-500 hover:bg-gray-200 ${
                   isSelectedCatN === item.name &&
                   'cursor-default text-gray-400 hover:bg-white'
                 }`}
@@ -72,7 +72,7 @@ export const TextCategoryMob = ({
               <li
                 key={item.id}
                 onClick={() => handleClick(item.name)}
-                className={`flex h-10 cursor-pointer items-center px-4 font-body text-base text-gray-500 hover:bg-gray-200 ${
+                className={`flex h-10 cursor-pointer items-center px-4 font-body text-xl text-gray-500 hover:bg-gray-200 ${
                   isSelectedCatN === item.name &&
                   'cursor-default text-gray-400 hover:bg-white'
                 }`}

@@ -48,7 +48,7 @@ function Header(): any {
   return (
     <>
       <nav className="relative top-0 z-50 hidden w-full flex-col lg:flex ">
-        <div className="flex h-24 w-full items-center justify-start border-b-[1px] border-solid border-gray-700 border-opacity-20 bg-white py-4 px-5">
+        <div className="flex h-24 w-full items-center justify-start border-b-[1px] border-solid border-gray-700 border-opacity-20 bg-white py-4 sm:px-4">
           <img
             src="Untitled11-removebg-preview.png"
             className=" h-full w-44 shrink-0 bg-red-300 object-contain"
@@ -64,7 +64,7 @@ function Header(): any {
           <NavLAstInFeistBar />
         </div>
 
-        <div className="flex h-24 w-full items-center justify-start border-b-[1px] border-solid border-gray-700 border-opacity-20 bg-white py-4 px-5">
+        <div className="flex h-24 w-full items-center justify-start border-b-[1px] border-solid border-gray-700 border-opacity-20 bg-white py-4 px-4">
           <BrowseAllButton
             browseAllCategory={browseAllCategory}
             setBrowseAllCategory={browseAllCategory}
@@ -93,7 +93,7 @@ function Header(): any {
           variants={textVariant2}
           className={`fixed ${
             navHide ? 'flex' : 'hidden'
-          } h-24 w-full items-center justify-between border-b-[1px] border-solid border-gray-700 border-opacity-20 bg-white py-4 px-5 duration-300`}
+          } h-[60px] w-full items-center justify-between border-b-[1px] border-solid border-gray-700 border-opacity-20 bg-white py-2 px-4 duration-300`}
         >
           <BrowseAllButton />
           <SearchBar
@@ -110,7 +110,7 @@ function Header(): any {
       {/*  tab navbar */}
 
       <nav className="relative top-0 z-50 flex w-full flex-col lg:hidden">
-        <div className="flex sm:h-24 h-16 w-full items-center justify-between border-b-[1px] border-solid border-gray-700 border-opacity-20 bg-white py-4 px-5">
+        <div className="flex sm:h-24 h-16 w-full items-center justify-between border-b-[1px] border-solid border-gray-700 border-opacity-20 bg-white py-4 px-4">
           <i
             onClick={() => setBrowseAllCategory(true)}
             className="fa-solid fa-bars-staggered sm:w-28 w-22 cursor-pointer sm:text-3xl text-2xl text-gray-700"
