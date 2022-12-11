@@ -22,7 +22,7 @@ const Footer = () => {
   };
 
   return (
-    <footer className="md:mt-[50px] mt-10 flex w-full flex-col items-center justify-center overflow-hidden  px-4">
+    <footer className="mt-[50px] flex w-full flex-col items-center justify-center overflow-hidden  px-4">
       <ul className="grid w-full grid-flow-row gap-x-5 gap-y-10 md:grid-cols-3 lg:grid-cols-6 lg:justify-items-center">
         <li className="md:flex max-w-[300px] flex-col gap-[10px] hidden">
           <Icon className="mb-4 h-16 w-full bg-slate-400" />

@@ -9,7 +9,7 @@ const FeathersCategory:React.FC = () => {
   const swiperRef = useRef<SwiperCore>();
 
   return (
-    <div className="flex px-4 md:mt-[50px] mt-10 w-full overflow-hidden flex-col items-center justify-center">
+    <div className="flex px-4 mt-[50px] w-full overflow-hidden flex-col items-center justify-center">
       <div className="w-full flex justify-between items-center mb-7">
         <h4 className="font-head md:text-[32px] text-[28px] leading-7 text-gray-800">
           Feathered Categories
