@@ -8,22 +8,22 @@ type Props = {
 export const lastOneInNav: Props[] = [
   {
     id: 1,
-    icon: <Spinner className="sm:scale-[.6] scale-[.4] fill-gray-700 hover:fill-emerald-500" />,
+    icon: <Spinner className="sm:scale-[.6] scale-[.4] fill-gray-700 hover:fill-emerald-500 group-hover/btn:fill-emerald-500 duration-300" />,
     name: 'Compare',
   },
   {
     id: 2,
-    icon: <Love className="sm:scale-[.6] scale-[.4] fill-gray-700 hover:fill-emerald-500 max-sm:-mx-1" />,
+    icon: <Love className="sm:scale-[.6] scale-[.4] fill-gray-700 hover:fill-emerald-500 max-sm:-mx-1 group-hover/btn:fill-emerald-500 duration-300" />,
     name: 'Wishlist',
   },
   {
     id: 3,
-    icon: <Cart className="sm:scale-[.6] scale-[.5] fill-gray-700 hover:fill-emerald-500 max-sm:-mx-5" />,
+    icon: <Cart className="sm:scale-[.6] scale-[.5] fill-gray-700 hover:fill-emerald-500 max-sm:-mx-5 group-hover/btn:fill-emerald-500 duration-300" />,
     name: 'Cart',
   },
   {
     id: 4,
-    icon: <User className="sm:scale-[.6] scale-[.6] fill-gray-700 hover:fill-emerald-500" />,
+    icon: <User className="sm:scale-[.6] scale-[.6] fill-gray-700 hover:fill-emerald-500 group-hover/btn:fill-emerald-500 duration-300" />,
     name: 'Login',
   },
 ];

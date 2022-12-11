@@ -47,7 +47,6 @@ function Header(): any {
   React.useEffect(() => {
     const scrollFunction = () => {
       let maxScroll = document.body.scrollHeight - window.innerHeight;
-      console.log(maxScroll);
 
       const currentScrollPos = window.pageYOffset;
 
@@ -60,11 +59,9 @@ function Header(): any {
       }, 150);
     };
     if (typeof window !== undefined) {
-      window.addEventListener('scroll', () => scrollFunction()); 
+      window.addEventListener('scroll', () => scrollFunction());
     }
-
   }, []);
-
 
   return (
     <>
@@ -157,7 +154,7 @@ function Header(): any {
             whileInView="show"
             variants={slideIn('left', 'tween', 0, 0.4)}
             className={`
-          left-0 bottom-0 z-50 flex min-h-full min-w-[80%]  flex-col justify-between  bg-white sm:min-w-[350px]`}
+          left-0 bottom-0 z-[501] flex min-h-full min-w-[80%]  flex-col justify-between  bg-white sm:min-w-[350px]`}
           >
             <div className="bg-tabNav relative flex items-center justify-center bg-gray-100 p-5 pt-20">
               <h1 className="font-head text-h3 text-slate-100">
@@ -186,34 +183,32 @@ function Header(): any {
       </nav>
 
       {/*  */}
-      {/*  */}
+      {/*  bottom menus */}
 
       <motion.div
-      
-      initial="hidden"
-            whileInView="show"
-            variants={textVariant(.01,.01)}
-
+        initial="hidden"
+        whileInView="show"
+        variants={textVariant(0.01, 0.01)}
         className={`fixed ${
-          bottomHide ? 'flex' : 'hidden'
-        } bottom-0  z-50 w-full items-center justify-between border-t-[1px] border-solid border-gray-700 border-opacity-40 bg-white  shadow-2xl duration-300`}
+          bottomHide && !browseAllCategory ? 'flex' : 'hidden'
+        } bottom-0  z-[100] w-full items-center justify-between border-t-[1px] border-solid border-gray-700 border-opacity-40 bg-white  p-1 px-4 shadow-2xl duration-300`}
       >
         <div className="flex w-full  flex-row justify-between">
           {lastOneInNav?.map((item) => (
             <span
               key={item.id}
-              className="flex cursor-pointer flex-col items-center"
+              className="group/btn flex cursor-pointer flex-col items-center"
             >
               {item.icon}
-              <p className="font-body text-base font-medium text-stone-800 hover:text-emerald-500">
+              <p className=" -mt-3 font-body text-base font-medium text-stone-800  group-hover/btn:text-emerald-500 duration-300">
                 {item.name}
               </p>
             </span>
           ))}
 
-          <span className="flex cursor-pointer flex-col items-center justify-center">
-            <i className="fa-solid fa-magnifying-glass m-3 text-gray-700" />
-            <p className="font-body text-base font-medium text-stone-800 hover:text-emerald-500">
+          <span className="group/btn flex cursor-pointer flex-col items-center justify-center">
+            <i className="fa-solid fa-magnifying-glass mt-3 text-gray-700 group-hover/btn:text-emerald-500 duration-300" />
+            <p className="mt-1 font-body text-base font-medium text-stone-800 hover:text-emerald-500 group-hover/btn:text-emerald-500 duration-300">
               Search
             </p>
           </span>
