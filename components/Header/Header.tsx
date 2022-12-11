@@ -11,7 +11,7 @@ import SearchBar from './[headerSlug]/searchBar';
 import { motion } from 'framer-motion';
 import { slideIn, textVariant, textVariant2 } from 'utils/motion';
 import { NavBigOptionsTab, NavBigOptions } from './NavBigOptions';
-import { footerSocialMedia } from 'constants/data';
+import { footerSocialMedia, lastOneInNav } from 'constants/data';
 
 function Header(): any {
   const [searchOption, setSearchOption] = useState<string | any>(
@@ -23,6 +23,7 @@ function Header(): any {
     boolean | any
   >(false);
   const [navHide, setNavHide] = useState<boolean>(false);
+  const [bottomHide, setBottomHide] = useState<boolean>(false);
 
   const handleClickSearchOption = (e: any) => {
     const value = e.target.innerText;
@@ -35,15 +36,35 @@ function Header(): any {
   React.useEffect(() => {
     if (typeof window !== undefined) {
       window.addEventListener('scroll', () => {
-        const currentScrollPos: number = window.pageYOffset;
-
+        const currentScrollPos = window.pageYOffset;
         if (currentScrollPos > 200) {
           setNavHide(true);
-          console.log(navHide);
         } else return setNavHide(false);
       });
     }
   }, []);
+
+  React.useEffect(() => {
+    const scrollFunction = () => {
+      let maxScroll = document.body.scrollHeight - window.innerHeight;
+      console.log(maxScroll);
+
+      const currentScrollPos = window.pageYOffset;
+
+      setTimeout(() => {
+        let currentPotions = window.pageYOffset;
+
+        if (currentPotions === currentScrollPos && currentScrollPos < maxScroll)
+          return setBottomHide(true);
+        else setBottomHide(false);
+      }, 150);
+    };
+    if (typeof window !== undefined) {
+      window.addEventListener('scroll', () => scrollFunction()); 
+    }
+
+  }, []);
+
 
   return (
     <>
@@ -109,11 +130,11 @@ function Header(): any {
 
       {/*  tab navbar */}
 
-      <nav className="relative top-0 z-50 flex w-full flex-col lg:hidden">
-        <div className="flex sm:h-24 h-16 w-full items-center justify-between border-b-[1px] border-solid border-gray-700 border-opacity-20 bg-white py-4 px-4">
+      <nav className="fixed top-0 z-50 flex w-full flex-col lg:hidden">
+        <div className="flex h-16 w-full items-center justify-between border-b-[1px] border-solid border-gray-700 border-opacity-20 bg-white py-4 px-4 sm:h-24">
           <i
             onClick={() => setBrowseAllCategory(true)}
-            className="fa-solid fa-bars-staggered sm:w-28 w-22 cursor-pointer sm:text-3xl text-2xl text-gray-700"
+            className="fa-solid fa-bars-staggered w-22 cursor-pointer text-2xl text-gray-700 sm:w-28 sm:text-3xl"
           />
 
           <img
@@ -138,8 +159,7 @@ function Header(): any {
             className={`
           left-0 bottom-0 z-50 flex min-h-full min-w-[80%]  flex-col justify-between  bg-white sm:min-w-[350px]`}
           >
-            <div className="relative flex items-center justify-center bg-gray-100 p-5 pt-20 bg-tabNav">
-              
+            <div className="bg-tabNav relative flex items-center justify-center bg-gray-100 p-5 pt-20">
               <h1 className="font-head text-h3 text-slate-100">
                 Loganstic shad
               </h1>
@@ -164,6 +184,41 @@ function Header(): any {
           </motion.div>
         </div>
       </nav>
+
+      {/*  */}
+      {/*  */}
+
+      <motion.div
+      
+      initial="hidden"
+            whileInView="show"
+            variants={textVariant(.01,.01)}
+
+        className={`fixed ${
+          bottomHide ? 'flex' : 'hidden'
+        } bottom-0  z-50 w-full items-center justify-between border-t-[1px] border-solid border-gray-700 border-opacity-40 bg-white  shadow-2xl duration-300`}
+      >
+        <div className="flex w-full  flex-row justify-between">
+          {lastOneInNav?.map((item) => (
+            <span
+              key={item.id}
+              className="flex cursor-pointer flex-col items-center"
+            >
+              {item.icon}
+              <p className="font-body text-base font-medium text-stone-800 hover:text-emerald-500">
+                {item.name}
+              </p>
+            </span>
+          ))}
+
+          <span className="flex cursor-pointer flex-col items-center justify-center">
+            <i className="fa-solid fa-magnifying-glass m-3 text-gray-700" />
+            <p className="font-body text-base font-medium text-stone-800 hover:text-emerald-500">
+              Search
+            </p>
+          </span>
+        </div>
+      </motion.div>
     </>
   );
 }
