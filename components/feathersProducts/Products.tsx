@@ -44,7 +44,6 @@ export const Products: React.FC | any = ({ swiperRef }: any) => {
         {fracturedProducts?.map((item: Props, ind) => (
           <SwiperSlide
             key={item.id}
-            // className={` ${ind !== 0 && 'ml-[20px] lg:mr-[0] '} `}
           >
             <motion.div
               whileInView="show"
@@ -58,7 +57,7 @@ export const Products: React.FC | any = ({ swiperRef }: any) => {
               }}
               className={`bg-${
                 item.bg
-              }-100 flex h-48 w-full flex-col items-center justify-center rounded-md border-[.5px] border-solid border-transparent py-5 lg:h-40 lg:w-28 ${
+              }-100 flex h-auto w-full flex-col items-center justify-center rounded-md border-[.5px] border-solid border-transparent py-5 lg:h-40 lg:w-28 ${
                 isClickedOnThisOne === item.id &&
                 ' border-emerald-300 shadow-md'
               } group/edit cursor-pointer transition-all duration-300 hover:border-emerald-300 hover:shadow-md`}
