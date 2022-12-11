@@ -70,7 +70,7 @@ export const NavBigOptionsTab = () => {
   console.log(naveOptionSwitch);
 
   return (
-    <ul className="relative flex w-full flex-col overflow-y-scroll">
+    <ul className="relative flex w-full flex-col">
       {navbarLastCategory?.map((item: any) => (
         <>
           <li

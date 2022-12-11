@@ -147,14 +147,14 @@ function Header(): any {
         <div
           className={`${
             browseAllCategory ? 'fixed' : 'hidden'
-          }   inset-0 z-50 flex w-full bg-black bg-opacity-25`}
+          }   inset-0 z-50 flex w-full bg-black bg-opacity-25 min-h-[100vh]`}
         >
           <motion.div
             initial="hidden"
             whileInView="show"
             variants={slideIn('left', 'tween', 0, 0.4)}
             className={`
-          left-0 bottom-0 z-[501] flex min-h-full min-w-[80%]  flex-col justify-between  bg-white sm:min-w-[350px]`}
+          left-0 bottom-0 z-[501] flex min-w-[80%]  flex-col justify-between  bg-white sm:min-w-[350px]`}
           >
             <div className="bg-tabNav relative flex items-center justify-center bg-gray-100 p-5 pt-20">
               <h1 className="font-head text-h3 text-slate-100">
@@ -166,11 +166,11 @@ function Header(): any {
               />
             </div>
 
-            <div className="flex  w-full flex-1 items-start overflow-hidden bg-white">
+            <div className="flex  w-full h-full  items-start overflow-scroll bg-white">
               <NavBigOptionsTab />
             </div>
 
-            <div className="flex h-24 w-full items-center bg-gray-100 px-4">
+            <div className="flex h-24 w-full items-center bg-gray-100 px-4 shrink-0">
               {footerSocialMedia.map((item) => (
                 <a
                   href={item.link}
@@ -200,7 +200,7 @@ function Header(): any {
               className="group/btn flex cursor-pointer flex-col items-center"
             >
               {item.icon}
-              <p className=" -mt-3 font-body text-base font-medium text-stone-800  group-hover/btn:text-emerald-500 duration-300">
+              <p className=" -mt-3 font-body text-base  text-stone-800  group-hover/btn:text-emerald-500 duration-300">
                 {item.name}
               </p>
             </span>
@@ -208,7 +208,7 @@ function Header(): any {
 
           <span className="group/btn flex cursor-pointer flex-col items-center justify-center">
             <i className="fa-solid fa-magnifying-glass mt-3 text-gray-700 group-hover/btn:text-emerald-500 duration-300" />
-            <p className="mt-1 font-body text-base font-medium text-stone-800 hover:text-emerald-500 group-hover/btn:text-emerald-500 duration-300">
+            <p className="mt-1 font-body text-base  text-stone-800 hover:text-emerald-500 group-hover/btn:text-emerald-500 duration-300">
               Search
             </p>
           </span>
