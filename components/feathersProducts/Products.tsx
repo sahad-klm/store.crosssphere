@@ -12,52 +12,33 @@ type Props = {
 };
 export const Products: React.FC | any = ({ swiperRef }: any) => {
   const [isClickedOnThisOne, setIsClickedOnThisOne] = useState<Key>();
-  const [windowWidth, setWindowWidth] = useState<number | any>();
-
-  const swiperPrev: any = () => {
-    if (windowWidth > 1100) {
-      return windowWidth / 130;
-    } else if (windowWidth > 768) {
-      return 6;
-    } else if (windowWidth > 640) {
-      return 5;
-    } 
-    else if (windowWidth > 540) {
-      return 4;
-    } else if (windowWidth > 340) {
-      return 3;
-    } else if (windowWidth < 340) {
-      return 2;
-    }
-
-   
-  };
-  console.log(swiperPrev());
-  
-
-  
-
-  React.useMemo(() => swiperPrev(), [windowWidth]);
+  const [windowWidth, setWindowWidth] = useState<number>(2);
 
   React.useEffect(() => {
-    if(typeof window !== undefined ) {
-
+    if (typeof window !== undefined) {
       window.addEventListener('resize', () => {
-        setWindowWidth(window.innerWidth);
+        if (window.innerWidth > 1100) {
+          return setWindowWidth(window.innerWidth / 130);
+        } else if (window.innerWidth > 768) {
+          return setWindowWidth(6);
+        } else if (window.innerWidth > 640) {
+          return setWindowWidth(5);
+        } else if (window.innerWidth > 540) {
+          return setWindowWidth(4);
+        } else if (window.innerWidth > 340) {
+          return setWindowWidth(3);
+        } else if (window.innerWidth < 340) {
+          return setWindowWidth(2);
+        }
       });
-      
-      setWindowWidth(window.innerWidth)
-      
-      return window.removeEventListener('resize',() => setWindowWidth(windowWidth))
     }
   }, []);
-
 
   return (
     <div className="flex w-full items-center justify-center">
       <Swiper
         spaceBetween={25}
-        slidesPerView={swiperPrev()}
+        slidesPerView={windowWidth}
         onBeforeInit={(swiper) => {
           swiperRef.current = swiper;
         }}
