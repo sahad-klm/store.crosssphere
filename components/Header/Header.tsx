@@ -128,7 +128,7 @@ function Header(): any {
       {/*  tab navbar */}
 
       <nav className="fixed top-0 z-50 flex w-full flex-col lg:hidden">
-        <div className="flex h-16 w-full items-center justify-between border-b-[1px] border-solid border-gray-700 border-opacity-20 bg-white py-4 px-4 sm:h-24">
+        <div className="flex h-20 w-full items-center justify-between border-b-[1px] border-solid border-gray-700 border-opacity-20 bg-white py-4 px-4 sm:h-24">
           <i
             onClick={() => setBrowseAllCategory(true)}
             className="fa-solid fa-bars-staggered w-22 cursor-pointer text-2xl text-gray-700 sm:w-28 sm:text-3xl"
