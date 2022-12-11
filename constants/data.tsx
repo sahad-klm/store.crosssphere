@@ -362,14 +362,14 @@ export const homeComponentBig = [
   {
     id: 1,
     picture:
-      '970b8f66-193e-4546-a78e-abb98b57aabb.webp',
+      'https://i.pinimg.com/originals/70/83/fe/7083fece988b641d8d427ca4f9947059.jpg',
     title: "Don't miss amazing grossly deals",
     subtitle: 'Sign up for daily newsletter',
   },
   {
     id: 2,
     picture:
-    'Untitled(1)dddddd.webp',
+    'https://www.wallpaperuse.com/wallp/63-634911_m.jpg',
     title: 'ivde onnul setta valla apnim',
     subtitle: 'Sign up for become a fool',
   },

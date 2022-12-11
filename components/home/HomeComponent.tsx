@@ -34,7 +34,7 @@ const HomeComponent = (): any => {
             <SwiperSlide key={item.id} style={{width:'100%', height:'100%'}} >
               <div
                 
-                className="relative rounded-3xl overflow-hidden h-full z-auto grid content-start md:pl-20 sm:p-10 p-4"
+                className="relative rounded-3xl overflow-hidden h-full z-auto grid content-center md:pl-20 sm:p-10 p-4"
               >
                 <img
                   className="-z-10 h-full w-full object-cover absolute top-0 left-0"
