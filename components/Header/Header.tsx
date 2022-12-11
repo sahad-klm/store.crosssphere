@@ -190,7 +190,7 @@ function Header(): any {
         whileInView="show"
         variants={textVariant(0.01, 0.01)}
         className={`fixed ${
-          bottomHide && !browseAllCategory ? 'flex' : 'hidden'
+          bottomHide && !browseAllCategory ? 'md:hidden flex' : 'hidden'
         } bottom-0  z-[100] w-full items-center justify-between border-t-[1px] border-solid border-gray-700 border-opacity-40 bg-white  p-1 px-4 shadow-2xl duration-300`}
       >
         <div className="flex w-full  flex-row justify-between">

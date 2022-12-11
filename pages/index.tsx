@@ -13,15 +13,6 @@ import { footerSocialMedia } from 'constants/data';
 
 import {CallIcon} from "constants/icon";
 
-export async function getStaticProps() {
-  return {
-    props: {
-      heading: 'The best headlines around!',
-      details: 'This response is static.',
-    },
-  };
-}
-
 
 export default function Home(): any {
   return (
