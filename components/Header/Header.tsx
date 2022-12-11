@@ -138,8 +138,9 @@ function Header(): any {
             className={`
           left-0 bottom-0 z-50 flex min-h-full min-w-[80%]  flex-col justify-between  bg-white sm:min-w-[350px]`}
           >
-            <div className="relative flex items-center justify-center bg-gray-100 p-5 pt-20">
-              <h1 className="font-head text-h3 text-slate-800">
+            <div className="relative flex items-center justify-center bg-gray-100 p-5 pt-20 bg-tabNav">
+              
+              <h1 className="font-head text-h3 text-slate-100">
                 Loganstic shad
               </h1>
               <i

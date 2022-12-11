@@ -21,16 +21,21 @@ export const Products: React.FC | any = ({ swiperRef }: any) => {
       return 6;
     } else if (windowWidth > 640) {
       return 5;
-    } else if (windowWidth > 540) {
+    } 
+    else if (windowWidth > 540) {
       return 4;
-    } else if (windowWidth > 440) {
-      return 3;
     } else if (windowWidth > 340) {
+      return 3;
+    } else if (windowWidth < 340) {
       return 2;
-    } else if (windowWidth < 350) {
-      return 1;
     }
+
+   
   };
+  console.log(swiperPrev());
+  
+
+  
 
   React.useMemo(() => swiperPrev(), [windowWidth]);
 

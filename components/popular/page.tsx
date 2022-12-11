@@ -43,7 +43,7 @@ const PopularProducts = ():any => {
             <div  className='md:hidden flex'>
             <p
               onClick={() => setToggleOn(!toggleOn)}
-              className="cursor-pointer font-head text-sm leading-3 text-gray-800 md:text-base"
+              className="cursor-pointer font-head  leading-3 text-gray-800 text-xl"
               >
               {isSelectedCatN}
               <i className="fa-solid fa-chevron-down relative ml-2 text-gray-800 duration-700" />
