@@ -70,7 +70,7 @@ export const NavBigOptionsTab = () => {
   return (
     <ul className="relative flex w-full flex-col">
       {navbarLastCategory?.map((item: any) => (
-        <>
+        <React.Fragment key={item.id}>
           <li
             onClick={() => setNaveOptionSwitch(item.name)}
             key={item.id}
@@ -152,7 +152,7 @@ export const NavBigOptionsTab = () => {
               </ul>
             </>
           )}
-        </>
+        </React.Fragment>
         //
       ))}
     </ul>
