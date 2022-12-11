@@ -77,6 +77,11 @@
   border: 1px solid black;
   background-color: transparent;
 }
+@media (max-width: 640px) {
+  .swiper .swiper-pagination-bullet {
+    display: none;
+  }
+}
 
 .swiper .swiper-pagination-bullet-active {
   border: 1px solid transparent;
