@@ -9,15 +9,14 @@ export const Products: any = ({ swiperRef }: any) => {
         <ProductsInOneLine swiperRef={swiperRef} slidesPerView={10} />
       </div>
 
-
-      <div className="w-full items-center justify-center hidden lapHide">
+      <div className="w-full items-center justify-center lapHide">
         <ProductsInOneLine swiperRef={swiperRef} slidesPerView={8} />
       </div>
-      <div className="hidden w-full items-center justify-center tabHide">
+      <div className="w-full items-center justify-center tabHide">
         <ProductsInOneLine swiperRef={swiperRef} slidesPerView={6} />
       </div>
 
-      <div className="hidden w-full items-center justify-center  mobileHide">
+      <div className="w-full items-center justify-center mobileHide">
         <ProductsInOneLine swiperRef={swiperRef} slidesPerView={3} />
       </div>
       <div className="flex w-full items-center justify-center sm:hidden ">

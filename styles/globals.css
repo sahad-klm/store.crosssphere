@@ -112,35 +112,44 @@
     margin-top:  100px;
   }
 }
+.mobileHide {
+  display: none;
+}
+
 @media (max-width: 768px) {
   .mobileHide {
     display: flex;
   }
 }
-@media (min-width: 640px) {
+@media (max-width: 640px) {
   .mobileHide {
     display: none;
   }
  
+}
+.tabHide {
+  display: none;
 }
 @media (max-width: 1024px) {
   .tabHide {
     display: flex;
   }
 }
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   .tabHide {
     display: none;
   }
  
 }
-
+.lapHide {
+  display: none;
+}
 @media (max-width: 1280px) {
   .lapHide {
     display: flex;
   }
 }
-@media (min-width: 1024px) {
+@media (max-width: 1024px) {
   .lapHide {
     display: none;
   }

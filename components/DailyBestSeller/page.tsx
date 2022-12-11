@@ -5,6 +5,7 @@ import React from 'react';
 import { Navigation, Scrollbar } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { ButtonShopNow } from '@/ui/button';
+import DailyBestSellerInOneLine from './[dailyDestSellwrSlug]/DailyBestSellerInOneLine';
 
 const DailyBestSeller = (): any => {
   const [isSelectedCatN, setIsSelectedCatN] = React.useState(
@@ -16,12 +17,12 @@ const DailyBestSeller = (): any => {
   const [windowWidth, setWindowWidth] = React.useState<number | any>();
 
   const swiperPrev: number | any = () => {
-    if (windowWidth > 1300) return 5
-    else if (windowWidth > 1200) return 4
-    else if (windowWidth > 978) return 3
-    else if (windowWidth > 788) return 2
-    else if (windowWidth > 768) return 1
-    else if (windowWidth < 768) return 1
+    if (windowWidth > 1300) return 5;
+    else if (windowWidth > 1200) return 4;
+    else if (windowWidth > 978) return 3;
+    else if (windowWidth > 788) return 2;
+    else if (windowWidth > 768) return 1;
+    else if (windowWidth < 768) return 1;
   };
 
   React.useEffect(() => {
@@ -88,27 +89,43 @@ const DailyBestSeller = (): any => {
           </h1>
           <ButtonShopNow paddingAndStyle="px-3 py-2" value="Shop Now" />
         </div>
-        <Swiper
-          modules={[Navigation, Scrollbar]}
-          spaceBetween={25}
-          slidesPerView={swiperPrev()}
-          navigation
-          autoplay={{ delay: 5000 }}
-          className="w-full"
-        >
-          {popularProducts?.map((item) => (
-            <SwiperSlide key={item.id}>
-              <OneProductWithOffer
-                {...item}
-                setMouseOver={setMouseOver}
-                mouseOver={mouseOver}
-                buttonStyle="add-to-cart"
-                classNameForTotal="max-w-full md:h-full h-full"
-                classNameForPic="h-[37vh]"
-              />
-            </SwiperSlide>
-          ))}
-        </Swiper>
+        <div className=" w-full items-center justify-center xl:flex hidden">
+        <DailyBestSellerInOneLine
+            mouseOver={mouseOver}
+            setMouseOver={setMouseOver}
+            slidesPerView={5}
+          />
+      </div>
+
+        <div className="lapHide w-full items-center justify-center">
+          <DailyBestSellerInOneLine
+            mouseOver={mouseOver}
+            setMouseOver={setMouseOver}
+            slidesPerView={4}
+          />
+        </div>
+        <div className="tabHide w-full items-center justify-center">
+        <DailyBestSellerInOneLine
+            mouseOver={mouseOver}
+            setMouseOver={setMouseOver}
+            slidesPerView={3}
+          />
+        </div>
+
+        <div className="mobileHide w-full items-center justify-center">
+        <DailyBestSellerInOneLine
+            mouseOver={mouseOver}
+            setMouseOver={setMouseOver}
+            slidesPerView={1}
+          />
+        </div>
+        <div className="flex w-full items-center justify-center sm:hidden ">
+        <DailyBestSellerInOneLine
+            mouseOver={mouseOver}
+            setMouseOver={setMouseOver}
+            slidesPerView={1}
+          />
+        </div>
       </div>
     </div>
   );
