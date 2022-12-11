@@ -93,9 +93,9 @@ export const Products: React.FC | any = ({ swiperRef }: any) => {
             infiniteLoop={true}
             // autoPlay={true}
             // interval={3000}
-            useKeyboardArrows={true}
+            // useKeyboardArrows={true}
 
-            className='flex flex-row bg-slate-400 w-full'
+            className='flex flex-row bg-slate-400 h-10 gap-5'
             >
         {fracturedProducts?.map((item: Props, ind) => (
         

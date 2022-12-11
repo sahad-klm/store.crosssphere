@@ -61,7 +61,7 @@ const HomeComponent = (): any => {
                   initial="hidden"
                   whileInView="show"
                   viewport={{ once: false, amount: 0.25 }}
-                  className="relative sm:mt-10 mt-5 flex h-16 flex-row  items-center overflow-hidden rounded-full bg-white md:w-[600px] w-[95%]"
+                  className="relative sm:mt-10 mt-5 flex h-20 flex-row  items-center overflow-hidden rounded-full bg-white md:w-[450px] w-[95%]"
                 >
                   <Icon className="ml-1 mr-2 h-4 fill-gray-700 md:ml-6 md:mr-4" />
                   <input
