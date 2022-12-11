@@ -15,7 +15,7 @@ const HomeComponent = (): any => {
   return (
     <div
      
-      className=" pt-12 px-4 flex justify-center items-center overflow-hidden relative h-[540px]  z-10"
+      className=" md:pt-12 px-4 pt-20 flex justify-center items-center overflow-hidden relative h-[540px]  z-10"
     >
       <Swiper
         modules={[Navigation, Pagination, Scrollbar, Autoplay]}
