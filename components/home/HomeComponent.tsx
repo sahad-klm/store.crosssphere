@@ -66,7 +66,7 @@ const HomeComponent = (): any => {
                   viewport={{ once: false, amount: 0.25 }}
                   className="flex flex-row bg-white sm:max-w-[50%] overflow-hidden  rounded-full h-14 items-center mt-10 relative"
                 >
-                  <Icon className="h-4 ml-6 mr-4 fill-gray-700" />
+                  <Icon className="h-4 md:ml-6 ml-1 md:mr-4 mr-2 fill-gray-700" />
                   <input
                     type="text"
                     placeholder="Your email address"
