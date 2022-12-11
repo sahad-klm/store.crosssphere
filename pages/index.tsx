@@ -36,7 +36,7 @@ export default function Home(): any {
       <Feathers />
       <Footer />
 
-      <div className="md:mt-[50px] mt-10 flex md:flex-row flex-col items-center md:justify-between justify-center md:gap-5 gap-4 border-t border-emerald-300 px-4 py-6 ">
+      <div className="mt-[50px] flex md:flex-row flex-col items-center md:justify-between justify-center md:gap-5 gap-4 border-t border-emerald-300 px-4 py-6 ">
         <p className="font-body md:text-base text-sm text-gray-500 cursor-default select-none md:text-left text-center">
           © 2022, <span className="text-emerald-500">Nest</span>- Copied from
           Boostify themes <br/>
@@ -54,7 +54,7 @@ export default function Home(): any {
               </p>
             </div>
           </div>
-          <div className="flex items-center lg:gap-3 gap-2 justify-center">
+          <div className="flex md:items-center items-start lg:gap-3 gap-2 justify-center">
             <CallIcon className=' fill-gray-400 lg:w-10 w-9 lg:h-10 h-9' />
             <div>
               <h1 className="font-head lg:text-[26px] text-emerald-500 text-h5  lg:leading-10 leading-3">
@@ -81,7 +81,7 @@ export default function Home(): any {
             ))}
             </div>
           </div>
-          <p className="mt-[1px] text-right font-body md:text-sm text-xs text-gray-500">
+          <p className="mt-[1px] md:text-right text-center font-body md:text-sm text-xs text-gray-500">
             Upto 15% discount on your first subscribe
           </p>
         </div>

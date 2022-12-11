@@ -16,8 +16,12 @@ const DailyBestSeller = (): any => {
   const [windowWidth, setWindowWidth] = React.useState<number | any>();
 
   const swiperPrev: number | any = () => {
-    if (windowWidth <= 768) return 1;
-    else if (windowWidth > 768) return Math.round((windowWidth - 400) / 300);
+    if (windowWidth > 1300) return 5
+    else if (windowWidth > 1200) return 4
+    else if (windowWidth > 978) return 3
+    else if (windowWidth > 788) return 2
+    else if (windowWidth > 768) return 1
+    else if (windowWidth < 768) return 1
   };
 
   React.useEffect(() => {
