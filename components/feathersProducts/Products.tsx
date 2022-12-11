@@ -1,140 +1,28 @@
 'use client';
-import { fracturedProducts } from 'constants/data';
-import React, { Key, useState } from 'react';
-import { Swiper, SwiperSlide } from 'swiper/react';
-import { Carousel } from 'react-responsive-carousel';
-import "react-responsive-carousel/lib/styles/carousel.min.css";
+import React from 'react';
+import ProductsInOneLine from './[feathersSlug]/productsInOneLine';
 
-
-import { motion } from 'framer-motion';
-type Props = {
-  id: Key;
-  name: string;
-  items: string;
-  picture: string;
-  bg?: string;
-};
-export const Products: React.FC | any = ({ swiperRef }: any) => {
-  const [isClickedOnThisOne, setIsClickedOnThisOne] = useState<Key>();
-  const [windowWidth, setWindowWidth] = useState<number>();
-
-  React.useEffect(() => {
-    if (typeof window !== undefined) {
-      window.addEventListener('resize', () => {
-        if (window.innerWidth > 1440) {
-          return 16;
-        } else if (window.innerWidth > 1100) {
-          return setWindowWidth(Math.round(window.innerWidth / 160));
-        } else if (window.innerWidth > 768) {
-          return setWindowWidth(6);
-        } else if (window.innerWidth > 640) {
-          return setWindowWidth(5);
-        } else if (window.innerWidth > 540) {
-          return setWindowWidth(4);
-        } else if (window.innerWidth < 540) {
-          return setWindowWidth(2);
-        }
-      });
-    }
-  }, [windowWidth]);
-
+export const Products: any = ({ swiperRef }: any) => {
   return (
-    <div className="flex w-full items-center justify-center">
-      {/* <Swiper
-        spaceBetween={25}
-        slidesPerView={windowWidth}
-        onBeforeInit={(swiper) => {
-          swiperRef.current = swiper;
-        }}
-      >
-        {fracturedProducts?.map((item: Props, ind) => (
-          <SwiperSlide
-            key={item.id}
-          >
-            <motion.div
-              whileInView="show"
-              viewport={{ once: true, amount: 0.25 }}
-              initial={{ x: 0 }}
-              animate={{
-                x: -10 * ind,
-                y: 0,
-                scale: 1,
-                rotate: 0,
-              }}
-              className={`bg-${
-                item.bg
-              }-100 flex h-auto w-full flex-col items-center justify-center rounded-md border-[.5px] border-solid border-transparent py-5 lg:h-40 lg:w-28 ${
-                isClickedOnThisOne === item.id &&
-                ' border-emerald-300 shadow-md'
-              } group/edit cursor-pointer transition-all duration-300 hover:border-emerald-300 hover:shadow-md`}
-              onClick={() => setIsClickedOnThisOne(item.id)}
-            >
-              <img
-                src={item.picture}
-                alt=""
-                className="mb-2 w-[90%]  object-contain transition-all duration-700 hover:scale-105 lg:w-20"
-              />
-              <div className="flex flex-col items-center">
-                <h6 className="divide-teal-300 font-head text-sm text-gray-800 transition-all group-hover/edit:text-emerald-500 md:text-base">
-                  {item.name}
-                </h6>
-                <p className="font-body text-xs text-gray-700 md:text-[14px]">
-                  {item.items}
-                </p>
-              </div>
-            </motion.div>
-          </SwiperSlide>
-        ))}
-      </Swiper> */}
+    <>
+      <div className=" w-full items-center justify-center xl:flex hidden">
+        <ProductsInOneLine swiperRef={swiperRef} slidesPerView={10} />
+      </div>
 
-      <Carousel 
-      showThumbs={false}
-            showStatus={false}
-            infiniteLoop={true}
-            // autoPlay={true}
-            // interval={3000}
-            // useKeyboardArrows={true}
 
-            className='flex flex-row bg-slate-400 h-10 gap-5'
-            >
-        {fracturedProducts?.map((item: Props, ind) => (
-        
+      <div className="w-full items-center justify-center hidden lapHide">
+        <ProductsInOneLine swiperRef={swiperRef} slidesPerView={8} />
+      </div>
+      <div className="hidden w-full items-center justify-center tabHide">
+        <ProductsInOneLine swiperRef={swiperRef} slidesPerView={6} />
+      </div>
 
-          <motion.div
-            whileInView="show"
-            viewport={{ once: true, amount: 0.25 }}
-            initial={{ x: 0 }}
-            animate={{
-              x: -10 * ind,
-              y: 0,
-              scale: 1,
-              rotate: 0,
-            }}
-            className={`bg-${
-              item.bg
-            }-100 flex h-auto  flex-col items-center justify-center rounded-md border-[.5px] border-solid border-transparent py-5 lg:h-40 lg:w-28 ${
-              isClickedOnThisOne === item.id && ' border-emerald-300 shadow-md'
-            } group/edit cursor-pointer transition-all duration-300 hover:border-emerald-300 hover:shadow-md`}
-            onClick={() => setIsClickedOnThisOne(item.id)}
-            >
-            <img
-              src={item.picture}
-              alt=""
-              className="mb-2 w-[90%]  object-contain transition-all duration-700 hover:scale-105 lg:w-20"
-              />
-            <div className="flex flex-col items-center">
-              <h6 className="divide-teal-300 font-head text-sm text-gray-800 transition-all group-hover/edit:text-emerald-500 md:text-base">
-                {item.name}
-              </h6>
-              <p className="font-body text-xs text-gray-700 md:text-[14px]">
-                {item.items}
-              </p>
-            </div>
-          </motion.div>
-              
-
-        ))}
-      </Carousel>
-    </div>
+      <div className="hidden w-full items-center justify-center  mobileHide">
+        <ProductsInOneLine swiperRef={swiperRef} slidesPerView={3} />
+      </div>
+      <div className="flex w-full items-center justify-center sm:hidden ">
+        <ProductsInOneLine swiperRef={swiperRef} slidesPerView={2} />
+      </div>
+    </>
   );
 };
