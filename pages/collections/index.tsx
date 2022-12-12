@@ -13,6 +13,7 @@ const index = (data: {
   const pathname = usePathname();
   const { site, page }: any = data;
   const pageName = modulesFinder(pathname);
+  
 
   if (!pageName[0]) {
     return (

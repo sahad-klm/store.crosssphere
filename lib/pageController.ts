@@ -33,7 +33,7 @@ export const pageController = [
   },
   {
     id: 2,
-    page : 'collections',
+    page : '/collections',
     modules : [
       {
         id: 1,

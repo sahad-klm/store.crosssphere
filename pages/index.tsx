@@ -11,6 +11,21 @@ const Home = (data: {
   const { site, page }: any = data;
   const pageName = modulesFinder(pathname)
 
+  if (pageName[0]) {
+    return (
+      <>
+        <div className="mt-52 flex h-full flex-col items-center justify-center">
+          <img
+            src="970b8f66-193e-4546-a78e-abb98b57aabb.webp"
+            alt=""
+            className="h-[500px] object-contain"
+          />
+          <h1 style={{fontSize:'40px' ,color:'red' , fontFamily:'monospace' }}>ibide endo seen ind piine va</h1>
+        </div>
+      </>
+    );
+  }
+
 
   return (
     <Layout site={site} page={page}>
