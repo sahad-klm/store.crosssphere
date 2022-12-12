@@ -1,5 +1,6 @@
 import { Router } from 'next/router';
 import { useEffect, useRef, useState } from 'react';
+import { pageController } from './pageController';
 
 export const isBrowser = typeof window !== 'undefined';
 
@@ -105,4 +106,8 @@ export function isMobileSafari() {
     navigator.userAgent.match(/appleWebKit/)
     ? true
     : false;
+}
+
+export function modulesFinder(pathname: any) {
+  return pageController.filter((item: any) => item.page === pathname && item.modules);
 }

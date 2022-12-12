@@ -8,6 +8,8 @@ import Header from 'components/Header/Header';
 import Footer from 'components/footer/Page';
 import { CallIcon } from '@/lib/icon';
 import { footerSocialMedia } from '@/lib/data';
+import Feathers from 'components/feature/Page';
+import { usePathname } from 'next/navigation';
 
 const pageTransitionAnim = {
   show: {
@@ -34,14 +36,18 @@ const Layout = ({
   schema,
   children,
 }: any): JSX.Element => {
+  const pathName:any = usePathname();
   // set window height var (w/ safari/ios hack)
 
   const { height: windowHeight } = useWindowSize();
   const [lockHeight, setLockHeight] = useState<any>(false);
   const hasChine = isMobileSafari();
+  const [headerHeight, setHeaderHeight] = useState(null);
+
+  // hide features from collection
+  const hideFeatures: boolean = pathName === '/collections' ? false : true;
 
   // set header height
-  const [headerHeight, setHeaderHeight] = useState(null);
 
   useEffect(() => {
     if ((isBrowser && !lockHeight) || !hasChine) {
@@ -77,7 +83,7 @@ const Layout = ({
         <Header />
         <main id="content">{children}</main>
 
-
+        {hideFeatures && <Feathers />}
         <Footer />
         <div className="mt-[50px] flex flex-col items-center justify-center gap-3 border-t border-emerald-300 px-4 py-4 sm:gap-4 md:flex-row md:justify-between md:gap-5 md:py-6  ">
           <p className="cursor-default select-none text-center font-body text-xs text-gray-500 sm:text-sm md:text-left md:text-base">

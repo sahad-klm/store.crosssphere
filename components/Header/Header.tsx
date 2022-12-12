@@ -64,8 +64,6 @@ function Header(): any {
     }
   }, []);
 
-  console.log(usePathname());
-
   return (
     <>
       <nav className="relative top-0 z-50 hidden w-full flex-col lg:flex ">

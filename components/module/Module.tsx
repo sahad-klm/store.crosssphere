@@ -13,32 +13,37 @@ const Module = ({
   product,
   activeVariant,
   onVariantChange,
-}: any): any => {
-  const ModuleType = (data: any): any => {
-    switch (data._type) {
+}: any):JSX.Element | any => {
+
+  console.log(data);
+  
+
+  const ModuleType = (data : any): any => {
+    
+    switch (data?.data) {
       case 'homeContent':
-        return HomeComponent;
+        return <HomeComponent />;
       case 'featuresCategory':
-        return FeathersCategory;
+        return <FeathersCategory />;
       case 'popularProducts':
-        return PopularProducts;
+        return <PopularProducts />;
       case 'dailyBestSeller':
-        return DailyBestSeller;
+        return <DailyBestSeller />;
       case 'dealsOfTheDay':
-        return DealsOfTheDay;
+        return <DealsOfTheDay />;
       case 'footerProducts':
-        return FooterProducts;
+        return <FooterProducts />;
     }
 
-    return (
-      <ModuleType
-        index={index}
-        data={data}
-        product={product}
-        activeVariant={activeVariant}
-        onVariantChange={onVariantChange}
-      />
-    );
   };
+  return (
+    <ModuleType
+      index={index}
+      data={data}
+      product={product}
+      activeVariant={activeVariant}
+      onVariantChange={onVariantChange}
+    />
+  );
 };
 export default Module;
