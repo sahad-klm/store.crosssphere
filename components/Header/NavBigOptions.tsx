@@ -1,5 +1,6 @@
-import { navbarLastCategory } from 'constants/data';
-import { Fire } from 'constants/icon';
+
+import { navbarLastCategory } from '@/lib/data';
+import { Fire } from '@/lib/icon';
 import React, { Key } from 'react';
 
 export function NavBigOptions(): any {

@@ -1,5 +1,5 @@
 import { ButtonShopNow } from "@/ui/button";
-import { fracturedMainProduct } from "constants/data";
+import { fracturedMainProduct } from "@/lib/data";
 import { motion } from "framer-motion";
 
 const MainProducts: React.FC | any = () => {

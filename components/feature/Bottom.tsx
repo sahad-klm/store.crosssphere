@@ -1,4 +1,4 @@
-import { feathersInTotals } from 'constants/data';
+import { feathersInTotals } from '@/lib/data';
 
 export const Bottom = (): JSX.Element => (
   <div className="mt-[50px] grid w-full md:gap-5 gap-4 sm:grid-cols-2 lg:grid-cols-4 xl:grid-cols-5">

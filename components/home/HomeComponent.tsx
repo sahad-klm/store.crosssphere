@@ -7,9 +7,9 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
-import { Icon } from 'constants/icon';
-import { homeComponentBig } from 'constants/data';
+import { Icon } from '@/lib/icon';
 import { Key } from 'react';
+import { homeComponentBig } from '@/lib/data';
 
 const HomeComponent = (): any => {
   return (

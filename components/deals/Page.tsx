@@ -1,4 +1,5 @@
-import { popularProducts } from 'constants/data';
+
+import { popularProducts } from '@/lib/data';
 import React from 'react';
 import ProductWithTimer from './ProductWithTimer';
 

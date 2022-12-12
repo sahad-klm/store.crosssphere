@@ -1,4 +1,4 @@
-import { feathersInTotals } from 'constants/data';
+import { feathersInTotals } from '@/lib/data';
 import React from 'react';
 import { Bottom } from './Bottom';
 import Top from './Top';

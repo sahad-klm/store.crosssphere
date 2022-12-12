@@ -1,7 +1,7 @@
 'use client';
 import { OneProductWithOffer } from '@/ui/OneProductWithOffer';
 import { TextCategory, TextCategoryMob } from '@/ui/TextCategory';
-import { popularProductCategory, popularProducts } from 'constants/data';
+import { popularProductCategory, popularProducts } from '@/lib/data';
 import React from 'react';
 
 type Props = {

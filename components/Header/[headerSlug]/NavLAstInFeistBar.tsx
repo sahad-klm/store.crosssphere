@@ -1,5 +1,6 @@
-import React from 'react';
-import { lastOneInNav } from 'constants/data';
+import { lastOneInNav } from '@/lib/data';
+import React from "react";
+
 
 export const NavLAstInFeistBar = () => (
   <div className="ml-4 flex flex-row gap-2">

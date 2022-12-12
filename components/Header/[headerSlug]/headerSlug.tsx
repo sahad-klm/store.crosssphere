@@ -1,5 +1,5 @@
-import { BrowseAllCategories } from 'constants/data';
-import { GridApps } from 'constants/icon';
+import { BrowseAllCategories } from '@/lib/data';
+import { GridApps } from '@/lib/icon';
 import React from 'react';
 
 const BrowseAllButton = ({browseAllCategory, setBrowseAllCategory}:any):JSX.Element => {

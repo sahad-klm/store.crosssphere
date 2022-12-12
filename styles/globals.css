@@ -13,6 +13,38 @@
   font-family: Lato, sans-serif;
   
 }
+html {
+  & is-loading, & is-loading * {
+    @apply cursor-wait !important;
+  };
+}
+
+.drawer {
+  @apply fixed top-0 w-full h-screen max-w-3xl z-[9] invisible pointer-events-none;
+  height: calc(var(--vh, 1vh) * 100);
+  will-change: transform;
+  transition: visibility 0.2s 0.8s;
+}
+
+a,
+button,
+input,
+textarea,
+select,
+details {
+  &:focus {
+    outline: 1px dashed var(--pageText);
+    outline-offset: 2px;
+
+    .is-inverted & {
+      outline-color: var(--pageBG);
+    }
+    
+    body:not(.is-tabbing) & {
+      outline: none;
+    }
+  }
+}
 
 .font-head {
   font-family: Quicksand, sans-serif;

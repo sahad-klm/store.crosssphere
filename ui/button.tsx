@@ -1,4 +1,4 @@
-import { Icon } from 'constants/icon';
+import { Icon } from '@/lib/icon';
 
 const ButtonShopNow = ({ paddingAndStyle, value }: any): any => {
   return (

@@ -1,11 +1,11 @@
 import { OneProductWithOffer } from '@/ui/OneProductWithOffer';
 import { TextCategoryMob, TextCategory } from '@/ui/TextCategory';
-import { dailyBestSellerCategory, popularProducts } from 'constants/data';
 import React from 'react';
 import { Navigation, Scrollbar } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { ButtonShopNow } from '@/ui/button';
 import DailyBestSellerInOneLine from './[dailyDestSellwrSlug]/DailyBestSellerInOneLine';
+import { dailyBestSellerCategory, popularProducts } from '@/lib/data';
 
 const DailyBestSeller = (): any => {
   const [isSelectedCatN, setIsSelectedCatN] = React.useState(

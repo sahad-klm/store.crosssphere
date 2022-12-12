@@ -1,7 +1,7 @@
 import { OneProductLeftPicRightDetail } from '@/ui/OneProductWithOffer';
 import RateOfProduct from '@/ui/rate';
 import { Rating } from '@/ui/rating';
-import { popularProducts } from 'constants/data';
+import { popularProducts } from '@/lib/data';
 import React from 'react';
 
 const FooterProducts = (): JSX.Element | any => {

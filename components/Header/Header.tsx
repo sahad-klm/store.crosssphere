@@ -11,7 +11,8 @@ import SearchBar from './[headerSlug]/searchBar';
 import { motion } from 'framer-motion';
 import { slideIn, textVariant, textVariant2 } from 'utils/motion';
 import { NavBigOptionsTab, NavBigOptions } from './NavBigOptions';
-import { footerSocialMedia, lastOneInNav } from 'constants/data';
+import { footerSocialMedia, lastOneInNav } from '@/lib/data';
+import { usePathname } from 'next/navigation';
 
 function Header(): any {
   const [searchOption, setSearchOption] = useState<string | any>(
@@ -62,6 +63,8 @@ function Header(): any {
       window.addEventListener('scroll', () => scrollFunction());
     }
   }, []);
+
+  console.log(usePathname());
 
   return (
     <>

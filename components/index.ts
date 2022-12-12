@@ -1,6 +1,6 @@
 import Header  from './Header/Header'
 import HomeComponent  from './home/HomeComponent'
-import NavBigOptions  from './Header/NavBigOptions'
+import {NavBigOptions}  from './Header/NavBigOptions'
 import FeathersCategory  from './feathersProducts/Page'
 import PopularProducts  from './popular/page'
 import DailyBestSeller from './DailyBestSeller/page'

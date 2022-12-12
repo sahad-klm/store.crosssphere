@@ -1,4 +1,4 @@
-import { Icon } from 'constants/icon';
+import { Icon } from '@/lib/icon';
 
 import React from 'react';
 import { ButtonAdd, ButtonAddToCart } from './button';

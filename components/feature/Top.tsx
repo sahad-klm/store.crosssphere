@@ -1,4 +1,4 @@
-import { Icon } from 'constants/icon';
+import { Icon } from '@/lib/icon';
 
 const Top = (): JSX.Element => (
   <div className="relative z-10  block w-full overflow-hidden rounded-xl bg-emerald-200 p-4 md:p-10 lg:p-20">

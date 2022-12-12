@@ -7,8 +7,8 @@ import {
   footerCompany,
   footerCoparent,
   footerInformation,
-} from 'constants/data';
-import { Icon } from 'constants/icon';
+} from '@/lib/data';
+import { Icon } from '@/lib/icon';
 import React from 'react';
 const Footer = () => {
   const [footerToggle, setFooterToggle] = React.useState<string | any>('');

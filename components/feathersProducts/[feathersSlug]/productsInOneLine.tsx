@@ -2,7 +2,7 @@
 import React from 'react';
 import { SwiperSlide, Swiper } from 'swiper/react';
 import { motion } from 'framer-motion';
-import { fracturedProducts } from 'constants/data';
+import { fracturedProducts } from '@/lib/data';
 
 type Props = {
   id: React.Key;

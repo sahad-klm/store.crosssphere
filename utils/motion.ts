@@ -1,3 +1,4 @@
+export const pageTransitionSpeed = 300
 export const navVariants = {
   hidden: {
     opacity: 0,

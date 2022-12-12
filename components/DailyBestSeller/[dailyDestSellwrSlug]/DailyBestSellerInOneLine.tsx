@@ -1,5 +1,5 @@
+import { popularProducts } from '@/lib/data';
 import { OneProductWithOffer } from '@/ui/OneProductWithOffer';
-import { popularProducts } from 'constants/data';
 import React from 'react';
 import { Navigation, Scrollbar } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
