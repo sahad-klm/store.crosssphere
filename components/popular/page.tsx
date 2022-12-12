@@ -15,13 +15,12 @@ type Props = {
   bacPicture?: string | any;
 };
 
-const PopularProducts = ():any => {
+const PopularProducts = (): any => {
   const [isSelectedCatN, setIsSelectedCatN] = React.useState<any>(
     popularProductCategory[0].name,
   );
   const [mouseOver, setMouseOver] = React.useState<any>();
   const [toggleOn, setToggleOn] = React.useState<boolean | any>(false);
-
 
   return (
     <div className="mt-[50px] flex w-full flex-col items-center justify-center overflow-hidden px-4">
@@ -30,38 +29,40 @@ const PopularProducts = ():any => {
           Popular Products
         </h4>
         <div>
-          <div className='md:flex hidden flex-row flex-wrap gap-4'>
-          {popularProductCategory?.map((item: { id: React.Key|any; name: any }) => (
-            <TextCategory
-            key={item.id}
-            {...item}
-            isSelectedCatN={isSelectedCatN}
-            setIsSelectedCatN={setIsSelectedCatN}
-            />
-            ))}
-            </div>
-            <div  className='md:hidden flex'>
+          <div className="hidden flex-row flex-wrap gap-4 md:flex">
+            {popularProductCategory?.map(
+              (item: { id: React.Key | any; name: any }) => (
+                <TextCategory
+                  key={item.id}
+                  {...item}
+                  isSelectedCatN={isSelectedCatN}
+                  setIsSelectedCatN={setIsSelectedCatN}
+                />
+              ),
+            )}
+          </div>
+          <div className="flex md:hidden">
             <p
               onClick={() => setToggleOn(!toggleOn)}
-              className="cursor-pointer font-head  leading-3 text-gray-800 text-xl"
-              >
+              className="cursor-pointer font-head  text-xl leading-3 text-gray-800"
+            >
               {isSelectedCatN}
               <i className="fa-solid fa-chevron-down relative ml-2 text-gray-800 duration-700" />
             </p>
             {toggleOn && (
               <TextCategoryMob
-              setToggleOn={setToggleOn}
-              list={popularProductCategory}
-              isSelectedCatN={isSelectedCatN}
-              setIsSelectedCatN={setIsSelectedCatN}
+                setToggleOn={setToggleOn}
+                list={popularProductCategory}
+                isSelectedCatN={isSelectedCatN}
+                setIsSelectedCatN={setIsSelectedCatN}
               />
-              )}
-              </div>
+            )}
+          </div>
         </div>
       </div>
 
       <div
-        className="flex w-full flex-row gap-5 overflow-x-scroll md:overflow-visible md:grid md:grid-cols-3 md:justify-center lg:grid-cols-5 
+        className="flex w-full flex-row md:flex-wrap justify-start gap-5 overflow-x-scroll md:grid-cols-3  md:overflow-visible lg:grid-cols-5 
     "
       >
         {popularProducts?.map((item: Props) => (
@@ -71,8 +72,8 @@ const PopularProducts = ():any => {
             key={item.id}
             {...item}
             buttonStyle="add"
+            classNameForTotal=" w-[270px] h-[483px] mx-auto"
             classNameForPic="p-4  "
-            classNameForTotal=' w-[270px] h-[483px]'
           />
         ))}
       </div>
