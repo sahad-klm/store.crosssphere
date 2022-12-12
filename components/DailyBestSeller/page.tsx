@@ -42,7 +42,7 @@ const DailyBestSeller = (): any => {
   return (
     <div className="z-1 relative mt-10 flex w-full flex-col items-start  justify-center overflow-hidden px-4 md:mt-[50px]">
       <div className="mb-7 flex w-full items-center justify-between">
-        <h4 className="mr-4 shrink-0 font-head text-[28px] text-gray-800 md:text-[32px]">
+        <h4 className="mr-4  font-head text-[28px] text-gray-800 md:text-[32px]">
           Daily best sells
         </h4>
         <div className="flex flex-row flex-wrap gap-4">

@@ -25,7 +25,7 @@ const PopularProducts = (): any => {
   return (
     <div className="mt-[50px] flex w-full flex-col items-center justify-center overflow-hidden px-4">
       <div className="mb-7 flex w-full items-center justify-between">
-        <h4 className="mr-4 shrink-0 font-head text-[28px] text-gray-800 md:text-[32px]">
+        <h4 className="mr-4  font-head text-[28px] text-gray-800 md:text-[32px]">
           Popular Products
         </h4>
         <div>
