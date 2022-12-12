@@ -30,7 +30,6 @@ const HeadSEO = ({ site = {}, page = {}, schema }: any) => {
         rel="stylesheet"
         href="https://cdn.lineicons.com/3.0/lineicons.css"
       />
-      <script src="https://cdn.tailwindcss.com" />
       <link
         rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
@@ -38,6 +37,7 @@ const HeadSEO = ({ site = {}, page = {}, schema }: any) => {
         crossOrigin="anonymous"
         referrerPolicy="no-referrer"
       />
+      <script src="https://cdn.tailwindcss.com" />
     </Head>
   );
 };
