@@ -11,12 +11,13 @@ import {
 } from 'components';
 import { footerSocialMedia } from 'constants/data';
 
-import {CallIcon} from "constants/icon";
-
+import { CallIcon } from 'constants/icon';
 
 export default function Home(): any {
+
+
   return (
-    <main className='w-full max-w-[1440px] grid mx-auto'>
+    <main className="mx-auto grid w-full max-w-[1440px]">
       <Header />
       <HomeComponent />
       <FeathersCategory />
@@ -27,52 +28,57 @@ export default function Home(): any {
       <Feathers />
       <Footer />
 
-      <div className="mt-[50px] flex md:flex-row flex-col items-center md:justify-between justify-center md:gap-5 sm:gap-4 gap-3 border-t border-emerald-300 px-4 md:py-6 py-4  ">
-        <p className="font-body md:text-base sm:text-sm text-xs text-gray-500 cursor-default select-none md:text-left text-center">
+      <div className="mt-[50px] flex flex-col items-center justify-center gap-3 border-t border-emerald-300 px-4 py-4 sm:gap-4 md:flex-row md:justify-between md:gap-5 md:py-6  ">
+        <p className="cursor-default select-none text-center font-body text-xs text-gray-500 sm:text-sm md:text-left md:text-base">
           © 2022, <span className="text-emerald-500">Nest</span>- Copied from
-          Boostify themes <br/>
+          Boostify themes <br />
           No rights reserved
         </p>
-        <div className="flex lg:flex-row xl:gap-10 lg:gap-5 sm:gap-3 gap-1 flex-col">
-          <div className="flex items-center lg:gap-3 gap-2">
-          <CallIcon className=' fill-gray-400 lg:w-10 sm:w-9 lg:h-10 sm:h-9 h-7 w-7' />
+        <div className="flex flex-col gap-1 sm:gap-3 lg:flex-row lg:gap-5 xl:gap-10">
+          <div className="flex items-center gap-2 lg:gap-3">
+            <CallIcon className=" h-7 w-7 fill-gray-400 sm:h-9 sm:w-9 lg:h-10 lg:w-10" />
             <div>
-              <h1 className="font-head md:text-[26px]  text-emerald-500 sm:text-h5 text-base  lg:leading-10 leading-3">
-                1900 - 6666 - 
+              <h1 className="font-head text-base  leading-3 text-emerald-500 sm:text-h5  md:text-[26px] lg:leading-10">
+                1900 - 6666 -
               </h1>
-              <p className="font-body lg:text-xs  sm:text-[10px] text-[8px] tracking-widest text-gray-500">
+              <p className="font-body text-[8px]  tracking-widest text-gray-500 sm:text-[10px] lg:text-xs">
                 Working 8: 00 - 2: 00
               </p>
             </div>
           </div>
-          <div className="flex md:items-center items-start lg:gap-3 gap-2 justify-center">
-            <CallIcon className=' fill-gray-400 lg:w-10 sm:w-9 lg:h-10 sm:h-9 h-7 w-7' />
+          <div className="flex items-start justify-center gap-2 md:items-center lg:gap-3">
+            <CallIcon className=" h-7 w-7 fill-gray-400 sm:h-9 sm:w-9 lg:h-10 lg:w-10" />
             <div>
-              <h1 className="font-head lg:text-[26px] text-emerald-500  sm:text-h5 text-base  lg:leading-10 leading-3">
+              <h1 className="font-head text-base leading-3  text-emerald-500 sm:text-h5  lg:text-[26px] lg:leading-10">
                 1900 - 6666
               </h1>
-              <p className="font-body lg:text-xs  sm:text-[10px] text-[8px] tracking-widest text-gray-500">
+              <p className="font-body text-[8px]  tracking-widest text-gray-500 sm:text-[10px] lg:text-xs">
                 Working 8: 00 - 2: 00
               </p>
             </div>
           </div>
         </div>
         <div>
-          <div className="inline-flex w-full items-end justify-center lg:gap-4 gap-2 lg:flex-row md:flex-col flex-row">
-            <h3 className="font-head md:text-base sm:text-sm text-xs text-gray-700">Follows us</h3>
-            <div className='flex sm:gap-2 gap-1'>
-            {footerSocialMedia?.map((item) => (
-              <a
-                key={item.id}
-                href={item.link}
-                className="grid sm:h-7 sm:w-7 h-5 w-5 shrink-0 place-content-center rounded-full bg-emerald-500 duration-300 hover:bg-lime-400"
+          <div className="inline-flex w-full flex-row items-end justify-center gap-2 md:flex-col lg:flex-row lg:gap-4">
+            <h3 className="font-head text-xs text-gray-700 sm:text-sm md:text-base">
+              Follows us
+            </h3>
+            <div className="flex gap-1 sm:gap-2">
+              {footerSocialMedia?.map((item) => (
+                <a
+                  key={item.id}
+                  href={item.link}
+                  className="grid h-5 w-5 shrink-0 place-content-center rounded-full bg-emerald-500 duration-300 hover:bg-lime-400 sm:h-7 sm:w-7"
                 >
-                <i className={`${item.icon} text-white sm:text-base text-xs`} title={item.name} />
-              </a>
-            ))}
+                  <i
+                    className={`${item.icon} text-xs text-white sm:text-base`}
+                    title={item.name}
+                  />
+                </a>
+              ))}
             </div>
           </div>
-          <p className="mt-[1px] md:text-right text-center font-body md:text-sm sm:text-xs text-[10px] text-gray-500">
+          <p className="mt-[1px] text-center font-body text-[10px] text-gray-500 sm:text-xs md:text-right md:text-sm">
             Upto 15% discount on your first subscribe
           </p>
         </div>

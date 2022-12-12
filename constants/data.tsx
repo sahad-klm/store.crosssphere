@@ -937,7 +937,7 @@ export const feathersInTotals = [
   },
   {
     id: 2,
-    title: 'Free delivery (when you give 500 as tip)',
+    title: 'Free delivery',
     subtitle: '24/7 amazing service',
     icon: 'https://www.pngfind.com/pngs/m/155-1552084_construction-tools-png-clipart-black-and-white-transparent.png',
   },

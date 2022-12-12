@@ -89,13 +89,13 @@ const DailyBestSeller = (): any => {
           </h1>
           <ButtonShopNow paddingAndStyle="px-3 py-2" value="Shop Now" />
         </div>
-        <div className=" w-full items-center justify-center xl:flex hidden">
-        <DailyBestSellerInOneLine
+        <div className=" hidden w-full items-center justify-center xl:flex">
+          <DailyBestSellerInOneLine
             mouseOver={mouseOver}
             setMouseOver={setMouseOver}
             slidesPerView={5}
           />
-      </div>
+        </div>
 
         <div className="lapHide w-full items-center justify-center">
           <DailyBestSellerInOneLine
@@ -105,7 +105,7 @@ const DailyBestSeller = (): any => {
           />
         </div>
         <div className="tabHide w-full items-center justify-center">
-        <DailyBestSellerInOneLine
+          <DailyBestSellerInOneLine
             mouseOver={mouseOver}
             setMouseOver={setMouseOver}
             slidesPerView={3}
@@ -113,14 +113,14 @@ const DailyBestSeller = (): any => {
         </div>
 
         <div className="mobileHide w-full items-center justify-center">
-        <DailyBestSellerInOneLine
+          <DailyBestSellerInOneLine
             mouseOver={mouseOver}
             setMouseOver={setMouseOver}
             slidesPerView={1}
           />
         </div>
         <div className="flex w-full items-center justify-center sm:hidden ">
-        <DailyBestSellerInOneLine
+          <DailyBestSellerInOneLine
             mouseOver={mouseOver}
             setMouseOver={setMouseOver}
             slidesPerView={1}

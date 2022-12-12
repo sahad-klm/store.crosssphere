@@ -61,7 +61,7 @@ const PopularProducts = ():any => {
       </div>
 
       <div
-        className="flex w-full flex-row gap-5 overflow-x-scroll md:grid md:grid-cols-3 md:justify-center lg:grid-cols-4 
+        className="flex w-full flex-row gap-5 overflow-x-scroll md:overflow-visible md:grid md:grid-cols-3 md:justify-center lg:grid-cols-5 
     "
       >
         {popularProducts?.map((item: Props) => (
@@ -71,7 +71,8 @@ const PopularProducts = ():any => {
             key={item.id}
             {...item}
             buttonStyle="add"
-            classNameForPic="md:h-72 h-[230px] md: auto"
+            classNameForPic="p-4"
+            classNameForTotal='w-[245px]'
           />
         ))}
       </div>

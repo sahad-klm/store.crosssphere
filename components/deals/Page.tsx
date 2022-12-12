@@ -7,7 +7,7 @@ const DealsOfTheDay = () => {
     <div className="mt-[50px] flex w-full flex-col items-center justify-center overflow-hidden  px-4">
       <div className="mb-7 flex w-full items-center justify-between">
         <h4 className="mr-4 shrink-0 font-head md:text-[32px] text-[28px] text-gray-800">
-          Popular Products
+          Deals of the day
         </h4>
         <span className="flex flex-row flex-wrap gap-4 cursor-pointer font-head  md:text-[16px] text-sm text-gray-800">All deals {'>'}</span>
       </div>

@@ -78,7 +78,7 @@ function OneProductWithOffer({
           onMouseOver={() => setMouseOver(id)}
           onMouseLeave={() => setMouseOver('')}
           alt=""
-          className="h-full w-full object-cover"
+          className="h-full w-full object-contain"
         />
 
         <div className="invisible absolute flex h-9 flex-row items-center justify-center rounded border border-emerald-300 bg-white md:group-hover/body:visible">
