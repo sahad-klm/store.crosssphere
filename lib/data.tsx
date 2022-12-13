@@ -4,26 +4,38 @@ type Props = {
   id: number;
   icon: string | any;
   name: string;
+  picture?: string;
+  slug?: string;
+  items?:number,
+  bg?:string
 };
 export const lastOneInNav: Props[] = [
   {
     id: 1,
-    icon: <Spinner className="sm:scale-[.6] scale-[.4] fill-gray-700 hover:fill-emerald-500 group-hover/btn:fill-emerald-500 duration-300" />,
+    icon: (
+      <Spinner className="scale-[.4] fill-gray-700 duration-300 hover:fill-emerald-500 group-hover/btn:fill-emerald-500 sm:scale-[.6]" />
+    ),
     name: 'Compare',
   },
   {
     id: 2,
-    icon: <Love className="sm:scale-[.6] scale-[.4] fill-gray-700 hover:fill-emerald-500 max-sm:-mx-1 group-hover/btn:fill-emerald-500 duration-300" />,
+    icon: (
+      <Love className="scale-[.4] fill-gray-700 duration-300 hover:fill-emerald-500 group-hover/btn:fill-emerald-500 max-sm:-mx-1 sm:scale-[.6]" />
+    ),
     name: 'Wishlist',
   },
   {
     id: 3,
-    icon: <Cart className="sm:scale-[.6] scale-[.5] fill-gray-700 hover:fill-emerald-500 max-sm:-mx-5 group-hover/btn:fill-emerald-500 duration-300" />,
+    icon: (
+      <Cart className="scale-[.5] fill-gray-700 duration-300 hover:fill-emerald-500 group-hover/btn:fill-emerald-500 max-sm:-mx-5 sm:scale-[.6]" />
+    ),
     name: 'Cart',
   },
   {
     id: 4,
-    icon: <User className="sm:scale-[.6] scale-[.6] fill-gray-700 hover:fill-emerald-500 group-hover/btn:fill-emerald-500 duration-300" />,
+    icon: (
+      <User className="scale-[.6] fill-gray-700 duration-300 hover:fill-emerald-500 group-hover/btn:fill-emerald-500 sm:scale-[.6]" />
+    ),
     name: 'Login',
   },
 ];
@@ -35,7 +47,7 @@ export const navbarLastCategory: {
 }[] = [
   {
     id: 1,
-    icon: <Fire className="scale-50 fill-emerald-500  -mr-2" />,
+    icon: <Fire className="-mr-2 scale-50  fill-emerald-500" />,
     name: 'Deals',
   },
   {
@@ -290,71 +302,128 @@ export const BrowseAllCategories: Props[] = [
     id: 1,
     icon: <Icon className="h-7" />,
     name: 'Milks and Dairies',
+    picture: '/favicon.ico',
+    slug : 'milks-and-dairies',
+    bg: '#a7f3d0',
+    items :12,
   },
   {
     id: 2,
     icon: <Icon className="h-7" />,
     name: 'Milks and Dairies',
+    picture: '/favicon.ico',
+    slug : 'milks-and-dairies',
+    bg: '#4f46e5',
+    items :13,
+    
   },
   {
     id: 3,
     icon: <Icon className="h-7" />,
     name: 'Milks and Dairies',
+    picture: '/favicon.ico',
+    slug : 'milks-and-dairies',
+    bg: '#a7f3d0',
+    items :15
   },
   {
     id: 4,
     icon: <Icon className="h-7" />,
     name: 'Milks and Dairies',
+    picture: '/favicon.ico',
+    slug : 'milks-and-dairies',
+    bg: '#a7f3d0',
+    items :17
   },
   {
     id: 5,
     icon: <Icon className="h-7" />,
     name: 'Milks and Dairies',
+    picture: '/favicon.ico',
+    slug : 'milks-and-dairies',
+    bg: '#4f46e5',
+    items :11
   },
   {
     id: 6,
     icon: <Icon className="h-7" />,
     name: 'Milks and Dairies',
+    picture: '/favicon.ico',
+    slug : 'milks-and-dairies',
+    bg: '#a7f3d0',
+    items :16
   },
   {
     id: 7,
     icon: <Icon className="h-7" />,
     name: 'Milks and Dairies',
+    picture: '/favicon.ico',
+    slug : 'milks-and-dairies',
+    bg: '#4f46e5',
+    items :17
   },
   {
     id: 8,
     icon: <Icon className="h-7" />,
     name: 'Milks and Dairies',
+    picture: '/favicon.ico',
+    slug : 'milks-and-dairies',
+    bg: '#a7f3d0',
+    items :18
   },
   {
     id: 9,
     icon: <Icon className="h-7" />,
     name: 'Milks and Dairies',
+    picture: '/favicon.ico',
+    slug : 'milks-and-dairies',
+    bg: '#818cf8',
+    items :11
   },
   {
     id: 10,
     icon: <Icon className="h-7" />,
     name: 'Milks and Dairies',
+    picture: '/favicon.ico',
+    slug : 'milks-and-dairies',
+    bg: '#a7f3d0',
+    items :188
   },
   {
     id: 11,
     icon: <Icon className="h-7" />,
     name: 'Milks and Dairies',
+    picture: '/favicon.ico',
+    slug : 'milks-and-dairies',
+    bg: '#818cf8',
+    items :13
   },
   {
     id: 12,
     icon: <Icon className="h-7" />,
     name: 'Milks and Dairies',
+    picture: '/favicon.ico',
+    slug : 'milks-and-dairies',
+    bg: '#a7f3d0',
+    items :12
   },
   {
     id: 13,
     icon: <Icon className="h-7" />,
     name: 'Milks and Dairies',
+    picture: '/favicon.ico',
+    slug : 'milks-and-dairies',
+    bg: '#a7f3d0',
+    items :16
   },
   {
     id: 14,
     icon: <Icon className="h-7" />,
     name: 'Milks and Dairies',
+    picture: '/favicon.ico',
+    slug : 'milks-and-dairies',
+    bg: '#818cf8',
+    items :18
   },
 ];
 
@@ -368,431 +437,13 @@ export const homeComponentBig = [
   },
   {
     id: 2,
-    picture:
-    'https://www.wallpaperuse.com/wallp/63-634911_m.jpg',
+    picture: 'https://www.wallpaperuse.com/wallp/63-634911_m.jpg',
     title: 'ivde onnul setta valla apnim',
     subtitle: 'Sign up for become a fool',
   },
 ];
 
-export const fracturedProducts = [
-  {
-    id: Math.random(),
-    name: 'Red apple',
-    items: '15 items',
-    picture:
-      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnJeTeFYFOcyjz0ZkfiuKaFIgbbZM3xZ0upy5TOFL4k9Kazu9qgd_bnblPDPHVqapvfAw&usqp=CAU',
-    bg: 'red',
-  },
-  {
-    id: Math.random(),
-    name: 'Red apple',
-    items: '15 items',
-    picture:
-      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnJeTeFYFOcyjz0ZkfiuKaFIgbbZM3xZ0upy5TOFL4k9Kazu9qgd_bnblPDPHVqapvfAw&usqp=CAU',
-    bg: 'red',
-  },
-  {
-    id: Math.random(),
-    name: 'Red apple',
-    items: '15 items',
-    picture:
-      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnJeTeFYFOcyjz0ZkfiuKaFIgbbZM3xZ0upy5TOFL4k9Kazu9qgd_bnblPDPHVqapvfAw&usqp=CAU',
-    bg: 'red',
-  },
-  {
-    id: Math.random(),
-    name: 'Red apple',
-    items: '15 items',
-    picture:
-      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnJeTeFYFOcyjz0ZkfiuKaFIgbbZM3xZ0upy5TOFL4k9Kazu9qgd_bnblPDPHVqapvfAw&usqp=CAU',
-    bg: 'red',
-  },
-  {
-    id: Math.random(),
-    name: 'Red apple',
-    items: '15 items',
-    picture:
-      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnJeTeFYFOcyjz0ZkfiuKaFIgbbZM3xZ0upy5TOFL4k9Kazu9qgd_bnblPDPHVqapvfAw&usqp=CAU',
-    bg: 'red',
-  },
-  {
-    id: Math.random(),
-    name: 'Red apple',
-    items: '15 items',
-    picture:
-      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnJeTeFYFOcyjz0ZkfiuKaFIgbbZM3xZ0upy5TOFL4k9Kazu9qgd_bnblPDPHVqapvfAw&usqp=CAU',
-    bg: 'red',
-  },
-  {
-    id: Math.random(),
-    name: 'Red apple',
-    items: '15 items',
-    picture:
-      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnJeTeFYFOcyjz0ZkfiuKaFIgbbZM3xZ0upy5TOFL4k9Kazu9qgd_bnblPDPHVqapvfAw&usqp=CAU',
-    bg: 'red',
-  },
-  {
-    id: Math.random(),
-    name: 'Red apple',
-    items: '15 items',
-    picture:
-      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnJeTeFYFOcyjz0ZkfiuKaFIgbbZM3xZ0upy5TOFL4k9Kazu9qgd_bnblPDPHVqapvfAw&usqp=CAU',
-    bg: 'red',
-  },
-  {
-    id: Math.random(),
-    name: 'Red apple',
-    items: '15 items',
-    picture:
-      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnJeTeFYFOcyjz0ZkfiuKaFIgbbZM3xZ0upy5TOFL4k9Kazu9qgd_bnblPDPHVqapvfAw&usqp=CAU',
-    bg: 'red',
-  },
-  {
-    id: Math.random(),
-    name: 'Red apple',
-    items: '15 items',
-    picture:
-      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnJeTeFYFOcyjz0ZkfiuKaFIgbbZM3xZ0upy5TOFL4k9Kazu9qgd_bnblPDPHVqapvfAw&usqp=CAU',
-    bg: 'red',
-  },
-  {
-    id: Math.random(),
-    name: 'Red apple',
-    items: '15 items',
-    picture:
-      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnJeTeFYFOcyjz0ZkfiuKaFIgbbZM3xZ0upy5TOFL4k9Kazu9qgd_bnblPDPHVqapvfAw&usqp=CAU',
-    bg: 'red',
-  },
-  {
-    id: Math.random(),
-    name: 'Red apple',
-    items: '15 items',
-    picture:
-      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnJeTeFYFOcyjz0ZkfiuKaFIgbbZM3xZ0upy5TOFL4k9Kazu9qgd_bnblPDPHVqapvfAw&usqp=CAU',
-    bg: 'red',
-  },
-  {
-    id: Math.random(),
-    name: 'Red apple',
-    items: '15 items',
-    picture:
-      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnJeTeFYFOcyjz0ZkfiuKaFIgbbZM3xZ0upy5TOFL4k9Kazu9qgd_bnblPDPHVqapvfAw&usqp=CAU',
-    bg: 'red',
-  },
-  {
-    id: Math.random(),
-    name: 'Red apple',
-    items: '15 items',
-    picture:
-      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnJeTeFYFOcyjz0ZkfiuKaFIgbbZM3xZ0upy5TOFL4k9Kazu9qgd_bnblPDPHVqapvfAw&usqp=CAU',
-    bg: 'red',
-  },
-  {
-    id: Math.random(),
-    name: 'Red apple',
-    items: '15 items',
-    picture:
-      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnJeTeFYFOcyjz0ZkfiuKaFIgbbZM3xZ0upy5TOFL4k9Kazu9qgd_bnblPDPHVqapvfAw&usqp=CAU',
-    bg: 'red',
-  },
-  {
-    id: Math.random(),
-    name: 'Red apple',
-    items: '15 items',
-    picture:
-      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnJeTeFYFOcyjz0ZkfiuKaFIgbbZM3xZ0upy5TOFL4k9Kazu9qgd_bnblPDPHVqapvfAw&usqp=CAU',
-    bg: 'red',
-  },
-  {
-    id: Math.random(),
-    name: 'Red apple',
-    items: '15 items',
-    picture:
-      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnJeTeFYFOcyjz0ZkfiuKaFIgbbZM3xZ0upy5TOFL4k9Kazu9qgd_bnblPDPHVqapvfAw&usqp=CAU',
-    bg: 'red',
-  },
-  {
-    id: Math.random(),
-    name: 'Red apple',
-    items: '15 items',
-    picture:
-      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnJeTeFYFOcyjz0ZkfiuKaFIgbbZM3xZ0upy5TOFL4k9Kazu9qgd_bnblPDPHVqapvfAw&usqp=CAU',
-    bg: 'red',
-  },
-  {
-    id: Math.random(),
-    name: 'Red apple',
-    items: '15 items',
-    picture:
-      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnJeTeFYFOcyjz0ZkfiuKaFIgbbZM3xZ0upy5TOFL4k9Kazu9qgd_bnblPDPHVqapvfAw&usqp=CAU',
-    bg: 'red',
-  },
-  {
-    id: Math.random(),
-    name: 'Red apple',
-    items: '15 items',
-    picture:
-      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnJeTeFYFOcyjz0ZkfiuKaFIgbbZM3xZ0upy5TOFL4k9Kazu9qgd_bnblPDPHVqapvfAw&usqp=CAU',
-    bg: 'red',
-  },
-  {
-    id: Math.random(),
-    name: 'Red apple',
-    items: '15 items',
-    picture:
-      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnJeTeFYFOcyjz0ZkfiuKaFIgbbZM3xZ0upy5TOFL4k9Kazu9qgd_bnblPDPHVqapvfAw&usqp=CAU',
-    bg: 'red',
-  },
-  {
-    id: Math.random(),
-    name: 'Red apple',
-    items: '15 items',
-    picture:
-      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnJeTeFYFOcyjz0ZkfiuKaFIgbbZM3xZ0upy5TOFL4k9Kazu9qgd_bnblPDPHVqapvfAw&usqp=CAU',
-    bg: 'red',
-  },
-  {
-    id: Math.random(),
-    name: 'Red apple',
-    items: '15 items',
-    picture:
-      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnJeTeFYFOcyjz0ZkfiuKaFIgbbZM3xZ0upy5TOFL4k9Kazu9qgd_bnblPDPHVqapvfAw&usqp=CAU',
-    bg: 'red',
-  },
-  {
-    id: Math.random(),
-    name: 'Red apple',
-    items: '15 items',
-    picture:
-      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnJeTeFYFOcyjz0ZkfiuKaFIgbbZM3xZ0upy5TOFL4k9Kazu9qgd_bnblPDPHVqapvfAw&usqp=CAU',
-    bg: 'red',
-  },
-  {
-    id: Math.random(),
-    name: 'Red apple',
-    items: '15 items',
-    picture:
-      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnJeTeFYFOcyjz0ZkfiuKaFIgbbZM3xZ0upy5TOFL4k9Kazu9qgd_bnblPDPHVqapvfAw&usqp=CAU',
-    bg: 'red',
-  },
-  {
-    id: Math.random(),
-    name: 'Red apple',
-    items: '15 items',
-    picture:
-      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnJeTeFYFOcyjz0ZkfiuKaFIgbbZM3xZ0upy5TOFL4k9Kazu9qgd_bnblPDPHVqapvfAw&usqp=CAU',
-    bg: 'red',
-  },
-  {
-    id: Math.random(),
-    name: 'Red apple',
-    items: '15 items',
-    picture:
-      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnJeTeFYFOcyjz0ZkfiuKaFIgbbZM3xZ0upy5TOFL4k9Kazu9qgd_bnblPDPHVqapvfAw&usqp=CAU',
-    bg: 'red',
-  },
-  {
-    id: Math.random(),
-    name: 'Red apple',
-    items: '15 items',
-    picture:
-      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnJeTeFYFOcyjz0ZkfiuKaFIgbbZM3xZ0upy5TOFL4k9Kazu9qgd_bnblPDPHVqapvfAw&usqp=CAU',
-    bg: 'red',
-  },
-  {
-    id: Math.random(),
-    name: 'Red apple',
-    items: '15 items',
-    picture:
-      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnJeTeFYFOcyjz0ZkfiuKaFIgbbZM3xZ0upy5TOFL4k9Kazu9qgd_bnblPDPHVqapvfAw&usqp=CAU',
-    bg: 'red',
-  },
-  {
-    id: Math.random(),
-    name: 'Red apple',
-    items: '15 items',
-    picture:
-      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnJeTeFYFOcyjz0ZkfiuKaFIgbbZM3xZ0upy5TOFL4k9Kazu9qgd_bnblPDPHVqapvfAw&usqp=CAU',
-    bg: 'red',
-  },
-  {
-    id: Math.random(),
-    name: 'Red apple',
-    items: '15 items',
-    picture:
-      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnJeTeFYFOcyjz0ZkfiuKaFIgbbZM3xZ0upy5TOFL4k9Kazu9qgd_bnblPDPHVqapvfAw&usqp=CAU',
-    bg: 'red',
-  },
-  {
-    id: Math.random(),
-    name: 'Red apple',
-    items: '15 items',
-    picture:
-      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnJeTeFYFOcyjz0ZkfiuKaFIgbbZM3xZ0upy5TOFL4k9Kazu9qgd_bnblPDPHVqapvfAw&usqp=CAU',
-    bg: 'red',
-  },
-  {
-    id: Math.random(),
-    name: 'Red apple',
-    items: '15 items',
-    picture:
-      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnJeTeFYFOcyjz0ZkfiuKaFIgbbZM3xZ0upy5TOFL4k9Kazu9qgd_bnblPDPHVqapvfAw&usqp=CAU',
-    bg: 'red',
-  },
-  {
-    id: Math.random(),
-    name: 'Red apple',
-    items: '15 items',
-    picture:
-      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnJeTeFYFOcyjz0ZkfiuKaFIgbbZM3xZ0upy5TOFL4k9Kazu9qgd_bnblPDPHVqapvfAw&usqp=CAU',
-    bg: 'red',
-  },
-  {
-    id: Math.random(),
-    name: 'Red apple',
-    items: '15 items',
-    picture:
-      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnJeTeFYFOcyjz0ZkfiuKaFIgbbZM3xZ0upy5TOFL4k9Kazu9qgd_bnblPDPHVqapvfAw&usqp=CAU',
-    bg: 'red',
-  },
-  {
-    id: Math.random(),
-    name: 'Red apple',
-    items: '15 items',
-    picture:
-      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnJeTeFYFOcyjz0ZkfiuKaFIgbbZM3xZ0upy5TOFL4k9Kazu9qgd_bnblPDPHVqapvfAw&usqp=CAU',
-    bg: 'red',
-  },
-  {
-    id: Math.random(),
-    name: 'Red apple',
-    items: '15 items',
-    picture:
-      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnJeTeFYFOcyjz0ZkfiuKaFIgbbZM3xZ0upy5TOFL4k9Kazu9qgd_bnblPDPHVqapvfAw&usqp=CAU',
-    bg: 'red',
-  },
-  {
-    id: Math.random(),
-    name: 'Red apple',
-    items: '15 items',
-    picture:
-      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnJeTeFYFOcyjz0ZkfiuKaFIgbbZM3xZ0upy5TOFL4k9Kazu9qgd_bnblPDPHVqapvfAw&usqp=CAU',
-    bg: 'red',
-  },
-  {
-    id: Math.random(),
-    name: 'Red apple',
-    items: '15 items',
-    picture:
-      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnJeTeFYFOcyjz0ZkfiuKaFIgbbZM3xZ0upy5TOFL4k9Kazu9qgd_bnblPDPHVqapvfAw&usqp=CAU',
-    bg: 'red',
-  },
-  {
-    id: Math.random(),
-    name: 'Red apple',
-    items: '15 items',
-    picture:
-      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnJeTeFYFOcyjz0ZkfiuKaFIgbbZM3xZ0upy5TOFL4k9Kazu9qgd_bnblPDPHVqapvfAw&usqp=CAU',
-    bg: 'red',
-  },
-  {
-    id: Math.random(),
-    name: 'Red apple',
-    items: '15 items',
-    picture:
-      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnJeTeFYFOcyjz0ZkfiuKaFIgbbZM3xZ0upy5TOFL4k9Kazu9qgd_bnblPDPHVqapvfAw&usqp=CAU',
-    bg: 'red',
-  },
-  {
-    id: Math.random(),
-    name: 'Red apple',
-    items: '15 items',
-    picture:
-      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnJeTeFYFOcyjz0ZkfiuKaFIgbbZM3xZ0upy5TOFL4k9Kazu9qgd_bnblPDPHVqapvfAw&usqp=CAU',
-    bg: 'red',
-  },
-  {
-    id: Math.random(),
-    name: 'Red apple',
-    items: '15 items',
-    picture:
-      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnJeTeFYFOcyjz0ZkfiuKaFIgbbZM3xZ0upy5TOFL4k9Kazu9qgd_bnblPDPHVqapvfAw&usqp=CAU',
-    bg: 'red',
-  },
-  {
-    id: Math.random(),
-    name: 'Red apple',
-    items: '15 items',
-    picture:
-      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnJeTeFYFOcyjz0ZkfiuKaFIgbbZM3xZ0upy5TOFL4k9Kazu9qgd_bnblPDPHVqapvfAw&usqp=CAU',
-    bg: 'red',
-  },
-  {
-    id: Math.random(),
-    name: 'Red apple',
-    items: '15 items',
-    picture:
-      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnJeTeFYFOcyjz0ZkfiuKaFIgbbZM3xZ0upy5TOFL4k9Kazu9qgd_bnblPDPHVqapvfAw&usqp=CAU',
-    bg: 'red',
-  },
-  {
-    id: Math.random(),
-    name: 'Red apple',
-    items: '15 items',
-    picture:
-      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnJeTeFYFOcyjz0ZkfiuKaFIgbbZM3xZ0upy5TOFL4k9Kazu9qgd_bnblPDPHVqapvfAw&usqp=CAU',
-    bg: 'red',
-  },
-  {
-    id: Math.random(),
-    name: 'Red apple',
-    items: '15 items',
-    picture:
-      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnJeTeFYFOcyjz0ZkfiuKaFIgbbZM3xZ0upy5TOFL4k9Kazu9qgd_bnblPDPHVqapvfAw&usqp=CAU',
-    bg: 'red',
-  },
-  {
-    id: Math.random(),
-    name: 'Red apple',
-    items: '15 items',
-    picture:
-      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnJeTeFYFOcyjz0ZkfiuKaFIgbbZM3xZ0upy5TOFL4k9Kazu9qgd_bnblPDPHVqapvfAw&usqp=CAU',
-    bg: 'red',
-  },
-  {
-    id: Math.random(),
-    name: 'Red apple',
-    items: '15 items',
-    picture:
-      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnJeTeFYFOcyjz0ZkfiuKaFIgbbZM3xZ0upy5TOFL4k9Kazu9qgd_bnblPDPHVqapvfAw&usqp=CAU',
-    bg: 'red',
-  },
-  {
-    id: Math.random(),
-    name: 'Red apple',
-    items: '15 items',
-    picture:
-      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnJeTeFYFOcyjz0ZkfiuKaFIgbbZM3xZ0upy5TOFL4k9Kazu9qgd_bnblPDPHVqapvfAw&usqp=CAU',
-    bg: 'red',
-  },
-  {
-    id: Math.random(),
-    name: 'Red apple',
-    items: '15 items',
-    picture:
-      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnJeTeFYFOcyjz0ZkfiuKaFIgbbZM3xZ0upy5TOFL4k9Kazu9qgd_bnblPDPHVqapvfAw&usqp=CAU',
-    bg: 'red',
-  },
-  {
-    id: Math.random(),
-    name: 'Red apple',
-    items: '15 items',
-    picture:
-      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnJeTeFYFOcyjz0ZkfiuKaFIgbbZM3xZ0upy5TOFL4k9Kazu9qgd_bnblPDPHVqapvfAw&usqp=CAU',
-    bg: 'red',
-  },
-];
+
 
 export const fracturedMainProduct = [
   {
@@ -850,9 +501,11 @@ export const popularProducts = [
     id: 1,
     name: 'Nasltlee orginal coffee-mate coffee creamer',
     rating: 4.0,
-    tags: 'black plum , organic , silopy kujjapu',
+    tags: 'black plum, organic, silopy kujjapu',
     rate: 10.4,
     offer: 7,
+    categorySlug: 'milks-and-dairies',
+    category: 'Milk & Daies',
     picture: 'https://cdn.hswstatic.com/gif/koi.jpg',
     bacPicture:
       'https://cdn.britannica.com/99/234299-050-9CDD78E1/Koi-fish-swimming-carp.jpg',
@@ -861,9 +514,11 @@ export const popularProducts = [
     id: 2,
     name: 'Nasltlee orginal coffee-mate coffee creamer',
     rating: 4.0,
-    tags: 'black plum , organic , silopy kujjapu',
+    tags: 'black plum, organic, silopy kujjapu',
     rate: 10.4,
     offer: 7,
+    categorySlug: 'milks-and-dairies',
+    category: 'Milk & Daies',
     picture: 'https://cdn.hswstatic.com/gif/koi.jpg',
     bacPicture:
       'https://cdn.britannica.com/99/234299-050-9CDD78E1/Koi-fish-swimming-carp.jpg',
@@ -872,9 +527,11 @@ export const popularProducts = [
     id: 3,
     name: 'Nasltlee orginal coffee-mate coffee creamer',
     rating: 4.0,
-    tags: 'black plum , organic , silopy kujjapu',
+    tags: 'black plum, organic, silopy kujjapu',
     rate: 10.4,
     offer: 7,
+    categorySlug: 'milks-and-dairies',
+    category: 'Milk & Daies',
     picture: 'https://cdn.hswstatic.com/gif/koi.jpg',
     bacPicture:
       'https://cdn.britannica.com/99/234299-050-9CDD78E1/Koi-fish-swimming-carp.jpg',
@@ -883,9 +540,11 @@ export const popularProducts = [
     id: 4,
     name: 'Nasltlee orginal coffee-mate coffee creamer',
     rating: 4.0,
-    tags: 'black plum , organic , silopy kujjapu',
+    tags: 'black plum, organic, silopy kujjapu',
     rate: 10.4,
     offer: 7,
+    categorySlug: 'milks-and-dairies',
+    category: 'Milk & Daies',
     picture: 'https://cdn.hswstatic.com/gif/koi.jpg',
     bacPicture:
       'https://cdn.britannica.com/99/234299-050-9CDD78E1/Koi-fish-swimming-carp.jpg',
@@ -894,7 +553,7 @@ export const popularProducts = [
     id: 5,
     name: 'Nasltlee orginal coffee-mate coffee creamer',
     rating: 4.0,
-    tags: 'black plum , organic , silopy kujjapu',
+    tags: 'black plum, organic, silopy kujjapu',
     rate: 10.4,
     offer: 7,
     picture: 'https://cdn.hswstatic.com/gif/koi.jpg',
@@ -905,7 +564,7 @@ export const popularProducts = [
     id: 6,
     name: 'Nasltlee orginal coffee-mate coffee creamer',
     rating: 4.5,
-    tags: 'black plum , organic , silopy kujjapu',
+    tags: 'black plum, organic, silopy kujjapu',
     rate: 10.4,
     offer: 7,
     picture: 'https://cdn.hswstatic.com/gif/koi.jpg',
@@ -1204,35 +863,35 @@ export const footerSocialMedia = [
     name: 'Face book',
     icon: 'fa-brands fa-facebook-f',
     link: '.facebook',
-    color: '#3b5998'
+    color: '#3b5998',
   },
-  
+
   {
     id: 3,
     name: 'Twitter',
     icon: 'fa-brands fa-twitter',
     link: '.facebook',
-    color: '#00acee'
+    color: '#00acee',
   },
   {
     id: 2,
     name: 'Instagram',
     icon: 'lni lni-instagram',
     link: '.facebook',
-    color: '#8a3ab9'
+    color: '#8a3ab9',
   },
   {
     id: 4,
     name: 'Youtube',
     icon: 'lni lni-youtube',
     link: '.facebook',
-    color: '#FF0000'
+    color: '#FF0000',
   },
   {
     id: 5,
     name: 'HaloTalk',
     icon: 'fa-solid fa-hashtag',
     link: '.facebook',
-    color: '#D2B48C'
+    color: '#D2B48C',
   },
 ];

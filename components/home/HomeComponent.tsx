@@ -13,7 +13,7 @@ import { homeComponentBig } from '@/lib/data';
 
 const HomeComponent = (): any => {
   return (
-    <div className=" h-ofHome relative z-10 flex items-center justify-center overflow-hidden px-4 md:h-[540px]  md:pt-12">
+    <div className="h-ofHome relative z-10 flex items-center justify-center overflow-hidden px-4 md:h-[540px]  md:pt-12">
       <Swiper
         modules={[Navigation, Pagination, Scrollbar, Autoplay]}
         slidesPerView={1}

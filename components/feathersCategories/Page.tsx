@@ -5,7 +5,7 @@ import SwiperCore from 'swiper';
 import MainProducts from './MainProducts';
 
 const FeathersCategory: React.FC = () => {
-  const swiperRef = useRef<SwiperCore>();
+  const swiperRef = useRef<SwiperCore|any>();
 
   return (
     <div className="mt-[50px] flex w-full flex-col items-center justify-center overflow-hidden px-4">

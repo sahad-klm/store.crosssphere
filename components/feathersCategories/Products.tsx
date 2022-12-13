@@ -6,14 +6,14 @@ export const Products: any = ({ swiperRef }: any) => {
   return (
     <>
       <div className=" w-full items-center justify-center xl:flex hidden">
-        <ProductsInOneLine swiperRef={swiperRef} slidesPerView={10} />
+        <ProductsInOneLine swiperRef={swiperRef} slidesPerView={8} />
       </div>
 
       <div className="w-full items-center justify-center lapHide">
-        <ProductsInOneLine swiperRef={swiperRef} slidesPerView={8} />
+        <ProductsInOneLine swiperRef={swiperRef} slidesPerView={7} />
       </div>
       <div className="w-full items-center justify-center tabHide">
-        <ProductsInOneLine swiperRef={swiperRef} slidesPerView={6} />
+        <ProductsInOneLine swiperRef={swiperRef} slidesPerView={4} />
       </div>
 
       <div className="w-full items-center justify-center mobileHide">

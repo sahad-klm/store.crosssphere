@@ -18,6 +18,7 @@
   },
   "dependencies": {
     "@types/swiper": "6.0.0",
+    "classnames": "2.3.2",
     "clsx": "1.2.1",
     "concurrently": "7.5.0",
     "framer-motion": "7.6.19",

@@ -93,7 +93,7 @@ const Site = ({ Component, pageProps, router }: any): JSX.Element => {
   );
 };
 
-function MyApp({ Component, pageProps, router }: any) {
+ function MyApp({ Component, pageProps, router }: any) {
   const { data } = pageProps;
   return (
     <>

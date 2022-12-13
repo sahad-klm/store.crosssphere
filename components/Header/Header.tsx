@@ -12,14 +12,14 @@ import { motion } from 'framer-motion';
 import { slideIn, textVariant, textVariant2 } from 'utils/motion';
 import { NavBigOptionsTab, NavBigOptions } from './NavBigOptions';
 import { footerSocialMedia, lastOneInNav } from '@/lib/data';
-import { usePathname } from 'next/navigation';
+
 
 function Header(): any {
   const [searchOption, setSearchOption] = useState<string | any>(
     'All Catagories',
   );
   const [browseAllCategory, setBrowseAllCategory] =
-    React.useState<Boolean>(false);
+    React.useState<Boolean | any>(false);
   const [isSearchOptionActive, setIsSearchOptionActive] = useState<
     boolean | any
   >(false);
@@ -86,7 +86,7 @@ function Header(): any {
         <div className="flex h-24 w-full items-center justify-start border-b-[1px] border-solid border-gray-700 border-opacity-20 bg-white py-4 px-4">
           <BrowseAllButton
             browseAllCategory={browseAllCategory}
-            setBrowseAllCategory={browseAllCategory}
+            setBrowseAllCategory={setBrowseAllCategory}
           />
 
           <NavBigOptions />
@@ -114,7 +114,7 @@ function Header(): any {
             navHide ? 'flex' : 'hidden'
           } h-[60px] w-full items-center justify-between border-b-[1px] border-solid border-gray-700 border-opacity-20 bg-white py-2 px-4 duration-300`}
         >
-          <BrowseAllButton />
+          <BrowseAllButton setBrowseAllCategory={setBrowseAllCategory} browseAllCategory={browseAllCategory}/>
           <SearchBar
             classNameOfListInSearch={classNameOfListInSearch}
             handleClickSearchOption={handleClickSearchOption}

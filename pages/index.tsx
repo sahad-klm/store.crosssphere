@@ -6,12 +6,12 @@ import { usePathname, useSearchParams } from 'next/navigation';
 const Home = (data: {
   sate: any | undefined;
   page: any | undefined;
-}): JSX.Element => {
+}): JSX.Element | any => {
   const pathname = usePathname();
   const { site, page }: any = data;
   const pageName = modulesFinder(pathname)
 
-  if (pageName[0]) {
+  if (!pageName[0]) {
     return (
       <>
         <div className="mt-52 flex h-full flex-col items-center justify-center">
@@ -20,14 +20,14 @@ const Home = (data: {
             alt=""
             className="h-[500px] object-contain"
           />
-          <h1 style={{fontSize:'40px' ,color:'red' , fontFamily:'monospace' }}>ibide endo seen ind piine va</h1>
+          <h1 style={{fontSize:'40px' ,color:'red' , fontFamily:'monospace' }}>ipo sari aaki taraa 0ru <b className='text-green-600'>4 sec</b> seen ind piine va</h1>
         </div>
       </>
     );
   }
 
-
-  return (
+    
+   return (
     <Layout site={site} page={page}>
       {pageName[0].modules.map((page: { id: any; pageType: any; }) => (
         <Module key={page.id} data={page?.pageType} />

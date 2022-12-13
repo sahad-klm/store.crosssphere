@@ -1,7 +1,7 @@
+import { BrowseAllCategories } from '@/lib/data';
 import { modulesFinder } from '@/lib/helpers';
 import Layout from 'components/layout/layout';
 import Module from 'components/module/Module';
-import Error from 'next/error';
 import { usePathname } from 'next/navigation';
 
 import React from 'react';
@@ -13,6 +13,19 @@ const index = (data: {
   const pathname = usePathname();
   const { site, page }: any = data;
   const pageName = modulesFinder(pathname);
+
+  const so = BrowseAllCategories.map(element => element.name)
+
+  function name() {
+    
+    for (let index = 0; index < so.length; index++) {
+      const element = so[index];
+      return element
+    }
+  }
+  console.log(name());
+  
+  
 
   if (!pageName[0]) {
     return (
@@ -28,6 +41,7 @@ const index = (data: {
           >
             ibide endo seen ind piine va
           </h1>
+          
         </div>
       </>
     );

@@ -1,9 +1,20 @@
-import React from "react";
+import { BrowseAllCategories } from "./data";
+
+export const data = BrowseAllCategories.map((item) => item.slug)
+
+function categorySlug() { 
+  for (let index = 0; index < data.length; index++) {
+    const element = data[index];
+    return element
+  }
+}
+
 
 export const pageController = [ 
   {
     id: 1,
-    page : '/',
+    page : 'Home',
+    slug : '/',
     modules : [
       {
         id: 1,
@@ -33,31 +44,25 @@ export const pageController = [
   },
   {
     id: 2,
-    page : '/collections',
+    page : 'collections',
+    slug : '/collections',
     modules : [
       {
         id: 1,
-        pageType : 'homeContent',
+        pageType : 'collection',
+
       },
+    ]
+  },
+  {
+    id: 3,
+    page : 'collections[slug]',
+    slug : `/collections/${categorySlug()}`,
+    modules : [
       {
-        id: 2,
-        pageType : 'featuresCategory',
-      },
-      {
-        id: 3,
-        pageType : 'popularProducts',
-      },
-      {
-        id: 4,
-        pageType : 'dailyBestSeller',
-      },
-      {
-        id: 5,
-        pageType : 'dealsOfTheDay',
-      },
-      {
-        id: 6,
-        pageType : 'footerProducts',
+        id: 1,
+        pageType : 'collationSlug'
+
       },
     ]
   }
