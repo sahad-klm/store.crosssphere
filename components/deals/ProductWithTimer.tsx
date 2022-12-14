@@ -23,7 +23,7 @@ function ProductWithTimer({
   picture,
 }: Props): any {
   return (
-    <div className="group/body relative flex min-w-[310px] flex-1 flex-col overflow-hidden rounded-[18px] pb-10 md:min-w-full md:w-[310px]">
+    <div className="group/body relative flex xl:min-w-[310px] lg:min-w-full flex-1 flex-col overflow-hidden rounded-[18px] xl:w-[310px] min-w-[310px]">
       <div className="relative -z-[1] mb-[20%] flex h-[310px] max-w-full overflow-hidden rounded-[18px]">
         <img src={picture} alt="" className="min-h-full w-full object-cover" />
       </div>
@@ -56,16 +56,13 @@ function ProductWithTimer({
             <p className="text-body text-sm text-gray-700 md:text-base">Secs</p>
           </div>
         </div>
-        <div className="mx-7 rounded-[18px] bg-white shadow-lg">
-          <small className="mx-5 mt-3 flex flex-wrap pb-[4px] font-body text-[10px] text-gray-400 md:pb-[6px] md:text-xs">
-            {tags}
-          </small>
+        <div className="mx-7 rounded-[18px] bg-white shadow-lg p-3">
           <h4 className="mx-5 pb-[8px] font-head text-sm text-gray-700 transition-all duration-200 hover:text-emerald-500 md:pb-[10px] md:text-base">
             {name}
           </h4>
           <Rating rating={rating} />
           <div
-            className="mx-5 mb-5 flex flex-row items-center justify-between 
+            className="mx-5 mb-5 flex flex-row flex-wrap items-center gap-1 justify-between 
          "
           >
             <RateOfProduct rate={rate} offer={offer} />

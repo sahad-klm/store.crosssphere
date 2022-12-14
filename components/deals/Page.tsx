@@ -5,7 +5,7 @@ import ProductWithTimer from './ProductWithTimer';
 
 const DealsOfTheDay = () => {
   return (
-    <div className="mt-[50px] flex w-full flex-col items-center justify-center overflow-hidden  px-4">
+    <div className="mt-[50px] flex w-full flex-col items-center justify-start overflow-hidden  px-4">
       <div className="mb-7 flex w-full items-center justify-between">
         <h4 className="mr-4  font-head md:text-[32px] text-[28px] text-gray-800">
           Deals of the day
@@ -13,7 +13,7 @@ const DealsOfTheDay = () => {
         <span className="flex flex-row flex-wrap gap-4 cursor-pointer font-head  md:text-[16px] text-sm text-gray-800">All deals {'>'}</span>
       </div>
       <div
-        className="flex w-full grid-cols-4 md:gap-5 gap-2 overflow-auto md:grid md:grid-cols-2 xl:grid-cols-4 scrollBar" 
+        className="xl: overflow-scroll  grid-cols-4 md:gap-5 gap-2 md:grid md:grid-cols-2 xl:grid-cols-4 flex" 
       >
         {popularProducts?.map((item, idx) => (
           <React.Fragment key={item.id}>
@@ -24,5 +24,30 @@ const DealsOfTheDay = () => {
     </div>
   );
 };
+
+
+export const DealsOfTheDayInCollection = () => {
+  return (
+    <div className="mt-[50px] grid w-full flex-col items-center justify-start overflow-hidden">
+              <div className="mb-7 flex w-full items-center justify-between">
+                <h4 className="mr-4  font-head text-[28px] text-gray-800 md:text-[32px]">
+                  Deals of the day
+                </h4>
+                <span className="flex cursor-pointer flex-row flex-wrap gap-4 font-head  text-sm text-gray-800 md:text-[16px]">
+                  All deals {'>'}
+                </span>
+              </div>
+              <div className="grid md:grid-flow-col grid-flow-row w-full gap-5 overflow-scroll lg:grid-rows-1 sm:grid-rows-2 xl:grid-cols-none">
+                {popularProducts?.map((item, idx) => (
+                  <React.Fragment key={item.id}>
+                    {idx <= 3 && <ProductWithTimer {...item} />}
+                  </React.Fragment>
+                ))}
+              </div>
+            </div>
+  )
+};
+
+
 
 export default DealsOfTheDay;

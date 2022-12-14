@@ -150,7 +150,7 @@ const ButtonSortBy = ({ filteringCount, setFilteringCount }: any): any => {
   return (
     <button
       onClick={handleClick}
-      className=" relative inline-flex h-min items-center justify-center gap-3 rounded-xl border bg-transparent px-5 py-3 font-body text-gray-600 outline-none"
+      className="duration-300 transition-transform relative inline-flex h-min items-center justify-center gap-3 rounded-xl border bg-transparent px-5 py-3 font-body text-gray-600 outline-none"
     >
       <SortIcon className="-m-4 scale-50 fill-gray-600 " />
       Sort by:&nbsp;&nbsp;&nbsp;{filteringCount.filterBy}

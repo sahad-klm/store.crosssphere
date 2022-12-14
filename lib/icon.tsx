@@ -95,3 +95,8 @@ export const SortIcon = (
  <path d="m34.901 41.97-8-8 2.2-2.2 4.3 4.3v-24.2l-4.3 4.3-2.2-2.2 8-8 8 8-2.2 2.2-4.3-4.3v24.2l4.3-4.3 2.2 2.2z"/>
 </svg>
 );
+export const ArrowDownFilled = (
+  props: any,
+): HtmlHTMLAttributes<SVGAElement> | any => (
+<svg xmlns="http://www.w3.org/2000/svg" height="48" width="48" {...props}><path d="m24 30-10-9.95h20Z"/></svg>
+);

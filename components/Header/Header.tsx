@@ -85,6 +85,7 @@ function Header(): any {
 
         <div className="flex h-24 w-full items-center justify-start border-b-[1px] border-solid border-gray-700 border-opacity-20 bg-white py-4 px-4">
           <BrowseAllButton
+          navHide ={navHide}
             browseAllCategory={browseAllCategory}
             setBrowseAllCategory={setBrowseAllCategory}
           />

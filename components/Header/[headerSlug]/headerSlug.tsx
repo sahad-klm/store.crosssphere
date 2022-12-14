@@ -2,7 +2,7 @@ import { BrowseAllCategories } from '@/lib/data';
 import { GridApps } from '@/lib/icon';
 import React from 'react';
 
-const BrowseAllButton = ({browseAllCategory, setBrowseAllCategory}:any):JSX.Element => {
+const BrowseAllButton = ({browseAllCategory, setBrowseAllCategory, navHide }:any):JSX.Element => {
   
   return (
     <button
@@ -16,7 +16,7 @@ const BrowseAllButton = ({browseAllCategory, setBrowseAllCategory}:any):JSX.Elem
           browseAllCategory && 'rotate-180'
         } ml-4 mr-2 text-base transition-transform`}
       />
-      {browseAllCategory && (
+      {(browseAllCategory && !navHide ) && (
         <div className="absolute top-20 left-0 z-40 grid w-max grid-cols-2 gap-3 rounded border border-emerald-500 border-opacity-30 bg-white p-5 shadow-md ">
           {BrowseAllCategories?.map((item) => (
             <div
