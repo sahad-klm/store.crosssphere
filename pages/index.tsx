@@ -39,7 +39,11 @@ const Home = (data: {
       <div className='w-[80%] flex justify-center items-center mx-auto flex-col border-[5px] rounded-3xl overflow-hidden'>
     <h1 className='text-white text-h4'>find masterpice smile</h1>
         <img src="20220822_093622.png" alt="" className='w-full object-contain' />
-        <button onClick={() => setFirst(true)} className='bg-white text-black px-10 py-5 rounded-xl mt-5'>ith</button>
+        <button onClick={() =>{ 
+          if (window.confirm('ijj parajjath sattyam annnnu tonnu thalkaalam site kandu pettnnu povaan nook'))
+          setFirst(true)
+          
+          }} className='bg-white text-black px-10 py-5 rounded-xl mt-5'>ith</button>
       </div>
       <div className='w-[80%] flex justify-center items-center mx-auto flex-col border-[5px] rounded-3xl overflow-hidden'>
         <img src="Untitled.png" alt="" className='w-full object-contain' />
