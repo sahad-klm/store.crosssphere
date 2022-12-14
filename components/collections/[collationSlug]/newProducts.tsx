@@ -13,14 +13,14 @@ const NewProducts = () => {
         <>
           {idx <= 1 && (
             <div
-              className={`grid h-full w-min grid-flow-col gap-2 ${
+              className={`xl:grid h-full xl:w-min w-full grid-flow-col gap-2 flex items-center ${
                 idx - 1 && 'border-b'
               } pb-3`}
             >
-              <div className=" h-full w-max items-center justify-center">
+              <div className=" xl:h-full xl:w-max w-[80px] items-center justify-center p-2">
                 <img
                   src={item.picture}
-                  className="w-[100px] object-contain"
+                  className="xl:w-[100px] xl:object-contain object-cover w-full"
                   alt={item.name}
                 />
               </div>

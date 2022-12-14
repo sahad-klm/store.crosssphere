@@ -13,7 +13,7 @@ const DealsOfTheDay = () => {
         <span className="flex flex-row flex-wrap gap-4 cursor-pointer font-head  md:text-[16px] text-sm text-gray-800">All deals {'>'}</span>
       </div>
       <div
-        className="xl: overflow-scroll  grid-cols-4 md:gap-5 gap-2 md:grid md:grid-cols-2 xl:grid-cols-4 flex" 
+        className="overflow-scroll  md:gap-5 gap-2 grid md:grid-cols-2 xl:grid-cols-4 xl:grid-rows-1 md:grid-rows-2 grid-rows-1 grid-flow-col w-full" 
       >
         {popularProducts?.map((item, idx) => (
           <React.Fragment key={item.id}>

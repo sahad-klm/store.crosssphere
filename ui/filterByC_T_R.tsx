@@ -195,7 +195,7 @@ const FilterByC_T_R = ({ onChange }: any) => {
                 setMinVal(value);
                 minValRef.current = value;
               }}
-              className={`thumb thumb--left ${minVal > max - 100 && 'z-[5]'}`}
+              className={`thumb thumb--left w-full ${minVal > max - 100 && 'z-[5]'}`}
             />
             <input
               type="range"
@@ -207,10 +207,10 @@ const FilterByC_T_R = ({ onChange }: any) => {
                 setMaxVal(value);
                 maxValRef.current = value;
               }}
-              className="thumb thumb--right"
+              className="thumb thumb--right w-full"
             />
 
-            <div className="slider">
+            <div className="slider w-full">
               <div className="slider__track h-0.5 bg-gray-200" />
               <div ref={range} className="slider__range h-0.5 bg-emerald-500" />
             </div>

@@ -8,6 +8,7 @@ import {
   OneProductLeftPicRightDetail,
   OneProductWithOffer,
 } from '@/ui/OneProductWithOffer';
+import Pagination from '@/ui/Pagination';
 import RateOfProduct from '@/ui/rate';
 import { Rating } from '@/ui/rating';
 import DealsOfTheDay, {
@@ -16,11 +17,13 @@ import DealsOfTheDay, {
 import ProductWithTimer from 'components/deals/ProductWithTimer';
 import { AnimatePresence, m } from 'framer-motion';
 import { usePathname } from 'next/navigation';
-import React from 'react';
+import React, { useMemo, useState } from 'react';
 import { fadeAnim } from 'utils/motion';
 import Head from './Head';
+import HeadingWithFilter from './headingWithFilter';
 import NewProducts from './newProducts';
 
+let PageSize = 9;
 const CollationSlug = () => {
   const pathName = usePathname();
   const [filteringCount, setFilteringCount] = React.useState<any>({
@@ -36,6 +39,14 @@ const CollationSlug = () => {
 
   const products: any = useCategoryProductsFind(name);
 
+  const [currentPage, setCurrentPage] = useState<number>(1);
+
+  const currentTableData = useMemo(() => {
+    const firstPageIndex = (currentPage - 1) * PageSize;
+    const lastPageRange = firstPageIndex + PageSize;
+    return products?.slice(firstPageIndex, lastPageRange);
+  }, [currentPage]);
+
   return (
     <AnimatePresence mode="wait">
       <m.div
@@ -48,23 +59,10 @@ const CollationSlug = () => {
         <Head headName={products[0].category} tags={products[0].tags} />
         <div className="mt-[40px] mb-7 flex w-full flex-col items-start justify-center gap-4 xl:flex-row">
           <div className=" flex w-full flex-col items-center justify-between gap-6">
-            <div className="inline-flex w-full items-center justify-between">
-              <h4 className="font-body text-base text-gray-800 ">
-                Sowing all {products.length} products
-              </h4>
-              <span className="flex gap-3">
-                <ButtonShowLimit
-                  filteringCount={filteringCount}
-                  setFilteringCount={setFilteringCount}
-                />
-                <ButtonSortBy
-                  filteringCount={filteringCount}
-                  setFilteringCount={setFilteringCount}
-                />
-              </span>
-            </div>
-            <div className="flex w-full flex-row justify-start gap-5 overflow-x-scroll md:grid-cols-3 md:flex-wrap md:overflow-hidden  xl:grid xl:grid-cols-4">
-              {products?.map(
+            <HeadingWithFilter filteringCount={filteringCount} products={products} setFilteringCount={filteringCount}/>
+
+            <div className="grid w-full grid-cols-2 gap-5 md:grid-cols-3 lg:grid-flow-col">
+              {currentTableData?.map(
                 (
                   item: JSX.IntrinsicAttributes & {
                     id?: React.Key | undefined;
@@ -88,30 +86,42 @@ const CollationSlug = () => {
                     key={item.id}
                     {...item}
                     buttonStyle="add"
-                    classNameForTotal="xl:w-auto xl:h-auto w-[250px] h-[483px] mx-auto"
+                    classNameForTotal="xl:w-auto xl:h-auto w-[250px] h-[483px] mx-auto w-auto"
                     classNameForPic="p-4  "
                   />
                 ),
               )}
             </div>
+            <Pagination
+              className="pagination-bar mt-4 mb-[50px] items-center"
+              currentPage={currentPage}
+              totalCount={Math.ceil(products.length / PageSize)}
+              pageSize={PageSize}
+              onPageChange={(page: any) => setCurrentPage(page)}
+            />
             <DealsOfTheDayInCollection />
           </div>
 
-          <div className="hidden shrink-0 w-min flex-col gap-10 lg:flex">
+          <div className="hidden w-full shrink-0 flex-col gap-10 lg:flex xl:w-min">
             <CategorySmallBox />
 
             <FilterByC_T_R />
 
             <NewProducts />
 
-            <div className="flex flex-col gap-1 rounded-xl  p-12 shadow-md bg-cyan-200 relative z-0 overflow-hidden">
-              <small className='font-body text-gray-600'>Organic</small>
-              <p className='font-head text-2xl leading-8'>Save 17% on <span className='text-emerald-500'>Organic</span> Juice</p>
+            <div className="relative z-0 flex flex-col  justify-center gap-1 overflow-hidden rounded-xl bg-cyan-200 p-12 shadow-md max-xl:h-[70vh]">
+              <small className="font-body text-gray-600">Organic</small>
+              <p className="font-head text-2xl leading-8">
+                Save 17% on <span className="text-emerald-500">Organic</span>{' '}
+                Juice
+              </p>
 
-              <img src="https://mailtrap.io/wp-content/uploads/2020/10/nbsp-and-HTML-Space-Challenges-and-Tricks_small-1.png" alt="" className='absolute h-full object-cover bottom-0 -right-[30%] -z-10'/>
-
+              <img
+                src="https://mailtrap.io/wp-content/uploads/2020/10/nbsp-and-HTML-Space-Challenges-and-Tricks_small-1.png"
+                alt=""
+                className="absolute bottom-0 -right-[30%] -z-10 h-full object-cover"
+              />
             </div>
-
           </div>
         </div>
       </m.div>

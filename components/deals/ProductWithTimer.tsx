@@ -23,7 +23,7 @@ function ProductWithTimer({
   picture,
 }: Props): any {
   return (
-    <div className="group/body relative flex xl:min-w-[310px] lg:min-w-full flex-1 flex-col overflow-hidden rounded-[18px] xl:w-[310px] min-w-[310px]">
+    <div className="group/body relative flex xl:min-w-[310px] lg:min-w-[310px] flex-1 flex-col overflow-hidden rounded-[18px] xl:w-[310px] min-w-[310px]">
       <div className="relative -z-[1] mb-[20%] flex h-[310px] max-w-full overflow-hidden rounded-[18px]">
         <img src={picture} alt="" className="min-h-full w-full object-cover" />
       </div>
