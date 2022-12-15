@@ -1,5 +1,6 @@
 import { BrowseAllCategories } from '@/lib/data';
 import Link from 'next/link';
+import React from 'react';
 
 const CategorySmallBox = () => {
   return (
@@ -8,16 +9,16 @@ const CategorySmallBox = () => {
         Category
       </h2>
       {BrowseAllCategories?.map((item, idx) => (
-        <>
+        <React.Fragment key={item.id}>
           {idx <= 2 && (
-              <Link key={item.id} href={`/collections/${item.slug}`} className='flex items-center gap-1 rounded border border-gray-300 py-3 px-4 hover:shadow-md cursor-pointer'>
+              <Link href={`/collections/${item.slug}`} className='flex items-center gap-1 rounded border border-gray-300 py-3 px-4 hover:shadow-md cursor-pointer'>
                 {item.icon}
                 <p className="font-head text-base text-emerald-500">
                   {item.name}
                 </p>
               </Link>
           )}
-        </>
+        </React.Fragment>
       ))}
     </div>
   );

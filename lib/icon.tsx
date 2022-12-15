@@ -106,8 +106,24 @@ export const ArrowDownFilled = (
     <path d="m24 30-10-9.95h20Z" />
   </svg>
 );
-export const FilterIcon = (props: any): HtmlHTMLAttributes<SVGAElement> | any => (
+export const FilterIcon = (
+  props: any,
+): HtmlHTMLAttributes<SVGAElement> | any => (
   <svg xmlns="http://www.w3.org/2000/svg" height="48" width="48" {...props}>
     <path d="M21.35 42V30.75h3v4.15H42v3H24.35V42ZM6 37.9v-3h12.35v3Zm9.35-8.3v-4.1H6v-3h9.35v-4.2h3v11.3Zm6-4.1v-3H42v3Zm8.3-8.25V6h3v4.1H42v3h-9.35v4.15ZM6 13.1v-3h20.65v3Z" />
+  </svg>
+);
+export const TickFilledIcon = (
+  props: any,
+): HtmlHTMLAttributes<SVGAElement> | any => (
+  <svg xmlns="http://www.w3.org/2000/svg" height="48" width="48" {...props}>
+    <path d="m21.05 28.55-4.9-4.9q-.45-.45-1.1-.45-.65 0-1.1.45-.5.5-.5 1.175t.45 1.125l6.1 6.1q.4.4 1.05.4t1.05-.4l12-12q.45-.45.45-1.1 0-.65-.5-1.15-.45-.45-1.125-.45t-1.175.5ZM24 44q-4.25 0-7.9-1.525-3.65-1.525-6.35-4.225-2.7-2.7-4.225-6.35Q4 28.25 4 24q0-4.2 1.525-7.85Q7.05 12.5 9.75 9.8q2.7-2.7 6.35-4.25Q19.75 4 24 4q4.2 0 7.85 1.55Q35.5 7.1 38.2 9.8q2.7 2.7 4.25 6.35Q44 19.8 44 24q0 4.25-1.55 7.9-1.55 3.65-4.25 6.35-2.7 2.7-6.35 4.225Q28.2 44 24 44Z" />
+  </svg>
+);
+export const ShuffleIcon = (
+  props: any,
+): HtmlHTMLAttributes<SVGAElement> | any => (
+  <svg xmlns="http://www.w3.org/2000/svg" height="20" width="20" {...props}>
+    <path d="M12 16v-1.5h1.438l-2.376-2.375 1.063-1.063 2.375 2.376V12H16v4Zm-6.938 0L4 14.938 13.438 5.5H12V4h4v4h-1.5V6.562Zm2.813-7.062L4 5.062 5.062 4l3.876 3.875Z" />
   </svg>
 );

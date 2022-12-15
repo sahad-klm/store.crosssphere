@@ -497,7 +497,7 @@ export const popularProductCategory = [
 ];
 export const popularProducts = [
   {
-    id: uuid(),
+    id: '111',
     name: 'Nasltlee orginal coffee-mate coffee creamer',
     rating: 4.0,
     tags: 'black plum, organic, silopy kujjapu',

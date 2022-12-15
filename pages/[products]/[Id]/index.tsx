@@ -15,12 +15,9 @@ const index = (data: {
   const pageName = modulesFinder(`/${pathname?.split('/').slice(1)[0]}/[slug]`);
 
   const productID = pathname?.split('/').slice(2).toLocaleString()
-  const product = popularProducts.filter((item) => item.id !== productID && item)
+  const product = popularProducts.filter((item) => item.id === productID && item)
 
-  console.log(popularProducts.map((item) => item));
   
-  
-  '1b5804ac-b581-4b1b-880e-a77ddec2b3ab'
 
   if (!pageName[0]) {
     return (
@@ -44,7 +41,7 @@ const index = (data: {
   return (
     <Layout site={site} page={page}>
       {pageName[0]?.modules.map((page: { id: any; pageType: any }) => (
-        <Module key={page.id} data={page?.pageType}  />
+        <Module key={page.id} data={page?.pageType} product={product}  />
       ))}
     </Layout>
   );

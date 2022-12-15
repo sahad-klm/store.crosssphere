@@ -3,18 +3,18 @@ import RateOfProduct from '@/ui/rate';
 import { Rating } from '@/ui/rating';
 import React from 'react';
 
-const NewProducts = () => {
+const NewProducts = ({limit = 1}: number | any): JSX.Element => {
   return (
-    <div className="flex flex-col gap-4 overflow-y-scroll rounded-xl border px-4 pb-8 pt-3 shadow-md">
+    <div className="flex flex-col gap-4 rounded-xl border px-4 pb-8 pt-3 shadow-md">
       <h2 className="before:content- relative mb-4 w-full shrink-0 border-b pb-4 font-head text-[24px] text-gray-800 before:absolute before:-bottom-[1px] before:h-[2px] before:w-14 before:bg-gray-300 md:pb-5 md:text-h4">
         New Products
       </h2>
       {popularProducts.map((item, idx) => (
         <>
-          {idx <= 1 && (
+          {idx <= limit && (
             <div
-              className={`xl:grid h-full xl:w-min w-full grid-flow-col gap-2 flex items-center ${
-                idx - 1 && 'border-b'
+              className={`xl:grid h-full w-full grid-flow-col gap-2 flex items-center ${
+                idx <= limit - 1 && 'border-b'
               } pb-3`}
             >
               <div className=" xl:h-full xl:w-max w-[80px] items-center justify-center p-2">
@@ -24,7 +24,7 @@ const NewProducts = () => {
                   alt={item.name}
                 />
               </div>
-              <div className="flex-col items-start justify-start">
+              <div className="flex-col items-start justify-start ">
                 <h4 className="font-head text-xl text-emerald-500 ">
                   {item.name}
                 </h4>
