@@ -65,5 +65,17 @@ export const pageController = [
 
       },
     ]
-  }
+  },
+  {
+    id: 3,
+    page : 'collections[slug]',
+    slug : `/${categorySlug()}/[slug]`,
+    modules : [
+      {
+        id: 1,
+        pageType : 'collections/[slug]'
+
+      },
+    ]
+  },
 ]

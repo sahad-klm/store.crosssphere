@@ -185,6 +185,6 @@ export function usePagination({
 }
 
 export function useCategoryProductsFind (name:any) {
-  return popularProducts.filter((item) => item.categorySlug === name?.toLocaleString() && item
-  )
+  return popularProducts.filter((item) => item.categorySlug === name?.toLocaleString() || popularProducts.filter((item) => item.id === name?.toLocaleString()  && item
+  ))
 }

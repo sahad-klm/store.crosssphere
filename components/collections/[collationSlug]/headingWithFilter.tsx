@@ -92,7 +92,7 @@ const HeadingWithFilter = ({
       {/* mobile */}
       <div className="hidden w-full items-center justify-between lg:inline-flex">
         <h4 className="font-body text-base text-gray-800 ">
-          Sowing all {products.length} products
+          Showing all {products.length} products
         </h4>
         <span className="flex gap-3">
           <ButtonShowLimit

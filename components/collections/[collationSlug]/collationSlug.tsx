@@ -1,20 +1,14 @@
-import { BrowseAllCategories, popularProducts } from '@/lib/data';
+
 import { useCategoryProductsFind } from '@/lib/helpers';
-import { ArrowDownFilled } from '@/lib/icon';
-import { ButtonShowLimit, ButtonSortBy } from '@/ui/button';
 import CategorySmallBox from '@/ui/categorySmallBox';
 import FilterByC_T_R from '@/ui/filterByC_T_R';
 import {
-  OneProductLeftPicRightDetail,
   OneProductWithOffer,
 } from '@/ui/OneProductWithOffer';
 import Pagination from '@/ui/Pagination';
-import RateOfProduct from '@/ui/rate';
-import { Rating } from '@/ui/rating';
-import DealsOfTheDay, {
+import  {
   DealsOfTheDayInCollection,
 } from 'components/deals/Page';
-import ProductWithTimer from 'components/deals/ProductWithTimer';
 import { AnimatePresence, m } from 'framer-motion';
 import { usePathname } from 'next/navigation';
 import React, { useMemo, useState } from 'react';
@@ -61,7 +55,7 @@ const CollationSlug = () => {
           <div className=" flex w-full flex-col items-center justify-between gap-6">
             <HeadingWithFilter filteringCount={filteringCount} products={products} setFilteringCount={filteringCount}/>
 
-            <div className="grid w-full grid-cols-2 gap-5 md:grid-cols-3 lg:grid-flow-col">
+            <div className="grid w-full grid-cols-2 gap-5 md:grid-cols-3 lg:grid-cols-4">
               {currentTableData?.map(
                 (
                   item: JSX.IntrinsicAttributes & {

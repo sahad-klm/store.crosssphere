@@ -1,14 +1,16 @@
 import { Cart, Fire, Icon, Love, Spinner, User } from './icon';
+import { v4 as uuid } from 'uuid';
 
 type Props = {
-  id: number;
+  id: React.Key;
   icon: string | any;
   name: string;
   picture?: string;
   slug?: string;
-  items?:number,
-  bg?:string
+  items?: number;
+  bg?: string;
 };
+
 export const lastOneInNav: Props[] = [
   {
     id: 1,
@@ -303,127 +305,126 @@ export const BrowseAllCategories: Props[] = [
     icon: <Icon className="h-7" />,
     name: 'Milks and Dairies',
     picture: '/favicon.ico',
-    slug : 'milks-and-dairies',
+    slug: 'milks-and-dairies',
     bg: '#a7f3d0',
-    items :12,
+    items: 12,
   },
   {
     id: 2,
     icon: <Icon className="h-7" />,
     name: 'Milks and Dairies',
     picture: '/favicon.ico',
-    slug : 'milks-and-dairies',
+    slug: 'milks-and-dairies',
     bg: '#4f46e5',
-    items :13,
-    
+    items: 13,
   },
   {
     id: 3,
     icon: <Icon className="h-7" />,
     name: 'Milks and Dairies',
     picture: '/favicon.ico',
-    slug : 'milks-and-dairies',
+    slug: 'milks-and-dairies',
     bg: '#a7f3d0',
-    items :15
+    items: 15,
   },
   {
     id: 4,
     icon: <Icon className="h-7" />,
     name: 'Milks and Dairies',
     picture: '/favicon.ico',
-    slug : 'milks-and-dairies',
+    slug: 'milks-and-dairies',
     bg: '#a7f3d0',
-    items :17
+    items: 17,
   },
   {
     id: 5,
     icon: <Icon className="h-7" />,
     name: 'Milks and Dairies',
     picture: '/favicon.ico',
-    slug : 'milks-and-dairies',
+    slug: 'milks-and-dairies',
     bg: '#4f46e5',
-    items :11
+    items: 11,
   },
   {
     id: 6,
     icon: <Icon className="h-7" />,
     name: 'Milks and Dairies',
     picture: '/favicon.ico',
-    slug : 'milks-and-dairies',
+    slug: 'milks-and-dairies',
     bg: '#a7f3d0',
-    items :16
+    items: 16,
   },
   {
     id: 7,
     icon: <Icon className="h-7" />,
     name: 'Milks and Dairies',
     picture: '/favicon.ico',
-    slug : 'milks-and-dairies',
+    slug: 'milks-and-dairies',
     bg: '#4f46e5',
-    items :17
+    items: 17,
   },
   {
     id: 8,
     icon: <Icon className="h-7" />,
     name: 'Milks and Dairies',
     picture: '/favicon.ico',
-    slug : 'milks-and-dairies',
+    slug: 'milks-and-dairies',
     bg: '#a7f3d0',
-    items :18
+    items: 18,
   },
   {
     id: 9,
     icon: <Icon className="h-7" />,
     name: 'Milks and Dairies',
     picture: '/favicon.ico',
-    slug : 'milks-and-dairies',
+    slug: 'milks-and-dairies',
     bg: '#818cf8',
-    items :11
+    items: 11,
   },
   {
     id: 10,
     icon: <Icon className="h-7" />,
     name: 'Milks and Dairies',
     picture: '/favicon.ico',
-    slug : 'milks-and-dairies',
+    slug: 'milks-and-dairies',
     bg: '#a7f3d0',
-    items :188
+    items: 188,
   },
   {
     id: 11,
     icon: <Icon className="h-7" />,
     name: 'Milks and Dairies',
     picture: '/favicon.ico',
-    slug : 'milks-and-dairies',
+    slug: 'milks-and-dairies',
     bg: '#818cf8',
-    items :13
+    items: 13,
   },
   {
     id: 12,
     icon: <Icon className="h-7" />,
     name: 'Milks and Dairies',
     picture: '/favicon.ico',
-    slug : 'milks-and-dairies',
+    slug: 'milks-and-dairies',
     bg: '#a7f3d0',
-    items :12
+    items: 12,
   },
   {
     id: 13,
     icon: <Icon className="h-7" />,
     name: 'Milks and Dairies',
     picture: '/favicon.ico',
-    slug : 'milks-and-dairies',
+    slug: 'milks-and-dairies',
     bg: '#a7f3d0',
-    items :16
+    items: 16,
   },
   {
     id: 14,
     icon: <Icon className="h-7" />,
     name: 'Milks and Dairies',
     picture: '/favicon.ico',
-    slug : 'milks-and-dairies',
+    slug: 'milks-and-dairies',
     bg: '#818cf8',
-    items :18
+    items: 18,
   },
 ];
 
@@ -442,8 +443,6 @@ export const homeComponentBig = [
     subtitle: 'Sign up for become a fool',
   },
 ];
-
-
 
 export const fracturedMainProduct = [
   {
@@ -498,7 +497,7 @@ export const popularProductCategory = [
 ];
 export const popularProducts = [
   {
-    id: 1,
+    id: uuid(),
     name: 'Nasltlee orginal coffee-mate coffee creamer',
     rating: 4.0,
     tags: 'black plum, organic, silopy kujjapu',
@@ -511,7 +510,7 @@ export const popularProducts = [
       'https://cdn.britannica.com/99/234299-050-9CDD78E1/Koi-fish-swimming-carp.jpg',
   },
   {
-    id: 2,
+    id: uuid(),
     name: 'Nasltlee orginal coffee-mate coffee creamer',
     rating: 4.0,
     tags: 'black plum, organic, silopy kujjapu',
@@ -524,7 +523,7 @@ export const popularProducts = [
       'https://cdn.britannica.com/99/234299-050-9CDD78E1/Koi-fish-swimming-carp.jpg',
   },
   {
-    id: 3,
+    id: uuid(),
     name: 'Nasltlee orginal coffee-mate coffee creamer',
     rating: 4.0,
     tags: 'black plum, organic, silopy kujjapu',
@@ -537,7 +536,7 @@ export const popularProducts = [
       'https://cdn.britannica.com/99/234299-050-9CDD78E1/Koi-fish-swimming-carp.jpg',
   },
   {
-    id: 4,
+    id: uuid(),
     name: 'Nasltlee orginal coffee-mate coffee creamer',
     rating: 4.0,
     tags: 'black plum, organic, silopy kujjapu',
@@ -550,7 +549,7 @@ export const popularProducts = [
       'https://cdn.britannica.com/99/234299-050-9CDD78E1/Koi-fish-swimming-carp.jpg',
   },
   {
-    id: 5,
+    id: uuid(),
     name: 'Nasltlee orginal coffee-mate coffee creamer',
     rating: 4.0,
     tags: 'black plum, organic, silopy kujjapu',
@@ -561,7 +560,7 @@ export const popularProducts = [
       'https://cdn.britannica.com/99/234299-050-9CDD78E1/Koi-fish-swimming-carp.jpg',
   },
   {
-    id: 6,
+    id: uuid(),
     name: 'Nasltlee orginal coffee-mate coffee creamer',
     rating: 4.5,
     tags: 'black plum, organic, silopy kujjapu',

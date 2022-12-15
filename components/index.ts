@@ -10,6 +10,8 @@ import Feathers from './feature/Page'
 import Footer from './footer/Page'
 import Collations from "./collections/Collations";
 import collationSlug from "./collections/[collationSlug]/collationSlug";
+import ProductDetails from "./[products]/productDetails";
+
 
 
 
@@ -25,5 +27,6 @@ export {
   Feathers,
   Footer,
   Collations,
-  collationSlug
+  collationSlug,
+  ProductDetails
 }

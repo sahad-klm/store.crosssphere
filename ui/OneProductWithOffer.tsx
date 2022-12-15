@@ -1,4 +1,5 @@
 import { Icon } from '@/lib/icon';
+import Link from 'next/link';
 
 import React from 'react';
 import { ButtonAdd, ButtonAddToCart } from './button';
@@ -19,6 +20,7 @@ type Props = {
   buttonStyle?: any;
   classNameForPic?: any;
   classNameForTotal?: any;
+  categorySlug?:string
 };
 function OneProductWithOffer({
   id,
@@ -34,6 +36,7 @@ function OneProductWithOffer({
   buttonStyle,
   classNameForPic,
   classNameForTotal,
+  categorySlug
 }: Props): any {
   const addBtn = buttonStyle === 'add';
   const addToCartBtn = buttonStyle === 'add-to-cart';
@@ -67,19 +70,21 @@ function OneProductWithOffer({
           tags === 'vegetable' || 'organic' ? 'bg-gray-100' : 'bg-white'
         } ${classNameForPic}`}
       >
+        <Link href={`/${categorySlug}/${id}`}>
         <img
           src={
             bacPicture
-              ? mouseOver === id && windowWidth > 768
-                ? bacPicture
-                : picture
-              : picture
+            ? mouseOver === id && windowWidth > 768
+            ? bacPicture
+            : picture
+            : picture
           }
           onMouseOver={() => setMouseOver(id)}
           onMouseLeave={() => setMouseOver('')}
           alt=""
           className="h-full w-full object-contain"
-        />
+          />
+          </Link>
 
         <div className="invisible absolute flex h-9 flex-row items-center justify-center rounded border border-emerald-300 bg-white md:group-hover/body:visible">
           <button className="group/btn1 group/etd relative">
@@ -107,9 +112,11 @@ function OneProductWithOffer({
       <small className="mx-5 mt-3 flex flex-wrap pb-[4px] font-body text-[10px] text-gray-400 md:pb-[6px] md:text-xs">
         {tags}
       </small>
+      <Link href={`/${categorySlug}/${id}`}>
       <h4 className="mx-5 pb-[8px] font-head text-sm text-gray-700 transition-all duration-200 hover:text-emerald-500 md:pb-[10px] md:text-base">
         {name}
       </h4>
+      </Link>
       <span className="mx-5 pb-[8px] md:pb-[10px]">
         {/* {item.rating} */}
         <i className="lni lni-star-filled text-xs text-yellow-500" />
@@ -118,7 +125,7 @@ function OneProductWithOffer({
         <i className="lni lni-star-filled text-xs text-yellow-500" />
       </span>
       <div
-        className={`mx-5 mb-4 flex flex-row items-center md:mb-5 ${
+        className={`mx-5 mb-4 flex flex-row flex-wrap items-center md:mb-5 ${
           addBtn ? 'justify-between' : 'justify-start'
         }`}
       >
@@ -176,11 +183,14 @@ const OneProductLeftPicRightDetail = ({
                     : 'bg-white'
                 }`}
               >
+                <Link href={`/${item.categorySlug}/${item.id}`}>
+
                 <img
                   src={item.picture}
                   className="h-full w-full object-contain"
                   alt={item.name}
-                />
+                  />
+                  </Link>
               </div>
               <div className="justify-star flex w-full flex-[60%] flex-col items-start md:h-28">
                 <h4 className="font-head text-[14px] text-gray-800 transition duration-200 hover:text-emerald-500 md:text-[16px]">

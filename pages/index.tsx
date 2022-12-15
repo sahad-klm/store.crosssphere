@@ -11,9 +11,6 @@ const Home = (data: {
   const pathname = usePathname();
   const { site, page }: any = data;
   const pageName = modulesFinder(pathname)
-  const [first, setFirst] = React.useState();
-  const [isFirst, setIsFirst] = React.useState();
-  
 
   if (!pageName[0]) {
     return (

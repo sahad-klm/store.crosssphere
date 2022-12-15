@@ -102,7 +102,7 @@ function MyApp({ Component, pageProps, router }: any) {
       <Head>
         <title>Next.js</title>
       </Head>
-      {!first && (
+      {first && (
         <div className="grid-row-2 fixed inset-0 z-[500000000000] grid bg-black">
           <div className="mx-auto flex w-[80%] flex-col items-center justify-center overflow-hidden rounded-3xl border-[5px]">
             <a href='/' className='text-white text-h4 border p-5 bg-red-700 absolute '>onnum kannllagil ithil kick adichalla</a>
