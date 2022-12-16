@@ -53,7 +53,7 @@ const CollationSlug = () => {
             animate="show"
             exit="hide"
             variants={fadeAnim}
-            className="grid w-full grid-cols-2 gap-5 md:grid-cols-3 lg:grid-cols-4 "
+            className="grid w-full grid-cols-2 gap-2 md:grid-cols-3 lg:grid-cols-4 "
           >
             {currentTableData?.map(
               (
@@ -79,8 +79,8 @@ const CollationSlug = () => {
                   key={item.id}
                   {...item}
                   buttonStyle="add"
-                  classNameForTotal="xl:w-auto  xl:h-auto w-[250px] h-[483px] mx-auto w-auto"
-                  classNameForPic="p-4  "
+                  classNameForTotal="xl:w-auto xl:max-w-[220px] xl:h-auto w-auto h-[443px] mx-auto"
+                  classNameForPic="p-4 "
                 />
               ),
             )}
