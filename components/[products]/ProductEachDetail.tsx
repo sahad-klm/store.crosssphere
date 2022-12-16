@@ -43,7 +43,7 @@ const ProductEachDetail = (product: any) => {
       <h4 className="max-w-[90%] text-lg text-gray-600">
         {product[0].smallDetail}
       </h4>
-      <div className="mt-6 flex items-center">
+      <div className="mt-6 flex items-center flex-wrap gap-4">
         <span className="grid h-[50px] w-[100px] grid-flow-col place-content-center items-center justify-between rounded-lg border-[2px] border-emerald-500 ">
           <p className=" ml-7 text-base font-bold text-emerald-500">
             {cartCount}
@@ -61,13 +61,15 @@ const ProductEachDetail = (product: any) => {
             />
           </span>
         </span>
-        <ButtonAddToCart className="mt-0 w-[158px]" />
-        <span className="mr-[10px] grid h-[50px] w-[50px] place-content-center rounded-lg border border-gray-300">
+        <ButtonAddToCart className="mt-0 w-[158px] mx-0" />
+        <div className='flex gap-3'>
+        <span className=" grid h-[50px] w-[50px] place-content-center rounded-lg border border-gray-300">
           <Love className="-m-3 scale-50 fill-gray-500" />
         </span>
         <span className="grid h-[50px] w-[50px] place-content-center rounded-lg border border-gray-300">
           <ShuffleIcon className="scale-110 fill-gray-500" />
         </span>
+        </div>
       </div>
       <div className="flex flex-col gap-[5px]">
         <p className="text-base text-gray-500">

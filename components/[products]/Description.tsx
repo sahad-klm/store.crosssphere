@@ -57,9 +57,9 @@ const Description = ({ products }: any) => {
         ))}
       </div>
       {/* mobilePhone */}
-      <div className={`max-md:fixed   z-[500] ${isToggle ? 'flex': 'hidden'} flex-col overflow-hidden  shadow-2xl inset-0 `}>
-        <span  className='flex h-[80vh] bg-black bg-opacity-30'/>
-        <div className='flex bg-white shrink-0 min-h-[30vh] flex-col overflow-y-scroll'>
+      <div className={`max-md:fixed   z-[500] ${isToggle ? 'flex': 'hidden'} flex-col overflow-hidden  shadow-2xl w-full h-[100vh] bottom-0 left-0 justify-end`}>
+        <span onClick={() => setIsToggle(false)}  className='flex fixed inset-0 z-10 bg-black bg-opacity-30'/>
+        <div className='flex bg-white min-h-[30vh] flex-col overflow-y-scroll z-30'>
           <div className='py-5 border-b flex flex-row w-full justify-between relative'>
             <p className='flex w-full items-center justify-center text-gray-700 text-base cursor-pointer'>Additional Info</p>
             <p className='flex w-full items-center justify-center text-gray-700 text-base cursor-pointer'>Reviews</p>
