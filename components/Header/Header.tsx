@@ -13,13 +13,13 @@ import { slideIn, textVariant, textVariant2 } from 'utils/motion';
 import { NavBigOptionsTab, NavBigOptions } from './NavBigOptions';
 import { footerSocialMedia, lastOneInNav } from '@/lib/data';
 
-
 function Header(): any {
   const [searchOption, setSearchOption] = useState<string | any>(
     'All Catagories',
   );
-  const [browseAllCategory, setBrowseAllCategory] =
-    React.useState<Boolean | any>(false);
+  const [browseAllCategory, setBrowseAllCategory] = React.useState<
+    Boolean | any
+  >(false);
   const [isSearchOptionActive, setIsSearchOptionActive] = useState<
     boolean | any
   >(false);
@@ -85,7 +85,7 @@ function Header(): any {
 
         <div className="flex h-24 w-full items-center justify-start border-b-[1px] border-solid border-gray-700 border-opacity-20 bg-white py-4 px-4">
           <BrowseAllButton
-          navHide ={navHide}
+            navHide={navHide}
             browseAllCategory={browseAllCategory}
             setBrowseAllCategory={setBrowseAllCategory}
           />
@@ -115,7 +115,10 @@ function Header(): any {
             navHide ? 'flex' : 'hidden'
           } h-[60px] w-full items-center justify-between border-b-[1px] border-solid border-gray-700 border-opacity-20 bg-white py-2 px-4 duration-300`}
         >
-          <BrowseAllButton setBrowseAllCategory={setBrowseAllCategory} browseAllCategory={browseAllCategory}/>
+          <BrowseAllButton
+            setBrowseAllCategory={setBrowseAllCategory}
+            browseAllCategory={browseAllCategory}
+          />
           <SearchBar
             classNameOfListInSearch={classNameOfListInSearch}
             handleClickSearchOption={handleClickSearchOption}
@@ -149,12 +152,20 @@ function Header(): any {
         <div
           className={`${
             browseAllCategory ? 'fixed' : 'hidden'
-          }   inset-0 z-50 flex w-full bg-black bg-opacity-25 min-h-[100vh]`}
+          }   inset-0 z-50 flex min-h-[100vh] w-full bg-black bg-opacity-25`}
         >
           <motion.div
-            initial="hidden"
-            whileInView="show"
-            variants={slideIn('left', 'tween', 0, 0.4)}
+            initial="hide"
+            animate={browseAllCategory ? 'show' : 'hide'}
+            variants={{
+              show: {
+                x: '0%',
+              },
+              hide: {
+                x: '-100%',
+              },
+            }}
+            transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
             className={`
           left-0 bottom-0 z-[501] flex min-w-[80%]  flex-col justify-between  bg-white sm:min-w-[350px]`}
           >
@@ -172,10 +183,10 @@ function Header(): any {
               <NavBigOptionsTab />
             </div>
 
-            <div className="flex h-24 w-full items-center bg-gray-100 px-4 shrink-0">
+            <div className="flex h-24 w-full shrink-0 items-center bg-gray-100 px-4">
               {footerSocialMedia.map((item) => (
                 <a
-                key={item.id}
+                  key={item.id}
                   href={item.link}
                   className={`${item.icon}   flex h-10 w-10 items-center justify-center rounded-md text-gray-600 hover:text-[${item.color}]`}
                 />
@@ -193,7 +204,7 @@ function Header(): any {
         whileInView="show"
         variants={textVariant(0.01, 0.01)}
         className={`fixed ${
-          bottomHide && !browseAllCategory ? 'md:hidden flex' : 'hidden'
+          bottomHide && !browseAllCategory ? 'flex md:hidden' : 'hidden'
         } bottom-0  z-[100] w-full items-center justify-between border-t-[1px] border-solid border-gray-700 border-opacity-40 bg-white  p-1 px-4 shadow-2xl duration-300`}
       >
         <div className="flex w-full  flex-row justify-between">
@@ -203,15 +214,15 @@ function Header(): any {
               className="group/btn flex cursor-pointer flex-col items-center"
             >
               {item.icon}
-              <p className=" -mt-3 font-body text-base  text-stone-800  group-hover/btn:text-emerald-500 duration-300">
+              <p className=" -mt-3 font-body text-base  text-stone-800  duration-300 group-hover/btn:text-emerald-500">
                 {item.name}
               </p>
             </span>
           ))}
 
           <span className="group/btn flex cursor-pointer flex-col items-center justify-center">
-            <i className="fa-solid fa-magnifying-glass mt-3 text-gray-700 group-hover/btn:text-emerald-500 duration-300" />
-            <p className="mt-1 font-body text-base  text-stone-800 hover:text-emerald-500 group-hover/btn:text-emerald-500 duration-300">
+            <i className="fa-solid fa-magnifying-glass mt-3 text-gray-700 duration-300 group-hover/btn:text-emerald-500" />
+            <p className="mt-1 font-body text-base  text-stone-800 duration-300 hover:text-emerald-500 group-hover/btn:text-emerald-500">
               Search
             </p>
           </span>

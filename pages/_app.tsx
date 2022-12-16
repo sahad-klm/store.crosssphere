@@ -99,13 +99,13 @@ function MyApp({ Component, pageProps, router }: any) {
   const { data } = pageProps;
   const routerlp = useRouter();
 
-  useEffect(() => {
-    if (first === false) {
-      routerlp.push('/');
-    }
-  }, [first]);
+  // useEffect(() => {
+  //   if (first === false) {
+  //     routerlp.push('/');
+  //   }
+  // }, [first]);
 
-  if (first === false)
+  if (first !== false)
     return (
       <div className="mx-auto flex h-[100vh] gap-10 mt-28 min-w-full flex-row  items-center justify-center  bg-black">
         <div className=" flex md:w-[40%]  flex-col items-center justify-center  rounded-3xl border-[5px]">

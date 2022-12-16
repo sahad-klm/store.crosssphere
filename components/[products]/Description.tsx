@@ -1,6 +1,8 @@
 import { ArrowNoLine } from '@/lib/icon';
-import { ButtonAdd } from '@/ui/button';
+import { m } from 'framer-motion';
+
 import { Rating } from '@/ui/rating';
+import { AnimatePresence } from 'framer-motion';
 import React from 'react';
 
 const Description = ({ products }: any) => {
@@ -15,8 +17,8 @@ const Description = ({ products }: any) => {
   console.log(reviews.map((item: { items: string | any[] }) => item.items));
 
   return (
-    <div className="relative flex w-full flex-col items-start lg:gap-5 overflow-hidden  rounded-xl border lg:py-10 py-6 lg:px-12 px-8">
-      <span className="h-10 w-full max-lg:flex hidden">
+    <div className="relative flex w-full flex-col items-start overflow-hidden rounded-xl  border py-6 px-8 lg:gap-5 lg:py-10 lg:px-12">
+      <span className="hidden h-10 w-full max-lg:flex">
         <ArrowNoLine
           onClick={() => setIsToggle(!isToggle)}
           className={`-m-3 fill-gray-500 ${
@@ -25,7 +27,7 @@ const Description = ({ products }: any) => {
         />
       </span>
       {/* pc */}
-      <div className="lg:flex hidden w-full flex-row gap-5">
+      <div className="hidden w-full flex-row gap-5 lg:flex">
         {products.details.map((item: { id: React.Key; part: string }) => (
           <React.Fragment key={item.id}>
             <span
@@ -40,14 +42,17 @@ const Description = ({ products }: any) => {
         ))}
       </div>
       {/* tablet */}
-      <div className={`max-lg:absolute top-[80px] z-40 ${isToggle ? 'max-lg:flex max-md:hidden': 'hidden'} flex-col overflow-hidden  rounded-xl bg-white p-4 shadow-2xl`}>
+      <div
+        className={`top-[80px] z-40 max-lg:absolute ${
+          isToggle ? 'max-lg:flex max-md:hidden' : 'hidden'
+        } flex-col overflow-hidden  rounded-xl bg-white p-4 shadow-2xl`}
+      >
         {products.details.map((item: { id: React.Key; part: string }) => (
           <React.Fragment key={item.id}>
-            
             <span
               onClick={() => {
-                setIsSelected(item.part)
-                setIsToggle(false)
+                setIsSelected(item.part);
+                setIsToggle(false);
               }}
               className="flex h-10 cursor-pointer items-center  px-4 text-base text-gray-800 "
             >
@@ -57,32 +62,56 @@ const Description = ({ products }: any) => {
         ))}
       </div>
       {/* mobilePhone */}
-      <div className={`max-md:fixed   z-[500] ${isToggle ? 'flex': 'hidden'} flex-col overflow-hidden  shadow-2xl w-full h-[100vh] bottom-0 left-0 justify-end`}>
-        <span onClick={() => setIsToggle(false)}  className='flex fixed inset-0 z-10 bg-black bg-opacity-30'/>
-        <div className='flex bg-white min-h-[30vh] flex-col overflow-y-scroll z-30'>
-          <div className='py-5 border-b flex flex-row w-full justify-between relative'>
-            <p className='flex w-full items-center justify-center text-gray-700 text-base cursor-pointer'>Additional Info</p>
-            <p className='flex w-full items-center justify-center text-gray-700 text-base cursor-pointer'>Reviews</p>
-            <ArrowNoLine onClick={() => setIsToggle(false)} className='-m-3 absolute right-4 scale-75 rotate-90 fill-gray-600'/>
-          </div>
-
-        {products.details.map((item: { id: React.Key; part: string }) => (
-          <React.Fragment key={item.id}>
-            
+        {isToggle && (
+          <m.div
+            initial="hide"
+            animate="show"
+            exit="hide"
+            variants={{
+              show: {
+                y: '0%',
+              },
+              hide: {
+                y: '-120%',
+              },
+            }}
+            transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1] }}
+            className={`bottom-0  left-0 z-[500] h-[100vh]  flex w-full flex-col justify-end overflow-hidden shadow-2xl max-md:fixed`}
+          >
             <span
-              onClick={() => {
-                setIsSelected(item.part)
-                setIsToggle(false)
-              }}
-              className="flex h-14  cursor-pointer items-center  px-4 text-base text-gray-700 "
-              >
-              {item.part}
-            </span>
-          </React.Fragment>
-        ))}
-        </div>
-      </div>
+              onClick={() => setIsToggle(false)}
+              className="fixed inset-0 -z-10 flex bg-black bg-opacity-30"
+            />
+            <div className="z-50 flex min-h-[30vh] flex-col overflow-y-scroll bg-white">
+              <div className="relative flex w-full flex-row justify-between border-b py-5">
+                <p className="flex w-full cursor-pointer items-center justify-center text-base text-gray-700">
+                  Additional Info
+                </p>
+                <p className="flex w-full cursor-pointer items-center justify-center text-base text-gray-700">
+                  Reviews
+                </p>
+                <ArrowNoLine
+                  onClick={() => setIsToggle(false)}
+                  className="absolute right-4 -m-3 rotate-90 scale-75 fill-gray-600"
+                />
+              </div>
 
+              {products.details.map((item: { id: React.Key; part: string }) => (
+                <React.Fragment key={item.id}>
+                  <span
+                    onClick={() => {
+                      setIsSelected(item.part);
+                      setIsToggle(false);
+                    }}
+                    className="flex h-14  cursor-pointer items-center  px-4 text-base text-gray-700 "
+                  >
+                    {item.part}
+                  </span>
+                </React.Fragment>
+              ))}
+            </div>
+          </m.div>
+        )}
 
       <div className="flex flex-col">
         {products.details.map(
