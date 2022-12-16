@@ -15,7 +15,7 @@ const Description = ({ products }: any) => {
   console.log(reviews.map((item: { items: string | any[] }) => item.items));
 
   return (
-    <div className="relative flex w-full flex-col items-start lg:gap-5  rounded-xl border lg:py-10 py-6 lg:px-12 px-8">
+    <div className="relative flex w-full flex-col items-start lg:gap-5 overflow-hidden  rounded-xl border lg:py-10 py-6 lg:px-12 px-8">
       <span className="h-10 w-full max-lg:flex hidden">
         <ArrowNoLine
           onClick={() => setIsToggle(!isToggle)}
