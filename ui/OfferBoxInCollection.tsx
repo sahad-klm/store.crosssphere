@@ -1,8 +1,8 @@
 import React from "react";
 
-const OfferBoxInCollection = () => {
+const OfferBoxInCollection = ({className}:{className?: string}) => {
   return (
-    <div className="relative z-0 flex flex-col  justify-center gap-1 overflow-hidden rounded-xl bg-cyan-200 p-12 shadow-md max-xl:h-[70vh]">
+    <div className={`relative z-0 flex flex-col  justify-center gap-1 overflow-hidden rounded-xl bg-cyan-200 p-12 shadow-md max-xl:h-[70vh] ${className}`}>
               <small className="font-body text-gray-600">Organic</small>
               <p className="font-head text-2xl leading-8">
                 Save 17% on <span className="text-emerald-500">Organic</span>{' '}

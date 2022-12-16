@@ -12,6 +12,7 @@ import { isBrowser, useScrollRestoration } from '@/lib/helpers';
 import React, { useContext, useEffect, useMemo } from 'react';
 import { Router } from 'next/router';
 import { pageTransitionSpeed } from 'utils/motion';
+import { useRouter } from 'next/navigation';
 
 if (isBrowser) {
   console.groupCollapsed(
@@ -33,7 +34,6 @@ const Site = ({ Component, pageProps, router }: any): JSX.Element => {
   const togglePageTransition = useTogglePageTransition();
   const { isPageTransition } = useSiteContext();
   const { data } = pageProps;
-  
 
   //  get scroll potion
   useScrollRestoration(router, isPageTransition);
@@ -95,47 +95,53 @@ const Site = ({ Component, pageProps, router }: any): JSX.Element => {
 };
 
 function MyApp({ Component, pageProps, router }: any) {
-  const [first, setFirst] = React.useState();
+  const [first, setFirst] = React.useState(false);
   const { data } = pageProps;
+  const routerlp = useRouter();
+
+  useEffect(() => {
+    if (first === false) {
+      routerlp.push('/');
+    }
+  }, [first]);
+
+  if (first === false)
+    return (
+      <div className="mx-auto flex h-[100vh] gap-10 mt-28 min-w-full flex-row  items-center justify-center  bg-black">
+        <div className=" flex md:w-[40%]  flex-col items-center justify-center  rounded-3xl border-[5px]">
+          <img src="Untiztled.webp" className="object-contain" />
+          <button
+            onClick={() => {
+              if (
+                window.confirm(
+                  'ijj parajjath sattyam annnnu tonnu thalkaalam site kandu pettnnu povaan nook',
+                )
+              )
+                setFirst(true);
+            }}
+            className="mt-5 rounded-xl bg-white px-10 py-5 text-black"
+          >
+            ith
+          </button>
+        </div>
+        <div className="flex md:w-[40%] flex-col items-center justify-center  rounded-3xl border-[5px]">
+          <img src="Untitsssssled(1).webp" alt="" className=" object-contain" />
+          <button
+            onClick={() => alert('ijj tett anser adichu ini pinne vaa')}
+            className="mt-5 rounded-xl bg-white px-10 py-5 text-black"
+          >
+            ith
+          </button>
+        </div>
+        <h1 className='text-white z-50 text-8xl font-head fixed top-10 scale-150'>ethaan kooduthal fun ullath</h1>
+      </div>
+    );
+
   return (
     <>
       <Head>
         <title>Next.js</title>
       </Head>
-      {first && (
-        <div className="grid-row-2 fixed inset-0 z-[500000000000] grid bg-black">
-          <div className="mx-auto flex w-[80%] flex-col items-center justify-center overflow-hidden rounded-3xl border-[5px]">
-            <a href='/' className='text-white text-h4 border p-5 bg-red-700 absolute '>onnum kannllagil ithil kick adichalla</a>
-            <img
-              src="20220822_093622.png"
-              className="w-full object-contain z-20"
-            />
-            <button
-              onClick={() => {
-                if (
-                  window.confirm(
-                    'ijj parajjath sattyam annnnu tonnu thalkaalam site kandu pettnnu povaan nook',
-                    )
-                    )
-                    setFirst(true);
-                  }}
-              className="mt-5 rounded-xl bg-white px-10 py-5 text-black"
-            >
-              ith
-            </button>
-                  <h1 className="text-h4 text-emerald-500">find masterpice smile</h1>
-          </div>
-          <div className="mx-auto flex w-[80%] flex-col items-center justify-center overflow-hidden rounded-3xl border-[5px]">
-            <img src="Untitled.png" alt="" className="w-full object-contain" />
-            <button
-              onClick={() => alert('ijj tett anser adichu ini pinne vaa')}
-              className="mt-5 rounded-xl bg-white px-10 py-5 text-black"
-            >
-              ith
-            </button>
-          </div>
-        </div>
-      )}
 
       <SiteContextProvider data={{ ...data }}>
         <Site Component={Component} pageProps={pageProps} router={router} />
