@@ -165,6 +165,7 @@ const ButtonSortBy = ({ filteringCount, setFilteringCount }: any): any => {
       >
         {sortList.map((item) => (
           <li
+          key={item.id}
             onClick={() =>
               setFilteringCount({ ...filteringCount, filterBy: item.name })
             }

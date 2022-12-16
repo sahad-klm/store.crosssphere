@@ -10,9 +10,9 @@ const NewProducts = ({limit = 1}: number | any): JSX.Element => {
         New Products
       </h2>
       {popularProducts.map((item, idx) => (
-        <>
+        <React.Fragment key={item.id}>
           {idx <= limit && (
-            <div
+            <div 
               className={`xl:grid h-full w-full grid-flow-col gap-2 flex items-center ${
                 idx <= limit - 1 && 'border-b'
               } pb-3`}
@@ -37,7 +37,7 @@ const NewProducts = ({limit = 1}: number | any): JSX.Element => {
               </div>
             </div>
           )}
-        </>
+        </React.Fragment>
       ))}
     </div>
   );
