@@ -12,6 +12,7 @@ import { motion } from 'framer-motion';
 import { slideIn, textVariant, textVariant2 } from 'utils/motion';
 import { NavBigOptionsTab, NavBigOptions } from './NavBigOptions';
 import { footerSocialMedia, lastOneInNav } from '@/lib/data';
+import Link from 'next/link';
 
 function Header(): any {
   const [searchOption, setSearchOption] = useState<string | any>(
@@ -68,10 +69,12 @@ function Header(): any {
     <>
       <nav className="relative top-0 z-50 hidden w-full flex-col lg:flex ">
         <div className="flex h-24 w-full items-center justify-start border-b-[1px] border-solid border-gray-700 border-opacity-20 bg-white py-4 sm:px-4">
-          <img
-            src="Untitled11-removebg-preview.png"
-            className=" h-full w-44 shrink-0 bg-red-300 object-contain"
-          />
+          <Link href="/" className='flex items-center justify-center h-full'>
+            <img
+              src="Untitled11-removebg-preview.png"
+              className=" h-full w-44 shrink-0 bg-red-300 object-contain"
+            />
+          </Link>
           <SearchBar
             classNameOfListInSearch={classNameOfListInSearch}
             handleClickSearchOption={handleClickSearchOption}
@@ -138,11 +141,12 @@ function Header(): any {
             onClick={() => setBrowseAllCategory(true)}
             className="fa-solid fa-bars-staggered w-22 cursor-pointer text-2xl text-gray-700 sm:w-28 sm:text-3xl"
           />
-
-          <img
-            src="favicon.ico"
-            className=" h-full w-44 shrink-0 cursor-pointer bg-red-300 object-contain"
-          />
+          <Link href="/" className='flex items-center justify-center h-full'>
+            <img
+              src="favicon.ico"
+              className=" h-full w-44 shrink-0 cursor-pointer bg-red-300 object-contain"
+            />
+          </Link>
           <div>
             <NavLAstInFeistBar2 />
           </div>

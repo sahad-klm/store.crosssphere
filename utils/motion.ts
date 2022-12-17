@@ -158,6 +158,22 @@ export const footerVariants = {
     },
   },
 };
+export const itemAnim = {
+  show: {
+    opacity: 1,
+    transition: {
+      duration: 0.3,
+      ease: 'linear',
+    },
+  },
+  hide: {
+    opacity: 0,
+    transition: {
+      duration: 0.3,
+      ease: 'linear',
+    },
+  },
+}
 
 export const fadeAnim = {
   show: {

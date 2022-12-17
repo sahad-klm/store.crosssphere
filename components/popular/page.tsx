@@ -72,7 +72,7 @@ const PopularProducts = (): any => {
             key={item.id}
             {...item}
             buttonStyle="add"
-            classNameForTotal="w-auto h-auto mx-auto"
+            classNameForTotal="w-[220px] h-[410px] mx-auto"
             classNameForPic="p-4  "
           />
         ))}

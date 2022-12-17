@@ -99,26 +99,20 @@ function MyApp({ Component, pageProps, router }: any) {
   const { data } = pageProps;
   const routerlp = useRouter();
 
-  // useEffect(() => {
-  //   if (first === false) {
-  //     routerlp.push('/');
-  //   }
-  // }, [first]);
+  useEffect(() => {
+    if (first === false) {
+      routerlp.push('/');
+    }
+  }, [first]);
 
-  if (first !== false)
+  if (first === false)
     return (
       <div className="mx-auto flex h-[100vh] gap-10 mt-28 min-w-full flex-row  items-center justify-center  bg-black">
         <div className=" flex md:w-[40%]  flex-col items-center justify-center  rounded-3xl border-[5px]">
           <img src="Untiztled.webp" className="object-contain" />
           <button
-            onClick={() => {
-              if (
-                window.confirm(
-                  'ijj parajjath sattyam annnnu tonnu thalkaalam site kandu pettnnu povaan nook',
-                )
-              )
-                setFirst(true);
-            }}
+          onClick={() => alert('ijj tett anser adichu ini pinne vaa')}
+            
             className="mt-5 rounded-xl bg-white px-10 py-5 text-black"
           >
             ith
@@ -127,13 +121,21 @@ function MyApp({ Component, pageProps, router }: any) {
         <div className="flex md:w-[40%] flex-col items-center justify-center  rounded-3xl border-[5px]">
           <img src="Untitsssssled(1).webp" alt="" className=" object-contain" />
           <button
-            onClick={() => alert('ijj tett anser adichu ini pinne vaa')}
+          onClick={() => {
+            if (
+              window.confirm(
+                'ijj parajjath sattyam annnnu tonnu thalkaalam site kandu pettnnu povaan nook',
+              )
+            )
+              setFirst(true);
+          }}
+            
             className="mt-5 rounded-xl bg-white px-10 py-5 text-black"
           >
             ith
           </button>
         </div>
-        <h1 className='text-white z-50 text-8xl font-head fixed top-10 scale-150'>ethaan kooduthal fun ullath</h1>
+        <h1 className='text-green-600 z-50 text-5xl font-head fixed top-10 '>ethaan kooduthal <strong className='text-red-500'>real</strong> ullath</h1>
       </div>
     );
 
