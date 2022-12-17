@@ -78,4 +78,16 @@ export const pageController = [
       },
     ]
   },
+  {
+    id: 4,
+    page : 'About',
+    slug : `/about`,
+    modules : [
+      {
+        id: 1,
+        pageType : 'about'
+
+      },
+    ]
+  },
 ]

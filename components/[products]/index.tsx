@@ -2,7 +2,7 @@ import { isBrowser } from '@/lib/helpers';
 import CategorySmallBox from '@/ui/categorySmallBox';
 import Error from 'next/error';
 import React from 'react';
-import HeadRootNames from './HeadRootNames';
+import HeadRootNames from '../../ui/HeadRootNames';
 import NewProducts from '../../ui/newProducts';
 import OfferBoxInCollection from '@/ui/OfferBoxInCollection';
 import ProductEachDetail from './ProductEachDetail';
@@ -35,20 +35,18 @@ const ProductDetails = (data: any) => {
       return () => window.removeEventListener('scroll', () => setY());
     }
   }, []);
-  // console.log(isScroll);
 
-  React.useEffect(() => {}, []);
-
-  if (product.length === 0)
+  if (product?.length === 0)
     return (
       <Error
         statusCode="seem ann bro"
         title={`sathanam missing ann pinnea va `}
       />
     );
+  console.log(product);
 
   return (
-    <div className="relative flex flex-col items-center justify-center max-lg:mt-[100px] w-full overflow-hidden ">
+    <div className="relative flex w-full flex-col items-center justify-center overflow-hidden max-lg:mt-[100px] ">
       <HeadRootNames product={product} />
 
       <div className="mt-5 flex w-full flex-col px-4 xl:flex-row ">
@@ -58,7 +56,7 @@ const ProductDetails = (data: any) => {
             <div className="grid lg:grid-rows-2 ">
               <div className="flex items-center justify-center bg-gray-100">
                 <img
-                  src={product[0].picture}
+                  src={product[0]?.picture}
                   alt=""
                   className="object-contain lg:w-[96%]"
                 />
@@ -108,15 +106,15 @@ const ProductDetails = (data: any) => {
         </div>
 
         {/* sidebar */}
-        <div
-          className="relative hidden gap-5 lg:flex xl:w-[350px] shrink-0 "
-        >
+        <div className="relative hidden shrink-0 gap-5 lg:flex xl:w-[350px] ">
           <div
             className={`  ${
               isScroll <= 220
                 ? 'absolute'
                 : `${
-                    isScroll >= isY - 700 ? 'absolute bottom-0' : 'fixed top-20 '
+                    isScroll >= isY - 700
+                      ? 'absolute bottom-0'
+                      : 'fixed top-20 '
                   } `
             } flex flex-col gap-5 transition-transform duration-1000 ease-linear max-xl:relative`}
           >

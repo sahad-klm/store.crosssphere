@@ -45,6 +45,7 @@ export const navbarLastCategory: {
   id: number;
   icon?: any;
   name: string;
+  slug?: string;
   subMenu?: any[];
 }[] = [
   {
@@ -87,6 +88,7 @@ export const navbarLastCategory: {
     id: 3,
     icon: '',
     name: 'About',
+    slug: 'about',
   },
   {
     id: 4,
@@ -1271,5 +1273,222 @@ export const footerSocialMedia = [
     icon: 'fa-solid fa-hashtag',
     link: '.facebook',
     color: '#D2B48C',
+  },
+];
+
+export const aboutCompany = [
+  {
+    id: 1,
+    title: 'Welcome to Logistic Shad',
+    subtitle: [
+      {
+        id: 1,
+        paragraph:
+          "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).",
+      },
+      {
+        id: 2,
+        paragraph:
+          "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomized words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on.",
+      },
+    ],
+    picture: 'Untitled.webp',
+  },
+];
+
+export const what_We_Provide = [
+  {
+    id: 1,
+    title: 'Best Prices & Offers',
+    subtitle:
+      'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form',
+    icon: 'favicon.ico',
+  },
+  {
+    id: 2,
+    title: 'Wide Assortment',
+    subtitle:
+      'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form',
+    icon: 'favicon.ico',
+  },
+  {
+    id: 3,
+    title: 'Free Delivery',
+    subtitle:
+      'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form',
+    icon: 'favicon.ico',
+  },
+  {
+    id: 4,
+    title: 'Easy Returns',
+    subtitle:
+      'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form',
+    icon: 'favicon.ico',
+  },
+  {
+    id: 5,
+    title: '100% x 531% Satisfaction',
+    subtitle:
+      'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form',
+    icon: 'favicon.ico',
+  },
+  {
+    id: 6,
+    title: 'Great Daily Deal',
+    subtitle:
+      'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form',
+    icon: 'favicon.ico',
+  },
+];
+export const ourPerformance = [
+  {
+    id: 1,
+    title: 'Your Partner for e-commerce grocery solution',
+    smallPicture: 'Untitssssled.webp',
+    head: 'Our Performance',
+    bigPicture: 'Unxtitled.webp',
+    subtitle: [
+      {
+        id: 1,
+        text: 'Ed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto',
+      },
+      {
+        id: 2,
+        text: 'Ed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto',
+      },
+    ],
+  },
+];
+
+export const ourThings = [
+  {
+    id: 1,
+    title: 'Who we are',
+    subtitle:
+      'Volutpat diam ut venenatis tellus in metus. Nec dui nunc mattis enim ut tellus eros donec ac odio orci ultrices in. ellus eros donec ac odio orci ultrices in.',
+  },
+  {
+    id: 2,
+    title: 'Our history',
+    subtitle:
+      'Volutpat diam ut venenatis tellus in metus. Nec dui nunc mattis enim ut tellus eros donec ac odio orci ultrices in. ellus eros donec ac odio orci ultrices in.',
+  },
+  {
+    id: 3,
+    title: 'Our mission',
+    subtitle:
+      'Volutpat diam ut venenatis tellus in metus. Nec dui nunc mattis enim ut tellus eros donec ac odio orci ultrices in. ellus eros donec ac odio orci ultrices in.',
+  },
+  {
+    id: 4,
+    totalInAll: [
+      {
+        id: 6,
+        bg: 'https://s.itl.cat/pngfile/s/5-56036_64-dual-monitor-wallpapers-dual-monitor-wallpaper-hd.jpg',
+      },
+      {
+        id: 1,
+        title: 'Glorious years',
+        count: 7,
+      },
+      {
+        id: 2,
+        title: 'Happy clients',
+        count: 11,
+      },
+      {
+        id: 3,
+        title: 'Projects complete',
+        count: 0,
+      },
+      {
+        id: 4,
+        title: 'Team advisor',
+        count: 5,
+      },
+      {
+        id: 5,
+        title: 'Products Sale',
+        count: 12,
+      },
+    ],
+  },
+  {
+    id: 5,
+    outTeams: [
+      {
+        id: 1,
+        title: 'Our Team',
+        subtitle: 'Meet Our Expert Team',
+        text: [
+          {
+            id: 1,
+            text: 'Proin ullamcorper pretium orci. Donec necscele risque leo. Nam massa dolor imperdiet neccon sequata congue idsem. Maecenas malesuada faucibus finibus.',
+          },
+          {
+            id: 2,
+            text: 'Proin ullamcorper pretium orci. Donec necscele risque leo. Nam massa dolor imperdiet neccon sequata congue idsem. Maecenas malesuada faucibus finibus.',
+          },
+        ],
+        persons : [
+          {
+            id:1,
+            name: 'Shad logastic',
+            picture :'Unxtitled.webp',
+            post: 'OSSY & Copyadi',
+            socialMidea :[
+              {
+                id: 1,
+                link :'',
+                platform : 'facebook',
+              },
+              {
+                id: 2,
+                link :'',
+                platform : 'twiter',
+              },
+              {
+                id: 3,
+                link :'',
+                platform : 'instagraam',
+              },
+              {
+                id: 4,
+                link :'',
+                platform : 'youtube',
+              },
+            ]
+          },
+          {
+            id:2,
+            name: 'logastic Shad',
+            picture :'Untiztled.webp',
+            post: 'UDDYIP & tihilrahitan',
+            socialMidea :[
+              {
+                id: 1,
+                link :'',
+                platform : 'facebook',
+              },
+              {
+                id: 2,
+                link :'',
+                platform : 'twiter',
+              },
+              {
+                id: 3,
+                link :'',
+                platform : 'instagraam',
+              },
+              {
+                id: 4,
+                link :'',
+                platform : 'youtube',
+              },
+            ]
+          },
+        ]
+      },
+    ],
   },
 ];

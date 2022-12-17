@@ -10,7 +10,8 @@ import Feathers from './feature/Page'
 import Footer from './footer/Page'
 import Collations from "./collections/Collations";
 import collationSlug from "./collections/[collationSlug]/collationSlug";
-import ProductDetails from "./[products]/productDetails";
+import ProductDetails from "./[products]";
+import About from './about'
 
 
 
@@ -28,5 +29,6 @@ export {
   Footer,
   Collations,
   collationSlug,
-  ProductDetails
+  ProductDetails,
+  About
 }

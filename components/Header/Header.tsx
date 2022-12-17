@@ -8,8 +8,14 @@ import {
   NavLAstInFeistBar2,
 } from './[headerSlug]/NavLAstInFeistBar';
 import SearchBar from './[headerSlug]/searchBar';
-import { motion } from 'framer-motion';
-import { slideIn, textVariant, textVariant2 } from 'utils/motion';
+import { AnimatePresence, motion } from 'framer-motion';
+import {
+  fadeAnim,
+  itemAnim,
+  slideIn,
+  textVariant,
+  textVariant2,
+} from 'utils/motion';
 import { NavBigOptionsTab, NavBigOptions } from './NavBigOptions';
 import { footerSocialMedia, lastOneInNav } from '@/lib/data';
 import Link from 'next/link';
@@ -69,7 +75,7 @@ function Header(): any {
     <>
       <nav className="relative top-0 z-50 hidden w-full flex-col lg:flex ">
         <div className="flex h-24 w-full items-center justify-start border-b-[1px] border-solid border-gray-700 border-opacity-20 bg-white py-4 sm:px-4">
-          <Link href="/" className='flex items-center justify-center h-full'>
+          <Link href="/" className="flex h-full items-center justify-center">
             <img
               src="Untitled11-removebg-preview.png"
               className=" h-full w-44 shrink-0 bg-red-300 object-contain"
@@ -141,7 +147,7 @@ function Header(): any {
             onClick={() => setBrowseAllCategory(true)}
             className="fa-solid fa-bars-staggered w-22 cursor-pointer text-2xl text-gray-700 sm:w-28 sm:text-3xl"
           />
-          <Link href="/" className='flex items-center justify-center h-full'>
+          <Link href="/" className="flex h-full items-center justify-center">
             <img
               src="favicon.ico"
               className=" h-full w-44 shrink-0 cursor-pointer bg-red-300 object-contain"
@@ -202,36 +208,38 @@ function Header(): any {
 
       {/*  */}
       {/*  bottom menus */}
+      <AnimatePresence mode="wait">
+        <motion.div
+          initial="hide"
+          animate="show"
+          exit="hide"
+          variants={fadeAnim}
+          className={`fixed ${
+            bottomHide && !browseAllCategory ? 'flex md:hidden' : 'hidden'
+          } bottom-0  z-[100] w-full items-center justify-between border-t-[1px] border-solid border-gray-700 border-opacity-40 bg-white  p-1 px-4 shadow-2xl duration-300`}
+        >
+          <div className="flex w-full  flex-row justify-between">
+            {lastOneInNav?.map((item) => (
+              <span
+                key={item.id}
+                className="group/btn flex cursor-pointer flex-col items-center"
+              >
+                {item.icon}
+                <p className=" -mt-3 font-body text-base  text-stone-800  duration-300 group-hover/btn:text-emerald-500">
+                  {item.name}
+                </p>
+              </span>
+            ))}
 
-      <motion.div
-        initial="hidden"
-        whileInView="show"
-        variants={textVariant(0.01, 0.01)}
-        className={`fixed ${
-          bottomHide && !browseAllCategory ? 'flex md:hidden' : 'hidden'
-        } bottom-0  z-[100] w-full items-center justify-between border-t-[1px] border-solid border-gray-700 border-opacity-40 bg-white  p-1 px-4 shadow-2xl duration-300`}
-      >
-        <div className="flex w-full  flex-row justify-between">
-          {lastOneInNav?.map((item) => (
-            <span
-              key={item.id}
-              className="group/btn flex cursor-pointer flex-col items-center"
-            >
-              {item.icon}
-              <p className=" -mt-3 font-body text-base  text-stone-800  duration-300 group-hover/btn:text-emerald-500">
-                {item.name}
+            <span className="group/btn flex cursor-pointer flex-col items-center justify-center">
+              <i className="fa-solid fa-magnifying-glass mt-3 text-gray-700 duration-300 group-hover/btn:text-emerald-500" />
+              <p className="mt-1 font-body text-base  text-stone-800 duration-300 hover:text-emerald-500 group-hover/btn:text-emerald-500">
+                Search
               </p>
             </span>
-          ))}
-
-          <span className="group/btn flex cursor-pointer flex-col items-center justify-center">
-            <i className="fa-solid fa-magnifying-glass mt-3 text-gray-700 duration-300 group-hover/btn:text-emerald-500" />
-            <p className="mt-1 font-body text-base  text-stone-800 duration-300 hover:text-emerald-500 group-hover/btn:text-emerald-500">
-              Search
-            </p>
-          </span>
-        </div>
-      </motion.div>
+          </div>
+        </motion.div>
+      </AnimatePresence>
     </>
   );
 }

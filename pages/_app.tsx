@@ -99,43 +99,43 @@ function MyApp({ Component, pageProps, router }: any) {
   const { data } = pageProps;
   const routerlp = useRouter();
 
-  useEffect(() => {
-    if (first === false) {
-      routerlp.push('/');
-    }
-  }, [first]);
+  // useEffect(() => {
+  //   if (first === false) {
+  //     routerlp.push('/');
+  //   }
+  // }, [first]);
 
-  if (first === false)
+  if (first !== false)
     return (
-      <div className="mx-auto flex h-[100vh] gap-10 mt-28 min-w-full flex-row  items-center justify-center  bg-black">
-        <div className=" flex md:w-[40%]  flex-col items-center justify-center  rounded-3xl border-[5px]">
+      <div className="mx-auto mt-28 flex h-[100vh] min-w-full flex-row items-center  justify-center gap-10  bg-black">
+        <div className=" flex flex-col  items-center justify-center rounded-3xl  border-[5px] md:w-[40%]">
           <img src="Untiztled.webp" className="object-contain" />
           <button
-          onClick={() => alert('ijj tett anser adichu ini pinne vaa')}
-            
+            onClick={() => alert('ijj tett anser adichu ini pinne vaa')}
             className="mt-5 rounded-xl bg-white px-10 py-5 text-black"
           >
             ith
           </button>
         </div>
-        <div className="flex md:w-[40%] flex-col items-center justify-center  rounded-3xl border-[5px]">
+        <div className="flex flex-col items-center justify-center rounded-3xl  border-[5px] md:w-[40%]">
           <img src="Untitsssssled(1).webp" alt="" className=" object-contain" />
           <button
-          onClick={() => {
-            if (
-              window.confirm(
-                'ijj parajjath sattyam annnnu tonnu thalkaalam site kandu pettnnu povaan nook',
+            onClick={() => {
+              if (
+                window.confirm(
+                  'ijj parajjath sattyam annnnu tonnu thalkaalam site kandu pettnnu povaan nook',
+                )
               )
-            )
-              setFirst(true);
-          }}
-            
+                setFirst(true);
+            }}
             className="mt-5 rounded-xl bg-white px-10 py-5 text-black"
           >
             ith
           </button>
         </div>
-        <h1 className='text-green-600 z-50 text-5xl font-head fixed top-10 '>ethaan kooduthal <strong className='text-red-500'>real</strong> ullath</h1>
+        <h1 className="fixed top-10 z-50 font-head text-5xl text-green-600 ">
+          ethaan kooduthal <strong className="text-red-500">real</strong> ullath
+        </h1>
       </div>
     );
 

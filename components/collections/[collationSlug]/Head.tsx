@@ -24,9 +24,9 @@ const Head = ({ headName, tags }: any): JSX.Element => {
           {headName}
         </h1>
         <div className="inline-flex flex-wrap items-center gap-1 font-head text-base text-gray-600">
-          <p className="inline-flex items-center text-emerald-500">
+          <Link href='/' className="inline-flex items-center text-emerald-500">
             <HomeIcon className="-m-3 scale-[.4] fill-emerald-500" /> Home
-          </p>
+          </Link>
           <ArrowNoLine className="-m-3 scale-[.4] fill-gray-500" />
 
           <Link href="/collections">collections</Link>

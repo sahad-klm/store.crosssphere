@@ -1,6 +1,6 @@
-
 import { navbarLastCategory } from '@/lib/data';
 import { Fire } from '@/lib/icon';
+import Link from 'next/link';
 import React, { Key } from 'react';
 
 export function NavBigOptions(): any {
@@ -12,9 +12,9 @@ export function NavBigOptions(): any {
           className="group/item relative grid cursor-pointer grid-flow-col place-content-center items-center"
         >
           {item.icon}
-          <p className="font-head text-base text-slate-900 hover:text-emerald-500">
+          <Link href={`/${item.slug}`} className="font-head text-base text-slate-900 hover:text-emerald-500">
             {item.name}
-          </p>
+          </Link>
           {item.subMenu && (
             <i
               className={`fa-solid fa-chevron-down 
@@ -35,8 +35,7 @@ export function NavBigOptions(): any {
                     </p>
                     {subName?.subMenu && (
                       <i
-                        className={`fa-solid fa-chevron-right 
-           ml-2 text-xs text-gray-400 transition-transform`}
+                        className={`fa-solid fa-chevron-right ml-2 text-xs text-gray-400 transition-transform`}
                       />
                     )}
                     {subName?.subMenu && (
@@ -137,7 +136,10 @@ export const NavBigOptionsTab = () => {
                         </li>
                         {subName?.subMenu?.map(
                           (item: { id: Key; name: string }) => (
-                            <li key={item.id} className="flex cursor-pointer flex-row place-content-center items-center justify-start border-b border-gray-200 px-4 py-5">
+                            <li
+                              key={item.id}
+                              className="flex cursor-pointer flex-row place-content-center items-center justify-start border-b border-gray-200 px-4 py-5"
+                            >
                               {item.name}
                             </li>
                           ),
