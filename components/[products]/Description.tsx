@@ -153,7 +153,7 @@ const Description = ({ products }: any) => {
               )}{' '}
               review
             </p>
-            <button className="group/btn z-[1]  flex h-12 w-max items-center justify-center gap-4 rounded-md  bg-emerald-500 px-9 font-body text-xs text-white transition-all duration-300 hover:-translate-y-1 hover:bg-yellow-500 ">
+            <button className="group/btn z-[1]  flex h-12 w-max items-center justify-center gap-4 rounded-md  bg-emerald-500 px-9 font-body text-xs text-white transition-all duration-300 hover:-translate-y-1 hover:bg-yellow-500 outline-none">
               Write a review
             </button>
 

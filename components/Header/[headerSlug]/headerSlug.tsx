@@ -6,7 +6,7 @@ const BrowseAllButton = ({browseAllCategory, setBrowseAllCategory, navHide }:any
   
   return (
     <button
-      className="relative flex shrink-0 items-center gap-1 rounded-md border-none bg-emerald-500 px-2 font-head text-base text-white hover:bg-emerald-600"
+      className="relative flex shrink-0 items-center gap-1 rounded-md border-none bg-emerald-500 px-2 font-head text-base text-white hover:bg-emerald-600 outline-none"
       onClick={() => setBrowseAllCategory(!browseAllCategory)}
     >
       <GridApps className="scale-[.7] fill-white" />

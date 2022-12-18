@@ -1436,7 +1436,7 @@ export const ourThings = [
             name: 'Shad logastic',
             picture :'Unxtitled.webp',
             post: 'OSSY & Copyadi',
-            socialMidea :[
+            socialMedia :[
               {
                 id: 1,
                 link :'',
@@ -1445,12 +1445,12 @@ export const ourThings = [
               {
                 id: 2,
                 link :'',
-                platform : 'twiter',
+                platform : 'twitter',
               },
               {
                 id: 3,
                 link :'',
-                platform : 'instagraam',
+                platform : 'instagram',
               },
               {
                 id: 4,
@@ -1464,7 +1464,7 @@ export const ourThings = [
             name: 'logastic Shad',
             picture :'Untiztled.webp',
             post: 'UDDYIP & tihilrahitan',
-            socialMidea :[
+            socialMedia :[
               {
                 id: 1,
                 link :'',
@@ -1473,12 +1473,12 @@ export const ourThings = [
               {
                 id: 2,
                 link :'',
-                platform : 'twiter',
+                platform : 'twitter',
               },
               {
                 id: 3,
                 link :'',
-                platform : 'instagraam',
+                platform : 'instagram',
               },
               {
                 id: 4,

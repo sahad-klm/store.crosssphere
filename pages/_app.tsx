@@ -112,7 +112,7 @@ function MyApp({ Component, pageProps, router }: any) {
           <img src="Untiztled.webp" className="object-contain" />
           <button
             onClick={() => alert('ijj tett anser adichu ini pinne vaa')}
-            className="mt-5 rounded-xl bg-white px-10 py-5 text-black"
+            className="mt-5 rounded-xl bg-white px-10 py-5 text-black outline-none"
           >
             ith
           </button>
