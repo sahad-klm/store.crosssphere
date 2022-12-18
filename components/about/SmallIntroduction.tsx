@@ -27,7 +27,7 @@ const SmallIntroduction = () => (
               ease: [0.16, 1, 0.3, 1],
               delay: .25 ,
             }}
-            className=" overflow-hidden rounded-2xl"
+            className=" overflow-hidden rounded-2xl max-h-[60vh]"
           >
             <img src={item.picture} alt="" className=" h-full object-contain" />
           </m.div>
