@@ -76,7 +76,7 @@ const OutTeam = () => {
                     },
                   }}
                   transition={{
-                    duration: 0.6,
+                    duration: 0.2,
                     ease: [0.16, 1, 0.3, 1],
                     delay: 0.45 ,
                   }}
@@ -97,7 +97,7 @@ const OutTeam = () => {
                     },
                   }}
                   transition={{
-                    duration: 0.6,
+                    duration: 0.2,
                     ease: [0.16, 1, 0.3, 1],
                     delay: 0.55 ,
                   }} className="mb-[30px] font-head text-5xl text-gray-800">
@@ -119,7 +119,7 @@ const OutTeam = () => {
                     },
                   }}
                   transition={{
-                    duration: 0.6,
+                    duration: 0.2,
                     ease: [0.16, 1, 0.3, 1],
                     delay: 0.65 *(te),
                   }} className="mb-5 text-base text-gray-500">
@@ -146,7 +146,7 @@ const OutTeam = () => {
             },
           }}
           transition={{
-            duration: 0.6,
+            duration: 0.2,
             ease: [0.16, 1, 0.3, 1],
             delay: 0.65 ,
           }}
@@ -186,7 +186,7 @@ const OutTeam = () => {
                         },
                       }}
                       transition={{
-                        duration: 0.6,
+                        duration: 0.2,
                         ease: [0.16, 1, 0.3, 1],
                         delay: 0.45 ,
                       }}
@@ -210,7 +210,7 @@ const OutTeam = () => {
                           },
                         }}
                         transition={{
-                          duration: 0.6,
+                          duration: 0.2,
                           ease: [0.16, 1, 0.3, 1],
                           delay: 0.55 ,
                         }} className="mb-[5px] font-head text-2xl text-gray-700">
@@ -230,7 +230,7 @@ const OutTeam = () => {
                     },
                   }}
                   transition={{
-                    duration: 0.6,
+                    duration: 0.2,
                     ease: [0.16, 1, 0.3, 1],
                     delay: 0.65 ,
                   }}
@@ -254,7 +254,7 @@ const OutTeam = () => {
                     },
                   }}
                   transition={{
-                    duration: 0.6,
+                    duration: 0.2,
                     ease: [0.16, 1, 0.3, 1],
                     delay: 0.75 * (ik / 4),
                   }} key={social.id}>

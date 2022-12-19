@@ -23,7 +23,7 @@ const SmallIntroduction = () => (
               },
             }}
             transition={{
-              duration: 0.6,
+              duration: 0.2,
               ease: [0.16, 1, 0.3, 1],
               delay: .25 ,
             }}
@@ -48,7 +48,7 @@ const SmallIntroduction = () => (
               },
             }}
             transition={{
-              duration: 0.6,
+              duration: 0.2,
               ease: [0.16, 1, 0.3, 1],
               delay: .35 ,
             }}
@@ -73,7 +73,7 @@ const SmallIntroduction = () => (
                   },
                 }}
                 transition={{
-                  duration: 0.6,
+                  duration: 0.2,
                   ease: [0.16, 1, 0.3, 1],
                   delay: .45 * idx,
                 }}

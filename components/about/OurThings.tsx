@@ -20,7 +20,7 @@ const OurThings = () => (
           },
         }}
         transition={{
-          duration: 0.6,
+          duration: 0.2,
           ease: [0.16, 1, 0.3, 1],
           delay: 0.45 * idx,
         }}

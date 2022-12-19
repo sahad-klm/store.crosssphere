@@ -22,7 +22,7 @@ const OurPerformance = () => (
               },
             }}
             transition={{
-              duration: 0.6,
+              duration: 0.2,
               ease: [0.16, 1, 0.3, 1],
               delay: 0.25,
             }}
@@ -49,7 +49,7 @@ const OurPerformance = () => (
               },
             }}
             transition={{
-              duration: 0.6,
+              duration: 0.2,
               ease: [0.16, 1, 0.3, 1],
               delay: 0.35,
             }}
@@ -78,7 +78,7 @@ const OurPerformance = () => (
               },
             }}
             transition={{
-              duration: 0.6,
+              duration: 0.2,
               ease: [0.16, 1, 0.3, 1],
               delay: 0.55,
             }}
@@ -101,7 +101,7 @@ const OurPerformance = () => (
               },
             }}
             transition={{
-              duration: 0.6,
+              duration: 0.2,
               ease: [0.16, 1, 0.3, 1],
               delay: 0.65,
             }}
@@ -126,7 +126,7 @@ const OurPerformance = () => (
                   },
                 }}
                 transition={{
-                  duration: 0.6,
+                  duration: 0.2,
                   ease: [0.16, 1, 0.3, 1],
                   delay: 0.75 * (idx / 2),
                 }}
