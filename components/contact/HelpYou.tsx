@@ -25,7 +25,7 @@ const HelpYou = () => {
                   },
                 }}
                 transition={{
-                  duration: 0.6,
+                  duration: 0.2,
                   ease: [0.16, 1, 0.3, 1],
                   delay: .25 ,
                 }}
@@ -47,7 +47,7 @@ const HelpYou = () => {
                   },
                 }}
                 transition={{
-                  duration: 0.6,
+                  duration: 0.2,
                   ease: [0.16, 1, 0.3, 1],
                   delay: .35 ,
                 }} className="mb-[30px] font-head text-5xl text-gray-700">
@@ -70,7 +70,7 @@ const HelpYou = () => {
                       },
                     }}
                     transition={{
-                      duration: 0.6,
+                      duration: 0.2,
                       ease: [0.16, 1, 0.3, 1],
                       delay: .45 * tex +1,
                     }} className="text-base text-gray-600">
@@ -104,7 +104,7 @@ const HelpYou = () => {
                   },
                 }}
                 transition={{
-                  duration: 0.6,
+                  duration: 0.2,
                   ease: [0.16, 1, 0.3, 1],
                   delay: .25 * idx +1,
                 }}
@@ -131,7 +131,7 @@ const HelpYou = () => {
                   },
                 }}
                 transition={{
-                  duration: 0.6,
+                  duration: 0.2,
                   ease: [0.16, 1, 0.3, 1],
                   delay: .35 * idx +1,
                 }}

@@ -32,7 +32,7 @@ const OurOffice = () => {
                   },
                 }}
                 transition={{
-                  duration: 0.6,
+                  duration: 0.2,
                   ease: [0.16, 1, 0.3, 1],
                   delay: 0.15,
                 }}
@@ -55,7 +55,7 @@ const OurOffice = () => {
                 },
               }}
               transition={{
-                duration: 0.6,
+                duration: 0.2,
                 ease: [0.16, 1, 0.3, 1],
                 delay: 0.25,
               }} className="text-sm text-gray-600">{office.address}</motion.p>
@@ -74,7 +74,7 @@ const OurOffice = () => {
                 },
               }}
               transition={{
-                duration: 0.6,
+                duration: 0.2,
                 ease: [0.16, 1, 0.3, 1],
                 delay: 0.35,
               }} className="text-sm text-gray-600  ">
@@ -98,7 +98,7 @@ const OurOffice = () => {
                 },
               }}
               transition={{
-                duration: 0.6,
+                duration: 0.2,
                 ease: [0.16, 1, 0.3, 1],
                 delay: 0.45,
               }}
@@ -125,7 +125,7 @@ const OurOffice = () => {
                 },
               }}
               transition={{
-                duration: 0.6,
+                duration: 0.2,
                 ease: [0.16, 1, 0.3, 1],
                 delay: 0.55,
               }} className="mt-5 inline-flex w-max items-center justify-center gap-1 rounded-md border-none bg-emerald-500 py-2 px-[18px] font-head text-xs text-white outline-none duration-300 hover:-translate-y-1 hover:bg-yellow-500">
