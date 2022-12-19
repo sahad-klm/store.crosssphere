@@ -90,4 +90,16 @@ export const pageController = [
       },
     ]
   },
+  {
+    id: 4,
+    page : 'Contact',
+    slug : `/contact`,
+    modules : [
+      {
+        id: 1,
+        pageType : 'contact'
+
+      },
+    ]
+  },
 ]

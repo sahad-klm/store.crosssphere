@@ -298,6 +298,7 @@ export const navbarLastCategory: {
     id: 9,
     icon: '',
     name: 'Contact',
+    slug: 'contact',
   },
 ];
 
@@ -1430,64 +1431,138 @@ export const ourThings = [
             text: 'Proin ullamcorper pretium orci. Donec necscele risque leo. Nam massa dolor imperdiet neccon sequata congue idsem. Maecenas malesuada faucibus finibus.',
           },
         ],
-        persons : [
+        persons: [
           {
-            id:1,
+            id: 1,
             name: 'Shad logastic',
-            picture :'Unxtitled.webp',
+            picture: 'Unxtitled.webp',
             post: 'OSSY & Copyadi',
-            socialMedia :[
+            socialMedia: [
               {
                 id: 1,
-                link :'',
-                platform : 'facebook',
+                link: '',
+                platform: 'facebook',
               },
               {
                 id: 2,
-                link :'',
-                platform : 'twitter',
+                link: '',
+                platform: 'twitter',
               },
               {
                 id: 3,
-                link :'',
-                platform : 'instagram',
+                link: '',
+                platform: 'instagram',
               },
               {
                 id: 4,
-                link :'',
-                platform : 'youtube',
+                link: '',
+                platform: 'youtube',
               },
-            ]
+            ],
           },
           {
-            id:2,
+            id: 2,
             name: 'logastic Shad',
-            picture :'Untiztled.webp',
+            picture: 'Untiztled.webp',
             post: 'UDDYIP & tihilrahitan',
-            socialMedia :[
+            socialMedia: [
               {
                 id: 1,
-                link :'',
-                platform : 'facebook',
+                link: '',
+                platform: 'facebook',
               },
               {
                 id: 2,
-                link :'',
-                platform : 'twitter',
+                link: '',
+                platform: 'twitter',
               },
               {
                 id: 3,
-                link :'',
-                platform : 'instagram',
+                link: '',
+                platform: 'instagram',
               },
               {
                 id: 4,
-                link :'',
-                platform : 'youtube',
+                link: '',
+                platform: 'youtube',
               },
-            ]
+            ],
           },
-        ]
+        ],
+      },
+    ],
+  },
+];
+
+export const contact = [
+  {
+    id: 1,
+    subtitle: 'How can help you ?',
+    title: 'Let us know how we can help you',
+    text: [
+      {
+        id: 1,
+        text: 'Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College',
+      },
+      {
+        id: 2,
+        text: 'words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus ',
+      },
+    ],
+  },
+  {
+    id: 2,
+    feature: [
+      {
+        id: 1,
+        order : '01',
+        title :'Visit Feedback',
+        text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.',
+      },
+      {
+        id: 2,
+        order : '02',
+        title :'Employer Services',
+        text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.',
+      },
+      {
+        id: 3,
+        order : '03',
+        title :'Billing Inquiries',
+        text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.',
+      },
+      {
+        id: 4,
+        order : '04',
+        title :'General Inquiries',
+        text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.',
+      },
+      
+    ],
+  },
+  {
+    id: 3,
+    office: [
+      {
+        id: 1,
+        title :'Office',
+        address :'pathirikode , Elenkur PO, PIN : 676122, malppuram, kerala, India',
+        phone: '+91 97494 8393',
+        email:'koiori@jmil.kom'
+      },
+      {
+        id: 2,
+        title :'Studio',
+        address :'pathirikode , Elenkur PO, PIN : 676122, malppuram, kerala, India',
+        phone: '+91 97494 8393',
+        email:'koiori@jmil.kom'
+      },
+      {
+        id: 3,
+        title :'Shop',
+        address :'pathirikode , Elenkur PO, PIN : 676122, malppuram, kerala, India',
+        phone: '+91 97494 8393',
+        email:'koiori@jmil.kom'
       },
     ],
   },

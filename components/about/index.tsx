@@ -26,7 +26,7 @@ const About = (): JSX.Element => {
         <WhatWeProvide />
         <OurPerformance />
       </div>
-      <div className='mx-4 grid'>
+      <div className="mx-4 grid">
         <OurThings />
         <TotalCountsOfDetails />
       </div>

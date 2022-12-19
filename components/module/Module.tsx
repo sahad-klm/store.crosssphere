@@ -7,7 +7,7 @@ import {
   FooterProducts,
   Collations,
   ProductDetails,
-  About
+  About,Contact
 } from 'components';
 import CollationSlug from 'components/collections/[collationSlug]/collationSlug';
 
@@ -45,6 +45,8 @@ const Module = ({
         return <ProductDetails {...data} />;
       case 'about':
         return <About />;
+      case 'contact':
+        return <Contact />;
     }
 
   };
