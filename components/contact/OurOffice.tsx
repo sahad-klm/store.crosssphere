@@ -16,6 +16,7 @@ const OurOffice = () => {
               exit="hide"
               variants={fadeAnim}
               className="flex flex-col"
+              key={office.id}
             >
               <motion.h2
                 initial="hide"

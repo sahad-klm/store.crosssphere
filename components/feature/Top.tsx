@@ -1,6 +1,6 @@
 import { Icon } from 'lib/icon';
 
-const Top = (): JSX.Element => (
+const Top = ({ pathName }: any): JSX.Element => (
   <div className="relative z-10  block w-full overflow-hidden rounded-xl bg-emerald-200 p-8 md:p-10 lg:p-20">
     <img
       src="https://img.freepik.com/free-photo/cool-geometric-triangular-figure-neon-laser-light-great-backgrounds-wallpapers_181624-9331.jpg?w=2000"
@@ -9,8 +9,13 @@ const Top = (): JSX.Element => (
       className="absolute top-0 right-0 -z-50 h-full w-full object-cover opacity-40"
     />
     <img
-      src="https://w7.pngwing.com/pngs/1020/967/png-transparent-tool-laborer-architectural-engineering-renovation-work-tool-construction-tools-building-sharing.png"
+      src={`${
+        pathName === '/about' || '/contact'
+          ? 'Untitled.webp'
+          : 'https://w7.pngwing.com/pngs/1020/967/png-transparent-tool-laborer-architectural-engineering-renovation-work-tool-construction-tools-building-sharing.png'
+      } `}
       alt=""
+      loading="lazy"
       className="absolute right-10 bottom-0 -z-50 max-h-[80%] w-[40%] object-contain"
     />
     <h1 className="z-auto  font-head text-[36px] leading-[40px]  text-gray-800 md:text-h2">
@@ -27,7 +32,7 @@ const Top = (): JSX.Element => (
         placeholder="Your email address"
         className="h-full font-body text-sm tracking-wide text-gray-700 outline-none"
       />
-      <button className="absolute right-0 h-full rounded-full bg-emerald-500 px-6 font-body text-sm tracking-wider text-white transition hover:bg-emerald-600 outline-none">
+      <button className="absolute right-0 h-full rounded-full bg-emerald-500 px-6 font-body text-sm tracking-wider text-white outline-none transition hover:bg-emerald-600">
         Subscribe
       </button>
     </form>

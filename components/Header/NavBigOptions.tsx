@@ -12,7 +12,10 @@ export function NavBigOptions(): any {
           className="group/item relative grid cursor-pointer grid-flow-col place-content-center items-center"
         >
           {item.icon}
-          <Link href={`/${item.slug}`} className="font-head text-base text-slate-900 hover:text-emerald-500">
+          <Link
+            href={`/${item.slug}`}
+            className="font-head text-base text-slate-900 hover:text-emerald-500"
+          >
             {item.name}
           </Link>
           {item.subMenu && (
@@ -64,16 +67,17 @@ export function NavBigOptions(): any {
   );
 }
 
-export const NavBigOptionsTab = () => {
+export const NavBigOptionsTab = ({setBrowseAllCategory}:React.SetStateAction<boolean|any>) => {
   const [naveOptionSwitch, setNaveOptionSwitch] = React.useState<any>(null);
 
   return (
     <ul className="relative flex w-full flex-col">
       {navbarLastCategory?.map((item: any) => (
         <React.Fragment key={item.id}>
-          <Link href={`/${!item.subMenu && item.slug}`}
+          <Link
+            href={`/${!item.subMenu && item.slug}`}
             onClick={() => {
-              item.subMenu &&setNaveOptionSwitch(item.name)
+              item.subMenu ? setNaveOptionSwitch(item.name):setBrowseAllCategory(false)
             }}
             key={item.id}
             className=" flex cursor-pointer flex-row place-content-center items-center justify-start border-b border-gray-200 px-4 py-5"

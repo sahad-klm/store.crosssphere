@@ -70,7 +70,7 @@ function Header(): any {
 
   return (
     <>
-      <nav className="relative top-0 z-50 hidden w-full flex-col lg:flex ">
+      <nav className="relative top-0 z-[1000] hidden w-full flex-col lg:flex ">
         <div className="flex h-24 w-full items-center justify-start border-b-[1px] border-solid border-gray-700 border-opacity-20 bg-white py-4 sm:px-4">
           <Link href="/" className="flex h-full items-center justify-center">
             <img
@@ -138,7 +138,7 @@ function Header(): any {
 
       {/*  tab navbar */}
 
-      <nav className="fixed top-0 z-50 flex w-full flex-col lg:hidden">
+      <nav className="fixed top-0 z-[1000] flex w-full flex-col lg:hidden">
         <div className="flex h-20 w-full items-center justify-between border-b-[1px] border-solid border-gray-700 border-opacity-20 bg-white py-4 px-4 sm:h-24">
           <i
             onClick={() => setBrowseAllCategory(true)}
@@ -187,7 +187,7 @@ function Header(): any {
             </div>
 
             <div className="flex  w-full flex-1 items-start overflow-scroll bg-white">
-              <NavBigOptionsTab />
+              <NavBigOptionsTab setBrowseAllCategory={setBrowseAllCategory}/>
             </div>
 
             <div className="flex h-24 w-full shrink-0 items-center bg-gray-100 px-4">
@@ -213,7 +213,7 @@ function Header(): any {
           variants={fadeAnim}
           className={`fixed ${
             bottomHide && !browseAllCategory ? 'flex md:hidden' : 'hidden'
-          } bottom-0  z-[100] w-full items-center justify-between border-t-[1px] border-solid border-gray-700 border-opacity-40 bg-white  p-1 px-4 shadow-2xl duration-300`}
+          } bottom-0  z-[1000] w-full items-center justify-between border-t-[1px] border-solid border-gray-700 border-opacity-40 bg-white  p-1 px-4 shadow-2xl duration-300`}
         >
           <div className="flex w-full  flex-row justify-between">
             {lastOneInNav?.map((item) => (

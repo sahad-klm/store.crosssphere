@@ -10,6 +10,7 @@ import { CallIcon } from '@/lib/icon';
 import { footerSocialMedia } from '@/lib/data';
 import Feathers from 'components/feature/Page';
 import { usePathname } from 'next/navigation';
+import Welcome2Top from '@/ui/Welcome2Top';
 
 const pageTransitionAnim = {
   show: {
@@ -140,6 +141,7 @@ const Layout = ({
             </p>
           </div>
         </div>
+        <Welcome2Top/>
       </m.div>
     </>
   );
