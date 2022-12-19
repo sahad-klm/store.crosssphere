@@ -11,9 +11,6 @@ import SearchBar from './[headerSlug]/searchBar';
 import { AnimatePresence, motion } from 'framer-motion';
 import {
   fadeAnim,
-  itemAnim,
-  slideIn,
-  textVariant,
   textVariant2,
 } from 'utils/motion';
 import { NavBigOptionsTab, NavBigOptions } from './NavBigOptions';

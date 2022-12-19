@@ -71,8 +71,10 @@ export const NavBigOptionsTab = () => {
     <ul className="relative flex w-full flex-col">
       {navbarLastCategory?.map((item: any) => (
         <React.Fragment key={item.id}>
-          <li
-            onClick={() => setNaveOptionSwitch(item.name)}
+          <Link href={`/${!item.subMenu && item.slug}`}
+            onClick={() => {
+              item.subMenu &&setNaveOptionSwitch(item.name)
+            }}
             key={item.id}
             className=" flex cursor-pointer flex-row place-content-center items-center justify-start border-b border-gray-200 px-4 py-5"
           >
@@ -88,7 +90,7 @@ export const NavBigOptionsTab = () => {
          ml-2 flex w-full justify-end text-xs text-gray-400 transition-transform  "
               />
             )}
-          </li>
+          </Link>
           {/*  */}
 
           {(naveOptionSwitch === item.name ||
