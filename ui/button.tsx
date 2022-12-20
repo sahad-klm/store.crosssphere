@@ -1,4 +1,4 @@
-import { ArrowNoLine, GridApps, Icon, SortIcon } from '@/lib/icon';
+import { ArrowNoLine, Cart, GridApps, Icon, SortIcon } from '@/lib/icon';
 import React from 'react';
 
 const ButtonShopNow = ({ paddingAndStyle, value }: any): any => {
@@ -16,7 +16,7 @@ const ButtonAddToCart = ({ className }: any): any => {
     <button
       className={`group/btn z-[1] mx-[10px] mt-4 flex h-12 w-full items-center justify-center gap-4 rounded-md  bg-emerald-500 px-3 font-body text-xs text-white transition-all duration-300 hover:-translate-y-1 hover:bg-yellow-500 outline-none ${className}`}
     >
-      <Icon className="w-5 fill-white" />
+      <Cart className="-m-3 scale-50 fill-white" />
       Add to cart
     </button>
   );
@@ -24,7 +24,7 @@ const ButtonAddToCart = ({ className }: any): any => {
 
 const ButtonAdd = (): any => (
   <button className="group/btn inline-flex h-8 items-center gap-2 rounded-md bg-emerald-200 px-3 font-body text-emerald-500 transition-transform duration-500 hover:-translate-y-1 hover:bg-emerald-500 hover:fill-white hover:text-white">
-    <Icon className="w-5 fill-emerald-500 group-hover/btn:fill-white" />
+    <Cart className="-m-3 scale-50 fill-emerald-500 group-hover/btn:fill-white" />
     Add
   </button>
 );
@@ -38,7 +38,7 @@ const ButtonShowLimit = ({ filteringCount, setFilteringCount }: any): any => {
   return (
     <button
       onClick={handleClick}
-      className=" relative inline-flex h-min items-center justify-center gap-3 rounded-xl border bg-transparent px-5 py-3 font-body text-gray-600 outline-none outline-none"
+      className=" relative inline-flex h-min items-center justify-center gap-3 rounded-xl border bg-transparent px-5 py-3 font-body text-gray-600 outline-none "
     >
       <GridApps className="-m-4 scale-50 fill-gray-600 " />
       Show:&nbsp;&nbsp;&nbsp;{filteringCount.count}

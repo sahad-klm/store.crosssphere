@@ -19,6 +19,10 @@
 .DS_Store
 *.pem
 
+# sanity dist
+studio/dist
+public/studio
+
 # debug
 npm-debug.log*
 yarn-debug.log*

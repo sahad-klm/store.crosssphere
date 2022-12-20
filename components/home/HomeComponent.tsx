@@ -7,9 +7,9 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
-import { Icon } from '@/lib/icon';
 import { Key } from 'react';
 import { homeComponentBig } from '@/lib/data';
+import { PaperPlaneIcon } from '@/lib/icon';
 
 const HomeComponent = (): any => {
   return (
@@ -63,13 +63,13 @@ const HomeComponent = (): any => {
                   viewport={{ once: false, amount: 0.25 }}
                   className="relative mt-5 flex h-16 w-[279px] flex-row  items-center overflow-hidden rounded-full bg-white sm:mt-10 md:w-[450px]"
                 >
-                  <Icon className="ml-1 mr-2 h-4 fill-gray-700 md:ml-6 md:mr-4" />
+                  <PaperPlaneIcon className="ml-1 mr-2 h-4 fill-gray-500 md:ml-6 md:mr-4" />
                   <input
                     type="text"
                     placeholder="Your email address"
                     className="h-full font-body text-sm tracking-wide text-gray-700 outline-none"
                   />
-                  <button className="absolute outline-none -right-1 h-full rounded-full bg-emerald-500 px-5 font-body text-sm tracking-wider text-white transition hover:bg-emerald-600 sm:px-10">
+                  <button className="absolute -right-1 h-full rounded-full bg-emerald-500 px-5 font-body text-sm tracking-wider text-white outline-none transition hover:bg-emerald-600 sm:px-10">
                     Subscribe
                   </button>
                 </motion.form>

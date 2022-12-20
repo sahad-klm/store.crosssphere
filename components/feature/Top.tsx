@@ -1,4 +1,4 @@
-import { Icon } from 'lib/icon';
+import { PaperPlaneIcon } from 'lib/icon';
 
 const Top = ({ pathName }: any): JSX.Element => (
   <div className="relative z-10  block w-full overflow-hidden rounded-xl bg-emerald-200 p-8 md:p-10 lg:p-20">
@@ -26,7 +26,7 @@ const Top = ({ pathName }: any): JSX.Element => (
       <span className="text-emerald-500">logistic shad's shop</span>
     </h4>
     <form className="relative mt-10 flex h-14 flex-row  items-center overflow-hidden rounded-full bg-white sm:max-w-[50%]">
-      <Icon className="ml-6 mr-4 h-4 fill-gray-700" />
+    <PaperPlaneIcon className="ml-1 mr-2 h-4 fill-gray-500 md:ml-6 md:mr-4" />
       <input
         type="text"
         placeholder="Your email address"
