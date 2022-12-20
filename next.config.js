@@ -13,10 +13,10 @@ const nextConfig = {
       'w7.pngwing.com',
       'images.unsplash.com',
       'i.scdn.co',
-      "www.pngfind.com",
+      'www.pngfind.com',
       'www.investopedia.com',
       'i.pinimg.com',
-      "www.wallpaperuse.com",
+      'www.wallpaperuse.com',
     ],
   },
   typescript: {
