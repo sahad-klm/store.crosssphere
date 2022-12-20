@@ -179,7 +179,7 @@ export const fadeAnim = {
   show: {
     opacity: 1,
     transition: {
-      duration: 0.2,
+      duration: 0.6,
       delay: 0.1,
       ease: 'linear',
       when: 'beforeChildren',
@@ -188,9 +188,28 @@ export const fadeAnim = {
   hide: {
     opacity: 0,
     transition: {
-      duration: 0.2,
+      duration: 0.8,
       ease: 'linear',
       when: 'beforeChildren',
+    },
+  },
+}
+
+export const formAnim = {
+  show: {
+    opacity: 1,
+    transition: {
+      duration: 0.4,
+      ease: 'linear',
+      when: 'beforeChildren',
+    },
+  },
+  hide: {
+    opacity: 0,
+    transition: {
+      duration: 0.4,
+      ease: 'linear',
+      when: 'afterChildren',
     },
   },
 }
