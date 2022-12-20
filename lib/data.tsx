@@ -1241,8 +1241,8 @@ export const footerApp_Payments = [
 export const footerSocialMedia = [
   {
     id: 1,
-    name: 'Face book',
-    icon: 'fa-brands fa-facebook-f',
+    name: 'Facebook',
+    icon: 'facebook',
     link: '.facebook',
     color: '#3b5998',
   },
@@ -1250,28 +1250,28 @@ export const footerSocialMedia = [
   {
     id: 3,
     name: 'Twitter',
-    icon: 'fa-brands fa-twitter',
+    icon: 'twitter',
     link: '.facebook',
     color: '#00acee',
   },
   {
     id: 2,
     name: 'Instagram',
-    icon: 'lni lni-instagram',
+    icon: 'instagram',
     link: '.facebook',
     color: '#8a3ab9',
   },
   {
     id: 4,
     name: 'Youtube',
-    icon: 'lni lni-youtube',
+    icon: 'youtube',
     link: '.facebook',
     color: '#FF0000',
   },
   {
     id: 5,
     name: 'HaloTalk',
-    icon: 'fa-solid fa-hashtag',
+    icon: 'hashtag',
     link: '.facebook',
     color: '#D2B48C',
   },
@@ -1515,29 +1515,28 @@ export const contact = [
     feature: [
       {
         id: 1,
-        order : '01',
-        title :'Visit Feedback',
+        order: '01',
+        title: 'Visit Feedback',
         text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.',
       },
       {
         id: 2,
-        order : '02',
-        title :'Employer Services',
+        order: '02',
+        title: 'Employer Services',
         text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.',
       },
       {
         id: 3,
-        order : '03',
-        title :'Billing Inquiries',
+        order: '03',
+        title: 'Billing Inquiries',
         text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.',
       },
       {
         id: 4,
-        order : '04',
-        title :'General Inquiries',
+        order: '04',
+        title: 'General Inquiries',
         text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.',
       },
-      
     ],
   },
   {
@@ -1545,24 +1544,27 @@ export const contact = [
     office: [
       {
         id: 1,
-        title :'Office',
-        address :'pathirikode , Elenkur PO, PIN : 676122, malppuram, kerala, India',
+        title: 'Office',
+        address:
+          'pathirikode , Elenkur PO, PIN : 676122, malppuram, kerala, India',
         phone: '+91 97494 8393',
-        email:'koiori@jmil.kom'
+        email: 'koiori@jmil.kom',
       },
       {
         id: 2,
-        title :'Studio',
-        address :'pathirikode , Elenkur PO, PIN : 676122, malppuram, kerala, India',
+        title: 'Studio',
+        address:
+          'pathirikode , Elenkur PO, PIN : 676122, malppuram, kerala, India',
         phone: '+91 97494 8393',
-        email:'koiori@jmil.kom'
+        email: 'koiori@jmil.kom',
       },
       {
         id: 3,
-        title :'Shop',
-        address :'pathirikode , Elenkur PO, PIN : 676122, malppuram, kerala, India',
+        title: 'Shop',
+        address:
+          'pathirikode , Elenkur PO, PIN : 676122, malppuram, kerala, India',
         phone: '+91 97494 8393',
-        email:'koiori@jmil.kom'
+        email: 'koiori@jmil.kom',
       },
     ],
   },

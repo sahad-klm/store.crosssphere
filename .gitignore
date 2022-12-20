@@ -22,6 +22,7 @@
 # sanity dist
 studio/dist
 public/studio
+studio
 
 # debug
 npm-debug.log*
