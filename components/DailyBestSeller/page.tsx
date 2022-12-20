@@ -1,11 +1,9 @@
-import { OneProductWithOffer } from '@/ui/OneProductWithOffer';
 import { TextCategoryMob, TextCategory } from '@/ui/TextCategory';
 import React from 'react';
-import { Navigation, Scrollbar } from 'swiper';
-import { Swiper, SwiperSlide } from 'swiper/react';
 import { ButtonShopNow } from '@/ui/button';
-import DailyBestSellerInOneLine from './[dailyDestSellwrSlug]/DailyBestSellerInOneLine';
-import { dailyBestSellerCategory, popularProducts } from '@/lib/data';
+import DailyBestSellerInOneLine from './inOneLine/DailyBestSellerInOneLine';
+import { dailyBestSellerCategory } from '@/lib/data';
+import Image from 'next/image';
 
 const DailyBestSeller = (): any => {
   const [isSelectedCatN, setIsSelectedCatN] = React.useState(
@@ -78,9 +76,10 @@ const DailyBestSeller = (): any => {
 
       <div className="flex w-full flex-col justify-start gap-5 md:flex-row md:gap-6">
         <div className="relative z-[1] flex h-[70vh] w-full min-w-[40%] flex-grow-0 flex-col  items-start gap-12 overflow-hidden rounded-[18px] p-12 md:h-auto md:min-w-[280px] md:max-w-[300px] md:justify-evenly">
-          <img
+          <Image height={100}
             src="https://images.unsplash.com/photo-1520941911699-d1023ca7be1d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE4fHx8ZW58MHx8fHw%3D&w=1000&q=80"
             alt=""
+            loading='lazy'
             width={200}
             className=" absolute inset-0 -z-10 h-full w-full object-cover brightness-150"
           />

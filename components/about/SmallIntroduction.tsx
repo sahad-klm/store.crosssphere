@@ -2,7 +2,8 @@ import { aboutCompany } from '@/lib/data';
 import { m } from 'framer-motion';
 
 import React from 'react';
-import { textVariant, textVariant2 } from 'utils/motion';
+import { textVariant, textVariant2 } from '@/lib/motion';
+import Image from 'next/image';
 const SmallIntroduction = () => (
   <div className="mt-[50px] mb-[30px] grid grid-cols-1 gap-10 px-4 md:grid-cols-2">
     {aboutCompany.map((item) => (
@@ -15,21 +16,28 @@ const SmallIntroduction = () => (
             variants={{
               show: {
                 y: '0%',
-                opacity:1
+                opacity: 1,
               },
               hide: {
                 y: '55%',
-                opacity:0
+                opacity: 0,
               },
             }}
             transition={{
               duration: 0.2,
               ease: [0.16, 1, 0.3, 1],
-              delay: .25 ,
+              delay: 0.25,
             }}
-            className=" overflow-hidden rounded-2xl max-h-[60vh]"
+            className=" max-h-[60vh] overflow-hidden rounded-2xl"
           >
-            <img src={item.picture} alt="" className=" h-full object-contain" />
+            <Image
+              width={1920}
+              height={1080}
+              src={`/${item.picture}`}
+              loading="lazy"
+              alt=""
+              className=" h-full object-contain"
+            />
           </m.div>
         </div>
         <div className="flex flex-col">
@@ -40,17 +48,17 @@ const SmallIntroduction = () => (
             variants={{
               show: {
                 y: '0%',
-                opacity:1
+                opacity: 1,
               },
               hide: {
                 y: '35%',
-                opacity:0
+                opacity: 0,
               },
             }}
             transition={{
               duration: 0.2,
               ease: [0.16, 1, 0.3, 1],
-              delay: .35 ,
+              delay: 0.35,
             }}
             className="mb-3 font-head text-h2 text-gray-700"
           >
@@ -65,17 +73,17 @@ const SmallIntroduction = () => (
                 variants={{
                   show: {
                     y: '0%',
-                    opacity:1
+                    opacity: 1,
                   },
                   hide: {
                     y: '35%',
-                    opacity:0
+                    opacity: 0,
                   },
                 }}
                 transition={{
                   duration: 0.2,
                   ease: [0.16, 1, 0.3, 1],
-                  delay: .45 * idx,
+                  delay: 0.45 * idx,
                 }}
                 className="text-base text-gray-500"
               >

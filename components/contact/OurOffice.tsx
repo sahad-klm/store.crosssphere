@@ -2,7 +2,7 @@ import { contact } from '@/lib/data';
 import { LocationIcon } from '@/lib/icon';
 import { motion } from 'framer-motion';
 import React from 'react';
-import { fadeAnim } from 'utils/motion';
+import { fadeAnim } from '@/lib/motion';
 
 const OurOffice = () => {
   return (

@@ -4,7 +4,7 @@ import React from 'react';
 const ButtonShopNow = ({ paddingAndStyle, value }: any): any => {
   return (
     <button
-      className={`z-[1] mt-4 flex w-max items-center gap-4 rounded-md bg-emerald-500  font-body text-xs text-white transition-all hover:gap-5 hover:bg-yellow-500 outline-none ${paddingAndStyle}`}
+      className={`z-[1] mt-4 flex w-max items-center gap-4 rounded-md bg-emerald-500  font-body text-xs text-white outline-none transition-all hover:gap-5 hover:bg-yellow-500 ${paddingAndStyle}`}
     >
       {value}
       <i className="lni lni-arrow-right"></i>
@@ -14,7 +14,7 @@ const ButtonShopNow = ({ paddingAndStyle, value }: any): any => {
 const ButtonAddToCart = ({ className }: any): any => {
   return (
     <button
-      className={`group/btn z-[1] mx-[10px] mt-4 flex h-12 w-full items-center justify-center gap-4 rounded-md  bg-emerald-500 px-3 font-body text-xs text-white transition-all duration-300 hover:-translate-y-1 hover:bg-yellow-500 outline-none ${className}`}
+      className={`group/btn z-[1] mx-[10px] mt-4 flex h-12 w-full items-center justify-center gap-4 rounded-md  bg-emerald-500 px-3 font-body text-xs text-white outline-none transition-all duration-300 hover:-translate-y-1 hover:bg-yellow-500 ${className}`}
     >
       <Cart className="-m-3 scale-50 fill-white" />
       Add to cart
@@ -150,7 +150,7 @@ const ButtonSortBy = ({ filteringCount, setFilteringCount }: any): any => {
   return (
     <button
       onClick={handleClick}
-      className="duration-300 transition-transform relative inline-flex h-min items-center justify-center gap-3 rounded-xl border bg-transparent px-5 py-3 font-body text-gray-600 outline-none"
+      className="relative inline-flex h-min items-center justify-center gap-3 rounded-xl border bg-transparent px-5 py-3 font-body text-gray-600 outline-none transition-transform duration-300"
     >
       <SortIcon className="-m-4 scale-50 fill-gray-600 " />
       Sort by:&nbsp;&nbsp;&nbsp;{filteringCount.filterBy}
@@ -165,7 +165,7 @@ const ButtonSortBy = ({ filteringCount, setFilteringCount }: any): any => {
       >
         {sortList.map((item) => (
           <li
-          key={item.id}
+            key={item.id}
             onClick={() =>
               setFilteringCount({ ...filteringCount, filterBy: item.name })
             }

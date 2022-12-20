@@ -2,20 +2,21 @@
 
 import React, { useState } from 'react';
 
-import BrowseAllButton from './[headerSlug]/headerSlug';
+import BrowseAllButton from './BrowseAllButton';
 import {
   NavLAstInFeistBar,
   NavLAstInFeistBar2,
-} from './[headerSlug]/NavLAstInFeistBar';
-import SearchBar from './[headerSlug]/searchBar';
+} from './NavLAstInFeistBar';
+import SearchBar from './searchBar';
 import { AnimatePresence, motion } from 'framer-motion';
 import {
   fadeAnim,
   textVariant2,
-} from 'utils/motion';
+} from '@/lib/motion';
 import { NavBigOptionsTab, NavBigOptions } from './NavBigOptions';
 import { footerSocialMedia, lastOneInNav } from '@/lib/data';
 import Link from 'next/link';
+import Image from 'next/image';
 
 function Header(): any {
   const [searchOption, setSearchOption] = useState<string | any>(
@@ -73,9 +74,9 @@ function Header(): any {
       <nav className="relative top-0 z-[1000] hidden w-full flex-col lg:flex ">
         <div className="flex h-24 w-full items-center justify-start border-b-[1px] border-solid border-gray-700 border-opacity-20 bg-white py-4 sm:px-4">
           <Link href="/" className="flex h-full items-center justify-center">
-            <img
-              src="Untitled11-removebg-preview.png"
-              className=" h-full w-44 shrink-0 bg-red-300 object-contain"
+            <Image width={176} height={100} loading='lazy'
+              src="/Untitled11-removebg-preview.png"
+              className="h-full w-44 shrink-0 bg-red-300 object-contain"
             />
           </Link>
           <SearchBar
@@ -145,8 +146,8 @@ function Header(): any {
             className="fa-solid fa-bars-staggered w-22 cursor-pointer text-2xl text-gray-700 sm:w-28 sm:text-3xl"
           />
           <Link href="/" className="flex h-full items-center justify-center">
-            <img
-              src="favicon.ico"
+            <Image width={176} height={1000} alt='' loading='lazy'
+              src="/favicon.ico"
               className=" h-full w-44 shrink-0 cursor-pointer bg-red-300 object-contain"
             />
           </Link>

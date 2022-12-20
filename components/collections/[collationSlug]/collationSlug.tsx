@@ -8,7 +8,7 @@ import { DealsOfTheDayInCollection } from 'components/deals/Page';
 import { AnimatePresence, m } from 'framer-motion';
 import { usePathname } from 'next/navigation';
 import React, { useMemo, useState } from 'react';
-import { fadeAnim } from 'utils/motion';
+import { fadeAnim } from '@/lib/motion';
 import Head from './Head';
 import HeadingWithFilter from './headingWithFilter';
 import NewProducts from '../../../ui/newProducts';

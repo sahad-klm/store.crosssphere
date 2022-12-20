@@ -1,7 +1,8 @@
 import { ourThings } from '@/lib/data';
 import { motion } from 'framer-motion';
 import React from 'react';
-import { fadeAnim } from 'utils/motion';
+import { fadeAnim } from '@/lib/motion';
+import Image from 'next/image';
 
 const TotalCountsOfDetails = () => {
   return (
@@ -16,9 +17,12 @@ const TotalCountsOfDetails = () => {
         <React.Fragment key={item.id}>
           {item.totalInAll?.map((total, idx) => (
             <React.Fragment key={total.id}>
-              <img
-                src={total.bg}
+              <Image
+                width={1440}
+                height={1000}
+                src={total.bg!}
                 alt="bg"
+                loading='lazy'
                 className="absolute -z-10 h-full w-full object-cover opacity-80"
               />
               {total.title && (

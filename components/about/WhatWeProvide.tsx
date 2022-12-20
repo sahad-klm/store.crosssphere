@@ -2,6 +2,7 @@ import { what_We_Provide } from '@/lib/data';
 import { SquigglyLine } from '@/lib/icon';
 import React from 'react';
 import { AnimatePresence, m } from 'framer-motion';
+import Image from 'next/image';
 
 const WhatWeProvide = () => (
   <div className="grid mb-[50px]">
@@ -51,7 +52,7 @@ const WhatWeProvide = () => (
             key={item.id}
             className="flex flex-col items-center gap-6 rounded-2xl border border-gray-200 hover:shadow-lg py-12 px-7 text-center duration-300"
           >
-            <img src={item.icon} alt="icon" className="h-32 object-contain" />
+            <Image width={100} height={100} loading="lazy" src={`/${item.icon}`} alt="icon" className="h-32 object-contain" />
 
             <h3 className="font-head text-2xl text-gray-700">{item.title}</h3>
             <p className="mb-1 text-lg text-gray-500">{item.subtitle}</p>

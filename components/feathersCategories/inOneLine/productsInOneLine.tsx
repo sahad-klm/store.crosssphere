@@ -4,7 +4,8 @@ import { SwiperSlide, Swiper } from 'swiper/react';
 import { AnimatePresence, motion } from 'framer-motion';
 import { BrowseAllCategories, fracturedProducts } from '@/lib/data';
 import Link from 'next/link';
-import { fadeAnim, itemAnim } from 'utils/motion';
+import { fadeAnim, itemAnim } from '@/lib/motion';
+import Image from 'next/image';
 
 type Props = {
   id: React.Key;
@@ -42,7 +43,7 @@ const ProductsInOneLine = ({ swiperRef, slidesPerView }: any): JSX.Element => {
             >
               <Link href={`/collections/${item.slug}`}>
 
-              <img
+              <Image width={1440} height={100} loading='lazy'
                 src={item.picture}
                 alt=""
                 className="mb-2 max-h-[100px] w-[90%]  object-contain transition-all duration-700 hover:scale-105 lg:w-20"

@@ -9,6 +9,7 @@ import ProductEachDetail from './ProductEachDetail';
 import { popularProducts } from '@/lib/data';
 import { OneProductWithOffer } from '@/ui/OneProductWithOffer';
 import Description from './Description';
+import Image from 'next/image';
 
 const ProductDetails = (data: any) => {
   const { product } = data;
@@ -55,10 +56,13 @@ const ProductDetails = (data: any) => {
           <div className="max-lg:grid-row-2 mb-8 grid  w-full max-lg:gap-4 lg:grid-cols-2">
             <div className="grid lg:grid-rows-2 ">
               <div className="flex items-center justify-center bg-gray-100">
-                <img
+                <Image
+                width={1000}
+                height={1000}
                   src={product[0]?.picture}
                   alt=""
                   className="object-contain lg:w-[96%]"
+                  loading="lazy"
                 />
               </div>
             </div>

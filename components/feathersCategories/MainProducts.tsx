@@ -1,6 +1,7 @@
 import { ButtonShopNow } from "@/ui/button";
 import { fracturedMainProduct } from "@/lib/data";
 import { motion } from "framer-motion";
+import Image from "next/image";
 
 const MainProducts: React.FC | any = () => {
   return (
@@ -16,7 +17,7 @@ const MainProducts: React.FC | any = () => {
           key={item.id}
           className={`bg-${item.bg}-100 flex relative p-10 rounded-md flex-col justify-start w-full sm:max-w-lg group/edit`}
         >
-          <img
+          <Image width={1000} height={1000} loading='lazy'
             src={item.picture}
             alt=""
             className="max-w-[50%] w-full max-h-[100%] object-contain absolute right-0 bottom-0 z-0"

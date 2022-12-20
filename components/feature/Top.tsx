@@ -1,17 +1,22 @@
 import { PaperPlaneIcon } from 'lib/icon';
+import Image from 'next/image';
 
 const Top = ({ pathName }: any): JSX.Element => (
   <div className="relative z-10  block w-full overflow-hidden rounded-xl bg-emerald-200 p-8 md:p-10 lg:p-20">
-    <img
+    <Image
+      width={1440}
+      height={1000}
       src="https://img.freepik.com/free-photo/cool-geometric-triangular-figure-neon-laser-light-great-backgrounds-wallpapers_181624-9331.jpg?w=2000"
       loading="lazy"
       alt=""
       className="absolute top-0 right-0 -z-50 h-full w-full object-cover opacity-40"
     />
-    <img
+    <Image
+      width={1440}
+      height={1000}
       src={`${
-        pathName === '/about' || '/contact'
-          ? 'Untitled.webp'
+        pathName === ('/about' || '/contact')
+          ? '/Untitled.webp'
           : 'https://w7.pngwing.com/pngs/1020/967/png-transparent-tool-laborer-architectural-engineering-renovation-work-tool-construction-tools-building-sharing.png'
       } `}
       alt=""
@@ -26,7 +31,7 @@ const Top = ({ pathName }: any): JSX.Element => (
       <span className="text-emerald-500">logistic shad's shop</span>
     </h4>
     <form className="relative mt-10 flex h-14 flex-row  items-center overflow-hidden rounded-full bg-white sm:max-w-[50%]">
-    <PaperPlaneIcon className="ml-1 mr-2 h-4 fill-gray-500 md:ml-6 md:mr-4" />
+      <PaperPlaneIcon className="ml-1 mr-2 h-4 fill-gray-500 md:ml-6 md:mr-4" />
       <input
         type="text"
         placeholder="Your email address"

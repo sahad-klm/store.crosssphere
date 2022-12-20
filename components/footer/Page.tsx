@@ -1,4 +1,4 @@
-'use client'
+'use client';
 import FooterList from '@/ui/footerList';
 import {
   footerAccount,
@@ -10,28 +10,29 @@ import {
 } from '@/lib/data';
 import { Icon } from '@/lib/icon';
 import React from 'react';
+import Image from 'next/image';
 const Footer = () => {
   const [footerToggle, setFooterToggle] = React.useState<string | any>('');
 
-  const handleToggle = (prop : any) => {
+  const handleToggle = (prop: any) => {
     if (prop !== undefined) {
       if (footerToggle === prop) {
         setFooterToggle('');
-      } else setFooterToggle(prop)
+      } else setFooterToggle(prop);
     }
   };
 
   return (
     <footer className="mt-[50px] flex w-full flex-col items-center justify-center overflow-hidden  px-4">
       <ul className="grid w-full grid-flow-row gap-x-5 gap-y-10 md:grid-cols-3 lg:grid-cols-6 lg:justify-items-center">
-        <li className="md:flex max-w-[300px] flex-col gap-[10px] hidden">
+        <li className="hidden max-w-[300px] flex-col gap-[10px] md:flex">
           <Icon className="mb-4 h-16 w-full bg-slate-400" />
-          <p className="mb-[10px] font-body md:text-base text-sm text-gray-900">
+          <p className="mb-[10px] font-body text-sm text-gray-900 md:text-base">
             prevalent proposers alt holo sejm
           </p>
           {footerAddress?.map((item) => (
             <div key={item.id} className="inline-flex items-start">
-              <h6 className="inline font-head md:text-base text-sm capitalize text-gray-700">
+              <h6 className="inline font-head text-sm capitalize text-gray-700 md:text-base">
                 <i
                   className={`${item.icon} mr-2 inline w-9 text-base font-bold text-emerald-500`}
                 />
@@ -48,58 +49,73 @@ const Footer = () => {
           links={footerCompany}
           onClick={handleToggle}
           footerToggle={footerToggle}
-          className='md:border-none border-t'
+          className="border-t md:border-none"
         />
         <FooterList
           heading={'Account'}
           links={footerAccount}
           onClick={handleToggle}
           footerToggle={footerToggle}
-          className='md:border-none border-t'
+          className="border-t md:border-none"
         />
         <FooterList
           heading={'Cooperate'}
           links={footerCoparent}
           onClick={handleToggle}
-          footerToggle={footerToggle} className='md:border-none border-t'
+          footerToggle={footerToggle}
+          className="border-t md:border-none"
         />
         <FooterList
           heading={'Information'}
           links={footerInformation}
           onClick={handleToggle}
           footerToggle={footerToggle}
-          className='md:border-none border-t'
+          className="border-t md:border-none"
         />
-        <li className='flex md:max-w-[300px] flex-col gap-[10px] md:border-none border-t'>
-          <h2 className="font-head  md:text-h4 text-[22px] text-gray-700 max-md:cursor-pointer w-full flex justify-between"
-          onClick={() => handleToggle('App & Payment')}
-          >App & Payment
-          <i className={`fa-solid fa-chevron-${footerToggle === 'App & Payment' ? 'up': 'down'} text-gray-500 duration-500 md:hidden block`} />
+        <li className="flex flex-col gap-[10px] border-t md:max-w-[300px] md:border-none">
+          <h2
+            className="flex  w-full justify-between font-head text-[22px] text-gray-700 max-md:cursor-pointer md:text-h4"
+            onClick={() => handleToggle('App & Payment')}
+          >
+            App & Payment
+            <i
+              className={`fa-solid fa-chevron-${
+                footerToggle === 'App & Payment' ? 'up' : 'down'
+              } block text-gray-500 duration-500 md:hidden`}
+            />
           </h2>
-          <div className={`${footerToggle === 'App & Payment' ? "grid" :'hidden'} md:grid`}>
-
-          {footerApp_Payments?.map((item) => (
-            <div key={item.id} className="flex flex-col">
-              <p className="mb-5 font-body md:text-base text-sm text-gray-900">{item.title}</p>
-              <div
-                className={`flex ${
-                  item.name === 'apps' ? 'md:flex-col flex-row' : 'flex-row'
-                } gap-1`}
+          <div
+            className={`${
+              footerToggle === 'App & Payment' ? 'grid' : 'hidden'
+            } md:grid`}
+          >
+            {footerApp_Payments?.map((item) => (
+              <div key={item.id} className="flex flex-col">
+                <p className="mb-5 font-body text-sm text-gray-900 md:text-base">
+                  {item.title}
+                </p>
+                <div
+                  className={`flex ${
+                    item.name === 'apps' ? 'flex-row md:flex-col' : 'flex-row'
+                  } gap-1`}
                 >
-                {item.items.map((link) => (
-                  <a key={link.id} href={link.link}>
-                    <img
-                      src={link.picture}
-                      alt={link.link}
-                      className={`${
-                        item.name === 'apps' ? 'h-12 w-32' : ''
-                      } object-cover`}
-                    />
-                  </a>
-                ))}
+                  {item.items.map((link) => (
+                    <a key={link.id} href={link.link}>
+                      <Image
+                        width={128}
+                        height={48}
+                        loading="lazy"
+                        src={link.picture}
+                        alt={`${link.link}`}
+                        className={`${
+                          item.name === 'apps' ? 'h-12 w-32' : ''
+                        } object-cover`}
+                      />
+                    </a>
+                  ))}
+                </div>
               </div>
-            </div>
-          ))}
+            ))}
           </div>
         </li>
       </ul>

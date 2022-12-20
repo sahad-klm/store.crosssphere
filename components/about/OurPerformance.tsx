@@ -1,9 +1,10 @@
 import { ourPerformance } from '@/lib/data';
 import React from 'react';
 import { m } from 'framer-motion';
+import Image from 'next/image';
 
 const OurPerformance = () => (
-  <div className="mt-[50px] grid max-md:grid-rows-2 md:grid-cols-2 gap-5">
+  <div className="mt-[50px] grid gap-5 max-md:grid-rows-2 md:grid-cols-2">
     {ourPerformance.map((item) => (
       <React.Fragment key={item.id}>
         <div className="flex h-full items-center justify-center gap-5">
@@ -28,9 +29,12 @@ const OurPerformance = () => (
             }}
             className="flex h-[80%] w-[40%] items-center justify-center overflow-hidden rounded-2xl"
           >
-            <img
-              src={item.smallPicture}
+            <Image
+              width={1000}
+              height={1000}
+              src={`/${item.smallPicture}`}
               alt="pic"
+              loading="lazy"
               className="h-full w-full object-cover"
             />
           </m.div>
@@ -55,9 +59,12 @@ const OurPerformance = () => (
             }}
             className="flex h-[100%] w-[50%] items-center justify-center overflow-hidden rounded-2xl"
           >
-            <img
-              src={item.bigPicture}
+            <Image
+            width={1000}
+            height={1000}
+              src={`/${item.bigPicture}`}
               alt="pic"
+              loading='lazy'
               className="h-full w-full object-cover"
             />
           </m.div>

@@ -1,6 +1,7 @@
 import { popularProducts } from '@/lib/data';
 import RateOfProduct from '@/ui/rate';
 import { Rating } from '@/ui/rating';
+import Image from 'next/image';
 import React from 'react';
 
 const NewProducts = ({limit = 1}: number | any): JSX.Element => {
@@ -18,7 +19,7 @@ const NewProducts = ({limit = 1}: number | any): JSX.Element => {
               } pb-3`}
             >
               <div className=" xl:h-full xl:w-max w-[80px] items-center justify-center p-2">
-                <img
+                <Image width={100} height={500} loading='lazy'
                   src={item.picture}
                   className="xl:w-[100px] xl:object-contain object-cover w-full"
                   alt={item.name}

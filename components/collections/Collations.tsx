@@ -4,8 +4,9 @@ import Pagination from '@/ui/Pagination';
 import Link from 'next/link';
 import React, { useMemo, useState } from 'react';
 import { m, AnimatePresence } from 'framer-motion';
-import { fadeAnim } from 'utils/motion';
+import { fadeAnim } from '@/lib/motion';
 import { usePathname } from 'next/navigation';
+import Image from 'next/image';
 
 let PageSize = 9;
 const Collations = (): any => {
@@ -37,8 +38,10 @@ const Collations = (): any => {
               className=" flex flex-col items-center justify-center"
             >
               <Link href={`${usePathname()}/${item.slug}`}>
-                <img
-                  src={item.picture}
+                <Image
+                width={100}
+                height={100}
+                  src={item.picture!}
                   alt={item.name}
                   className="scale-[.9] object-contain duration-300 hover:scale-100"
                 />

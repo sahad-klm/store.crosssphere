@@ -1,7 +1,7 @@
 import React, { useRef, useEffect, useState } from 'react';
 import mapboxgl from 'mapbox-gl'; // eslint-disable-line import/no-webpack-loader-syntax
 import { AnimatePresence, motion } from 'framer-motion';
-import { fadeAnim } from 'utils/motion';
+import { fadeAnim } from '@/lib/motion';
 mapboxgl.accessToken = process.env.NEXT_PUBLIC_MAPBOXGL_ACCESS_TOKEN!;
 
 export default function LocationMap() {

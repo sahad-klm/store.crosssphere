@@ -31,8 +31,8 @@ const index = (data: {
     return (
       <>
         <div className="mt-52 flex h-full flex-col items-center justify-center">
-          <img
-            src="970b8f66-193e-4546-a78e-abb98b57aabb.webp"
+          <Image width={1440} height={500} loading='lazy'
+            src="/970b8f66-193e-4546-a78e-abb98b57aabb.webp"
             alt=""
             className="h-[500px] object-contain"
           />
@@ -48,11 +48,11 @@ const index = (data: {
   }
 
   return (
-    <Layout site={site} page={page}>
+    <>
       {pageName[0]?.modules.map((page: { id: any; pageType: any }) => (
         <Module key={page.id} data={page?.pageType} />
       ))}
-    </Layout>
+    </>
   );
 };
 

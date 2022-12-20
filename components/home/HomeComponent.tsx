@@ -1,7 +1,7 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination, Scrollbar, Autoplay } from 'swiper';
 import { motion } from 'framer-motion';
-import { textVariant } from 'utils/motion';
+import { textVariant } from '@/lib/motion';
 
 import 'swiper/css';
 import 'swiper/css/navigation';
@@ -10,6 +10,7 @@ import 'swiper/css/scrollbar';
 import { Key } from 'react';
 import { homeComponentBig } from '@/lib/data';
 import { PaperPlaneIcon } from '@/lib/icon';
+import Image from 'next/image';
 
 const HomeComponent = (): any => {
   return (
@@ -33,7 +34,7 @@ const HomeComponent = (): any => {
               style={{ width: '100%', height: '100%' }}
             >
               <div className="relative z-auto grid h-full content-center overflow-hidden rounded-3xl p-10 sm:p-10 md:pl-20">
-                <img
+                <Image width={1440} height={1000} loading='lazy'
                   className="absolute top-0 left-0 -z-10 h-full w-full object-cover"
                   src={item.picture}
                   alt="wallpaper"

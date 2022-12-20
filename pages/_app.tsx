@@ -11,9 +11,11 @@ import '/styles/globals.css';
 import { isBrowser, useScrollRestoration } from '@/lib/helpers';
 import React, { useContext, useEffect, useMemo } from 'react';
 import { Router } from 'next/router';
-import { pageTransitionSpeed } from 'utils/motion';
+import { pageTransitionSpeed } from '@/lib/motion';
 import { useRouter } from 'next/navigation';
 import { AppProps } from 'next/app';
+import Layout from 'components/layout/layout';
+import Image from 'next/image';
 
 if (isBrowser) {
   console.groupCollapsed(
@@ -89,7 +91,9 @@ const Site = ({ Component, pageProps, router }: any): JSX.Element => {
           document.body.classList.remove('overflow-hidden');
         }}
       >
-        <Component key={pageID} {...pageProps} />
+        <Layout>
+          <Component key={pageID} {...pageProps} />
+        </Layout>
       </AnimatePresence>
     </LazyMotion>
   );
@@ -110,7 +114,7 @@ function MyApp({ Component, pageProps, router }: AppProps) {
     return (
       <div className="mx-auto mt-28 flex h-screen min-w-full flex-row items-center  justify-center gap-10  bg-black">
         <div className=" flex flex-col  items-center justify-center rounded-3xl  border-[5px] md:w-[40%]">
-          <img src="Untiztled.webp" className="object-contain" />
+          <Image width={1440} height={1000} loading='lazy' src="/Untiztled.webp" alt='' className="object-contain" />
           <button
             onClick={() => alert('ijj tett anser adichu ini pinne vaa')}
             className="mt-5 rounded-xl bg-white px-10 py-5 text-black outline-none"
@@ -119,7 +123,7 @@ function MyApp({ Component, pageProps, router }: AppProps) {
           </button>
         </div>
         <div className="flex flex-col items-center justify-center rounded-3xl  border-[5px] md:w-[40%]">
-          <img src="Untitsssssled(1).webp" alt="" className=" object-contain" />
+          <Image width={1440} height={1000} loading='lazy'  src="/Untitsssssled(1).webp" alt="" className=" object-contain" />
           <button
             onClick={() => {
               if (

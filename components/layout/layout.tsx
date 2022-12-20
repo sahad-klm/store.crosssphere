@@ -2,7 +2,7 @@ import { isBrowser, isMobileSafari, useWindowSize } from '@/lib/helpers';
 import HeadSEO from 'components/Header/HeadSEO';
 import Script from 'next/script';
 import { useEffect, useState } from 'react';
-import { pageTransitionSpeed } from 'utils/motion';
+import { pageTransitionSpeed } from '@/lib/motion';
 import { m } from 'framer-motion';
 import Header from 'components/Header/Header';
 import Footer from 'components/footer/Page';
@@ -37,7 +37,7 @@ const Layout = ({
   schema,
   children,
 }: any): JSX.Element => {
-  const pathName:any = usePathname();
+  const pathName: any = usePathname();
   // set window height var (w/ safari/ios hack)
 
   const { height: windowHeight } = useWindowSize();
@@ -141,7 +141,7 @@ const Layout = ({
             </p>
           </div>
         </div>
-        <Welcome2Top/>
+        <Welcome2Top />
       </m.div>
     </>
   );

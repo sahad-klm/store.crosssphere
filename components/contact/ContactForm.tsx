@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion';
+import Image from 'next/image';
 import React from 'react';
 
 const ContactForm = () => {
@@ -188,8 +189,8 @@ const ContactForm = () => {
         }}
         className="hidden h-[50%] w-[30%] overflow-hidden rounded-xl lg:flex"
       >
-        <img
-          src="Untitled.webp"
+        <Image width={700} height={500} loading='lazy'
+          src="/Untitled.webp"
           alt=""
           className="h-full w-full object-cover "
         />

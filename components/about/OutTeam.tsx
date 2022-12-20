@@ -9,7 +9,7 @@ import {
   YoutubeIcon,
 } from '@/lib/icon';
 import Link from 'next/link';
-import { fadeAnim } from 'utils/motion';
+import { fadeAnim } from '@/lib/motion';
 
 const OutTeam = () => {
   const socialMediaIcon = (platform: string): any => {

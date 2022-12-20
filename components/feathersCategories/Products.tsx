@@ -1,6 +1,6 @@
 'use client';
 import React from 'react';
-import ProductsInOneLine from './[feathersSlug]/productsInOneLine';
+import ProductsInOneLine from './inOneLine/productsInOneLine';
 
 export const Products: any = ({ swiperRef }: any) => {
   return (

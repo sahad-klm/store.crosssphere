@@ -1,4 +1,5 @@
 import { Icon } from '@/lib/icon';
+import Image from 'next/image';
 import Link from 'next/link';
 
 import React from 'react';
@@ -71,7 +72,7 @@ function OneProductWithOffer({
         } ${classNameForPic}`}
       >
         <Link href={`/${categorySlug}/${id}`}>
-        <img
+        <Image width={1440} height={1000} loading='lazy'
           src={
             bacPicture
             ? mouseOver === id && windowWidth > 768
@@ -185,7 +186,7 @@ const OneProductLeftPicRightDetail = ({
               >
                 <Link href={`/${item.categorySlug}/${item.id}`}>
 
-                <img
+                <Image width={1440} height={1000} loading='lazy'
                   src={item.picture}
                   className="h-full w-full object-contain"
                   alt={item.name}
