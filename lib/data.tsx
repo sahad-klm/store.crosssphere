@@ -1238,7 +1238,6 @@ export const footerApp_Payments = [
   },
 ];
 
-
 export const footerSocialMedia = [
   {
     id: 1,
@@ -1516,29 +1515,28 @@ export const contact = [
     feature: [
       {
         id: 1,
-        order : '01',
-        title :'Visit Feedback',
+        order: '01',
+        title: 'Visit Feedback',
         text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.',
       },
       {
         id: 2,
-        order : '02',
-        title :'Employer Services',
+        order: '02',
+        title: 'Employer Services',
         text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.',
       },
       {
         id: 3,
-        order : '03',
-        title :'Billing Inquiries',
+        order: '03',
+        title: 'Billing Inquiries',
         text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.',
       },
       {
         id: 4,
-        order : '04',
-        title :'General Inquiries',
+        order: '04',
+        title: 'General Inquiries',
         text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.',
       },
-      
     ],
   },
   {
@@ -1546,24 +1544,27 @@ export const contact = [
     office: [
       {
         id: 1,
-        title :'Office',
-        address :'pathirikode , Elenkur PO, PIN : 676122, malppuram, kerala, India',
+        title: 'Office',
+        address:
+          'pathirikode , Elenkur PO, PIN : 676122, malppuram, kerala, India',
         phone: '+91 97494 8393',
-        email:'koiori@jmil.kom'
+        email: 'koiori@jmil.kom',
       },
       {
         id: 2,
-        title :'Studio',
-        address :'pathirikode , Elenkur PO, PIN : 676122, malppuram, kerala, India',
+        title: 'Studio',
+        address:
+          'pathirikode , Elenkur PO, PIN : 676122, malppuram, kerala, India',
         phone: '+91 97494 8393',
-        email:'koiori@jmil.kom'
+        email: 'koiori@jmil.kom',
       },
       {
         id: 3,
-        title :'Shop',
-        address :'pathirikode , Elenkur PO, PIN : 676122, malppuram, kerala, India',
+        title: 'Shop',
+        address:
+          'pathirikode , Elenkur PO, PIN : 676122, malppuram, kerala, India',
         phone: '+91 97494 8393',
-        email:'koiori@jmil.kom'
+        email: 'koiori@jmil.kom',
       },
     ],
   },

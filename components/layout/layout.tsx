@@ -6,7 +6,7 @@ import { pageTransitionSpeed } from '@/lib/motion';
 import { m } from 'framer-motion';
 import Header from 'components/Header/Header';
 import Footer from 'components/footer/Page';
-import { CallIcon } from '@/lib/icon';
+import { CallIcon, FacebookIcon, HashTagIcon, InstagramIcon, TwitterIcon, YoutubeIcon } from '@/lib/icon';
 import { footerSocialMedia } from '@/lib/data';
 import Feathers from 'components/feature/Page';
 import { usePathname } from 'next/navigation';
@@ -48,7 +48,29 @@ const Layout = ({
   // hide features from collection
   const hideFeatures: boolean = pathName === '/collections' ? false : true;
 
+
+  const socialMediaIcon = (platform: string): any => {
+    console.log(platform);
+
+    switch (platform) {
+      case 'facebook':
+        return <FacebookIcon className="h-[20px] w-[20px] fill-white p-0.5" />;
+
+      case 'twitter':
+        return <TwitterIcon className="h-[20px] w-[20px] fill-white p-0.5" />;
+
+      case 'instagram':
+        return <InstagramIcon className="h-[20px] w-[20px] fill-white p-0.5" />;
+      case 'youtube':
+        return <YoutubeIcon className="h-[20px] w-[20px] fill-white p-0.5" />;
+      case 'hashtag':
+        return <HashTagIcon className="h-[20px] w-[20px] fill-white p-0.5" />;
+    }
+  };
+
+
   // set header height
+
 
   useEffect(() => {
     if ((isBrowser && !lockHeight) || !hasChine) {
@@ -128,10 +150,7 @@ const Layout = ({
                     href={item.link}
                     className="grid h-5 w-5 shrink-0 place-content-center rounded-full bg-emerald-500 duration-300 hover:bg-lime-400 sm:h-7 sm:w-7"
                   >
-                    <i
-                      className={`${item.icon} text-xs text-white sm:text-base`}
-                      title={item.name}
-                    />
+                    {socialMediaIcon(item.icon)}
                   </a>
                 ))}
               </div>
