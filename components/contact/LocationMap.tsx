@@ -1,6 +1,6 @@
 import React, { useRef, useEffect, useState } from 'react';
 import mapboxgl from 'mapbox-gl'; // eslint-disable-line import/no-webpack-loader-syntax
-import { motion } from 'framer-motion';
+import { AnimatePresence, motion } from 'framer-motion';
 import { fadeAnim, formAnim } from 'utils/motion';
 
 mapboxgl.accessToken =
@@ -17,7 +17,7 @@ export default function LocationMap() {
     if (map.current) return; // initialize map only once
     map.current = new mapboxgl.Map({
       container: mapContainer.current,
-      style: 'mapbox://styles/dodoing/clbw76s0o000r14o5oa7o0m83',
+      style: 'mapbox://styles/dodoing/clbw9qefu002714o2nwqhtnsf',
       center: [lng, lat],
       zoom: zoom,
     });
@@ -33,19 +33,22 @@ export default function LocationMap() {
   });
 
   return (
+    <AnimatePresence mode='wait'>
+
     <motion.div
       initial="hide"
       animate="show"
       exit="hide"
       variants={fadeAnim}
       className="flex w-full items-center justify-center overflow-hidden rounded-2xl"
-    >
-      <motion.div className="sidebar flex  h-96" />
+      >
+      <motion.div className="flex" />
       <div
         ref={mapContainer}
-        className="map-container flex h-96  w-full flex-1"
-      />
+        className="map-container flex h-[350px]  w-full flex-1"
+        />
     </motion.div>
+        </AnimatePresence>
   );
 }
 
