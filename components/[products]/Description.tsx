@@ -76,7 +76,7 @@ const Description = ({ products }: any) => {
               },
             }}
             transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1] }}
-            className={`bottom-0  left-0 z-[500] h-[100vh]  flex w-full flex-col justify-end overflow-hidden shadow-2xl max-md:fixed`}
+            className={`bottom-0  left-0 z-[500] h-screen  flex w-full flex-col justify-end overflow-hidden shadow-2xl max-md:fixed`}
           >
             <span
               onClick={() => setIsToggle(false)}

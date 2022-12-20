@@ -23,6 +23,7 @@
     "concurrently": "7.5.0",
     "focus-trap-react": "10.0.2",
     "framer-motion": "7.6.19",
+    "mapbox-gl": "2.11.1",
     "next": "latest",
     "react": "18.2.0",
     "react-dom": "18.2.0",

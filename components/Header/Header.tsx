@@ -159,7 +159,7 @@ function Header(): any {
         <div
           className={`${
             browseAllCategory ? 'fixed' : 'hidden'
-          }   inset-0 z-50 flex min-h-[100vh] w-full bg-black bg-opacity-25`}
+          }   inset-0 z-50 flex min-h-screen w-full bg-black bg-opacity-25`}
         >
           <motion.div
             initial="hide"

@@ -7,7 +7,7 @@ import React from 'react';
 const Home = (data: {
   sate: any | undefined;
   page: any | undefined;
-}): JSX.Element | any => {
+}): JSX.Element => {
   const pathname = usePathname();
   const { site, page }: any = data;
   const pageName = modulesFinder(pathname)

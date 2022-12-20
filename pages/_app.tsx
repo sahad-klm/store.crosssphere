@@ -13,6 +13,7 @@ import React, { useContext, useEffect, useMemo } from 'react';
 import { Router } from 'next/router';
 import { pageTransitionSpeed } from 'utils/motion';
 import { useRouter } from 'next/navigation';
+import { AppProps } from 'next/app';
 
 if (isBrowser) {
   console.groupCollapsed(
@@ -94,7 +95,7 @@ const Site = ({ Component, pageProps, router }: any): JSX.Element => {
   );
 };
 
-function MyApp({ Component, pageProps, router }: any) {
+function MyApp({ Component, pageProps, router }: AppProps) {
   const [first, setFirst] = React.useState(false);
   const { data } = pageProps;
   const routerlp = useRouter();
@@ -107,7 +108,7 @@ function MyApp({ Component, pageProps, router }: any) {
 
   if (first !== false)
     return (
-      <div className="mx-auto mt-28 flex h-[100vh] min-w-full flex-row items-center  justify-center gap-10  bg-black">
+      <div className="mx-auto mt-28 flex h-screen min-w-full flex-row items-center  justify-center gap-10  bg-black">
         <div className=" flex flex-col  items-center justify-center rounded-3xl  border-[5px] md:w-[40%]">
           <img src="Untiztled.webp" className="object-contain" />
           <button
