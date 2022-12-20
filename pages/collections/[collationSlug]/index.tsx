@@ -2,6 +2,7 @@ import { BrowseAllCategories } from '@/lib/data';
 import { modulesFinder } from '@/lib/helpers';
 import Layout from 'components/layout/layout';
 import Module from 'components/module/Module';
+import Image from 'next/image';
 import { usePathname } from 'next/navigation';
 
 import React from 'react';
