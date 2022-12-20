@@ -1,17 +1,21 @@
 import React, { useRef, useEffect, useState } from 'react';
 import mapboxgl from 'mapbox-gl'; // eslint-disable-line import/no-webpack-loader-syntax
 import { AnimatePresence, motion } from 'framer-motion';
-import { fadeAnim, formAnim } from 'utils/motion';
+import { fadeAnim } from 'utils/motion';
+mapboxgl.accessToken = process.env.NEXT_PUBLIC_MAPBOXGL_ACCESS_TOKEN!;
 
-mapboxgl.accessToken =
-  'pk.eyJ1IjoiZG9kb2luZyIsImEiOiJjbGJ3NzJhNnoxemk4M25xbmRlZnJtMDJqIn0.a26BTo_cU6_i6fa8blWJJA';
+
+const projectDir = process.cwd()
+
+console.log(process.env.NEXT_PUBLIC_MAPBOXGL_ACCESS_TOKEN);
+
 
 export default function LocationMap() {
-  const mapContainer = useRef(null);
-  const map = useRef(null);
-  const [lng, setLng] = useState(76.07555);
-  const [lat, setLat] = useState(11.0405);
-  const [zoom, setZoom] = useState(9);
+  const mapContainer = useRef<any>(null);
+  const map = useRef<any>(null);
+  const [lng, setLng] = useState<number>(76.07555);
+  const [lat, setLat] = useState<number>(11.0405);
+  const [zoom, setZoom] = useState<number>(9);
 
   useEffect(() => {
     if (map.current) return; // initialize map only once
@@ -33,22 +37,21 @@ export default function LocationMap() {
   });
 
   return (
-    <AnimatePresence mode='wait'>
-
-    <motion.div
-      initial="hide"
-      animate="show"
-      exit="hide"
-      variants={fadeAnim}
-      className="flex w-full items-center justify-center overflow-hidden rounded-2xl"
+    <AnimatePresence mode="wait">
+      <motion.div
+        initial="hide"
+        animate="show"
+        exit="hide"
+        variants={fadeAnim}
+        className="flex w-full items-center justify-center overflow-hidden rounded-2xl"
       >
-      <motion.div className="flex" />
-      <div
-        ref={mapContainer}
-        className="map-container flex h-[350px]  w-full flex-1"
+        <motion.div className="flex" />
+        <div
+          ref={mapContainer}
+          className="map-container flex h-[350px]  w-full flex-1"
         />
-    </motion.div>
-        </AnimatePresence>
+      </motion.div>
+    </AnimatePresence>
   );
 }
 
