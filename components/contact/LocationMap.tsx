@@ -4,12 +4,6 @@ import { AnimatePresence, motion } from 'framer-motion';
 import { fadeAnim } from 'utils/motion';
 mapboxgl.accessToken = process.env.NEXT_PUBLIC_MAPBOXGL_ACCESS_TOKEN!;
 
-
-const projectDir = process.cwd()
-
-console.log(process.env.NEXT_PUBLIC_MAPBOXGL_ACCESS_TOKEN);
-
-
 export default function LocationMap() {
   const mapContainer = useRef<any>(null);
   const map = useRef<any>(null);
