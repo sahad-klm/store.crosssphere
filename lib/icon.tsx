@@ -295,3 +295,64 @@ export const PaperPlaneIcon = (
     />
   </svg>
 );
+export const HashTagIcon = (
+  props: any,
+): HtmlHTMLAttributes<SVGAElement> | any => (
+  <svg
+    width="24px"
+    height="24px"
+    viewBox="0 0 24 24"
+    id="hashtag"
+    xmlns="http://www.w3.org/2000/svg"
+    {...props}
+  >
+    <g id="_24x24_hashtag--grey" data-name="24x24/hashtag--grey">
+      <rect
+        id="Rectangle_5"
+        data-name="Rectangle 5"
+        width="24"
+        height="24"
+        fill="none"
+      />
+      <path
+        id="Line"
+        d="M1,0V14"
+        transform="translate(8 5)"
+        fill="none"
+        stroke="#000"
+        stroke-miterlimit="10"
+        stroke-width="1.5"
+      />
+      <path
+        id="Line-2"
+        data-name="Line"
+        d="M1,0V14"
+        transform="translate(14 5)"
+        fill="none"
+        stroke="#000"
+        stroke-miterlimit="10"
+        stroke-width="1.5"
+      />
+      <path
+        id="Line-3"
+        data-name="Line"
+        d="M0,1H14"
+        transform="translate(5 8)"
+        fill="none"
+        stroke="#000"
+        stroke-miterlimit="10"
+        stroke-width="1.5"
+      />
+      <path
+        id="Line-4"
+        data-name="Line"
+        d="M0,1H14"
+        transform="translate(5 14)"
+        fill="none"
+        stroke="#000"
+        stroke-miterlimit="10"
+        stroke-width="1.5"
+      />
+    </g>
+  </svg>
+);
