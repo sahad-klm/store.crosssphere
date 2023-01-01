@@ -29,7 +29,7 @@ const DealsOfTheDay = () => {
 export const DealsOfTheDayInCollection = () => {
   return (
     <div className="mt-[50px] grid w-full flex-col items-center justify-start overflow-hidden">
-              <div className="mb-7 flex w-full items-center justify-between">
+              <div className="mb-10 flex w-full items-center justify-between">
                 <h4 className="mr-4  font-head text-[28px] text-gray-800 md:text-[32px]">
                   Deals of the day
                 </h4>

@@ -176,9 +176,9 @@ const OneProductLeftPicRightDetail = ({
       {productsData?.map((item: Props, idx: number) => (
         <React.Fragment key={item.id}>
           {idx + 1 <= limitProduct() && (
-            <div className="fle-row flex w-full items-center justify-center gap-4 transition-all duration-300 hover:-translate-y-1 h-full">
+            <div className="flex-row flex w-full items-center justify-center gap-4 transition-all duration-300 hover:-translate-y-1 h-full ">
               <div
-                className={` h-full flex-[40%] items-center justify-center overflow-hidden rounded-md p-2 md:p-[3%] ${
+                className={`h-[93px] w-[93px] flex-[40%] items-center justify-center overflow-hidden rounded-md p-1 ${
                   item.tags === 'vegetable' || 'organic'
                     ? 'bg-gray-100'
                     : 'bg-white'
@@ -188,7 +188,7 @@ const OneProductLeftPicRightDetail = ({
 
                 <Image width={1440} height={1000} loading='lazy'
                   src={item.picture}
-                  className="h-full w-full object-contain"
+                  className="h-full w-full object-cover"
                   alt={item.name}
                   />
                   </Link>
@@ -202,7 +202,7 @@ const OneProductLeftPicRightDetail = ({
                   rating={item.rating}
                   className="mx-0 mt-1 mb-1 h-5 pb-0"
                 />
-                <RateOfProduct offer={item.offer} rate={item.rate} />
+                {/* <RateOfProduct offer={item.offer} rate={item.rate} /> */}
               </div>
             </div>
           )}

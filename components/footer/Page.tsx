@@ -25,7 +25,7 @@ const Footer = () => {
   return (
     <footer className="mt-[50px] flex w-full flex-col items-center justify-center overflow-hidden  px-4">
       <ul className="grid w-full grid-flow-row gap-x-5 gap-y-10 md:grid-cols-3 lg:grid-cols-6 lg:justify-items-center">
-        <li className="hidden max-w-[300px] flex-col gap-[10px] md:flex">
+        <li className="hidden flex-col gap-[10px] md:flex">
           <Icon className="mb-4 h-16 w-full bg-slate-400" />
           <p className="mb-[10px] font-body text-sm text-gray-900 md:text-base">
             prevalent proposers alt holo sejm

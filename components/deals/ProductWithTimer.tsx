@@ -66,7 +66,7 @@ function ProductWithTimer({
             className="mx-5 mb-5 flex flex-row flex-wrap items-center gap-1 justify-between 
          "
           >
-            <RateOfProduct rate={rate} offer={offer} />
+            {/* <RateOfProduct rate={rate} offer={offer} /> */}
             <ButtonAdd />
           </div>
         </div>

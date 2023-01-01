@@ -26,7 +26,7 @@ const DailyBestSellerInOneLine = ({
             mouseOver={mouseOver}
             buttonStyle="add-to-cart"
             classNameForTotal="max-w-full md:h-full h-full"
-            classNameForPic="h-[37vh] p-4"
+            classNameForPic="h-[37vh] p-1"
           />
         </SwiperSlide>
       ))}
