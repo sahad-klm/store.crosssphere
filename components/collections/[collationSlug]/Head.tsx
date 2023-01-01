@@ -5,18 +5,12 @@ import Link from 'next/link';
 const Head = ({ headName, tags }: any): JSX.Element => {
 
   return (
-    <div className="relative z-10  flex w-full flex-col justify-between gap-5 overflow-hidden rounded-xl bg-emerald-200 p-8 md:p-10 lg:p-20 xl:flex-row   ">
+    <div className="relative z-10  flex w-full flex-col justify-between gap-5 overflow-hidden rounded-xl p-8 md:p-10 lg:p-20 xl:flex-row   ">
       <Image width={1440} height={500} 
-        src="https://img.freepik.com/free-photo/cool-geometric-triangular-figure-neon-laser-light-great-backgrounds-wallpapers_181624-9331.jpg?w=2000"
+        src="	https://cdn.shopify.com/s/files/1/0652/4570/8532/files/header-bg.png?v=1659942646&width=1920"
         loading="lazy"
         alt=""
         className="absolute top-0 right-0 -z-50 h-full w-full object-cover opacity-40"
-      />
-      <Image width={1000} height={500} 
-        src="https://w7.pngwing.com/pngs/1020/967/png-transparent-tool-laborer-architectural-engineering-renovation-work-tool-construction-tools-building-sharing.png"
-        loading="lazy"
-        alt=""
-        className="absolute right-10 bottom-0 -z-50 max-h-[80%] w-[40%] object-contain"
       />
 
       {/* first part */}

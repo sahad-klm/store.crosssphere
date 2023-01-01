@@ -79,7 +79,7 @@ const CollationSlug = () => {
                   key={item.id}
                   {...item}
                   buttonStyle="add"
-                  classNameForTotal="xl:w-auto xl:w-[220px] xl:h-auto w-auto h-[443px] mx-auto"
+                  classNameForTotal="xl:w-auto xl:w-full xl:h-auto w-auto h-[443px] mx-auto"
                   classNameForPic="p-4 "
                 />
               ),

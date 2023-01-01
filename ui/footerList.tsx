@@ -21,7 +21,7 @@ const FooterList = ({
 }): JSX.Element | any => {
 
   return (
-    <li className={`flex md:max-w-[300px] flex-col gap-[30px] ${className}`}>
+    <li className={`flex  flex-col gap-[30px] ${className}`}>
       <h2
         className="font-head md:text-h4 text-[22px] text-gray-700 max-md:cursor-pointer w-full flex justify-between"
         onClick={() => onClick(heading)}>

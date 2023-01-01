@@ -21,7 +21,7 @@ const BrowseAllButton = ({ browseAllCategory, setBrowseAllCategory, navHide }: a
           {BrowseAllCategories?.map((item) => (
             <Link href={`/collections/${item.slug}`}
               key={item.id}
-              className="grid place-items-center w-max grid-flow-col gap-[14px] rounded border border-gray-300 border-opacity-20 py-2 px-4 hover:shadow-sm group hover:border-emerald-400 hover:opacity-70"
+              className="grid place-items-center w-full grid-flow-col gap-[14px] rounded border border-gray-300 border-opacity-20 py-2 px-4 hover:shadow-sm group hover:border-emerald-400 hover:opacity-70"
             >
               {item.icon}
               

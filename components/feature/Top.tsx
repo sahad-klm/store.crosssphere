@@ -2,7 +2,7 @@ import { PaperPlaneIcon } from 'lib/icon';
 import Image from 'next/image';
 
 const Top = ({ pathName }: any): JSX.Element => (
-  <div className="relative z-10  block w-full overflow-hidden rounded-xl bg-emerald-200 p-8 md:p-10 lg:p-20">
+  <div className="relative z-10  block w-full overflow-hidden rounded-xl  p-8 md:p-10 lg:p-20">
     <Image
       width={1440}
       height={1000}
