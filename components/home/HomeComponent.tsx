@@ -14,7 +14,7 @@ import Image from 'next/image';
 
 const HomeComponent = (): any => {
   return (
-    <div className="h-ofHome relative z-10 flex items-center justify-center overflow-hidden px-4 md:h-[540px]  md:pt-12">
+    <div className="h-ofHome relative z-10 flex items-center justify-center overflow-hidden px-4 md:h-[650px]  md:pt-7">
       <Swiper
         modules={[Navigation, Pagination, Scrollbar, Autoplay]}
         slidesPerView={1}
@@ -33,10 +33,11 @@ const HomeComponent = (): any => {
               key={item.id}
               style={{ width: '100%', height: '100%' }}
             >
-              <div className="relative z-auto grid h-full content-center overflow-hidden rounded-3xl p-10 sm:p-10 md:pl-20">
+              <div className="relative z-auto grid h-full content-center overflow-hidden rounded-3xl p-10 md:pl-20">
                 <Image width={1440} height={1000} loading='lazy'
                   className="absolute top-0 left-0 -z-10 h-full w-full object-cover"
-                  src={item.picture}
+                  // src={item.picture}
+                  src={'https://cdn.shopify.com/s/files/1/0652/4570/8532/files/slider-1-2.jpg?v=1659427625&width=2100'}
                   alt="wallpaper"
                 />
                 <motion.h1
@@ -44,7 +45,7 @@ const HomeComponent = (): any => {
                   whileInView="show"
                   viewport={{ once: false, amount: 0.25 }}
                   variants={textVariant(0.2, 0.5)}
-                  className="max-w-[580px] font-body text-[42px] font-bold leading-10 text-gray-800 md:text-7xl"
+                  className="max-w-[780px] font-body text-[42px] font-bold leading-10 text-gray-800 md:text-7xl"
                 >
                   {item.title}
                 </motion.h1>
@@ -53,7 +54,7 @@ const HomeComponent = (): any => {
                   initial="hidden"
                   whileInView="show"
                   viewport={{ once: false, amount: 0.25 }}
-                  className="mt-2 font-head text-h6 leading-9 text-gray-700 md:text-h4"
+                  className="mt-5 font-body text-h6 leading-9 text-gray-500 md:text-h4"
                 >
                   {item.subtitle}
                 </motion.h6>
@@ -62,7 +63,7 @@ const HomeComponent = (): any => {
                   initial="hidden"
                   whileInView="show"
                   viewport={{ once: false, amount: 0.25 }}
-                  className="relative mt-5 flex h-16 w-[279px] flex-row  items-center overflow-hidden rounded-full bg-white sm:mt-10 md:w-[450px]"
+                  className="relative mt-7 flex h-16 w-[279px] flex-row  items-center overflow-hidden rounded-full bg-white sm:mt-10 md:w-[450px]"
                 >
                   <PaperPlaneIcon className="ml-1 mr-2 h-4 fill-gray-500 md:ml-6 md:mr-4" />
                   <input

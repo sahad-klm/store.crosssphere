@@ -46,7 +46,7 @@ const Pagination = (props: any): any => {
 
         return (
           <li
-          key={idx}
+            key={idx}
             className={classnames(
               'pagination-item bg-gray-200 font-head text-base text-gray-700 duration-300',
               {

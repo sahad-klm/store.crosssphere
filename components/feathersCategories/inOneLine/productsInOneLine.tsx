@@ -2,7 +2,7 @@
 import React from 'react';
 import { SwiperSlide, Swiper } from 'swiper/react';
 import { AnimatePresence, motion } from 'framer-motion';
-import { BrowseAllCategories, fracturedProducts } from '@/lib/data';
+import { BrowseAllCategories } from '@/lib/data';
 import Link from 'next/link';
 import { fadeAnim, itemAnim } from '@/lib/motion';
 import Image from 'next/image';
@@ -26,16 +26,17 @@ const ProductsInOneLine = ({ swiperRef, slidesPerView }: any): JSX.Element => {
       onBeforeInit={(swiper) => {
         swiperRef.current = swiper;
       }}
+      className='h-full'
     >
         {BrowseAllCategories?.map((item: any) => (
-          <SwiperSlide key={item.id}>
+          <SwiperSlide key={item.id} className=''>
             <motion.div
               variants={itemAnim}
               className={`bg-[${
                 item.bg
-              }] flex h-auto w-full shrink-0 flex-col items-center justify-center rounded-md border-[.5px] 
+              }] flex h-full w-full shrink-0 flex-col items-center justify-center rounded-md border-[.5px] 
              border-solid 
-              border-transparent p-5  lg:w-full ${
+              border-transparent p-5  lg:w-full  ${
                 isClickedOnThisOne === item.id &&
                 ' border-emerald-300 shadow-md'
               } group/edit cursor-pointer transition-all duration-300 hover:border-emerald-300 hover:shadow-md`}
@@ -46,7 +47,7 @@ const ProductsInOneLine = ({ swiperRef, slidesPerView }: any): JSX.Element => {
               <Image width={1440} height={100} loading='lazy'
                 src={item.picture}
                 alt=""
-                className="mb-2 max-h-[100px] w-[90%]  object-contain transition-all duration-700 hover:scale-105 lg:w-20"
+                className="mb-2 h-[100px] w-[90%]  object-contain transition-all duration-700 hover:scale-105 lg:w-20"
                 />
                 </Link>
               <div className="flex flex-col items-center justify-center">

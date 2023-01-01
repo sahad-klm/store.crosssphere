@@ -39,7 +39,7 @@ const DailyBestSeller = (): any => {
 
   return (
     <div className="z-1 relative mt-10 flex w-full flex-col items-start  justify-center overflow-hidden px-4 md:mt-[50px]">
-      <div className="mb-7 flex w-full items-center justify-between">
+      <div className="mb-10 flex w-full items-center justify-between">
         <h4 className="mr-4  font-head text-[28px] text-gray-800 md:text-[32px]">
           Daily best sells
         </h4>
@@ -75,7 +75,7 @@ const DailyBestSeller = (): any => {
       </div>
 
       <div className="flex w-full flex-col justify-start gap-5 md:flex-row md:gap-6">
-        <div className="relative z-[1] flex h-[70vh] w-full min-w-[40%] flex-grow-0 flex-col  items-start gap-12 overflow-hidden rounded-[18px] p-12 md:h-auto md:min-w-[280px] md:max-w-[300px] md:justify-evenly">
+        <div className="relative z-[1] flex h-[70vh] w-full min-w-[40%] flex-grow-0 flex-col  items-start gap-12 overflow-hidden rounded-[18px] p-12 md:h-auto md:min-w-[300px] md:justify-evenly">
           <Image height={100}
             src="https://images.unsplash.com/photo-1520941911699-d1023ca7be1d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE4fHx8ZW58MHx8fHw%3D&w=1000&q=80"
             alt=""

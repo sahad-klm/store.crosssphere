@@ -5,7 +5,7 @@ import React, { Key } from 'react';
 
 export function NavBigOptions(): any {
   return (
-    <ul className="ml-5 flex grid-flow-col flex-row flex-wrap gap-3 overflow-hidden">
+    <ul className="ml-5 flex grid-flow-col flex-row flex-wrap gap-7 overflow-hidden">
       {navbarLastCategory?.map((item) => (
         <li
           key={item.id}
@@ -67,7 +67,7 @@ export function NavBigOptions(): any {
   );
 }
 
-export const NavBigOptionsTab = ({setBrowseAllCategory}:React.SetStateAction<boolean|any>) => {
+export const NavBigOptionsTab = ({ setBrowseAllCategory }: React.SetStateAction<boolean | any>) => {
   const [naveOptionSwitch, setNaveOptionSwitch] = React.useState<any>(null);
 
   return (
@@ -77,7 +77,7 @@ export const NavBigOptionsTab = ({setBrowseAllCategory}:React.SetStateAction<boo
           <Link
             href={`/${!item.subMenu && item.slug}`}
             onClick={() => {
-              item.subMenu ? setNaveOptionSwitch(item.name):setBrowseAllCategory(false)
+              item.subMenu ? setNaveOptionSwitch(item.name) : setBrowseAllCategory(false)
             }}
             key={item.id}
             className=" flex cursor-pointer flex-row place-content-center items-center justify-start border-b border-gray-200 px-4 py-5"
@@ -99,68 +99,64 @@ export const NavBigOptionsTab = ({setBrowseAllCategory}:React.SetStateAction<boo
 
           {(naveOptionSwitch === item.name ||
             naveOptionSwitch ===
-              item?.subMenu?.map((subName: any) => item?.name)) && (
-            <>
-              <ul className=" absolute top-0 left-0  z-10 h-full w-full cursor-pointer bg-white">
-                <li
-                  onClick={() => setNaveOptionSwitch(null)}
-                  className="flex cursor-pointer flex-row place-content-center items-center justify-start border-b border-gray-200 px-4 py-5 font-head text-sm text-gray-400"
-                >
-                  <i className="fa-solid fa-chevron-left mr-4 flex justify-end text-xs text-gray-400 transition-transform  " />
-                  Back
-                </li>
+            item?.subMenu?.map((subName: any) => item?.name)) && (
+              <>
+                <ul className=" absolute top-0 left-0  z-10 h-full w-full cursor-pointer bg-white">
+                  <li
+                    onClick={() => setNaveOptionSwitch(null)}
+                    className="flex cursor-pointer flex-row place-content-center items-center justify-start border-b border-gray-200 px-4 py-5 font-head text-sm text-gray-400"
+                  >
+                    <i className="fa-solid fa-chevron-left mr-4 flex justify-end text-xs text-gray-400 transition-transform  " />
+                    Back
+                  </li>
 
-                {item?.subMenu?.map((subName: any) => {
-                  return (
-                    <>
-                      <li
-                        onClick={() => setNaveOptionSwitch(subName?.name)}
-                        key={subName?.id}
-                        className="flex cursor-pointer flex-row place-content-center items-center justify-start border-b border-gray-200 px-4 py-5"
-                      >
-                        <p className="relative w-full font-head text-gray-600 hover:text-emerald-500">
-                          {subName?.name}
-                        </p>
-                        {subName?.subMenu && (
-                          <i
-                            className={`fa-solid fa-chevron-right ml-2 text-xs text-gray-400 transition-transform`}
-                          />
-                        )}
-                      </li>
-                    </>
-                  );
-
-                  {
-                    naveOptionSwitch === subName?.name && (
-                      <ul className=" z-11 absolute top-0  left-0 h-full w-full cursor-pointer bg-white">
+                  {item?.subMenu?.map((subName: any) => {
+                    return (
+                      <>
                         <li
                           onClick={() => setNaveOptionSwitch(subName?.name)}
-                          className="flex cursor-pointer flex-row place-content-center items-center justify-start border-b border-gray-200 px-4 py-5 font-head text-sm text-gray-400"
+                          key={subName?.id}
+                          className="flex cursor-pointer flex-row place-content-center items-center justify-start border-b border-gray-200 px-4 py-5"
                         >
-                          <i className="fa-solid fa-chevron-left mr-4 flex justify-end text-xs text-gray-400 transition-transform  " />
-                          Back
+                          <p className="relative w-full font-head text-gray-600 hover:text-emerald-500">
+                            {subName?.name}
+                          </p>
+                          {subName?.subMenu && (
+                            <i
+                              className={`fa-solid fa-chevron-right ml-2 text-xs text-gray-400 transition-transform`}
+                            />
+                          )}
                         </li>
-                        {subName?.subMenu?.map(
-                          (item: { id: Key; name: string }) => (
-                            <li
-                              key={item.id}
-                              className="flex cursor-pointer flex-row place-content-center items-center justify-start border-b border-gray-200 px-4 py-5"
-                            >
-                              {item.name}
-                            </li>
-                          ),
-                        )}
-                      </ul>
+                      </>
                     );
-                  }
 
-                  {
-                    /*  */
-                  }
-                })}
-              </ul>
-            </>
-          )}
+                    {
+                      naveOptionSwitch === subName?.name && (
+                        <ul className=" z-11 absolute top-0  left-0 h-full w-full cursor-pointer bg-white">
+                          <li
+                            onClick={() => setNaveOptionSwitch(subName?.name)}
+                            className="flex cursor-pointer flex-row place-content-center items-center justify-start border-b border-gray-200 px-4 py-5 font-head text-sm text-gray-400"
+                          >
+                            <i className="fa-solid fa-chevron-left mr-4 flex justify-end text-xs text-gray-400 transition-transform  " />
+                            Back
+                          </li>
+                          {subName?.subMenu?.map(
+                            (item: { id: Key; name: string }) => (
+                              <li
+                                key={item.id}
+                                className="flex cursor-pointer flex-row place-content-center items-center justify-start border-b border-gray-200 px-4 py-5"
+                              >
+                                {item.name}
+                              </li>
+                            ),
+                          )}
+                        </ul>
+                      );
+                    }
+                  })}
+                </ul>
+              </>
+            )}
         </React.Fragment>
         //
       ))}

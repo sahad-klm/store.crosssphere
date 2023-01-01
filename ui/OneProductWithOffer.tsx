@@ -11,7 +11,7 @@ type Props = {
   id?: React.Key;
   name?: string | undefined | any;
   rating?: number | any;
-  tags?: string;
+  tags?: string | any;
   rate?: number | any;
   offer?: number | any;
   picture?: string | any;
@@ -61,14 +61,14 @@ function OneProductWithOffer({
     <div
       className={`group/body relative flex max-w-[290px] shrink-0 flex-col overflow-hidden rounded-[18px] border border-gray-300 bg-white hover:border-emerald-300 hover:shadow-xl ${classNameForTotal}`}
     >
-      {offer && (
+      {/* {offer && (
         <span className="absolute top-0 left-0 z-10  flex self-start rounded-br-[18px] bg-red-700 py-1 px-5 font-body text-sm text-white">
           {offer}%
         </span>
-      )}
+      )} */}
       <div
-        className={`relative flex h-[769px] w-full  items-center justify-center md:h-72 ${
-          tags === 'vegetable' || 'organic' ? 'bg-gray-100' : 'bg-white'
+        className={`relative flex  w-full  items-center justify-center h-[233px] ${
+          tags?.split(',').map((item: any) => item) === 'vegetable' ? 'bg-gray-100' : 'bg-white'
         } ${classNameForPic}`}
       >
         <Link href={`/${categorySlug}/${id}`}>
@@ -130,14 +130,14 @@ function OneProductWithOffer({
           addBtn ? 'justify-between' : 'justify-start'
         }`}
       >
-        <RateOfProduct offer={offer} rate={rate} />
+        {/* <RateOfProduct offer={offer} rate={rate} /> */}
         {addBtn && <ButtonAdd />}
-      </div>
       {addToCartBtn && (
-        <div className="mb-5 flex w-full justify-center">
+        // <div className="mb-5 flex w-full justify-center">
           <ButtonAddToCart />
-        </div>
+        // </div>
       )}
+      </div>
     </div>
   );
 }
@@ -176,7 +176,7 @@ const OneProductLeftPicRightDetail = ({
       {productsData?.map((item: Props, idx: number) => (
         <React.Fragment key={item.id}>
           {idx + 1 <= limitProduct() && (
-            <div className="fle-row flex w-full items-center justify-center gap-4 transition-all duration-300 hover:-translate-y-1">
+            <div className="fle-row flex w-full items-center justify-center gap-4 transition-all duration-300 hover:-translate-y-1 h-full">
               <div
                 className={` h-full flex-[40%] items-center justify-center overflow-hidden rounded-md p-2 md:p-[3%] ${
                   item.tags === 'vegetable' || 'organic'

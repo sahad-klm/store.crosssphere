@@ -1,4 +1,4 @@
-import { Cart, Fire, Icon, Love, Spinner, User } from './icon';
+import { Cart, Fire, Icon, Love, MilkAndDiraseIcon, Spinner, User } from './icon';
 import { v4 as uuid } from 'uuid';
 
 type Props = {
@@ -12,13 +12,13 @@ type Props = {
 };
 
 export const lastOneInNav: Props[] = [
-  {
-    id: 1,
-    icon: (
-      <Spinner className="scale-[.4] fill-gray-700 duration-300 hover:fill-emerald-500 group-hover/btn:fill-emerald-500 sm:scale-[.6]" />
-    ),
-    name: 'Compare',
-  },
+  // {
+  //   id: 1,
+  //   icon: (
+  //     <Spinner className="scale-[.4] fill-gray-700 duration-300 hover:fill-emerald-500 group-hover/btn:fill-emerald-500 sm:scale-[.6]" />
+  //   ),
+  //   name: 'Compare',
+  // },
   {
     id: 2,
     icon: (
@@ -33,13 +33,13 @@ export const lastOneInNav: Props[] = [
     ),
     name: 'Cart',
   },
-  {
-    id: 4,
-    icon: (
-      <User className="scale-[.6] fill-gray-700 duration-300 hover:fill-emerald-500 group-hover/btn:fill-emerald-500 sm:scale-[.6]" />
-    ),
-    name: 'Login',
-  },
+  // {
+  //   id: 4,
+  //   icon: (
+  //     <User className="scale-[.6] fill-gray-700 duration-300 hover:fill-emerald-500 group-hover/btn:fill-emerald-500 sm:scale-[.6]" />
+  //   ),
+  //   name: 'Login',
+  // },
 ];
 export const navbarLastCategory: {
   id: number;
@@ -48,274 +48,143 @@ export const navbarLastCategory: {
   slug?: string;
   subMenu?: any[];
 }[] = [
-  {
-    id: 1,
-    icon: <Fire className="-mr-2 scale-50  fill-emerald-500" />,
-    name: 'Deals',
-  },
-  {
-    id: 2,
-    icon: '',
-    name: 'Home',
-    subMenu: [
-      {
-        id: 1,
-        name: 'Home',
-      },
-      {
-        id: 2,
-        name: 'Home',
-      },
-      {
-        id: 3,
-        name: 'Home',
-      },
-      {
-        id: 4,
-        name: 'Home',
-      },
-      {
-        id: 5,
-        name: 'Home',
-      },
-      {
-        id: 6,
-        name: 'Home',
-      },
-    ],
-  },
-  {
-    id: 3,
-    icon: '',
-    name: 'About',
-    slug: 'about',
-  },
-  {
-    id: 4,
-    icon: '',
-    name: 'Shop',
-    subMenu: [
-      {
-        id: 1,
-        name: 'Home',
-      },
-      {
-        id: 2,
-        name: 'Shop Grid – Right Sidebar',
-      },
-      {
-        id: 3,
-        name: 'Shop Grid – Left Sidebar',
-      },
-      {
-        id: 4,
-        name: 'Shop List – Right Sidebar',
-      },
-      {
-        id: 5,
-        name: 'Shop List – Left Sidebar',
-      },
-      {
-        id: 6,
-        name: 'Shop - wide',
-      },
-      {
-        id: 7,
-        name: 'Shop - Filter',
-      },
-      {
-        id: 8,
-        name: 'Single Product',
-        subMenu: [
-          {
-            id: 1,
-            name: 'Product - Left Sidebar',
-          },
-          {
-            id: 2,
-            name: 'Product - No Sidebar',
-          },
-        ],
-      },
-    ],
-  },
-  {
-    id: 5,
-    icon: '',
-    name: 'Vender',
-  },
-  {
-    id: 6,
-    icon: '',
-    name: 'Mega menu',
-    subMenu: [
-      {
-        id: 1,
-        name: 'poowow',
-        sunMenu: [
-          {
-            id: 1,
-            name: 'kodidiod',
-          },
-          {
-            id: 2,
-            name: 'kodidiod',
-          },
-          {
-            id: 3,
-            name: 'kodidiod',
-          },
-          {
-            id: 4,
-            name: 'kodidiod',
-          },
-          {
-            id: 5,
-            name: 'kodidiod',
-          },
-        ],
-      },
-      {
-        id: 2,
-        name: 'psfdf',
-        sunMenu: [
-          {
-            id: 1,
-            name: 'kodidiod',
-          },
-          {
-            id: 2,
-            name: 'kodidiod',
-          },
-          {
-            id: 3,
-            name: 'kodidiod',
-          },
-          {
-            id: 4,
-            name: 'kodidiod',
-          },
-          {
-            id: 5,
-            name: 'kodidiod',
-          },
-        ],
-      },
-      {
-        id: 3,
-        name: 'pooxdfdfwow',
-        sunMenu: [
-          {
-            id: 1,
-            name: 'kodidiod',
-          },
-          {
-            id: 2,
-            name: 'kodidiod',
-          },
-          {
-            id: 3,
-            name: 'kodidiod',
-          },
-          {
-            id: 4,
-            name: 'kodidiod',
-          },
-          {
-            id: 5,
-            name: 'kodidiod',
-          },
-        ],
-      },
-      {
-        id: 4,
-        name: '',
-        image: 'ivide callia oru pic ind',
-      },
-    ],
-  },
-  {
-    id: 7,
-    icon: '',
-    name: 'Blog',
-    subMenu: [
-      {
-        id: 1,
-        name: 'Blog Category List',
-      },
-      {
-        id: 2,
-        name: 'Blog Category Big',
-      },
-      {
-        id: 3,
-        name: 'Blog Category Wide',
-      },
-      {
-        id: 4,
-        name: 'Single Post',
-        subMenu: [
-          {
-            id: 1,
-            name: 'Right Sidebar',
-          },
-          {
-            id: 2,
-            name: 'No Side bar',
-          },
-        ],
-      },
-    ],
-  },
-  {
-    id: 8,
-    icon: '',
-    name: 'Pages',
-    subMenu: [
-      {
-        id: 1,
-        name: 'Contact',
-      },
-      {
-        id: 2,
-        name: 'Login',
-      },
-      {
-        id: 3,
-        name: 'Register',
-      },
-      {
-        id: 4,
-        name: 'Forgot password',
-      },
-      {
-        id: 5,
-        name: '404 Page',
-      },
-    ],
-  },
-  {
-    id: 9,
-    icon: '',
-    name: 'Contact',
-    slug: 'contact',
-  },
-];
+    {
+      id: 1,
+      icon: <Fire className="-mr-2 scale-50  fill-emerald-500" />,
+      name: 'Deals',
+    },
+    {
+      id: 2,
+      icon: '',
+      name: 'Home',
+      slug: '/'
+    },
+
+    {
+      id: 3,
+      icon: '',
+      name: 'About',
+      slug: 'about',
+    },
+    {
+      id: 4,
+      icon: '',
+      name: 'Shop',
+      slug: '/collections/all'
+
+    },
+    {
+      id: 6,
+      icon: '',
+      name: 'Mega menu',
+      subMenu: [
+        {
+          id: 1,
+          name: 'poowow',
+          sunMenu: [
+            {
+              id: 1,
+              name: 'kodidiod',
+            },
+            {
+              id: 2,
+              name: 'kodidiod',
+            },
+            {
+              id: 3,
+              name: 'kodidiod',
+            },
+            {
+              id: 4,
+              name: 'kodidiod',
+            },
+            {
+              id: 5,
+              name: 'kodidiod',
+            },
+          ],
+        },
+        {
+          id: 2,
+          name: 'psfdf',
+          sunMenu: [
+            {
+              id: 1,
+              name: 'kodidiod',
+            },
+            {
+              id: 2,
+              name: 'kodidiod',
+            },
+            {
+              id: 3,
+              name: 'kodidiod',
+            },
+            {
+              id: 4,
+              name: 'kodidiod',
+            },
+            {
+              id: 5,
+              name: 'kodidiod',
+            },
+          ],
+        },
+        {
+          id: 3,
+          name: 'pooxdfdfwow',
+          sunMenu: [
+            {
+              id: 1,
+              name: 'kodidiod',
+            },
+            {
+              id: 2,
+              name: 'kodidiod',
+            },
+            {
+              id: 3,
+              name: 'kodidiod',
+            },
+            {
+              id: 4,
+              name: 'kodidiod',
+            },
+            {
+              id: 5,
+              name: 'kodidiod',
+            },
+          ],
+        },
+        {
+          id: 4,
+          name: '',
+          image: 'ivide callia oru pic ind',
+        },
+      ],
+    },
+    {
+      id: 9,
+      icon: '',
+      name: 'Contact',
+      slug: 'contact',
+    },
+  ];
 
 export const BrowseAllCategories: Props[] = [
   {
     id: 1,
-    icon: <Icon className="h-7" />,
-    name: 'Milks and Dairies',
-    picture: '/favicon.ico',
+    icon: <MilkAndDiraseIcon className='h-[30px] w-[30px]' />,
+    name: 'Vegetables',
+    picture: 'https://cdn.shopify.com/s/files/1/0652/4570/8532/collections/Picture1.png?v=1661419633&width=768',
     slug: 'milks-and-dairies',
-    bg: '#a7f3d0',
+    bg: '#6a8c697d',
     items: 12,
   },
   {
     id: 2,
     icon: <Icon className="h-7" />,
-    name: 'Milks and Dairies',
+    name: 'Spices Oil',
     picture: '/favicon.ico',
     slug: 'milks-and-dairies',
     bg: '#4f46e5',
@@ -452,7 +321,7 @@ export const fracturedMainProduct = [
     id: 1,
     title: 'Everyday Fresh & clean with our products',
     bg: 'yellow',
-    picture: 'https://i.scdn.co/image/ab67616d00001e02da7ce598b01adcb421e7bdce',
+    picture: 'https://cdn.shopify.com/s/files/1/0652/4570/8532/collections/Picture1.png?v=1661419633&width=768',
   },
   {
     id: 2,
@@ -503,15 +372,15 @@ export const popularProducts = [
     id: uuid(),
     name: 'Nasltlee orginal coffee-mate coffee creamer',
     rating: 4.0,
-    tags: 'black plum, organic, silopy kujjapu',
+    tags: 'black plum,silopy kujjapu,vegetable',
     rate: 10.4,
     offer: 7,
 
     categorySlug: 'milks-and-dairies',
     category: 'Milk & Daies',
-    picture: 'https://cdn.hswstatic.com/gif/koi.jpg',
+    picture: 'https://cdn.shopify.com/s/files/1/0652/4570/8532/collections/Picture1.png?v=1661419633&width=768',
     bacPicture:
-      'https://cdn.britannica.com/99/234299-050-9CDD78E1/Koi-fish-swimming-carp.jpg',
+      '',
     smallDetail:
       'Uninhibited carnally hired played in whimpered dear gorilla koala depending and much yikes off far quetzal goodness and from for grimaced goodness unaccountably and meadowlark near unblushingly crucial scallop tightly neurotic hungrily some and dear furiously this apart.',
     details: [

@@ -9,18 +9,18 @@ const FeathersCategory: React.FC = () => {
 
   return (
     <div className="mt-[50px] flex w-full flex-col items-center justify-center overflow-hidden px-4">
-      <div className="mb-7 flex w-full items-center justify-between">
+      <div className="mb-10 flex w-full items-center justify-between">
         <h4 className="font-head text-[28px] leading-7 text-gray-800 md:text-[32px]">
           Feathered Categories
         </h4>
         <span className="grid grid-flow-col gap-2">
           <i
             onClick={() => swiperRef.current?.slidePrev()}
-            className="lni lni-chevron-left grid h-7  w-7 place-content-center rounded-full bg-slate-200 p-2 text-sm transition hover:bg-slate-300"
+            className="lni lni-chevron-left grid h-10  w-10 place-content-center text-gray-800 hover:text-white font-bold rounded-full bg-slate-200 p-2 text-sm transition hover:bg-emerald-500 duration-300"
           />
           <i
             onClick={() => swiperRef.current?.slideNext()}
-            className="lni lni-chevron-right grid h-7  w-7 place-content-center rounded-full bg-slate-200 p-2 text-sm transition hover:bg-slate-300"
+            className="lni lni-chevron-right grid h-10  w-10 place-content-center text-gray-800 hover:text-white font-bold rounded-full bg-slate-200 p-2 text-sm transition hover:bg-emerald-500 duration-300"
           />
         </span>
       </div>

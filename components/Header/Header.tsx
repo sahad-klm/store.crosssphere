@@ -72,9 +72,9 @@ function Header(): any {
   return (
     <>
       <nav className="relative top-0 z-[1000] hidden w-full flex-col lg:flex ">
-        <div className="flex h-24 w-full items-center justify-start border-b-[1px] border-solid border-gray-700 border-opacity-20 bg-white py-4 sm:px-4">
+        <div className="flex h-[105px] w-full items-center justify-between border-b-[1px] border-solid border-gray-700 border-opacity-20 bg-white py-7 sm:px-4">
           <Link href="/" className="flex h-full items-center justify-center">
-            <Image width={176} height={100} loading='lazy'
+            <Image width={176} height={100} loading='lazy' alt=''
               src="/Untitled11-removebg-preview.png"
               className="h-full w-44 shrink-0 bg-red-300 object-contain"
             />
@@ -90,7 +90,7 @@ function Header(): any {
           <NavLAstInFeistBar />
         </div>
 
-        <div className="flex h-24 w-full items-center justify-start border-b-[1px] border-solid border-gray-700 border-opacity-20 bg-white py-4 px-4">
+        <div className="flex h-[105px] w-full items-center justify-start border-b-[1px] border-solid border-gray-700 border-opacity-20 bg-white py-7 px-4">
           <BrowseAllButton
             navHide={navHide}
             browseAllCategory={browseAllCategory}
@@ -102,10 +102,10 @@ function Header(): any {
           <div className="hidden h-full flex-1 items-center justify-end gap-3 xl:flex">
             <i className="fa-solid fa-headset text-3xl text-gray-800" />
             <div className="grid">
-              <h1 className="font-head text-h5 tracking-[3px] text-emerald-500">
+              <h1 className="font-head text-[26px] tracking-[3px] text-emerald-500 leading-6">
                 1900 - 3001
               </h1>
-              <p className="font-body text-sm font-light tracking-widest">
+              <p className="font-body text-sm  tracking-wider ">
                 24/7 Support center
               </p>
             </div>

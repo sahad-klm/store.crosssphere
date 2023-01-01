@@ -19,7 +19,7 @@ const Home = (data: {
       <>
         <div className="mt-52 flex h-full flex-col items-center justify-center">
           <Image width={1440} height={500} loading='lazy'
-            src="970b8f66-193e-4546-a78e-abb98b57aabb.webp"
+            src="/970b8f66-193e-4546-a78e-abb98b57aabb.webp"
             alt=""
             className="h-[500px] object-contain"
           />

@@ -24,7 +24,7 @@ const PopularProducts = (): any => {
 
   return (
     <div className="mt-[50px] flex w-full flex-col items-center justify-center overflow-hidden px-4">
-      <div className="mb-7 flex w-full items-center justify-between">
+      <div className="mb-10 flex w-full items-center justify-between">
         <h4 className="mr-4  font-head text-[28px] text-gray-800 md:text-[32px]">
           Popular Products
         </h4>
@@ -62,8 +62,7 @@ const PopularProducts = (): any => {
       </div>
 
       <div
-        className="flex w-full flex-row md:flex-wrap justify-start gap-3 overflow-x-scroll md:grid-cols-3 md:grid  md:overflow-visible lg:grid-cols-5 
-    "
+        className="flex w-full flex-row md:flex-wrap justify-start gap-5 overflow-x-scroll md:grid-cols-3 md:grid  md:overflow-visible lg:grid-cols-5"
       >
         {popularProducts?.map((item: Props) => (
           <OneProductWithOffer
@@ -72,8 +71,8 @@ const PopularProducts = (): any => {
             key={item.id}
             {...item}
             buttonStyle="add"
-            classNameForTotal="w-[220px] h-[410px] mx-auto"
-            classNameForPic="p-4  "
+            classNameForTotal="w-full md:h-auto h-min mx-auto "
+            classNameForPic="p-2"
           />
         ))}
       </div>

@@ -19,6 +19,7 @@ const nextConfig = {
       'www.wallpaperuse.com',
       'cdn.britannica.com',
       "mailtrap.io",
+      'cdn.shopify.com'
     ],
   },
   typescript: {

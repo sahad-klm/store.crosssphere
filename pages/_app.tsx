@@ -94,7 +94,7 @@ const Site = ({ Component, pageProps, router }: any): JSX.Element => {
         <Layout>
           <Component key={pageID} {...pageProps} />
         </Layout>
-      </AnimatePresence>
+       </AnimatePresence>
     </LazyMotion>
   );
 };
