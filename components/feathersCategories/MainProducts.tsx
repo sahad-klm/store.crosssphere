@@ -5,7 +5,7 @@ import Image from "next/image";
 
 const MainProducts: React.FC | any = () => {
   return (
-    <div className="sm:grid w-full mx-4 mt-[44px]  gap-5 lg:grid-cols-3 flex flex-col sm:grid-cols-2 justify-between h-[246px]">
+    <div className="sm:grid flex w-full mx-4 mt-[44px]  gap-5 lg:grid-cols-3 flex-col sm:grid-cols-2 justify-between min-h-[246px] h-full">
       {fracturedMainProduct?.map((item ) => (
         <motion.div
         whileInView='show'
