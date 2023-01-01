@@ -62,7 +62,7 @@ const PopularProducts = (): any => {
       </div>
 
       <div
-        className="flex w-full flex-row md:flex-wrap justify-start gap-5 overflow-x-scroll md:grid-cols-3 md:grid  md:overflow-visible lg:grid-cols-5 
+        className="flex w-full flex-row md:flex-wrap justify-start gap-3 overflow-x-scroll md:grid-cols-3 md:grid  md:overflow-visible lg:grid-cols-5 
     "
       >
         {popularProducts?.map((item: Props) => (

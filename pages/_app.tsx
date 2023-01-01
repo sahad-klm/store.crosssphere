@@ -147,7 +147,7 @@ function MyApp({ Component, pageProps, router }: AppProps) {
   return (
     <>
       <Head>
-        <title>Next.js</title>
+        <title>Sahad ka bussness</title>
       </Head>
 
       <SiteContextProvider data={{ ...data }}>

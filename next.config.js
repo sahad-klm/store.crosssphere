@@ -17,6 +17,8 @@ const nextConfig = {
       'www.investopedia.com',
       'i.pinimg.com',
       'www.wallpaperuse.com',
+      'cdn.britannica.com',
+      "mailtrap.io",
     ],
   },
   typescript: {
