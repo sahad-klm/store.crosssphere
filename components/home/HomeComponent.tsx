@@ -36,8 +36,7 @@ const HomeComponent = (): any => {
               <div className="relative z-auto grid h-full content-center overflow-hidden rounded-3xl p-10 md:pl-20">
                 <Image width={1440} height={1000} loading='lazy'
                   className="absolute top-0 left-0 -z-10 h-full w-full object-cover"
-                  // src={item.picture}
-                  src={'https://cdn.shopify.com/s/files/1/0652/4570/8532/files/slider-1-2.jpg?v=1659427625&width=2100'}
+                  src={item.picture}
                   alt="wallpaper"
                 />
                 <motion.h1
@@ -72,7 +71,7 @@ const HomeComponent = (): any => {
                     className="h-full font-body text-sm tracking-wide text-gray-700 outline-none"
                   />
                   <button className="absolute -right-1 h-full rounded-full bg-emerald-500 px-5 font-body text-sm tracking-wider text-white outline-none transition hover:bg-emerald-600 sm:px-10">
-                    Subscribekkkkkkkkkk
+                    Subscribe
                   </button>
                 </motion.form>
               </div>

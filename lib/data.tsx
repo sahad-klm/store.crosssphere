@@ -174,47 +174,47 @@ export const navbarLastCategory: {
 export const BrowseAllCategories: Props[] = [
   {
     id: 1,
-    icon: <MilkAndDiraseIcon className='h-[30px] w-[30px]' />,
-    name: 'Vegetables',
-    picture: 'https://cdn.shopify.com/s/files/1/0652/4570/8532/collections/Picture1.png?v=1661419633&width=768',
+    icon: <Icon className="h-7" />,
+    name: 'Fruits',
+    picture: '/featured/fruits.png',
     slug: 'milks-and-dairies',
-    bg: '#6a8c697d',
+    bg: '#f2fce4',
     items: 12,
   },
   {
     id: 2,
-    icon: <Icon className="h-7" />,
-    name: 'Spices Oil',
-    picture: '/favicon.ico',
+    icon: <Icon className="h-[30px] w-[30px]" />,
+    name: 'Vegetables',
+    picture: '/featured/vegetables.png',
     slug: 'milks-and-dairies',
-    bg: '#4f46e5',
+    bg: '#fffceb',
     items: 13,
   },
   {
     id: 3,
     icon: <Icon className="h-7" />,
-    name: 'Milks and Dairies',
-    picture: '/favicon.ico',
+    name: 'Spices',
+    picture: '/featured/spices.png',
     slug: 'milks-and-dairies',
-    bg: '#a7f3d0',
+    bg: '#ecffec',
     items: 15,
   },
   {
     id: 4,
     icon: <Icon className="h-7" />,
-    name: 'Milks and Dairies',
-    picture: '/favicon.ico',
+    name: 'Fishes',
+    picture: '/featured/fishes.png',
     slug: 'milks-and-dairies',
-    bg: '#a7f3d0',
+    bg: '#feefea',
     items: 17,
   },
   {
     id: 5,
     icon: <Icon className="h-7" />,
-    name: 'Milks and Dairies',
-    picture: '/favicon.ico',
+    name: 'Oils',
+    picture: '/featured/oils.png',
     slug: 'milks-and-dairies',
-    bg: '#4f46e5',
+    bg: '#fff3eb',
     items: 11,
   },
   {
@@ -223,7 +223,7 @@ export const BrowseAllCategories: Props[] = [
     name: 'Milks and Dairies',
     picture: '/favicon.ico',
     slug: 'milks-and-dairies',
-    bg: '#a7f3d0',
+    bg: '#fff3ff',
     items: 16,
   },
   {
@@ -232,7 +232,7 @@ export const BrowseAllCategories: Props[] = [
     name: 'Milks and Dairies',
     picture: '/favicon.ico',
     slug: 'milks-and-dairies',
-    bg: '#4f46e5',
+    bg: '#f2fce4',
     items: 17,
   },
   {
@@ -241,7 +241,7 @@ export const BrowseAllCategories: Props[] = [
     name: 'Milks and Dairies',
     picture: '/favicon.ico',
     slug: 'milks-and-dairies',
-    bg: '#a7f3d0',
+    bg: '#feefea',
     items: 18,
   },
   {
@@ -250,7 +250,7 @@ export const BrowseAllCategories: Props[] = [
     name: 'Milks and Dairies',
     picture: '/favicon.ico',
     slug: 'milks-and-dairies',
-    bg: '#818cf8',
+    bg: '#fffceb',
     items: 11,
   },
   {
@@ -259,7 +259,7 @@ export const BrowseAllCategories: Props[] = [
     name: 'Milks and Dairies',
     picture: '/favicon.ico',
     slug: 'milks-and-dairies',
-    bg: '#a7f3d0',
+    bg: '#feefea',
     items: 188,
   },
   {
@@ -268,7 +268,7 @@ export const BrowseAllCategories: Props[] = [
     name: 'Milks and Dairies',
     picture: '/favicon.ico',
     slug: 'milks-and-dairies',
-    bg: '#818cf8',
+    bg: '#f2fce4',
     items: 13,
   },
   {
@@ -277,7 +277,7 @@ export const BrowseAllCategories: Props[] = [
     name: 'Milks and Dairies',
     picture: '/favicon.ico',
     slug: 'milks-and-dairies',
-    bg: '#a7f3d0',
+    bg: '#fff3eb',
     items: 12,
   },
   {
@@ -286,7 +286,7 @@ export const BrowseAllCategories: Props[] = [
     name: 'Milks and Dairies',
     picture: '/favicon.ico',
     slug: 'milks-and-dairies',
-    bg: '#a7f3d0',
+    bg: '#ecffec',
     items: 16,
   },
   {
@@ -295,7 +295,7 @@ export const BrowseAllCategories: Props[] = [
     name: 'Milks and Dairies',
     picture: '/favicon.ico',
     slug: 'milks-and-dairies',
-    bg: '#818cf8',
+    bg: '#ecffec',
     items: 18,
   },
 ];
@@ -303,15 +303,14 @@ export const BrowseAllCategories: Props[] = [
 export const homeComponentBig = [
   {
     id: 1,
-    picture:
-      'https://i.pinimg.com/originals/70/83/fe/7083fece988b641d8d427ca4f9947059.jpg',
+    picture: '/slider-1-1.webp',
     title: "Don't miss amazing grossly deals",
     subtitle: 'Sign up for daily newsletter',
   },
   {
     id: 2,
-    picture: 'https://www.wallpaperuse.com/wallp/63-634911_m.jpg',
-    title: 'ivde onnul setta valla apnim',
+    picture: '/slider-1-2.webp',
+    title: "Don't miss amazing grossly deals",
     subtitle: 'Sign up for become a fool',
   },
 ];
@@ -321,19 +320,19 @@ export const fracturedMainProduct = [
     id: 1,
     title: 'Everyday Fresh & clean with our products',
     bg: 'yellow',
-    picture: 'https://cdn.shopify.com/s/files/1/0652/4570/8532/collections/Picture1.png?v=1661419633&width=768',
+    picture: '/featured3/cardamomoil1.png',
   },
   {
     id: 2,
     title: 'Everyday Fresh & clean with our products',
     bg: 'green',
-    picture: 'https://i.scdn.co/image/ab67616d00001e02da7ce598b01adcb421e7bdce',
+    picture: '/featured3/mango1.png',
   },
   {
     id: 3,
     title: 'Everyday Fresh & clean with our products',
     bg: 'blue',
-    picture: 'https://i.scdn.co/image/ab67616d00001e02da7ce598b01adcb421e7bdce',
+    picture: '/featured3/coconut1.png',
   },
 ];
 
