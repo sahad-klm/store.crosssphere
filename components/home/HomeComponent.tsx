@@ -34,7 +34,7 @@ const HomeComponent = (): any => {
               style={{ width: '100%', height: '100%' }}
             >
               <div className="relative z-auto grid h-full content-center overflow-hidden rounded-3xl p-10 md:pl-20">
-                <Image width={1440} height={1000} loading='lazy'
+                <Image width={1440} height={1000} loading='lazy' blurDataURL={item.picture}
                   className="absolute top-0 left-0 -z-10 h-full w-full object-cover"
                   src={item.picture}
                   alt="wallpaper"

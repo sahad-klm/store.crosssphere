@@ -45,7 +45,7 @@ const ProductsInOneLine = ({ swiperRef, slidesPerView }: any): JSX.Element => {
               <Link href={`/collections/${item.slug}`}>
 
               <Image width={1440} height={100} loading='lazy'
-                src={item.picture}
+                src={item.picture} 
                 alt=""
                 className="mb-2 h-[100px] w-[100%]  object-contain transition-all duration-700 hover:scale-110 lg:w-20"
                 />
