@@ -190,7 +190,7 @@ const ContactForm = () => {
         className="hidden h-[50%] w-[30%] overflow-hidden rounded-xl lg:flex"
       >
         <Image width={700} height={500} loading='lazy'
-          src="/contacts/call.jpg"
+          src="/contacts/phone.jpg"
           alt=""
           className="h-full w-full object-cover "
         />

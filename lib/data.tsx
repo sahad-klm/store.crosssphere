@@ -1125,7 +1125,7 @@ export const aboutCompany = [
           "sion Exports has a rich history of raising the bar in the spices,vegetables and fruits industry.the focus has always been on export of live & fresh spices.our company has been expanding rapidly with mission to exceed industry standards by offering an extensive product line, focusing on product innovation and quality control.We stand by our mission to deliver quality products.Merchants from around the world were taking the arduous sea route just to lay their hands on this Queen of products. Realising the global demand for what grew liberally around his kingdom ",
       },
     ],
-    picture: 'about.jpg',
+    picture: 'map1.webp',
   },
 ];
 
