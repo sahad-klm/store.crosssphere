@@ -220,8 +220,8 @@ export const BrowseAllCategories: Props[] = [
   {
     id: 6,
     icon: <Icon className="h-7" />,
-    name: 'Milks and Dairies',
-    picture: '/favicon.ico',
+    name: 'Leaves',
+    picture: '/featured/leafvegetable.png',
     slug: 'milks-and-dairies',
     bg: '#fff3ff',
     items: 16,
@@ -229,8 +229,8 @@ export const BrowseAllCategories: Props[] = [
   {
     id: 7,
     icon: <Icon className="h-7" />,
-    name: 'Milks and Dairies',
-    picture: '/favicon.ico',
+    name: 'Tea',
+    picture: '/featured/tea.png',
     slug: 'milks-and-dairies',
     bg: '#f2fce4',
     items: 17,
@@ -238,8 +238,8 @@ export const BrowseAllCategories: Props[] = [
   {
     id: 8,
     icon: <Icon className="h-7" />,
-    name: 'Milks and Dairies',
-    picture: '/favicon.ico',
+    name: 'Powder',
+    picture: '/featured/currypowder.png',
     slug: 'milks-and-dairies',
     bg: '#feefea',
     items: 18,
@@ -247,8 +247,8 @@ export const BrowseAllCategories: Props[] = [
   {
     id: 9,
     icon: <Icon className="h-7" />,
-    name: 'Milks and Dairies',
-    picture: '/favicon.ico',
+    name: 'Egg',
+    picture: '/featured/eggs.png',
     slug: 'milks-and-dairies',
     bg: '#fffceb',
     items: 11,
@@ -256,47 +256,11 @@ export const BrowseAllCategories: Props[] = [
   {
     id: 10,
     icon: <Icon className="h-7" />,
-    name: 'Milks and Dairies',
-    picture: '/favicon.ico',
+    name: 'Flowers',
+    picture: '/featured/flowers.png',
     slug: 'milks-and-dairies',
     bg: '#feefea',
     items: 188,
-  },
-  {
-    id: 11,
-    icon: <Icon className="h-7" />,
-    name: 'Milks and Dairies',
-    picture: '/favicon.ico',
-    slug: 'milks-and-dairies',
-    bg: '#f2fce4',
-    items: 13,
-  },
-  {
-    id: 12,
-    icon: <Icon className="h-7" />,
-    name: 'Milks and Dairies',
-    picture: '/favicon.ico',
-    slug: 'milks-and-dairies',
-    bg: '#fff3eb',
-    items: 12,
-  },
-  {
-    id: 13,
-    icon: <Icon className="h-7" />,
-    name: 'Milks and Dairies',
-    picture: '/favicon.ico',
-    slug: 'milks-and-dairies',
-    bg: '#ecffec',
-    items: 16,
-  },
-  {
-    id: 14,
-    icon: <Icon className="h-7" />,
-    name: 'Milks and Dairies',
-    picture: '/favicon.ico',
-    slug: 'milks-and-dairies',
-    bg: '#ecffec',
-    items: 18,
   },
 ];
 
@@ -1148,17 +1112,17 @@ export const footerSocialMedia = [
 export const aboutCompany = [
   {
     id: 1,
-    title: 'Welcome to Logistic Shad',
+    title: 'About us',
     subtitle: [
       {
         id: 1,
         paragraph:
-          "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).",
+          "We have done exceptional things in the past. Today, we are doing exceptional things for the future.",
       },
       {
         id: 2,
         paragraph:
-          "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomized words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on.",
+          "sion Exports has a rich history of raising the bar in the spices,vegetables and fruits industry.the focus has always been on export of live & fresh spices.our company has been expanding rapidly with mission to exceed industry standards by offering an extensive product line, focusing on product innovation and quality control.We stand by our mission to deliver quality products.Merchants from around the world were taking the arduous sea route just to lay their hands on this Queen of products. Realising the global demand for what grew liberally around his kingdom ",
       },
     ],
     picture: 'about.jpg',
