@@ -174,37 +174,37 @@ export const navbarLastCategory: {
 export const BrowseAllCategories: Props[] = [
   {
     id: 1,
-    icon: <Icon className="h-7" />,
-    name: 'Fruits',
-    picture: '/featured/fruits.png',
-    slug: 'milks-and-dairies',
-    bg: '#f2fce4',
-    items: 12,
-  },
-  {
-    id: 2,
     icon: <Icon className="h-[30px] w-[30px]" />,
     name: 'Vegetables',
     picture: '/featured/vegetables.png',
-    slug: 'milks-and-dairies',
+    slug: 'vegetables',
     bg: '#fffceb',
     items: 13,
   },
   {
-    id: 3,
+    id: 2,
     icon: <Icon className="h-7" />,
     name: 'Spices',
     picture: '/featured/spices.png',
-    slug: 'milks-and-dairies',
+    slug: 'spices',
     bg: '#ecffec',
     items: 15,
+  },
+  {
+    id: 3,
+    icon: <Icon className="h-7" />,
+    name: 'Fruits',
+    picture: '/featured/fruits.png',
+    slug: 'fruits',
+    bg: '#f2fce4',
+    items: 12,
   },
   {
     id: 4,
     icon: <Icon className="h-7" />,
     name: 'Fishes',
     picture: '/featured/fishes.png',
-    slug: 'milks-and-dairies',
+    slug: 'fishes',
     bg: '#feefea',
     items: 17,
   },
@@ -213,7 +213,7 @@ export const BrowseAllCategories: Props[] = [
     icon: <Icon className="h-7" />,
     name: 'Oils',
     picture: '/featured/oils.png',
-    slug: 'milks-and-dairies',
+    slug: 'oils',
     bg: '#fff3eb',
     items: 11,
   },
@@ -222,7 +222,7 @@ export const BrowseAllCategories: Props[] = [
     icon: <Icon className="h-7" />,
     name: 'Tea',
     picture: '/featured/tea.png',
-    slug: 'milks-and-dairies',
+    slug: 'tea',
     bg: '#f2fce4',
     items: 17,
   },
@@ -231,7 +231,7 @@ export const BrowseAllCategories: Props[] = [
     icon: <Icon className="h-7" />,
     name: 'Leaves',
     picture: '/featured/leafvegetable.png',
-    slug: 'milks-and-dairies',
+    slug: 'leaves',
     bg: '#fff3ff',
     items: 16,
   },
@@ -240,7 +240,7 @@ export const BrowseAllCategories: Props[] = [
     icon: <Icon className="h-7" />,
     name: 'Egg',
     picture: '/featured/eggs.png',
-    slug: 'milks-and-dairies',
+    slug: 'egg',
     bg: '#fffceb',
     items: 11,
   },
@@ -249,7 +249,7 @@ export const BrowseAllCategories: Props[] = [
     icon: <Icon className="h-7" />,
     name: 'Powder',
     picture: '/featured/currypowder.png',
-    slug: 'milks-and-dairies',
+    slug: 'powder',
     bg: '#feefea',
     items: 18,
   },
@@ -258,9 +258,9 @@ export const BrowseAllCategories: Props[] = [
     icon: <Icon className="h-7" />,
     name: 'Flowers',
     picture: '/featured/flowers.png',
-    slug: 'milks-and-dairies',
+    slug: 'flowers',
     bg: '#feefea',
-    items: 188,
+    items: 17,
   },
 ];
 
@@ -341,7 +341,7 @@ export const popularProducts = [
 
     categorySlug: 'milks-and-dairies',
     category: 'Milk & Daies',
-    picture: 'https://cdn.shopify.com/s/files/1/0652/4570/8532/collections/Picture1.png?v=1661419633&width=768',
+    picture: '/veg/drycoconut.png',
     bacPicture:
       '',
     smallDetail:
@@ -417,9 +417,9 @@ export const popularProducts = [
     offer: 7,
     categorySlug: 'milks-and-dairies',
     category: 'Milk & Daies',
-    picture: 'https://cdn.hswstatic.com/gif/koi.jpg',
+    picture: '/spices/cardamom.png',
     bacPicture:
-      'https://cdn.britannica.com/99/234299-050-9CDD78E1/Koi-fish-swimming-carp.jpg',
+      '',
     smallDetail:
       'Uninhibited carnally hired played in whimpered dear gorilla koala depending and much yikes off far quetzal goodness and from for grimaced goodness unaccountably and meadowlark near unblushingly crucial scallop tightly neurotic hungrily some and dear furiously this apart.',
     details: [
@@ -493,9 +493,9 @@ export const popularProducts = [
     offer: 7,
     categorySlug: 'milks-and-dairies',
     category: 'Milk & Daies',
-    picture: 'https://cdn.hswstatic.com/gif/koi.jpg',
+    picture: '/fruits/plantain.png',
     bacPicture:
-      'https://cdn.britannica.com/99/234299-050-9CDD78E1/Koi-fish-swimming-carp.jpg',
+      '',
     smallDetail:
       'Uninhibited carnally hired played in whimpered dear gorilla koala depending and much yikes off far quetzal goodness and from for grimaced goodness unaccountably and meadowlark near unblushingly crucial scallop tightly neurotic hungrily some and dear furiously this apart.',
     details: [
@@ -569,9 +569,9 @@ export const popularProducts = [
     offer: 7,
     categorySlug: 'milks-and-dairies',
     category: 'Milk & Daies',
-    picture: 'https://cdn.hswstatic.com/gif/koi.jpg',
+    picture: '/spices/ginger.png',
     bacPicture:
-      'https://cdn.britannica.com/99/234299-050-9CDD78E1/Koi-fish-swimming-carp.jpg',
+      '',
     smallDetail:
       'Uninhibited carnally hired played in whimpered dear gorilla koala depending and much yikes off far quetzal goodness and from for grimaced goodness unaccountably and meadowlark near unblushingly crucial scallop tightly neurotic hungrily some and dear furiously this apart.',
     details: [
@@ -643,9 +643,9 @@ export const popularProducts = [
     tags: 'black plum, organic, silopy kujjapu',
     rate: 10.4,
     offer: 7,
-    picture: 'https://cdn.hswstatic.com/gif/koi.jpg',
+    picture: '/spices/taramind.png',
     bacPicture:
-      'https://cdn.britannica.com/99/234299-050-9CDD78E1/Koi-fish-swimming-carp.jpg',
+      '',
     smallDetail:
       'Uninhibited carnally hired played in whimpered dear gorilla koala depending and much yikes off far quetzal goodness and from for grimaced goodness unaccountably and meadowlark near unblushingly crucial scallop tightly neurotic hungrily some and dear furiously this apart.',
     details: [
@@ -717,9 +717,9 @@ export const popularProducts = [
     tags: 'black plum, organic, silopy kujjapu',
     rate: 10.4,
     offer: 7,
-    picture: 'https://cdn.hswstatic.com/gif/koi.jpg',
+    picture: '/veg/onion.png',
     bacPicture:
-      'https://cdn.britannica.com/99/234299-050-9CDD78E1/Koi-fish-swimming-carp.jpg',
+      '',
     smallDetail:
       'Uninhibited carnally hired played in whimpered dear gorilla koala depending and much yikes off far quetzal goodness and from for grimaced goodness unaccountably and meadowlark near unblushingly crucial scallop tightly neurotic hungrily some and dear furiously this apart.',
     details: [
@@ -1177,9 +1177,9 @@ export const ourPerformance = [
   {
     id: 1,
     title: 'Your Partner for e-commerce grocery solution',
-    smallPicture: 'Untitssssled.webp',
+    smallPicture: 'map1.webp',
     head: 'Our Performance',
-    bigPicture: 'Unxtitled.webp',
+    bigPicture: 'map1.webp',
     subtitle: [
       {
         id: 1,
@@ -1217,7 +1217,7 @@ export const ourThings = [
     totalInAll: [
       {
         id: 6,
-        bg: 'https://s.itl.cat/pngfile/s/5-56036_64-dual-monitor-wallpapers-dual-monitor-wallpaper-hd.jpg',
+        bg: '/vegba2.jpg',
       },
       {
         id: 1,
@@ -1266,9 +1266,9 @@ export const ourThings = [
         persons: [
           {
             id: 1,
-            name: 'Shad logastic',
-            picture: 'Unxtitled.webp',
-            post: 'OSSY & Copyadi',
+            name: 'Sahad',
+            picture: 'profile.svg',
+            post: 'Founder',
             socialMedia: [
               {
                 id: 1,
@@ -1294,9 +1294,9 @@ export const ourThings = [
           },
           {
             id: 2,
-            name: 'logastic Shad',
-            picture: 'Untiztled.webp',
-            post: 'UDDYIP & tihilrahitan',
+            name: 'Ameen Coder',
+            picture: 'profile.svg',
+            post: 'prof.coder',
             socialMedia: [
               {
                 id: 1,

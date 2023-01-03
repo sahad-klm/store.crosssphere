@@ -77,13 +77,13 @@ const DailyBestSeller = (): any => {
       <div className="flex w-full flex-col justify-start gap-5 md:flex-row md:gap-6">
         <div className="relative z-[1] flex h-[70vh] w-full min-w-[40%] flex-grow-0 flex-col  items-start gap-12 overflow-hidden rounded-[18px] p-12 md:h-auto md:min-w-[300px] md:justify-evenly">
           <Image height={100}
-            src="/bananaleaf1.jpg"
+            src="/banana1.jpeg"
             alt=""
             loading='lazy'
             width={200}
             className=" absolute inset-0 -z-10 h-full w-full object-cover bg-[#7e7e7e]"
           />
-          <h1 className="font-head text-[38px] leading-9 text-gray-300 md:text-h2 md:leading-10">
+          <h1 className="font-head text-[38px] leading-9 text-gray-900 md:text-h2 md:leading-10">
             Bring <br className="hidden md:block" /> Nature Banana Leaves
           </h1>
           <ButtonShopNow paddingAndStyle="px-3 py-2" value="Shop Now" />

@@ -23,7 +23,7 @@ const TotalCountsOfDetails = () => {
                 src={total.bg!}
                 alt="bg"
                 loading='lazy'
-                className="absolute -z-10 h-full w-full object-cover opacity-80"
+                className="absolute -z-10 h-full w-full object-cover"
               />
               {total.title && (
                 <motion.div

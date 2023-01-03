@@ -179,7 +179,7 @@ function Header(): any {
           >
             <div className="bg-tabNav relative flex items-center justify-center bg-gray-100 p-5 pt-20">
               <h1 className="font-head text-h3 text-slate-100">
-                Loganstic shad
+                Exports
               </h1>
               <i
                 onClick={() => setBrowseAllCategory(false)}

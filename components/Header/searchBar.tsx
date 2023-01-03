@@ -33,25 +33,25 @@ const SearchBar = ({
               onClick={handleClickSearchOption}
               className={classNameOfListInSearch}
             >
-              Body & Toddler
+              Vegetables
             </li>
             <li
               onClick={handleClickSearchOption}
               className={classNameOfListInSearch}
             >
-              Crawam
+              Spices
             </li>
             <li
               onClick={handleClickSearchOption}
               className={classNameOfListInSearch}
             >
-              polppod
+              Fruits
             </li>
             <li
               onClick={handleClickSearchOption}
               className={classNameOfListInSearch}
             >
-              jjdfsdfs
+              Leaves
             </li>
           </ul>
         </div>
