@@ -28,7 +28,7 @@ const Top = ({ pathName }: any): JSX.Element => (
     </h1>
     <h4 className="mt-2 font-body text-[16px] leading-9 text-gray-500 md:text-[18px]">
       Start you'r daily shopping with{' '}
-      <span className="text-emerald-500">logistic shad's shop</span>
+      <span className="text-emerald-500">Exports</span>
     </h4>
     <form className="relative mt-10 flex h-16 flex-row  items-center overflow-hidden rounded-full bg-white sm:max-w-[500px]">
       <PaperPlaneIcon className="ml-1 mr-2 h-4 fill-gray-500 md:ml-6 md:mr-4" />
