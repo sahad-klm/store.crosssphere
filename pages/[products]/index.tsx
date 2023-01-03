@@ -26,7 +26,7 @@ const Home = (data: {
           <h1
             style={{ fontSize: '40px', color: 'red', fontFamily: 'monospace' }}
           >
-            ipo sari aaki taraa 0ru <b className="text-green-600">4 sec</b> seen
+            Petten sheriyaakkanam mister <b className="text-green-600">4 sec</b> seen
             ind piine va
           </h1>
         </div>
