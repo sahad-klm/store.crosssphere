@@ -1,4 +1,4 @@
-import { Cart, Fire, Icon, Love, MilkAndDiraseIcon, Spinner, User } from './icon';
+import { Cart, Fire, FruitIcon, Fruits, FruitsIcon, Icon, LeafIcon, Love, MilkAndDiraseIcon, OilIcon, OilsIcon, OtherIcon, PriceIcon, SpicesIcon, Spinner, User, VegetableIcon } from './icon';
 import { v4 as uuid } from 'uuid';
 
 type Props = {
@@ -174,7 +174,7 @@ export const navbarLastCategory: {
 export const BrowseAllCategories: Props[] = [
   {
     id: 1,
-    icon: <Icon className="h-[30px] w-[30px]" />,
+    icon: <VegetableIcon className="h-[30px] w-[30px]" />,
     name: 'Vegetables',
     picture: '/featured/vegetables.png',
     slug: 'vegetables',
@@ -183,7 +183,7 @@ export const BrowseAllCategories: Props[] = [
   },
   {
     id: 2,
-    icon: <Icon className="h-7" />,
+    icon: <SpicesIcon className="h-[30px] w-[30px]" />,
     name: 'Spices',
     picture: '/featured/spices.png',
     slug: 'spices',
@@ -192,7 +192,7 @@ export const BrowseAllCategories: Props[] = [
   },
   {
     id: 3,
-    icon: <Icon className="h-7" />,
+    icon: <FruitIcon className="h-[30px] w-[30px]" />,
     name: 'Fruits',
     picture: '/featured/fruits.png',
     slug: 'fruits',
@@ -201,34 +201,17 @@ export const BrowseAllCategories: Props[] = [
   },
   {
     id: 4,
-    icon: <Icon className="h-7" />,
-    name: 'Fishes',
-    picture: '/featured/fishes.png',
-    slug: 'fishes',
-    bg: '#feefea',
-    items: 17,
-  },
-  {
-    id: 5,
-    icon: <Icon className="h-7" />,
+    icon: <OilIcon className="h-[30px] w-[30px]" />,
     name: 'Oils',
     picture: '/featured/oils.png',
     slug: 'oils',
     bg: '#fff3eb',
     items: 11,
   },
+
   {
-    id: 6,
-    icon: <Icon className="h-7" />,
-    name: 'Tea',
-    picture: '/featured/tea.png',
-    slug: 'tea',
-    bg: '#f2fce4',
-    items: 17,
-  },
-  {
-    id: 7,
-    icon: <Icon className="h-7" />,
+    id: 5,
+    icon: <LeafIcon className="h-[30px] w-[30px]" />,
     name: 'Leaves',
     picture: '/featured/leafvegetable.png',
     slug: 'leaves',
@@ -236,17 +219,8 @@ export const BrowseAllCategories: Props[] = [
     items: 16,
   },
   {
-    id: 8,
-    icon: <Icon className="h-7" />,
-    name: 'Egg',
-    picture: '/featured/eggs.png',
-    slug: 'egg',
-    bg: '#fffceb',
-    items: 11,
-  },
-  {
-    id: 9,
-    icon: <Icon className="h-7" />,
+    id: 6,
+    icon: <OtherIcon className="h-[30px] w-[30px]" />,
     name: 'Powder',
     picture: '/featured/currypowder.png',
     slug: 'powder',
@@ -254,11 +228,29 @@ export const BrowseAllCategories: Props[] = [
     items: 18,
   },
   {
-    id: 10,
-    icon: <Icon className="h-7" />,
+    id: 7,
+    icon: <OtherIcon className="h-[30px] w-[30px]" />,
+    name: 'Others',
+    picture: '/featured/eggs.png',
+    slug: 'others',
+    bg: '#fffceb',
+    items: 11,
+  },
+  {
+    id: 8,
+    icon: <OtherIcon className="h-[30px] w-[30px]" />,
     name: 'Flowers',
     picture: '/featured/flowers.png',
     slug: 'flowers',
+    bg: '#feefea',
+    items: 17,
+  },
+  {
+    id: 9,
+    icon: <OtherIcon className="h-[30px] w-[30px]" />,
+    name: 'Fishes',
+    picture: '/featured/fishes.png',
+    slug: 'fishes',
     bg: '#feefea',
     items: 17,
   },
@@ -307,27 +299,23 @@ export const popularProductCategory = [
   },
   {
     id: 2,
-    name: 'Milk & Daies',
+    name: 'Vegetables',
   },
   {
     id: 3,
-    name: 'Alvvsd',
+    name: 'Spices',
   },
   {
     id: 4,
-    name: 'Allafasf',
+    name: 'fruits',
   },
   {
     id: 5,
-    name: 'Allaf',
+    name: 'Leaves',
   },
   {
     id: 6,
-    name: 'Aasdll',
-  },
-  {
-    id: 7,
-    name: 'Alsffl',
+    name: 'Others',
   },
 ];
 export const popularProducts = [
@@ -341,7 +329,7 @@ export const popularProducts = [
 
     categorySlug: 'milks-and-dairies',
     category: 'Milk & Daies',
-    picture: '/veg/drycoconut.png',
+    picture: '/others/drycoconut.png',
     bacPicture:
       '',
     smallDetail:
@@ -837,25 +825,25 @@ export const footerAddress = [
   {
     id: 1,
     title: 'Address',
-    subtitle: 'Pathirikode Elnkur(po) majeri(vy) malppuram kerala india',
+    subtitle: 'Kolkalam, Chengottur po, Malappuram, Kerala, India, 676503',
     icon: 'fas fa-map-marker-alt',
   },
   {
     id: 2,
     title: 'Call Us',
-    subtitle: '+91 000-000-00',
+    subtitle: '+91 7034405123',
     icon: 'fas fa-phone',
   },
   {
     id: 3,
     title: 'Email',
-    subtitle: 'sales@gmile.com',
+    subtitle: 'msahad736@gmail.com',
     icon: 'fas fa-envelope',
   },
   {
     id: 4,
     title: 'Hours',
-    subtitle: '10:00 - 18:00, Mon - Sat',
+    subtitle: '24*7',
     icon: 'far fa-clock',
   },
 ];
@@ -1135,7 +1123,7 @@ export const what_We_Provide = [
     title: 'Best Prices & Offers',
     subtitle:
       'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form',
-    icon: 'favicon.ico',
+    icon: <PriceIcon />,
   },
   {
     id: 2,
@@ -1160,7 +1148,7 @@ export const what_We_Provide = [
   },
   {
     id: 5,
-    title: '100% x 531% Satisfaction',
+    title: '100% Satisfaction',
     subtitle:
       'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form',
     icon: 'favicon.ico',
@@ -1177,7 +1165,7 @@ export const ourPerformance = [
   {
     id: 1,
     title: 'Your Partner for e-commerce grocery solution',
-    smallPicture: 'map1.webp',
+    smallPicture: 'banana1.jpeg',
     head: 'Our Performance',
     bigPicture: 'map1.webp',
     subtitle: [
@@ -1378,25 +1366,25 @@ export const contact = [
         id: 1,
         title: 'Office',
         address:
-          'pathirikode , Elenkur PO, PIN : 676122, malppuram, kerala, India',
-        phone: '+91 97494 8393',
-        email: 'koiori@jmil.kom',
+          'Kolkalam,Chengottur Po, Malappuram, Kerala, India 676503',
+        phone: '+91 70344 05123',
+        email: 'msahad736@gmail.com',
       },
       {
         id: 2,
         title: 'Studio',
         address:
-          'pathirikode , Elenkur PO, PIN : 676122, malppuram, kerala, India',
-        phone: '+91 97494 8393',
-        email: 'koiori@jmil.kom',
+          'Kolkalam,Chengottur Po, Malappuram, Kerala, India 676503',
+        phone: '+91 70344 05123',
+        email: 'sahadklm759@gmail.com',
       },
       {
         id: 3,
         title: 'Shop',
         address:
-          'pathirikode , Elenkur PO, PIN : 676122, malppuram, kerala, India',
-        phone: '+91 97494 8393',
-        email: 'koiori@jmil.kom',
+          'Kolkalam,Chengottur Po, Malappuram, Kerala, India 676503',
+        phone: '+91 70344 05123',
+        email: 'msahad736@gmail.com',
       },
     ],
   },
