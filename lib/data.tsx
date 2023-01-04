@@ -231,7 +231,7 @@ export const BrowseAllCategories: Props[] = [
     id: 7,
     icon: <OtherIcon className="h-[30px] w-[30px]" />,
     name: 'Others',
-    picture: '/featured/eggs.png',
+    picture: '/featured/other.png',
     slug: 'others',
     bg: '#fffceb',
     items: 11,
@@ -1165,7 +1165,7 @@ export const ourPerformance = [
   {
     id: 1,
     title: 'Your Partner for e-commerce grocery solution',
-    smallPicture: 'banana1.jpeg',
+    smallPicture: 'bananaleaf1.jpeg',
     head: 'Our Performance',
     bigPicture: 'map1.webp',
     subtitle: [
