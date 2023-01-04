@@ -2,7 +2,7 @@ import React, { useRef, useEffect, useState } from 'react';
 import mapboxgl from 'mapbox-gl'; // eslint-disable-line import/no-webpack-loader-syntax
 import { AnimatePresence, motion } from 'framer-motion';
 import { fadeAnim } from '@/lib/motion';
-mapboxgl.accessToken = process.env.NEXT_PUBLIC_MAPBOXGL_ACCESS_TOKEN!;
+mapboxgl.accessToken = "pk.eyJ1IjoiZG9kb2luZyIsImEiOiJjbGJ3NzJhNnoxemk4M25xbmRlZnJtMDJqIn0.a26BTo_cU6_i6fa8blWJJA";
 
 export default function LocationMap() {
   const mapContainer = useRef<any>(null);
