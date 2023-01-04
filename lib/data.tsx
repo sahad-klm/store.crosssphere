@@ -1,4 +1,4 @@
-import { Cart, Fire, Icon, Love, MilkAndDiraseIcon, Spinner, User } from './icon';
+import { Cart, Fire, FruitIcon, Fruits, FruitsIcon, Icon, LeafIcon, Love, MilkAndDiraseIcon, OilIcon, OilsIcon, OtherIcon, PriceIcon, SpicesIcon, Spinner, User, VegetableIcon } from './icon';
 import { v4 as uuid } from 'uuid';
 
 type Props = {
@@ -174,7 +174,7 @@ export const navbarLastCategory: {
 export const BrowseAllCategories: Props[] = [
   {
     id: 1,
-    icon: <Icon className="h-[30px] w-[30px]" />,
+    icon: <VegetableIcon className="h-[30px] w-[30px]" />,
     name: 'Vegetables',
     picture: '/featured/vegetables.png',
     slug: 'vegetables',
@@ -183,7 +183,7 @@ export const BrowseAllCategories: Props[] = [
   },
   {
     id: 2,
-    icon: <Icon className="h-7" />,
+    icon: <SpicesIcon className="h-[30px] w-[30px]" />,
     name: 'Spices',
     picture: '/featured/spices.png',
     slug: 'spices',
@@ -192,7 +192,7 @@ export const BrowseAllCategories: Props[] = [
   },
   {
     id: 3,
-    icon: <Icon className="h-7" />,
+    icon: <FruitIcon className="h-[30px] w-[30px]" />,
     name: 'Fruits',
     picture: '/featured/fruits.png',
     slug: 'fruits',
@@ -201,7 +201,7 @@ export const BrowseAllCategories: Props[] = [
   },
   {
     id: 4,
-    icon: <Icon className="h-7" />,
+    icon: <OilIcon className="h-[30px] w-[30px]" />,
     name: 'Oils',
     picture: '/featured/oils.png',
     slug: 'oils',
@@ -211,7 +211,7 @@ export const BrowseAllCategories: Props[] = [
 
   {
     id: 5,
-    icon: <Icon className="h-7" />,
+    icon: <LeafIcon className="h-[30px] w-[30px]" />,
     name: 'Leaves',
     picture: '/featured/leafvegetable.png',
     slug: 'leaves',
@@ -220,7 +220,7 @@ export const BrowseAllCategories: Props[] = [
   },
   {
     id: 6,
-    icon: <Icon className="h-7" />,
+    icon: <OtherIcon className="h-[30px] w-[30px]" />,
     name: 'Powder',
     picture: '/featured/currypowder.png',
     slug: 'powder',
@@ -229,7 +229,7 @@ export const BrowseAllCategories: Props[] = [
   },
   {
     id: 7,
-    icon: <Icon className="h-7" />,
+    icon: <OtherIcon className="h-[30px] w-[30px]" />,
     name: 'Others',
     picture: '/featured/eggs.png',
     slug: 'others',
@@ -238,16 +238,7 @@ export const BrowseAllCategories: Props[] = [
   },
   {
     id: 8,
-    icon: <Icon className="h-7" />,
-    name: 'Tea',
-    picture: '/featured/tea.png',
-    slug: 'tea',
-    bg: '#f2fce4',
-    items: 17,
-  },
-  {
-    id: 9,
-    icon: <Icon className="h-7" />,
+    icon: <OtherIcon className="h-[30px] w-[30px]" />,
     name: 'Flowers',
     picture: '/featured/flowers.png',
     slug: 'flowers',
@@ -255,8 +246,8 @@ export const BrowseAllCategories: Props[] = [
     items: 17,
   },
   {
-    id: 10,
-    icon: <Icon className="h-7" />,
+    id: 9,
+    icon: <OtherIcon className="h-[30px] w-[30px]" />,
     name: 'Fishes',
     picture: '/featured/fishes.png',
     slug: 'fishes',
@@ -1132,7 +1123,7 @@ export const what_We_Provide = [
     title: 'Best Prices & Offers',
     subtitle:
       'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form',
-    icon: 'favicon.ico',
+    icon: <PriceIcon />,
   },
   {
     id: 2,
