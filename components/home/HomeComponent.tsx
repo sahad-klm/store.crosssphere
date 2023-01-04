@@ -14,7 +14,7 @@ import Image from 'next/image';
 
 const HomeComponent = (): any => {
   return (
-    <div className="h-ofHome relative z-10 flex items-center justify-center overflow-hidden px-4 md:h-[590px]  md:pt-7">
+  <div className="h-ofHome relative z-10 flex items-center justify-center overflow-hidden px-4 md:h-[590px]  md:pt-7">
       <Swiper
         modules={[Navigation, Pagination, Scrollbar, Autoplay]}
         slidesPerView={1}
