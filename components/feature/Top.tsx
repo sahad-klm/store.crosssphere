@@ -6,10 +6,10 @@ const Top = ({ pathName }: any): JSX.Element => (
     <Image
       width={1440}
       height={1000}
-      src="	https://cdn.shopify.com/s/files/1/0652/4570/8532/files/banner-10.png?v=1659433764&width=1584"
+      src= '/banner.webp'
       loading="lazy"
       alt=""
-      className="absolute top-0 right-0 -z-50 h-full w-full object-cover opacity-40"
+      className="absolute top-0 right-0 -z-50 h-full w-full object-cover "
     />
     <Image
       width={1440}

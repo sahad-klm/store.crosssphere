@@ -1,4 +1,4 @@
-import { Cart, Fire, FruitIcon, Fruits, FruitsIcon, Icon, LeafIcon, Love, MilkAndDiraseIcon, OilIcon, OilsIcon, OtherIcon, PriceIcon, SpicesIcon, Spinner, User, VegetableIcon } from './icon';
+import { Cart, ConnectIcon, DealIcon, DeliveryIcon, Fire, FruitIcon, Fruits, FruitsIcon, Icon, LeafIcon, Love, MilkAndDiraseIcon, OfferIcon, OilIcon, OilsIcon, OtherIcon, PriceIcon, SatisfactionIcon, SpicesIcon, Spinner, User, VegetableIcon, WideIcon } from './icon';
 import { v4 as uuid } from 'uuid';
 
 type Props = {
@@ -231,7 +231,7 @@ export const BrowseAllCategories: Props[] = [
     id: 7,
     icon: <OtherIcon className="h-[30px] w-[30px]" />,
     name: 'Others',
-    picture: '/featured/eggs.png',
+    picture: '/featured/other.png',
     slug: 'others',
     bg: '#fffceb',
     items: 11,
@@ -1123,49 +1123,49 @@ export const what_We_Provide = [
     title: 'Best Prices & Offers',
     subtitle:
       'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form',
-    icon: <PriceIcon />,
+    icon: <OfferIcon />,
   },
   {
     id: 2,
     title: 'Wide Assortment',
     subtitle:
       'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form',
-    icon: 'favicon.ico',
+    icon: <WideIcon />,
   },
   {
     id: 3,
     title: 'Free Delivery',
     subtitle:
       'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form',
-    icon: 'favicon.ico',
+    icon: <DeliveryIcon /> ,
   },
   {
     id: 4,
     title: 'Easy Returns',
     subtitle:
       'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form',
-    icon: 'favicon.ico',
+    icon: <ConnectIcon /> ,
   },
   {
     id: 5,
     title: '100% Satisfaction',
     subtitle:
       'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form',
-    icon: 'favicon.ico',
+    icon: <SatisfactionIcon /> ,
   },
   {
     id: 6,
     title: 'Great Daily Deal',
     subtitle:
       'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form',
-    icon: 'favicon.ico',
+    icon: <DealIcon /> ,
   },
 ];
 export const ourPerformance = [
   {
     id: 1,
     title: 'Your Partner for e-commerce grocery solution',
-    smallPicture: 'banana1.jpeg',
+    smallPicture: 'bananaleaf1.jpeg',
     head: 'Our Performance',
     bigPicture: 'map1.webp',
     subtitle: [
