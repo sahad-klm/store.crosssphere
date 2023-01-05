@@ -1122,42 +1122,42 @@ export const what_We_Provide = [
     id: 1,
     title: 'Best Prices & Offers',
     subtitle:
-      'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form',
+      'We provide the best price for you. We negotiate with merchants and find the lowest possible price. We always give you the best price!',
     icon: <OfferIcon />,
   },
   {
     id: 2,
     title: 'Wide Assortment',
     subtitle:
-      'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form',
+      'We have a wide assortment of products that can be found on our website, and in a few clicks you will find what you are looking for.',
     icon: <WideIcon />,
   },
   {
     id: 3,
     title: 'Free Delivery',
     subtitle:
-      'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form',
+      'We provide excellent service at an unbeatable price - we can provide air or sea shipment, and the best part is that you do not need to do anything! Just tell us what you want shipped, we will take care of everything else.',
     icon: <DeliveryIcon /> ,
   },
   {
     id: 4,
     title: 'Easy Returns',
     subtitle:
-      'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form',
+      'Packing your product for shipping can be tedious and leave you with a lot of wasted cardboard. We provide a good packing service. We offer various types of packing such as poly bag, carton box and pallet.',
     icon: <ConnectIcon /> ,
   },
   {
     id: 5,
     title: '100% Satisfaction',
     subtitle:
-      'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form',
+      'We are a customer-oriented company that guarantees 100% satisfaction with all of our products ',
     icon: <SatisfactionIcon /> ,
   },
   {
     id: 6,
     title: 'Great Daily Deal',
     subtitle:
-      'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form',
+      'We have a lot of great deals available right now.',
     icon: <DealIcon /> ,
   },
 ];
