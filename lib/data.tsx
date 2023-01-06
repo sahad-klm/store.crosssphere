@@ -1122,42 +1122,42 @@ export const what_We_Provide = [
     id: 1,
     title: 'Best Prices & Offers',
     subtitle:
-      'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form',
+      'We provide the best price for you. We negotiate with merchants and find the lowest possible price. We always give you the best price!',
     icon: <OfferIcon />,
   },
   {
     id: 2,
     title: 'Wide Assortment',
     subtitle:
-      'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form',
+      'We have a wide assortment of products that can be found on our website, and in a few clicks you will find what you are looking for.',
     icon: <WideIcon />,
   },
   {
     id: 3,
-    title: 'Free Delivery',
+    title: 'Air & Sea Shipping',
     subtitle:
-      'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form',
+      'we can provide air or sea shipment, and the best part is that you do not need to do anything! Just tell us what you want shipped, we will take care of everything else.',
     icon: <DeliveryIcon /> ,
   },
   {
     id: 4,
-    title: 'Easy Returns',
+    title: 'Packing',
     subtitle:
-      'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form',
+      'We provide a good packing service. We offer various types of packing such as poly bag, carton box, thermocol, pallet and thermal packages.',
     icon: <ConnectIcon /> ,
   },
   {
     id: 5,
     title: '100% Satisfaction',
     subtitle:
-      'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form',
+      'We offer customer satisfaction with a personal touch. We find out what the customer needs and then connect them to the best product at the best price.',
     icon: <SatisfactionIcon /> ,
   },
   {
     id: 6,
     title: 'Great Daily Deal',
     subtitle:
-      'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form',
+      'We offer a service that ensures that every product sale is authentic and high quality.inspect every product and verified the quality before on export.',
     icon: <DealIcon /> ,
   },
 ];
@@ -1171,11 +1171,11 @@ export const ourPerformance = [
     subtitle: [
       {
         id: 1,
-        text: 'Ed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto',
+        text: 'We offer a full range of export services to our clients, including FCL consolidation, container loading, and door-to-door delivery. We are a company that will provide you with a high level of service and goods at the best prices. We have an international team of experts who work closely with our clients to ensure their satisfaction',
       },
       {
         id: 2,
-        text: 'Ed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto',
+        text: 'We are leading exporters of organic spices, vegetables, and other edible items. With operations in continent, we operate with a high level of flexibility to suit customer requirements. Our company is dedicated to sourcing only the finest quality products and delivering them to our customers in a timely manner',
       },
     ],
   },
@@ -1198,7 +1198,7 @@ export const ourThings = [
     id: 3,
     title: 'Our mission',
     subtitle:
-      'Volutpat diam ut venenatis tellus in metus. Nec dui nunc mattis enim ut tellus eros donec ac odio orci ultrices in. ellus eros donec ac odio orci ultrices in.',
+      'We make your business more profitable. We haveve done the work to find the best products for your customers and negotiate with suppliers for the best prices. We have done everything to help you focus on what you do best',
   },
   {
     id: 4,
@@ -1244,19 +1244,19 @@ export const ourThings = [
         text: [
           {
             id: 1,
-            text: 'Proin ullamcorper pretium orci. Donec necscele risque leo. Nam massa dolor imperdiet neccon sequata congue idsem. Maecenas malesuada faucibus finibus.',
+            text: `We are a team of export specialists with years of experience in the industry.`,
           },
           {
             id: 2,
-            text: 'Proin ullamcorper pretium orci. Donec necscele risque leo. Nam massa dolor imperdiet neccon sequata congue idsem. Maecenas malesuada faucibus finibus.',
+            text: 'We are here to help you find the best overseas markets and suppliers for your product. We take care of all the logistics and paperwork, so you can focus on what matters most: getting your product to market.',
           },
         ],
         persons: [
           {
             id: 1,
-            name: 'Sahad',
+            name: 'Ameen',
             picture: 'profile.svg',
-            post: 'Founder',
+            post: 'Manager',
             socialMedia: [
               {
                 id: 1,
@@ -1282,9 +1282,9 @@ export const ourThings = [
           },
           {
             id: 2,
-            name: 'Ameen Coder',
+            name: 'Masroor',
             picture: 'profile.svg',
-            post: 'prof.coder',
+            post: 'C.A',
             socialMedia: [
               {
                 id: 1,
@@ -1322,11 +1322,11 @@ export const contact = [
     text: [
       {
         id: 1,
-        text: 'Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College',
+        text: 'We offer a range of services and solutions to suit the needs of any business.',
       },
       {
         id: 2,
-        text: 'words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus ',
+        text: 'We can help you with all the export formalities. We specialize in export of high-end goods. Our team of agents are experienced in customs clearance and documentation. Contact us now to find out more!',
       },
     ],
   },
@@ -1337,25 +1337,25 @@ export const contact = [
         id: 1,
         order: '01',
         title: 'Visit Feedback',
-        text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.',
+        text: 'We receive feedback from our customers.We want to be able to maintain a high customer rating, provide a consistent experience for each visitor, and work on improvements.',
       },
       {
         id: 2,
         order: '02',
         title: 'Employer Services',
-        text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.',
+        text: 'We take care of every aspect of finding, interviewing, and hiring the best talent for your company.Our mission is to ensure a safe, ethical, and enjoyable workplace for everyone.',
       },
       {
         id: 3,
         order: '03',
         title: 'Billing Inquiries',
-        text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.',
+        text: 'Our Billing Inquiries service is a one-stop shop for all of your import and export needs,offering extensive knowledge and experience in all aspects of the trade.',
       },
       {
         id: 4,
         order: '04',
         title: 'General Inquiries',
-        text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.',
+        text: `We provide a general inquiries for goods that's as easy as texting through WhatsApp and E-mail!Just text the name of product.`,
       },
     ],
   },
