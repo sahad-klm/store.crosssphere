@@ -1244,11 +1244,11 @@ export const ourThings = [
         text: [
           {
             id: 1,
-            text: `Connect to the world's best export company in 3 easy steps!.`,
+            text: `We are a team of export specialists with years of experience in the industry.`,
           },
           {
             id: 2,
-            text: 'We are a team of export specialists with more than 10 years of experience in the industry. We are here to help you find the best overseas markets and suppliers for your product. We take care of all the logistics and paperwork, so you can focus on what matters most: getting your product to market.',
+            text: 'We are here to help you find the best overseas markets and suppliers for your product. We take care of all the logistics and paperwork, so you can focus on what matters most: getting your product to market.',
           },
         ],
         persons: [
@@ -1322,11 +1322,11 @@ export const contact = [
     text: [
       {
         id: 1,
-        text: 'Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College',
+        text: 'We offer a range of services and solutions to suit the needs of any business.',
       },
       {
         id: 2,
-        text: 'words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus ',
+        text: 'We can help you with all the export formalities. We specialize in export of high-end goods. Our team of agents are experienced in customs clearance and documentation. Contact us now to find out more!',
       },
     ],
   },
@@ -1337,25 +1337,25 @@ export const contact = [
         id: 1,
         order: '01',
         title: 'Visit Feedback',
-        text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.',
+        text: 'We receive feedback from our customers.We want to be able to maintain a high customer rating, provide a consistent experience for each visitor, and work on improvements.',
       },
       {
         id: 2,
         order: '02',
         title: 'Employer Services',
-        text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.',
+        text: 'We take care of every aspect of finding, interviewing, and hiring the best talent for your company.Our mission is to ensure a safe, ethical, and enjoyable workplace for everyone.',
       },
       {
         id: 3,
         order: '03',
         title: 'Billing Inquiries',
-        text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.',
+        text: 'Our Billing Inquiries service is a one-stop shop for all of your import and export needs,offering extensive knowledge and experience in all aspects of the trade.',
       },
       {
         id: 4,
         order: '04',
         title: 'General Inquiries',
-        text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.',
+        text: `We provide a general inquiries for goods that's as easy as texting through WhatsApp and E-mail!Just text the name of product.`,
       },
     ],
   },
