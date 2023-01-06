@@ -1134,30 +1134,30 @@ export const what_We_Provide = [
   },
   {
     id: 3,
-    title: 'Free Delivery',
+    title: 'Air & Sea Shipping',
     subtitle:
-      'We provide excellent service at an unbeatable price - we can provide air or sea shipment, and the best part is that you do not need to do anything! Just tell us what you want shipped, we will take care of everything else.',
+      'we can provide air or sea shipment, and the best part is that you do not need to do anything! Just tell us what you want shipped, we will take care of everything else.',
     icon: <DeliveryIcon /> ,
   },
   {
     id: 4,
-    title: 'Easy Returns',
+    title: 'Packing',
     subtitle:
-      'Packing your product for shipping can be tedious and leave you with a lot of wasted cardboard. We provide a good packing service. We offer various types of packing such as poly bag, carton box and pallet.',
+      'We provide a good packing service. We offer various types of packing such as poly bag, carton box, thermocol, pallet and thermal packages.',
     icon: <ConnectIcon /> ,
   },
   {
     id: 5,
     title: '100% Satisfaction',
     subtitle:
-      'We are a customer-oriented company that guarantees 100% satisfaction with all of our products ',
+      'We offer customer satisfaction with a personal touch. We find out what the customer needs and then connect them to the best product at the best price.',
     icon: <SatisfactionIcon /> ,
   },
   {
     id: 6,
     title: 'Great Daily Deal',
     subtitle:
-      'We have a lot of great deals available right now.',
+      'We offer a service that ensures that every product sale is authentic and high quality.inspect every product and verified the quality before on export.',
     icon: <DealIcon /> ,
   },
 ];
@@ -1171,11 +1171,11 @@ export const ourPerformance = [
     subtitle: [
       {
         id: 1,
-        text: 'Ed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto',
+        text: 'We offer a full range of export services to our clients, including FCL consolidation, container loading, and door-to-door delivery. We are a company that will provide you with a high level of service and goods at the best prices. We have an international team of experts who work closely with our clients to ensure their satisfaction',
       },
       {
         id: 2,
-        text: 'Ed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto',
+        text: 'We are leading exporters of organic spices, vegetables, and other edible items. With operations in continent, we operate with a high level of flexibility to suit customer requirements. Our company is dedicated to sourcing only the finest quality products and delivering them to our customers in a timely manner',
       },
     ],
   },
@@ -1198,7 +1198,7 @@ export const ourThings = [
     id: 3,
     title: 'Our mission',
     subtitle:
-      'Volutpat diam ut venenatis tellus in metus. Nec dui nunc mattis enim ut tellus eros donec ac odio orci ultrices in. ellus eros donec ac odio orci ultrices in.',
+      'We make your business more profitable. We haveve done the work to find the best products for your customers and negotiate with suppliers for the best prices. We have done everything to help you focus on what you do best',
   },
   {
     id: 4,
@@ -1244,19 +1244,19 @@ export const ourThings = [
         text: [
           {
             id: 1,
-            text: 'Proin ullamcorper pretium orci. Donec necscele risque leo. Nam massa dolor imperdiet neccon sequata congue idsem. Maecenas malesuada faucibus finibus.',
+            text: `Connect to the world's best export company in 3 easy steps!.`,
           },
           {
             id: 2,
-            text: 'Proin ullamcorper pretium orci. Donec necscele risque leo. Nam massa dolor imperdiet neccon sequata congue idsem. Maecenas malesuada faucibus finibus.',
+            text: 'We are a team of export specialists with more than 10 years of experience in the industry. We are here to help you find the best overseas markets and suppliers for your product. We take care of all the logistics and paperwork, so you can focus on what matters most: getting your product to market.',
           },
         ],
         persons: [
           {
             id: 1,
-            name: 'Sahad',
+            name: 'Ameen',
             picture: 'profile.svg',
-            post: 'Founder',
+            post: 'Manager',
             socialMedia: [
               {
                 id: 1,
@@ -1282,9 +1282,9 @@ export const ourThings = [
           },
           {
             id: 2,
-            name: 'Ameen Coder',
+            name: 'Masroor',
             picture: 'profile.svg',
-            post: 'prof.coder',
+            post: 'C.A',
             socialMedia: [
               {
                 id: 1,
