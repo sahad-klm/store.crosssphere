@@ -75,7 +75,7 @@ function Header(): any {
         <div className="flex h-[105px] w-full items-center justify-between border-b-[1px] border-solid border-gray-700 border-opacity-20 bg-white py-7 sm:px-4">
           <Link href="/" className="flex h-full items-center justify-center">
             <Image width={176} height={100} loading='lazy' alt=''
-              src="/Untitled11-removebg-preview.png"
+              src="/phoneb.png"
               className="h-full w-44 shrink-0 bg-red-300 object-contain"
             />
           </Link>
