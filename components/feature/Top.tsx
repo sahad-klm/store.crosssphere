@@ -16,8 +16,8 @@ const Top = ({ pathName }: any): JSX.Element => (
       height={1000}
       src={`${
         pathName === ('/about' || '/contact')
-          ? '/phoneb.png'
-          : '	https://cdn.shopify.com/s/files/1/0652/4570/8532/files/banner-9.png?v=1659435716&width=900'
+          ? '/banner-9.webp'
+          : '/banner-9.webp'
       } `}
       alt=""
       loading="lazy"

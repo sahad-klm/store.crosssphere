@@ -223,7 +223,7 @@ export const BrowseAllCategories: Props[] = [
     id: 6,
     icon: <OtherIcon className="h-[30px] w-[30px]" />,
     name: 'Powder',
-    picture: '/featured/currypowder.png',
+    picture: '/featured/powder.png',
     slug: 'powder',
     bg: '#feefea',
     items: 18,
