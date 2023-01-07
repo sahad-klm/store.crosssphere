@@ -39,35 +39,35 @@ function Header(): any {
   const classNameOfListInSearch =
     'h-14 shrink-0 flex items-center text-gray-700 w-full font-head text-base  duration-300 hover:text-emerald-500';
 
-  React.useEffect(() => {
-    if (typeof window !== undefined) {
-      window.addEventListener('scroll', () => {
-        const currentScrollPos = window.pageYOffset;
-        if (currentScrollPos > 200) {
-          setNavHide(true);
-        } else return setNavHide(false);
-      });
-    }
-  }, []);
+  // React.useEffect(() => {
+  //   if (typeof window !== undefined) {
+  //     window.addEventListener('scroll', () => {
+  //       const currentScrollPos = window.pageYOffset;
+  //       if (currentScrollPos > 200) {
+  //         setNavHide(true);
+  //       } else return setNavHide(false);
+  //     });
+  //   }
+  // }, []);
 
-  React.useEffect(() => {
-    const scrollFunction = () => {
-      let maxScroll = document.body.scrollHeight - window.innerHeight;
+  // React.useEffect(() => {
+  //   const scrollFunction = () => {
+  //     let maxScroll = document.body.scrollHeight - window.innerHeight;
 
-      const currentScrollPos = window.pageYOffset;
+  //     const currentScrollPos = window.pageYOffset;
 
-      setTimeout(() => {
-        let currentPotions = window.pageYOffset;
+  //     setTimeout(() => {
+  //       let currentPotions = window.pageYOffset;
 
-        if (currentPotions === currentScrollPos && currentScrollPos < maxScroll)
-          return setBottomHide(true);
-        else setBottomHide(false);
-      }, 150);
-    };
-    if (typeof window !== undefined) {
-      window.addEventListener('scroll', () => scrollFunction());
-    }
-  }, []);
+  //       if (currentPotions === currentScrollPos && currentScrollPos < maxScroll)
+  //         return setBottomHide(true);
+  //       else setBottomHide(false);
+  //     }, 150);
+  //   };
+  //   if (typeof window !== undefined) {
+  //     window.addEventListener('scroll', () => scrollFunction());
+  //   }
+  // }, []);
 
   return (
     <>
@@ -103,7 +103,7 @@ function Header(): any {
             <i className="fa-solid fa-headset text-3xl text-gray-800" />
             <div className="grid">
               <h1 className="font-head text-[26px] tracking-[3px] text-emerald-500 leading-6">
-                1900 - 3001
+                7034-405-123
               </h1>
               <p className="font-body text-sm  tracking-wider ">
                 24/7 Support center
@@ -147,7 +147,7 @@ function Header(): any {
           />
           <Link href="/" className="flex h-full items-center justify-center">
             <Image width={176} height={1000} alt='' loading='lazy'
-              src="/favicon.ico"
+              src="/map1.webp"
               className=" h-full w-44 shrink-0 cursor-pointer bg-red-300 object-contain"
             />
           </Link>
