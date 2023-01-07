@@ -33,14 +33,14 @@ const index = (data: {
       <>
         <div className="mt-52 flex h-full flex-col items-center justify-center">
           <Image width={1440} height={500} loading='lazy'
-            src="/970b8f66-193e-4546-a78e-abb98b57aabb.webp"
+            src="/404.png"
             alt=""
             className="h-[500px] object-contain"
           />
           <h1
             style={{ fontSize: '40px', color: 'red', fontFamily: 'monospace' }}
           >
-            ibide endo seen ind piine va
+            onn sheriyaakki tharo, demand kaattalli
           </h1>
           
         </div>
