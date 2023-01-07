@@ -1,5 +1,6 @@
 import { Cart, ConnectIcon, DealIcon, DeliveryIcon, Fire, FruitIcon, Fruits, FruitsIcon, Icon, LeafIcon, Love, MilkAndDiraseIcon, OfferIcon, OilIcon, OilsIcon, OtherIcon, PriceIcon, SatisfactionIcon, SpicesIcon, Spinner, User, VegetableIcon, WideIcon } from './icon';
 import { v4 as uuid } from 'uuid';
+import classNames from 'classnames';
 
 type Props = {
   id: React.Key;
@@ -777,7 +778,7 @@ export const popularProducts = [
 export const dailyBestSellerCategory = [
   {
     id: 1,
-    name: 'Feathered',
+    name: 'Featured',
   },
   {
     id: 2,

@@ -47,7 +47,7 @@ const ProductsInOneLine = ({ swiperRef, slidesPerView }: any): JSX.Element => {
               <Image width={1440} height={100} loading='lazy'
                 src={item.picture}
                 alt=""
-                className="mb-2 h-[100px] w-[90%]  object-contain transition-all duration-700 hover:scale-105 lg:w-20"
+                className="mb-2 h-[100px] w-[100%]  object-contain transition-all duration-700 hover:scale-110 lg:w-20"
                 />
                 </Link>
               <div className="flex flex-col items-center justify-center">
