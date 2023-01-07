@@ -27,7 +27,7 @@ const index = (data: {
           <h1
             style={{ fontSize: '40px', color: 'red', fontFamily: 'monospace' }}
           >
-            pettenn sheriyyakk 
+            pettenn sheriyyakk ,demand kaattalli
           </h1>
         </div>
       </>
