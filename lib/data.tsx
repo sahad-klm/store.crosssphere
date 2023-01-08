@@ -1,6 +1,5 @@
-import { Cart, ConnectIcon, DealIcon, DeliveryIcon, Fire, FruitIcon, Fruits, FruitsIcon, Icon, LeafIcon, Love, MilkAndDiraseIcon, OfferIcon, OilIcon, OilsIcon, OtherIcon, PriceIcon, SatisfactionIcon, SpicesIcon, Spinner, User, VegetableIcon, WideIcon } from './icon';
+import { Cart, ConnectIcon, DealIcon, DeliveryIcon, Fire, FruitIcon, Icon, LeafIcon, Love, OfferIcon, OilIcon, OtherIcon, SatisfactionIcon, SpicesIcon, Spinner, User, VegetableIcon, WideIcon } from './icon';
 import { v4 as uuid } from 'uuid';
-import classNames from 'classnames';
 
 type Props = {
   id: React.Key;
@@ -1138,28 +1137,28 @@ export const what_We_Provide = [
     title: 'Air & Sea Shipping',
     subtitle:
       'we can provide air or sea shipment, and the best part is that you do not need to do anything! Just tell us what you want shipped, we will take care of everything else.',
-    icon: <DeliveryIcon /> ,
+    icon: <DeliveryIcon />,
   },
   {
     id: 4,
     title: 'Packing',
     subtitle:
       'We provide a good packing service. We offer various types of packing such as poly bag, carton box, thermocol, pallet and thermal packages.',
-    icon: <ConnectIcon /> ,
+    icon: <ConnectIcon />,
   },
   {
     id: 5,
     title: '100% Satisfaction',
     subtitle:
       'We offer customer satisfaction with a personal touch. We find out what the customer needs and then connect them to the best product at the best price.',
-    icon: <SatisfactionIcon /> ,
+    icon: <SatisfactionIcon />,
   },
   {
     id: 6,
     title: 'Great Daily Deal',
     subtitle:
       'We offer a service that ensures that every product sale is authentic and high quality.inspect every product and verified the quality before on export.',
-    icon: <DealIcon /> ,
+    icon: <DealIcon />,
   },
 ];
 export const ourPerformance = [

@@ -33,7 +33,7 @@ const Head = ({ headName, tags }: any): JSX.Element => {
       {/* then the last part */}
 
       <div className="flex w-full flex-row flex-wrap justify-end gap-3 xl:justify-center">
-        {tags.split(',').map((tag: string, idx: any) => (
+        {tags?.split(',').map((tag: string, idx: any) => (
           <span key={idx} className="inline-flex h-min cursor-pointer items-center gap-2 rounded-full bg-white px-4 py-3 font-head text-[17px] text-emerald-500 duration-300 hover:-translate-y-1 hover:text-yellow-300">
             <CloseIcon className="-m-4 scale-[.4] fill-gray-300" /> {tag}
           </span>

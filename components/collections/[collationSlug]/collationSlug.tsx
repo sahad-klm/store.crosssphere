@@ -39,7 +39,7 @@ const CollationSlug = () => {
 
   return (
     <div className="relative mx-4 mt-[100px] flex flex-col items-center justify-center lg:mt-5">
-      <Head headName={products[0].category} tags={products[0].tags} />
+      <Head headName={products[0]?.category} tags={products[0]?.tags} />
       <div className="mt-[40px] mb-7 flex w-full flex-col items-start justify-center gap-4 xl:flex-row">
         <div className=" flex w-full flex-col items-center justify-between gap-6">
           <HeadingWithFilter

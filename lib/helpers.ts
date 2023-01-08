@@ -184,7 +184,7 @@ export function usePagination({
   return paginationRange;
 }
 
-export function useCategoryProductsFind (name:any) {
-  return popularProducts.filter((item) => item.categorySlug === name?.toLocaleString() || popularProducts.filter((item) => item.id === name?.toLocaleString()  && item
-  ))
+export function useCategoryProductsFind(name: any) {
+  return popularProducts.filter((item) => item.categorySlug === name?.toLocaleString() && item
+  )
 }
