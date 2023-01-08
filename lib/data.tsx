@@ -403,8 +403,8 @@ export const popularProducts = [
     tags: 'black plum, organic, silopy kujjapu',
     rate: 10.4,
     offer: 7,
-    categorySlug: 'milks-and-dairies',
-    category: 'Milk & Daies',
+    categorySlug: 'vegetables',
+    category: 'vegetables',
     picture: '/spices/cardamom.png',
     bacPicture:
       '',

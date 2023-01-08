@@ -5,7 +5,7 @@ import OfferBoxInCollection from '@/ui/OfferBoxInCollection';
 import { OneProductWithOffer } from '@/ui/OneProductWithOffer';
 import Pagination from '@/ui/Pagination';
 import { DealsOfTheDayInCollection } from 'components/deals/Page';
-import { AnimatePresence, m } from 'framer-motion';
+import { AnimatePresence, domAnimation, LazyMotion, m } from 'framer-motion';
 import { usePathname } from 'next/navigation';
 import React, { useMemo, useState } from 'react';
 import { fadeAnim } from '@/lib/motion';
@@ -48,6 +48,8 @@ const CollationSlug = () => {
             setFilteringCount={filteringCount}
           />
 
+        <LazyMotion features={domAnimation}>
+
           <m.div
             initial="hide"
             animate="show"
@@ -72,8 +74,8 @@ const CollationSlug = () => {
                   classNameForPic?: any;
                   classNameForTotal?: any;
                 },
-              ) => (
-                <OneProductWithOffer
+                ) => (
+                  <OneProductWithOffer
                   mouseOver={mouseOver}
                   setMouseOver={setMouseOver}
                   key={item.id}
@@ -82,16 +84,17 @@ const CollationSlug = () => {
                   classNameForTotal="xl:w-auto xl:w-full xl:h-auto w-auto h-[443px] mx-auto"
                   classNameForPic="p-4 "
                 />
-              ),
-            )}
+                ),
+                )}
           </m.div>
+          </LazyMotion>
           <Pagination
             className="pagination-bar mt-4 mb-[50px] items-center"
             currentPage={currentPage}
             totalCount={Math.ceil(products.length / PageSize)}
             pageSize={PageSize}
             onPageChange={(page: any) => setCurrentPage(page)}
-          />
+            />
           <DealsOfTheDayInCollection />
         </div>
 
