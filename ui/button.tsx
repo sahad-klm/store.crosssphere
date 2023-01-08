@@ -11,9 +11,10 @@ const ButtonShopNow = ({ paddingAndStyle, value }: any): any => {
     </button>
   );
 };
-const ButtonAddToCart = ({ className }: any): any => {
+const ButtonAddToCart = ({ className, onClick }: any): any => {
   return (
     <button name='button'
+    onClick={onClick}
       className={`group/btn z-[1] mx-[10px] mt-4 flex h-12 w-full items-center justify-center gap-4 rounded-md  bg-emerald-500 px-3 font-body text-xs text-white outline-none transition-all duration-300 hover:-translate-y-1 hover:bg-yellow-500 ${className}`}
     >
       <Cart className="-m-3 scale-50 fill-white" />

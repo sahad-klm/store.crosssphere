@@ -15,17 +15,17 @@ const DailyBestSellerInOneLine = ({
       spaceBetween={25}
       slidesPerView={slidesPerView}
       navigation
-      autoplay={{ delay: 5000 }}
+      autoplay={{ delay: 2000 }}
       className="w-full"
     >
       {productsData?.map((item) => (
-        <SwiperSlide key={item.id}>
+        <SwiperSlide key={item.id} className='w-full'>
           <OneProductWithOffer
             {...item}
             setMouseOver={setMouseOver}
             mouseOver={mouseOver}
             buttonStyle="add-to-cart"
-            classNameForTotal="max-w-full md:h-full h-full"
+            classNameForTotal="max-w-full w-full md:h-full h-full"
             classNameForPic="h-[37vh] p-1"
           />
         </SwiperSlide>

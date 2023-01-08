@@ -82,6 +82,7 @@ const ProductDetails = (data: any) => {
                     rate?: any;
                     offer?: any;
                     picture?: any;
+                    category?: string;
                     bacPicture?: any;
                     mouseOver?: any;
                     setMouseOver?: any;

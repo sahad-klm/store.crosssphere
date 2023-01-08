@@ -22,6 +22,7 @@ type Props = {
   classNameForPic?: any;
   classNameForTotal?: any;
   categorySlug?:string
+  category?: string;
 };
 function OneProductWithOffer({
   id,
@@ -29,6 +30,7 @@ function OneProductWithOffer({
   rate,
   rating,
   tags,
+  category,
   offer,
   picture,
   bacPicture,
@@ -37,11 +39,21 @@ function OneProductWithOffer({
   buttonStyle,
   classNameForPic,
   classNameForTotal,
+
   categorySlug
 }: Props): any {
   const addBtn = buttonStyle === 'add';
   const addToCartBtn = buttonStyle === 'add-to-cart';
   const [windowWidth, setWindowWidth] = React.useState<number| any>();
+
+  const handleCart = () => {
+    // var names = {name: name, picture: picture, category: category}
+    // localStorage.setItem("names", JSON.stringify(names));
+    // var storedNames = JSON.parse(localStorage.getItem("names"));
+    // console.log(storedNames)
+    
+  } 
+  
   
 
   React.useEffect(() => {
@@ -134,7 +146,7 @@ function OneProductWithOffer({
         {addBtn && <ButtonAdd />}
       {addToCartBtn && (
         // <div className="mb-5 flex w-full justify-center">
-          <ButtonAddToCart />
+          <ButtonAddToCart onClick={handleCart()} />
         // </div>
       )}
       </div>

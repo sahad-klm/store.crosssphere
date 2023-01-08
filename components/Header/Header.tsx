@@ -8,17 +8,18 @@ import {
   NavLAstInFeistBar2,
 } from './NavLAstInFeistBar';
 import SearchBar from './searchBar';
-import { AnimatePresence, motion } from 'framer-motion';
+import { motion } from 'framer-motion';
 import {
-  fadeAnim,
   textVariant2,
 } from '@/lib/motion';
 import { NavBigOptionsTab, NavBigOptions } from './NavBigOptions';
-import { footerSocialMedia, lastOneInNav } from '@/lib/data';
+import { footerSocialMedia } from '@/lib/data';
 import Link from 'next/link';
 import Image from 'next/image';
+import Cart from './Cart';
 
 function Header(): any {
+  const [isCart, setIsCart] = useState<boolean>(false)
   const [searchOption, setSearchOption] = useState<string | any>(
     'All Catagories',
   );
@@ -76,7 +77,7 @@ function Header(): any {
           <Link aria-label="Read more" href="/" className="flex h-full items-center justify-center">
             <Image width={176} height={100} loading='lazy' alt=''
               src="/map1.webp"
-              className="h-full w-44 shrink-0 bg-red-300 object-contain"
+              className="h-full w-44 shrink-0  object-cover"
             />
           </Link>
           <SearchBar
@@ -87,7 +88,7 @@ function Header(): any {
             setIsSearchOptionActive={setIsSearchOptionActive}
           />
 
-          <NavLAstInFeistBar />
+          <NavLAstInFeistBar setIsCart={setIsCart}/>
         </div>
 
         <div className="flex h-[105px] w-full items-center justify-start border-b-[1px] border-solid border-gray-700 border-opacity-20 bg-white py-7 px-4">
@@ -206,7 +207,7 @@ function Header(): any {
 
       {/*  */}
       {/*  bottom menus */}
-      <AnimatePresence mode="wait">
+      {/* <AnimatePresence mode="wait">
         <motion.div
           initial="hide"
           animate="show"
@@ -237,7 +238,11 @@ function Header(): any {
             </span>
           </div>
         </motion.div>
-      </AnimatePresence>
+      </AnimatePresence> */}
+
+
+      {/* cart */}
+     <Cart isCart={isCart} setIsCart={setIsCart} />
     </>
   );
 }

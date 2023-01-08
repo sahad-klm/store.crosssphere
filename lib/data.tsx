@@ -29,7 +29,7 @@ export const lastOneInNav: Props[] = [
   {
     id: 3,
     icon: (
-      <Cart className="scale-[.5] fill-gray-700 duration-300 hover:fill-emerald-500 group-hover/btn:fill-emerald-500 max-sm:-mx-5 sm:scale-[.6] " />
+      <Cart className="scale-[.4] fill-gray-700 duration-300 hover:fill-emerald-500 group-hover/btn:fill-emerald-500 max-sm:-mx-5 sm:scale-[.6] " />
     ),
     name: 'Cart',
   },
