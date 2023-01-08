@@ -19,7 +19,6 @@ const Module = ({
   onVariantChange,
 }: any):JSX.Element | any => {
 
-  console.log(data);
   
 
   const ModuleType = (data : any): any => {

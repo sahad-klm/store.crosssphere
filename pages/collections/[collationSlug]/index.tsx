@@ -24,7 +24,6 @@ const index = (data: {
       return element
     }
   }
-  console.log(name());
   
   
 

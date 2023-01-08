@@ -18,13 +18,11 @@ const ProductDetails = (data: any) => {
   const [isY, setIsY] = React.useState<number | any>();
   const myTopPosition = React.useRef<any>();
 
-  console.log(data);
   const setY = () => {
     const y = myTopPosition?.current?.offsetTop;
     return setIsScroll(window.pageYOffset), setIsY(y);
   };
 
-  console.log(isY);
 
   React.useEffect(() => {
     if (isBrowser) {
@@ -40,12 +38,10 @@ const ProductDetails = (data: any) => {
   if (product?.length === 0)
     return (
       <Error
-        statusCode="seem ann bro"
+        statusCode={404}
         title={`sathanam missing ann pinnea va `}
       />
     );
-  console.log(product);
-
   return (
     <div className="relative flex w-full flex-col items-center justify-center overflow-hidden max-lg:mt-[100px] ">
       <HeadRootNames product={product} />

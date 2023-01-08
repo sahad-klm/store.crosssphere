@@ -6,15 +6,12 @@ import { AnimatePresence } from 'framer-motion';
 import React from 'react';
 
 const Description = ({ products }: any) => {
-  console.log(products);
   const [isSelected, setIsSelected] = React.useState(products.details[0].part);
   const [isToggle, setIsToggle] = React.useState<boolean>(false);
 
   const reviews = products.details.filter(
     (item: { part: string }) => item.part === 'Reviews' && item,
   );
-
-  console.log(reviews.map((item: { items: string | any[] }) => item.items));
 
   return (
     <div className="relative flex w-full flex-col items-start overflow-hidden rounded-xl  border py-6 px-8 lg:gap-5 lg:py-10 lg:px-12">

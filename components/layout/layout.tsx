@@ -50,8 +50,6 @@ const Layout = ({
 
 
   const socialMediaIcon = (platform: string): any => {
-    console.log(platform);
-
     switch (platform) {
       case 'facebook':
         return <FacebookIcon className="h-[20px] w-[20px] fill-white p-0.5" />;

@@ -13,7 +13,6 @@ import { fadeAnim } from '@/lib/motion';
 
 const OutTeam = () => {
   const socialMediaIcon = (platform: string): any => {
-    console.log(platform);
 
     switch (platform) {
       case 'facebook':

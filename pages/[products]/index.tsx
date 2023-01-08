@@ -12,8 +12,6 @@ const Home = (data: {
   const pathname = usePathname();
   const { site, page }: any = data;
   const pageName = modulesFinder(pathname);
-  console.log(pathname);
-
   if (!pageName[0]) {
     return (
       <>

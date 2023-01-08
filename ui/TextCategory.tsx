@@ -29,7 +29,6 @@ export const TextCategoryMob = ({
     setIsSelectedCatN(name);
     setToggleOn(false);
 
-    console.log(name);
   };
 
   return (

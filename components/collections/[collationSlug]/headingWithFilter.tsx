@@ -85,7 +85,6 @@ const HeadingWithFilter = ({
     }
   }, [maxVal, getPercent]);
 
-  console.log(filterOn);
 
   return (
     <>
