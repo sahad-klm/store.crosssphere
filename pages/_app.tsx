@@ -115,7 +115,7 @@ function MyApp({ Component, pageProps, router }: AppProps) {
       <div className="mx-auto mt-28 flex h-screen min-w-full flex-row items-center  justify-center gap-10  bg-black">
         <div className=" flex flex-col  items-center justify-center rounded-3xl  border-[5px] md:w-[40%]">
           <Image width={1440} height={1000} loading='lazy' src="/Untiztled.webp" alt='' className="object-contain" />
-          <button
+          <button name='button'
             onClick={() => alert('ijj tett anser adichu ini pinne vaa')}
             className="mt-5 rounded-xl bg-white px-10 py-5 text-black outline-none"
           >
@@ -124,7 +124,7 @@ function MyApp({ Component, pageProps, router }: AppProps) {
         </div>
         <div className="flex flex-col items-center justify-center rounded-3xl  border-[5px] md:w-[40%]">
           <Image width={1440} height={1000} loading='lazy'  src="/Untitsssssled(1).webp" alt="" className=" object-contain" />
-          <button
+          <button name='button'
             onClick={() => {
               if (
                 window.confirm(

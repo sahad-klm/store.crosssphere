@@ -37,7 +37,7 @@ const Top = ({ pathName }: any): JSX.Element => (
         placeholder="Your email address"
         className="h-full font-body text-sm tracking-wide text-gray-700 outline-none"
       />
-      <button className="absolute right-0 h-full rounded-full bg-emerald-500 px-6 font-body text-sm tracking-wider text-white outline-none transition hover:bg-emerald-600">
+      <button name='button' className="absolute right-0 h-full rounded-full bg-emerald-500 px-6 font-body text-sm tracking-wider text-white outline-none transition hover:bg-emerald-600">
         Subscribe
       </button>
     </form>
