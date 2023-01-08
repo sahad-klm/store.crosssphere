@@ -5,6 +5,7 @@ const HeadSEO = ({ site = {}, page = {}, schema }: any) => {
   return (
     <Head>
       <meta charSet="utf-8" />
+      <meta name="description" />
       <meta httpEquiv="x-ua-compatible" content="ie=edge" />
       <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       <meta name="format-detection" content="telephone=no" />

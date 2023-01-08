@@ -70,7 +70,7 @@ const HomeComponent = (): any => {
                     placeholder="Your email address"
                     className="h-full font-body text-sm tracking-wide text-gray-700 outline-none"
                   />
-                  <button name='button' className="absolute -right-1 h-full rounded-full bg-emerald-500 px-5 font-body text-sm tracking-wider text-white outline-none transition hover:bg-emerald-600 sm:px-10">
+                  <button name='button' className="absolute -right-1 h-full rounded-full bg-emerald-500 px-5 font-body  text-sm tracking-wider text-white outline-none transition hover:bg-emerald-600 sm:px-10">
                     Subscribe
                   </button>
                 </motion.form>

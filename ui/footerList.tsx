@@ -30,7 +30,7 @@ const FooterList = ({
       </h2>
       <div className={`${footerToggle === heading ? "grid" :'hidden'} md:flex flex-col justify-between gap-3`}>
       {links?.map((item: Props) => (
-        <a
+        <a aria-label="Read more"
         key={item.id}
         href={item.to}
         className="font-body md:text-base text-sm text-gray-900 duration-300 hover:translate-x-1 hover:text-emerald-500"

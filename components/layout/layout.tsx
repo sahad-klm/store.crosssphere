@@ -143,7 +143,7 @@ const Layout = ({
               </h3>
               <div className="flex gap-1 sm:gap-2">
                 {footerSocialMedia?.map((item) => (
-                  <a
+                  <a aria-label="Read more"
                     key={item.id}
                     href={item.link}
                     className="grid h-5 w-5 shrink-0 place-content-center rounded-full bg-emerald-500 duration-300 hover:bg-lime-400 sm:h-7 sm:w-7"
