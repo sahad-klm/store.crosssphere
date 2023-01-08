@@ -184,7 +184,7 @@ const OneProductLeftPicRightDetail = ({
                     : 'bg-white'
                 }`}
               >
-                <Link aria-label="Read more" href={`/${item.categorySlug}/${item.id}`}>
+                <Link aria-label="Read more" href={`/${item.categorySlug}/${item.name}`}>
 
                 <Image width={1440} height={1000} loading='lazy'
                   src={item.picture}
