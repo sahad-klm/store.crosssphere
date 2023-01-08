@@ -55,8 +55,6 @@ const WhatWeProvide = () => (
             {/* <Image width={100} height={100} loading="lazy" src={`/${item.icon}`} alt="icon" className="h-32 object-contain" /> */}
             {item.icon}
 
-            {item.icon}
-
             <h3 className="font-head text-2xl text-gray-700">{item.title}</h3>
             <p className="mb-1 text-lg text-gray-500">{item.subtitle}</p>
             <small className="text-base text-emerald-500 ">Read more</small>

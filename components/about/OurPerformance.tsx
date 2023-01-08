@@ -11,6 +11,7 @@ const OurPerformance = () => (
           <m.div
             initial="hide"
             whileInView="show"
+            viewport={{once: true}}
             exit="hide"
             variants={{
               show: {
@@ -41,6 +42,7 @@ const OurPerformance = () => (
           <m.div
             initial="hide"
             whileInView="show"
+            viewport={{once: true}}
             exit="hide"
             variants={{
               show: {
@@ -73,6 +75,7 @@ const OurPerformance = () => (
           <m.h3
             initial="hide"
             whileInView="show"
+            viewport={{once: true}}
             exit="hide"
             variants={{
               show: {
@@ -96,6 +99,7 @@ const OurPerformance = () => (
           <m.h1
             initial="hide"
             whileInView="show"
+            viewport={{once: true}}
             exit="hide"
             variants={{
               show: {
@@ -121,6 +125,7 @@ const OurPerformance = () => (
               <m.p
                 initial="hide"
                 whileInView="show"
+                viewport={{once: true}}
                 exit="hide"
                 variants={{
                   show: {

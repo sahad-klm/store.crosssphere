@@ -1254,9 +1254,9 @@ export const ourThings = [
         persons: [
           {
             id: 1,
-            name: 'Ameen',
+            name: 'Shad Klm',
             picture: 'profile.svg',
-            post: 'Manager',
+            post: 'Mothalai Of this Company',
             socialMedia: [
               {
                 id: 1,
