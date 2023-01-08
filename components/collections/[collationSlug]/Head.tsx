@@ -7,7 +7,7 @@ const Head = ({ headName, tags }: any): JSX.Element => {
   return (
     <div className="relative z-10  flex w-full flex-col justify-between gap-5 overflow-hidden rounded-xl p-8 md:p-10 lg:p-20 xl:flex-row   ">
       <Image width={1440} height={500} 
-        src="	https://cdn.shopify.com/s/files/1/0652/4570/8532/files/header-bg.png?v=1659942646&width=1920"
+        src="/banner.webp"
         loading="lazy"
         alt=""
         className="absolute top-0 right-0 -z-50 h-full w-full object-cover opacity-40"
