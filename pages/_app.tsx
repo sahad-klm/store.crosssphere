@@ -84,7 +84,7 @@ const Site = ({ Component, pageProps, router }: any): JSX.Element => {
   const pageID = useMemo(() => data?.page?.id, [data]);
 
   return (
-    <LazyMotion features={domAnimation}>
+    // <LazyMotion features={domAnimation}>
       <AnimatePresence
         mode="wait"
         onExitComplete={() => {
@@ -95,7 +95,7 @@ const Site = ({ Component, pageProps, router }: any): JSX.Element => {
           <Component key={pageID} {...pageProps} />
         </Layout>
        </AnimatePresence>
-    </LazyMotion>
+    // </LazyMotion>
   );
 };
 

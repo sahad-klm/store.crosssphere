@@ -30,8 +30,8 @@ const ProductsInOneLine = ({ swiperRef, slidesPerView }: any): JSX.Element => {
     >
         {BrowseAllCategories?.map((item: any) => (
           <SwiperSlide key={item.id} className=''>
-            <motion.div
-              variants={itemAnim}
+            <div
+              // variants={itemAnim}
               className={`bg-[${
                 item.bg
               }] flex h-full w-full shrink-0 flex-col items-center justify-center rounded-md border-[.5px] 
@@ -60,7 +60,7 @@ const ProductsInOneLine = ({ swiperRef, slidesPerView }: any): JSX.Element => {
                   {item.items} items
                 </p>
               </div>
-            </motion.div>
+            </div>
           </SwiperSlide>
         ))}
     </Swiper>

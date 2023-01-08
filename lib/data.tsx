@@ -328,7 +328,7 @@ export const popularProducts = [
     rate: 10.4,
     offer: 7,
 
-    categorySlug: 'milks-and-dairies',
+    categorySlug: 'fruits',
     category: 'Milk & Daies',
     picture: '/others/drycoconut.png',
     bacPicture:
