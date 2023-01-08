@@ -1,4 +1,4 @@
-import { popularProducts } from '@/lib/data';
+import { productsData } from '@/lib/products';
 import RateOfProduct from '@/ui/rate';
 import { Rating } from '@/ui/rating';
 import Image from 'next/image';
@@ -10,7 +10,7 @@ const NewProducts = ({limit = 1}: number | any): JSX.Element => {
       <h2 className="before:content- relative mb-4 w-full shrink-0 border-b pb-4 font-head text-[24px] text-gray-800 before:absolute before:-bottom-[1px] before:h-[2px] before:w-14 before:bg-gray-300 md:pb-5 md:text-h4">
         New Products
       </h2>
-      {popularProducts.map((item, idx) => (
+      {productsData.map((item, idx) => (
         <React.Fragment key={item.id}>
           {idx <= limit && (
             <div 

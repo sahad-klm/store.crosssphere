@@ -6,10 +6,10 @@ import HeadRootNames from '../../ui/HeadRootNames';
 import NewProducts from '../../ui/newProducts';
 import OfferBoxInCollection from '@/ui/OfferBoxInCollection';
 import ProductEachDetail from './ProductEachDetail';
-import { popularProducts } from '@/lib/data';
 import { OneProductWithOffer } from '@/ui/OneProductWithOffer';
 import Description from './Description';
 import Image from 'next/image';
+import { productsData } from '@/lib/products';
 
 const ProductDetails = (data: any) => {
   const { product } = data;
@@ -57,8 +57,8 @@ const ProductDetails = (data: any) => {
             <div className="grid lg:grid-rows-2 ">
               <div className="flex items-center justify-center bg-gray-100">
                 <Image
-                width={1000}
-                height={1000}
+                  width={1000}
+                  height={1000}
                   src={product[0]?.picture}
                   alt=""
                   className="object-contain lg:w-[96%]"
@@ -76,7 +76,7 @@ const ProductDetails = (data: any) => {
               Related products
             </h2>
             <div className="flex  w-full flex-row gap-5 overflow-x-scroll">
-              {popularProducts?.map(
+              {productsData?.map(
                 (
                   item: JSX.IntrinsicAttributes & {
                     id?: React.Key | undefined;
@@ -112,15 +112,13 @@ const ProductDetails = (data: any) => {
         {/* sidebar */}
         <div className="relative hidden shrink-0 gap-5 lg:flex xl:w-[350px] ">
           <div
-            className={`  ${
-              isScroll <= 220
+            className={`  ${isScroll <= 220
                 ? 'absolute'
-                : `${
-                    isScroll >= isY - 700
-                      ? 'absolute bottom-0'
-                      : 'fixed top-20 '
-                  } `
-            } flex flex-col gap-5 transition-transform duration-1000 ease-linear max-xl:relative`}
+                : `${isScroll >= isY - 700
+                  ? 'absolute bottom-0'
+                  : 'fixed top-20 '
+                } `
+              } flex flex-col gap-5 transition-transform duration-1000 ease-linear max-xl:relative`}
           >
             <CategorySmallBox />
             <NewProducts limit="0" />

@@ -307,7 +307,7 @@ export const popularProductCategory = [
   },
   {
     id: 4,
-    name: 'fruits',
+    name: 'Fruits',
   },
   {
     id: 5,

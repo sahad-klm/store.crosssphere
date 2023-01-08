@@ -1,7 +1,5 @@
+import { productsData } from '@/lib/products';
 import { OneProductLeftPicRightDetail } from '@/ui/OneProductWithOffer';
-import RateOfProduct from '@/ui/rate';
-import { Rating } from '@/ui/rating';
-import { popularProducts } from '@/lib/data';
 import React from 'react';
 
 const FooterProducts = (): JSX.Element | any => {
@@ -14,28 +12,28 @@ const FooterProducts = (): JSX.Element | any => {
         <div className="flex flex-col items-start justify-start md:gap-5 gap-4">
           <h4 className={`${classNameForHead}`}>Popular Products</h4>
           <OneProductLeftPicRightDetail
-            productsData={popularProducts}
+            productsData={productsData}
             limitProductShow={3}
           />
         </div>
         <div className="flex flex-col items-start md:gap-5 gap-4 ">
           <h4 className={`${classNameForHead}`}>Trending Products</h4>
           <OneProductLeftPicRightDetail
-            productsData={popularProducts}
+            productsData={productsData}
             limitProductShow={3}
           />
         </div>
         <div className="flex flex-col items-start justify-start md:gap-5 gap-4">
           <h4 className={`${classNameForHead}`}>Recently Added</h4>
           <OneProductLeftPicRightDetail
-            productsData={popularProducts}
+            productsData={productsData}
             limitProductShow={3}
           />
         </div>
         <div className="flex flex-col items-start justify-start md:gap-5 gap-4">
           <h4 className={`${classNameForHead}`}>Top Rated</h4>
           <OneProductLeftPicRightDetail
-            productsData={popularProducts}
+            productsData={productsData}
             limitProductShow={3}
           />
         </div>
