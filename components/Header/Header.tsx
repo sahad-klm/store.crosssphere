@@ -153,7 +153,7 @@ function Header(): any {
             />
           </Link>
           <div>
-            <NavLAstInFeistBar2 />
+            <NavLAstInFeistBar2 setIsCart={setIsCart}/>
           </div>
         </div>
 
