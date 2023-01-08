@@ -15,8 +15,8 @@ const index = (data: {
   const { site, page }: any = data;
   const pageName = modulesFinder(`/${pathname?.split('/').slice(1)[0]}/[slug]`);
 
-  const productID = pathname?.split('/').slice(2).toLocaleString()
-  const product = productsData.filter((item: any) => item.id === productID && item)
+  const productID = pathname?.split('/').slice(2).toLocaleString().replaceAll('%20', " ")
+  const product = productsData.filter((item: any) => item.name === productID && item)
 
   
 
