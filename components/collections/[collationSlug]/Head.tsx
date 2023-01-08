@@ -19,12 +19,12 @@ const Head = ({ headName, tags }: any): JSX.Element => {
           {headName}
         </h1>
         <div className="inline-flex flex-wrap items-center gap-1 font-head text-base text-gray-600">
-          <Link href='/' className="inline-flex items-center text-emerald-500">
+          <Link aria-label="Read more" href='/' className="inline-flex items-center text-emerald-500">
             <HomeIcon className="-m-3 scale-[.4] fill-emerald-500" /> Home
           </Link>
           <ArrowNoLine className="-m-3 scale-[.4] fill-gray-500" />
 
-          <Link href="/collections">collections</Link>
+          <Link aria-label="Read more" href="/collections">collections</Link>
           <ArrowNoLine className="-m-3 scale-[.4] fill-gray-500" />
           {headName}
         </div>

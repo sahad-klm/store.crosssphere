@@ -40,7 +40,7 @@ const Collations = (): any => {
               key={item.id}
               className=" flex flex-col items-center justify-center h-[300px] w-full"
             >
-              <Link href={`${usePathname()}/${item.slug}`}>
+              <Link aria-label="Read more" href={`${usePathname()}/${item.slug}`}>
                 <div className='grid place-content-center'>
 
                 <Image
@@ -52,7 +52,7 @@ const Collations = (): any => {
                   />
                   </div>
               </Link>
-              <Link
+              <Link aria-label="Read more"
                 href={`${usePathname()}/${item.slug}`}
                 className="group/btn flex h-16 w-full items-center justify-start gap-3 rounded bg-gray-100 px-4 font-head text-base text-gray-800 duration-300 hover:text-emerald-500"
               >

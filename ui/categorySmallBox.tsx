@@ -11,7 +11,7 @@ const CategorySmallBox = () => {
       {BrowseAllCategories?.map((item, idx) => (
         <React.Fragment key={item.id}>
           {idx <= 2 && (
-              <Link href={`/collections/${item.slug}`} className='flex items-center gap-1 rounded border border-gray-300 py-3 px-4 hover:shadow-md cursor-pointer'>
+              <Link aria-label="Read more" href={`/collections/${item.slug}`} className='flex items-center gap-1 rounded border border-gray-300 py-3 px-4 hover:shadow-md cursor-pointer'>
                 {item.icon}
                 <p className="font-head text-base text-emerald-500">
                   {item.name}

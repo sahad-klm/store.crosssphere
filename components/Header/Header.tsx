@@ -73,7 +73,7 @@ function Header(): any {
     <>
       <nav className="relative top-0 z-[1000] hidden w-full flex-col lg:flex ">
         <div className="flex h-[105px] w-full items-center justify-between border-b-[1px] border-solid border-gray-700 border-opacity-20 bg-white py-7 sm:px-4">
-          <Link href="/" className="flex h-full items-center justify-center">
+          <Link aria-label="Read more" href="/" className="flex h-full items-center justify-center">
             <Image width={176} height={100} loading='lazy' alt=''
               src="/map1.webp"
               className="h-full w-44 shrink-0 bg-red-300 object-contain"
@@ -145,7 +145,7 @@ function Header(): any {
             onClick={() => setBrowseAllCategory(true)}
             className="fa-solid fa-bars-staggered w-22 cursor-pointer text-2xl text-gray-700 sm:w-28 sm:text-3xl"
           />
-          <Link href="/" className="flex h-full items-center justify-center">
+          <Link aria-label="Read more" href="/" className="flex h-full items-center justify-center">
             <Image width={176} height={1000} alt='' loading='lazy'
               src="/map1.webp"
               className=" h-full w-44 shrink-0 cursor-pointer bg-red-300 object-contain"

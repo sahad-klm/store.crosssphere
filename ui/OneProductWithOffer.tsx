@@ -71,7 +71,7 @@ function OneProductWithOffer({
           tags?.split(',').map((item: any) => item) === 'vegetable' ? 'bg-gray-100' : 'bg-white'
         } ${classNameForPic}`}
       >
-        <Link href={`/${categorySlug}/${name}`}>
+        <Link aria-label="Read more" href={`/${categorySlug}/${name}`}>
         <Image width={1440} height={1000} loading='lazy'
           src={
             bacPicture
@@ -113,7 +113,7 @@ function OneProductWithOffer({
       <small className="mx-5 mt-3 flex flex-wrap pb-[4px] font-body text-[10px] text-gray-400 md:pb-[6px] md:text-xs">
         {tags}
       </small>
-      <Link href={`/${categorySlug}/${name}`}>
+      <Link aria-label="Read more" href={`/${categorySlug}/${name}`}>
       <h4 className="mx-5 pb-[8px] font-head text-sm text-gray-700 transition-all duration-200 hover:text-emerald-500 md:pb-[10px] md:text-base">
         {name}
       </h4>
@@ -184,7 +184,7 @@ const OneProductLeftPicRightDetail = ({
                     : 'bg-white'
                 }`}
               >
-                <Link href={`/${item.categorySlug}/${item.id}`}>
+                <Link aria-label="Read more" href={`/${item.categorySlug}/${item.id}`}>
 
                 <Image width={1440} height={1000} loading='lazy'
                   src={item.picture}

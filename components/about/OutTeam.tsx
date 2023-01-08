@@ -265,7 +265,7 @@ const OutTeam = () => {
                                 ease: [0.16, 1, 0.3, 1],
                                 delay: 0.75 * (ik / 4),
                               }} key={social.id}>
-                              <Link href={`${social.id}`}>
+                              <Link aria-label="Read more"  href={`${social.id}`}>
                                 {socialMediaIcon(social.platform)}
                               </Link>
                             </m.span>
