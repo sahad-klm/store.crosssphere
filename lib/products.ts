@@ -11,6 +11,8 @@ export const productsData = [
 		category: 'Fruits',
 		picture: '/others/drycoconut.png',
 		partOf : 'popular',
+		bgImage: '/vegba2.jpg',
+		
 		bacPicture:
 			'',
 		smallDetail:
@@ -88,6 +90,7 @@ export const productsData = [
 		category: 'vegetables',
 		picture: '/spices/cardamom.png',
 		partOf : 'trending',
+		bgImage: '/frut.jpeg',
 		bacPicture:
 			'',
 		smallDetail:
@@ -165,6 +168,7 @@ export const productsData = [
 		category: 'vegetables',
 		picture: '/spices/cardamom.png',
 		partOf : 'top-rated',
+		bgImage: '/frut.jpeg',
 		bacPicture:
 			'',
 		smallDetail:
@@ -242,6 +246,7 @@ export const productsData = [
 		category: 'vegetables',
 		picture: '/spices/cardamom.png',
 		partOf : 'popular',
+		bgImage: '/frut.jpeg',
 		bacPicture:
 			'',
 		smallDetail:

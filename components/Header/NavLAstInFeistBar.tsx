@@ -26,8 +26,8 @@ export const NavLAstInFeistBar2 = ({ setIsCart }: React.SetStateAction<any>) => 
     <Love className="scale-[.6] fill-gray-700 duration-300 hover:fill-emerald-500 group-hover/btn:fill-emerald-500 max-sm:-mx-1 sm:scale-[.6] " />
 
   </span> */}
-  <span className='flex items-center cursor-pointer ' onClick={() => setIsCart(true)}>
-    <Cart className="scale-[.6] fill-gray-700 duration-300 hover:fill-emerald-500 group-hover/btn:fill-emerald-500 max-sm:-mx-5 sm:scale-[.6] " />
+  <span className='flex items-center cursor-pointer pr-1' onClick={() => setIsCart(true)}>
+    <Cart className="scale-[.7] fill-gray-700 duration-300 hover:fill-emerald-500 group-hover/btn:fill-emerald-500 max-sm:-mx-5 sm:scale-[.6] " />
 
   </span>
 </div>

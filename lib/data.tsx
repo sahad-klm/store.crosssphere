@@ -57,7 +57,7 @@ export const navbarLastCategory: {
       id: 2,
       icon: '',
       name: 'Home',
-      slug: '/'
+      slug: ''
     },
 
     {
@@ -70,7 +70,7 @@ export const navbarLastCategory: {
       id: 4,
       icon: '',
       name: 'Shop',
-      slug: '/collections/all'
+      slug: 'collections/all'
 
     },
     {

@@ -10,19 +10,27 @@ const DailyBestSellerInOneLine = ({
   slidesPerView,
 }: any) => {
   return (
-    <>
-
+    <Swiper
+      modules={[Navigation, Scrollbar]}
+      spaceBetween={25}
+      slidesPerView={slidesPerView}
+      navigation
+      autoplay={{ delay: 5000 }}
+      className="w-full"
+    >
       {productsData?.map((item) => (
-        <OneProductWithOffer
-          {...item}
-          setMouseOver={setMouseOver}
-          mouseOver={mouseOver}
-          buttonStyle="add-to-cart"
-          classNameForTotal="max-w-[230px] w-max md:h-full h-full"
-          classNameForPic="h-[37vh] p-1"
-        />
+        <SwiperSlide key={item.id}>
+          <OneProductWithOffer
+            {...item}
+            setMouseOver={setMouseOver}
+            mouseOver={mouseOver}
+            buttonStyle="add-to-cart"
+            classNameForTotal="max-w-full md:h-full h-full"
+            classNameForPic="h-[37vh] p-1"
+          />
+        </SwiperSlide>
       ))}
-    </>
+    </Swiper>
   );
 };
 

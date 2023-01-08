@@ -13,6 +13,7 @@ type Props = {
   rate?: number | any;
   offer?: number | any;
   picture?: string | any;
+  bgImage?: any
 };
 function ProductWithTimer({
   id,
@@ -22,11 +23,12 @@ function ProductWithTimer({
   tags,
   offer,
   picture,
+  bgImage
 }: Props): any {
   return (
     <div className="group/body relative flex xl:min-w-[310px] lg:min-w-[310px] flex-1 flex-col overflow-hidden rounded-[18px] xl:w-[310px] min-w-[310px]">
       <div className="relative -z-[1] mb-[20%] flex h-[310px] max-w-full overflow-hidden rounded-[18px]">
-        <Image width={1440} height={1000} loading="lazy"  src="/frut.jpeg" alt="" className="min-h-full w-full object-cover" />
+        <Image width={1440} height={1000} loading="lazy"  src={bgImage} alt="" className="min-h-full w-full object-cover" />
       </div>
       <div className="absolute bottom-4 flex w-full flex-col items-center justify-center transition-transform duration-300 group-hover/body:-translate-y-1">
         {/* <div className="mb-2 flex w-full flex-row items-center justify-center gap-1 rounded md:mb-3">

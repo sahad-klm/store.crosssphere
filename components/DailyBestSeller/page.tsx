@@ -4,6 +4,8 @@ import { ButtonShopNow } from '@/ui/button';
 import DailyBestSellerInOneLine from './inOneLine/DailyBestSellerInOneLine';
 import { dailyBestSellerCategory } from '@/lib/data';
 import Image from 'next/image';
+import { OneProductWithOffer } from '@/ui/OneProductWithOffer';
+import { productsData } from '@/lib/products';
 
 const DailyBestSeller = (): any => {
   const [isSelectedCatN, setIsSelectedCatN] = React.useState(
@@ -66,7 +68,7 @@ const DailyBestSeller = (): any => {
       </div>
 
       <div className="flex w-full flex-col justify-start gap-5 md:flex-row md:gap-6">
-        <div className="relative z-[1] flex h-[70vh] w-full min-w-[40%] flex-grow-0 flex-col  items-start gap-12 overflow-hidden rounded-[18px] p-12 md:h-auto md:min-w-[300px] md:justify-evenly max-w-[350px]">
+        <div className="relative z-[1] flex h-[70vh] w-full min-w-[40%] flex-grow-0 flex-col  items-start gap-12 overflow-hidden rounded-[18px] p-12 md:h-auto md:min-w-[300px] md:justify-evenly md:max-w-[350px]">
           <Image height={100}
             src="/bananaleaf1.jpeg"
             alt=""
@@ -80,11 +82,16 @@ const DailyBestSeller = (): any => {
           <ButtonShopNow paddingAndStyle="px-3 py-2" value="Shop Now" />
         </div>
         <div className="xl:flex hidden w-full items-start justify-start overflow-scroll gap-3">
-          <DailyBestSellerInOneLine
-            mouseOver={mouseOver}
-            setMouseOver={setMouseOver}
-            slidesPerView={5}
-          />
+          {productsData?.map((item) => (
+            <OneProductWithOffer
+              {...item}
+              setMouseOver={setMouseOver}
+              mouseOver={mouseOver}
+              buttonStyle="add-to-cart"
+              classNameForTotal="max-w-full md:h-full h-full"
+              classNameForPic="h-[37vh] p-1"
+            />
+          ))}
         </div>
 
         <div className="lapHide w-full items-center justify-center">
