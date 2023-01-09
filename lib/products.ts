@@ -84,7 +84,7 @@ export const productsData = [
 
 	{
 		id: 102,
-		name: 'Nasltlee orginal coffee-mate coffee creamer',
+		name: 'Anise',
 		rating: 4.0,
 		tags: 'black plum,silopy kujjapu,vegetable',
 		rate: 10.4,
@@ -165,7 +165,7 @@ export const productsData = [
 
 	{
 		id: 103,
-		name: 'Nasltlee orginal coffee-mate coffee creamer',
+		name: 'Cloves',
 		rating: 4.0,
 		tags: 'black plum,silopy kujjapu,vegetable',
 		rate: 10.4,
@@ -246,7 +246,7 @@ export const productsData = [
 
 	{
 		id: 104,
-		name: 'Nasltlee orginal coffee-mate coffee creamer',
+		name: 'Cordiander',
 		rating: 4.0,
 		tags: 'black plum,silopy kujjapu,vegetable',
 		rate: 10.4,
@@ -327,7 +327,7 @@ export const productsData = [
 
 	{
 		id: 105,
-		name: 'Nasltlee orginal coffee-mate coffee creamer',
+		name: 'Ginger',
 		rating: 4.0,
 		tags: 'black plum,silopy kujjapu,vegetable',
 		rate: 10.4,
@@ -408,7 +408,7 @@ export const productsData = [
 
 	{
 		id: 106,
-		name: 'Nasltlee orginal coffee-mate coffee creamer',
+		name: 'Nutmeg',
 		rating: 4.0,
 		tags: 'black plum,silopy kujjapu,vegetable',
 		rate: 10.4,
@@ -489,7 +489,7 @@ export const productsData = [
 
 	{
 		id: 107,
-		name: 'Nasltlee orginal coffee-mate coffee creamer',
+		name: 'Nutmeg & Mace',
 		rating: 4.0,
 		tags: 'black plum,silopy kujjapu,vegetable',
 		rate: 10.4,
@@ -570,7 +570,7 @@ export const productsData = [
 
 	{
 		id: 108,
-		name: 'Nasltlee orginal coffee-mate coffee creamer',
+		name: 'Pepper',
 		rating: 4.0,
 		tags: 'black plum,silopy kujjapu,vegetable',
 		rate: 10.4,
@@ -651,7 +651,7 @@ export const productsData = [
 
 	{
 		id: 109,
-		name: 'Nasltlee orginal coffee-mate coffee creamer',
+		name: 'Cumin',
 		rating: 4.0,
 		tags: 'black plum,silopy kujjapu,vegetable',
 		rate: 10.4,
@@ -732,7 +732,7 @@ export const productsData = [
 
 	{
 		id: 110,
-		name: 'Nasltlee orginal coffee-mate coffee creamer',
+		name: 'Fennel',
 		rating: 4.0,
 		tags: 'black plum,silopy kujjapu,vegetable',
 		rate: 10.4,
@@ -813,7 +813,7 @@ export const productsData = [
 
 	{
 		id: 111,
-		name: 'Nasltlee orginal coffee-mate coffee creamer',
+		name: 'Garlic',
 		rating: 4.0,
 		tags: 'black plum,silopy kujjapu,vegetable',
 		rate: 10.4,
@@ -894,7 +894,7 @@ export const productsData = [
 
 	{
 		id: 112,
-		name: 'Nasltlee orginal coffee-mate coffee creamer',
+		name: 'Chilli',
 		rating: 4.0,
 		tags: 'black plum,silopy kujjapu,vegetable',
 		rate: 10.4,
@@ -975,7 +975,7 @@ export const productsData = [
 
 	{
 		id: 113,
-		name: 'Nasltlee orginal coffee-mate coffee creamer',
+		name: 'Taramind',
 		rating: 4.0,
 		tags: 'black plum,silopy kujjapu,vegetable',
 		rate: 10.4,
@@ -1056,7 +1056,7 @@ export const productsData = [
 
 	{
 		id: 114,
-		name: 'Nasltlee orginal coffee-mate coffee creamer',
+		name: 'Turmeric',
 		rating: 4.0,
 		tags: 'black plum,silopy kujjapu,vegetable',
 		rate: 10.4,
@@ -1137,7 +1137,7 @@ export const productsData = [
 
 	{
 		id: 115,
-		name: 'Nasltlee orginal coffee-mate coffee creamer',
+		name: 'Fenugreek',
 		rating: 4.0,
 		tags: 'black plum,silopy kujjapu,vegetable',
 		rate: 10.4,
