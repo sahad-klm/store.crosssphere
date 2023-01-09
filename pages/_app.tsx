@@ -85,16 +85,16 @@ const Site = ({ Component, pageProps, router }: any): JSX.Element => {
 
   return (
     // <LazyMotion features={domAnimation}>
-      <AnimatePresence
-        mode="wait"
-        onExitComplete={() => {
-          document.body.classList.remove('overflow-hidden');
-        }}
-      >
-        <Layout>
-          <Component key={pageID} {...pageProps} />
-        </Layout>
-       </AnimatePresence>
+    <AnimatePresence
+      mode="wait"
+      onExitComplete={() => {
+        document.body.classList.remove('overflow-hidden');
+      }}
+    >
+      <Layout>
+        <Component key={pageID} {...pageProps} />
+      </Layout>
+    </AnimatePresence>
     // </LazyMotion>
   );
 };
@@ -103,47 +103,6 @@ function MyApp({ Component, pageProps, router }: AppProps) {
   const [first, setFirst] = React.useState(false);
   const { data } = pageProps;
   const routerlp = useRouter();
-
-  // useEffect(() => {
-  //   if (first === false) {
-  //     routerlp.push('/');
-  //   }
-  // }, [first]);
-
-  if (first !== false)
-    return (
-      <div className="mx-auto mt-28 flex h-screen min-w-full flex-row items-center  justify-center gap-10  bg-black">
-        <div className=" flex flex-col  items-center justify-center rounded-3xl  border-[5px] md:w-[40%]">
-          <Image width={1440} height={1000} loading='lazy' src="/Untiztled.webp" alt='' className="object-contain" />
-          <button name='button'
-            onClick={() => alert('ijj tett anser adichu ini pinne vaa')}
-            className="mt-5 rounded-xl bg-white px-10 py-5 text-black outline-none"
-          >
-            ith
-          </button>
-        </div>
-        <div className="flex flex-col items-center justify-center rounded-3xl  border-[5px] md:w-[40%]">
-          <Image width={1440} height={1000} loading='lazy'  src="/Untitsssssled(1).webp" alt="" className=" object-contain" />
-          <button name='button'
-            onClick={() => {
-              if (
-                window.confirm(
-                  'ijj parajjath sattyam annnnu tonnu thalkaalam site kandu pettnnu povaan nook',
-                )
-              )
-                setFirst(true);
-            }}
-            className="mt-5 rounded-xl bg-white px-10 py-5 text-black"
-          >
-            ith
-          </button>
-        </div>
-        <h1 className="fixed top-10 z-50 font-head text-5xl text-green-600 ">
-          ethaan kooduthal <strong className="text-red-500">real</strong> ullath
-        </h1>
-      </div>
-    );
-
   return (
     <>
       <Head>
