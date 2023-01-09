@@ -11,9 +11,10 @@ const ButtonShopNow = ({ paddingAndStyle, value }: any): any => {
     </button>
   );
 };
-const ButtonAddToCart = ({ className }: any): any => {
+const ButtonAddToCart = ({ className, onClick }: any): any => {
   return (
-    <button
+    <button name='button'
+    onClick={onClick}
       className={`group/btn z-[1] mx-[10px] mt-4 flex h-12 w-full items-center justify-center gap-4 rounded-md  bg-emerald-500 px-3 font-body text-xs text-white outline-none transition-all duration-300 hover:-translate-y-1 hover:bg-yellow-500 ${className}`}
     >
       <Cart className="-m-3 scale-50 fill-white" />
@@ -23,7 +24,7 @@ const ButtonAddToCart = ({ className }: any): any => {
 };
 
 const ButtonAdd = (): any => (
-  <button className="group/btn inline-flex h-8 items-center gap-2 rounded-md bg-emerald-200 px-3 font-body text-emerald-500 transition-transform duration-500 hover:-translate-y-1 hover:bg-emerald-500 hover:fill-white hover:text-white">
+  <button name='button' className="group/btn inline-flex h-8 items-center gap-2 rounded-md bg-emerald-200 px-3 font-body text-emerald-500 transition-transform duration-500 hover:-translate-y-1 hover:bg-emerald-500 hover:fill-white hover:text-white">
     <Cart className="-m-3 scale-50 fill-emerald-500 group-hover/btn:fill-white" />
     Add
   </button>
@@ -36,7 +37,7 @@ const ButtonShowLimit = ({ filteringCount, setFilteringCount }: any): any => {
   };
 
   return (
-    <button
+    <button name='button'
       onClick={handleClick}
       className=" relative inline-flex h-min items-center justify-center gap-3 rounded-xl border bg-transparent px-5 py-3 font-body text-gray-600 outline-none "
     >
@@ -148,7 +149,7 @@ const ButtonSortBy = ({ filteringCount, setFilteringCount }: any): any => {
   ];
 
   return (
-    <button
+    <button name='button'
       onClick={handleClick}
       className="relative inline-flex h-min items-center justify-center gap-3 rounded-xl border bg-transparent px-5 py-3 font-body text-gray-600 outline-none transition-transform duration-300"
     >

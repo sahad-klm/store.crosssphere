@@ -1,5 +1,5 @@
-import { popularProducts } from '@/lib/data';
 import { modulesFinder } from '@/lib/helpers';
+import { productsData } from '@/lib/products';
 import Layout from 'components/layout/layout';
 import Module from 'components/module/Module';
 import Image from 'next/image';
@@ -15,8 +15,8 @@ const index = (data: {
   const { site, page }: any = data;
   const pageName = modulesFinder(`/${pathname?.split('/').slice(1)[0]}/[slug]`);
 
-  const productID = pathname?.split('/').slice(2).toLocaleString()
-  const product = popularProducts.filter((item) => item.id === productID && item)
+  const productID = pathname?.split('/').slice(2).toLocaleString().replaceAll('%20', " ")
+  const product = productsData.filter((item: any) => item.name === productID && item)
 
   
 

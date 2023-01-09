@@ -1,8 +1,9 @@
 'use client';
 import { OneProductWithOffer } from '@/ui/OneProductWithOffer';
 import { TextCategory, TextCategoryMob } from '@/ui/TextCategory';
-import { popularProductCategory, popularProducts } from '@/lib/data';
+import { popularProductCategory } from '@/lib/data';
 import React from 'react';
+import { productsData } from '@/lib/products';
 
 type Props = {
   id: React.Key;
@@ -64,7 +65,7 @@ const PopularProducts = (): any => {
       <div
         className="flex w-full flex-row md:flex-wrap justify-start gap-5 overflow-x-scroll md:grid-cols-3 md:grid  md:overflow-visible lg:grid-cols-5"
       >
-        {popularProducts?.map((item: Props) => (
+        {productsData?.map((item: Props) => (
           <OneProductWithOffer
             mouseOver={mouseOver}
             setMouseOver={setMouseOver}

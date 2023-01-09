@@ -14,7 +14,7 @@ import Image from 'next/image';
 
 const HomeComponent = (): any => {
   return (
-    <div className="h-ofHome relative z-10 flex items-center justify-center overflow-hidden px-4 md:h-[590px]  md:pt-7">
+  <div className="h-ofHome relative z-10 flex items-center justify-center overflow-hidden px-4 md:h-[590px]  md:pt-7">
       <Swiper
         modules={[Navigation, Pagination, Scrollbar, Autoplay]}
         slidesPerView={1}
@@ -34,10 +34,9 @@ const HomeComponent = (): any => {
               style={{ width: '100%', height: '100%' }}
             >
               <div className="relative z-auto grid h-full content-center overflow-hidden rounded-3xl p-10 md:pl-20">
-                <Image width={1440} height={1000} loading='lazy'
+                <Image width={1440} height={1000} loading='lazy' blurDataURL={item.picture}
                   className="absolute top-0 left-0 -z-10 h-full w-full object-cover"
-                  // src={item.picture}
-                  src={'https://cdn.shopify.com/s/files/1/0652/4570/8532/files/slider-1-2.jpg?v=1659427625&width=2100'}
+                  src={item.picture}
                   alt="wallpaper"
                 />
                 <motion.h1
@@ -71,7 +70,7 @@ const HomeComponent = (): any => {
                     placeholder="Your email address"
                     className="h-full font-body text-sm tracking-wide text-gray-700 outline-none"
                   />
-                  <button className="absolute -right-1 h-full rounded-full bg-emerald-500 px-5 font-body text-sm tracking-wider text-white outline-none transition hover:bg-emerald-600 sm:px-10">
+                  <button name='button' className="absolute -right-1 h-full rounded-full bg-emerald-500 px-5 font-body  text-sm tracking-wider text-white outline-none transition hover:bg-emerald-600 sm:px-10">
                     Subscribe
                   </button>
                 </motion.form>

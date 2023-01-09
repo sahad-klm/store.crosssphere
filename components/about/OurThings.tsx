@@ -8,6 +8,7 @@ const OurThings = () => (
       <m.div
         initial="hide"
         whileInView="show"
+        viewport={{once: true}}
         exit="hide"
         variants={{
           show: {

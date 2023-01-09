@@ -1,4 +1,4 @@
-import { Cart, Fire, Icon, Love, MilkAndDiraseIcon, Spinner, User } from './icon';
+import { Cart, ConnectIcon, DealIcon, DeliveryIcon, Fire, FruitIcon, Icon, LeafIcon, Love, OfferIcon, OilIcon, OtherIcon, SatisfactionIcon, SpicesIcon, Spinner, User, VegetableIcon, WideIcon } from './icon';
 import { v4 as uuid } from 'uuid';
 
 type Props = {
@@ -22,14 +22,14 @@ export const lastOneInNav: Props[] = [
   {
     id: 2,
     icon: (
-      <Love className="scale-[.4] fill-gray-700 duration-300 hover:fill-emerald-500 group-hover/btn:fill-emerald-500 max-sm:-mx-1 sm:scale-[.6]" />
+      <Love className="scale-[.4] fill-gray-700 duration-300 hover:fill-emerald-500 group-hover/btn:fill-emerald-500 max-sm:-mx-1 sm:scale-[.6] " />
     ),
     name: 'Wishlist',
   },
   {
     id: 3,
     icon: (
-      <Cart className="scale-[.5] fill-gray-700 duration-300 hover:fill-emerald-500 group-hover/btn:fill-emerald-500 max-sm:-mx-5 sm:scale-[.6]" />
+      <Cart className="scale-[.4] fill-gray-700 duration-300 hover:fill-emerald-500 group-hover/btn:fill-emerald-500 max-sm:-mx-5 sm:scale-[.6] " />
     ),
     name: 'Cart',
   },
@@ -57,7 +57,7 @@ export const navbarLastCategory: {
       id: 2,
       icon: '',
       name: 'Home',
-      slug: '/'
+      slug: ''
     },
 
     {
@@ -70,7 +70,7 @@ export const navbarLastCategory: {
       id: 4,
       icon: '',
       name: 'Shop',
-      slug: '/collections/all'
+      slug: 'collections/all'
 
     },
     {
@@ -174,144 +174,99 @@ export const navbarLastCategory: {
 export const BrowseAllCategories: Props[] = [
   {
     id: 1,
-    icon: <MilkAndDiraseIcon className='h-[30px] w-[30px]' />,
+    icon: <VegetableIcon className="h-[30px] w-[30px]" />,
     name: 'Vegetables',
-    picture: 'https://cdn.shopify.com/s/files/1/0652/4570/8532/collections/Picture1.png?v=1661419633&width=768',
-    slug: 'milks-and-dairies',
-    bg: '#6a8c697d',
-    items: 12,
+    picture: '/featured/vegetables.png',
+    slug: 'vegetables',
+    bg: '#fffceb',
+    items: 13,
   },
   {
     id: 2,
-    icon: <Icon className="h-7" />,
-    name: 'Spices Oil',
-    picture: '/favicon.ico',
-    slug: 'milks-and-dairies',
-    bg: '#4f46e5',
-    items: 13,
-  },
-  {
-    id: 3,
-    icon: <Icon className="h-7" />,
-    name: 'Milks and Dairies',
-    picture: '/favicon.ico',
-    slug: 'milks-and-dairies',
-    bg: '#a7f3d0',
+    icon: <SpicesIcon className="h-[30px] w-[30px]" />,
+    name: 'Spices',
+    picture: '/featured/spices.png',
+    slug: 'spices',
+    bg: '#ecffec',
     items: 15,
   },
   {
-    id: 4,
-    icon: <Icon className="h-7" />,
-    name: 'Milks and Dairies',
-    picture: '/favicon.ico',
-    slug: 'milks-and-dairies',
-    bg: '#a7f3d0',
-    items: 17,
-  },
-  {
-    id: 5,
-    icon: <Icon className="h-7" />,
-    name: 'Milks and Dairies',
-    picture: '/favicon.ico',
-    slug: 'milks-and-dairies',
-    bg: '#4f46e5',
-    items: 11,
-  },
-  {
-    id: 6,
-    icon: <Icon className="h-7" />,
-    name: 'Milks and Dairies',
-    picture: '/favicon.ico',
-    slug: 'milks-and-dairies',
-    bg: '#a7f3d0',
-    items: 16,
-  },
-  {
-    id: 7,
-    icon: <Icon className="h-7" />,
-    name: 'Milks and Dairies',
-    picture: '/favicon.ico',
-    slug: 'milks-and-dairies',
-    bg: '#4f46e5',
-    items: 17,
-  },
-  {
-    id: 8,
-    icon: <Icon className="h-7" />,
-    name: 'Milks and Dairies',
-    picture: '/favicon.ico',
-    slug: 'milks-and-dairies',
-    bg: '#a7f3d0',
-    items: 18,
-  },
-  {
-    id: 9,
-    icon: <Icon className="h-7" />,
-    name: 'Milks and Dairies',
-    picture: '/favicon.ico',
-    slug: 'milks-and-dairies',
-    bg: '#818cf8',
-    items: 11,
-  },
-  {
-    id: 10,
-    icon: <Icon className="h-7" />,
-    name: 'Milks and Dairies',
-    picture: '/favicon.ico',
-    slug: 'milks-and-dairies',
-    bg: '#a7f3d0',
-    items: 188,
-  },
-  {
-    id: 11,
-    icon: <Icon className="h-7" />,
-    name: 'Milks and Dairies',
-    picture: '/favicon.ico',
-    slug: 'milks-and-dairies',
-    bg: '#818cf8',
-    items: 13,
-  },
-  {
-    id: 12,
-    icon: <Icon className="h-7" />,
-    name: 'Milks and Dairies',
-    picture: '/favicon.ico',
-    slug: 'milks-and-dairies',
-    bg: '#a7f3d0',
+    id: 3,
+    icon: <FruitIcon className="h-[30px] w-[30px]" />,
+    name: 'Fruits',
+    picture: '/featured/fruits.png',
+    slug: 'fruits',
+    bg: '#f2fce4',
     items: 12,
   },
   {
-    id: 13,
-    icon: <Icon className="h-7" />,
-    name: 'Milks and Dairies',
-    picture: '/favicon.ico',
-    slug: 'milks-and-dairies',
-    bg: '#a7f3d0',
+    id: 4,
+    icon: <OilIcon className="h-[30px] w-[30px]" />,
+    name: 'Oils',
+    picture: '/featured/oils.png',
+    slug: 'oils',
+    bg: '#fff3eb',
+    items: 11,
+  },
+
+  {
+    id: 5,
+    icon: <LeafIcon className="h-[30px] w-[30px]" />,
+    name: 'Leaves',
+    picture: '/featured/leafvegetable.png',
+    slug: 'leaves',
+    bg: '#fff3ff',
     items: 16,
   },
   {
-    id: 14,
-    icon: <Icon className="h-7" />,
-    name: 'Milks and Dairies',
-    picture: '/favicon.ico',
-    slug: 'milks-and-dairies',
-    bg: '#818cf8',
+    id: 6,
+    icon: <OtherIcon className="h-[30px] w-[30px]" />,
+    name: 'Powder',
+    picture: '/featured/powder.png',
+    slug: 'powder',
+    bg: '#feefea',
     items: 18,
+  },
+  {
+    id: 7,
+    icon: <OtherIcon className="h-[30px] w-[30px]" />,
+    name: 'Others',
+    picture: '/featured/other.png',
+    slug: 'others',
+    bg: '#fffceb',
+    items: 11,
+  },
+  {
+    id: 8,
+    icon: <OtherIcon className="h-[30px] w-[30px]" />,
+    name: 'Flowers',
+    picture: '/featured/flowers.png',
+    slug: 'flowers',
+    bg: '#feefea',
+    items: 17,
+  },
+  {
+    id: 9,
+    icon: <OtherIcon className="h-[30px] w-[30px]" />,
+    name: 'Fishes',
+    picture: '/featured/fishes.png',
+    slug: 'fishes',
+    bg: '#feefea',
+    items: 17,
   },
 ];
 
 export const homeComponentBig = [
   {
     id: 1,
-    picture:
-      'https://i.pinimg.com/originals/70/83/fe/7083fece988b641d8d427ca4f9947059.jpg',
+    picture: '/slider-1-1.webp',
     title: "Don't miss amazing grossly deals",
     subtitle: 'Sign up for daily newsletter',
   },
   {
     id: 2,
-    picture: 'https://www.wallpaperuse.com/wallp/63-634911_m.jpg',
-    title: 'ivde onnul setta valla apnim',
+    picture: '/slider-1-2.webp',
+    title: "Don't miss amazing grossly deals",
     subtitle: 'Sign up for become a fool',
   },
 ];
@@ -321,19 +276,19 @@ export const fracturedMainProduct = [
     id: 1,
     title: 'Everyday Fresh & clean with our products',
     bg: 'yellow',
-    picture: 'https://cdn.shopify.com/s/files/1/0652/4570/8532/collections/Picture1.png?v=1661419633&width=768',
+    picture: '/featured3/cardamomoil1.png',
   },
   {
     id: 2,
     title: 'Everyday Fresh & clean with our products',
     bg: 'green',
-    picture: 'https://i.scdn.co/image/ab67616d00001e02da7ce598b01adcb421e7bdce',
+    picture: '/featured3/mango1.png',
   },
   {
     id: 3,
     title: 'Everyday Fresh & clean with our products',
     bg: 'blue',
-    picture: 'https://i.scdn.co/image/ab67616d00001e02da7ce598b01adcb421e7bdce',
+    picture: '/featured3/coconut1.png',
   },
 ];
 
@@ -344,489 +299,30 @@ export const popularProductCategory = [
   },
   {
     id: 2,
-    name: 'Milk & Daies',
+    name: 'Vegetables',
   },
   {
     id: 3,
-    name: 'Alvvsd',
+    name: 'Spices',
   },
   {
     id: 4,
-    name: 'Allafasf',
+    name: 'Fruits',
   },
   {
     id: 5,
-    name: 'Allaf',
+    name: 'Leaves',
   },
   {
     id: 6,
-    name: 'Aasdll',
-  },
-  {
-    id: 7,
-    name: 'Alsffl',
-  },
-];
-export const popularProducts = [
-  {
-    id: uuid(),
-    name: 'Nasltlee orginal coffee-mate coffee creamer',
-    rating: 4.0,
-    tags: 'black plum,silopy kujjapu,vegetable',
-    rate: 10.4,
-    offer: 7,
-
-    categorySlug: 'milks-and-dairies',
-    category: 'Milk & Daies',
-    picture: 'https://cdn.shopify.com/s/files/1/0652/4570/8532/collections/Picture1.png?v=1661419633&width=768',
-    bacPicture:
-      '',
-    smallDetail:
-      'Uninhibited carnally hired played in whimpered dear gorilla koala depending and much yikes off far quetzal goodness and from for grimaced goodness unaccountably and meadowlark near unblushingly crucial scallop tightly neurotic hungrily some and dear furiously this apart.',
-    details: [
-      {
-        id: 1,
-        part: 'Description',
-        items: [
-          {
-            id: 1,
-            title: '',
-            detail:
-              'Uninhibited carnally hired played in whimpered dear gorilla koala depending and much yikes off far quetzal goodness and from for grimaced goodness unaccountably and meadowlark near unblushingly crucial scallop tightly neurotic hungrily some and dear furiously this apart. <br/> Spluttered narrowly yikes left moth in yikes bowed this that grizzly much hello on spoon-fed that alas rethought much decently richly and wow against the frequent fluidly at formidable acceptably flapped beside and much circa far over the bucolically hey precarious goldfinch mastodon goodness gnashed a jellyfish and one however because.',
-          },
-          {
-            id: 2,
-            title: 'Packaging & Delivery',
-            detail:
-              'Less lion goodness that euphemistically robin expeditiously bluebird smugly scratched far while thus cackled sheepishly rigid after due one assenting regarding censorious while occasional or this more crane went more as this less much amid overhung anathematic because much held one exuberantly sheep goodness so where rat wry well concomitantly. ~ Scallop or far crud plain remarkably far by thus far iguana lewd precociously and less rattlesnake contrary caustic wow this near, alas and next and pled the yikes articulate about as less cackled dalmatian in much less well jeering for the thanks blindly sentimental whimpered less across objectively fanciful grimaced wildly some wow and rose jeepers outgrew lugubrious luridly irrationally attractively dachshund.',
-          },
-          {
-            id: 3,
-            title: 'Suggested Use',
-            detail: 'Refrigeration is not necessary. ~ Stir before serving',
-          },
-          {
-            id: 4,
-            title: 'Other Ingredients',
-            detail:
-              'Organic raw pecans, organic raw cashews. ~ This butter was produced using an LTG (Low-Temperature Grinding) process. ~ Made in machinery that processes tree nuts but does not process peanuts, gluten, dairy, or soy',
-          },
-          {
-            id: 5,
-            title: 'Warnings',
-            detail:
-              'Oil separation occurs naturally. May contain pieces of shell.',
-          },
-        ],
-      },
-      {
-        id: 2,
-        part: 'Additional info',
-        items: [
-          {
-            id: 1,
-            detail: 'ivdea oru kundavum illa',
-          },
-        ],
-      },
-      {
-        id: 3,
-        part: 'Reviews',
-        items: [
-          {
-            id: '1',
-            name: 'shad kolkalm',
-            date: 'Sep 14, 2022',
-            title: 'CLEAN DESIGN, ROOMY & VIBRANT',
-            text: 'Uninhibited carnally hired played in whimpered dear gorilla koala depending and much yikes off far quetzal goodness and from for grimaced goodness unaccountably and meadowlark near unblushingly crucial scallop tightly',
-            rating: 3.5,
-          },
-        ],
-      },
-    ],
-  },
-  {
-    id: uuid(),
-    name: 'Nasltlee orginal coffee-mate coffee creamer',
-    rating: 4.0,
-    tags: 'black plum, organic, silopy kujjapu',
-    rate: 10.4,
-    offer: 7,
-    categorySlug: 'milks-and-dairies',
-    category: 'Milk & Daies',
-    picture: 'https://cdn.hswstatic.com/gif/koi.jpg',
-    bacPicture:
-      'https://cdn.britannica.com/99/234299-050-9CDD78E1/Koi-fish-swimming-carp.jpg',
-    smallDetail:
-      'Uninhibited carnally hired played in whimpered dear gorilla koala depending and much yikes off far quetzal goodness and from for grimaced goodness unaccountably and meadowlark near unblushingly crucial scallop tightly neurotic hungrily some and dear furiously this apart.',
-    details: [
-      {
-        id: 1,
-        part: 'Description',
-        items: [
-          {
-            id: 1,
-            title: '',
-            detail:
-              'Uninhibited carnally hired played in whimpered dear gorilla koala depending and much yikes off far quetzal goodness and from for grimaced goodness unaccountably and meadowlark near unblushingly crucial scallop tightly neurotic hungrily some and dear furiously this apart. <br/> Spluttered narrowly yikes left moth in yikes bowed this that grizzly much hello on spoon-fed that alas rethought much decently richly and wow against the frequent fluidly at formidable acceptably flapped beside and much circa far over the bucolically hey precarious goldfinch mastodon goodness gnashed a jellyfish and one however because.',
-          },
-          {
-            id: 2,
-            title: 'Packaging & Delivery',
-            detail:
-              'Less lion goodness that euphemistically robin expeditiously bluebird smugly scratched far while thus cackled sheepishly rigid after due one assenting regarding censorious while occasional or this more crane went more as this less much amid overhung anathematic because much held one exuberantly sheep goodness so where rat wry well concomitantly. ~ Scallop or far crud plain remarkably far by thus far iguana lewd precociously and less rattlesnake contrary caustic wow this near, alas and next and pled the yikes articulate about as less cackled dalmatian in much less well jeering for the thanks blindly sentimental whimpered less across objectively fanciful grimaced wildly some wow and rose jeepers outgrew lugubrious luridly irrationally attractively dachshund.',
-          },
-          {
-            id: 3,
-            title: 'Suggested Use',
-            detail: 'Refrigeration is not necessary. ~ Stir before serving',
-          },
-          {
-            id: 4,
-            title: 'Other Ingredients',
-            detail:
-              'Organic raw pecans, organic raw cashews. ~ This butter was produced using an LTG (Low-Temperature Grinding) process. ~ Made in machinery that processes tree nuts but does not process peanuts, gluten, dairy, or soy',
-          },
-          {
-            id: 5,
-            title: 'Warnings',
-            detail:
-              'Oil separation occurs naturally. May contain pieces of shell.',
-          },
-        ],
-      },
-      {
-        id: 2,
-        part: 'Additional info',
-        items: [
-          {
-            id: 1,
-            detail: 'ivdea oru kundavum illa',
-          },
-        ],
-      },
-      {
-        id: 3,
-        part: 'Reviews',
-        items: [
-          {
-            id: '1',
-            name: 'shad kolkalm',
-            date: 'Sep 14, 2022',
-            title: 'CLEAN DESIGN, ROOMY & VIBRANT',
-            text: 'Uninhibited carnally hired played in whimpered dear gorilla koala depending and much yikes off far quetzal goodness and from for grimaced goodness unaccountably and meadowlark near unblushingly crucial scallop tightly',
-            rating: 3.5,
-          },
-        ],
-      },
-    ],
-  },
-  {
-    id: uuid(),
-    name: 'Nasltlee orginal coffee-mate coffee creamer',
-    rating: 4.0,
-    tags: 'black plum, organic, silopy kujjapu',
-    rate: 10.4,
-    offer: 7,
-    categorySlug: 'milks-and-dairies',
-    category: 'Milk & Daies',
-    picture: 'https://cdn.hswstatic.com/gif/koi.jpg',
-    bacPicture:
-      'https://cdn.britannica.com/99/234299-050-9CDD78E1/Koi-fish-swimming-carp.jpg',
-    smallDetail:
-      'Uninhibited carnally hired played in whimpered dear gorilla koala depending and much yikes off far quetzal goodness and from for grimaced goodness unaccountably and meadowlark near unblushingly crucial scallop tightly neurotic hungrily some and dear furiously this apart.',
-    details: [
-      {
-        id: 1,
-        part: 'Description',
-        items: [
-          {
-            id: 1,
-            title: '',
-            detail:
-              'Uninhibited carnally hired played in whimpered dear gorilla koala depending and much yikes off far quetzal goodness and from for grimaced goodness unaccountably and meadowlark near unblushingly crucial scallop tightly neurotic hungrily some and dear furiously this apart. <br/> Spluttered narrowly yikes left moth in yikes bowed this that grizzly much hello on spoon-fed that alas rethought much decently richly and wow against the frequent fluidly at formidable acceptably flapped beside and much circa far over the bucolically hey precarious goldfinch mastodon goodness gnashed a jellyfish and one however because.',
-          },
-          {
-            id: 2,
-            title: 'Packaging & Delivery',
-            detail:
-              'Less lion goodness that euphemistically robin expeditiously bluebird smugly scratched far while thus cackled sheepishly rigid after due one assenting regarding censorious while occasional or this more crane went more as this less much amid overhung anathematic because much held one exuberantly sheep goodness so where rat wry well concomitantly. ~ Scallop or far crud plain remarkably far by thus far iguana lewd precociously and less rattlesnake contrary caustic wow this near, alas and next and pled the yikes articulate about as less cackled dalmatian in much less well jeering for the thanks blindly sentimental whimpered less across objectively fanciful grimaced wildly some wow and rose jeepers outgrew lugubrious luridly irrationally attractively dachshund.',
-          },
-          {
-            id: 3,
-            title: 'Suggested Use',
-            detail: 'Refrigeration is not necessary. ~ Stir before serving',
-          },
-          {
-            id: 4,
-            title: 'Other Ingredients',
-            detail:
-              'Organic raw pecans, organic raw cashews. ~ This butter was produced using an LTG (Low-Temperature Grinding) process. ~ Made in machinery that processes tree nuts but does not process peanuts, gluten, dairy, or soy',
-          },
-          {
-            id: 5,
-            title: 'Warnings',
-            detail:
-              'Oil separation occurs naturally. May contain pieces of shell.',
-          },
-        ],
-      },
-      {
-        id: 2,
-        part: 'Additional info',
-        items: [
-          {
-            id: 1,
-            detail: 'ivdea oru kundavum illa',
-          },
-        ],
-      },
-      {
-        id: 3,
-        part: 'Reviews',
-        items: [
-          {
-            id: '1',
-            name: 'shad kolkalm',
-            date: 'Sep 14, 2022',
-            title: 'CLEAN DESIGN, ROOMY & VIBRANT',
-            text: 'Uninhibited carnally hired played in whimpered dear gorilla koala depending and much yikes off far quetzal goodness and from for grimaced goodness unaccountably and meadowlark near unblushingly crucial scallop tightly',
-            rating: 3.5,
-          },
-        ],
-      },
-    ],
-  },
-  {
-    id: uuid(),
-    name: 'Nasltlee orginal coffee-mate coffee creamer',
-    rating: 4.0,
-    tags: 'black plum, organic, silopy kujjapu',
-    rate: 10.4,
-    offer: 7,
-    categorySlug: 'milks-and-dairies',
-    category: 'Milk & Daies',
-    picture: 'https://cdn.hswstatic.com/gif/koi.jpg',
-    bacPicture:
-      'https://cdn.britannica.com/99/234299-050-9CDD78E1/Koi-fish-swimming-carp.jpg',
-    smallDetail:
-      'Uninhibited carnally hired played in whimpered dear gorilla koala depending and much yikes off far quetzal goodness and from for grimaced goodness unaccountably and meadowlark near unblushingly crucial scallop tightly neurotic hungrily some and dear furiously this apart.',
-    details: [
-      {
-        id: 1,
-        part: 'Description',
-        items: [
-          {
-            id: 1,
-            title: '',
-            detail:
-              'Uninhibited carnally hired played in whimpered dear gorilla koala depending and much yikes off far quetzal goodness and from for grimaced goodness unaccountably and meadowlark near unblushingly crucial scallop tightly neurotic hungrily some and dear furiously this apart. <br/> Spluttered narrowly yikes left moth in yikes bowed this that grizzly much hello on spoon-fed that alas rethought much decently richly and wow against the frequent fluidly at formidable acceptably flapped beside and much circa far over the bucolically hey precarious goldfinch mastodon goodness gnashed a jellyfish and one however because.',
-          },
-          {
-            id: 2,
-            title: 'Packaging & Delivery',
-            detail:
-              'Less lion goodness that euphemistically robin expeditiously bluebird smugly scratched far while thus cackled sheepishly rigid after due one assenting regarding censorious while occasional or this more crane went more as this less much amid overhung anathematic because much held one exuberantly sheep goodness so where rat wry well concomitantly. ~ Scallop or far crud plain remarkably far by thus far iguana lewd precociously and less rattlesnake contrary caustic wow this near, alas and next and pled the yikes articulate about as less cackled dalmatian in much less well jeering for the thanks blindly sentimental whimpered less across objectively fanciful grimaced wildly some wow and rose jeepers outgrew lugubrious luridly irrationally attractively dachshund.',
-          },
-          {
-            id: 3,
-            title: 'Suggested Use',
-            detail: 'Refrigeration is not necessary. ~ Stir before serving',
-          },
-          {
-            id: 4,
-            title: 'Other Ingredients',
-            detail:
-              'Organic raw pecans, organic raw cashews. ~ This butter was produced using an LTG (Low-Temperature Grinding) process. ~ Made in machinery that processes tree nuts but does not process peanuts, gluten, dairy, or soy',
-          },
-          {
-            id: 5,
-            title: 'Warnings',
-            detail:
-              'Oil separation occurs naturally. May contain pieces of shell.',
-          },
-        ],
-      },
-      {
-        id: 2,
-        part: 'Additional info',
-        items: [
-          {
-            id: 1,
-            detail: 'ivdea oru kundavum illa',
-          },
-        ],
-      },
-      {
-        id: 3,
-        part: 'Reviews',
-        items: [
-          {
-            id: '1',
-            name: 'shad kolkalm',
-            date: 'Sep 14, 2022',
-            title: 'CLEAN DESIGN, ROOMY & VIBRANT',
-            text: 'Uninhibited carnally hired played in whimpered dear gorilla koala depending and much yikes off far quetzal goodness and from for grimaced goodness unaccountably and meadowlark near unblushingly crucial scallop tightly',
-            rating: 3.5,
-          },
-        ],
-      },
-    ],
-  },
-  {
-    id: uuid(),
-    name: 'Nasltlee orginal coffee-mate coffee creamer',
-    rating: 4.0,
-    tags: 'black plum, organic, silopy kujjapu',
-    rate: 10.4,
-    offer: 7,
-    picture: 'https://cdn.hswstatic.com/gif/koi.jpg',
-    bacPicture:
-      'https://cdn.britannica.com/99/234299-050-9CDD78E1/Koi-fish-swimming-carp.jpg',
-    smallDetail:
-      'Uninhibited carnally hired played in whimpered dear gorilla koala depending and much yikes off far quetzal goodness and from for grimaced goodness unaccountably and meadowlark near unblushingly crucial scallop tightly neurotic hungrily some and dear furiously this apart.',
-    details: [
-      {
-        id: 1,
-        part: 'Description',
-        items: [
-          {
-            id: 1,
-            title: '',
-            detail:
-              'Uninhibited carnally hired played in whimpered dear gorilla koala depending and much yikes off far quetzal goodness and from for grimaced goodness unaccountably and meadowlark near unblushingly crucial scallop tightly neurotic hungrily some and dear furiously this apart. <br/> Spluttered narrowly yikes left moth in yikes bowed this that grizzly much hello on spoon-fed that alas rethought much decently richly and wow against the frequent fluidly at formidable acceptably flapped beside and much circa far over the bucolically hey precarious goldfinch mastodon goodness gnashed a jellyfish and one however because.',
-          },
-          {
-            id: 2,
-            title: 'Packaging & Delivery',
-            detail:
-              'Less lion goodness that euphemistically robin expeditiously bluebird smugly scratched far while thus cackled sheepishly rigid after due one assenting regarding censorious while occasional or this more crane went more as this less much amid overhung anathematic because much held one exuberantly sheep goodness so where rat wry well concomitantly. ~ Scallop or far crud plain remarkably far by thus far iguana lewd precociously and less rattlesnake contrary caustic wow this near, alas and next and pled the yikes articulate about as less cackled dalmatian in much less well jeering for the thanks blindly sentimental whimpered less across objectively fanciful grimaced wildly some wow and rose jeepers outgrew lugubrious luridly irrationally attractively dachshund.',
-          },
-          {
-            id: 3,
-            title: 'Suggested Use',
-            detail: 'Refrigeration is not necessary. ~ Stir before serving',
-          },
-          {
-            id: 4,
-            title: 'Other Ingredients',
-            detail:
-              'Organic raw pecans, organic raw cashews. ~ This butter was produced using an LTG (Low-Temperature Grinding) process. ~ Made in machinery that processes tree nuts but does not process peanuts, gluten, dairy, or soy',
-          },
-          {
-            id: 5,
-            title: 'Warnings',
-            detail:
-              'Oil separation occurs naturally. May contain pieces of shell.',
-          },
-        ],
-      },
-      {
-        id: 2,
-        part: 'Additional info',
-        items: [
-          {
-            id: 1,
-            detail: 'ivdea oru kundavum illa',
-          },
-        ],
-      },
-      {
-        id: 3,
-        part: 'Reviews',
-        items: [
-          {
-            id: '1',
-            name: 'shad kolkalm',
-            date: 'Sep 14, 2022',
-            title: 'CLEAN DESIGN, ROOMY & VIBRANT',
-            text: 'Uninhibited carnally hired played in whimpered dear gorilla koala depending and much yikes off far quetzal goodness and from for grimaced goodness unaccountably and meadowlark near unblushingly crucial scallop tightly',
-            rating: 3.5,
-          },
-        ],
-      },
-    ],
-  },
-  {
-    id: uuid(),
-    name: 'Nasltlee orginal coffee-mate coffee creamer',
-    rating: 4.5,
-    tags: 'black plum, organic, silopy kujjapu',
-    rate: 10.4,
-    offer: 7,
-    picture: 'https://cdn.hswstatic.com/gif/koi.jpg',
-    bacPicture:
-      'https://cdn.britannica.com/99/234299-050-9CDD78E1/Koi-fish-swimming-carp.jpg',
-    smallDetail:
-      'Uninhibited carnally hired played in whimpered dear gorilla koala depending and much yikes off far quetzal goodness and from for grimaced goodness unaccountably and meadowlark near unblushingly crucial scallop tightly neurotic hungrily some and dear furiously this apart.',
-    details: [
-      {
-        id: 1,
-        part: 'Description',
-        items: [
-          {
-            id: 1,
-            title: '',
-            detail:
-              'Uninhibited carnally hired played in whimpered dear gorilla koala depending and much yikes off far quetzal goodness and from for grimaced goodness unaccountably and meadowlark near unblushingly crucial scallop tightly neurotic hungrily some and dear furiously this apart. <br/> Spluttered narrowly yikes left moth in yikes bowed this that grizzly much hello on spoon-fed that alas rethought much decently richly and wow against the frequent fluidly at formidable acceptably flapped beside and much circa far over the bucolically hey precarious goldfinch mastodon goodness gnashed a jellyfish and one however because.',
-          },
-          {
-            id: 2,
-            title: 'Packaging & Delivery',
-            detail:
-              'Less lion goodness that euphemistically robin expeditiously bluebird smugly scratched far while thus cackled sheepishly rigid after due one assenting regarding censorious while occasional or this more crane went more as this less much amid overhung anathematic because much held one exuberantly sheep goodness so where rat wry well concomitantly. ~ Scallop or far crud plain remarkably far by thus far iguana lewd precociously and less rattlesnake contrary caustic wow this near, alas and next and pled the yikes articulate about as less cackled dalmatian in much less well jeering for the thanks blindly sentimental whimpered less across objectively fanciful grimaced wildly some wow and rose jeepers outgrew lugubrious luridly irrationally attractively dachshund.',
-          },
-          {
-            id: 3,
-            title: 'Suggested Use',
-            detail: 'Refrigeration is not necessary. ~ Stir before serving',
-          },
-          {
-            id: 4,
-            title: 'Other Ingredients',
-            detail:
-              'Organic raw pecans, organic raw cashews. ~ This butter was produced using an LTG (Low-Temperature Grinding) process. ~ Made in machinery that processes tree nuts but does not process peanuts, gluten, dairy, or soy',
-          },
-          {
-            id: 5,
-            title: 'Warnings',
-            detail:
-              'Oil separation occurs naturally. May contain pieces of shell.',
-          },
-        ],
-      },
-      {
-        id: 2,
-        part: 'Additional info',
-        items: [
-          {
-            id: 1,
-            detail: 'ivdea oru kundavum illa',
-          },
-        ],
-      },
-      {
-        id: 3,
-        part: 'Reviews',
-        items: [
-          {
-            id: '1',
-            name: 'shad kolkalm',
-            date: 'Sep 14, 2022',
-            title: 'CLEAN DESIGN, ROOMY & VIBRANT',
-            text: 'Uninhibited carnally hired played in whimpered dear gorilla koala depending and much yikes off far quetzal goodness and from for grimaced goodness unaccountably and meadowlark near unblushingly crucial scallop tightly',
-            rating: 3.5,
-          },
-        ],
-      },
-    ],
+    name: 'Others',
   },
 ];
 
 export const dailyBestSellerCategory = [
   {
     id: 1,
-    name: 'Feathered',
+    name: 'Featured',
   },
   {
     id: 2,
@@ -874,25 +370,25 @@ export const footerAddress = [
   {
     id: 1,
     title: 'Address',
-    subtitle: 'Pathirikode Elnkur(po) majeri(vy) malppuram kerala india',
+    subtitle: 'Kolkalam, Chengottur po, Malappuram, Kerala, India, 676503',
     icon: 'fas fa-map-marker-alt',
   },
   {
     id: 2,
     title: 'Call Us',
-    subtitle: '+91 000-000-00',
+    subtitle: '+91 7034405123',
     icon: 'fas fa-phone',
   },
   {
     id: 3,
     title: 'Email',
-    subtitle: 'sales@gmile.com',
+    subtitle: 'msahad736@gmail.com',
     icon: 'fas fa-envelope',
   },
   {
     id: 4,
     title: 'Hours',
-    subtitle: '10:00 - 18:00, Mon - Sat',
+    subtitle: '24*7',
     icon: 'far fa-clock',
   },
 ];
@@ -1149,20 +645,20 @@ export const footerSocialMedia = [
 export const aboutCompany = [
   {
     id: 1,
-    title: 'Welcome to Logistic Shad',
+    title: 'About us',
     subtitle: [
       {
         id: 1,
         paragraph:
-          "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).",
+          "We have done exceptional things in the past. Today, we are doing exceptional things for the future.",
       },
       {
         id: 2,
         paragraph:
-          "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomized words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on.",
+          "sion Exports has a rich history of raising the bar in the spices,vegetables and fruits industry.the focus has always been on export of live & fresh spices.our company has been expanding rapidly with mission to exceed industry standards by offering an extensive product line, focusing on product innovation and quality control.We stand by our mission to deliver quality products.Merchants from around the world were taking the arduous sea route just to lay their hands on this Queen of products. Realising the global demand for what grew liberally around his kingdom ",
       },
     ],
-    picture: 'Untitled.webp',
+    picture: 'map1.webp',
   },
 ];
 
@@ -1171,60 +667,60 @@ export const what_We_Provide = [
     id: 1,
     title: 'Best Prices & Offers',
     subtitle:
-      'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form',
-    icon: 'favicon.ico',
+      'We provide the best price for you. We negotiate with merchants and find the lowest possible price. We always give you the best price!',
+    icon: <OfferIcon />,
   },
   {
     id: 2,
     title: 'Wide Assortment',
     subtitle:
-      'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form',
-    icon: 'favicon.ico',
+      'We have a wide assortment of products that can be found on our website, and in a few clicks you will find what you are looking for.',
+    icon: <WideIcon />,
   },
   {
     id: 3,
-    title: 'Free Delivery',
+    title: 'Air & Sea Shipping',
     subtitle:
-      'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form',
-    icon: 'favicon.ico',
+      'we can provide air or sea shipment, and the best part is that you do not need to do anything! Just tell us what you want shipped, we will take care of everything else.',
+    icon: <DeliveryIcon />,
   },
   {
     id: 4,
-    title: 'Easy Returns',
+    title: 'Packing',
     subtitle:
-      'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form',
-    icon: 'favicon.ico',
+      'We provide a good packing service. We offer various types of packing such as poly bag, carton box, thermocol, pallet and thermal packages.',
+    icon: <ConnectIcon />,
   },
   {
     id: 5,
-    title: '100% x 531% Satisfaction',
+    title: '100% Satisfaction',
     subtitle:
-      'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form',
-    icon: 'favicon.ico',
+      'We offer customer satisfaction with a personal touch. We find out what the customer needs and then connect them to the best product at the best price.',
+    icon: <SatisfactionIcon />,
   },
   {
     id: 6,
     title: 'Great Daily Deal',
     subtitle:
-      'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form',
-    icon: 'favicon.ico',
+      'We offer a service that ensures that every product sale is authentic and high quality.inspect every product and verified the quality before on export.',
+    icon: <DealIcon />,
   },
 ];
 export const ourPerformance = [
   {
     id: 1,
     title: 'Your Partner for e-commerce grocery solution',
-    smallPicture: 'Untitssssled.webp',
+    smallPicture: 'bananaleaf1.jpeg',
     head: 'Our Performance',
-    bigPicture: 'Unxtitled.webp',
+    bigPicture: 'map1.webp',
     subtitle: [
       {
         id: 1,
-        text: 'Ed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto',
+        text: 'We offer a full range of export services to our clients, including FCL consolidation, container loading, and door-to-door delivery. We are a company that will provide you with a high level of service and goods at the best prices. We have an international team of experts who work closely with our clients to ensure their satisfaction',
       },
       {
         id: 2,
-        text: 'Ed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto',
+        text: 'We are leading exporters of organic spices, vegetables, and other edible items. With operations in continent, we operate with a high level of flexibility to suit customer requirements. Our company is dedicated to sourcing only the finest quality products and delivering them to our customers in a timely manner',
       },
     ],
   },
@@ -1247,14 +743,14 @@ export const ourThings = [
     id: 3,
     title: 'Our mission',
     subtitle:
-      'Volutpat diam ut venenatis tellus in metus. Nec dui nunc mattis enim ut tellus eros donec ac odio orci ultrices in. ellus eros donec ac odio orci ultrices in.',
+      'We make your business more profitable. We haveve done the work to find the best products for your customers and negotiate with suppliers for the best prices. We have done everything to help you focus on what you do best',
   },
   {
     id: 4,
     totalInAll: [
       {
         id: 6,
-        bg: 'https://s.itl.cat/pngfile/s/5-56036_64-dual-monitor-wallpapers-dual-monitor-wallpaper-hd.jpg',
+        bg: '/vegba2.jpg',
       },
       {
         id: 1,
@@ -1293,19 +789,19 @@ export const ourThings = [
         text: [
           {
             id: 1,
-            text: 'Proin ullamcorper pretium orci. Donec necscele risque leo. Nam massa dolor imperdiet neccon sequata congue idsem. Maecenas malesuada faucibus finibus.',
+            text: `We are a team of export specialists with years of experience in the industry.`,
           },
           {
             id: 2,
-            text: 'Proin ullamcorper pretium orci. Donec necscele risque leo. Nam massa dolor imperdiet neccon sequata congue idsem. Maecenas malesuada faucibus finibus.',
+            text: 'We are here to help you find the best overseas markets and suppliers for your product. We take care of all the logistics and paperwork, so you can focus on what matters most: getting your product to market.',
           },
         ],
         persons: [
           {
             id: 1,
-            name: 'Shad logastic',
-            picture: 'Unxtitled.webp',
-            post: 'OSSY & Copyadi',
+            name: 'Shad Klm',
+            picture: 'profile.svg',
+            post: 'Mothalai Of this Company',
             socialMedia: [
               {
                 id: 1,
@@ -1331,9 +827,9 @@ export const ourThings = [
           },
           {
             id: 2,
-            name: 'logastic Shad',
-            picture: 'Untiztled.webp',
-            post: 'UDDYIP & tihilrahitan',
+            name: 'Masroor',
+            picture: 'profile.svg',
+            post: 'C.A',
             socialMedia: [
               {
                 id: 1,
@@ -1371,11 +867,11 @@ export const contact = [
     text: [
       {
         id: 1,
-        text: 'Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College',
+        text: 'We offer a range of services and solutions to suit the needs of any business.',
       },
       {
         id: 2,
-        text: 'words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus ',
+        text: 'We can help you with all the export formalities. We specialize in export of high-end goods. Our team of agents are experienced in customs clearance and documentation. Contact us now to find out more!',
       },
     ],
   },
@@ -1386,25 +882,25 @@ export const contact = [
         id: 1,
         order: '01',
         title: 'Visit Feedback',
-        text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.',
+        text: 'We receive feedback from our customers.We want to be able to maintain a high customer rating, provide a consistent experience for each visitor, and work on improvements.',
       },
       {
         id: 2,
         order: '02',
         title: 'Employer Services',
-        text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.',
+        text: 'We take care of every aspect of finding, interviewing, and hiring the best talent for your company.Our mission is to ensure a safe, ethical, and enjoyable workplace for everyone.',
       },
       {
         id: 3,
         order: '03',
         title: 'Billing Inquiries',
-        text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.',
+        text: 'Our Billing Inquiries service is a one-stop shop for all of your import and export needs,offering extensive knowledge and experience in all aspects of the trade.',
       },
       {
         id: 4,
         order: '04',
         title: 'General Inquiries',
-        text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.',
+        text: `We provide a general inquiries for goods that's as easy as texting through WhatsApp and E-mail!Just text the name of product.`,
       },
     ],
   },
@@ -1415,25 +911,25 @@ export const contact = [
         id: 1,
         title: 'Office',
         address:
-          'pathirikode , Elenkur PO, PIN : 676122, malppuram, kerala, India',
-        phone: '+91 97494 8393',
-        email: 'koiori@jmil.kom',
+          'Kolkalam,Chengottur Po, Malappuram, Kerala, India 676503',
+        phone: '+91 70344 05123',
+        email: 'msahad736@gmail.com',
       },
       {
         id: 2,
         title: 'Studio',
         address:
-          'pathirikode , Elenkur PO, PIN : 676122, malppuram, kerala, India',
-        phone: '+91 97494 8393',
-        email: 'koiori@jmil.kom',
+          'Kolkalam,Chengottur Po, Malappuram, Kerala, India 676503',
+        phone: '+91 70344 05123',
+        email: 'sahadklm759@gmail.com',
       },
       {
         id: 3,
         title: 'Shop',
         address:
-          'pathirikode , Elenkur PO, PIN : 676122, malppuram, kerala, India',
-        phone: '+91 97494 8393',
-        email: 'koiori@jmil.kom',
+          'Kolkalam,Chengottur Po, Malappuram, Kerala, India 676503',
+        phone: '+91 70344 05123',
+        email: 'msahad736@gmail.com',
       },
     ],
   },

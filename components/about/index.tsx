@@ -1,4 +1,5 @@
 import HeadRootNames from '@/ui/HeadRootNames';
+import { domAnimation, LazyMotion } from 'framer-motion';
 import Error from 'next/error';
 import React, { useState } from 'react';
 import OurPerformance from './OurPerformance';
@@ -14,13 +15,15 @@ const About = (): JSX.Element => {
   if (isError)
     return (
       <Error
-        statusCode="seem ann bro"
+        statusCode={404}
         title={`sathanam missing ann pinnea va `}
       />
     );
   return (
     <div className="relative flex w-full flex-col items-center justify-center overflow-hidden max-lg:mt-[100px] ">
       <HeadRootNames customPath="About" />
+      <LazyMotion features={domAnimation}>
+
       <div className="mx-4  grid lg:mx-[5%] xl:mx-[10%]">
         <SmallIntroduction />
         <WhatWeProvide />
@@ -33,6 +36,7 @@ const About = (): JSX.Element => {
       <div className="mx-4 grid lg:mx-[5%] xl:mx-[10%]">
         <OutTeam />
       </div>
+      </LazyMotion>
     </div>
   );
 };

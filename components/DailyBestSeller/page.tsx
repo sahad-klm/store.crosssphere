@@ -4,6 +4,8 @@ import { ButtonShopNow } from '@/ui/button';
 import DailyBestSellerInOneLine from './inOneLine/DailyBestSellerInOneLine';
 import { dailyBestSellerCategory } from '@/lib/data';
 import Image from 'next/image';
+import { OneProductWithOffer } from '@/ui/OneProductWithOffer';
+import { productsData } from '@/lib/products';
 
 const DailyBestSeller = (): any => {
   const [isSelectedCatN, setIsSelectedCatN] = React.useState(
@@ -13,15 +15,6 @@ const DailyBestSeller = (): any => {
 
   const [mouseOver, setMouseOver] = React.useState<string | any>('');
   const [windowWidth, setWindowWidth] = React.useState<number | any>();
-
-  const swiperPrev: number | any = () => {
-    if (windowWidth > 1300) return 5;
-    else if (windowWidth > 1200) return 4;
-    else if (windowWidth > 978) return 3;
-    else if (windowWidth > 788) return 2;
-    else if (windowWidth > 768) return 1;
-    else if (windowWidth < 768) return 1;
-  };
 
   React.useEffect(() => {
     if (typeof window !== undefined) {
@@ -75,25 +68,30 @@ const DailyBestSeller = (): any => {
       </div>
 
       <div className="flex w-full flex-col justify-start gap-5 md:flex-row md:gap-6">
-        <div className="relative z-[1] flex h-[70vh] w-full min-w-[40%] flex-grow-0 flex-col  items-start gap-12 overflow-hidden rounded-[18px] p-12 md:h-auto md:min-w-[300px] md:justify-evenly">
+        <div className="relative z-[1] flex h-[70vh] w-full min-w-[40%] flex-grow-0 flex-col  items-start gap-12 overflow-hidden rounded-[18px] p-12 md:h-auto md:min-w-[300px] md:justify-evenly md:max-w-[350px]">
           <Image height={100}
-            src="https://images.unsplash.com/photo-1520941911699-d1023ca7be1d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE4fHx8ZW58MHx8fHw%3D&w=1000&q=80"
+            src="/bananaleaf1.jpeg"
             alt=""
             loading='lazy'
             width={200}
-            className=" absolute inset-0 -z-10 h-full w-full object-cover brightness-150"
+            className=" absolute inset-0 -z-10 h-full w-full object-cover bg-[#7e7e7e]"
           />
-          <h1 className="font-head text-[38px] leading-9 text-gray-800 md:text-h2 md:leading-10">
-            Bring <br className="hidden md:block" /> Nature into your home
+          <h1 className="font-head text-[38px] leading-9 text-gray-900 md:text-h2 md:leading-10">
+            Bring <br className="hidden md:block" /> Nature Banana Leaves
           </h1>
           <ButtonShopNow paddingAndStyle="px-3 py-2" value="Shop Now" />
         </div>
-        <div className=" hidden w-full items-center justify-center xl:flex">
-          <DailyBestSellerInOneLine
-            mouseOver={mouseOver}
-            setMouseOver={setMouseOver}
-            slidesPerView={5}
-          />
+        <div className="xl:flex hidden w-full items-start justify-start overflow-scroll gap-3">
+          {productsData?.map((item) => (
+            <OneProductWithOffer
+              {...item}
+              setMouseOver={setMouseOver}
+              mouseOver={mouseOver}
+              buttonStyle="add-to-cart"
+              classNameForTotal="max-w-full md:h-full h-full"
+              classNameForPic="h-[37vh] p-1"
+            />
+          ))}
         </div>
 
         <div className="lapHide w-full items-center justify-center">

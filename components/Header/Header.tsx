@@ -8,17 +8,18 @@ import {
   NavLAstInFeistBar2,
 } from './NavLAstInFeistBar';
 import SearchBar from './searchBar';
-import { AnimatePresence, motion } from 'framer-motion';
+import { motion } from 'framer-motion';
 import {
-  fadeAnim,
   textVariant2,
 } from '@/lib/motion';
 import { NavBigOptionsTab, NavBigOptions } from './NavBigOptions';
-import { footerSocialMedia, lastOneInNav } from '@/lib/data';
+import { footerSocialMedia } from '@/lib/data';
 import Link from 'next/link';
 import Image from 'next/image';
+import Cart from './Cart';
 
 function Header(): any {
+  const [isCart, setIsCart] = useState<boolean>(false)
   const [searchOption, setSearchOption] = useState<string | any>(
     'All Catagories',
   );
@@ -39,44 +40,44 @@ function Header(): any {
   const classNameOfListInSearch =
     'h-14 shrink-0 flex items-center text-gray-700 w-full font-head text-base  duration-300 hover:text-emerald-500';
 
-  React.useEffect(() => {
-    if (typeof window !== undefined) {
-      window.addEventListener('scroll', () => {
-        const currentScrollPos = window.pageYOffset;
-        if (currentScrollPos > 200) {
-          setNavHide(true);
-        } else return setNavHide(false);
-      });
-    }
-  }, []);
+  // React.useEffect(() => {
+  //   if (typeof window !== undefined) {
+  //     window.addEventListener('scroll', () => {
+  //       const currentScrollPos = window.pageYOffset;
+  //       if (currentScrollPos > 200) {
+  //         setNavHide(true);
+  //       } else return setNavHide(false);
+  //     });
+  //   }
+  // }, []);
 
-  React.useEffect(() => {
-    const scrollFunction = () => {
-      let maxScroll = document.body.scrollHeight - window.innerHeight;
+  // React.useEffect(() => {
+  //   const scrollFunction = () => {
+  //     let maxScroll = document.body.scrollHeight - window.innerHeight;
 
-      const currentScrollPos = window.pageYOffset;
+  //     const currentScrollPos = window.pageYOffset;
 
-      setTimeout(() => {
-        let currentPotions = window.pageYOffset;
+  //     setTimeout(() => {
+  //       let currentPotions = window.pageYOffset;
 
-        if (currentPotions === currentScrollPos && currentScrollPos < maxScroll)
-          return setBottomHide(true);
-        else setBottomHide(false);
-      }, 150);
-    };
-    if (typeof window !== undefined) {
-      window.addEventListener('scroll', () => scrollFunction());
-    }
-  }, []);
+  //       if (currentPotions === currentScrollPos && currentScrollPos < maxScroll)
+  //         return setBottomHide(true);
+  //       else setBottomHide(false);
+  //     }, 150);
+  //   };
+  //   if (typeof window !== undefined) {
+  //     window.addEventListener('scroll', () => scrollFunction());
+  //   }
+  // }, []);
 
   return (
     <>
       <nav className="relative top-0 z-[1000] hidden w-full flex-col lg:flex ">
         <div className="flex h-[105px] w-full items-center justify-between border-b-[1px] border-solid border-gray-700 border-opacity-20 bg-white py-7 sm:px-4">
-          <Link href="/" className="flex h-full items-center justify-center">
+          <Link aria-label="Read more" href="/" className="flex h-full items-center justify-center">
             <Image width={176} height={100} loading='lazy' alt=''
-              src="/Untitled11-removebg-preview.png"
-              className="h-full w-44 shrink-0 bg-red-300 object-contain"
+              src="/map1.webp"
+              className="h-full w-44 shrink-0  object-cover"
             />
           </Link>
           <SearchBar
@@ -87,7 +88,7 @@ function Header(): any {
             setIsSearchOptionActive={setIsSearchOptionActive}
           />
 
-          <NavLAstInFeistBar />
+          <NavLAstInFeistBar setIsCart={setIsCart}/>
         </div>
 
         <div className="flex h-[105px] w-full items-center justify-start border-b-[1px] border-solid border-gray-700 border-opacity-20 bg-white py-7 px-4">
@@ -103,7 +104,7 @@ function Header(): any {
             <i className="fa-solid fa-headset text-3xl text-gray-800" />
             <div className="grid">
               <h1 className="font-head text-[26px] tracking-[3px] text-emerald-500 leading-6">
-                1900 - 3001
+                7034-405-123
               </h1>
               <p className="font-body text-sm  tracking-wider ">
                 24/7 Support center
@@ -145,14 +146,14 @@ function Header(): any {
             onClick={() => setBrowseAllCategory(true)}
             className="fa-solid fa-bars-staggered w-22 cursor-pointer text-2xl text-gray-700 sm:w-28 sm:text-3xl"
           />
-          <Link href="/" className="flex h-full items-center justify-center">
+          <Link aria-label="Read more" href="/" className="flex h-full items-center justify-center">
             <Image width={176} height={1000} alt='' loading='lazy'
-              src="/favicon.ico"
+              src="/map1.webp"
               className=" h-full w-44 shrink-0 cursor-pointer bg-red-300 object-contain"
             />
           </Link>
           <div>
-            <NavLAstInFeistBar2 />
+            <NavLAstInFeistBar2 setIsCart={setIsCart}/>
           </div>
         </div>
 
@@ -179,7 +180,7 @@ function Header(): any {
           >
             <div className="bg-tabNav relative flex items-center justify-center bg-gray-100 p-5 pt-20">
               <h1 className="font-head text-h3 text-slate-100">
-                Loganstic shad
+                Exports
               </h1>
               <i
                 onClick={() => setBrowseAllCategory(false)}
@@ -206,7 +207,7 @@ function Header(): any {
 
       {/*  */}
       {/*  bottom menus */}
-      <AnimatePresence mode="wait">
+      {/* <AnimatePresence mode="wait">
         <motion.div
           initial="hide"
           animate="show"
@@ -237,7 +238,11 @@ function Header(): any {
             </span>
           </div>
         </motion.div>
-      </AnimatePresence>
+      </AnimatePresence> */}
+
+
+      {/* cart */}
+     <Cart isCart={isCart} setIsCart={setIsCart} />
     </>
   );
 }

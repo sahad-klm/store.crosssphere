@@ -100,7 +100,7 @@ const Footer = () => {
                   } gap-1`}
                 >
                   {item.items.map((link) => (
-                    <a key={link.id} href={link.link}>
+                    <a aria-label="Read more" key={link.id} href={link.link}>
                       <Image
                         width={128}
                         height={48}

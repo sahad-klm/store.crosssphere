@@ -1,7 +1,7 @@
 import { Router } from 'next/router';
 import { useEffect, useMemo, useRef, useState } from 'react';
-import { popularProducts } from './data';
 import { pageController } from './pageController';
+import { productsData } from './products';
 
 export const isBrowser = typeof window !== 'undefined';
 
@@ -185,6 +185,6 @@ export function usePagination({
 }
 
 export function useCategoryProductsFind (name:any) {
-  return popularProducts.filter((item) => item.categorySlug === name?.toLocaleString() || popularProducts.filter((item) => item.id === name?.toLocaleString()  && item
-  ))
+  return productsData.filter((item) => item.categorySlug === name?.toLocaleString()   && item
+  )
 }

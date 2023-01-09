@@ -1,5 +1,4 @@
-
-import { popularProducts } from '@/lib/data';
+import { productsData } from '@/lib/products';
 import React from 'react';
 import ProductWithTimer from './ProductWithTimer';
 
@@ -15,7 +14,7 @@ const DealsOfTheDay = () => {
       <div
         className="overflow-x-scroll  md:gap-5 gap-2 grid md:grid-cols-2 xl:grid-cols-4 xl:grid-rows-1 md:grid-rows-2 grid-rows-1 grid-flow-col w-full" 
       >
-        {popularProducts?.map((item, idx) => (
+        {productsData?.map((item, idx) => (
           <React.Fragment key={item.id}>
             {idx <= 3 && <ProductWithTimer  {...item} />}
           </React.Fragment>
@@ -38,7 +37,7 @@ export const DealsOfTheDayInCollection = () => {
                 </span>
               </div>
               <div className="grid md:grid-flow-col grid-flow-row w-full gap-5 overflow-scroll lg:grid-rows-1 sm:grid-rows-2 xl:grid-cols-none">
-                {popularProducts?.map((item, idx) => (
+                {productsData?.map((item, idx) => (
                   <React.Fragment key={item.id}>
                     {idx <= 3 && <ProductWithTimer {...item} />}
                   </React.Fragment>

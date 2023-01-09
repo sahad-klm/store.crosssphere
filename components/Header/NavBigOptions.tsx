@@ -12,7 +12,7 @@ export function NavBigOptions(): any {
           className="group/item relative grid cursor-pointer grid-flow-col place-content-center items-center"
         >
           {item.icon}
-          <Link
+          <Link aria-label="Read more"
             href={`/${item.slug}`}
             className="font-head text-base text-slate-900 hover:text-emerald-500"
           >
@@ -74,7 +74,7 @@ export const NavBigOptionsTab = ({ setBrowseAllCategory }: React.SetStateAction<
     <ul className="relative flex w-full flex-col">
       {navbarLastCategory?.map((item: any) => (
         <React.Fragment key={item.id}>
-          <Link
+          <Link aria-label="Read more"
             href={`/${!item.subMenu && item.slug}`}
             onClick={() => {
               item.subMenu ? setNaveOptionSwitch(item.name) : setBrowseAllCategory(false)

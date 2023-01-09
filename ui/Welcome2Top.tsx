@@ -10,7 +10,7 @@ const Welcome2Top = () => {
     setYPosition(pageYOffset);
   };
 
-  const handleKeyDown = (e:KeyboardEvent) => {
+  const handleKeyDown = (e: KeyboardEvent) => {
     if (e.which === 27) {
       setYPosition(0)
     }
@@ -18,7 +18,6 @@ const Welcome2Top = () => {
 
   React.useEffect(() => {
     if (isBrowser) {
-      console.log(pageYOffset);
 
       window.addEventListener('scroll', () => {
         const currentPosition = pageYOffset;
@@ -49,7 +48,7 @@ const Welcome2Top = () => {
         },
         hide: {
           y: '100%',
-          opacity : 0
+          opacity: 0
         },
       }}
       transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1] }}

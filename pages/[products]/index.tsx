@@ -12,8 +12,6 @@ const Home = (data: {
   const pathname = usePathname();
   const { site, page }: any = data;
   const pageName = modulesFinder(pathname);
-  console.log(pathname);
-
   if (!pageName[0]) {
     return (
       <>
@@ -26,7 +24,7 @@ const Home = (data: {
           <h1
             style={{ fontSize: '40px', color: 'red', fontFamily: 'monospace' }}
           >
-            ipo sari aaki taraa 0ru <b className="text-green-600">4 sec</b> seen
+            Petten sheriyaakkanam mister <b className="text-green-600">4 sec</b> seen
             ind piine va
           </h1>
         </div>

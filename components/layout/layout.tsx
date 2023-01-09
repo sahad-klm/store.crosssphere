@@ -11,6 +11,12 @@ import { footerSocialMedia } from '@/lib/data';
 import Feathers from 'components/feature/Page';
 import { usePathname } from 'next/navigation';
 import Welcome2Top from '@/ui/Welcome2Top';
+import { FloatingWhatsApp } from 'react-floating-whatsapp'
+import whatsAppIcon from 'public/frut.jpeg'
+
+
+      
+
 
 const pageTransitionAnim = {
   show: {
@@ -50,8 +56,6 @@ const Layout = ({
 
 
   const socialMediaIcon = (platform: string): any => {
-    console.log(platform);
-
     switch (platform) {
       case 'facebook':
         return <FacebookIcon className="h-[20px] w-[20px] fill-white p-0.5" />;
@@ -107,10 +111,14 @@ const Layout = ({
         <main id="content">{children}</main>
 
         {hideFeatures && <Feathers />}
+
+        {/* whatsApp */}
+
+        <FloatingWhatsApp phoneNumber='+91 70344 05123' accountName={'kolkkalm intersry'} avatar='../../public/frut.jpeg' />
         <Footer />
         <div className="mt-[50px] flex flex-col items-center justify-center gap-3 border-t border-emerald-300 px-4 py-4 sm:gap-4 md:flex-row md:justify-between md:gap-5 md:py-6  ">
           <p className="cursor-default select-none text-center font-body text-xs text-gray-500 sm:text-sm md:text-left md:text-base">
-            © 2022, <span className="text-emerald-500">Nest</span>- Copied from
+            © 2022, <span className="text-emerald-500">Ameen</span>- Copied from
             Boostify themes <br />
             No rights reserved
           </p>
@@ -119,10 +127,10 @@ const Layout = ({
               <CallIcon className=" h-7 w-7 fill-gray-400 sm:h-9 sm:w-9 lg:h-10 lg:w-10" />
               <div>
                 <h1 className="font-head text-base  leading-3 text-emerald-500 sm:text-h5  md:text-[26px] lg:leading-10">
-                  1900 - 6666 -
+                  +91 7034405123
                 </h1>
                 <p className="font-body text-[8px]  tracking-widest text-gray-500 sm:text-[10px] lg:text-xs">
-                  Working 8: 00 - 2: 00
+                  Working 24hours * 7weeks
                 </p>
               </div>
             </div>
@@ -130,10 +138,10 @@ const Layout = ({
               <CallIcon className=" h-7 w-7 fill-gray-400 sm:h-9 sm:w-9 lg:h-10 lg:w-10" />
               <div>
                 <h1 className="font-head text-base leading-3  text-emerald-500 sm:text-h5  lg:text-[26px] lg:leading-10">
-                  1900 - 6666
+                  +91 7034405123
                 </h1>
                 <p className="font-body text-[8px]  tracking-widest text-gray-500 sm:text-[10px] lg:text-xs">
-                  Working 8: 00 - 2: 00
+                  Working 8: 00am - 10: 00pm
                 </p>
               </div>
             </div>
@@ -145,7 +153,7 @@ const Layout = ({
               </h3>
               <div className="flex gap-1 sm:gap-2">
                 {footerSocialMedia?.map((item) => (
-                  <a
+                  <a aria-label="Read more"
                     key={item.id}
                     href={item.link}
                     className="grid h-5 w-5 shrink-0 place-content-center rounded-full bg-emerald-500 duration-300 hover:bg-lime-400 sm:h-7 sm:w-7"

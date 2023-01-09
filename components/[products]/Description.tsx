@@ -6,15 +6,12 @@ import { AnimatePresence } from 'framer-motion';
 import React from 'react';
 
 const Description = ({ products }: any) => {
-  console.log(products);
   const [isSelected, setIsSelected] = React.useState(products.details[0].part);
   const [isToggle, setIsToggle] = React.useState<boolean>(false);
 
   const reviews = products.details.filter(
     (item: { part: string }) => item.part === 'Reviews' && item,
   );
-
-  console.log(reviews.map((item: { items: string | any[] }) => item.items));
 
   return (
     <div className="relative flex w-full flex-col items-start overflow-hidden rounded-xl  border py-6 px-8 lg:gap-5 lg:py-10 lg:px-12">
@@ -153,7 +150,7 @@ const Description = ({ products }: any) => {
               )}{' '}
               review
             </p>
-            <button className="group/btn z-[1]  flex h-12 w-max items-center justify-center gap-4 rounded-md  bg-emerald-500 px-9 font-body text-xs text-white transition-all duration-300 hover:-translate-y-1 hover:bg-yellow-500 outline-none">
+            <button name='button' className="group/btn z-[1]  flex h-12 w-max items-center justify-center gap-4 rounded-md  bg-emerald-500 px-9 font-body text-xs text-white transition-all duration-300 hover:-translate-y-1 hover:bg-yellow-500 outline-none">
               Write a review
             </button>
 
