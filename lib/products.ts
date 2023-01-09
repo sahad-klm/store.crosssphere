@@ -3,7 +3,7 @@
 export const productsData = [
 	{
 		id: 101,
-		name: 'Nasltlee orginal coffee-mate coffee creamer',
+		name: 'Green Cardamom',
 		rating: 4.0,
 		tags: 'black plum,silopy kujjapu,vegetable',
 		rate: 10.4,
