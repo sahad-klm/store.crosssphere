@@ -1222,7 +1222,7 @@ export const productsData = [
 
 	{
 		id: 116,
-		name: 'Nasltlee orginal coffee-mate coffee creamer',
+		name: 'Ash Gourd',
 		rating: 4.0,
 		tags: 'black plum, organic, silopy kujjapu',
 		rate: 10.4,
@@ -1300,7 +1300,7 @@ export const productsData = [
 	},
 	{
 		id: 117,
-		name: 'Nasltlee orginal coffee-mate coffee creamer',
+		name: 'Butter Beans',
 		rating: 4.0,
 		tags: 'black plum, organic, silopy kujjapu',
 		rate: 10.4,
@@ -1386,8 +1386,8 @@ export const productsData = [
 		categorySlug: 'spices',
 		category: 'Spices',
 		picture: '/spices/cardamom.png',
-		partOf : 'popular',
-		bgImage: '/frut.jpeg',
+		//partOf : 'popular',
+		//bgImage: '/frut.jpeg',
 		bacPicture:
 			'',
 		smallDetail:
@@ -1456,7 +1456,7 @@ export const productsData = [
 	},
 	{
 		id: 119,
-		name: 'Nasltlee orginal coffee-mate coffee creamer',
+		name: 'Ridge Gourd',
 		rating: 4.0,
 		tags: 'black plum, organic, silopy kujjapu',
 		rate: 10.4,
@@ -1534,7 +1534,7 @@ export const productsData = [
 	},
 	{
 		id: 120,
-		name: 'Nasltlee orginal coffee-mate coffee creamer',
+		name: 'Banana Flower',
 		rating: 4.0,
 		tags: 'black plum, organic, silopy kujjapu',
 		rate: 10.4,
@@ -1612,7 +1612,7 @@ export const productsData = [
 	},
 	{
 		id: 121,
-		name: 'Nasltlee orginal coffee-mate coffee creamer',
+		name: 'Cabbage',
 		rating: 4.0,
 		tags: 'black plum, organic, silopy kujjapu',
 		rate: 10.4,
@@ -1690,7 +1690,7 @@ export const productsData = [
 	},
 	{
 		id: 122,
-		name: 'Nasltlee orginal coffee-mate coffee creamer',
+		name: 'Ladies Finger',
 		rating: 4.0,
 		tags: 'black plum, organic, silopy kujjapu',
 		rate: 10.4,
@@ -1768,7 +1768,7 @@ export const productsData = [
 	},
 	{
 		id: 123,
-		name: 'Nasltlee orginal coffee-mate coffee creamer',
+		name: 'Small Onion',
 		rating: 4.0,
 		tags: 'black plum, organic, silopy kujjapu',
 		rate: 10.4,
@@ -1846,7 +1846,7 @@ export const productsData = [
 	},
 	{
 		id: 124,
-		name: 'Nasltlee orginal coffee-mate coffee creamer',
+		name: 'Banana Stem',
 		rating: 4.0,
 		tags: 'black plum, organic, silopy kujjapu',
 		rate: 10.4,
@@ -1924,7 +1924,7 @@ export const productsData = [
 	},
 	{
 		id: 125,
-		name: 'Nasltlee orginal coffee-mate coffee creamer',
+		name: 'Chayote',
 		rating: 4.0,
 		tags: 'black plum, organic, silopy kujjapu',
 		rate: 10.4,
@@ -2002,7 +2002,7 @@ export const productsData = [
 	},
 	{
 		id: 126,
-		name: 'Nasltlee orginal coffee-mate coffee creamer',
+		name: 'Long Beans',
 		rating: 4.0,
 		tags: 'black plum, organic, silopy kujjapu',
 		rate: 10.4,
@@ -2080,7 +2080,7 @@ export const productsData = [
 	},
 	{
 		id: 127,
-		name: 'Nasltlee orginal coffee-mate coffee creamer',
+		name: 'Snake Gourd',
 		rating: 4.0,
 		tags: 'black plum, organic, silopy kujjapu',
 		rate: 10.4,
@@ -2158,7 +2158,7 @@ export const productsData = [
 	},
 	{
 		id: 128,
-		name: 'Nasltlee orginal coffee-mate coffee creamer',
+		name: 'Chinese Potato',
 		rating: 4.0,
 		tags: 'black plum, organic, silopy kujjapu',
 		rate: 10.4,
@@ -2236,7 +2236,7 @@ export const productsData = [
 	},
 	{
 		id: 129,
-		name: 'Nasltlee orginal coffee-mate coffee creamer',
+		name: 'Onion',
 		rating: 4.0,
 		tags: 'black plum, organic, silopy kujjapu',
 		rate: 10.4,
@@ -2314,7 +2314,7 @@ export const productsData = [
 	},
 	{
 		id: 130,
-		name: 'Nasltlee orginal coffee-mate coffee creamer',
+		name: 'Sweet Potato',
 		rating: 4.0,
 		tags: 'black plum, organic, silopy kujjapu',
 		rate: 10.4,
@@ -2392,7 +2392,7 @@ export const productsData = [
 	},
 	{
 		id: 131,
-		name: 'Nasltlee orginal coffee-mate coffee creamer',
+		name: 'Beans',
 		rating: 4.0,
 		tags: 'black plum, organic, silopy kujjapu',
 		rate: 10.4,
@@ -2470,7 +2470,7 @@ export const productsData = [
 	},
 	{
 		id: 132,
-		name: 'Nasltlee orginal coffee-mate coffee creamer',
+		name: 'Curry Banana',
 		rating: 4.0,
 		tags: 'black plum, organic, silopy kujjapu',
 		rate: 10.4,
@@ -2548,7 +2548,7 @@ export const productsData = [
 	},
 	{
 		id: 133,
-		name: 'Nasltlee orginal coffee-mate coffee creamer',
+		name: 'Tapioca',
 		rating: 4.0,
 		tags: 'black plum, organic, silopy kujjapu',
 		rate: 10.4,
@@ -2626,7 +2626,7 @@ export const productsData = [
 	},
 	{
 		id: 134,
-		name: 'Nasltlee orginal coffee-mate coffee creamer',
+		name: 'Beetroot',
 		rating: 4.0,
 		tags: 'black plum, organic, silopy kujjapu',
 		rate: 10.4,
@@ -2704,7 +2704,7 @@ export const productsData = [
 	},
 	{
 		id: 135,
-		name: 'Nasltlee orginal coffee-mate coffee creamer',
+		name: 'Drumstick',
 		rating: 4.0,
 		tags: 'black plum, organic, silopy kujjapu',
 		rate: 10.4,
@@ -2782,7 +2782,7 @@ export const productsData = [
 	},
 	{
 		id: 136,
-		name: 'Nasltlee orginal coffee-mate coffee creamer',
+		name: 'Papaya Raw',
 		rating: 4.0,
 		tags: 'black plum, organic, silopy kujjapu',
 		rate: 10.4,
@@ -2860,7 +2860,7 @@ export const productsData = [
 	},
 	{
 		id: 137,
-		name: 'Nasltlee orginal coffee-mate coffee creamer',
+		name: 'Taro',
 		rating: 4.0,
 		tags: 'black plum, organic, silopy kujjapu',
 		rate: 10.4,
@@ -2938,7 +2938,7 @@ export const productsData = [
 	},
 	{
 		id: 138,
-		name: 'Nasltlee orginal coffee-mate coffee creamer',
+		name: 'Bitter Gourd',
 		rating: 4.0,
 		tags: 'black plum, organic, silopy kujjapu',
 		rate: 10.4,
@@ -3016,7 +3016,7 @@ export const productsData = [
 	},
 	{
 		id: 139,
-		name: 'Nasltlee orginal coffee-mate coffee creamer',
+		name: 'Green Chilli',
 		rating: 4.0,
 		tags: 'black plum, organic, silopy kujjapu',
 		rate: 10.4,
@@ -3094,7 +3094,7 @@ export const productsData = [
 	},
 	{
 		id: 140,
-		name: 'Nasltlee orginal coffee-mate coffee creamer',
+		name: 'Potato',
 		rating: 4.0,
 		tags: 'black plum, organic, silopy kujjapu',
 		rate: 10.4,
@@ -3172,7 +3172,7 @@ export const productsData = [
 	},
 	{
 		id: 141,
-		name: 'Nasltlee orginal coffee-mate coffee creamer',
+		name: 'Yam',
 		rating: 4.0,
 		tags: 'black plum, organic, silopy kujjapu',
 		rate: 10.4,
@@ -3250,7 +3250,7 @@ export const productsData = [
 	},
 	{
 		id: 142,
-		name: 'Nasltlee orginal coffee-mate coffee creamer',
+		name: 'Tomato',
 		rating: 4.0,
 		tags: 'black plum, organic, silopy kujjapu',
 		rate: 10.4,
@@ -3328,7 +3328,7 @@ export const productsData = [
 	},
 	{
 		id: 143,
-		name: 'Nasltlee orginal coffee-mate coffee creamer',
+		name: 'Bottle Gourd',
 		rating: 4.0,
 		tags: 'black plum, organic, silopy kujjapu',
 		rate: 10.4,
@@ -3406,7 +3406,7 @@ export const productsData = [
 	},
 	{
 		id: 144,
-		name: 'Nasltlee orginal coffee-mate coffee creamer',
+		name: 'Greenpeace',
 		rating: 4.0,
 		tags: 'black plum, organic, silopy kujjapu',
 		rate: 10.4,
@@ -3484,7 +3484,7 @@ export const productsData = [
 	},
 	{
 		id: 145,
-		name: 'Nasltlee orginal coffee-mate coffee creamer',
+		name: 'Pumpkin',
 		rating: 4.0,
 		tags: 'black plum, organic, silopy kujjapu',
 		rate: 10.4,
@@ -3565,7 +3565,7 @@ export const productsData = [
 
 	{
 		id: 160,
-		name: 'Nasltlee orginal coffee-mate coffee creamer',
+		name: 'Corn',
 		rating: 4.0,
 		tags: 'black plum, organic, silopy kujjapu',
 		rate: 10.4,
@@ -3643,7 +3643,7 @@ export const productsData = [
 	},
 	{
 		id: 161,
-		name: 'Nasltlee orginal coffee-mate coffee creamer',
+		name: 'Cucumber',
 		rating: 4.0,
 		tags: 'black plum, organic, silopy kujjapu',
 		rate: 10.4,
@@ -3721,7 +3721,7 @@ export const productsData = [
 	},
 	{
 		id: 162,
-		name: 'Nasltlee orginal coffee-mate coffee creamer',
+		name: 'Custard Apple',
 		rating: 4.0,
 		tags: 'black plum, organic, silopy kujjapu',
 		rate: 10.4,
@@ -3799,7 +3799,7 @@ export const productsData = [
 	},
 	{
 		id: 163,
-		name: 'Nasltlee orginal coffee-mate coffee creamer',
+		name: 'Dragon Fruit',
 		rating: 4.0,
 		tags: 'black plum, organic, silopy kujjapu',
 		rate: 10.4,
@@ -3877,7 +3877,7 @@ export const productsData = [
 	},
 	{
 		id: 164,
-		name: 'Nasltlee orginal coffee-mate coffee creamer',
+		name: 'Gooseberry',
 		rating: 4.0,
 		tags: 'black plum, organic, silopy kujjapu',
 		rate: 10.4,
@@ -3955,7 +3955,7 @@ export const productsData = [
 	},
 	{
 		id: 165,
-		name: 'Nasltlee orginal coffee-mate coffee creamer',
+		name: 'Grape',
 		rating: 4.0,
 		tags: 'black plum, organic, silopy kujjapu',
 		rate: 10.4,
@@ -4033,7 +4033,7 @@ export const productsData = [
 	},
 	{
 		id: 166,
-		name: 'Nasltlee orginal coffee-mate coffee creamer',
+		name: 'Green Banana',
 		rating: 4.0,
 		tags: 'black plum, organic, silopy kujjapu',
 		rate: 10.4,
@@ -4111,7 +4111,7 @@ export const productsData = [
 	},
 	{
 		id: 167,
-		name: 'Nasltlee orginal coffee-mate coffee creamer',
+		name: 'Guava',
 		rating: 4.0,
 		tags: 'black plum, organic, silopy kujjapu',
 		rate: 10.4,
@@ -4189,7 +4189,7 @@ export const productsData = [
 	},
 	{
 		id: 168,
-		name: 'Nasltlee orginal coffee-mate coffee creamer',
+		name: 'Jackfruit',
 		rating: 4.0,
 		tags: 'black plum, organic, silopy kujjapu',
 		rate: 10.4,
@@ -4267,7 +4267,7 @@ export const productsData = [
 	},
 	{
 		id: 169,
-		name: 'Nasltlee orginal coffee-mate coffee creamer',
+		name: 'Lemon',
 		rating: 4.0,
 		tags: 'black plum, organic, silopy kujjapu',
 		rate: 10.4,
@@ -4345,7 +4345,7 @@ export const productsData = [
 	},
 	{
 		id: 170,
-		name: 'Nasltlee orginal coffee-mate coffee creamer',
+		name: 'Papaya',
 		rating: 4.0,
 		tags: 'black plum, organic, silopy kujjapu',
 		rate: 10.4,
@@ -4423,7 +4423,7 @@ export const productsData = [
 	},
 	{
 		id: 171,
-		name: 'Nasltlee orginal coffee-mate coffee creamer',
+		name: 'Pineapple',
 		rating: 4.0,
 		tags: 'black plum, organic, silopy kujjapu',
 		rate: 10.4,
@@ -4501,7 +4501,7 @@ export const productsData = [
 	},
 	{
 		id: 172,
-		name: 'Nasltlee orginal coffee-mate coffee creamer',
+		name: 'Plantain',
 		rating: 4.0,
 		tags: 'black plum, organic, silopy kujjapu',
 		rate: 10.4,
@@ -4579,7 +4579,7 @@ export const productsData = [
 	},
 	{
 		id: 173,
-		name: 'Nasltlee orginal coffee-mate coffee creamer',
+		name: 'Rose Apple',
 		rating: 4.0,
 		tags: 'black plum, organic, silopy kujjapu',
 		rate: 10.4,
@@ -4657,7 +4657,7 @@ export const productsData = [
 	},
 	{
 		id: 174,
-		name: 'Nasltlee orginal coffee-mate coffee creamer',
+		name: 'Sweet Lemon',
 		rating: 4.0,
 		tags: 'black plum, organic, silopy kujjapu',
 		rate: 10.4,
@@ -4735,7 +4735,7 @@ export const productsData = [
 	},
 	{
 		id: 175,
-		name: 'Nasltlee orginal coffee-mate coffee creamer',
+		name: 'Star Fruit',
 		rating: 4.0,
 		tags: 'black plum, organic, silopy kujjapu',
 		rate: 10.4,
@@ -4813,7 +4813,7 @@ export const productsData = [
 	},
 	{
 		id: 176,
-		name: 'Nasltlee orginal coffee-mate coffee creamer',
+		name: 'Sugarcane',
 		rating: 4.0,
 		tags: 'black plum, organic, silopy kujjapu',
 		rate: 10.4,
@@ -4894,7 +4894,7 @@ export const productsData = [
 
 	{
 		id: 190,
-		name: 'Nasltlee orginal coffee-mate coffee creamer',
+		name: 'Dry Coconut',
 		rating: 4.0,
 		tags: 'black plum, organic, silopy kujjapu',
 		rate: 10.4,
@@ -4973,7 +4973,7 @@ export const productsData = [
 
 	{
 		id: 191,
-		name: 'Nasltlee orginal coffee-mate coffee creamer',
+		name: 'Egg',
 		rating: 4.0,
 		tags: 'black plum, organic, silopy kujjapu',
 		rate: 10.4,
@@ -5051,14 +5051,14 @@ export const productsData = [
 	},
 	{
 		id: 192,
-		name: 'Nasltlee orginal coffee-mate coffee creamer',
+		name: 'Coffee Beans',
 		rating: 4.0,
 		tags: 'black plum, organic, silopy kujjapu',
 		rate: 10.4,
 		offer: 7,
 		categorySlug: 'others',
 		category: 'Others',
-		picture: '/others/offeebeans.png',
+		picture: '/others/coffeebeans.png',
 		//partOf : 'popular',
 		//bgImage: '/frut.jpeg',
 		bacPicture:
@@ -5129,7 +5129,7 @@ export const productsData = [
 	},
 	{
 		id: 193,
-		name: 'Nasltlee orginal coffee-mate coffee creamer',
+		name: 'Palmsugar',
 		rating: 4.0,
 		tags: 'black plum, organic, silopy kujjapu',
 		rate: 10.4,
@@ -5207,7 +5207,7 @@ export const productsData = [
 	},
 	{
 		id: 194,
-		name: 'Nasltlee orginal coffee-mate coffee creamer',
+		name: 'Tender Coconut',
 		rating: 4.0,
 		tags: 'black plum, organic, silopy kujjapu',
 		rate: 10.4,
