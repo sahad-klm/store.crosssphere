@@ -85,6 +85,7 @@ const DailyBestSeller = (): any => {
           {productsData?.map((item) => (
             <OneProductWithOffer
               {...item}
+              key={item.id}
               setMouseOver={setMouseOver}
               mouseOver={mouseOver}
               buttonStyle="add-to-cart"
