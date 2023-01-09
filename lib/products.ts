@@ -1,4 +1,6 @@
 export const productsData = [
+//spices
+
 	{
 		id: 101,
 		name: 'Nasltlee orginal coffee-mate coffee creamer',
@@ -7,9 +9,9 @@ export const productsData = [
 		rate: 10.4,
 		offer: 7,
 
-		categorySlug: 'fruits',
-		category: 'Fruits',
-		picture: '/others/drycoconut.png',
+		categorySlug: 'spices',
+		category: 'spices',
+		picture: '/spices/anise.png',
 		partOf : 'popular',
 		bgImage: '/vegba2.jpg',
 		
@@ -86,8 +88,8 @@ export const productsData = [
 		tags: 'black plum, organic, silopy kujjapu',
 		rate: 10.4,
 		offer: 7,
-		categorySlug: 'vegetables',
-		category: 'vegetables',
+		categorySlug: 'spices',
+		category: 'spices',
 		picture: '/spices/cardamom.png',
 		partOf : 'trending',
 		bgImage: '/frut.jpeg',
