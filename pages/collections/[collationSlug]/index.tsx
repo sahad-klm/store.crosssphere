@@ -16,7 +16,7 @@ const index = (data: {
   const pageName = modulesFinder(pathname);
 
   const so = BrowseAllCategories.map(element => element.name)
-  console.log(pageName)
+  console.log(pathname)
 
   function name() {
     
