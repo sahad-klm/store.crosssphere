@@ -1384,10 +1384,10 @@ export const productsData = [
 		rate: 10.4,
 		offer: 7,
 		categorySlug: 'vegetables',
-		category: 'Vegetables',
-		picture: '/veg/ivygourd.png',
-		//partOf : 'popular',
-		//bgImage: '/frut.jpeg',
+		category: 'vegetables',
+		picture: '/spices/cardamom.png',
+		partOf : 'popular',
+		bgImage: '/frut.jpeg',
 		bacPicture:
 			'',
 		smallDetail:
