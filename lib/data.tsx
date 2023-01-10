@@ -799,9 +799,9 @@ export const ourThings = [
         persons: [
           {
             id: 1,
-            name: 'Shad Klm',
+            name: 'Ameen',
             picture: 'profile.svg',
-            post: 'Mothalai Of this Company',
+            post: 'Manager',
             socialMedia: [
               {
                 id: 1,
