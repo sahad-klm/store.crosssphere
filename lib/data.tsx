@@ -524,24 +524,24 @@ export const footerInformation = [
   },
   {
     id: 4,
-    name: 'Terms & Condition',
-    to: 'Terms-condition',
+    name: 'Marmalades',
+    to: 'Marmalades',
   },
   {
     id: 5,
-    name: 'Contact Us',
-    to: 'Contact-us',
+    name: 'Sour Cream and Dips',
+    to: 'Sour Cream and Dips',
   },
   {
     id: 6,
-    name: 'Support Center',
-    to: 'support-center',
+    name: 'Tea & Kombucha',
+    to: 'teakombucha',
   },
 
   {
     id: 7,
-    name: 'Career',
-    to: 'career',
+    name: 'Cheese',
+    to: 'cheese',
   },
 ];
 export const footerApp_Payments = [
@@ -912,7 +912,7 @@ export const contact = [
         title: 'Office',
         address:
           'Kolkalam,Chengottur Po, Malappuram, Kerala, India 676503',
-        phone: '+91 70344 05123',
+        phone: '+9170344 05123',
         email: 'msahad736@gmail.com',
       },
       {
@@ -920,7 +920,7 @@ export const contact = [
         title: 'Studio',
         address:
           'Kolkalam,Chengottur Po, Malappuram, Kerala, India 676503',
-        phone: '+91 70344 05123',
+        phone: '+9170344 05123',
         email: 'sahadklm759@gmail.com',
       },
       {
@@ -928,7 +928,7 @@ export const contact = [
         title: 'Shop',
         address:
           'Kolkalam,Chengottur Po, Malappuram, Kerala, India 676503',
-        phone: '+91 70344 05123',
+        phone: '+9170344 05123',
         email: 'msahad736@gmail.com',
       },
     ],
