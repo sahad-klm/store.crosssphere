@@ -5,7 +5,7 @@ export const productsData = [
 		id: 101,
 		name: 'Green Cardamom',
 		rating: 4.0,
-		tags: 'black plum,silopy kujjapu,vegetable',
+		tags: 'Include as spice in food',
 		rate: 10.4,
 		offer: 7,
 
@@ -86,7 +86,7 @@ export const productsData = [
 		id: 102,
 		name: 'Anise',
 		rating: 4.0,
-		tags: 'black plum,silopy kujjapu,vegetable',
+		tags: 'Used as a flavoring agent',
 		rate: 10.4,
 		offer: 7,
 
@@ -97,7 +97,7 @@ export const productsData = [
 		bgImage: '/frut.jpeg',
 		
 		bacPicture:
-			'',
+			'/spices/anise.png',
 		smallDetail:
 			'Uninhibited carnally hired played in whimpered dear gorilla koala depending and much yikes off far quetzal goodness and from for grimaced goodness unaccountably and meadowlark near unblushingly crucial scallop tightly neurotic hungrily some and dear furiously this apart.',
 		details: [
@@ -167,7 +167,7 @@ export const productsData = [
 		id: 103,
 		name: 'Cloves',
 		rating: 4.0,
-		tags: 'black plum,silopy kujjapu,vegetable',
+		tags: 'Spice,Flavoring,Fragrance',
 		rate: 10.4,
 		offer: 7,
 
@@ -178,7 +178,7 @@ export const productsData = [
 		bgImage: '/vegba2.jpg',
 		
 		bacPicture:
-			'',
+			'/spices/cloves.png',
 		smallDetail:
 			'Uninhibited carnally hired played in whimpered dear gorilla koala depending and much yikes off far quetzal goodness and from for grimaced goodness unaccountably and meadowlark near unblushingly crucial scallop tightly neurotic hungrily some and dear furiously this apart.',
 		details: [
@@ -248,7 +248,7 @@ export const productsData = [
 		id: 104,
 		name: 'Cordiander',
 		rating: 4.0,
-		tags: 'black plum,silopy kujjapu,vegetable',
+		tags: 'Boost immunity',
 		rate: 10.4,
 		offer: 7,
 
@@ -258,7 +258,7 @@ export const productsData = [
 		bgImage: '/frut.jpeg',
 		
 		bacPicture:
-			'',
+			'/spices/cordiander.png',
 		smallDetail:
 			'Uninhibited carnally hired played in whimpered dear gorilla koala depending and much yikes off far quetzal goodness and from for grimaced goodness unaccountably and meadowlark near unblushingly crucial scallop tightly neurotic hungrily some and dear furiously this apart.',
 		details: [
@@ -328,7 +328,7 @@ export const productsData = [
 		id: 105,
 		name: 'Ginger',
 		rating: 4.0,
-		tags: 'black plum,silopy kujjapu,vegetable',
+		tags: 'Spice,Folk medicine',
 		rate: 10.4,
 		offer: 7,
 
@@ -338,7 +338,7 @@ export const productsData = [
 		partOf : 'popular',
 		
 		bacPicture:
-			'',
+			'/spices/ginger.png',
 		smallDetail:
 			'Uninhibited carnally hired played in whimpered dear gorilla koala depending and much yikes off far quetzal goodness and from for grimaced goodness unaccountably and meadowlark near unblushingly crucial scallop tightly neurotic hungrily some and dear furiously this apart.',
 		details: [
@@ -408,7 +408,7 @@ export const productsData = [
 		id: 106,
 		name: 'Nutmeg',
 		rating: 4.0,
-		tags: 'black plum,silopy kujjapu,vegetable',
+		tags: 'Used in baking',
 		rate: 10.4,
 		offer: 7,
 
@@ -416,7 +416,7 @@ export const productsData = [
 		category: 'Spices',
 		picture: '/spices/nutmeg.png',
 		bacPicture:
-			'',
+			'/spices/nutmeg.png',
 		smallDetail:
 			'Uninhibited carnally hired played in whimpered dear gorilla koala depending and much yikes off far quetzal goodness and from for grimaced goodness unaccountably and meadowlark near unblushingly crucial scallop tightly neurotic hungrily some and dear furiously this apart.',
 		details: [
@@ -486,7 +486,7 @@ export const productsData = [
 		id: 107,
 		name: 'Nutmeg & Mace',
 		rating: 4.0,
-		tags: 'black plum,silopy kujjapu,vegetable',
+		tags: 'Used in baking',
 		rate: 10.4,
 		offer: 7,
 
@@ -494,7 +494,7 @@ export const productsData = [
 		category: 'Spices',
 		picture: '/spices/nutmegmace.png',
 		bacPicture:
-			'',
+			'/spices/nutmegmace.png',
 		smallDetail:
 			'Uninhibited carnally hired played in whimpered dear gorilla koala depending and much yikes off far quetzal goodness and from for grimaced goodness unaccountably and meadowlark near unblushingly crucial scallop tightly neurotic hungrily some and dear furiously this apart.',
 		details: [
@@ -564,7 +564,7 @@ export const productsData = [
 		id: 108,
 		name: 'Pepper',
 		rating: 4.0,
-		tags: 'black plum,silopy kujjapu,vegetable',
+		tags: 'Dried unripe fruit',
 		rate: 10.4,
 		offer: 7,
 
@@ -572,7 +572,7 @@ export const productsData = [
 		category: 'Spices',
 		picture: '/spices/pepper.png',
 		bacPicture:
-			'',
+			'/spices/pepper.png',
 		smallDetail:
 			'Uninhibited carnally hired played in whimpered dear gorilla koala depending and much yikes off far quetzal goodness and from for grimaced goodness unaccountably and meadowlark near unblushingly crucial scallop tightly neurotic hungrily some and dear furiously this apart.',
 		details: [
@@ -650,7 +650,7 @@ export const productsData = [
 		category: 'Spices',
 		picture: '/spices/cumin.png',
 		bacPicture:
-			'',
+			'/spices/cumin.png',
 		smallDetail:
 			'Uninhibited carnally hired played in whimpered dear gorilla koala depending and much yikes off far quetzal goodness and from for grimaced goodness unaccountably and meadowlark near unblushingly crucial scallop tightly neurotic hungrily some and dear furiously this apart.',
 		details: [
