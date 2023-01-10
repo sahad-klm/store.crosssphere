@@ -16,7 +16,7 @@ export const productsData = [
 		bgImage: '/vegba2.jpg',
 		
 		bacPicture:
-			'',
+			'/spices/cardamom.png',
 		smallDetail:
 			'Uninhibited carnally hired played in whimpered dear gorilla koala depending and much yikes off far quetzal goodness and from for grimaced goodness unaccountably and meadowlark near unblushingly crucial scallop tightly neurotic hungrily some and dear furiously this apart.',
 		details: [
@@ -255,7 +255,6 @@ export const productsData = [
 		categorySlug: 'spices',
 		category: 'Spices',
 		picture: '/spices/cordiander.png',
-		//partOf : 'popular',
 		bgImage: '/frut.jpeg',
 		
 		bacPicture:
@@ -337,7 +336,6 @@ export const productsData = [
 		category: 'Spices',
 		picture: '/spices/ginger.png',
 		partOf : 'popular',
-		//bgImage: '/vegba2.jpg',
 		
 		bacPicture:
 			'',
@@ -417,9 +415,6 @@ export const productsData = [
 		categorySlug: 'spices',
 		category: 'Spices',
 		picture: '/spices/nutmeg.png',
-		//partOf : 'popular',
-		//bgImage: '/vegba2.jpg',
-		
 		bacPicture:
 			'',
 		smallDetail:
@@ -498,9 +493,6 @@ export const productsData = [
 		categorySlug: 'spices',
 		category: 'Spices',
 		picture: '/spices/nutmegmace.png',
-		//partOf : 'popular',
-		//bgImage: '/vegba2.jpg',
-		
 		bacPicture:
 			'',
 		smallDetail:
@@ -579,9 +571,6 @@ export const productsData = [
 		categorySlug: 'spices',
 		category: 'Spices',
 		picture: '/spices/pepper.png',
-		//partOf : 'popular',
-		//bgImage: '/vegba2.jpg',
-		
 		bacPicture:
 			'',
 		smallDetail:
@@ -660,9 +649,6 @@ export const productsData = [
 		categorySlug: 'spices',
 		category: 'Spices',
 		picture: '/spices/cumin.png',
-		//partOf : 'popular',
-		//bgImage: '/vegba2.jpg',
-		
 		bacPicture:
 			'',
 		smallDetail:
@@ -741,9 +727,6 @@ export const productsData = [
 		categorySlug: 'spices',
 		category: 'Spices',
 		picture: '/spices/fennel.png',
-		//partOf : 'popular',
-		//bgImage: '/vegba2.jpg',
-		
 		bacPicture:
 			'',
 		smallDetail:
@@ -822,9 +805,6 @@ export const productsData = [
 		categorySlug: 'spices',
 		category: 'Spices',
 		picture: '/spices/garlic.png',
-		//partOf : 'popular',
-		//bgImage: '/vegba2.jpg',
-		
 		bacPicture:
 			'',
 		smallDetail:
@@ -903,9 +883,6 @@ export const productsData = [
 		categorySlug: 'spices',
 		category: 'Spices',
 		picture: '/spices/redchilli.png',
-		//partOf : 'popular',
-		//bgImage: '/vegba2.jpg',
-		
 		bacPicture:
 			'',
 		smallDetail:
@@ -984,9 +961,6 @@ export const productsData = [
 		categorySlug: 'spices',
 		category: 'Spices',
 		picture: '/spices/taramind.png',
-		//partOf : 'popular',
-		//bgImage: '/vegba2.jpg',
-		
 		bacPicture:
 			'',
 		smallDetail:
@@ -1066,8 +1040,6 @@ export const productsData = [
 		category: 'Spices',
 		picture: '/spices/turmeric.png',
 		partOf : 'popular',
-		//bgImage: '/vegba2.jpg',
-		
 		bacPicture:
 			'',
 		smallDetail:
@@ -1146,9 +1118,6 @@ export const productsData = [
 		categorySlug: 'spices',
 		category: 'Spices',
 		picture: '/spices/fenugreek.png',
-		//partOf : 'popular',
-		//bgImage: '/vegba2.jpg',
-		
 		bacPicture:
 			'',
 		smallDetail:
@@ -1231,7 +1200,6 @@ export const productsData = [
 		category: 'Vegetables',
 		picture: '/veg/ashgourd.png',
 		partOf : 'trending',
-		//bgImage: '/frut.jpeg',
 		bacPicture:
 			'',
 		smallDetail:
@@ -1309,7 +1277,6 @@ export const productsData = [
 		category: 'Vegetables',
 		picture: '/veg/butterbeans.png',
 		partOf : 'top-rated',
-		//bgImage: '/frut.jpeg',
 		bacPicture:
 			'',
 		smallDetail:
@@ -1386,8 +1353,6 @@ export const productsData = [
 		categorySlug: 'spices',
 		category: 'Spices',
 		picture: '/spices/cardamom.png',
-		//partOf : 'popular',
-		//bgImage: '/frut.jpeg',
 		bacPicture:
 			'',
 		smallDetail:
@@ -1464,8 +1429,6 @@ export const productsData = [
 		categorySlug: 'vegetables',
 		category: 'Vegetables',
 		picture: '/veg/ridgegourd.png',
-		//partOf : 'popular',
-		//bgImage: '/frut.jpeg',
 		bacPicture:
 			'',
 		smallDetail:
@@ -1542,8 +1505,6 @@ export const productsData = [
 		categorySlug: 'vegetables',
 		category: 'Vegetables',
 		picture: '/veg/bananaflower.png',
-		//partOf : 'popular',
-		//bgImage: '/frut.jpeg',
 		bacPicture:
 			'',
 		smallDetail:
@@ -1620,8 +1581,6 @@ export const productsData = [
 		categorySlug: 'vegetables',
 		category: 'Vegetables',
 		picture: '/veg/cabbage.png',
-		//partOf : 'popular',
-		//bgImage: '/frut.jpeg',
 		bacPicture:
 			'',
 		smallDetail:
@@ -1698,8 +1657,6 @@ export const productsData = [
 		categorySlug: 'vegetables',
 		category: 'Vegetables',
 		picture: '/veg/ladiesfinger.png',
-		//partOf : 'popular',
-		//bgImage: '/frut.jpeg',
 		bacPicture:
 			'',
 		smallDetail:
@@ -1776,8 +1733,6 @@ export const productsData = [
 		categorySlug: 'vegetables',
 		category: 'Vegetables',
 		picture: '/veg/smallonion.png',
-		//partOf : 'popular',
-		//bgImage: '/frut.jpeg',
 		bacPicture:
 			'',
 		smallDetail:
@@ -1854,8 +1809,6 @@ export const productsData = [
 		categorySlug: 'vegetables',
 		category: 'Vegetables',
 		picture: '/veg/bananastem.png',
-		//partOf : 'popular',
-		//bgImage: '/frut.jpeg',
 		bacPicture:
 			'',
 		smallDetail:
@@ -1932,8 +1885,6 @@ export const productsData = [
 		categorySlug: 'vegetables',
 		category: 'Vegetables',
 		picture: '/veg/chayote.png',
-		//partOf : 'popular',
-		//bgImage: '/frut.jpeg',
 		bacPicture:
 			'',
 		smallDetail:
@@ -2010,8 +1961,6 @@ export const productsData = [
 		categorySlug: 'vegetables',
 		category: 'Vegetables',
 		picture: '/veg/longbeans.png',
-		//partOf : 'popular',
-		//bgImage: '/frut.jpeg',
 		bacPicture:
 			'',
 		smallDetail:
@@ -2088,8 +2037,6 @@ export const productsData = [
 		categorySlug: 'vegetables',
 		category: 'Vegetables',
 		picture: '/veg/snakegourd.png',
-		//partOf : 'popular',
-		//bgImage: '/frut.jpeg',
 		bacPicture:
 			'',
 		smallDetail:
@@ -2166,8 +2113,6 @@ export const productsData = [
 		categorySlug: 'vegetables',
 		category: 'Vegetables',
 		picture: '/veg/chinesepotato.png',
-		//partOf : 'popular',
-		//bgImage: '/frut.jpeg',
 		bacPicture:
 			'',
 		smallDetail:
@@ -2244,8 +2189,6 @@ export const productsData = [
 		categorySlug: 'vegetables',
 		category: 'Vegetables',
 		picture: '/veg/onion.png',
-		//partOf : 'popular',
-		//bgImage: '/frut.jpeg',
 		bacPicture:
 			'',
 		smallDetail:
@@ -2322,8 +2265,6 @@ export const productsData = [
 		categorySlug: 'vegetables',
 		category: 'Vegetables',
 		picture: '/veg/sweetpotato.png',
-		//partOf : 'popular',
-		//bgImage: '/frut.jpeg',
 		bacPicture:
 			'',
 		smallDetail:
@@ -2400,8 +2341,6 @@ export const productsData = [
 		categorySlug: 'vegetables',
 		category: 'Vegetables',
 		picture: '/veg/beans.png',
-		//partOf : 'popular',
-		//bgImage: '/frut.jpeg',
 		bacPicture:
 			'',
 		smallDetail:
@@ -2478,8 +2417,6 @@ export const productsData = [
 		categorySlug: 'vegetables',
 		category: 'Vegetables',
 		picture: '/veg/currybanana.png',
-		//partOf : 'popular',
-		//bgImage: '/frut.jpeg',
 		bacPicture:
 			'',
 		smallDetail:
@@ -2556,8 +2493,6 @@ export const productsData = [
 		categorySlug: 'vegetables',
 		category: 'Vegetables',
 		picture: '/veg/tapioca.png',
-		//partOf : 'popular',
-		//bgImage: '/frut.jpeg',
 		bacPicture:
 			'',
 		smallDetail:
@@ -2634,8 +2569,6 @@ export const productsData = [
 		categorySlug: 'vegetables',
 		category: 'Vegetables',
 		picture: '/veg/beetroot.png',
-		//partOf : 'popular',
-		//bgImage: '/frut.jpeg',
 		bacPicture:
 			'',
 		smallDetail:
@@ -2712,8 +2645,6 @@ export const productsData = [
 		categorySlug: 'vegetables',
 		category: 'Vegetables',
 		picture: '/veg/drumstick.png',
-		//partOf : 'popular',
-		//bgImage: '/frut.jpeg',
 		bacPicture:
 			'',
 		smallDetail:
@@ -2790,8 +2721,6 @@ export const productsData = [
 		categorySlug: 'vegetables',
 		category: 'Vegetables',
 		picture: '/veg/papayaraw.png',
-		//partOf : 'popular',
-		//bgImage: '/frut.jpeg',
 		bacPicture:
 			'',
 		smallDetail:
@@ -2868,8 +2797,6 @@ export const productsData = [
 		categorySlug: 'vegetables',
 		category: 'Vegetables',
 		picture: '/veg/taro.png',
-		//partOf : 'popular',
-		//bgImage: '/frut.jpeg',
 		bacPicture:
 			'',
 		smallDetail:
@@ -2946,8 +2873,6 @@ export const productsData = [
 		categorySlug: 'vegetables',
 		category: 'Vegetables',
 		picture: '/veg/bittergourd.png',
-		//partOf : 'popular',
-		//bgImage: '/frut.jpeg',
 		bacPicture:
 			'',
 		smallDetail:
@@ -3024,8 +2949,6 @@ export const productsData = [
 		categorySlug: 'vegetables',
 		category: 'Vegetables',
 		picture: '/veg/greenchilli.png',
-		//partOf : 'popular',
-		//bgImage: '/frut.jpeg',
 		bacPicture:
 			'',
 		smallDetail:
@@ -3102,8 +3025,6 @@ export const productsData = [
 		categorySlug: 'vegetables',
 		category: 'Vegetables',
 		picture: '/veg/potato.png',
-		//partOf : 'popular',
-		//bgImage: '/frut.jpeg',
 		bacPicture:
 			'',
 		smallDetail:
@@ -3180,8 +3101,6 @@ export const productsData = [
 		categorySlug: 'vegetables',
 		category: 'Vegetables',
 		picture: '/veg/yam.png',
-		//partOf : 'popular',
-		//bgImage: '/frut.jpeg',
 		bacPicture:
 			'',
 		smallDetail:
@@ -3258,8 +3177,6 @@ export const productsData = [
 		categorySlug: 'vegetables',
 		category: 'Vegetables',
 		picture: '/veg/tomato.png',
-		//partOf : 'popular',
-		//bgImage: '/frut.jpeg',
 		bacPicture:
 			'',
 		smallDetail:
@@ -3336,8 +3253,6 @@ export const productsData = [
 		categorySlug: 'vegetables',
 		category: 'Vegetables',
 		picture: '/veg/bottlegourd.png',
-		//partOf : 'popular',
-		//bgImage: '/frut.jpeg',
 		bacPicture:
 			'',
 		smallDetail:
@@ -3414,8 +3329,6 @@ export const productsData = [
 		categorySlug: 'vegetables',
 		category: 'Vegetables',
 		picture: '/veg/greenpeace.png',
-		//partOf : 'popular',
-		//bgImage: '/frut.jpeg',
 		bacPicture:
 			'',
 		smallDetail:
@@ -3492,8 +3405,6 @@ export const productsData = [
 		categorySlug: 'vegetables',
 		category: 'Vegetables',
 		picture: '/veg/pumpkin.png',
-		//partOf : 'popular',
-		//bgImage: '/frut.jpeg',
 		bacPicture:
 			'',
 		smallDetail:
@@ -3573,8 +3484,6 @@ export const productsData = [
 		categorySlug: 'fruits',
 		category: 'Fruits',
 		picture: '/fruits/corn.png',
-		//partOf : 'popular',
-		//bgImage: '/frut.jpeg',
 		bacPicture:
 			'',
 		smallDetail:
@@ -3651,8 +3560,6 @@ export const productsData = [
 		categorySlug: 'fruits',
 		category: 'Fruits',
 		picture: '/fruits/cucumber.png',
-		//partOf : 'popular',
-		//bgImage: '/frut.jpeg',
 		bacPicture:
 			'',
 		smallDetail:
@@ -3729,8 +3636,6 @@ export const productsData = [
 		categorySlug: 'fruits',
 		category: 'Fruits',
 		picture: '/fruits/custardapple.png',
-		//partOf : 'popular',
-		//bgImage: '/frut.jpeg',
 		bacPicture:
 			'',
 		smallDetail:
@@ -3807,8 +3712,6 @@ export const productsData = [
 		categorySlug: 'fruits',
 		category: 'Fruits',
 		picture: '/fruits/dragonfruit.png',
-		//partOf : 'popular',
-		//bgImage: '/frut.jpeg',
 		bacPicture:
 			'',
 		smallDetail:
@@ -3885,8 +3788,6 @@ export const productsData = [
 		categorySlug: 'fruits',
 		category: 'Fruits',
 		picture: '/fruits/gooseberry.png',
-		//partOf : 'popular',
-		//bgImage: '/frut.jpeg',
 		bacPicture:
 			'',
 		smallDetail:
@@ -3963,8 +3864,6 @@ export const productsData = [
 		categorySlug: 'fruits',
 		category: 'Fruits',
 		picture: '/fruits/grape.png',
-		//partOf : 'popular',
-		//bgImage: '/frut.jpeg',
 		bacPicture:
 			'',
 		smallDetail:
@@ -4041,8 +3940,6 @@ export const productsData = [
 		categorySlug: 'fruits',
 		category: 'Fruits',
 		picture: '/fruits/greenbanana.png',
-		//partOf : 'popular',
-		//bgImage: '/frut.jpeg',
 		bacPicture:
 			'',
 		smallDetail:
@@ -4119,8 +4016,6 @@ export const productsData = [
 		categorySlug: 'fruits',
 		category: 'Fruits',
 		picture: '/fruits/guava1.png',
-		//partOf : 'popular',
-		//bgImage: '/frut.jpeg',
 		bacPicture:
 			'',
 		smallDetail:
@@ -4197,8 +4092,6 @@ export const productsData = [
 		categorySlug: 'fruits',
 		category: 'Fruits',
 		picture: '/fruits/jackfruit.png',
-		//partOf : 'popular',
-		//bgImage: '/frut.jpeg',
 		bacPicture:
 			'',
 		smallDetail:
@@ -4275,8 +4168,6 @@ export const productsData = [
 		categorySlug: 'fruits',
 		category: 'Fruits',
 		picture: '/fruits/lemon.png',
-		//partOf : 'popular',
-		//bgImage: '/frut.jpeg',
 		bacPicture:
 			'',
 		smallDetail:
@@ -4353,8 +4244,6 @@ export const productsData = [
 		categorySlug: 'fruits',
 		category: 'Fruits',
 		picture: '/fruits/papaya.png',
-		//partOf : 'popular',
-		//bgImage: '/frut.jpeg',
 		bacPicture:
 			'',
 		smallDetail:
@@ -4431,8 +4320,6 @@ export const productsData = [
 		categorySlug: 'fruits',
 		category: 'Fruits',
 		picture: '/fruits/pineapple.png',
-		//partOf : 'popular',
-		//bgImage: '/frut.jpeg',
 		bacPicture:
 			'',
 		smallDetail:
@@ -4509,8 +4396,6 @@ export const productsData = [
 		categorySlug: 'fruits',
 		category: 'Fruits',
 		picture: '/fruits/plantain.png',
-		//partOf : 'popular',
-		//bgImage: '/frut.jpeg',
 		bacPicture:
 			'',
 		smallDetail:
@@ -4587,8 +4472,6 @@ export const productsData = [
 		categorySlug: 'fruits',
 		category: 'Fruits',
 		picture: '/fruits/roseapple.png',
-		//partOf : 'popular',
-		//bgImage: '/frut.jpeg',
 		bacPicture:
 			'',
 		smallDetail:
@@ -4665,8 +4548,6 @@ export const productsData = [
 		categorySlug: 'fruits',
 		category: 'Fruits',
 		picture: '/fruits/sweetlemon.png',
-		//partOf : 'popular',
-		//bgImage: '/frut.jpeg',
 		bacPicture:
 			'',
 		smallDetail:
@@ -4743,8 +4624,6 @@ export const productsData = [
 		categorySlug: 'fruits',
 		category: 'Fruits',
 		picture: '/fruits/starfruit.png',
-		//partOf : 'popular',
-		//bgImage: '/frut.jpeg',
 		bacPicture:
 			'',
 		smallDetail:
@@ -4821,8 +4700,6 @@ export const productsData = [
 		categorySlug: 'fruits',
 		category: 'Fruits',
 		picture: '/fruits/sugarcane.png',
-		//partOf : 'popular',
-		//bgImage: '/frut.jpeg',
 		bacPicture:
 			'',
 		smallDetail:
@@ -4902,8 +4779,6 @@ export const productsData = [
 		categorySlug: 'others',
 		category: 'Others',
 		picture: '/others/drycoconut.png',
-		//partOf : 'popular',
-		//bgImage: '/frut.jpeg',
 		bacPicture:
 			'',
 		smallDetail:
@@ -4981,8 +4856,6 @@ export const productsData = [
 		categorySlug: 'others',
 		category: 'Others',
 		picture: '/others/eggs.png',
-		//partOf : 'popular',
-		//bgImage: '/frut.jpeg',
 		bacPicture:
 			'',
 		smallDetail:
@@ -5059,8 +4932,6 @@ export const productsData = [
 		categorySlug: 'others',
 		category: 'Others',
 		picture: '/others/coffeebeans.png',
-		//partOf : 'popular',
-		//bgImage: '/frut.jpeg',
 		bacPicture:
 			'',
 		smallDetail:
@@ -5137,8 +5008,6 @@ export const productsData = [
 		categorySlug: 'others',
 		category: 'Others',
 		picture: '/others/palmsugar.png',
-		//partOf : 'popular',
-		//bgImage: '/frut.jpeg',
 		bacPicture:
 			'',
 		smallDetail:
@@ -5215,8 +5084,6 @@ export const productsData = [
 		categorySlug: 'others',
 		category: 'Others',
 		picture: '/others/tender.png',
-		//partOf : 'popular',
-		//bgImage: '/frut.jpeg',
 		bacPicture:
 			'',
 		smallDetail:
@@ -5296,8 +5163,6 @@ export const productsData = [
 		categorySlug: 'leaves',
 		category: 'Leaves',
 		picture: '/leaves/drumstickleaves.png',
-		//partOf : 'popular',
-		//bgImage: '/frut.jpeg',
 		bacPicture:
 			'',
 		smallDetail:
@@ -5374,8 +5239,6 @@ export const productsData = [
 		categorySlug: 'leaves',
 		category: 'Leaves',
 		picture: '/leaves/amranthleaves.png',
-		//partOf : 'popular',
-		//bgImage: '/frut.jpeg',
 		bacPicture:
 			'',
 		smallDetail:
@@ -5452,8 +5315,6 @@ export const productsData = [
 		categorySlug: 'leaves',
 		category: 'Leaves',
 		picture: '/leaves/celery.png',
-		//partOf : 'popular',
-		//bgImage: '/frut.jpeg',
 		bacPicture:
 			'',
 		smallDetail:
@@ -5530,8 +5391,6 @@ export const productsData = [
 		categorySlug: 'leaves',
 		category: 'Leaves',
 		picture: '/leaves/corianderleaf.png',
-		//partOf : 'popular',
-		//bgImage: '/frut.jpeg',
 		bacPicture:
 			'',
 		smallDetail:
@@ -5608,8 +5467,6 @@ export const productsData = [
 		categorySlug: 'leaves',
 		category: 'Leaves',
 		picture: '/leaves/lettuce.png',
-		//partOf : 'popular',
-		//bgImage: '/frut.jpeg',
 		bacPicture:
 			'',
 		smallDetail:
@@ -5686,8 +5543,6 @@ export const productsData = [
 		categorySlug: 'leaves',
 		category: 'Leaves',
 		picture: '/leaves/mint.png',
-		//partOf : 'popular',
-		//bgImage: '/frut.jpeg',
 		bacPicture:
 			'',
 		smallDetail:
@@ -5764,8 +5619,6 @@ export const productsData = [
 		categorySlug: 'leaves',
 		category: 'Leaves',
 		picture: '/leaves/bananaleaf.png',
-		//partOf : 'popular',
-		//bgImage: '/frut.jpeg',
 		bacPicture:
 			'',
 		smallDetail:
@@ -5845,8 +5698,6 @@ export const productsData = [
 		categorySlug: 'powder',
 		category: 'Powder',
 		picture: '/powder/chillipowder.png',
-		//partOf : 'popular',
-		//bgImage: '/frut.jpeg',
 		bacPicture:
 			'',
 		smallDetail:
@@ -5923,8 +5774,6 @@ export const productsData = [
 		categorySlug: 'powder',
 		category: 'Powder',
 		picture: '/powder/cordianderpowder.png',
-		//partOf : 'popular',
-		//bgImage: '/frut.jpeg',
 		bacPicture:
 			'',
 		smallDetail:
@@ -6001,8 +5850,6 @@ export const productsData = [
 		categorySlug: 'powder',
 		category: 'Powder',
 		picture: '/powder/turmericpowder.png',
-		//partOf : 'popular',
-		//bgImage: '/frut.jpeg',
 		bacPicture:
 			'',
 		smallDetail:
@@ -6079,8 +5926,6 @@ export const productsData = [
 		categorySlug: 'powder',
 		category: 'Powder',
 		picture: '/powder/pepperpowder.png',
-		//partOf : 'popular',
-		//bgImage: '/frut.jpeg',
 		bacPicture:
 			'',
 		smallDetail:
@@ -6157,8 +6002,6 @@ export const productsData = [
 		categorySlug: 'powder',
 		category: 'Powder',
 		picture: '/powder/coffeepowder.png',
-		//partOf : 'popular',
-		//bgImage: '/frut.jpeg',
 		bacPicture:
 			'',
 		smallDetail:

@@ -106,7 +106,7 @@ function MyApp({ Component, pageProps, router }: AppProps) {
   return (
     <>
       <Head>
-        <title>......Exports</title>
+        <title>International</title>
       </Head>
 
       <SiteContextProvider data={{ ...data }}>

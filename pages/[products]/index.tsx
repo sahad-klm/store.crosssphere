@@ -17,15 +17,14 @@ const Home = (data: {
       <>
         <div className="mt-52 flex h-full flex-col items-center justify-center">
           <Image width={1440} height={500} loading='lazy'
-            src="/970b8f66-193e-4546-a78e-abb98b57aabb.webp"
+            src="/stop.png"
             alt=""
             className="h-[500px] object-contain"
           />
           <h1
             style={{ fontSize: '40px', color: 'red', fontFamily: 'monospace' }}
           >
-            Petten sheriyaakkanam mister <b className="text-green-600">4 sec</b> seen
-            ind piine va
+            Danger Zone <b className="text-green-600">Go </b> back
           </h1>
         </div>
       </>
