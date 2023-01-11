@@ -70,7 +70,7 @@ const DailyBestSeller = (): any => {
       <div className="flex w-full flex-col justify-start gap-5 md:flex-row md:gap-6">
         <div className="relative z-[1] flex h-[70vh] w-full min-w-[40%] flex-grow-0 flex-col  items-start gap-12 overflow-hidden rounded-[18px] p-12 md:h-auto md:min-w-[300px] md:justify-evenly md:max-w-[350px]">
           <Image height={100}
-            src="/banaleaf1.jpeg"
+            src="/bananaleaf1.jpeg"
             alt=""
             loading='lazy'
             width={200}
