@@ -13,9 +13,9 @@ export const productsData = [
 		categorySlug: 'spices',
 		category: 'Spices',
 		picture: '/spices/cardamom.png',
-		partOf: 'popular',
+		partOf : 'popular',
 		bgImage: '/vegba2.jpg',
-
+		
 		bacPicture:
 			'/spices/cardamom.png',
 		smallDetail:
@@ -1277,7 +1277,7 @@ export const productsData = [
 		categorySlug: 'vegetables',
 		category: 'Vegetables',
 		picture: '/veg/butterbeans.png',
-		partOf: 'top-rated',
+		partOf : 'top-rated',
 		bacPicture:
 			'',
 		smallDetail:
@@ -2418,6 +2418,7 @@ export const productsData = [
 		categorySlug: 'vegetables',
 		category: 'Vegetables',
 		picture: '/veg/currybanana.png',
+		partOf : 'trending',
 		bacPicture:
 			'',
 		smallDetail:
@@ -4093,6 +4094,7 @@ export const productsData = [
 		categorySlug: 'fruits',
 		category: 'Fruits',
 		picture: '/fruits/jackfruit.png',
+		partOf : 'trending',
 		bacPicture:
 			'',
 		smallDetail:
@@ -5851,6 +5853,7 @@ export const productsData = [
 		categorySlug: 'powder',
 		category: 'Powder',
 		picture: '/powder/turmericpowder.png',
+		partOf : 'top-rated',
 		bacPicture:
 			'',
 		smallDetail:
@@ -5927,6 +5930,7 @@ export const productsData = [
 		categorySlug: 'powder',
 		category: 'Powder',
 		picture: '/powder/pepperpowder.png',
+		partOf : 'top-rated',
 		bacPicture:
 			'',
 		smallDetail:
@@ -6003,6 +6007,7 @@ export const productsData = [
 		categorySlug: 'powder',
 		category: 'Powder',
 		picture: '/powder/coffeepowder.png',
+		partOf : 'top-rated',
 		bacPicture:
 			'',
 		smallDetail:
@@ -6069,5 +6074,5 @@ export const productsData = [
 			},
 		],
 	},
-
+	
 ];

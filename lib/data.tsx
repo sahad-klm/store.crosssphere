@@ -710,9 +710,9 @@ export const ourPerformance = [
   {
     id: 1,
     title: 'Your Partner for e-commerce grocery solution',
-    smallPicture: 'bananaleaf1.jpeg',
+    smallPicture: 'oila.jpg',
     head: 'Our Performance',
-    bigPicture: 'map1.webp',
+    bigPicture: 'bananaleaf1.jpeg',
     subtitle: [
       {
         id: 1,
