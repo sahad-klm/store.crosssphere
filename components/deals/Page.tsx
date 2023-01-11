@@ -1,4 +1,5 @@
-import { productsData } from '@/lib/products';
+import {  productsData } from '@/lib/products';
+import { dealOftheDayProdutsData } from '@/lib/produtsInDefrentCatogory';
 import React from 'react';
 import ProductWithTimer from './ProductWithTimer';
 
@@ -12,12 +13,10 @@ const DealsOfTheDay = () => {
         <span className="flex flex-row flex-wrap gap-4 cursor-pointer font-head  md:text-[16px] text-sm text-gray-800">All deals {'>'}</span>
       </div>
       <div
-        className="overflow-x-scroll  md:gap-5 gap-2 grid md:grid-cols-2 xl:grid-cols-4 xl:grid-rows-1 md:grid-rows-2 grid-rows-1 grid-flow-col w-full" 
+        className="overflow-x-scroll  md:gap-5 gap-2 grid md:grid-cols-2 xl:grid-cols-4 xl:grid-rows-1 md:grid-rows-2 grid-rows-1 grid-flow-col w-full"
       >
-        {productsData?.map((item, idx) => (
-          <React.Fragment key={item.id}>
-            {idx <= 3 && <ProductWithTimer  {...item} />}
-          </React.Fragment>
+        {dealOftheDayProdutsData?.map((item) => (
+          <ProductWithTimer key={item.id}  {...item} />
         ))}
       </div>
     </div>
@@ -28,22 +27,22 @@ const DealsOfTheDay = () => {
 export const DealsOfTheDayInCollection = () => {
   return (
     <div className="mt-[50px] grid w-full flex-col items-center justify-start overflow-hidden">
-              <div className="mb-10 flex w-full items-center justify-between">
-                <h4 className="mr-4  font-head text-[28px] text-gray-800 md:text-[32px]">
-                  Deals of the day
-                </h4>
-                <span className="flex cursor-pointer flex-row flex-wrap gap-4 font-head  text-sm text-gray-800 md:text-[16px]">
-                  All deals {'>'}
-                </span>
-              </div>
-              <div className="grid md:grid-flow-col grid-flow-row w-full gap-5 overflow-scroll lg:grid-rows-1 sm:grid-rows-2 xl:grid-cols-none">
-                {productsData?.map((item, idx) => (
-                  <React.Fragment key={item.id}>
-                    {idx <= 3 && <ProductWithTimer {...item} />}
-                  </React.Fragment>
-                ))}
-              </div>
-            </div>
+      <div className="mb-10 flex w-full items-center justify-between">
+        <h4 className="mr-4  font-head text-[28px] text-gray-800 md:text-[32px]">
+          Deals of the day
+        </h4>
+        <span className="flex cursor-pointer flex-row flex-wrap gap-4 font-head  text-sm text-gray-800 md:text-[16px]">
+          All deals {'>'}
+        </span>
+      </div>
+      <div className="grid md:grid-flow-col grid-flow-row w-full gap-5 overflow-scroll lg:grid-rows-1 sm:grid-rows-2 xl:grid-cols-none">
+        {productsData?.map((item, idx) => (
+          <React.Fragment key={item.id}>
+            {idx <= 3 && <ProductWithTimer {...item} />}
+          </React.Fragment>
+        ))}
+      </div>
+    </div>
   )
 };
 

@@ -3,7 +3,8 @@ import { OneProductWithOffer } from '@/ui/OneProductWithOffer';
 import { TextCategory, TextCategoryMob } from '@/ui/TextCategory';
 import { popularProductCategory } from '@/lib/data';
 import React from 'react';
-import { productsData } from '@/lib/products';
+import {  productsData } from '@/lib/products';
+import { popularProductsData } from '@/lib/produtsInDefrentCatogory';
 
 type Props = {
   id: React.Key;
@@ -22,6 +23,15 @@ const PopularProducts = (): any => {
   );
   const [mouseOver, setMouseOver] = React.useState<any>();
   const [toggleOn, setToggleOn] = React.useState<boolean | any>(false);
+  const [isproductData, setIsProductData] = React.useState<any[]>(popularProductsData)
+  console.log(isSelectedCatN);
+
+  React.useEffect(() => {
+    if (isSelectedCatN === 'All') return setIsProductData(popularProductsData)
+    else return setIsProductData(productsData?.filter((item) => item.category === isSelectedCatN && item))
+
+  }, [isSelectedCatN])
+
 
   return (
     <div className="mt-[50px] flex w-full flex-col items-center justify-center overflow-hidden px-4">
@@ -65,16 +75,21 @@ const PopularProducts = (): any => {
       <div
         className="flex w-full flex-row md:flex-wrap justify-start gap-5 overflow-x-scroll md:grid-cols-3 md:grid  md:overflow-visible lg:grid-cols-5"
       >
-        {productsData?.map((item: Props) => (
-          <OneProductWithOffer
-            mouseOver={mouseOver}
-            setMouseOver={setMouseOver}
-            key={item.id}
-            {...item}
-            buttonStyle="add"
-            classNameForTotal="w-full md:h-auto h-min mx-auto "
-            classNameForPic="p-2"
-          />
+        {isproductData?.map((item: Props, idx: React.Key) => (
+          <React.Fragment key={item.id}>
+
+            {idx <= 6 &&
+              <OneProductWithOffer
+                mouseOver={mouseOver}
+                setMouseOver={setMouseOver}
+                key={item.id}
+                {...item}
+                buttonStyle="add"
+                classNameForTotal="w-full md:h-auto h-min mx-auto "
+                classNameForPic="p-2"
+              />
+            }
+          </React.Fragment>
         ))}
       </div>
     </div>

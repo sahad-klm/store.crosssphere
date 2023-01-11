@@ -1,5 +1,6 @@
 //spices
 
+
 export const productsData = [
 	{
 		id: 101,
@@ -12,13 +13,13 @@ export const productsData = [
 		categorySlug: 'spices',
 		category: 'Spices',
 		picture: '/spices/cardamom.png',
-		partOf : 'popular',
+		partOf: 'popular',
 		bgImage: '/vegba2.jpg',
-		
+
 		bacPicture:
 			'/spices/cardamom.png',
 		smallDetail:
-		'Are you looking for a natural remedy to reduce stress, depression, and anxiety? Cardamom oil is your answer! Our 100% pure and therapeutic-grade cardamom oil is extracted from the finest cardamom plants in India. It is used for aromatherapy and can be applied topically or taken internally to help tackle a variety of ailments. Let our cardamom oil help you relax, reduce stress, and improve your well-being today!',
+			'Are you looking for a natural remedy to reduce stress, depression, and anxiety? Cardamom oil is your answer! Our 100% pure and therapeutic-grade cardamom oil is extracted from the finest cardamom plants in India. It is used for aromatherapy and can be applied topically or taken internally to help tackle a variety of ailments. Let our cardamom oil help you relax, reduce stress, and improve your well-being today!',
 		details: [
 			{
 				id: 1,
@@ -93,9 +94,9 @@ export const productsData = [
 		categorySlug: 'spices',
 		category: 'Spices',
 		picture: '/spices/anise.png',
-		partOf : 'popular',
+		partOf: 'popular',
 		bgImage: '/frut.jpeg',
-		
+
 		bacPicture:
 			'/spices/anise.png',
 		smallDetail:
@@ -174,9 +175,9 @@ export const productsData = [
 		categorySlug: 'spices',
 		category: 'Spices',
 		picture: '/spices/cloves.png',
-		partOf : 'popular',
+		partOf: 'popular',
 		bgImage: '/vegba2.jpg',
-		
+
 		bacPicture:
 			'/spices/cloves.png',
 		smallDetail:
@@ -256,7 +257,7 @@ export const productsData = [
 		category: 'Spices',
 		picture: '/spices/cordiander.png',
 		bgImage: '/frut.jpeg',
-		
+
 		bacPicture:
 			'/spices/cordiander.png',
 		smallDetail:
@@ -335,8 +336,8 @@ export const productsData = [
 		categorySlug: 'spices',
 		category: 'Spices',
 		picture: '/spices/ginger.png',
-		partOf : 'popular',
-		
+		partOf: 'popular',
+
 		bacPicture:
 			'/spices/ginger.png',
 		smallDetail:
@@ -1039,7 +1040,7 @@ export const productsData = [
 		categorySlug: 'spices',
 		category: 'Spices',
 		picture: '/spices/turmeric.png',
-		partOf : 'popular',
+		partOf: 'popular',
 		bacPicture:
 			'',
 		smallDetail:
@@ -1187,7 +1188,7 @@ export const productsData = [
 
 	//-------------
 
-//vegetables
+	//vegetables
 
 	{
 		id: 116,
@@ -1199,7 +1200,7 @@ export const productsData = [
 		categorySlug: 'vegetables',
 		category: 'Vegetables',
 		picture: '/veg/ashgourd.png',
-		partOf : 'trending',
+		partOf: 'trending',
 		bacPicture:
 			'',
 		smallDetail:
@@ -1276,7 +1277,7 @@ export const productsData = [
 		categorySlug: 'vegetables',
 		category: 'Vegetables',
 		picture: '/veg/butterbeans.png',
-		partOf : 'top-rated',
+		partOf: 'top-rated',
 		bacPicture:
 			'',
 		smallDetail:
@@ -3472,7 +3473,7 @@ export const productsData = [
 		],
 	},
 
-//Fruits
+	//Fruits
 
 	{
 		id: 160,
@@ -4767,7 +4768,7 @@ export const productsData = [
 		],
 	},
 
-//others
+	//others
 
 	{
 		id: 190,
@@ -5151,7 +5152,7 @@ export const productsData = [
 		],
 	},
 
-//Leaves
+	//Leaves
 
 	{
 		id: 205,
@@ -5686,7 +5687,7 @@ export const productsData = [
 		],
 	},
 
-//Powder
+	//Powder
 
 	{
 		id: 220,
@@ -6068,5 +6069,5 @@ export const productsData = [
 			},
 		],
 	},
-	
+
 ];

@@ -11,7 +11,6 @@ const HeadSEO = ({ site = {}, page = {}, schema }: any) => {
       <meta name="format-detection" content="telephone=no" />
 
       <link rel="icon" href="favicon.ico" sizes="any" />
-      <link href="/styles/output.css" rel="stylesheet" />
 
       <link rel="preconnect" href="https://fonts.googleapis.com" />
       <link
