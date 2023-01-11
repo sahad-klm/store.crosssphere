@@ -5,9 +5,10 @@ import {
   useTogglePageTransition,
 } from '@/lib/context';
 import Head from 'next/head';
-import { LazyMotion, domAnimation, AnimatePresence } from 'framer-motion';
+import {  AnimatePresence } from 'framer-motion';
 
 import '/styles/globals.css';
+import 'styles/dist.css'
 import { isBrowser, useScrollRestoration } from '@/lib/helpers';
 import React, { useContext, useEffect, useMemo } from 'react';
 import { Router } from 'next/router';
