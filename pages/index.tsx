@@ -1,4 +1,5 @@
 import { modulesFinder } from '@/lib/helpers';
+import { DailyBestSeller, DealsOfTheDay, FeathersCategory, FooterProducts, HomeComponent, PopularProducts } from 'components';
 import Module from 'components/module/Module';
 import Image from 'next/image';
 import { usePathname} from 'next/navigation';
@@ -10,9 +11,8 @@ const Home = (data: {
 }): JSX.Element => {
   const pathname = usePathname();
   const { site, page }: any = data;
-  const pageName = modulesFinder(pathname)
 
-  if (!pageName[0]) {
+  if (!pathname) {
     return (
       <>
         <div className="mt-52 flex h-full flex-col items-center justify-center">
@@ -31,9 +31,12 @@ const Home = (data: {
    return (
     <>
    
-      {pageName[0].modules.map((page: { id: any; pageType: any; }) => (
-        <Module key={page.id} data={page?.pageType} />
-        ))}
+   <HomeComponent />;
+   <FeathersCategory />;
+   <PopularProducts />;
+   <DailyBestSeller />;
+   <DealsOfTheDay />;
+   <FooterProducts />;
         </>
   );
 };

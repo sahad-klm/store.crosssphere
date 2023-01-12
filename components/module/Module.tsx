@@ -36,12 +36,8 @@ const Module = ({
         return <DealsOfTheDay />;
       case 'footerProducts':
         return <FooterProducts />;
-      case 'collection':
-        return <Collations />;
       case 'collationSlug':
         return <CollationSlug />;
-      case 'collections/[slug]':
-        return <ProductDetails {...data} />;
       case 'about':
         return <About />;
       case 'contact':
