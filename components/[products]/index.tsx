@@ -13,26 +13,6 @@ import { productsData } from '@/lib/products';
 
 const ProductDetails = ({data}: any) => {
   const [mouseOver, setMouseOver] = React.useState(false);
-  const [isScroll, setIsScroll] = React.useState<number | any>();
-  const [isY, setIsY] = React.useState<number | any>();
-  const myTopPosition = React.useRef<any>();
-
-  const setY = () => {
-    const y = myTopPosition?.current?.offsetTop;
-    return setIsScroll(window.pageYOffset), setIsY(y);
-  };
-
-
-  React.useEffect(() => {
-    if (isBrowser) {
-      window.addEventListener('scroll', () => {
-        setY();
-      });
-      setY();
-
-      return () => window.removeEventListener('scroll', () => setY());
-    }
-  }, []);
 
   if (data?.length === 0)
     return (
@@ -114,7 +94,6 @@ const ProductDetails = ({data}: any) => {
             <OfferBoxInCollection className="min-h-[300px]" />
             <NewProducts limit="0" />
           </div>
-          <span ref={myTopPosition} className="absolute bottom-0" />
         </div>
       </div>
     </div>
