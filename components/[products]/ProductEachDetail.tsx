@@ -19,10 +19,10 @@ const ProductEachDetail = (product: any) => {
         className="mx-0 text-2xl"
         classNameForStar="text-lg"
       />
-      <RateOfProductInProductId
+      {/* <RateOfProductInProductId
         rate={product[0].rate}
         offer={product[0].offer}
-      />
+      /> */}
       <span className="flex flex-col gap-[10px]">
         <p className="inline-flex items-center gap-[10px] text-base text-gray-900">
           <TickFilledIcon className="-m-3 scale-50 fill-lime-700" />
