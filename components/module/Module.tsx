@@ -38,8 +38,6 @@ const Module = ({
         return <FooterProducts />;
       case 'collationSlug':
         return <CollationSlug />;
-      case 'about':
-        return <About />;
       case 'contact':
         return <Contact />;
     }
