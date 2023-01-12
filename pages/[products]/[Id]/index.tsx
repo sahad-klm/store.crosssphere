@@ -1,5 +1,6 @@
 import { modulesFinder } from '@/lib/helpers';
 import { productsData } from '@/lib/products';
+import { ProductDetails } from 'components';
 import Layout from 'components/layout/layout';
 import Module from 'components/module/Module';
 import Image from 'next/image';
@@ -13,14 +14,13 @@ const index = (data: {
 }): JSX.Element => {
   const pathname = usePathname();
   const { site, page }: any = data;
-  const pageName = modulesFinder(`/${pathname?.split('/').slice(1)[0]}/[slug]`);
 
   const productID = pathname?.split('/').slice(2).toLocaleString().replaceAll('%20', " ")
   const product = productsData.filter((item: any) => item.name === productID && item)
 
   
 
-  if (!pageName[0]) {
+  if (!product) {
     return (
       <>
         <div className="mt-52 flex h-full flex-col items-center justify-center">
@@ -41,9 +41,7 @@ const index = (data: {
 
   return (
     <>
-      {pageName[0]?.modules.map((page: { id: any; pageType: any }) => (
-        <Module key={page.id} data={page?.pageType} product={product}  />
-      ))}
+       <ProductDetails data={product} />;
     </>
   );
 };

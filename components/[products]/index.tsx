@@ -11,8 +11,7 @@ import Description from './Description';
 import Image from 'next/image';
 import { productsData } from '@/lib/products';
 
-const ProductDetails = (data: any) => {
-  const { product } = data;
+const ProductDetails = ({data}: any) => {
   const [mouseOver, setMouseOver] = React.useState(false);
   const [isScroll, setIsScroll] = React.useState<number | any>();
   const [isY, setIsY] = React.useState<number | any>();
@@ -35,7 +34,7 @@ const ProductDetails = (data: any) => {
     }
   }, []);
 
-  if (product?.length === 0)
+  if (data?.length === 0)
     return (
       <Error
         statusCode={404}
@@ -44,7 +43,7 @@ const ProductDetails = (data: any) => {
     );
   return (
     <div className="relative flex w-full flex-col items-center justify-center overflow-hidden max-lg:mt-[100px] ">
-      <HeadRootNames product={product} />
+      <HeadRootNames product={data} />
 
       <div className="mt-5 flex w-full px-4 flex-col">
         {/* products detail */}
@@ -55,17 +54,17 @@ const ProductDetails = (data: any) => {
                 <Image
                   width={1000}
                   height={1000}
-                  src={product[0]?.picture}
+                  src={data[0]?.picture}
                   alt=""
                   className="object-contain lg:w-[96%]"
                   loading="lazy"
                 />
               </div>
             </div>
-            <ProductEachDetail {...product} />
+            <ProductEachDetail {...data} />
           </div>
           <div className="mb-8 pr-4">
-            <Description products={product[0]} />
+            <Description products={data[0]} />
           </div>
           <div className="flex flex-col gap-4 rounded-xl  pr-4 pb-8 pt-3">
             <h2 className="before:content- relative mb-4 w-full shrink-0 border-b pb-4 font-head text-[24px] text-gray-800 before:absolute before:-bottom-[1px] before:h-[2px] before:w-14 before:bg-gray-300 md:pb-5 md:text-h4">
