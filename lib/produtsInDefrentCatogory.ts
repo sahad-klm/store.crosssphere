@@ -6,18 +6,18 @@ export const dealOftheDayProdutsData = [
 		name: 'Green Cardamom',
 		rating: 4.0,
 		tags: 'Include as spice in food',
-		rate: 10.4,
-		offer: 7,
+		// rate: 10.4,
+		// offer: 7,
 
 		categorySlug: 'spices',
 		category: 'Spices',
 		picture: '/spices/cardamom.png',
-		//partOf: 'popular',
+		//partOf : 'popular',
 		bgImage: '/coconut.jpg',
-
+		
 		bacPicture:
 			'/spices/cardamom.png',
-			smallDetail:
+		smallDetail:
 			'Cardamom is the Queen of Spices. Yet, this wonder spice does more than just add flavour to food and others. It also has excellent and multiple medicinal properties, is used in perfumes, is chewed as a mouth freshener and makes for a very thoughtful gift.Cardamom may improve breathing by stimulating better oxygen uptake and relaxing air passage to the lungs in humans and animals.',
 		details: [
 			{
@@ -83,10 +83,10 @@ export const dealOftheDayProdutsData = [
 			// 	items: [
 			// 		{
 			// 			id: '1',
-			// 			name: 'shad kolkalm',
-			// 			date: 'Sep 14, 2022',
-			// 			title: 'CLEAN DESIGN, ROOMY & VIBRANT',
-			// 			text: 'Uninhibited carnally hired played in whimpered dear gorilla koala depending and much yikes off far quetzal goodness and from for grimaced goodness unaccountably and meadowlark near unblushingly crucial scallop tightly',
+			// 			name: '',
+			// 			date: '',
+			// 			title: '',
+			// 			text: '',
 			// 			rating: 3.5,
 			// 		},
 			// 	],
@@ -99,19 +99,18 @@ export const dealOftheDayProdutsData = [
 		name: 'Anise',
 		rating: 4.0,
 		tags: 'Used as a flavoring agent',
-		rate: 10.4,
-		offer: 7,
+		// rate: 10.4,
+		// offer: 7,
 
 		categorySlug: 'spices',
 		category: 'Spices',
 		picture: '/spices/anise.png',
-		//partOf: 'popular',
 		bgImage: '/frut.jpeg',
 
 		bacPicture:
 			'/spices/anise.png',
 		smallDetail:
-			'Uninhibited carnally hired played in whimpered dear gorilla koala depending and much yikes off far quetzal goodness and from for grimaced goodness unaccountably and meadowlark near unblushingly crucial scallop tightly neurotic hungrily some and dear furiously this apart.',
+			'',
 		details: [
 			{
 				id: 1,
@@ -121,31 +120,9 @@ export const dealOftheDayProdutsData = [
 						id: 1,
 						title: '',
 						detail:
-							'Uninhibited carnally hired played in whimpered dear gorilla koala depending and much yikes off far quetzal goodness and from for grimaced goodness unaccountably and meadowlark near unblushingly crucial scallop tightly neurotic hungrily some and dear furiously this apart. <br/> Spluttered narrowly yikes left moth in yikes bowed this that grizzly much hello on spoon-fed that alas rethought much decently richly and wow against the frequent fluidly at formidable acceptably flapped beside and much circa far over the bucolically hey precarious goldfinch mastodon goodness gnashed a jellyfish and one however because.',
+							'',
 					},
-					{
-						id: 2,
-						title: 'Packaging & Delivery',
-						detail:
-							'Less lion goodness that euphemistically robin expeditiously bluebird smugly scratched far while thus cackled sheepishly rigid after due one assenting regarding censorious while occasional or this more crane went more as this less much amid overhung anathematic because much held one exuberantly sheep goodness so where rat wry well concomitantly. ~ Scallop or far crud plain remarkably far by thus far iguana lewd precociously and less rattlesnake contrary caustic wow this near, alas and next and pled the yikes articulate about as less cackled dalmatian in much less well jeering for the thanks blindly sentimental whimpered less across objectively fanciful grimaced wildly some wow and rose jeepers outgrew lugubrious luridly irrationally attractively dachshund.',
-					},
-					{
-						id: 3,
-						title: 'Suggested Use',
-						detail: 'Refrigeration is not necessary. ~ Stir before serving',
-					},
-					{
-						id: 4,
-						title: 'Other Ingredients',
-						detail:
-							'Organic raw pecans, organic raw cashews. ~ This butter was produced using an LTG (Low-Temperature Grinding) process. ~ Made in machinery that processes tree nuts but does not process peanuts, gluten, dairy, or soy',
-					},
-					{
-						id: 5,
-						title: 'Warnings',
-						detail:
-							'Oil separation occurs naturally. May contain pieces of shell.',
-					},
+					
 				],
 			},
 			{
@@ -154,7 +131,7 @@ export const dealOftheDayProdutsData = [
 				items: [
 					{
 						id: 1,
-						detail: 'ivdea oru kundavum illa',
+						detail: '',
 					},
 				],
 			},
@@ -163,11 +140,11 @@ export const dealOftheDayProdutsData = [
 				part: 'Reviews',
 				items: [
 					{
-						id: '1',
-						name: 'shad kolkalm',
-						date: 'Sep 14, 2022',
-						title: 'CLEAN DESIGN, ROOMY & VIBRANT',
-						text: 'Uninhibited carnally hired played in whimpered dear gorilla koala depending and much yikes off far quetzal goodness and from for grimaced goodness unaccountably and meadowlark near unblushingly crucial scallop tightly',
+						id: '',
+						name: '',
+						date: '',
+						title: '',
+						text: '',
 						rating: 3.5,
 					},
 				],
@@ -180,19 +157,18 @@ export const dealOftheDayProdutsData = [
 		name: 'Cloves',
 		rating: 4.0,
 		tags: 'Spice,Flavoring,Fragrance',
-		rate: 10.4,
-		offer: 7,
+		// rate: 10.4,
+		// offer: 7,
 
 		categorySlug: 'spices',
 		category: 'Spices',
 		picture: '/spices/cloves.png',
-		//partOf: 'popular',
 		bgImage: '/vegba2.jpg',
 
 		bacPicture:
 			'/spices/cloves.png',
 		smallDetail:
-			'Uninhibited carnally hired played in whimpered dear gorilla koala depending and much yikes off far quetzal goodness and from for grimaced goodness unaccountably and meadowlark near unblushingly crucial scallop tightly neurotic hungrily some and dear furiously this apart.',
+			'',
 		details: [
 			{
 				id: 1,
@@ -202,31 +178,9 @@ export const dealOftheDayProdutsData = [
 						id: 1,
 						title: '',
 						detail:
-							'Uninhibited carnally hired played in whimpered dear gorilla koala depending and much yikes off far quetzal goodness and from for grimaced goodness unaccountably and meadowlark near unblushingly crucial scallop tightly neurotic hungrily some and dear furiously this apart. <br/> Spluttered narrowly yikes left moth in yikes bowed this that grizzly much hello on spoon-fed that alas rethought much decently richly and wow against the frequent fluidly at formidable acceptably flapped beside and much circa far over the bucolically hey precarious goldfinch mastodon goodness gnashed a jellyfish and one however because.',
+							'',
 					},
-					{
-						id: 2,
-						title: 'Packaging & Delivery',
-						detail:
-							'Less lion goodness that euphemistically robin expeditiously bluebird smugly scratched far while thus cackled sheepishly rigid after due one assenting regarding censorious while occasional or this more crane went more as this less much amid overhung anathematic because much held one exuberantly sheep goodness so where rat wry well concomitantly. ~ Scallop or far crud plain remarkably far by thus far iguana lewd precociously and less rattlesnake contrary caustic wow this near, alas and next and pled the yikes articulate about as less cackled dalmatian in much less well jeering for the thanks blindly sentimental whimpered less across objectively fanciful grimaced wildly some wow and rose jeepers outgrew lugubrious luridly irrationally attractively dachshund.',
-					},
-					{
-						id: 3,
-						title: 'Suggested Use',
-						detail: 'Refrigeration is not necessary. ~ Stir before serving',
-					},
-					{
-						id: 4,
-						title: 'Other Ingredients',
-						detail:
-							'Organic raw pecans, organic raw cashews. ~ This butter was produced using an LTG (Low-Temperature Grinding) process. ~ Made in machinery that processes tree nuts but does not process peanuts, gluten, dairy, or soy',
-					},
-					{
-						id: 5,
-						title: 'Warnings',
-						detail:
-							'Oil separation occurs naturally. May contain pieces of shell.',
-					},
+					
 				],
 			},
 			{
@@ -235,7 +189,7 @@ export const dealOftheDayProdutsData = [
 				items: [
 					{
 						id: 1,
-						detail: 'ivdea oru kundavum illa',
+						detail: '',
 					},
 				],
 			},
@@ -245,10 +199,10 @@ export const dealOftheDayProdutsData = [
 				items: [
 					{
 						id: '1',
-						name: 'shad kolkalm',
-						date: 'Sep 14, 2022',
-						title: 'CLEAN DESIGN, ROOMY & VIBRANT',
-						text: 'Uninhibited carnally hired played in whimpered dear gorilla koala depending and much yikes off far quetzal goodness and from for grimaced goodness unaccountably and meadowlark near unblushingly crucial scallop tightly',
+						name: '',
+						date: '',
+						title: '',
+						text: '',
 						rating: 3.5,
 					},
 				],
@@ -261,8 +215,8 @@ export const dealOftheDayProdutsData = [
 		name: 'Cordiander',
 		rating: 4.0,
 		tags: 'Boost immunity',
-		rate: 10.4,
-		offer: 7,
+		// rate: 10.4,
+		// offer: 7,
 
 		categorySlug: 'spices',
 		category: 'Spices',
@@ -272,7 +226,7 @@ export const dealOftheDayProdutsData = [
 		bacPicture:
 			'/spices/cordiander.png',
 		smallDetail:
-			'Uninhibited carnally hired played in whimpered dear gorilla koala depending and much yikes off far quetzal goodness and from for grimaced goodness unaccountably and meadowlark near unblushingly crucial scallop tightly neurotic hungrily some and dear furiously this apart.',
+			'',
 		details: [
 			{
 				id: 1,
@@ -282,31 +236,9 @@ export const dealOftheDayProdutsData = [
 						id: 1,
 						title: '',
 						detail:
-							'Uninhibited carnally hired played in whimpered dear gorilla koala depending and much yikes off far quetzal goodness and from for grimaced goodness unaccountably and meadowlark near unblushingly crucial scallop tightly neurotic hungrily some and dear furiously this apart. <br/> Spluttered narrowly yikes left moth in yikes bowed this that grizzly much hello on spoon-fed that alas rethought much decently richly and wow against the frequent fluidly at formidable acceptably flapped beside and much circa far over the bucolically hey precarious goldfinch mastodon goodness gnashed a jellyfish and one however because.',
+							'',
 					},
-					{
-						id: 2,
-						title: 'Packaging & Delivery',
-						detail:
-							'Less lion goodness that euphemistically robin expeditiously bluebird smugly scratched far while thus cackled sheepishly rigid after due one assenting regarding censorious while occasional or this more crane went more as this less much amid overhung anathematic because much held one exuberantly sheep goodness so where rat wry well concomitantly. ~ Scallop or far crud plain remarkably far by thus far iguana lewd precociously and less rattlesnake contrary caustic wow this near, alas and next and pled the yikes articulate about as less cackled dalmatian in much less well jeering for the thanks blindly sentimental whimpered less across objectively fanciful grimaced wildly some wow and rose jeepers outgrew lugubrious luridly irrationally attractively dachshund.',
-					},
-					{
-						id: 3,
-						title: 'Suggested Use',
-						detail: 'Refrigeration is not necessary. ~ Stir before serving',
-					},
-					{
-						id: 4,
-						title: 'Other Ingredients',
-						detail:
-							'Organic raw pecans, organic raw cashews. ~ This butter was produced using an LTG (Low-Temperature Grinding) process. ~ Made in machinery that processes tree nuts but does not process peanuts, gluten, dairy, or soy',
-					},
-					{
-						id: 5,
-						title: 'Warnings',
-						detail:
-							'Oil separation occurs naturally. May contain pieces of shell.',
-					},
+					
 				],
 			},
 			{
@@ -315,7 +247,7 @@ export const dealOftheDayProdutsData = [
 				items: [
 					{
 						id: 1,
-						detail: 'ivdea oru kundavum illa',
+						detail: '',
 					},
 				],
 			},
@@ -325,10 +257,10 @@ export const dealOftheDayProdutsData = [
 				items: [
 					{
 						id: '1',
-						name: 'shad kolkalm',
-						date: 'Sep 14, 2022',
-						title: 'CLEAN DESIGN, ROOMY & VIBRANT',
-						text: 'Uninhibited carnally hired played in whimpered dear gorilla koala depending and much yikes off far quetzal goodness and from for grimaced goodness unaccountably and meadowlark near unblushingly crucial scallop tightly',
+						name: '',
+						date: '',
+						title: '',
+						text: '',
 						rating: 3.5,
 					},
 				],
@@ -339,16 +271,16 @@ export const dealOftheDayProdutsData = [
 
 
 
-// daoly best seller
+// daily best seller
 
 export const dailyBestSellerProduts = [
 	{
-		id: 224,
+		id: 235,
 		name: 'Cardamom Essential Oil',
 		rating: 4.0,
 		tags: 'black plum, organic, silopy kujjapu',
-		rate: 10.4,
-		offer: 7,
+		// rate: 10.4,
+		// offer: 7,
 		categorySlug: 'oils',
 		category: 'Oils',
 		picture: '/oils/cardamomoil.png',
@@ -356,7 +288,7 @@ export const dailyBestSellerProduts = [
 		bacPicture:
 			'/oils/cardamomoil.png',
 		smallDetail:
-			'Uninhibited carnally hired played in whimpered dear gorilla koala depending and much yikes off far quetzal goodness and from for grimaced goodness unaccountably and meadowlark near unblushingly crucial scallop tightly neurotic hungrily some and dear furiously this apart.',
+			'',
 		details: [
 			{
 				id: 1,
@@ -366,31 +298,10 @@ export const dailyBestSellerProduts = [
 						id: 1,
 						title: '',
 						detail:
-							'Uninhibited carnally hired played in whimpered dear gorilla koala depending and much yikes off far quetzal goodness and from for grimaced goodness unaccountably and meadowlark near unblushingly crucial scallop tightly neurotic hungrily some and dear furiously this apart. <br/> Spluttered narrowly yikes left moth in yikes bowed this that grizzly much hello on spoon-fed that alas rethought much decently richly and wow against the frequent fluidly at formidable acceptably flapped beside and much circa far over the bucolically hey precarious goldfinch mastodon goodness gnashed a jellyfish and one however because.',
+							'',
 					},
-					{
-						id: 2,
-						title: 'Packaging & Delivery',
-						detail:
-							'Less lion goodness that euphemistically robin expeditiously bluebird smugly scratched far while thus cackled sheepishly rigid after due one assenting regarding censorious while occasional or this more crane went more as this less much amid overhung anathematic because much held one exuberantly sheep goodness so where rat wry well concomitantly. ~ Scallop or far crud plain remarkably far by thus far iguana lewd precociously and less rattlesnake contrary caustic wow this near, alas and next and pled the yikes articulate about as less cackled dalmatian in much less well jeering for the thanks blindly sentimental whimpered less across objectively fanciful grimaced wildly some wow and rose jeepers outgrew lugubrious luridly irrationally attractively dachshund.',
-					},
-					{
-						id: 3,
-						title: 'Suggested Use',
-						detail: 'Refrigeration is not necessary. ~ Stir before serving',
-					},
-					{
-						id: 4,
-						title: 'Other Ingredients',
-						detail:
-							'Organic raw pecans, organic raw cashews. ~ This butter was produced using an LTG (Low-Temperature Grinding) process. ~ Made in machinery that processes tree nuts but does not process peanuts, gluten, dairy, or soy',
-					},
-					{
-						id: 5,
-						title: 'Warnings',
-						detail:
-							'Oil separation occurs naturally. May contain pieces of shell.',
-					},
+					
+					
 				],
 			},
 			{
@@ -399,7 +310,7 @@ export const dailyBestSellerProduts = [
 				items: [
 					{
 						id: 1,
-						detail: 'ivdea oru kundavum illa',
+						detail: '',
 					},
 				],
 			},
@@ -409,10 +320,10 @@ export const dailyBestSellerProduts = [
 				items: [
 					{
 						id: '1',
-						name: 'shad kolkalm',
-						date: 'Sep 14, 2022',
-						title: 'CLEAN DESIGN, ROOMY & VIBRANT',
-						text: 'Uninhibited carnally hired played in whimpered dear gorilla koala depending and much yikes off far quetzal goodness and from for grimaced goodness unaccountably and meadowlark near unblushingly crucial scallop tightly',
+						name: '',
+						date: '',
+						title: '',
+						text: '',
 						rating: 3.5,
 					},
 				],
@@ -425,15 +336,15 @@ export const dailyBestSellerProduts = [
 		name: 'Fresh Mango',
 		rating: 4.0,
 		tags: 'black plum, organic, silopy kujjapu',
-		rate: 10.4,
-		offer: 7,
+		//rate: 10.4,
+		//offer: 7,
 		categorySlug: 'fruits',
 		category: 'Fruits',
 		picture: '/fruits/mango.png',
 		bacPicture:
 			'/fruits/mango.png',
 		smallDetail:
-			'Uninhibited carnally hired played in whimpered dear gorilla koala depending and much yikes off far quetzal goodness and from for grimaced goodness unaccountably and meadowlark near unblushingly crucial scallop tightly neurotic hungrily some and dear furiously this apart.',
+			'',
 		details: [
 			{
 				id: 1,
@@ -443,31 +354,10 @@ export const dailyBestSellerProduts = [
 						id: 1,
 						title: '',
 						detail:
-							'Uninhibited carnally hired played in whimpered dear gorilla koala depending and much yikes off far quetzal goodness and from for grimaced goodness unaccountably and meadowlark near unblushingly crucial scallop tightly neurotic hungrily some and dear furiously this apart. <br/> Spluttered narrowly yikes left moth in yikes bowed this that grizzly much hello on spoon-fed that alas rethought much decently richly and wow against the frequent fluidly at formidable acceptably flapped beside and much circa far over the bucolically hey precarious goldfinch mastodon goodness gnashed a jellyfish and one however because.',
+							'',
 					},
-					{
-						id: 2,
-						title: 'Packaging & Delivery',
-						detail:
-							'Less lion goodness that euphemistically robin expeditiously bluebird smugly scratched far while thus cackled sheepishly rigid after due one assenting regarding censorious while occasional or this more crane went more as this less much amid overhung anathematic because much held one exuberantly sheep goodness so where rat wry well concomitantly. ~ Scallop or far crud plain remarkably far by thus far iguana lewd precociously and less rattlesnake contrary caustic wow this near, alas and next and pled the yikes articulate about as less cackled dalmatian in much less well jeering for the thanks blindly sentimental whimpered less across objectively fanciful grimaced wildly some wow and rose jeepers outgrew lugubrious luridly irrationally attractively dachshund.',
-					},
-					{
-						id: 3,
-						title: 'Suggested Use',
-						detail: 'Refrigeration is not necessary. ~ Stir before serving',
-					},
-					{
-						id: 4,
-						title: 'Other Ingredients',
-						detail:
-							'Organic raw pecans, organic raw cashews. ~ This butter was produced using an LTG (Low-Temperature Grinding) process. ~ Made in machinery that processes tree nuts but does not process peanuts, gluten, dairy, or soy',
-					},
-					{
-						id: 5,
-						title: 'Warnings',
-						detail:
-							'Oil separation occurs naturally. May contain pieces of shell.',
-					},
+					
+					
 				],
 			},
 			{
@@ -476,7 +366,7 @@ export const dailyBestSellerProduts = [
 				items: [
 					{
 						id: 1,
-						detail: 'ivdea oru kundavum illa',
+						detail: '',
 					},
 				],
 			},
@@ -486,10 +376,10 @@ export const dailyBestSellerProduts = [
 				items: [
 					{
 						id: '1',
-						name: 'shad kolkalm',
-						date: 'Sep 14, 2022',
-						title: 'CLEAN DESIGN, ROOMY & VIBRANT',
-						text: 'Uninhibited carnally hired played in whimpered dear gorilla koala depending and much yikes off far quetzal goodness and from for grimaced goodness unaccountably and meadowlark near unblushingly crucial scallop tightly',
+						name: '',
+						date: '',
+						title: '',
+						text: '',
 						rating: 3.5,
 					},
 				],
@@ -502,19 +392,18 @@ export const dailyBestSellerProduts = [
 		name: 'Cloves',
 		rating: 4.0,
 		tags: 'Spice,Flavoring,Fragrance',
-		rate: 10.4,
-		offer: 7,
+		// rate: 10.4,
+		// offer: 7,
 
 		categorySlug: 'spices',
 		category: 'Spices',
 		picture: '/spices/cloves.png',
-		partOf: 'popular',
 		bgImage: '/vegba2.jpg',
 
 		bacPicture:
 			'/spices/cloves.png',
 		smallDetail:
-			'Uninhibited carnally hired played in whimpered dear gorilla koala depending and much yikes off far quetzal goodness and from for grimaced goodness unaccountably and meadowlark near unblushingly crucial scallop tightly neurotic hungrily some and dear furiously this apart.',
+			'',
 		details: [
 			{
 				id: 1,
@@ -524,31 +413,9 @@ export const dailyBestSellerProduts = [
 						id: 1,
 						title: '',
 						detail:
-							'Uninhibited carnally hired played in whimpered dear gorilla koala depending and much yikes off far quetzal goodness and from for grimaced goodness unaccountably and meadowlark near unblushingly crucial scallop tightly neurotic hungrily some and dear furiously this apart. <br/> Spluttered narrowly yikes left moth in yikes bowed this that grizzly much hello on spoon-fed that alas rethought much decently richly and wow against the frequent fluidly at formidable acceptably flapped beside and much circa far over the bucolically hey precarious goldfinch mastodon goodness gnashed a jellyfish and one however because.',
+							'',
 					},
-					{
-						id: 2,
-						title: 'Packaging & Delivery',
-						detail:
-							'Less lion goodness that euphemistically robin expeditiously bluebird smugly scratched far while thus cackled sheepishly rigid after due one assenting regarding censorious while occasional or this more crane went more as this less much amid overhung anathematic because much held one exuberantly sheep goodness so where rat wry well concomitantly. ~ Scallop or far crud plain remarkably far by thus far iguana lewd precociously and less rattlesnake contrary caustic wow this near, alas and next and pled the yikes articulate about as less cackled dalmatian in much less well jeering for the thanks blindly sentimental whimpered less across objectively fanciful grimaced wildly some wow and rose jeepers outgrew lugubrious luridly irrationally attractively dachshund.',
-					},
-					{
-						id: 3,
-						title: 'Suggested Use',
-						detail: 'Refrigeration is not necessary. ~ Stir before serving',
-					},
-					{
-						id: 4,
-						title: 'Other Ingredients',
-						detail:
-							'Organic raw pecans, organic raw cashews. ~ This butter was produced using an LTG (Low-Temperature Grinding) process. ~ Made in machinery that processes tree nuts but does not process peanuts, gluten, dairy, or soy',
-					},
-					{
-						id: 5,
-						title: 'Warnings',
-						detail:
-							'Oil separation occurs naturally. May contain pieces of shell.',
-					},
+					
 				],
 			},
 			{
@@ -557,7 +424,7 @@ export const dailyBestSellerProduts = [
 				items: [
 					{
 						id: 1,
-						detail: 'ivdea oru kundavum illa',
+						detail: '',
 					},
 				],
 			},
@@ -567,10 +434,10 @@ export const dailyBestSellerProduts = [
 				items: [
 					{
 						id: '1',
-						name: 'shad kolkalm',
-						date: 'Sep 14, 2022',
-						title: 'CLEAN DESIGN, ROOMY & VIBRANT',
-						text: 'Uninhibited carnally hired played in whimpered dear gorilla koala depending and much yikes off far quetzal goodness and from for grimaced goodness unaccountably and meadowlark near unblushingly crucial scallop tightly',
+						name: '',
+						date: '',
+						title: '',
+						text: '',
 						rating: 3.5,
 					},
 				],
@@ -583,8 +450,8 @@ export const dailyBestSellerProduts = [
 		name: 'Cordiander',
 		rating: 4.0,
 		tags: 'Boost immunity',
-		rate: 10.4,
-		offer: 7,
+		// rate: 10.4,
+		// offer: 7,
 
 		categorySlug: 'spices',
 		category: 'Spices',
@@ -594,7 +461,7 @@ export const dailyBestSellerProduts = [
 		bacPicture:
 			'/spices/cordiander.png',
 		smallDetail:
-			'Uninhibited carnally hired played in whimpered dear gorilla koala depending and much yikes off far quetzal goodness and from for grimaced goodness unaccountably and meadowlark near unblushingly crucial scallop tightly neurotic hungrily some and dear furiously this apart.',
+			'',
 		details: [
 			{
 				id: 1,
@@ -604,31 +471,9 @@ export const dailyBestSellerProduts = [
 						id: 1,
 						title: '',
 						detail:
-							'Uninhibited carnally hired played in whimpered dear gorilla koala depending and much yikes off far quetzal goodness and from for grimaced goodness unaccountably and meadowlark near unblushingly crucial scallop tightly neurotic hungrily some and dear furiously this apart. <br/> Spluttered narrowly yikes left moth in yikes bowed this that grizzly much hello on spoon-fed that alas rethought much decently richly and wow against the frequent fluidly at formidable acceptably flapped beside and much circa far over the bucolically hey precarious goldfinch mastodon goodness gnashed a jellyfish and one however because.',
+							'',
 					},
-					{
-						id: 2,
-						title: 'Packaging & Delivery',
-						detail:
-							'Less lion goodness that euphemistically robin expeditiously bluebird smugly scratched far while thus cackled sheepishly rigid after due one assenting regarding censorious while occasional or this more crane went more as this less much amid overhung anathematic because much held one exuberantly sheep goodness so where rat wry well concomitantly. ~ Scallop or far crud plain remarkably far by thus far iguana lewd precociously and less rattlesnake contrary caustic wow this near, alas and next and pled the yikes articulate about as less cackled dalmatian in much less well jeering for the thanks blindly sentimental whimpered less across objectively fanciful grimaced wildly some wow and rose jeepers outgrew lugubrious luridly irrationally attractively dachshund.',
-					},
-					{
-						id: 3,
-						title: 'Suggested Use',
-						detail: 'Refrigeration is not necessary. ~ Stir before serving',
-					},
-					{
-						id: 4,
-						title: 'Other Ingredients',
-						detail:
-							'Organic raw pecans, organic raw cashews. ~ This butter was produced using an LTG (Low-Temperature Grinding) process. ~ Made in machinery that processes tree nuts but does not process peanuts, gluten, dairy, or soy',
-					},
-					{
-						id: 5,
-						title: 'Warnings',
-						detail:
-							'Oil separation occurs naturally. May contain pieces of shell.',
-					},
+					
 				],
 			},
 			{
@@ -637,7 +482,7 @@ export const dailyBestSellerProduts = [
 				items: [
 					{
 						id: 1,
-						detail: 'ivdea oru kundavum illa',
+						detail: '',
 					},
 				],
 			},
@@ -647,10 +492,10 @@ export const dailyBestSellerProduts = [
 				items: [
 					{
 						id: '1',
-						name: 'shad kolkalm',
-						date: 'Sep 14, 2022',
-						title: 'CLEAN DESIGN, ROOMY & VIBRANT',
-						text: 'Uninhibited carnally hired played in whimpered dear gorilla koala depending and much yikes off far quetzal goodness and from for grimaced goodness unaccountably and meadowlark near unblushingly crucial scallop tightly',
+						name: '',
+						date: '',
+						title: '',
+						text: '',
 						rating: 3.5,
 					},
 				],
@@ -663,8 +508,8 @@ export const dailyBestSellerProduts = [
 		name: 'Ginger',
 		rating: 4.0,
 		tags: 'Spice,Folk medicine',
-		rate: 10.4,
-		offer: 7,
+		// rate: 10.4,
+		// offer: 7,
 
 		categorySlug: 'spices',
 		category: 'Spices',
@@ -674,7 +519,7 @@ export const dailyBestSellerProduts = [
 		bacPicture:
 			'/spices/ginger.png',
 		smallDetail:
-			'Uninhibited carnally hired played in whimpered dear gorilla koala depending and much yikes off far quetzal goodness and from for grimaced goodness unaccountably and meadowlark near unblushingly crucial scallop tightly neurotic hungrily some and dear furiously this apart.',
+			'',
 		details: [
 			{
 				id: 1,
@@ -684,31 +529,9 @@ export const dailyBestSellerProduts = [
 						id: 1,
 						title: '',
 						detail:
-							'Uninhibited carnally hired played in whimpered dear gorilla koala depending and much yikes off far quetzal goodness and from for grimaced goodness unaccountably and meadowlark near unblushingly crucial scallop tightly neurotic hungrily some and dear furiously this apart. <br/> Spluttered narrowly yikes left moth in yikes bowed this that grizzly much hello on spoon-fed that alas rethought much decently richly and wow against the frequent fluidly at formidable acceptably flapped beside and much circa far over the bucolically hey precarious goldfinch mastodon goodness gnashed a jellyfish and one however because.',
+							'',
 					},
-					{
-						id: 2,
-						title: 'Packaging & Delivery',
-						detail:
-							'Less lion goodness that euphemistically robin expeditiously bluebird smugly scratched far while thus cackled sheepishly rigid after due one assenting regarding censorious while occasional or this more crane went more as this less much amid overhung anathematic because much held one exuberantly sheep goodness so where rat wry well concomitantly. ~ Scallop or far crud plain remarkably far by thus far iguana lewd precociously and less rattlesnake contrary caustic wow this near, alas and next and pled the yikes articulate about as less cackled dalmatian in much less well jeering for the thanks blindly sentimental whimpered less across objectively fanciful grimaced wildly some wow and rose jeepers outgrew lugubrious luridly irrationally attractively dachshund.',
-					},
-					{
-						id: 3,
-						title: 'Suggested Use',
-						detail: 'Refrigeration is not necessary. ~ Stir before serving',
-					},
-					{
-						id: 4,
-						title: 'Other Ingredients',
-						detail:
-							'Organic raw pecans, organic raw cashews. ~ This butter was produced using an LTG (Low-Temperature Grinding) process. ~ Made in machinery that processes tree nuts but does not process peanuts, gluten, dairy, or soy',
-					},
-					{
-						id: 5,
-						title: 'Warnings',
-						detail:
-							'Oil separation occurs naturally. May contain pieces of shell.',
-					},
+					
 				],
 			},
 			{
@@ -717,7 +540,7 @@ export const dailyBestSellerProduts = [
 				items: [
 					{
 						id: 1,
-						detail: 'ivdea oru kundavum illa',
+						detail: '',
 					},
 				],
 			},
@@ -727,10 +550,10 @@ export const dailyBestSellerProduts = [
 				items: [
 					{
 						id: '1',
-						name: 'shad kolkalm',
-						date: 'Sep 14, 2022',
-						title: 'CLEAN DESIGN, ROOMY & VIBRANT',
-						text: 'Uninhibited carnally hired played in whimpered dear gorilla koala depending and much yikes off far quetzal goodness and from for grimaced goodness unaccountably and meadowlark near unblushingly crucial scallop tightly',
+						name: '',
+						date: '',
+						title: '',
+						text: '',
 						rating: 3.5,
 					},
 				],
@@ -743,8 +566,8 @@ export const dailyBestSellerProduts = [
 		name: 'Nutmeg',
 		rating: 4.0,
 		tags: 'Used in baking',
-		rate: 10.4,
-		offer: 7,
+		// rate: 10.4,
+		// offer: 7,
 
 		categorySlug: 'spices',
 		category: 'Spices',
@@ -752,7 +575,7 @@ export const dailyBestSellerProduts = [
 		bacPicture:
 			'/spices/nutmeg.png',
 		smallDetail:
-			'Uninhibited carnally hired played in whimpered dear gorilla koala depending and much yikes off far quetzal goodness and from for grimaced goodness unaccountably and meadowlark near unblushingly crucial scallop tightly neurotic hungrily some and dear furiously this apart.',
+			'',
 		details: [
 			{
 				id: 1,
@@ -762,30 +585,18 @@ export const dailyBestSellerProduts = [
 						id: 1,
 						title: '',
 						detail:
-							'Uninhibited carnally hired played in whimpered dear gorilla koala depending and much yikes off far quetzal goodness and from for grimaced goodness unaccountably and meadowlark near unblushingly crucial scallop tightly neurotic hungrily some and dear furiously this apart. <br/> Spluttered narrowly yikes left moth in yikes bowed this that grizzly much hello on spoon-fed that alas rethought much decently richly and wow against the frequent fluidly at formidable acceptably flapped beside and much circa far over the bucolically hey precarious goldfinch mastodon goodness gnashed a jellyfish and one however because.',
+							'',
 					},
+					
+				],
+			},
+			{
+				id: 2,
+				part: '',
+				items: [
 					{
-						id: 2,
-						title: 'Packaging & Delivery',
-						detail:
-							'Less lion goodness that euphemistically robin expeditiously bluebird smugly scratched far while thus cackled sheepishly rigid after due one assenting regarding censorious while occasional or this more crane went more as this less much amid overhung anathematic because much held one exuberantly sheep goodness so where rat wry well concomitantly. ~ Scallop or far crud plain remarkably far by thus far iguana lewd precociously and less rattlesnake contrary caustic wow this near, alas and next and pled the yikes articulate about as less cackled dalmatian in much less well jeering for the thanks blindly sentimental whimpered less across objectively fanciful grimaced wildly some wow and rose jeepers outgrew lugubrious luridly irrationally attractively dachshund.',
-					},
-					{
-						id: 3,
-						title: 'Suggested Use',
-						detail: 'Refrigeration is not necessary. ~ Stir before serving',
-					},
-					{
-						id: 4,
-						title: 'Other Ingredients',
-						detail:
-							'Organic raw pecans, organic raw cashews. ~ This butter was produced using an LTG (Low-Temperature Grinding) process. ~ Made in machinery that processes tree nuts but does not process peanuts, gluten, dairy, or soy',
-					},
-					{
-						id: 5,
-						title: 'Warnings',
-						detail:
-							'Oil separation occurs naturally. May contain pieces of shell.',
+						id: 1,
+						detail: '',
 					},
 				],
 			},
@@ -795,7 +606,7 @@ export const dailyBestSellerProduts = [
 				items: [
 					{
 						id: 1,
-						detail: 'ivdea oru kundavum illa',
+						detail: '',
 					},
 				],
 			},
@@ -805,10 +616,10 @@ export const dailyBestSellerProduts = [
 				items: [
 					{
 						id: '1',
-						name: 'shad kolkalm',
-						date: 'Sep 14, 2022',
-						title: 'CLEAN DESIGN, ROOMY & VIBRANT',
-						text: 'Uninhibited carnally hired played in whimpered dear gorilla koala depending and much yikes off far quetzal goodness and from for grimaced goodness unaccountably and meadowlark near unblushingly crucial scallop tightly',
+						name: '',
+						date: '',
+						title: '',
+						text: '',
 						rating: 3.5,
 					},
 				],
@@ -826,8 +637,8 @@ export const popularProductsData = [
 		name: 'Chilli Powder',
 		rating: 4.0,
 		tags: 'black plum, organic, silopy kujjapu',
-		rate: 10.4,
-		offer: 7,
+		// rate: 10.4,
+		// offer: 7,
 		categorySlug: 'powder',
 		category: 'Powder',
 		picture: '/powder/chillipowder.png',
@@ -842,33 +653,22 @@ export const popularProductsData = [
 				items: [
 					{
 						id: 1,
-						title: '',
+						title: 'About',
 						detail:
 							'Spice up your food with the delicious, flavorful chilli powder from our selection. Whether it is Mexican, Thai, or Indian cuisine you are looking to make, our chilli powder can add that extra kick of heat to get you the perfect dish every time. Our blend of natural herbs and spices will tantalize your taste buds and transform your cooking with its unique flavor. Get ready to take your dishes to the next level of flavor!',
 					},
-					// {
-					// 	id: 2,
-					// 	title: 'Packaging & Delivery',
-					// 	detail:
-					// 		'Less lion goodness that euphemistically robin expeditiously bluebird smugly scratched far while thus cackled sheepishly rigid after due one assenting regarding censorious while occasional or this more crane went more as this less much amid overhung anathematic because much held one exuberantly sheep goodness so where rat wry well concomitantly. ~ Scallop or far crud plain remarkably far by thus far iguana lewd precociously and less rattlesnake contrary caustic wow this near, alas and next and pled the yikes articulate about as less cackled dalmatian in much less well jeering for the thanks blindly sentimental whimpered less across objectively fanciful grimaced wildly some wow and rose jeepers outgrew lugubrious luridly irrationally attractively dachshund.',
-					// },
 					{
-						id: 3,
+						id: 2,
 						title: 'Origin ',
 						detail: 'South India',
 					},
 					{
-						id: 4,
+						id: 3,
 						title: 'Other Ingredients',
 						detail:
 							' Usually, chile powder has no additives..',
 					},
-					// {
-					// 	id: 5,
-					// 	title: 'Warnings',
-					// 	detail:
-					// 		'Oil separation occurs naturally. May contain pieces of shell.',
-					// },
+					
 				],
 			},
 			{
@@ -877,7 +677,7 @@ export const popularProductsData = [
 				items: [
 					{
 						id: 1,
-						detail: 'ivdea oru kundavum illa',
+						detail: '',
 					},
 				],
 			},
@@ -887,10 +687,10 @@ export const popularProductsData = [
 				items: [
 					{
 						id: '1',
-						name: 'shad kolkalm',
-						date: 'Sep 14, 2022',
-						title: 'CLEAN DESIGN, ROOMY & VIBRANT',
-						text: 'Uninhibited carnally hired played in whimpered dear gorilla koala depending and much yikes off far quetzal goodness and from for grimaced goodness unaccountably and meadowlark near unblushingly crucial scallop tightly',
+						name: '',
+						date: '',
+						title: '',
+						text: '',
 						rating: 3.5,
 					},
 				],
@@ -903,17 +703,15 @@ export const popularProductsData = [
 		name: 'Plantain',
 		rating: 4.0,
 		tags: 'black plum, organic, silopy kujjapu',
-		rate: 10.4,
-		offer: 7,
+		//rate: 10.4,
+		//offer: 7,
 		categorySlug: 'fruits',
 		category: 'Fruits',
 		picture: '/fruits/plantain.png',
-
-
 		bacPicture:
 			'/fruits/plantain.png',
 		smallDetail:
-			'Uninhibited carnally hired played in whimpered dear gorilla koala depending and much yikes off far quetzal goodness and from for grimaced goodness unaccountably and meadowlark near unblushingly crucial scallop tightly neurotic hungrily some and dear furiously this apart.',
+			'',
 		details: [
 			{
 				id: 1,
@@ -923,31 +721,10 @@ export const popularProductsData = [
 						id: 1,
 						title: '',
 						detail:
-							'Uninhibited carnally hired played in whimpered dear gorilla koala depending and much yikes off far quetzal goodness and from for grimaced goodness unaccountably and meadowlark near unblushingly crucial scallop tightly neurotic hungrily some and dear furiously this apart. <br/> Spluttered narrowly yikes left moth in yikes bowed this that grizzly much hello on spoon-fed that alas rethought much decently richly and wow against the frequent fluidly at formidable acceptably flapped beside and much circa far over the bucolically hey precarious goldfinch mastodon goodness gnashed a jellyfish and one however because.',
+							'',
 					},
-					{
-						id: 2,
-						title: 'Packaging & Delivery',
-						detail:
-							'Less lion goodness that euphemistically robin expeditiously bluebird smugly scratched far while thus cackled sheepishly rigid after due one assenting regarding censorious while occasional or this more crane went more as this less much amid overhung anathematic because much held one exuberantly sheep goodness so where rat wry well concomitantly. ~ Scallop or far crud plain remarkably far by thus far iguana lewd precociously and less rattlesnake contrary caustic wow this near, alas and next and pled the yikes articulate about as less cackled dalmatian in much less well jeering for the thanks blindly sentimental whimpered less across objectively fanciful grimaced wildly some wow and rose jeepers outgrew lugubrious luridly irrationally attractively dachshund.',
-					},
-					{
-						id: 3,
-						title: 'Suggested Use',
-						detail: 'Refrigeration is not necessary. ~ Stir before serving',
-					},
-					{
-						id: 4,
-						title: 'Other Ingredients',
-						detail:
-							'Organic raw pecans, organic raw cashews. ~ This butter was produced using an LTG (Low-Temperature Grinding) process. ~ Made in machinery that processes tree nuts but does not process peanuts, gluten, dairy, or soy',
-					},
-					{
-						id: 5,
-						title: 'Warnings',
-						detail:
-							'Oil separation occurs naturally. May contain pieces of shell.',
-					},
+					
+					
 				],
 			},
 			{
@@ -956,7 +733,7 @@ export const popularProductsData = [
 				items: [
 					{
 						id: 1,
-						detail: 'ivdea oru kundavum illa',
+						detail: '',
 					},
 				],
 			},
@@ -966,10 +743,10 @@ export const popularProductsData = [
 				items: [
 					{
 						id: '1',
-						name: 'shad kolkalm',
-						date: 'Sep 14, 2022',
-						title: 'CLEAN DESIGN, ROOMY & VIBRANT',
-						text: 'Uninhibited carnally hired played in whimpered dear gorilla koala depending and much yikes off far quetzal goodness and from for grimaced goodness unaccountably and meadowlark near unblushingly crucial scallop tightly',
+						name: '',
+						date: '',
+						title: '',
+						text: '',
 						rating: 3.5,
 					},
 				],
@@ -982,17 +759,16 @@ export const popularProductsData = [
 		name: 'Turmeric',
 		rating: 4.0,
 		tags: 'black plum,silopy kujjapu,vegetable',
-		rate: 10.4,
-		offer: 7,
+		// rate: 10.4,
+		// offer: 7,
 
 		categorySlug: 'spices',
 		category: 'Spices',
 		picture: '/spices/turmeric.png',
-		partOf: 'popular',
 		bacPicture:
 			'/spices/turmeric.png',
 		smallDetail:
-			'Uninhibited carnally hired played in whimpered dear gorilla koala depending and much yikes off far quetzal goodness and from for grimaced goodness unaccountably and meadowlark near unblushingly crucial scallop tightly neurotic hungrily some and dear furiously this apart.',
+			'',
 		details: [
 			{
 				id: 1,
@@ -1002,31 +778,10 @@ export const popularProductsData = [
 						id: 1,
 						title: '',
 						detail:
-							'Uninhibited carnally hired played in whimpered dear gorilla koala depending and much yikes off far quetzal goodness and from for grimaced goodness unaccountably and meadowlark near unblushingly crucial scallop tightly neurotic hungrily some and dear furiously this apart. <br/> Spluttered narrowly yikes left moth in yikes bowed this that grizzly much hello on spoon-fed that alas rethought much decently richly and wow against the frequent fluidly at formidable acceptably flapped beside and much circa far over the bucolically hey precarious goldfinch mastodon goodness gnashed a jellyfish and one however because.',
+							'',
 					},
-					{
-						id: 2,
-						title: 'Packaging & Delivery',
-						detail:
-							'Less lion goodness that euphemistically robin expeditiously bluebird smugly scratched far while thus cackled sheepishly rigid after due one assenting regarding censorious while occasional or this more crane went more as this less much amid overhung anathematic because much held one exuberantly sheep goodness so where rat wry well concomitantly. ~ Scallop or far crud plain remarkably far by thus far iguana lewd precociously and less rattlesnake contrary caustic wow this near, alas and next and pled the yikes articulate about as less cackled dalmatian in much less well jeering for the thanks blindly sentimental whimpered less across objectively fanciful grimaced wildly some wow and rose jeepers outgrew lugubrious luridly irrationally attractively dachshund.',
-					},
-					{
-						id: 3,
-						title: 'Suggested Use',
-						detail: 'Refrigeration is not necessary. ~ Stir before serving',
-					},
-					{
-						id: 4,
-						title: 'Other Ingredients',
-						detail:
-							'Organic raw pecans, organic raw cashews. ~ This butter was produced using an LTG (Low-Temperature Grinding) process. ~ Made in machinery that processes tree nuts but does not process peanuts, gluten, dairy, or soy',
-					},
-					{
-						id: 5,
-						title: 'Warnings',
-						detail:
-							'Oil separation occurs naturally. May contain pieces of shell.',
-					},
+					
+					
 				],
 			},
 			{
@@ -1035,7 +790,7 @@ export const popularProductsData = [
 				items: [
 					{
 						id: 1,
-						detail: 'ivdea oru kundavum illa',
+						detail: '',
 					},
 				],
 			},
@@ -1045,10 +800,10 @@ export const popularProductsData = [
 				items: [
 					{
 						id: '1',
-						name: 'shad kolkalm',
-						date: 'Sep 14, 2022',
-						title: 'CLEAN DESIGN, ROOMY & VIBRANT',
-						text: 'Uninhibited carnally hired played in whimpered dear gorilla koala depending and much yikes off far quetzal goodness and from for grimaced goodness unaccountably and meadowlark near unblushingly crucial scallop tightly',
+						name: '',
+						date: '',
+						title: '',
+						text: '',
 						rating: 3.5,
 					},
 				],
@@ -1061,18 +816,18 @@ export const popularProductsData = [
 		name: 'Green Cardamom',
 		rating: 4.0,
 		tags: 'Include as spice in food',
-		rate: 10.4,
-		offer: 7,
+		// rate: 10.4,
+		// offer: 7,
 
 		categorySlug: 'spices',
 		category: 'Spices',
 		picture: '/spices/cardamom.png',
-		//partOf: 'popular',
+		partOf : 'popular',
 		bgImage: '/coconut.jpg',
-
+		
 		bacPicture:
 			'/spices/cardamom.png',
-			smallDetail:
+		smallDetail:
 			'Cardamom is the Queen of Spices. Yet, this wonder spice does more than just add flavour to food and others. It also has excellent and multiple medicinal properties, is used in perfumes, is chewed as a mouth freshener and makes for a very thoughtful gift.Cardamom may improve breathing by stimulating better oxygen uptake and relaxing air passage to the lungs in humans and animals.',
 		details: [
 			{
@@ -1138,10 +893,10 @@ export const popularProductsData = [
 			// 	items: [
 			// 		{
 			// 			id: '1',
-			// 			name: 'shad kolkalm',
-			// 			date: 'Sep 14, 2022',
-			// 			title: 'CLEAN DESIGN, ROOMY & VIBRANT',
-			// 			text: 'Uninhibited carnally hired played in whimpered dear gorilla koala depending and much yikes off far quetzal goodness and from for grimaced goodness unaccountably and meadowlark near unblushingly crucial scallop tightly',
+			// 			name: '',
+			// 			date: '',
+			// 			title: '',
+			// 			text: '',
 			// 			rating: 3.5,
 			// 		},
 			// 	],
@@ -1154,16 +909,16 @@ export const popularProductsData = [
 		name: 'Coffee Powder',
 		rating: 4.0,
 		tags: 'black plum, organic, silopy kujjapu',
-		rate: 10.4,
-		offer: 7,
+		// rate: 10.4,
+		// offer: 7,
 		categorySlug: 'powder',
 		category: 'Powder',
 		picture: '/powder/coffeepowder.png',
-		partOf : 'top-rated',
+		partOf : 'popular',
 		bacPicture:
 			'/powder/coffeepowder.png',
 		smallDetail:
-			'Uninhibited carnally hired played in whimpered dear gorilla koala depending and much yikes off far quetzal goodness and from for grimaced goodness unaccountably and meadowlark near unblushingly crucial scallop tightly neurotic hungrily some and dear furiously this apart.',
+			'',
 		details: [
 			{
 				id: 1,
@@ -1173,31 +928,9 @@ export const popularProductsData = [
 						id: 1,
 						title: '',
 						detail:
-							'Uninhibited carnally hired played in whimpered dear gorilla koala depending and much yikes off far quetzal goodness and from for grimaced goodness unaccountably and meadowlark near unblushingly crucial scallop tightly neurotic hungrily some and dear furiously this apart. <br/> Spluttered narrowly yikes left moth in yikes bowed this that grizzly much hello on spoon-fed that alas rethought much decently richly and wow against the frequent fluidly at formidable acceptably flapped beside and much circa far over the bucolically hey precarious goldfinch mastodon goodness gnashed a jellyfish and one however because.',
+							'',
 					},
-					{
-						id: 2,
-						title: 'Packaging & Delivery',
-						detail:
-							'Less lion goodness that euphemistically robin expeditiously bluebird smugly scratched far while thus cackled sheepishly rigid after due one assenting regarding censorious while occasional or this more crane went more as this less much amid overhung anathematic because much held one exuberantly sheep goodness so where rat wry well concomitantly. ~ Scallop or far crud plain remarkably far by thus far iguana lewd precociously and less rattlesnake contrary caustic wow this near, alas and next and pled the yikes articulate about as less cackled dalmatian in much less well jeering for the thanks blindly sentimental whimpered less across objectively fanciful grimaced wildly some wow and rose jeepers outgrew lugubrious luridly irrationally attractively dachshund.',
-					},
-					{
-						id: 3,
-						title: 'Suggested Use',
-						detail: 'Refrigeration is not necessary. ~ Stir before serving',
-					},
-					{
-						id: 4,
-						title: 'Other Ingredients',
-						detail:
-							'Organic raw pecans, organic raw cashews. ~ This butter was produced using an LTG (Low-Temperature Grinding) process. ~ Made in machinery that processes tree nuts but does not process peanuts, gluten, dairy, or soy',
-					},
-					{
-						id: 5,
-						title: 'Warnings',
-						detail:
-							'Oil separation occurs naturally. May contain pieces of shell.',
-					},
+					
 				],
 			},
 			{
@@ -1206,7 +939,7 @@ export const popularProductsData = [
 				items: [
 					{
 						id: 1,
-						detail: 'ivdea oru kundavum illa',
+						detail: '',
 					},
 				],
 			},
@@ -1216,10 +949,10 @@ export const popularProductsData = [
 				items: [
 					{
 						id: '1',
-						name: 'shad kolkalm',
-						date: 'Sep 14, 2022',
-						title: 'CLEAN DESIGN, ROOMY & VIBRANT',
-						text: 'Uninhibited carnally hired played in whimpered dear gorilla koala depending and much yikes off far quetzal goodness and from for grimaced goodness unaccountably and meadowlark near unblushingly crucial scallop tightly',
+						name: '',
+						date: '',
+						title: '',
+						text: '',
 						rating: 3.5,
 					},
 				],
@@ -1232,15 +965,15 @@ export const popularProductsData = [
 		name: 'Dry Coconut',
 		rating: 4.0,
 		tags: 'black plum, organic, silopy kujjapu',
-		rate: 10.4,
-		offer: 7,
+		//rate: 10.4,
+		//offer: 7,
 		categorySlug: 'others',
 		category: 'Others',
 		picture: '/others/drycoconut.png',
 		bacPicture:
 			'/others/drycoconut.png',
 		smallDetail:
-			'Uninhibited carnally hired played in whimpered dear gorilla koala depending and much yikes off far quetzal goodness and from for grimaced goodness unaccountably and meadowlark near unblushingly crucial scallop tightly neurotic hungrily some and dear furiously this apart.',
+			'',
 		details: [
 			{
 				id: 1,
@@ -1250,31 +983,10 @@ export const popularProductsData = [
 						id: 1,
 						title: '',
 						detail:
-							'Uninhibited carnally hired played in whimpered dear gorilla koala depending and much yikes off far quetzal goodness and from for grimaced goodness unaccountably and meadowlark near unblushingly crucial scallop tightly neurotic hungrily some and dear furiously this apart. <br/> Spluttered narrowly yikes left moth in yikes bowed this that grizzly much hello on spoon-fed that alas rethought much decently richly and wow against the frequent fluidly at formidable acceptably flapped beside and much circa far over the bucolically hey precarious goldfinch mastodon goodness gnashed a jellyfish and one however because.',
+							'',
 					},
-					{
-						id: 2,
-						title: 'Packaging & Delivery',
-						detail:
-							'Less lion goodness that euphemistically robin expeditiously bluebird smugly scratched far while thus cackled sheepishly rigid after due one assenting regarding censorious while occasional or this more crane went more as this less much amid overhung anathematic because much held one exuberantly sheep goodness so where rat wry well concomitantly. ~ Scallop or far crud plain remarkably far by thus far iguana lewd precociously and less rattlesnake contrary caustic wow this near, alas and next and pled the yikes articulate about as less cackled dalmatian in much less well jeering for the thanks blindly sentimental whimpered less across objectively fanciful grimaced wildly some wow and rose jeepers outgrew lugubrious luridly irrationally attractively dachshund.',
-					},
-					{
-						id: 3,
-						title: 'Suggested Use',
-						detail: 'Refrigeration is not necessary. ~ Stir before serving',
-					},
-					{
-						id: 4,
-						title: 'Other Ingredients',
-						detail:
-							'Organic raw pecans, organic raw cashews. ~ This butter was produced using an LTG (Low-Temperature Grinding) process. ~ Made in machinery that processes tree nuts but does not process peanuts, gluten, dairy, or soy',
-					},
-					{
-						id: 5,
-						title: 'Warnings',
-						detail:
-							'Oil separation occurs naturally. May contain pieces of shell.',
-					},
+					
+					
 				],
 			},
 			{
@@ -1283,7 +995,7 @@ export const popularProductsData = [
 				items: [
 					{
 						id: 1,
-						detail: 'ivdea oru kundavum illa',
+						detail: '',
 					},
 				],
 			},
@@ -1293,10 +1005,10 @@ export const popularProductsData = [
 				items: [
 					{
 						id: '1',
-						name: 'shad kolkalm',
-						date: 'Sep 14, 2022',
-						title: 'CLEAN DESIGN, ROOMY & VIBRANT',
-						text: 'Uninhibited carnally hired played in whimpered dear gorilla koala depending and much yikes off far quetzal goodness and from for grimaced goodness unaccountably and meadowlark near unblushingly crucial scallop tightly',
+						name: '',
+						date: '',
+						title: '',
+						text: '',
 						rating: 3.5,
 					},
 				],

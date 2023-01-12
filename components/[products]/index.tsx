@@ -18,7 +18,7 @@ const ProductDetails = ({data}: any) => {
     return (
       <Error
         statusCode={404}
-        title={`sathanam missing ann pinnea va `}
+        title={`Loading `}
       />
     );
   return (

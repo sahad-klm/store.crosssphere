@@ -26,9 +26,9 @@ const ProductEachDetail = (product: any) => {
       <span className="flex flex-col gap-[10px]">
         <p className="inline-flex items-center gap-[10px] text-base text-gray-900">
           <TickFilledIcon className="-m-3 scale-50 fill-lime-700" />
-          Pickup avilable al
+          South India
           <span className="-ml-1 capitalize">
-            shadinte veetinte aduttulla peednn
+            Kerala
           </span>
         </p>
         <p className="inline-flex items-center gap-[10px] text-base text-gray-500">

@@ -40,16 +40,16 @@ function Header(): any {
   const classNameOfListInSearch =
     'h-14 shrink-0 flex items-center text-gray-700 w-full font-head text-base  duration-300 hover:text-emerald-500';
 
-  // React.useEffect(() => {
-  //   if (typeof window !== undefined) {
-  //     window.addEventListener('scroll', () => {
-  //       const currentScrollPos = window.pageYOffset;
-  //       if (currentScrollPos > 200) {
-  //         setNavHide(true);
-  //       } else return setNavHide(false);
-  //     });
-  //   }
-  // }, []);
+  React.useEffect(() => {
+    if (typeof window !== undefined) {
+      window.addEventListener('scroll', () => {
+        const currentScrollPos = window.pageYOffset;
+        if (currentScrollPos > 200) {
+          setNavHide(true);
+        } else return setNavHide(false);
+      });
+    }
+  }, []);
 
   // React.useEffect(() => {
   //   const scrollFunction = () => {
