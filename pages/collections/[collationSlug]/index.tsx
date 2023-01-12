@@ -1,5 +1,7 @@
-import { BrowseAllCategories } from '@/lib/data';
 import { modulesFinder } from '@/lib/helpers';
+import { productsData } from '@/lib/products';
+import { ProductDetails } from 'components';
+import CollationSlug from 'components/collections/[collationSlug]/collationSlug';
 import Layout from 'components/layout/layout';
 import Module from 'components/module/Module';
 import Image from 'next/image';
@@ -15,20 +17,11 @@ const index = (data: {
   const { site, page }: any = data;
   const pageName = modulesFinder(pathname);
 
-  const so = BrowseAllCategories.map(element => element.name)
-  console.log(pathname)
-
-  function name() {
-    
-    for (let index = 0; index < so.length; index++) {
-      const element = so[index];
-      return element
-    }
-  }
+  const productsCatogory  = productsData.filter((item) => item.categorySlug === pathname?.split('/').slice(2).toString())
   
-  
+  console.log(pathname?.split('/').slice(2).toString())
 
-  if (!pageName[0]) {
+  if (pathname === null) {
     return (
       <>
         <div className="mt-52 flex h-full flex-col items-center justify-center">
@@ -50,9 +43,7 @@ const index = (data: {
 
   return (
     <>
-      {pageName[0]?.modules.map((page: { id: any; pageType: any }) => (
-        <Module key={page.id} data={page?.pageType} />
-      ))}
+      <CollationSlug data={productsCatogory} />
     </>
   );
 };
