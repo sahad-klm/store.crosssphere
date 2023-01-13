@@ -1748,7 +1748,7 @@ export const productsData = [
 		bacPicture:
 			'/veg/currybanana.png',
 		smallDetail:
-		`Curry banana, also known as plantain, is a type of banana that is commonly used in cooking and baking, particularly in African, Caribbean, and Latin American cuisines. It has a starchy, sweet and slightly savory flavor and it's often used in savory dishes such as curries, stews, and soups.Curry banana is often used as a vegetable in cooking, it's a staple ingredient in many traditional dishes like curries, soups, and stews. It can be sliced, diced, or mashed, and it can be cooked in a variety of ways such as frying, boiling or baking. It's also used to make sweet dishes like puddings, custards and candies.Curry banana is also used in traditional medicine, it's believed to have properties that may help improve digestion, reduce fever and may have antioxidant effects. Curry banana is a good source of dietary fiber, potassium, and other essential minerals, and is low in calories.`,
+		`Plantains are a type of fruit that are closely related to bananas but are typically used as a vegetable. They have a starchy, slightly sweet flavor and are often used in savory dishes such as curries, stews, and soups. Plantains can be eaten at different stages of ripeness, depending on the recipe. They can be green and unripe, which are typically used for savory dishes and can be fried, boiled, grilled or mashed. When they are yellow with brown spots they are considered ripe and are sweeter, they can be eaten as a side dish, fried or used in desserts.`,
 		details: [
 			{
 				id: 1,
@@ -1758,7 +1758,7 @@ export const productsData = [
 						id: 1,
 						title: '',
 						detail:
-							'',
+							`Plantains are also used in traditional medicine, they're believed to have properties that may help improve digestion, reduce fever, and may have antioxidant effects. Plantains are a good source of Vitamin A, Vitamin C, Vitamin B6, and dietary fiber, also they are considered a low-calorie food.`,
 					},
 					
 					
@@ -2809,7 +2809,7 @@ export const productsData = [
 		bacPicture:
 			'/fruits/grape.png',
 		smallDetail:
-			'',
+			`Grapes are a type of fruit that are commonly used in cooking and baking, they are a staple in many cuisines worldwide. Grapes have a sweet and juicy flavor and can be eaten fresh or dried as raisins. They can also be used to make wine, juice, jelly and jams.`,
 		details: [
 			{
 				id: 1,
@@ -2817,9 +2817,11 @@ export const productsData = [
 				items: [
 					{
 						id: 1,
-						title: '',
+						title: 'About',
 						detail:
-							'',
+							`Grapes can be eaten raw, cooked or fermented, they can be sliced or diced, and they are often paired with herbs and spices such as mint, basil, and cinnamon. They are also used to make traditional dishes such as grape jelly, grape sauce, and wine.
+
+							Grapes are also used in traditional medicine, they're believed to have properties that may help improve digestion, reduce fever, and may have antioxidant effects. Grapes are a good source of Vitamin C, Vitamin K, Vitamin A, and dietary fiber, also they are considered a low-calorie food.`,
 					},
 					
 					
@@ -2864,7 +2866,7 @@ export const productsData = [
 		bacPicture:
 			'/fruits/greenbanana.png',
 		smallDetail:
-			'',
+			`Green bananas are unripe bananas that have not yet developed the characteristic yellow color and sweet taste of ripe bananas. They have a starchy, slightly bitter flavor and are often used in savory dishes such as curries, stews, and soups. They can also be used in sweet dishes, such as pies, cakes, and breads.`,
 		details: [
 			{
 				id: 1,
@@ -2872,9 +2874,11 @@ export const productsData = [
 				items: [
 					{
 						id: 1,
-						title: '',
+						title: 'About',
 						detail:
-							'',
+							`Green bananas can be cooked in a variety of ways, such as boiling, baking, frying or sautéing. They are also used to make traditional dishes like green banana fritters, green banana porridge, and green banana dumplings. They can also be boiled and mashed to make a staple dish called "Fufu" in West Africa.
+
+							Green bananas are also used in traditional medicine, they're believed to have properties that may help improve digestion, reduce fever, and may have antioxidant effects. Green bananas are a good source of potassium, Vitamin B6, and dietary fiber, also they are considered a low-calorie food.`,
 					},
 					
 					
@@ -2919,7 +2923,7 @@ export const productsData = [
 		bacPicture:
 			'/fruits/guava1.png',
 		smallDetail:
-			'',
+			`Guava is a tropical fruit that is commonly eaten fresh. It has a sweet, slightly tart, and fragrant flavor, and it's often eaten on its own as a dessert fruit. It can also be used to make juices, jams, jellies, and preserves.`,
 		details: [
 			{
 				id: 1,
@@ -2927,9 +2931,11 @@ export const productsData = [
 				items: [
 					{
 						id: 1,
-						title: '',
+						title: 'About',
 						detail:
-							'',
+							`Guava can be eaten raw, cooked, or canned, they can be sliced, diced, or pureed and they are often paired with herbs and spices such as mint, basil, and chili. They are also used to make traditional dishes like guava jam, guava jelly, and guava paste.
+
+							Guava is also used in traditional medicine, it's believed to have properties that may help improve digestion, reduce fever, and may have antioxidant effects. Guava is a good source of Vitamin C, Vitamin A, Vitamin K, and dietary fiber, also they are considered a low-calorie food.`,
 					},
 					
 					
@@ -2975,7 +2981,7 @@ export const productsData = [
 		bacPicture:
 			'/fruits/jackfruit.png',
 		smallDetail:
-			'',
+			`Jackfruit is a tropical fruit that is commonly eaten fresh. It has a sweet and slightly fruity flavor and is often used as a meat substitute in vegetarian and vegan dishes. It can be eaten raw or cooked and is often used in savory dishes such as curries, stews, and soups. It can also be used to make sweet dishes such as pies, cakes, and breads.`,
 		details: [
 			{
 				id: 1,
@@ -2983,9 +2989,11 @@ export const productsData = [
 				items: [
 					{
 						id: 1,
-						title: '',
+						title: 'About',
 						detail:
-							'',
+							`Jackfruit can be eaten fresh, canned or dried and can be sliced, diced or pureed and it can be used as a main ingredient or as a garnish. The jackfruit seeds can also be roasted and used as a snack or a garnish.
+
+							Jackfruit is also used in traditional medicine, it's believed to have properties that may help improve digestion, reduce fever, and may have antioxidant effects. It's also a good source of Vitamin C, Vitamin B1, Vitamin B2, and dietary fiber, also they are considered a low-calorie food.`,
 					},
 					
 					
@@ -3030,7 +3038,7 @@ export const productsData = [
 		bacPicture:
 			'/fruits/lemon.png',
 		smallDetail:
-			'',
+			`Lemons are a type of citrus fruit that are commonly used in cooking and baking, they are a staple in many cuisines worldwide. Lemons have a sour, acidic, and tangy flavor and are often used in savory dishes such as sauces, marinades, and dressings, as well as in sweet dishes such as cakes, cookies, and candies.`,
 		details: [
 			{
 				id: 1,
@@ -3038,9 +3046,11 @@ export const productsData = [
 				items: [
 					{
 						id: 1,
-						title: '',
+						title: 'About',
 						detail:
-							'',
+							`Lemons can be eaten raw, cooked, or canned, they can be sliced, diced, or juiced, and they are often paired with herbs and spices such as rosemary, thyme, and ginger. They are also used to make traditional dishes like lemon chicken, lemon pasta, and lemon pie.
+
+							Lemons are also used in traditional medicine, they're believed to have properties that may help lower blood pressure, improve cholesterol levels, and may have antioxidant effects. Lemons are a good source of Vitamin C, Vitamin B6, Vitamin A and dietary fiber, also they are considered a low-calorie food.`,
 					},
 					
 					
@@ -3085,7 +3095,7 @@ export const productsData = [
 		bacPicture:
 			'/fruits/papaya.png',
 		smallDetail:
-			'',
+			`Papaya is a tropical fruit that is commonly eaten fresh. It has a sweet, slightly musky flavor and is often eaten on its own as a dessert fruit. The fruit's flesh is orange and surrounds the seeds. They can be eaten with a spoon or used to make smoothies, ice cream and other desserts.`,
 		details: [
 			{
 				id: 1,
@@ -3093,9 +3103,9 @@ export const productsData = [
 				items: [
 					{
 						id: 1,
-						title: '',
+						title: 'Medicine',
 						detail:
-							'',
+							`Papayas are also used in traditional medicine, they're believed to have properties that may help improve digestion, reduce fever, and may have antioxidant effects. They are a good source of Vitamin C, Vitamin A, Vitamin E and other essential nutrients, also they are considered a low-calorie food. Papaya also contains the enzyme papain, which is often used as a meat tenderizer and in dietary supplements.`,
 					},
 					
 					
@@ -3140,7 +3150,7 @@ export const productsData = [
 		bacPicture:
 			'/fruits/pineapple.png',
 		smallDetail:
-			'',
+			`Pineapple is a tropical fruit that is commonly eaten fresh. It has a sweet, slightly tangy, and slightly fibrous flavor, and is often eaten on its own as a dessert fruit. The fruit's flesh is yellow or orange and surrounds the tough core. They can be eaten with a spoon or used to make smoothies, juices and other desserts.`,
 		details: [
 			{
 				id: 1,
@@ -3148,9 +3158,9 @@ export const productsData = [
 				items: [
 					{
 						id: 1,
-						title: '',
+						title: 'Good For Health',
 						detail:
-							'',
+							`Pineapple is also used in traditional medicine, it's believed to have properties that may help improve digestion, reduce fever, and may have antioxidant effects. Pineapple is a good source of Vitamin C, Vitamin B1, Vitamin B2, and dietary fiber, also they are considered a low-calorie food. Additionally, pineapples contain the enzyme bromelain which is used in meat tenderizer and also believed to have anti-inflammatory properties.`,
 					},
 					
 					
@@ -3195,7 +3205,9 @@ export const productsData = [
 		bacPicture:
 			'/fruits/plantain.png',
 		smallDetail:
-			'',
+		    `Bananas are a type of fruit that are commonly eaten fresh, they are a staple in many cuisines worldwide. Bananas have a sweet and slightly starchy flavor and are often eaten on their own as a snack, dessert or used in smoothies and baking. They can be eaten at different stages of ripeness, depending on the recipe. They can be green and unripe, which are typically used for savory dishes and can be fried, boiled, grilled or mashed. When they are yellow with brown spots they are considered ripe and are sweeter, they can be eaten as a side dish, fried or used in desserts.
+
+			`,
 		details: [
 			{
 				id: 1,
@@ -3205,7 +3217,7 @@ export const productsData = [
 						id: 1,
 						title: '',
 						detail:
-							'',
+							`Bananas are also used in traditional medicine, they're believed to have properties that may help improve digestion, reduce fever, and may have antioxidant effects. Bananas are a good source of Vitamin B6, Vitamin C, Vitamin A and dietary fiber, also they are considered a low-calorie food. Additionally, bananas are rich in potassium and can help lower blood pressure.`,
 					},
 					
 					
@@ -3250,7 +3262,7 @@ export const productsData = [
 		bacPicture:
 			'/fruits/sweetlemon.png',
 		smallDetail:
-			'',
+			'A rose apple, also known as a Java apple or water apple, is a tropical fruit that grows on a tree native to Southeast Asia. It is small and round, with a thin, translucent skin that can range in color from green to red. The flesh is white and crisp, with a mild, sweet flavor and a subtle rose aroma. The fruit is often eaten fresh, but can also be used to make jams, jellies, and preserves. The tree is also cultivated for its ornamental value, as it has large, fragrant flowers.',
 		details: [
 			{
 				id: 1,
@@ -3305,7 +3317,7 @@ export const productsData = [
 		bacPicture:
 			'/fruits/sweetlemon.png',
 		smallDetail:
-			'',
+			`Sweet lemon, also known as sweet lime or Mosambi, is a citrus fruit that is similar in appearance to a regular lemon, but has a sweeter and less acidic taste. It is a hybrid variety of lemon and orange or mandarin. It is mostly grown in tropical countries like India, Bangladesh, Pakistan, and other Southeast Asian countries. The fruit is typically round and has a thin, smooth skin that is green when unripe and turns yellow when ripe. The flesh is juicy and has a sweet, tangy taste. It can be eaten fresh, squeezed for juice, or used in cooking and baking.`,
 		details: [
 			{
 				id: 1,
@@ -3360,7 +3372,7 @@ export const productsData = [
 		bacPicture:
 			'/fruits/starfruit.png',
 		smallDetail:
-			'',
+			`A star fruit, also known as carambola, is a tropical fruit that is native to Southeast Asia and is grown in many other tropical regions around the world. It is a small, five-angled fruit that has a unique star shape when cut crosswise. The skin is thin and can be green, yellow or brown when ripe. The flesh is juicy, translucent, and has a sweet and sour taste.`,
 		details: [
 			{
 				id: 1,
@@ -3370,7 +3382,7 @@ export const productsData = [
 						id: 1,
 						title: '',
 						detail:
-							'',
+							`They are typically eaten fresh, but can also be used in salads, jams, jellies, and as a garnish. Some people may experience an allergic reaction to the fruit, particularly if they are sensitive to aspirin, so it is best to consume star fruits in moderation.`,
 					},
 					
 					
@@ -3415,7 +3427,7 @@ export const productsData = [
 		bacPicture:
 			'/fruits/sugarcane.png',
 		smallDetail:
-			'',
+			`Sugarcane is a tall tropical grass that is grown for its juice, which is then processed to produce granulated sugar. The plant is native to New Guinea and has been grown and harvested in tropical and subtropical regions around the world for thousands of years. The sugarcane plant can reach up to 20 feet in height and has thick, fibrous stalks.`,
 		details: [
 			{
 				id: 1,
@@ -3425,7 +3437,8 @@ export const productsData = [
 						id: 1,
 						title: '',
 						detail:
-							'',
+							`The juice from the sugarcane stalks can be extracted through a process of crushing and boiling. The juice is then clarified, concentrated and crystallized to produce granulated sugar.
+							Sugarcane is also a source of other products like molasses, rum, cachaça, and bagasse, which is the fibrous residue left after the juice is extracted. It is also used to produce paper, ethanol and animal feed.`,
 					},
 					
 					
@@ -3470,7 +3483,7 @@ export const productsData = [
 		bacPicture:
 			'/fruits/mango.png',
 		smallDetail:
-			'',
+			'Mango is a tropical fruit that is native to South Asia, and is now widely grown in many tropical and subtropical regions around the world. It is a large, fleshy fruit that grows on a tall, evergreen tree. The fruit can range in size, shape and color depending on the variety, but is typically oval or kidney-shaped with a thin, smooth skin that can be green, yellow, red, or a combination of these colors when ripe. ',
 		details: [
 			{
 				id: 1,
@@ -3480,7 +3493,7 @@ export const productsData = [
 						id: 1,
 						title: '',
 						detail:
-							'',
+							`The flesh is juicy and sweet, with a large, flat seed in the center. Mangoes are typically eaten fresh, but can also be used in cooking, baking and preserving. They are a rich source of Vitamin C, Vitamin A, and dietary fibers.`,
 					},
 					
 					
@@ -3529,7 +3542,7 @@ export const productsData = [
 		bacPicture:
 			'/others/drycoconut.png',
 		smallDetail:
-			'',
+			`Dried coconut, also known as desiccated coconut, is made by removing the water and oil from fresh coconut meat. The resulting product is a dry, shredded or flaked form of coconut that can be used in a variety of ways. Some common uses for dried coconut include:`,
 		details: [
 			{
 				id: 1,
@@ -3539,7 +3552,19 @@ export const productsData = [
 						id: 1,
 						title: '',
 						detail:
-							'',
+							`Cooking and baking: Dried coconut is a popular ingredient in many sweet and savory dishes, such as curries, stews, cakes, and cookies. It can be used as a topping or filling, or added to the dough or batter.
+
+							Snacks: Dried coconut can be eaten on its own as a snack, or used as an ingredient in trail mix, granola, or energy bars.
+							
+							Dairy-free milk and cream: Dried coconut can be blended with water to make a non-dairy milk or cream substitute.
+							
+							Cosmetics: Dried coconut is used in cosmetics and personal care products such as soaps, lotions, and scrubs because of its moisturizing properties.
+							
+							Animal feed: Dried coconut is used as a feed for livestock and poultry.
+							
+							Activated charcoal: The shells of dried coconuts are used to produce activated charcoal which is used as a filter, purifying agent and in medicine to treat poison.
+							
+							Charcoal: The shells of dried coconuts can also be used to produce charcoal which can be used as a fuel.`,
 					},
 					
 					
@@ -3585,7 +3610,7 @@ export const productsData = [
 		bacPicture:
 			'/others/eggs.png',
 		smallDetail:
-			'',
+			`A hen egg is a type of bird egg that is produced by domestic chickens. It is a common food item that is used in a variety of ways. Some common uses for hen eggs include:`,
 		details: [
 			{
 				id: 1,
@@ -3595,7 +3620,21 @@ export const productsData = [
 						id: 1,
 						title: '',
 						detail:
-							'',
+							`Cooking and baking: Hen eggs are a versatile ingredient that can be used in a wide range of dishes, such as scrambled eggs, omelets, frittatas, quiches, cakes, and cookies. They can also be used as a binding agent in various dishes.
+
+							Breakfasts: Hen eggs can be boiled, fried, poached or made into an omelette and are a staple in many breakfast dishes.
+							
+							Food production: Hen eggs are used in the production of various food products such as mayonnaise, pasta, ice cream, and some confectionery.
+							
+							Beauty and health: Eggs are rich in proteins and other nutrients, the yolk is used in hair and face mask for added shine and strength.
+							
+							Industrial uses: Hen eggs are also used in the production of some industrial products such as paint and varnish.
+							
+							Animal feed: Hen eggs can also be used as a source of food for livestock and pets.
+							
+							Incubation: Hen eggs can be used for hatching chicken or other poultry.
+							
+							Research: Hen eggs are also used in scientific research such as genetic engineering, cloning, and stem cell studies.`,
 					},
 					
 					
@@ -3640,7 +3679,7 @@ export const productsData = [
 		bacPicture:
 			'/others/coffeebeans.png',
 		smallDetail:
-			'',
+			`Coffee beans are the seeds of the Coffea plant. They are typically small, dark and oval-shaped, and are encased in a protective outer layer called the parchment. Once the beans are harvested, they go through a process of cleaning, sorting, and grading before they are roasted. The roasting process gives coffee its unique aroma and flavor.`,
 		details: [
 			{
 				id: 1,
@@ -3650,7 +3689,9 @@ export const productsData = [
 						id: 1,
 						title: '',
 						detail:
-							'',
+							`Coffee beans can also be used to make other products such as, instant coffee, coffee liqueur and some cosmetic products because of the caffeine content, which is a stimulant.
+
+							Coffee beans are also used in many cultures as a traditional medicine, as it is believed to have a wide range of health benefits. Some studies suggest that moderate coffee consumption may lower the risk of certain diseases, such as type 2 diabetes and Parkinson's disease.`,
 					},
 					
 					
@@ -3695,7 +3736,7 @@ export const productsData = [
 		bacPicture:
 			'/others/palmsugar.png',
 		smallDetail:
-			'',
+			`Palm sugar, also known as coconut sugar or jaggery, is a type of unrefined sugar that is made from the sap of various species of palm trees, most commonly the Arenga pinnata and the Borassus flabellifer. The sap is collected by tapping the tree and then boiling it down to reduce the water content, leaving behind a thick, dark liquid. This liquid is then poured into molds and left to solidify into blocks or granules.`,
 		details: [
 			{
 				id: 1,
@@ -3705,7 +3746,11 @@ export const productsData = [
 						id: 1,
 						title: '',
 						detail:
-							'',
+							`Palm sugar is a traditional sweetener that is used in many cuisines around the world, particularly in Southeast Asia, India, and Africa. It has a rich, caramel-like flavor and is often used to sweeten desserts, drinks, and savory dishes. It is also used as a natural sweetener for cooking and baking, like cookies, cakes, and bread.
+
+							Palm sugar is known for its lower Glycemic index (GI) and considered healthier than white sugar because it contains minerals and vitamins such as zinc, magnesium, potassium and iron. It is also a good source of antioxidants and phytonutrients.
+							
+							However, it is important to note that not all palm sugar is created equal, some may be processed differently and may not retain all of the beneficial nutrients, so it's best to look for organic, unrefined and sustainably-sourced palm sugar.`,
 					},
 					
 					
@@ -3750,7 +3795,7 @@ export const productsData = [
 		bacPicture:
 			'/others/tender.png',
 		smallDetail:
-			'',
+			`Tender coconut is a type of coconut that is harvested before it reaches maturity. It is also known as "green" or "young" coconut. The outer green husk is removed to reveal the white, outer layer of the coconut, which is soft and jelly-like. Inside, the liquid, called coconut water, is clear, sweet, and refreshing. The white flesh, or meat, of the coconut is soft and can be eaten with a spoon or used to make coconut milk.`,
 		details: [
 			{
 				id: 1,
@@ -3760,7 +3805,7 @@ export const productsData = [
 						id: 1,
 						title: '',
 						detail:
-							'',
+							`Tender coconuts are known for their high levels of hydration and electrolytes, making it a popular drink, particularly in tropical regions. It is also a good source of potassium, calcium, magnesium, and other minerals. The coconut water can be consumed fresh or used in various culinary preparations like smoothies, jams, syrups, and ice creams.`,
 					},
 					
 					
@@ -3772,7 +3817,9 @@ export const productsData = [
 				items: [
 					{
 						id: 1,
-						detail: '',
+						detail: `Tender coconut meat is also used in a variety of dishes, it can be eaten raw, grated, or blended to make coconut milk or cream. It is a popular ingredient in many traditional dishes such as curries, stews, and desserts.
+
+						Tender coconuts are also used in many beauty and health products due to the hydrating properties of the water and the moisturizing properties of the meat.`,
 					},
 				],
 			},
@@ -4485,7 +4532,7 @@ export const productsData = [
 		bacPicture:
 			'/oils/cardamomoil.png',
 		smallDetail:
-			'',
+			`Cardamom oil is an essential oil that is extracted from the seeds of the cardamom plant. It is commonly used in perfumes, cosmetics, and food flavoring. It has a unique, spicy-sweet aroma and is used in traditional medicine to help with digestion, respiratory issues and to freshen the breath. It is also believed to have antimicrobial, anti-inflammatory, and antioxidant properties. However, more research is needed to confirm the potential health benefits of cardamom oil. It should not be consumed in large quantity as it can be toxic in high doses. It should also be avoided during pregnancy and breastfeeding. It is always recommended to consult a healthcare professional before using any essential oil.`,
 		details: [
 			{
 				id: 1,
@@ -4495,7 +4542,7 @@ export const productsData = [
 						id: 1,
 						title: '',
 						detail:
-							'',
+							`The amount of cardamom needed to produce 1 liter of cardamom oil can vary depending on factors such as the type of extraction method used, the quality of the cardamom, and the efficiency of the extraction process. However, on average, it takes around 200-250 kg of cardamom pods to produce 1 liter of cardamom oil.`,
 					},
 					
 					
@@ -4507,7 +4554,9 @@ export const productsData = [
 				items: [
 					{
 						id: 1,
-						detail: '',
+						detail: `It's important to note that the method of production of essential oil plays a role in the yield of the oil, and the efficiency of distillation process can affect the amount of oil produced. The method of Steam distillation, Solvent extraction and CO2 extraction are the most commonly used methods for producing cardamom oil, each of them have different yields.
+
+						It's also important to note that the quality of cardamom also affects the yield of the oil. If the cardamom is not fresh, not well dried or not well stored, it can result in a lower yield of oil.`,
 					},
 				],
 			},
@@ -4541,7 +4590,7 @@ export const productsData = [
 		bacPicture:
 			'/oils/coconutoil.png',
 		smallDetail:
-			'',
+			`Coconut oil is a type of oil that is extracted from the meat of mature coconuts. It is high in saturated fats, specifically medium-chain fatty acids, and is often used in cooking and baking. It is also used in cosmetics and hair care products. Some studies have suggested that consuming coconut oil may have health benefits, but it is important to note that the research on this topic is inconclusive and more studies are needed. Additionally, coconut oil is high in calories, and consuming too much can contribute to weight gain and other health issues.`,
 		details: [
 			{
 				id: 1,
