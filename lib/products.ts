@@ -169,7 +169,7 @@ export const productsData = [
 		bacPicture:
 			'/spices/cloves.png',
 		smallDetail:
-			'Cloves are a spice that is commonly used in cooking and baking, particularly in Asian, African, and Middle Eastern cuisines. They have a strong, pungent, and sweet flavor and are often used in savory dishes such as curries, stews, and meat dishes, as well as in sweet dishes like cakes, pies, and mulled wine. Cloves can also be used to make a tea which is known to have medicinal properties, such as reducing pain, relieving nausea, and promoting digestion. Cloves are also used in Ayurvedic ',
+			'Cloves are a spice that is commonly used in cooking and baking, particularly in Asian, African, and Middle Eastern cuisines. They have a strong, pungent, and sweet flavor and are often used in savory dishes such as curries, stews, and meat dishes, as well as in sweet dishes like cakes, pies, and mulled wine.  ',
 		details: [
 			{
 				id: 1,
@@ -177,9 +177,9 @@ export const productsData = [
 				items: [
 					{
 						id: 1,
-						title: '',
+						title: 'Medicine',
 						detail:
-							'',
+							`Cloves can also be used to make a tea which is known to have medicinal properties, such as reducing pain, relieving nausea, and promoting digestion. Cloves are also used in Ayurvedic`,
 					},
 					
 				],
@@ -227,7 +227,7 @@ export const productsData = [
 		bacPicture:
 			'/spices/cordiander.png',
 		smallDetail:
-			'Coriander, also known as cilantro or Chinese parsley, is a herb that is commonly used in cooking and baking, particularly in Asian, African, and Latin American cuisines. The leaves and seeds of the coriander plant are used in cooking, and they have a distinct, fresh and citrusy flavor. The leaves are often used as a garnish or added to salads, salsas, and dips, while the seeds are used in spice blends, curries, stews, and marinades. The seeds can also be dry-roasted or ground to make a powder that is used as a seasoning. Coriander seeds are also used in traditional medicine as a remedy for digestive issues, anxiety, and to lower blood sugar levels.',
+			'Coriander, also known as cilantro or Chinese parsley, is a herb that is commonly used in cooking and baking, particularly in Asian, African, and Latin American cuisines. The leaves and seeds of the coriander plant are used in cooking, and they have a distinct, fresh and citrusy flavor.',
 		details: [
 			{
 				id: 1,
@@ -235,9 +235,9 @@ export const productsData = [
 				items: [
 					{
 						id: 1,
-						title: '',
+						title: 'About',
 						detail:
-							'',
+							` The leaves are often used as a garnish or added to salads, salsas, and dips, while the seeds are used in spice blends, curries, stews, and marinades. The seeds can also be dry-roasted or ground to make a powder that is used as a seasoning. Coriander seeds are also used in traditional medicine as a remedy for digestive issues, anxiety, and to lower blood sugar levels.`,
 					},
 					
 				],
@@ -285,7 +285,7 @@ export const productsData = [
 		bacPicture:
 			'/spices/ginger.png',
 		smallDetail:
-			'Ginger is a spice that is commonly used in cooking and baking, particularly in Asian and Indian cuisines. It has a strong, pungent, and slightly sweet flavor and is often used in savory dishes such as stir-fries, curries, stews, and meat dishes, as well as in sweet dishes like cakes, cookies, and candies. It is also used in traditional medicine in some cultures to treat nausea, morning sickness, and pain relief. Ginger can also be made into a tea, or it can be consumed in supplement form as a natural remedy for various ailments such as upset stomach, inflammation and reducing muscle pain. It is also used in some cultures as a folk remedy to treat common cold, flu and cough.',
+			'Ginger is a spice that is commonly used in cooking and baking, particularly in Asian and Indian cuisines. It has a strong, pungent, and slightly sweet flavor and is often used in savory dishes such as stir-fries, curries, stews, and meat dishes, as well as in sweet dishes like cakes, cookies, and candies. ',
 		details: [
 			{
 				id: 1,
@@ -293,9 +293,9 @@ export const productsData = [
 				items: [
 					{
 						id: 1,
-						title: '',
+						title: 'Medicine',
 						detail:
-							'',
+							`It is also used in traditional medicine in some cultures to treat nausea, morning sickness, and pain relief. Ginger can also be made into a tea, or it can be consumed in supplement form as a natural remedy for various ailments such as upset stomach, inflammation and reducing muscle pain. It is also used in some cultures as a folk remedy to treat common cold, flu and cough.`,
 					},
 					
 				],
@@ -341,7 +341,7 @@ export const productsData = [
 		bacPicture:
 			'/spices/nutmeg.png',
 		smallDetail:
-			'Nutmeg is a spice that is commonly used in cooking and baking, particularly in European, Middle Eastern, and Indian cuisines. It has a warm, sweet, and slightly nutty flavor and is often used in savory dishes such as stews, soups, meat dishes, and vegetables. It is also used in sweet dishes like cakes, pies, puddings, and custards. Nutmeg is often used in baking, in particular in the holiday season, in dishes like eggnog, pumpkin pie and gingerbread. Nutmeg is also used in traditional medicine, it is believed to have properties that may help relieve pain, soothe digestive issues and may have a calming effect. It is also used in some cultures as a remedy for insomnia and to boost memory.',
+			'Nutmeg is a spice that is commonly used in cooking and baking, particularly in European, Middle Eastern, and Indian cuisines. It has a warm, sweet, and slightly nutty flavor and is often used in savory dishes such as stews, soups, meat dishes, and vegetables. It is also used in sweet dishes like cakes, pies, puddings, and custards.',
 		details: [
 			{
 				id: 1,
@@ -349,9 +349,9 @@ export const productsData = [
 				items: [
 					{
 						id: 1,
-						title: '',
+						title: 'About',
 						detail:
-							'',
+							`Nutmeg is often used in baking, in particular in the holiday season, in dishes like eggnog, pumpkin pie and gingerbread. Nutmeg is also used in traditional medicine, it is believed to have properties that may help relieve pain, soothe digestive issues and may have a calming effect. It is also used in some cultures as a remedy for insomnia and to boost memory.`,
 					},
 					
 				],
@@ -407,7 +407,7 @@ export const productsData = [
 		bacPicture:
 			'/spices/nutmegmace.png',
 		smallDetail:
-			'Nutmeg and mace are both derived from the same tree, Myristica fragrans, but they have distinct differences in taste, appearance and uses. Nutmeg is the seed of the tree and it is a warm, sweet and slightly nutty spice that is commonly used in savory dishes such as stews, soups, meat dishes and vegetables. It is also used in sweet dishes like cakes, pies, puddings and custards. Mace is the dried, lacy, reddish-orange aril that surrounds the nutmeg seed. The flavor of mace is similar to nutmeg but more delicate and refined, it is used in savory dishes such as meat, fish, vegetables and sauces. It is also used in some sweet dishes and desserts, as well as in liquors and liqueurs. Mace is considered more expensive than nutmeg, because it is a more labor-intensive process to separate the mace from the seed.',
+			'Nutmeg and mace are both derived from the same tree, Myristica fragrans, but they have distinct differences in taste, appearance and uses. Nutmeg is the seed of the tree and it is a warm, sweet and slightly nutty spice that is commonly used in savory dishes such as stews, soups, meat dishes and vegetables.',
 		details: [
 			{
 				id: 1,
@@ -415,9 +415,9 @@ export const productsData = [
 				items: [
 					{
 						id: 1,
-						title: '',
+						title: 'About',
 						detail:
-							'',
+							` It is also used in sweet dishes like cakes, pies, puddings and custards. Mace is the dried, lacy, reddish-orange aril that surrounds the nutmeg seed. The flavor of mace is similar to nutmeg but more delicate and refined, it is used in savory dishes such as meat, fish, vegetables and sauces. It is also used in some sweet dishes and desserts, as well as in liquors and liqueurs. Mace is considered more expensive than nutmeg, because it is a more labor-intensive process to separate the mace from the seed.`,
 					},
 					
 				],
@@ -463,7 +463,7 @@ export const productsData = [
 		bacPicture:
 			'/spices/pepper.png',
 		smallDetail:
-			'Pepper is a spice that is commonly used in cooking and baking. It is obtained from the berries of the pepper plant and it is available in different forms such as whole peppercorns, ground pepper and cracked pepper.Black pepper is the most common form used in cooking, it has a strong, pungent and slightly hot flavor. It is used in a wide range of dishes, from savory to sweet, it is a staple ingredient in many cuisines around the world. It is used to add flavor to soups, stews, meat dishes, vegetable dishes, and salad dressings.White pepper is made from fully ripe pepper berries that have had the dark outer shell removed. It has a milder flavor than black pepper, and it is often used in light-colored dishes where black pepper would be noticeable.Pepper is also used in traditional medicine, it is believed to have properties that may help relieve pain, improve digestion, and may have antioxidant effects.',
+			'Pepper is a spice that is commonly used in cooking and baking. It is obtained from the berries of the pepper plant and it is available in different forms such as whole peppercorns, ground pepper and cracked pepper.Black pepper is the most common form used in cooking, it has a strong, pungent and slightly hot flavor. It is used in a wide range of dishes, from savory to sweet, it is a staple ingredient in many cuisines around the world. It is used to add flavor to soups, stews, meat dishes, vegetable dishes, and salad dressings.',
 		details: [
 			{
 				id: 1,
@@ -471,9 +471,15 @@ export const productsData = [
 				items: [
 					{
 						id: 1,
-						title: '',
+						title: 'About',
 						detail:
-							'',
+							'India is the largest producer of pepper in the world. The state of Kerala in southern India is particularly known for its high-quality pepper production. Other major pepper producing states in India include Tamil Nadu, Karnataka, and Andhra Pradesh. Other countries that also produce significant amounts of pepper include Brazil, Indonesia, Vietnam, and China.',
+					},
+					{
+						id: 2,
+						title: 'Medicine',
+						detail:
+							'Pepper is also used in traditional medicine, it is believed to have properties that may help relieve pain, improve digestion, and may have antioxidant effects.',
 					},
 					
 					
@@ -520,7 +526,7 @@ export const productsData = [
 		bacPicture:
 			'/spices/cumin.png',
 		smallDetail:
-			`Cumin is a spice that is commonly used in cooking and baking, particularly in Middle Eastern, Indian, Mexican and Mediterranean cuisines. It has a warm, earthy and slightly bitter flavor, and it's often used in savory dishes such as curries, stews, meat dishes, and vegetables. It's also an essential ingredient in many spice blends such as chili powder, garam masala and baharat.Cumin seeds can be used whole or ground, it is a staple ingredient in many traditional dishes like cumin rice, cumin potatoes, cumin chicken, and cumin lamb.Cumin is also used in traditional medicine, it's believed to have properties that may help relieve pain, improve digestion, and may have antioxidant effects. Some studies suggest that cumin may also have anti-inflammatory and anti-cancer properties. It's also used to add flavor to some cheeses, and to season breads, crackers, and other baked goods.`,
+			`Cumin is a spice that is commonly used in cooking and baking, particularly in Middle Eastern, Indian, Mexican and Mediterranean cuisines. It has a warm, earthy and slightly bitter flavor, and it's often used in savory dishes such as curries, stews, meat dishes, and vegetables. It's also an essential ingredient in many spice blends such as chili powder, garam masala and baharat.Cumin seeds can be used whole or ground, it is a staple ingredient in many traditional dishes like cumin rice, cumin potatoes, cumin chicken, and cumin lamb.`,
 		details: [
 			{
 				id: 1,
@@ -528,9 +534,9 @@ export const productsData = [
 				items: [
 					{
 						id: 1,
-						title: '',
+						title: 'Medicine',
 						detail:
-							'',
+							`Cumin is also used in traditional medicine, it's believed to have properties that may help relieve pain, improve digestion, and may have antioxidant effects. Some studies suggest that cumin may also have anti-inflammatory and anti-cancer properties. It's also used to add flavor to some cheeses, and to season breads, crackers, and other baked goods.`,
 					},
 					
 					
@@ -577,7 +583,7 @@ export const productsData = [
 		bacPicture:
 			'/spices/fennel.png',
 		smallDetail:
-			`Fennel is a herb that is commonly used in cooking and baking, particularly in Mediterranean, Indian, and Middle Eastern cuisines. It has a mild, sweet licorice-like flavor, and both the seeds and the bulb of the fennel plant are used in cooking.Fennel seeds are often used as a spice in cooking and baking, it's a common ingredient in many traditional dishes like sausages, meatballs and meatloaf. It's also used to add flavor to pickles, marinades and salad dressings.Fennel bulb is often used as a vegetable, it can be eaten raw or cooked. It's a popular addition to salads, sandwiches, and pizzas, it can also be braised, grilled, sautéed, or roasted. Fennel bulb is also a popular ingredient in Mediterranean fish dishes.Fennel is also used in traditional medicine, it's believed to have properties that may help relieve pain, improve digestion and may have anti-inflammatory effects. Fennel tea is commonly consumed as a home remedy for indigestion, bloating and gas.`,
+			`Fennel is a herb that is commonly used in cooking and baking, particularly in Mediterranean, Indian, and Middle Eastern cuisines. It has a mild, sweet licorice-like flavor, and both the seeds and the bulb of the fennel plant are used in cooking.Fennel seeds are often used as a spice in cooking and baking, it's a common ingredient in many traditional dishes like sausages, meatballs and meatloaf. It's also used to add flavor to pickles, marinades and salad dressings.`,
 		details: [
 			{
 				id: 1,
@@ -585,9 +591,9 @@ export const productsData = [
 				items: [
 					{
 						id: 1,
-						title: '',
+						title: 'About',
 						detail:
-							'',
+							`Fennel bulb is often used as a vegetable, it can be eaten raw or cooked. It's a popular addition to salads, sandwiches, and pizzas, it can also be braised, grilled, sautéed, or roasted. Fennel bulb is also a popular ingredient in Mediterranean fish dishes.Fennel is also used in traditional medicine, it's believed to have properties that may help relieve pain, improve digestion and may have anti-inflammatory effects. Fennel tea is commonly consumed as a home remedy for indigestion, bloating and gas.`,
 					},
 					
 				],
@@ -633,7 +639,7 @@ export const productsData = [
 		bacPicture:
 			'/spices/garlic.png',
 		smallDetail:
-			`Garlic is a herb that is commonly used in cooking and baking, it is used in many cuisines worldwide. It has a strong, pungent, and slightly sweet flavor, and it's used in both savory and sweet dishes.Garlic is often used as a flavor enhancer in many dishes such as soups, stews, meat dishes, and vegetable dishes. It's also used to make seasoning blends and marinades. Garlic is a common ingredient in many traditional dishes like pasta sauces, stir-fries, and curries. It can also be used in baking, it's used to make breads, crackers, and other baked goods.Garlic is also used in traditional medicine, it's believed to have properties that may help lower blood pressure, improve cholesterol levels, and may have antioxidant effects. Garlic supplements and garlic oil are also commonly used as natural remedies for various ailments such as cardiovascular disease, high blood pressure, and high cholesterol. It's also used as a natural remedy for colds, flu and other infections.`,
+			`Garlic is a herb that is commonly used in cooking and baking, it is used in many cuisines worldwide. It has a strong, pungent, and slightly sweet flavor, and it's used in both savory and sweet dishes.Garlic is often used as a flavor enhancer in many dishes such as soups, stews, meat dishes, and vegetable dishes. It's also used to make seasoning blends and marinades. Garlic is a common ingredient in many traditional dishes like pasta sauces, stir-fries, and curries.`,
 		details: [
 			{
 				id: 1,
@@ -641,9 +647,9 @@ export const productsData = [
 				items: [
 					{
 						id: 1,
-						title: '',
+						title: 'About',
 						detail:
-							'',
+							`It can also be used in baking, it's used to make breads, crackers, and other baked goods.Garlic is also used in traditional medicine, it's believed to have properties that may help lower blood pressure, improve cholesterol levels, and may have antioxidant effects. Garlic supplements and garlic oil are also commonly used as natural remedies for various ailments such as cardiovascular disease, high blood pressure, and high cholesterol. It's also used as a natural remedy for colds, flu and other infections.`,
 					},
 					
 					
@@ -690,7 +696,7 @@ export const productsData = [
 		bacPicture:
 			'/spices/redchilli.png',
 		smallDetail:
-			`Chilli, also spelled chili, is a spice that is commonly used in cooking and baking, particularly in Mexican, Indian, and Asian cuisines. It is made from the dried, ground fruit of various types of chili pepper plants, and it has a strong, spicy flavor.Chilli powder is often used as a spice in cooking, it's a common ingredient in many traditional dishes like chili con carne, curries, stews, and marinades. It can also be used to make seasoning blends and rubs. It's also used to add heat and flavor to salsas, hot sauces, and other condiments.Fresh or dried chili peppers are also widely used in cooking, they can be added to dishes for a spicy kick, they can also be used to make spicy condiments and salsas.Chilli is also used in traditional medicine, it's believed to have properties that may help relieve pain, improve digestion, and may have antioxidant effects. Capsaicin, the compound that gives chilies their heat, is also used in creams and ointments to alleviate pain caused by conditions such as arthritis and shingles.`,
+			`Chilli, also spelled chili, is a spice that is commonly used in cooking and baking, particularly in Mexican, Indian, and Asian cuisines. It is made from the dried, ground fruit of various types of chili pepper plants, and it has a strong, spicy flavor.Chilli powder is often used as a spice in cooking, it's a common ingredient in many traditional dishes like chili con carne, curries, stews, and marinades. It can also be used to make seasoning blends and rubs. .`,
 		details: [
 			{
 				id: 1,
@@ -698,11 +704,16 @@ export const productsData = [
 				items: [
 					{
 						id: 1,
-						title: '',
+						title: 'About',
 						detail:
-							'',
+							`It's also used to add heat and flavor to salsas, hot sauces, and other condiments.Fresh or dried chili peppers are also widely used in cooking, they can be added to dishes for a spicy kick, they can also be used to make spicy condiments and salsas`,
 					},
-					
+					{
+						id: 2,
+						title: 'Medicine',
+						detail:
+							`Chilli is also used in traditional medicine, it's believed to have properties that may help relieve pain, improve digestion, and may have antioxidant effects. Capsaicin, the compound that gives chilies their heat, is also used in creams and ointments to alleviate pain caused by conditions such as arthritis and shingles.`,
+					},
 					
 				],
 			},
@@ -747,7 +758,7 @@ export const productsData = [
 		bacPicture:
 			'/spices/taramind.png',
 		smallDetail:
-			`Tamarind is a tropical fruit that is commonly used in cooking and baking, particularly in Asian, African, and Latin American cuisines. It has a sour and sweet flavor and is used in both sweet and savory dishes.The pulp from tamarind fruit is often used to make a sweet and sour sauce that is used as a base for curries, stews, and marinades. It's also used to make chutneys and jams, and as a flavoring in drinks such as tamarind juice, and in alcoholic beverages like beer and wine.Tamarind is also used to make a paste, which is used as an ingredient in many traditional dishes such as Sambar, a traditional South Indian lentil-vegetable stew, and in some North African dishes like Harira, a traditional soup.Tamarind is also used in traditional medicine, it's believed to have properties that may help relieve pain, improve digestion, and may have antioxidant effects. It's also used as a natural remedy for sore throat, fevers, and as a laxative. It's also used in some cultures as a folk remedy for treating skin infections, boils, and wounds.`,
+			`Tamarind is a tropical fruit that is commonly used in cooking and baking, particularly in Asian, African, and Latin American cuisines. It has a sour and sweet flavor and is used in both sweet and savory dishes.The pulp from tamarind fruit is often used to make a sweet and sour sauce that is used as a base for curries, stews, and marinades. `,
 		details: [
 			{
 				id: 1,
@@ -755,9 +766,15 @@ export const productsData = [
 				items: [
 					{
 						id: 1,
-						title: '',
+						title: 'Uses',
 						detail:
-							'',
+							`It's also used to make chutneys and jams, and as a flavoring in drinks such as tamarind juice, and in alcoholic beverages like beer and wine.Tamarind is also used to make a paste, which is used as an ingredient in many traditional dishes such as Sambar, a traditional South Indian lentil-vegetable stew, and in some North African dishes like Harira, a traditional soup.`,
+					},
+					{
+						id: 2,
+						title: 'Medicine',
+						detail:
+							`Tamarind is also used in traditional medicine, it's believed to have properties that may help relieve pain, improve digestion, and may have antioxidant effects. It's also used as a natural remedy for sore throat, fevers, and as a laxative. It's also used in some cultures as a folk remedy for treating skin infections, boils, and wounds.`,
 					},
 					
 					
@@ -804,7 +821,7 @@ export const productsData = [
 		bacPicture:
 			'/spices/turmeric.png',
 		smallDetail:
-			`Turmeric is a spice that is commonly used in cooking and baking, particularly in Indian, Middle Eastern, and Southeast Asian cuisines. It has a warm, earthy, and slightly bitter flavor, and it's often used in savory dishes such as curries, stews, and meat dishes, as well as in some sweet dishes.Turmeric is often used as a spice in cooking, it's a common ingredient in many traditional dishes like curries, soups, and stews. It's also used to make seasoning blends and rubs, and to color and flavor mustard, butter, and cheese.Turmeric is also used in traditional medicine, it's believed to have properties that may help relieve pain, improve digestion, and may have anti-inflammatory and antioxidant effects. Curcumin, the active ingredient in turmeric, is being studied for its potential benefits in treating a wide range of health conditions, including cancer, Alzheimer's disease, and heart disease. Turmeric supplements and turmeric tea are also commonly used as natural remedies for various ailments such as reducing inflammation, fighting cancer cells, and improving brain function.`,
+			`Turmeric is a spice that is commonly used in cooking and baking, particularly in Indian, Middle Eastern, and Southeast Asian cuisines. It has a warm, earthy, and slightly bitter flavor, and it's often used in savory dishes such as curries, stews, and meat dishes, as well as in some sweet dishes.Turmeric is often used as a spice in cooking, it's a common ingredient in many traditional dishes like curries, soups, and stews. It's also used to make seasoning blends and rubs, and to color and flavor mustard, butter, and cheese.`,
 		details: [
 			{
 				id: 1,
@@ -812,10 +829,17 @@ export const productsData = [
 				items: [
 					{
 						id: 1,
-						title: '',
+						title: 'Produce',
 						detail:
-							'',
+							'India is the largest producer of turmeric in the world. The state of Kerala in southern India are particularly known for their high-quality turmeric production. Other major turmeric producing states in India include Tamil Nadu, Odisha, and West Bengal. Other countries that also produce significant amounts of turmeric include China, Indonesia, and Sri Lanka.',
 					},
+					{
+						id: 2,
+						title: 'Medicine',
+						detail:
+							`Turmeric is also used in traditional medicine, it's believed to have properties that may help relieve pain, improve digestion, and may have anti-inflammatory and antioxidant effects. Curcumin, the active ingredient in turmeric, is being studied for its potential benefits in treating a wide range of health conditions, including cancer, Alzheimer's disease, and heart disease. Turmeric supplements and turmeric tea are also commonly used as natural remedies for various ailments such as reducing inflammation, fighting cancer cells, and improving brain function.`,
+					},
+					
 					
 					
 				],
@@ -861,7 +885,7 @@ export const productsData = [
 		bacPicture:
 			'/spices/fenugreek.png',
 		smallDetail:
-			`Fenugreek is a herb that is commonly used in cooking and baking, particularly in Indian, Middle Eastern, and Mediterranean cuisines. It has a slightly bitter, nutty and maple-like flavor and it's used in both sweet and savory dishes.Fenugreek seeds are often used as a spice in cooking and baking, it's a common ingredient in many traditional dishes like curries, stews, and marinades. It's also used to make seasoning blends, and to flavor pickles, chutneys and jams.Fenugreek leaves, also known as methi, are used as a herb in many traditional dishes like Methi Pulao, Methi Malai Paneer, and other dishes. They are also used to make sauces and dips, and as a garnish.Fenugreek is also used in traditional medicine, it's believed to have properties that may help relieve pain, improve digestion, and may have antioxidant effects. It's also used as a natural remedy for various ailments such as reducing inflammation, fighting cancer cells, and improving diabetes symptoms. Fenugreek supplements and fenugreek tea are also commonly used as natural remedies for various ailments.`,
+			`Fenugreek is a herb that is commonly used in cooking and baking, particularly in Indian, Middle Eastern, and Mediterranean cuisines. It has a slightly bitter, nutty and maple-like flavor and it's used in both sweet and savory dishes.Fenugreek seeds are often used as a spice in cooking and baking, it's a common ingredient in many traditional dishes like curries, stews, and marinades.`,
 		details: [
 			{
 				id: 1,
@@ -869,9 +893,9 @@ export const productsData = [
 				items: [
 					{
 						id: 1,
-						title: '',
+						title: 'Medicine',
 						detail:
-							'',
+							`Fenugreek is also used in traditional medicine, it's believed to have properties that may help relieve pain, improve digestion, and may have antioxidant effects. It's also used as a natural remedy for various ailments such as reducing inflammation, fighting cancer cells, and improving diabetes symptoms. Fenugreek supplements and fenugreek tea are also commonly used as natural remedies for various ailments.`,
 					},
 					
 					
@@ -883,7 +907,7 @@ export const productsData = [
 				items: [
 					{
 						id: 1,
-						detail: '',
+						detail: ` It's also used to make seasoning blends, and to flavor pickles, chutneys and jams.Fenugreek leaves, also known as methi, are used as a herb in many traditional dishes like Methi Pulao, Methi Malai Paneer, and other dishes. They are also used to make sauces and dips, and as a garnish.`,
 					},
 				],
 			},
@@ -922,7 +946,7 @@ export const productsData = [
 		bacPicture:
 			'/veg/ashgourd.png',
 		smallDetail:
-			`Ash gourd, also known as Winter Melon or White Pumpkin, is a large, white-fleshed fruit that is commonly used in cooking and baking, particularly in Asian cuisine such as Indian, Chinese and Southeast Asian. It has a mild, slightly sweet flavor, and it's often used in savory dishes such as curries, stews, and soups.Ash gourd is often used as a vegetable in cooking and it's a staple ingredient in many traditional dishes like soups and curries. It's also used to make sweet dishes like puddings, custards and candies. It is also used to make a drink called Taal, which is a cooling summer drink made from ash gourd, yogurt, and cumin.Ash gourd is also used in traditional medicine, it's believed to have properties that may help improve digestion, reduce fever and may have antioxidant effects. It's also used as a natural remedy for various ailments such as reducing inflammation and improving diabetes symptoms. Ash gourd juice is also commonly used as a natural remedy for various ailments.`,
+			`Ash gourd, also known as Winter Melon or White Pumpkin, is a large, white-fleshed fruit that is commonly used in cooking and baking, particularly in Asian cuisine such as Indian, Chinese and Southeast Asian. It has a mild, slightly sweet flavor, and it's often used in savory dishes such as curries, stews, and soups.Ash gourd is often used as a vegetable in cooking and it's a staple ingredient in many traditional dishes like soups and curries. `,
 		details: [
 			{
 				id: 1,
@@ -977,7 +1001,7 @@ export const productsData = [
 		bacPicture:
 			'/veg/butterbeans.png',
 		smallDetail:
-			`Butter beans, also known as lima beans, are a type of legume that are commonly used in cooking and baking, particularly in Southern and Mediterranean cuisines. They have a creamy, buttery texture and a mild, nutty flavor.Butter beans are often used in savory dishes such as stews, soups, casseroles, and salads. They are a popular ingredient in traditional dishes like succotash, Hoppin' John, and Greek Fasolada. They can be mashed or pureed to make dips and spreads, and they can also be used as a meat substitute in vegetarian and vegan dishes.Butter beans are also used in traditional medicine, it's believed to have properties that may help improve digestion, reduce fever and may have antioxidant effects. Butter beans are a good source of protein, fiber, iron, and other essential nutrients, making them a healthy addition to a well-balanced diet.`,
+			`Butter beans, also known as lima beans, are a type of legume that are commonly used in cooking and baking, particularly in Southern and Mediterranean cuisines. They have a creamy, buttery texture and a mild, nutty flavor.Butter beans are often used in savory dishes such as stews, soups, casseroles, and salads.`,
 		details: [
 			{
 				id: 1,
@@ -1032,7 +1056,7 @@ export const productsData = [
 		bacPicture:
 			'/veg/ridgegourd.png',
 		smallDetail:
-			`Ridge gourd, also known as Chinese Okra or Turai, is a vegetable that is commonly used in cooking and baking, particularly in Asian cuisine, such as Indian, Chinese, and Southeast Asian. It has a mild, slightly bitter flavor and it's often used in savory dishes such as curries, stews, and soups.Ridge gourd is often used as a vegetable in cooking, it's a staple ingredient in many traditional dishes like curries, soups, and stews. It can be sliced, chopped, or grated, and it can be cooked in a variety of ways such as stir-frying, sautéing, or steaming. It's also used to make sweet dishes like puddings, custards and candies.Ridge gourd is also used in traditional medicine, it's believed to have properties that may help improve digestion, reduce fever and may have antioxidant effects. It's also used as a natural remedy for various ailments such as reducing inflammation and improving diabetes symptoms. Ridge gourd juice is also commonly used as a natural remedy for various ailments`,
+			`Ridge gourd, also known as Chinese Okra or Turai, is a vegetable that is commonly used in cooking and baking, particularly in Asian cuisine, such as Indian, Chinese, and Southeast Asian. It has a mild, slightly bitter flavor and it's often used in savory dishes such as curries, stews, and soups.Ridge gourd is often used as a vegetable in cooking, it's a staple ingredient in many traditional dishes like curries, soups, and stews.`,
 		details: [
 			{
 				id: 1,
@@ -1087,7 +1111,7 @@ export const productsData = [
 		bacPicture:
 			'/veg/bananaflower.pn',
 		smallDetail:
-			`Banana flower, also known as banana blossom or banana heart, is a large, cone-shaped, dark purple or red flower that grows at the end of a banana bunch. It is commonly used in cooking and baking, particularly in Asian, African and South American cuisines. It has a slightly bitter and astringent taste.The banana flower is often used as a vegetable in cooking, it's a staple ingredient in many traditional dishes like curries, soups, and stews. It can be sliced, chopped, or grated, and it can be cooked in a variety of ways such as stir-frying, sautéing, or steaming. It is also a popular ingredient in vegetarian dishes and is used as a meat substitute.Banana flower is also used in traditional medicine, it's believed to have properties that may help improve digestion, reduce fever and may have antioxidant effects. It's also used as a natural remedy for various ailments such as reducing inflammation and improving diabetes symptoms.`,
+			`Banana flower, also known as banana blossom or banana heart, is a large, cone-shaped, dark purple or red flower that grows at the end of a banana bunch. It is commonly used in cooking and baking, particularly in Asian, African and South American cuisines. It has a slightly bitter and astringent taste.The banana flower is often used as a vegetable in cooking, it's a staple ingredient in many traditional dishes like curries, soups, and stews.`,
 		details: [
 			{
 				id: 1,
@@ -1142,7 +1166,7 @@ export const productsData = [
 		bacPicture:
 			'/veg/cabbage.png',
 		smallDetail:
-			`Cabbage is a vegetable that is commonly used in cooking and baking, it is a staple in many cuisines worldwide. It has a mild, slightly sweet flavor and it's often used in savory dishes such as soups, stews, salads, and slaws.Cabbage is often used as a vegetable in cooking and it's a staple ingredient in many traditional dishes like soups, stews, and slaws. It can be sliced, chopped, or grated, and it can be cooked in a variety of ways such as stir-frying, sautéing, steaming, or braising. It is also used in pickling and fermentation, to make dishes such as sauerkraut and kimchi.Cabbage is also used in traditional medicine, it's believed to have properties that may help improve digestion, reduce fever and may have antioxidant effects. It's also a good source of vitamin C, fiber, and antioxidants and is considered a low-calorie food.`,
+			`Cabbage is a vegetable that is commonly used in cooking and baking, it is a staple in many cuisines worldwide. It has a mild, slightly sweet flavor and it's often used in savory dishes such as soups, stews, salads, and slaws.Cabbage is often used as a vegetable in cooking and it's a staple ingredient in many traditional dishes like soups, stews, and slaws.`,
 		details: [
 			{
 				id: 1,
@@ -1197,7 +1221,7 @@ export const productsData = [
 		bacPicture:
 			'/veg/ladiesfinger.png',
 		smallDetail:
-			`Ladies finger, also known as okra or gumbo, is a vegetable that is commonly used in cooking and baking, particularly in African, Asian and American cuisines. It has a mild, slightly grassy flavor, and it's often used in savory dishes such as curries, stews, and soups.Ladies finger is often used as a vegetable in cooking, it's a staple ingredient in many traditional dishes like curries, soups, and stews. It can be sliced, chopped, or whole and it can be cooked in a variety of ways such as stir-frying, sautéing, steaming, or deep-frying. It is also used in pickling and fermentation.Ladies finger is also used in traditional medicine, it's believed to have properties that may help improve digestion, reduce fever and may have antioxidant effects. It's also a good source of vitamin A and C, folate, and minerals such as potassium, calcium, and magnesium.`,
+			`Ladies finger, also known as okra or gumbo, is a vegetable that is commonly used in cooking and baking, particularly in African, Asian and American cuisines. It has a mild, slightly grassy flavor, and it's often used in savory dishes such as curries, stews, and soups.Ladies finger is often used as a vegetable in cooking, it's a staple ingredient in many traditional dishes like curries, soups, and stews.`,
 		details: [
 			{
 				id: 1,
@@ -1252,7 +1276,7 @@ export const productsData = [
 		bacPicture:
 			'/veg/smallonion.png',
 		smallDetail:
-			`Small onions, also known as shallots, are a type of onion that are commonly used in cooking and baking, particularly in Asian, Mediterranean and French cuisines. They have a sweeter and milder flavor than regular onions, and a delicate texture.Small onions are often used as a flavor enhancer in many dishes such as soups, stews, meat dishes, and vegetable dishes. They are also used to make seasoning blends and marinades, and they can be used to make a flavorful base for a variety of dishes. They are also used to make a traditional condiment called "escabeche" which is a pickled onion.Small onions are also used in traditional medicine, it's believed to have properties that may help lower blood pressure, improve cholesterol levels, and may have antioxidant effects. Small onions are a good source of Vitamin C and antioxidants, also they are considered a low-calorie food.`,
+			`Small onions, also known as shallots, are a type of onion that are commonly used in cooking and baking, particularly in Asian, Mediterranean and French cuisines. They have a sweeter and milder flavor than regular onions, and a delicate texture.Small onions are often used as a flavor enhancer in many dishes such as soups, stews, meat dishes, and vegetable dishes. `,
 		details: [
 			{
 				id: 1,
@@ -1307,7 +1331,7 @@ export const productsData = [
 		bacPicture:
 			'/veg/bananastem.png',
 		smallDetail:
-			`Banana stem, also known as banana trunk, is a fibrous stem that grows from the base of the banana plant. It is commonly used in cooking and baking, particularly in Indian, Southeast Asian, and African cuisines. It has a slightly sour and astringent flavor and it's often used in savory dishes such as curries, stews, and soups.Banana stem is often used as a vegetable in cooking and it's a staple ingredient in many traditional dishes like curries, soups, and stews. It can be sliced, chopped, or grated, and it can be cooked in a variety of ways such as stir-frying, sautéing, or steaming. It is also used to make a traditional drink called Taal, which is a cooling summer drink made from banana stem, yogurt, and cumin.Banana stem is also used in traditional medicine, it's believed to have properties that may help improve digestion, reduce fever, and may have antioxidant effects. It's also a good source of dietary fiber and potassium, and is low in calories.`,
+			`Banana stem, also known as banana trunk, is a fibrous stem that grows from the base of the banana plant. It is commonly used in cooking and baking, particularly in Indian, Southeast Asian, and African cuisines. It has a slightly sour and astringent flavor and it's often used in savory dishes such as curries, stews, and soups.Banana stem is often used as a vegetable in cooking and it's a staple ingredient in many traditional dishes like curries, soups, and stews. `,
 		details: [
 			{
 				id: 1,
@@ -1362,7 +1386,7 @@ export const productsData = [
 		bacPicture:
 			'/veg/chayote.png',
 		smallDetail:
-			`Chayote, also known as vegetable pear or chocho, is a type of gourd that is commonly used in cooking and baking, particularly in Latin American, Asian and Mediterranean cuisines. It has a mild, slightly sweet flavor and a crisp, watery texture.Chayote is often used as a vegetable in cooking and it's a staple ingredient in many traditional dishes like soups, stews, and curries. It can be sliced, chopped, or grated, and it can be cooked in a variety of ways such as stir-frying, sautéing, or steaming. It's also used to make salads and pickles, and it can be used as a filling for quesadillas or empanadas.Chayote is also used in traditional medicine, it's believed to have properties that may help improve digestion, reduce fever, and may have antioxidant effects. It's also a good source of dietary fiber, vitamin C and potassium, and is low in calories.`,
+			`Chayote, also known as vegetable pear or chocho, is a type of gourd that is commonly used in cooking and baking, particularly in Latin American, Asian and Mediterranean cuisines. It has a mild, slightly sweet flavor and a crisp, watery texture.Chayote is often used as a vegetable in cooking and it's a staple ingredient in many traditional dishes like soups, stews, and curries. `,
 		details: [
 			{
 				id: 1,
@@ -1417,7 +1441,7 @@ export const productsData = [
 		bacPicture:
 			'/veg/longbeans.png',
 		smallDetail:
-			`Long beans, also known as yard-long beans or asparagus beans, are a type of legume that are commonly used in cooking and baking, particularly in Asian, African, and South American cuisines. They have a similar taste and texture to green beans, but they are longer, sometimes growing up to 3 feet long.Long beans are often used in savory dishes such as stews, soups, stir-fries, and curries. They are a popular ingredient in traditional dishes like Chinese stir-fry and in Indonesian and Malaysian cuisine. They can be used as a meat substitute in vegetarian and vegan dishes.Long beans are also used in traditional medicine, it's believed to have properties that may help improve digestion, reduce fever and may have antioxidant effects. Long beans are a good source of protein, fiber, and essential nutrients, making them a healthy addition to a well-balanced diet.`,
+			`Long beans, also known as yard-long beans or asparagus beans, are a type of legume that are commonly used in cooking and baking, particularly in Asian, African, and South American cuisines. They have a similar taste and texture to green beans, but they are longer, sometimes growing up to 3 feet long.Long beans are often used in savory dishes such as stews, soups, stir-fries, and curries.`,
 		details: [
 			{
 				id: 1,
@@ -1472,7 +1496,7 @@ export const productsData = [
 		bacPicture:
 			'/veg/snakegourd.png',
 		smallDetail:
-			`Snake gourd, also known as chichinda or padwal, is a vegetable that is commonly used in cooking and baking, particularly in Asian cuisine, such as Indian, Chinese, and Southeast Asian. It has a mild, slightly bitter flavor and it's often used in savory dishes such as curries, stews, and soups.Snake gourd is often used as a vegetable in cooking, it's a staple ingredient in many traditional dishes like curries, soups, and stews. It can be sliced, chopped, or grated, and it can be cooked in a variety of ways such as stir-frying, sautéing, or steaming. It's also used to make sweet dishes like puddings, custards and candies.Snake gourd is also used in traditional medicine, it's believed to have properties that may help improve digestion, reduce fever and may have antioxidant effects. It's also used as a natural remedy for various ailments such as reducing inflammation and improving diabetes symptoms. Snake gourd juice is also commonly used as a natural remedy for various ailments.`,
+			`Snake gourd, also known as chichinda or padwal, is a vegetable that is commonly used in cooking and baking, particularly in Asian cuisine, such as Indian, Chinese, and Southeast Asian. It has a mild, slightly bitter flavor and it's often used in savory dishes such as curries, stews, and soups.Snake gourd is often used as a vegetable in cooking, it's a staple ingredient in many traditional dishes like curries, soups, and stews. `,
 		details: [
 			{
 				id: 1,
@@ -1527,7 +1551,7 @@ export const productsData = [
 		bacPicture:
 			'/veg/chinesepotato.png',
 		smallDetail:
-			`Chinese potato, also known as Chinese yam, is a root vegetable that is commonly used in cooking and baking, particularly in Asian cuisine, such as Chinese, Korean and Japanese. It has a slightly sweet and nutty flavor and it's often used in savory dishes such as soups, stews, and stir-fries.Chinese potato is often used as a vegetable in cooking, it's a staple ingredient in many traditional dishes like soups, stews, and stir-fries. It can be sliced, diced, or grated, and it can be cooked in a variety of ways such as stir-frying, sautéing, or steaming. It's also used to make sweet dishes like puddings, custards and candies.Chinese potato is also used in traditional medicine, it's believed to have properties that may help improve digestion, reduce fever, and may have antioxidant effects. It's also a good source of dietary fiber, potassium, and other essential minerals, and is low in calories.`,
+			`Chinese potato, also known as Chinese yam, is a root vegetable that is commonly used in cooking and baking, particularly in Asian cuisine, such as Chinese, Korean and Japanese. It has a slightly sweet and nutty flavor and it's often used in savory dishes such as soups, stews, and stir-fries.Chinese potato is often used as a vegetable in cooking, it's a staple ingredient in many traditional dishes like soups, stews, and stir-fries.`,
 		details: [
 			{
 				id: 1,
@@ -1582,7 +1606,7 @@ export const productsData = [
 		bacPicture:
 			'/veg/onion.png',
 		smallDetail:
-			`Onions are a vegetable that is commonly used in cooking and baking, they are a staple in many cuisines worldwide. They have a pungent, sweet, and slightly spicy flavor and are often used in savory dishes such as soups, stews, salads, sandwiches, and as a topping for pizzas and burgers.Onions are often used as a flavor enhancer in many dishes such as soups, stews, meat dishes, and vegetable dishes. They can be caramelized for a sweeter taste and are used to make traditional condiments like onion jam. They are also used in pickling and fermentation, to make dishes such as pickled onions.Onions are also used in traditional medicine, they're believed to have properties that may help lower blood pressure, improve cholesterol levels, and may have antioxidant effects. Onions are a good source of Vitamin C, fiber, and antioxidants, also they are considered a low-calorie food.`,
+			`Onions are a vegetable that is commonly used in cooking and baking, they are a staple in many cuisines worldwide. They have a pungent, sweet, and slightly spicy flavor and are often used in savory dishes such as soups, stews, salads, sandwiches, and as a topping for pizzas and burgers.Onions are often used as a flavor enhancer in many dishes such as soups, stews, meat dishes, and vegetable dishes.`,
 		details: [
 			{
 				id: 1,
@@ -1637,7 +1661,7 @@ export const productsData = [
 		bacPicture:
 			'/veg/sweetpotato.png',
 		smallDetail:
-			`Sweet potatoes are a root vegetable that is commonly used in cooking and baking, they are a staple in many cuisines worldwide, particularly in African, Caribbean, and Latin American cuisines. They have a sweet, earthy flavor and are often used in savory dishes such as soups, stews, curries, casseroles, and roasted as a side dish. They can also be used in sweet dishes, such as pies, cakes, and breads.Sweet potatoes can be baked, boiled, fried, mashed, or roasted, and they are often paired with spices such as cinnamon, nutmeg, and allspice. They are also used to make sweet potato fries and chips. Sweet potatoes are also used to make traditional dishes like sweet potato pie, sweet potato pudding and sweet potato bread.Sweet potatoes are also used in traditional medicine, they're believed to have properties that may help improve digestion, reduce fever, and may have antioxidant effects. Sweet potatoes are a good source of Vitamin A, Vitamin C, potassium, and dietary fiber, also they are considered a low-calorie food.`,
+			`Sweet potatoes are a root vegetable that is commonly used in cooking and baking, they are a staple in many cuisines worldwide, particularly in African, Caribbean, and Latin American cuisines. They have a sweet, earthy flavor and are often used in savory dishes such as soups, stews, curries, casseroles, and roasted as a side dish. They can also be used in sweet dishes, such as pies, cakes, and breads.Sweet potatoes can be baked, boiled, fried, mashed, or roasted, and they are often paired with spices such as cinnamon, nutmeg, and allspice.`,
 		details: [
 			{
 				id: 1,
@@ -1748,7 +1772,7 @@ export const productsData = [
 		bacPicture:
 			'/veg/currybanana.png',
 		smallDetail:
-		`Plantains are a type of fruit that are closely related to bananas but are typically used as a vegetable. They have a starchy, slightly sweet flavor and are often used in savory dishes such as curries, stews, and soups. Plantains can be eaten at different stages of ripeness, depending on the recipe. They can be green and unripe, which are typically used for savory dishes and can be fried, boiled, grilled or mashed. When they are yellow with brown spots they are considered ripe and are sweeter, they can be eaten as a side dish, fried or used in desserts.`,
+		`Plantains are a type of fruit that are closely related to bananas but are typically used as a vegetable. They have a starchy, slightly sweet flavor and are often used in savory dishes such as curries, stews, and soups. Plantains can be eaten at different stages of ripeness, depending on the recipe. They can be green and unripe, which are typically used for savory dishes and can be fried, boiled, grilled or mashed. `,
 		details: [
 			{
 				id: 1,
@@ -1803,7 +1827,7 @@ export const productsData = [
 		bacPicture:
 			'/veg/tapioca.png',
 		smallDetail:
-			`Tapioca is a starchy substance extracted from the root of the Cassava plant, it is commonly used in cooking and baking, particularly in Southeast Asian, African, and Latin American cuisines. It's a versatile ingredient, it can be used in both sweet and savory dishes.Tapioca is often used as a thickener in soups, stews, and sauces. It's also used to make traditional dishes like tapioca pudding, tapioca pearls for bubble tea, and as a gluten-free alternative to wheat flour in baking. Tapioca starch is also used as a gluten-free alternative to wheat flour in baking.Tapioca is also used in traditional medicine, it's believed to have properties that may help improve digestion, reduce fever and may have antioxidant effects. Tapioca is a good source of carbohydrates, and is low in calories, it's also a good source of energy.`,
+			`Tapioca is a starchy substance extracted from the root of the Cassava plant, it is commonly used in cooking and baking, particularly in Southeast Asian, African, and Latin American cuisines. It's a versatile ingredient, it can be used in both sweet and savory dishes.Tapioca is often used as a thickener in soups, stews, and sauces. It's also used to make traditional dishes like tapioca pudding, tapioca pearls for bubble tea, and as a gluten-free alternative to wheat flour in baking. `,
 		details: [
 			{
 				id: 1,
@@ -1858,7 +1882,7 @@ export const productsData = [
 		bacPicture:
 			'/veg/beetroot.png',
 		smallDetail:
-			`Beetroot is a root vegetable that is commonly used in cooking and baking, it is a staple in many cuisines worldwide. Beetroot has a sweet and earthy flavor, and it's often used in savory dishes such as soups, stews, salads, sandwiches, and as a topping for pizzas and burgers. Beetroot can also be used in sweet dishes, such as cakes, cookies, and candies.Beetroot can be roasted, boiled, steamed, pickled or grated, it can be eaten raw, cooked or pickled. Beetroot is also used to make traditional dishes such as borscht, a traditional Eastern European soup, and it is also a popular ingredient in Mediterranean and Middle Eastern cuisine. Beetroot juice is also a popular ingredient in health drinks, smoothies and juices.Beetroot is also used in traditional medicine, it's believed to have properties that may help improve digestion, reduce fever, and may have antioxidant effects. Beetroot is a good source of Vitamin C, folate, potassium, and dietary fiber, also they are considered a low-calorie food.`,
+			`Beetroot is a root vegetable that is commonly used in cooking and baking, it is a staple in many cuisines worldwide. Beetroot has a sweet and earthy flavor, and it's often used in savory dishes such as soups, stews, salads, sandwiches, and as a topping for pizzas and burgers. Beetroot can also be used in sweet dishes, such as cakes, cookies, and candies.Beetroot can be roasted, boiled, steamed, pickled or grated, it can be eaten raw, cooked or pickled.`,
 		details: [
 			{
 				id: 1,
@@ -1913,7 +1937,7 @@ export const productsData = [
 		bacPicture:
 			'/veg/drumstick.png',
 		smallDetail:
-			`Beetroot is a root vegetable that is commonly used in cooking and baking, it is a staple in many cuisines worldwide. Beetroot has a sweet and earthy flavor, and it's often used in savory dishes such as soups, stews, salads, sandwiches, and as a topping for pizzas and burgers. Beetroot can also be used in sweet dishes, such as cakes, cookies, and candies.Beetroot can be roasted, boiled, steamed, pickled or grated, it can be eaten raw, cooked or pickled. Beetroot is also used to make traditional dishes such as borscht, a traditional Eastern European soup, and it is also a popular ingredient in Mediterranean and Middle Eastern cuisine. Beetroot juice is also a popular ingredient in health drinks, smoothies and juices.Beetroot is also used in traditional medicine, it's believed to have properties that may help improve digestion, reduce fever, and may have antioxidant effects. Beetroot is a good source of Vitamin C, folate, potassium, and dietary fiber, also they are considered a low-calorie food.`,
+			`Drumstick, also known as Moringa, is the fruit of the Moringa Oleifera tree, which is native to India and Pakistan. The fruit is long, thin and has a hard, woody texture with a bitter taste. The flesh inside is soft and fibrous and contains many seeds. `,
 		details: [
 			{
 				id: 1,
@@ -1969,11 +1993,7 @@ export const productsData = [
 			'/veg/papayaraw.png',
 		smallDetail:
 			`Papaya, when consumed raw, is a sweet and juicy fruit that is commonly eaten as a fresh fruit on its own, or added to fruit salads, smoothies, and juices. Papaya is rich in vitamins, minerals, and antioxidants, making it a healthy addition to a well-balanced diet.In addition to being eaten raw, papaya can also be used in cooking in various ways such as:
-			Papaya can be used as a meat tenderizer, the enzymes in papaya can break down protein and make tough cuts of meat more tender.
-			Papaya can be used in marinades and sauces, to add a sweet and tangy flavor.
-			Papaya can be used in desserts such as cakes, ice-creams, sorbets, and smoothies.
-			Papaya is also used in traditional medicine and is believed to have properties that may help improve digestion, reduce fever, and may have antioxidant effects.
-			Papaya is a good source of Vitamin C, Vitamin A, Vitamin E, folate, and potassium, also they are considered a low-calorie food.`,
+			`,
 		details: [
 			{
 				id: 1,
@@ -1983,7 +2003,11 @@ export const productsData = [
 						id: 1,
 						title: '',
 						detail:
-							'',
+							`Papaya can be used as a meat tenderizer, the enzymes in papaya can break down protein and make tough cuts of meat more tender.
+							Papaya can be used in marinades and sauces, to add a sweet and tangy flavor.
+							Papaya can be used in desserts such as cakes, ice-creams, sorbets, and smoothies.
+							Papaya is also used in traditional medicine and is believed to have properties that may help improve digestion, reduce fever, and may have antioxidant effects.
+							Papaya is a good source of Vitamin C, Vitamin A, Vitamin E, folate, and potassium, also they are considered a low-calorie food.`,
 					},
 					
 					
@@ -2028,7 +2052,7 @@ export const productsData = [
 		bacPicture:
 			'/veg/taro.png',
 		smallDetail:
-			`Taro is a root vegetable that is commonly used in cooking and baking, particularly in Asian, African, and Pacific Islander cuisines. It has a starchy, slightly sweet and nutty flavor and it's often used in savory dishes such as curries, stews, and soups. It can also be used to make sweet dishes like puddings, custards, and candies.Taro root can be cooked in a variety of ways, such as boiling, baking, or roasting. It can also be mashed and formed into cakes or dumplings. Taro leaves are also edible and are used to make dishes like taro leaf soup. Taro is also used to make traditional dishes like poi, a Hawaiian dish made from mashed taro root.Taro is also used in traditional medicine, it's believed to have properties that may help improve digestion, reduce fever, and may have antioxidant effects. Taro is a good source of carbohydrates, and is low in calories, it's also a good source of energy.`,
+			`Taro is a root vegetable that is commonly used in cooking and baking, particularly in Asian, African, and Pacific Islander cuisines. It has a starchy, slightly sweet and nutty flavor and it's often used in savory dishes such as curries, stews, and soups. It can also be used to make sweet dishes like puddings, custards, and candies.Taro root can be cooked in a variety of ways, such as boiling, baking, or roasting. It can also be mashed and formed into cakes or dumplings. Taro leaves are also edible and are used to make dishes like taro leaf soup. `,
 		details: [
 			{
 				id: 1,
@@ -2036,9 +2060,9 @@ export const productsData = [
 				items: [
 					{
 						id: 1,
-						title: '',
+						title: 'Uses',
 						detail:
-							'',
+							`Taro is also used to make traditional dishes like poi, a Hawaiian dish made from mashed taro root.Taro is also used in traditional medicine, it's believed to have properties that may help improve digestion, reduce fever, and may have antioxidant effects. Taro is a good source of carbohydrates, and is low in calories, it's also a good source of energy.`,
 					},
 					
 					
@@ -2083,7 +2107,7 @@ export const productsData = [
 		bacPicture:
 			'/veg/bittergourd.png',
 		smallDetail:
-			`Bitter gourd, also known as bitter melon or karela, is a type of gourd that is commonly used in cooking and baking, particularly in Asian and African cuisines. It has a bitter and slightly sour flavor and is often used in savory dishes such as curries, stews, and soups.Bitter gourd can be sliced, chopped, or grated, and it can be cooked in a variety of ways such as stir-frying, sautéing, or steaming. It's also used to make traditional dishes such as bitter gourd fry, bitter gourd curry, and bitter gourd pickles.Bitter gourd is also used in traditional medicine, it's believed to have properties that may help improve digestion, reduce fever, and may have antioxidant effects. It's also used as a natural remedy for various ailments such as reducing inflammation, improving diabetes symptoms and helping in weight loss. It's also a good source of dietary fiber, potassium, and other essential minerals, and is low in calories.`,
+			`Bitter gourd, also known as bitter melon or karela, is a type of gourd that is commonly used in cooking and baking, particularly in Asian and African cuisines. It has a bitter and slightly sour flavor and is often used in savory dishes such as curries, stews, and soups.Bitter gourd can be sliced, chopped, or grated, and it can be cooked in a variety of ways such as stir-frying, sautéing, or steaming. It's also used to make traditional dishes such as bitter gourd fry, bitter gourd curry, and bitter gourd pickles..`,
 		details: [
 			{
 				id: 1,
@@ -2091,9 +2115,9 @@ export const productsData = [
 				items: [
 					{
 						id: 1,
-						title: '',
+						title: 'Health',
 						detail:
-							'',
+							`Bitter gourd is also used in traditional medicine, it's believed to have properties that may help improve digestion, reduce fever, and may have antioxidant effects. It's also used as a natural remedy for various ailments such as reducing inflammation, improving diabetes symptoms and helping in weight loss. It's also a good source of dietary fiber, potassium, and other essential minerals, and is low in calories`,
 					},
 					
 					
@@ -2138,7 +2162,7 @@ export const productsData = [
 		bacPicture:
 			'/veg/greenchilli.png',
 		smallDetail:
-			`Green chili peppers, also known as green chilies or jalapeños, are a type of chili pepper that are commonly used in cooking and baking, particularly in Mexican, Indian, and Southeast Asian cuisines. They have a spicy and pungent flavor and are often used in savory dishes such as curries, stews, salsas, and sandwiches.Green chili peppers can be used in a variety of dishes such as soups, stews, curries, salsas, and sandwiches. They can be sliced, diced, or chopped and can be used fresh or cooked. They can be used as a garnish, a seasoning, or as a main ingredient. They are also used to make traditional dishes like chili con carne, salsas, and guacamole.Green chili peppers are also used in traditional medicine, they're believed to have properties that may help lower blood pressure, improve cholesterol levels, and may have antioxidant effects. They are a good source of Vitamin C, Vitamin A, and other essential nutrients. They are also considered a low-calorie food.`,
+			`Green chili peppers, also known as green chilies or jalapeños, are a type of chili pepper that are commonly used in cooking and baking, particularly in Mexican, Indian, and Southeast Asian cuisines. They have a spicy and pungent flavor and are often used in savory dishes such as curries, stews, salsas, and sandwiches.Green chili peppers can be used in a variety of dishes such as soups, stews, curries, salsas, and sandwiches. They can be sliced, diced, or chopped and can be used fresh or cooked. They can be used as a garnish, a seasoning, or as a main ingredient. `,
 		details: [
 			{
 				id: 1,
@@ -2146,9 +2170,9 @@ export const productsData = [
 				items: [
 					{
 						id: 1,
-						title: '',
+						title: 'Medicine',
 						detail:
-							'',
+							`They are also used to make traditional dishes like chili con carne, salsas, and guacamole.Green chili peppers are also used in traditional medicine, they're believed to have properties that may help lower blood pressure, improve cholesterol levels, and may have antioxidant effects. They are a good source of Vitamin C, Vitamin A, and other essential nutrients. They are also considered a low-calorie food.`,
 					},
 					
 					
@@ -2193,7 +2217,7 @@ export const productsData = [
 		bacPicture:
 			'/veg/potato.png',
 		smallDetail:
-			`Potatoes are a root vegetable that is commonly used in cooking and baking, they are a staple in many cuisines worldwide. Potatoes have a starchy, slightly sweet and earthy flavor and are often used in savory dishes such as soups, stews, casseroles, curries, and roasted as a side dish. They can also be used in sweet dishes, such as pies and cakes.Potatoes can be boiled, fried, mashed, roasted, or baked and they are often paired with butter, cream, cheese, or herbs and spices. They are also used to make traditional dishes like French fries, potato chips, mashed potatoes, and potato salad.Potatoes are also used in traditional medicine, they're believed to have properties that may help improve digestion, reduce fever, and may have antioxidant effects. Potatoes are a good source of potassium, Vitamin C, Vitamin B6, and dietary fiber, also they are considered a low-calorie food.`,
+			`Potatoes are a root vegetable that is commonly used in cooking and baking, they are a staple in many cuisines worldwide. Potatoes have a starchy, slightly sweet and earthy flavor and are often used in savory dishes such as soups, stews, casseroles, curries, and roasted as a side dish. They can also be used in sweet dishes, such as pies and cakes.Potatoes can be boiled, fried, mashed, roasted, or baked and they are often paired with butter, cream, cheese, or herbs and spices.`,
 		details: [
 			{
 				id: 1,
@@ -2201,9 +2225,9 @@ export const productsData = [
 				items: [
 					{
 						id: 1,
-						title: '',
+						title: 'Medicine',
 						detail:
-							'',
+							` They are also used to make traditional dishes like French fries, potato chips, mashed potatoes, and potato salad.Potatoes are also used in traditional medicine, they're believed to have properties that may help improve digestion, reduce fever, and may have antioxidant effects. Potatoes are a good source of potassium, Vitamin C, Vitamin B6, and dietary fiber, also they are considered a low-calorie food.`,
 					},
 					
 					
@@ -2248,7 +2272,7 @@ export const productsData = [
 		bacPicture:
 			'/veg/yam.png',
 		smallDetail:
-			`Yam is a root vegetable that is commonly used in cooking and baking, particularly in West African, Caribbean, and Asian cuisines. It has a starchy, slightly sweet and nutty flavor and it's often used in savory dishes such as curries, stews, and soups. It can also be used to make sweet dishes like puddings, custards, and candies.Yam can be cooked in a variety of ways, such as boiling, baking, roasting, or frying. It can also be mashed and formed into cakes or dumplings. Yam is also used to make traditional dishes like fufu, a West African dish made from mashed yam root, and it is also a popular ingredient in Caribbean and Asian cuisine.`,
+			`Yam is a root vegetable that is commonly used in cooking and baking, particularly in West African, Caribbean, and Asian cuisines. It has a starchy, slightly sweet and nutty flavor and it's often used in savory dishes such as curries, stews, and soups. It can also be used to make sweet dishes like puddings, custards, and candies.Yam can be cooked in a variety of ways, such as boiling, baking, roasting, or frying. `,
 		details: [
 			{
 				id: 1,
@@ -2312,7 +2336,7 @@ export const productsData = [
 				items: [
 					{
 						id: 1,
-						title: '',
+						title: 'About',
 						detail:
 							`Tomatoes can be eaten raw, cooked, or canned, they can be sliced, diced, or blended, and they are often paired with herbs and spices such as basil, oregano, and garlic. They are also used to make traditional dishes like tomato sauce, tomato soup, and gazpacho.`,
 					},
@@ -2367,7 +2391,7 @@ export const productsData = [
 				items: [
 					{
 						id: 1,
-						title: '',
+						title: 'About',
 						detail:
 							`Bottle gourd can be sliced, diced, or grated, and it can be cooked in a variety of ways such as stir-frying, sautéing, or steaming. It's also used to make traditional dishes such as bottle gourd curry, bottle gourd dal, and bottle gourd kofta. Bottle gourd can also be used to make soups, stews, and curries, and it's also used as a filling for dumplings.`,
 					},
@@ -2422,7 +2446,7 @@ export const productsData = [
 				items: [
 					{
 						id: 1,
-						title: '',
+						title: 'About',
 						detail:
 							`Green peas can be eaten raw, cooked, or canned, they can be mashed or pureed to make dips and spreads, and they can also be used as a meat substitute in vegetarian and vegan dishes. Peas are also used to make traditional dishes like pea soup, pea puree, and pea risotto.`,
 					},
@@ -2477,7 +2501,7 @@ export const productsData = [
 				items: [
 					{
 						id: 1,
-						title: '',
+						title: 'About',
 						detail:
 							`Pumpkin can be roasted, boiled, steamed, pureed or grated, and it can be used as a main ingredient or as a garnish. The pumpkin seeds can also be roasted and used as a snack or a garnish.Pumpkin is also used in traditional medicine, it's believed to have properties that may help improve digestion, reduce fever, and may have antioxidant effects. Pumpkin is a good source of Vitamin A, Vitamin C, potassium, and dietary fiber, also they are considered a low-calorie food.`,
 					},
@@ -2535,7 +2559,7 @@ export const productsData = [
 				items: [
 					{
 						id: 1,
-						title: '',
+						title: 'About',
 						detail:
 							`Corn can be eaten fresh, canned, or frozen, it can be grilled, boiled, roasted, or sautéed, and it can be used as a main ingredient or as a garnish. The corn kernels can also be ground to make cornmeal and corn flour, which are used to make traditional dishes such as corn tortillas, tamales, and polenta.
 
@@ -2592,10 +2616,9 @@ export const productsData = [
 				items: [
 					{
 						id: 1,
-						title: '',
+						title: 'Medicine',
 						detail:
-							`Cucumbers can be eaten raw, cooked, or pickled, they can be sliced, diced, or grated and they are often paired with herbs and spices such as dill, mint, and garlic. They are also used to make traditional dishes like tzatziki, cucumber salad, and pickled cucumbers.
-
+							`
 							Cucumbers are also used in traditional medicine, they're believed to have properties that may help improve digestion, reduce fever, and may have antioxidant effects. Cucumbers are a good source of Vitamin K, Vitamin C, and other essential nutrients, also they are considered a low-calorie food.`,
 					},
 					
@@ -2649,7 +2672,7 @@ export const productsData = [
 				items: [
 					{
 						id: 1,
-						title: '',
+						title: 'Medicine',
 						detail:
 							`Custard apples are also used in traditional medicine, they're believed to have properties that may help improve digestion, reduce fever, and may have antioxidant effects. They are a good source of Vitamin C, Vitamin A and other essential nutrients, also they are considered a low-calorie food.`,
 					},
@@ -2705,7 +2728,7 @@ export const productsData = [
 				items: [
 					{
 						id: 1,
-						title: '',
+						title: 'Medicine',
 						detail:
 							`Dragon fruit is also used in traditional medicine, it's believed to have properties that may help improve digestion, reduce fever, and may have antioxidant effects. It's also a good source of Vitamin C, Vitamin B1, Vitamin B2, and dietary fiber, also they are considered a low-calorie food.`,
 					},
@@ -2760,11 +2783,9 @@ export const productsData = [
 				items: [
 					{
 						id: 1,
-						title: '',
+						title: 'Medicine',
 						detail:
-							`Gooseberries can be eaten raw or cooked, they can be mashed or pureed to make dips and spreads, and they can also be used as a meat substitute in vegetarian and vegan dishes. Gooseberries are also used to make traditional dishes such as gooseberry pie and gooseberry jam.
-
-							Gooseberries are also used in traditional medicine, they're believed to have properties that may help improve digestion, reduce fever, and may have antioxidant effects. They are a good source of Vitamin C, Vitamin K, Vitamin A, and dietary fiber, also they are considered a low-calorie food.`,
+							`Gooseberries are also used in traditional medicine, they're believed to have properties that may help improve digestion, reduce fever, and may have antioxidant effects. They are a good source of Vitamin C, Vitamin K, Vitamin A, and dietary fiber, also they are considered a low-calorie food.`,
 					},
 					
 					
@@ -2817,11 +2838,9 @@ export const productsData = [
 				items: [
 					{
 						id: 1,
-						title: 'About',
+						title: 'Medicine',
 						detail:
-							`Grapes can be eaten raw, cooked or fermented, they can be sliced or diced, and they are often paired with herbs and spices such as mint, basil, and cinnamon. They are also used to make traditional dishes such as grape jelly, grape sauce, and wine.
-
-							Grapes are also used in traditional medicine, they're believed to have properties that may help improve digestion, reduce fever, and may have antioxidant effects. Grapes are a good source of Vitamin C, Vitamin K, Vitamin A, and dietary fiber, also they are considered a low-calorie food.`,
+							`Grapes are also used in traditional medicine, they're believed to have properties that may help improve digestion, reduce fever, and may have antioxidant effects. Grapes are a good source of Vitamin C, Vitamin K, Vitamin A, and dietary fiber, also they are considered a low-calorie food.`,
 					},
 					
 					
@@ -2877,8 +2896,13 @@ export const productsData = [
 						title: 'About',
 						detail:
 							`Green bananas can be cooked in a variety of ways, such as boiling, baking, frying or sautéing. They are also used to make traditional dishes like green banana fritters, green banana porridge, and green banana dumplings. They can also be boiled and mashed to make a staple dish called "Fufu" in West Africa.
-
-							Green bananas are also used in traditional medicine, they're believed to have properties that may help improve digestion, reduce fever, and may have antioxidant effects. Green bananas are a good source of potassium, Vitamin B6, and dietary fiber, also they are considered a low-calorie food.`,
+							`,
+					},
+					{
+						id: 2,
+						title: 'Medicine',
+						detail:
+							`Green bananas are also used in traditional medicine, they're believed to have properties that may help improve digestion, reduce fever, and may have antioxidant effects. Green bananas are a good source of potassium, Vitamin B6, and dietary fiber, also they are considered a low-calorie food.`,
 					},
 					
 					
@@ -2923,7 +2947,7 @@ export const productsData = [
 		bacPicture:
 			'/fruits/guava1.png',
 		smallDetail:
-			`Guava is a tropical fruit that is commonly eaten fresh. It has a sweet, slightly tart, and fragrant flavor, and it's often eaten on its own as a dessert fruit. It can also be used to make juices, jams, jellies, and preserves.`,
+			`Guava is a tropical fruit that is commonly eaten fresh. It has a sweet, slightly tart, and fragrant flavor, and it's often eaten on its own as a dessert fruit. It can also be used to make juices, jams, jellies, and preserves.They are also used to make traditional dishes like guava jam, guava jelly, and guava paste`,
 		details: [
 			{
 				id: 1,
@@ -2931,11 +2955,9 @@ export const productsData = [
 				items: [
 					{
 						id: 1,
-						title: 'About',
+						title: 'Medicine',
 						detail:
-							`Guava can be eaten raw, cooked, or canned, they can be sliced, diced, or pureed and they are often paired with herbs and spices such as mint, basil, and chili. They are also used to make traditional dishes like guava jam, guava jelly, and guava paste.
-
-							Guava is also used in traditional medicine, it's believed to have properties that may help improve digestion, reduce fever, and may have antioxidant effects. Guava is a good source of Vitamin C, Vitamin A, Vitamin K, and dietary fiber, also they are considered a low-calorie food.`,
+							`Guava is also used in traditional medicine, it's believed to have properties that may help improve digestion, reduce fever, and may have antioxidant effects. Guava is a good source of Vitamin C, Vitamin A, Vitamin K, and dietary fiber, also they are considered a low-calorie food.`,
 					},
 					
 					
@@ -2992,8 +3014,13 @@ export const productsData = [
 						title: 'About',
 						detail:
 							`Jackfruit can be eaten fresh, canned or dried and can be sliced, diced or pureed and it can be used as a main ingredient or as a garnish. The jackfruit seeds can also be roasted and used as a snack or a garnish.
-
-							Jackfruit is also used in traditional medicine, it's believed to have properties that may help improve digestion, reduce fever, and may have antioxidant effects. It's also a good source of Vitamin C, Vitamin B1, Vitamin B2, and dietary fiber, also they are considered a low-calorie food.`,
+							`,
+					},
+					{
+						id: 1,
+						title: 'Medicine',
+						detail:
+							`Jackfruit is also used in traditional medicine, it's believed to have properties that may help improve digestion, reduce fever, and may have antioxidant effects. It's also a good source of Vitamin C, Vitamin B1, Vitamin B2, and dietary fiber, also they are considered a low-calorie food.`,
 					},
 					
 					
@@ -3049,8 +3076,13 @@ export const productsData = [
 						title: 'About',
 						detail:
 							`Lemons can be eaten raw, cooked, or canned, they can be sliced, diced, or juiced, and they are often paired with herbs and spices such as rosemary, thyme, and ginger. They are also used to make traditional dishes like lemon chicken, lemon pasta, and lemon pie.
-
-							Lemons are also used in traditional medicine, they're believed to have properties that may help lower blood pressure, improve cholesterol levels, and may have antioxidant effects. Lemons are a good source of Vitamin C, Vitamin B6, Vitamin A and dietary fiber, also they are considered a low-calorie food.`,
+							`,
+					},
+					{
+						id: 1,
+						title: 'Medicine',
+						detail:
+							`Lemons are also used in traditional medicine, they're believed to have properties that may help lower blood pressure, improve cholesterol levels, and may have antioxidant effects. Lemons are a good source of Vitamin C, Vitamin B6, Vitamin A and dietary fiber, also they are considered a low-calorie food.`,
 					},
 					
 					
@@ -3194,7 +3226,7 @@ export const productsData = [
 	},
 	{
 		id: 172,
-		name: 'Plantain',
+		name: 'Banana',
 		rating: 4.0,
 		tags: 'black plum, organic, silopy kujjapu',
 		//rate: 10.4,
@@ -3206,7 +3238,6 @@ export const productsData = [
 			'/fruits/plantain.png',
 		smallDetail:
 		    `Bananas are a type of fruit that are commonly eaten fresh, they are a staple in many cuisines worldwide. Bananas have a sweet and slightly starchy flavor and are often eaten on their own as a snack, dessert or used in smoothies and baking. They can be eaten at different stages of ripeness, depending on the recipe. They can be green and unripe, which are typically used for savory dishes and can be fried, boiled, grilled or mashed. When they are yellow with brown spots they are considered ripe and are sweeter, they can be eaten as a side dish, fried or used in desserts.
-
 			`,
 		details: [
 			{
@@ -3215,7 +3246,7 @@ export const productsData = [
 				items: [
 					{
 						id: 1,
-						title: '',
+						title: 'Medicine',
 						detail:
 							`Bananas are also used in traditional medicine, they're believed to have properties that may help improve digestion, reduce fever, and may have antioxidant effects. Bananas are a good source of Vitamin B6, Vitamin C, Vitamin A and dietary fiber, also they are considered a low-calorie food. Additionally, bananas are rich in potassium and can help lower blood pressure.`,
 					},
@@ -3270,9 +3301,9 @@ export const productsData = [
 				items: [
 					{
 						id: 1,
-						title: '',
+						title: 'About',
 						detail:
-							'',
+							' The fruit is often eaten fresh, but can also be used to make jams, jellies, and preserves. The tree is also cultivated for its ornamental value, as it has large, fragrant flowers.',
 					},
 					
 					
@@ -3317,7 +3348,7 @@ export const productsData = [
 		bacPicture:
 			'/fruits/sweetlemon.png',
 		smallDetail:
-			`Sweet lemon, also known as sweet lime or Mosambi, is a citrus fruit that is similar in appearance to a regular lemon, but has a sweeter and less acidic taste. It is a hybrid variety of lemon and orange or mandarin. It is mostly grown in tropical countries like India, Bangladesh, Pakistan, and other Southeast Asian countries. The fruit is typically round and has a thin, smooth skin that is green when unripe and turns yellow when ripe. The flesh is juicy and has a sweet, tangy taste. It can be eaten fresh, squeezed for juice, or used in cooking and baking.`,
+			`Sweet lemon, also known as sweet lime or Mosambi, is a citrus fruit that is similar in appearance to a regular lemon, but has a sweeter and less acidic taste. It is a hybrid variety of lemon and orange or mandarin. It is mostly grown in tropical countries like India, Bangladesh, Pakistan, and other Southeast Asian countries.`,
 		details: [
 			{
 				id: 1,
@@ -3325,9 +3356,9 @@ export const productsData = [
 				items: [
 					{
 						id: 1,
-						title: '',
+						title: 'About',
 						detail:
-							'',
+							'The fruit is typically round and has a thin, smooth skin that is green when unripe and turns yellow when ripe. The flesh is juicy and has a sweet, tangy taste. It can be eaten fresh, squeezed for juice, or used in cooking and baking',
 					},
 					
 					
@@ -3380,7 +3411,7 @@ export const productsData = [
 				items: [
 					{
 						id: 1,
-						title: '',
+						title: 'About',
 						detail:
 							`They are typically eaten fresh, but can also be used in salads, jams, jellies, and as a garnish. Some people may experience an allergic reaction to the fruit, particularly if they are sensitive to aspirin, so it is best to consume star fruits in moderation.`,
 					},
@@ -3435,7 +3466,7 @@ export const productsData = [
 				items: [
 					{
 						id: 1,
-						title: '',
+						title: 'About',
 						detail:
 							`The juice from the sugarcane stalks can be extracted through a process of crushing and boiling. The juice is then clarified, concentrated and crystallized to produce granulated sugar.
 							Sugarcane is also a source of other products like molasses, rum, cachaça, and bagasse, which is the fibrous residue left after the juice is extracted. It is also used to produce paper, ethanol and animal feed.`,
@@ -3491,7 +3522,7 @@ export const productsData = [
 				items: [
 					{
 						id: 1,
-						title: '',
+						title: 'About',
 						detail:
 							`The flesh is juicy and sweet, with a large, flat seed in the center. Mangoes are typically eaten fresh, but can also be used in cooking, baking and preserving. They are a rich source of Vitamin C, Vitamin A, and dietary fibers.`,
 					},
@@ -3550,7 +3581,7 @@ export const productsData = [
 				items: [
 					{
 						id: 1,
-						title: '',
+						title: 'Uses',
 						detail:
 							`Cooking and baking: Dried coconut is a popular ingredient in many sweet and savory dishes, such as curries, stews, cakes, and cookies. It can be used as a topping or filling, or added to the dough or batter.
 
@@ -3618,7 +3649,7 @@ export const productsData = [
 				items: [
 					{
 						id: 1,
-						title: '',
+						title: 'Uses',
 						detail:
 							`Cooking and baking: Hen eggs are a versatile ingredient that can be used in a wide range of dishes, such as scrambled eggs, omelets, frittatas, quiches, cakes, and cookies. They can also be used as a binding agent in various dishes.
 
@@ -3687,11 +3718,9 @@ export const productsData = [
 				items: [
 					{
 						id: 1,
-						title: '',
+						title: 'Medicine',
 						detail:
-							`Coffee beans can also be used to make other products such as, instant coffee, coffee liqueur and some cosmetic products because of the caffeine content, which is a stimulant.
-
-							Coffee beans are also used in many cultures as a traditional medicine, as it is believed to have a wide range of health benefits. Some studies suggest that moderate coffee consumption may lower the risk of certain diseases, such as type 2 diabetes and Parkinson's disease.`,
+							`Coffee beans are also used in many cultures as a traditional medicine, as it is believed to have a wide range of health benefits. Some studies suggest that moderate coffee consumption may lower the risk of certain diseases, such as type 2 diabetes and Parkinson's disease.`,
 					},
 					
 					
@@ -3744,13 +3773,10 @@ export const productsData = [
 				items: [
 					{
 						id: 1,
-						title: '',
+						title: 'About',
 						detail:
 							`Palm sugar is a traditional sweetener that is used in many cuisines around the world, particularly in Southeast Asia, India, and Africa. It has a rich, caramel-like flavor and is often used to sweeten desserts, drinks, and savory dishes. It is also used as a natural sweetener for cooking and baking, like cookies, cakes, and bread.
-
-							Palm sugar is known for its lower Glycemic index (GI) and considered healthier than white sugar because it contains minerals and vitamins such as zinc, magnesium, potassium and iron. It is also a good source of antioxidants and phytonutrients.
-							
-							However, it is important to note that not all palm sugar is created equal, some may be processed differently and may not retain all of the beneficial nutrients, so it's best to look for organic, unrefined and sustainably-sourced palm sugar.`,
+							`,
 					},
 					
 					
@@ -3803,7 +3829,7 @@ export const productsData = [
 				items: [
 					{
 						id: 1,
-						title: '',
+						title: 'About',
 						detail:
 							`Tender coconuts are known for their high levels of hydration and electrolytes, making it a popular drink, particularly in tropical regions. It is also a good source of potassium, calcium, magnesium, and other minerals. The coconut water can be consumed fresh or used in various culinary preparations like smoothies, jams, syrups, and ice creams.`,
 					},
@@ -3855,7 +3881,7 @@ export const productsData = [
 		bacPicture:
 			'/leaves/drumstickleaves.png',
 		smallDetail:
-			'',
+			`Drumstick leaves, also known as moringa leaves, are the leaves of the Moringa Oleifera tree, which is native to India and Pakistan. They are widely used in many parts of the world for their medicinal properties and as a leafy green vegetable.`,
 		details: [
 			{
 				id: 1,
@@ -3863,9 +3889,10 @@ export const productsData = [
 				items: [
 					{
 						id: 1,
-						title: '',
+						title: 'Nutritious',
 						detail:
-							'',
+							`Drumstick leaves are highly nutritious and are a good source of vitamins A, B, C, and K, as well as minerals such as calcium, iron, and potassium. They are also a good source of protein and dietary fiber.
+							`,
 					},
 					
 					
@@ -3899,7 +3926,7 @@ export const productsData = [
 	},
 	{
 		id: 206,
-		name: 'Amranth Leaves',
+		name: 'Amaranth Leaves',
 		rating: 4.0,
 		tags: 'black plum, organic, silopy kujjapu',
 		//rate: 10.4,
@@ -3908,9 +3935,9 @@ export const productsData = [
 		category: 'Leaves',
 		picture: '/leaves/amranthleaves.png',
 		bacPicture:
-			'',
+			'/leaves/amranthleaves.png',
 		smallDetail:
-			'',
+			`Amaranth leaf, also known as Chinese spinach, is a leafy green vegetable that is widely cultivated and consumed in many parts of the world, particularly in Asia, Africa, and South America. The leaves of the amaranth plant are edible and are used in a variety of dishes such as soups, stews, curries, and stir-fries. They are also used as a spinach substitute.`,
 		details: [
 			{
 				id: 1,
@@ -3918,9 +3945,9 @@ export const productsData = [
 				items: [
 					{
 						id: 1,
-						title: '',
+						title: 'Healthy',
 						detail:
-							'',
+							`Amaranth leaves are a good source of vitamins A, C, and K, as well as minerals such as iron, calcium, and potassium. They are also a good source of protein and dietary fiber.`,
 					},
 					
 					
@@ -3965,7 +3992,7 @@ export const productsData = [
 		bacPicture:
 			'/leaves/celery.png',
 		smallDetail:
-			'',
+			`Celery is a vegetable that belongs to the Apiaceae family. It is known for its long, green stalks that are used as a crunchy and slightly bitter addition to salads, soups, and other dishes. The leaves of the celery plant are also edible and can be used as an herb, although they are not as commonly used as the stalks.`,
 		details: [
 			{
 				id: 1,
@@ -3973,9 +4000,9 @@ export const productsData = [
 				items: [
 					{
 						id: 1,
-						title: '',
+						title: 'Health',
 						detail:
-							'',
+							`Celery is a good source of vitamin K and also contains vitamin C, folate, and potassium. It is also low in calories and high in fiber.`,
 					},
 					
 					
@@ -4020,7 +4047,7 @@ export const productsData = [
 		bacPicture:
 			'/leaves/corianderleaf.png',
 		smallDetail:
-			'',
+			`Coriander leaf is the leafy part of the coriander plant. It is a popular herb that is used in many cuisines around the world, particularly in Asian, Latin American and Middle Eastern cuisine. The leaves have a unique, fresh, and slightly citrusy flavor and aroma that is used to add flavor to a wide variety of dishes such as curries, soups, stews, marinades, salsa and also as a garnish.`,
 		details: [
 			{
 				id: 1,
@@ -4028,9 +4055,9 @@ export const productsData = [
 				items: [
 					{
 						id: 1,
-						title: '',
+						title: 'Health',
 						detail:
-							'',
+							`Coriander leaves can be used fresh or dried, and can also be used in the form of powder, paste or oil. It is rich in vitamins A, K, and C, as well as minerals such as potassium and iron.`,
 					},
 					
 					
@@ -4075,7 +4102,8 @@ export const productsData = [
 		bacPicture:
 			'/leaves/lettuce.png',
 		smallDetail:
-			'',
+			`Lettuce is a leafy green vegetable that belongs to the Asteraceae family. It is a cool-season crop that is grown for its leaves, which are used as a salad green. There are many different varieties of lettuce, including crisphead, butterhead, and looseleaf, each with its unique texture and flavor.
+			`,
 		details: [
 			{
 				id: 1,
@@ -4083,9 +4111,9 @@ export const productsData = [
 				items: [
 					{
 						id: 1,
-						title: '',
+						title: 'About',
 						detail:
-							'',
+							`Lettuce is a popular ingredient in salads, sandwiches and as a garnish. It is a low-calorie food, high in water and fiber, and contains vitamins A, C, and K, as well as minerals such as potassium and iron.`,
 					},
 					
 					
@@ -4130,7 +4158,7 @@ export const productsData = [
 		bacPicture:
 			'/leaves/mint.png',
 		smallDetail:
-			'',
+			`Mint is a versatile herb that is used in a variety of products and for many different purposes. Some common uses of mint include: Cooking and flavoring: Mint is often used to flavor dishes such as salads, sauces, desserts, and drinks. It's also a popular garnish for cocktails and mocktails.`,
 		details: [
 			{
 				id: 1,
@@ -4138,9 +4166,9 @@ export const productsData = [
 				items: [
 					{
 						id: 1,
-						title: '',
+						title: 'Medicine',
 						detail:
-							'',
+							`Mint is used in traditional medicine to aid digestion, relieve pain, and freshen breath. It is also believed to have anti-inflammatory and antioxidant properties.`,
 					},
 					
 					
@@ -4185,7 +4213,7 @@ export const productsData = [
 		bacPicture:
 			'/leaves/bananaleaf.png',
 		smallDetail:
-			'',
+			`Banana leaf is the leaf of the banana plant, which is commonly used as a plate or platter in various parts of South Asia and Southeast Asia, particularly in Indian and Sri Lankan cuisine. The leaf is large, flexible, and waterproof, making it an ideal surface for serving food. It is also used for cooking and steaming food, such as dumplings, in many Asian countries.`,
 		details: [
 			{
 				id: 1,
@@ -4193,9 +4221,15 @@ export const productsData = [
 				items: [
 					{
 						id: 1,
-						title: '',
+						title: 'About',
 						detail:
-							'',
+							'Banana leaves are also used for ceremonial and decorative purposes. They are often used to wrap food for steaming or cooking, or as a plate or platter for serving food. They are used for offerings in Hindu religious ceremonies and also in weddings and other celebrations.',
+					},
+					{
+						id: 2,
+						title: 'Medicine',
+						detail:
+							'Banana leaves are also used in Ayurveda, traditional Indian medicine, where it is believed to have medicinal properties. They are used to make bandages and poultices, as well as to wrap food as a way to preserve its nutritional value and flavor.',
 					},
 					
 					
@@ -4257,8 +4291,8 @@ export const productsData = [
 					},
 					{
 						id: 2,
-						title: 'Origin ',
-						detail: 'South India',
+						title: 'Produce ',
+						detail: 'India is one of the largest producers of chili pepper in the world. The state of Kerala in India is particularly known for its high-quality chili pepper production. Other major chili pepper producing states in India include Maharashtra, Karnataka, and Odisha. Other countries that also produce significant amounts of chili pepper include China, Mexico, Indonesia, and Thailand.',
 					},
 					{
 						id: 3,
@@ -4297,7 +4331,7 @@ export const productsData = [
 	},
 	{
 		id: 221,
-		name: 'Cordiander Powder',
+		name: 'Coriander Powder',
 		rating: 4.0,
 		tags: 'black plum, organic, silopy kujjapu',
 		// rate: 10.4,
@@ -4308,7 +4342,7 @@ export const productsData = [
 		bacPicture:
 			'/powder/cordianderpowder.png',
 		smallDetail:
-			'',
+			`Coriander powder is a ground form of coriander seeds, which are the dried seeds of the cilantro plant. It is a common spice used in cooking, particularly in Indian, Middle Eastern, and Mexican cuisine. The powder has a warm, nutty, and slightly citrusy flavor. It is used to flavor dishes such as curries, soups, stews, marinades and also can be used as a garnish. `,
 		details: [
 			{
 				id: 1,
@@ -4316,9 +4350,9 @@ export const productsData = [
 				items: [
 					{
 						id: 1,
-						title: '',
+						title: 'About',
 						detail:
-							'',
+							`Coriander powder is also a common ingredient in spice blends such as garam masala, curry powder, and ras el hanout. In addition to its culinary uses, coriander powder also has medicinal properties and has been traditionally used to aid digestion and to treat various ailments.`,
 					},
 					
 					
@@ -4364,7 +4398,7 @@ export const productsData = [
 		bacPicture:
 			'/powder/turmericpowder.png',
 		smallDetail:
-			'',
+			`Turmeric powder is a ground form of turmeric root, which is the rhizome of the Curcuma longa plant. It is a common spice used in cooking, particularly in Indian, Southeast Asian, and Middle Eastern cuisine. The powder has a bright yellow color and has a distinct, earthy, and slightly bitter flavor.`,
 		details: [
 			{
 				id: 1,
@@ -4372,9 +4406,15 @@ export const productsData = [
 				items: [
 					{
 						id: 1,
-						title: '',
+						title: 'Produce',
 						detail:
-							'',
+							`India is the largest producer of turmeric in the world. The state of Kerala in southern India are particularly known for their high-quality turmeric production. Other major turmeric producing states in India include Tamil Nadu, Odisha, and West Bengal. Other countries that also produce significant amounts of turmeric include China, Indonesia, and Sri Lanka.`,
+					},
+					{
+						id: 2,
+						title: 'Medicine',
+						detail:
+							`Turmeric powder is also known for its medicinal properties and has been used as an anti-inflammatory, antioxidant, and in treating various ailments. It is used in many dishes such as curries, soups, marinades and also can be used as a food coloring agent. Turmeric powder can also be used in smoothies and lattes, as well as in skincare and haircare products.`,
 					},
 	
 				],
@@ -4419,7 +4459,7 @@ export const productsData = [
 		bacPicture:
 			'/powder/pepperpowder.png',
 		smallDetail:
-			'',
+			`Pepper powder is a ground form of peppercorns, which are the dried fruit of the Piper nigrum plant. It is a common spice used to add flavor and heat to food. It can be made from various types of peppercorns, such as black, white, green or pink. Pepper powder can be used in a variety of dishes, including soups, stews, sauces, and marinades, and can also be used as a seasoning for meat, poultry, fish and vegetables. It is also a common ingredient in spice blends such as curry powder and steak seasoning.`,
 		details: [
 			{
 				id: 1,
@@ -4427,9 +4467,9 @@ export const productsData = [
 				items: [
 					{
 						id: 1,
-						title: '',
+						title: 'Produce',
 						detail:
-							'',
+							`India is the largest producer of pepper in the world. The state of Kerala in southern India is particularly known for its high-quality pepper production. Other major pepper producing states in India include Tamil Nadu, Karnataka, and Andhra Pradesh. Other countries that also produce significant amounts of pepper include Brazil, Indonesia, Vietnam, and China.`,
 					},
 	
 				],
@@ -4474,7 +4514,7 @@ export const productsData = [
 		bacPicture:
 			'/powder/coffeepowder.png',
 		smallDetail:
-			'',
+			`Coffee powder is a ground form of roasted coffee beans that can be used to brew coffee by adding hot water. It is a convenient and easy way to make coffee as it eliminates the need for grinding beans and can be stored for longer periods of time. Instant coffee is also made from coffee powder.`,
 		details: [
 			{
 				id: 1,
@@ -4590,7 +4630,7 @@ export const productsData = [
 		bacPicture:
 			'/oils/coconutoil.png',
 		smallDetail:
-			`Coconut oil is a type of oil that is extracted from the meat of mature coconuts. It is high in saturated fats, specifically medium-chain fatty acids, and is often used in cooking and baking. It is also used in cosmetics and hair care products. Some studies have suggested that consuming coconut oil may have health benefits, but it is important to note that the research on this topic is inconclusive and more studies are needed. Additionally, coconut oil is high in calories, and consuming too much can contribute to weight gain and other health issues.`,
+			`Coconut oil is a type of oil that is extracted from the meat of mature coconuts. It is high in saturated fats, specifically medium-chain fatty acids, and is often used in cooking and baking. It is also used in cosmetics and hair care products. Some studies have suggested that consuming coconut oil may have health benefits, but it is important to note that the research on this topic is inconclusive and more studies are needed. `,
 		details: [
 			{
 				id: 1,
@@ -4600,7 +4640,7 @@ export const productsData = [
 						id: 1,
 						title: '',
 						detail:
-							'',
+							`Additionally, coconut oil is high in calories, and consuming too much can contribute to weight gain and other health issues.`,
 					},
 					
 				],

@@ -12,13 +12,13 @@ export const dealOftheDayProdutsData = [
 		categorySlug: 'spices',
 		category: 'Spices',
 		picture: '/spices/cardamom.png',
-		//partOf : 'popular',
+		partOf : 'popular',
 		bgImage: '/coconut.jpg',
 		
 		bacPicture:
 			'/spices/cardamom.png',
 		smallDetail:
-			'Cardamom is the Queen of Spices. Yet, this wonder spice does more than just add flavour to food and others. It also has excellent and multiple medicinal properties, is used in perfumes, is chewed as a mouth freshener and makes for a very thoughtful gift.Cardamom may improve breathing by stimulating better oxygen uptake and relaxing air passage to the lungs in humans and animals.',
+			'Cardamom is a spice commonly used in cooking and baking, particularly in Middle Eastern, Indian, and Scandinavian cuisines. It has a strong, distinct flavor that can be described as a mix of mint, lemon, and pine. Cardamom is often used in savory dishes such as curries, stews, and rice dishes, as well as in sweet dishes like cakes, pastries, and chai tea. It is also used in traditional medicine in some cultures to treat digestive issues, respiratory problems, and bad breath.',
 		details: [
 			{
 				id: 1,
@@ -77,20 +77,20 @@ export const dealOftheDayProdutsData = [
 					},
 				],
 			},
-			// {
-			// 	id: 3,
-			// 	part: 'Reviews',
-			// 	items: [
-			// 		{
-			// 			id: '1',
-			// 			name: '',
-			// 			date: '',
-			// 			title: '',
-			// 			text: '',
-			// 			rating: 3.5,
-			// 		},
-			// 	],
-			// },
+			{
+				id: 3,
+				part: 'Reviews',
+				items: [
+					{
+						id: '1',
+						name: '',
+						date: '',
+						title: '',
+						text: '',
+						rating: 3.5,
+					},
+				],
+			},
 		],
 	},
 
@@ -110,7 +110,7 @@ export const dealOftheDayProdutsData = [
 		bacPicture:
 			'/spices/anise.png',
 		smallDetail:
-			'',
+			'Anise, also known as aniseed, is a spice that is commonly used in cooking and baking. It has a distinct licorice-like flavor and is often used in savory dishes such as stews and soups, as well as in sweet dishes like cakes, cookies, and candies. Anise is also a key ingredient in liqueurs such as ouzo and sambuca, and it can be used to flavor coffee, tea, and others. It is also used in traditional medicine in some cultures to help with digestion, relieve gas, and as an expectorant.',
 		details: [
 			{
 				id: 1,
@@ -168,7 +168,7 @@ export const dealOftheDayProdutsData = [
 		bacPicture:
 			'/spices/cloves.png',
 		smallDetail:
-			'',
+			'Cloves are a spice that is commonly used in cooking and baking, particularly in Asian, African, and Middle Eastern cuisines. They have a strong, pungent, and sweet flavor and are often used in savory dishes such as curries, stews, and meat dishes, as well as in sweet dishes like cakes, pies, and mulled wine.  ',
 		details: [
 			{
 				id: 1,
@@ -176,9 +176,9 @@ export const dealOftheDayProdutsData = [
 				items: [
 					{
 						id: 1,
-						title: '',
+						title: 'Medicine',
 						detail:
-							'',
+							`Cloves can also be used to make a tea which is known to have medicinal properties, such as reducing pain, relieving nausea, and promoting digestion. Cloves are also used in Ayurvedic`,
 					},
 					
 				],
@@ -212,7 +212,7 @@ export const dealOftheDayProdutsData = [
 
 	{
 		id: 104,
-		name: 'Cordiander',
+		name: 'Coriander',
 		rating: 4.0,
 		tags: 'Boost immunity',
 		// rate: 10.4,
@@ -226,7 +226,7 @@ export const dealOftheDayProdutsData = [
 		bacPicture:
 			'/spices/cordiander.png',
 		smallDetail:
-			'',
+			'Coriander, also known as cilantro or Chinese parsley, is a herb that is commonly used in cooking and baking, particularly in Asian, African, and Latin American cuisines. The leaves and seeds of the coriander plant are used in cooking, and they have a distinct, fresh and citrusy flavor.',
 		details: [
 			{
 				id: 1,
@@ -234,9 +234,9 @@ export const dealOftheDayProdutsData = [
 				items: [
 					{
 						id: 1,
-						title: '',
+						title: 'About',
 						detail:
-							'',
+							` The leaves are often used as a garnish or added to salads, salsas, and dips, while the seeds are used in spice blends, curries, stews, and marinades. The seeds can also be dry-roasted or ground to make a powder that is used as a seasoning. Coriander seeds are also used in traditional medicine as a remedy for digestive issues, anxiety, and to lower blood sugar levels.`,
 					},
 					
 				],
@@ -288,7 +288,7 @@ export const dailyBestSellerProduts = [
 		bacPicture:
 			'/oils/cardamomoil.png',
 		smallDetail:
-			'',
+			`Cardamom oil is an essential oil that is extracted from the seeds of the cardamom plant. It is commonly used in perfumes, cosmetics, and food flavoring. It has a unique, spicy-sweet aroma and is used in traditional medicine to help with digestion, respiratory issues and to freshen the breath. It is also believed to have antimicrobial, anti-inflammatory, and antioxidant properties. However, more research is needed to confirm the potential health benefits of cardamom oil. It should not be consumed in large quantity as it can be toxic in high doses. It should also be avoided during pregnancy and breastfeeding. It is always recommended to consult a healthcare professional before using any essential oil.`,
 		details: [
 			{
 				id: 1,
@@ -298,7 +298,7 @@ export const dailyBestSellerProduts = [
 						id: 1,
 						title: '',
 						detail:
-							'',
+							`The amount of cardamom needed to produce 1 liter of cardamom oil can vary depending on factors such as the type of extraction method used, the quality of the cardamom, and the efficiency of the extraction process. However, on average, it takes around 200-250 kg of cardamom pods to produce 1 liter of cardamom oil.`,
 					},
 					
 					
@@ -310,7 +310,9 @@ export const dailyBestSellerProduts = [
 				items: [
 					{
 						id: 1,
-						detail: '',
+						detail: `It's important to note that the method of production of essential oil plays a role in the yield of the oil, and the efficiency of distillation process can affect the amount of oil produced. The method of Steam distillation, Solvent extraction and CO2 extraction are the most commonly used methods for producing cardamom oil, each of them have different yields.
+
+						It's also important to note that the quality of cardamom also affects the yield of the oil. If the cardamom is not fresh, not well dried or not well stored, it can result in a lower yield of oil.`,
 					},
 				],
 			},
@@ -333,7 +335,7 @@ export const dailyBestSellerProduts = [
 
 	{
 		id: 177,
-		name: 'Fresh Mango',
+		name: 'Mango',
 		rating: 4.0,
 		tags: 'black plum, organic, silopy kujjapu',
 		//rate: 10.4,
@@ -344,7 +346,7 @@ export const dailyBestSellerProduts = [
 		bacPicture:
 			'/fruits/mango.png',
 		smallDetail:
-			'',
+			`Mango is a tropical fruit that is native to South Asia, and is now widely grown in many tropical and subtropical regions around the world. It is a large, fleshy fruit that grows on a tall, evergreen tree. The fruit can range in size, shape and color depending on the variety, but is typically oval or kidney-shaped with a thin, smooth skin that can be green, yellow, red, or a combination of these colors when ripe.`,
 		details: [
 			{
 				id: 1,
@@ -352,9 +354,9 @@ export const dailyBestSellerProduts = [
 				items: [
 					{
 						id: 1,
-						title: '',
+						title: 'About',
 						detail:
-							'',
+							`The flesh is juicy and sweet, with a large, flat seed in the center. Mangoes are typically eaten fresh, but can also be used in cooking, baking and preserving. They are a rich source of Vitamin C, Vitamin A, and dietary fibers.`,
 					},
 					
 					
@@ -387,6 +389,7 @@ export const dailyBestSellerProduts = [
 		],
 	},
 
+
 	{
 		id: 103,
 		name: 'Cloves',
@@ -403,7 +406,7 @@ export const dailyBestSellerProduts = [
 		bacPicture:
 			'/spices/cloves.png',
 		smallDetail:
-			'',
+			'Cloves are a spice that is commonly used in cooking and baking, particularly in Asian, African, and Middle Eastern cuisines. They have a strong, pungent, and sweet flavor and are often used in savory dishes such as curries, stews, and meat dishes, as well as in sweet dishes like cakes, pies, and mulled wine.  ',
 		details: [
 			{
 				id: 1,
@@ -411,9 +414,9 @@ export const dailyBestSellerProduts = [
 				items: [
 					{
 						id: 1,
-						title: '',
+						title: 'Medicine',
 						detail:
-							'',
+							`Cloves can also be used to make a tea which is known to have medicinal properties, such as reducing pain, relieving nausea, and promoting digestion. Cloves are also used in Ayurvedic`,
 					},
 					
 				],
@@ -447,7 +450,7 @@ export const dailyBestSellerProduts = [
 
 	{
 		id: 104,
-		name: 'Cordiander',
+		name: 'Coriander',
 		rating: 4.0,
 		tags: 'Boost immunity',
 		// rate: 10.4,
@@ -461,7 +464,7 @@ export const dailyBestSellerProduts = [
 		bacPicture:
 			'/spices/cordiander.png',
 		smallDetail:
-			'',
+			`Coriander, also known as cilantro or Chinese parsley, is a herb that is commonly used in cooking and baking, particularly in Asian, African, and Latin American cuisines. The leaves and seeds of the coriander plant are used in cooking, and they have a distinct, fresh and citrusy flavor.`,
 		details: [
 			{
 				id: 1,
@@ -469,9 +472,9 @@ export const dailyBestSellerProduts = [
 				items: [
 					{
 						id: 1,
-						title: '',
+						title: 'About',
 						detail:
-							'',
+							` The leaves are often used as a garnish or added to salads, salsas, and dips, while the seeds are used in spice blends, curries, stews, and marinades. The seeds can also be dry-roasted or ground to make a powder that is used as a seasoning. Coriander seeds are also used in traditional medicine as a remedy for digestive issues, anxiety, and to lower blood sugar levels.`,
 					},
 					
 				],
@@ -519,7 +522,7 @@ export const dailyBestSellerProduts = [
 		bacPicture:
 			'/spices/ginger.png',
 		smallDetail:
-			'',
+			'Ginger is a spice that is commonly used in cooking and baking, particularly in Asian and Indian cuisines. It has a strong, pungent, and slightly sweet flavor and is often used in savory dishes such as stir-fries, curries, stews, and meat dishes, as well as in sweet dishes like cakes, cookies, and candies. ',
 		details: [
 			{
 				id: 1,
@@ -527,9 +530,9 @@ export const dailyBestSellerProduts = [
 				items: [
 					{
 						id: 1,
-						title: '',
+						title: 'Medicine',
 						detail:
-							'',
+							`It is also used in traditional medicine in some cultures to treat nausea, morning sickness, and pain relief. Ginger can also be made into a tea, or it can be consumed in supplement form as a natural remedy for various ailments such as upset stomach, inflammation and reducing muscle pain. It is also used in some cultures as a folk remedy to treat common cold, flu and cough.`,
 					},
 					
 				],
@@ -575,7 +578,7 @@ export const dailyBestSellerProduts = [
 		bacPicture:
 			'/spices/nutmeg.png',
 		smallDetail:
-			'',
+			'Nutmeg is a spice that is commonly used in cooking and baking, particularly in European, Middle Eastern, and Indian cuisines. It has a warm, sweet, and slightly nutty flavor and is often used in savory dishes such as stews, soups, meat dishes, and vegetables. It is also used in sweet dishes like cakes, pies, puddings, and custards.',
 		details: [
 			{
 				id: 1,
@@ -583,9 +586,9 @@ export const dailyBestSellerProduts = [
 				items: [
 					{
 						id: 1,
-						title: '',
+						title: 'About',
 						detail:
-							'',
+							`Nutmeg is often used in baking, in particular in the holiday season, in dishes like eggnog, pumpkin pie and gingerbread. Nutmeg is also used in traditional medicine, it is believed to have properties that may help relieve pain, soothe digestive issues and may have a calming effect. It is also used in some cultures as a remedy for insomnia and to boost memory.`,
 					},
 					
 				],
@@ -659,8 +662,8 @@ export const popularProductsData = [
 					},
 					{
 						id: 2,
-						title: 'Origin ',
-						detail: 'South India',
+						title: 'Produce ',
+						detail: 'India is one of the largest producers of chili pepper in the world. The state of Kerala in India is particularly known for its high-quality chili pepper production. Other major chili pepper producing states in India include Maharashtra, Karnataka, and Odisha. Other countries that also produce significant amounts of chili pepper include China, Mexico, Indonesia, and Thailand.',
 					},
 					{
 						id: 3,
@@ -700,7 +703,7 @@ export const popularProductsData = [
 
 	{
 		id: 172,
-		name: 'Plantain',
+		name: 'Banana',
 		rating: 4.0,
 		tags: 'black plum, organic, silopy kujjapu',
 		//rate: 10.4,
@@ -711,7 +714,8 @@ export const popularProductsData = [
 		bacPicture:
 			'/fruits/plantain.png',
 		smallDetail:
-			'',
+		    `Bananas are a type of fruit that are commonly eaten fresh, they are a staple in many cuisines worldwide. Bananas have a sweet and slightly starchy flavor and are often eaten on their own as a snack, dessert or used in smoothies and baking. They can be eaten at different stages of ripeness, depending on the recipe. They can be green and unripe, which are typically used for savory dishes and can be fried, boiled, grilled or mashed. When they are yellow with brown spots they are considered ripe and are sweeter, they can be eaten as a side dish, fried or used in desserts.
+			`,
 		details: [
 			{
 				id: 1,
@@ -719,9 +723,9 @@ export const popularProductsData = [
 				items: [
 					{
 						id: 1,
-						title: '',
+						title: 'Medicine',
 						detail:
-							'',
+							`Bananas are also used in traditional medicine, they're believed to have properties that may help improve digestion, reduce fever, and may have antioxidant effects. Bananas are a good source of Vitamin B6, Vitamin C, Vitamin A and dietary fiber, also they are considered a low-calorie food. Additionally, bananas are rich in potassium and can help lower blood pressure.`,
 					},
 					
 					
@@ -768,7 +772,7 @@ export const popularProductsData = [
 		bacPicture:
 			'/spices/turmeric.png',
 		smallDetail:
-			'',
+			`Turmeric is a spice that is commonly used in cooking and baking, particularly in Indian, Middle Eastern, and Southeast Asian cuisines. It has a warm, earthy, and slightly bitter flavor, and it's often used in savory dishes such as curries, stews, and meat dishes, as well as in some sweet dishes.Turmeric is often used as a spice in cooking, it's a common ingredient in many traditional dishes like curries, soups, and stews. It's also used to make seasoning blends and rubs, and to color and flavor mustard, butter, and cheese.`,
 		details: [
 			{
 				id: 1,
@@ -776,10 +780,17 @@ export const popularProductsData = [
 				items: [
 					{
 						id: 1,
-						title: '',
+						title: 'Produce',
 						detail:
-							'',
+							'India is the largest producer of turmeric in the world. The state of Kerala in southern India are particularly known for their high-quality turmeric production. Other major turmeric producing states in India include Tamil Nadu, Odisha, and West Bengal. Other countries that also produce significant amounts of turmeric include China, Indonesia, and Sri Lanka.',
 					},
+					{
+						id: 2,
+						title: 'Medicine',
+						detail:
+							`Turmeric is also used in traditional medicine, it's believed to have properties that may help relieve pain, improve digestion, and may have anti-inflammatory and antioxidant effects. Curcumin, the active ingredient in turmeric, is being studied for its potential benefits in treating a wide range of health conditions, including cancer, Alzheimer's disease, and heart disease. Turmeric supplements and turmeric tea are also commonly used as natural remedies for various ailments such as reducing inflammation, fighting cancer cells, and improving brain function.`,
+					},
+					
 					
 					
 				],
@@ -828,7 +839,7 @@ export const popularProductsData = [
 		bacPicture:
 			'/spices/cardamom.png',
 		smallDetail:
-			'Cardamom is the Queen of Spices. Yet, this wonder spice does more than just add flavour to food and others. It also has excellent and multiple medicinal properties, is used in perfumes, is chewed as a mouth freshener and makes for a very thoughtful gift.Cardamom may improve breathing by stimulating better oxygen uptake and relaxing air passage to the lungs in humans and animals.',
+			`Cardamom is a spice commonly used in cooking and baking, particularly in Middle Eastern, Indian, and Scandinavian cuisines. It has a strong, distinct flavor that can be described as a mix of mint, lemon, and pine. Cardamom is often used in savory dishes such as curries, stews, and rice dishes, as well as in sweet dishes like cakes, pastries, and chai tea. It is also used in traditional medicine in some cultures to treat digestive issues, respiratory problems, and bad breath.`,
 		details: [
 			{
 				id: 1,
@@ -918,7 +929,7 @@ export const popularProductsData = [
 		bacPicture:
 			'/powder/coffeepowder.png',
 		smallDetail:
-			'',
+			`Coffee powder is a ground form of roasted coffee beans that can be used to brew coffee by adding hot water. It is a convenient and easy way to make coffee as it eliminates the need for grinding beans and can be stored for longer periods of time. Instant coffee is also made from coffee powder.`,
 		details: [
 			{
 				id: 1,
@@ -973,7 +984,7 @@ export const popularProductsData = [
 		bacPicture:
 			'/others/drycoconut.png',
 		smallDetail:
-			'',
+			`Dried coconut, also known as desiccated coconut, is made by removing the water and oil from fresh coconut meat. The resulting product is a dry, shredded or flaked form of coconut that can be used in a variety of ways. Some common uses for dried coconut include:`,
 		details: [
 			{
 				id: 1,
@@ -981,9 +992,21 @@ export const popularProductsData = [
 				items: [
 					{
 						id: 1,
-						title: '',
+						title: 'Uses',
 						detail:
-							'',
+							`Cooking and baking: Dried coconut is a popular ingredient in many sweet and savory dishes, such as curries, stews, cakes, and cookies. It can be used as a topping or filling, or added to the dough or batter.
+
+							Snacks: Dried coconut can be eaten on its own as a snack, or used as an ingredient in trail mix, granola, or energy bars.
+							
+							Dairy-free milk and cream: Dried coconut can be blended with water to make a non-dairy milk or cream substitute.
+							
+							Cosmetics: Dried coconut is used in cosmetics and personal care products such as soaps, lotions, and scrubs because of its moisturizing properties.
+							
+							Animal feed: Dried coconut is used as a feed for livestock and poultry.
+							
+							Activated charcoal: The shells of dried coconuts are used to produce activated charcoal which is used as a filter, purifying agent and in medicine to treat poison.
+							
+							Charcoal: The shells of dried coconuts can also be used to produce charcoal which can be used as a fuel.`,
 					},
 					
 					
