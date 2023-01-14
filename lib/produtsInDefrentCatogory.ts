@@ -3,7 +3,7 @@
 export const dealOftheDayProdutsData = [
 	{
 		id: 101,
-		name: 'Green Cardamom',
+		name: 'Fresh Tender Coconut',
 		rating: 4.0,
 		tags: 'Include as spice in food',
 		// rate: 10.4,
@@ -96,7 +96,7 @@ export const dealOftheDayProdutsData = [
 
 	{
 		id: 102,
-		name: 'Anise',
+		name: 'Mixed Vegetables Fruits',
 		rating: 4.0,
 		tags: 'Used as a flavoring agent',
 		// rate: 10.4,
@@ -154,7 +154,7 @@ export const dealOftheDayProdutsData = [
 
 	{
 		id: 103,
-		name: 'Cloves',
+		name: 'Mixed fruits and Spices',
 		rating: 4.0,
 		tags: 'Spice,Flavoring,Fragrance',
 		// rate: 10.4,
@@ -212,7 +212,7 @@ export const dealOftheDayProdutsData = [
 
 	{
 		id: 104,
-		name: 'Coriander',
+		name: 'Mixed Spices',
 		rating: 4.0,
 		tags: 'Boost immunity',
 		// rate: 10.4,
@@ -335,7 +335,7 @@ export const dailyBestSellerProduts = [
 
 	{
 		id: 177,
-		name: 'Fresh Mango',
+		name: 'Fresh `Mango',
 		rating: 4.0,
 		tags: 'black plum, organic, silopy kujjapu',
 		//rate: 10.4,
