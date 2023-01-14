@@ -63,12 +63,12 @@ const ProductEachDetail = (product: any) => {
         </span>
         <ButtonAddToCart className="mt-0 w-[158px] mx-0" />
         <div className='flex gap-3'>
-        <span className=" grid h-[50px] w-[50px] place-content-center rounded-lg border border-gray-300">
-          <Love className="-m-3 scale-50 fill-gray-500" />
-        </span>
-        <span className="grid h-[50px] w-[50px] place-content-center rounded-lg border border-gray-300">
-          <ShuffleIcon className="scale-110 fill-gray-500" />
-        </span>
+          <span className=" grid h-[50px] w-[50px] place-content-center rounded-lg border border-gray-300">
+            <Love className="-m-3 scale-50 fill-gray-500" />
+          </span>
+          <span className="grid h-[50px] w-[50px] place-content-center rounded-lg border border-gray-300">
+            <ShuffleIcon className="scale-110 fill-gray-500" />
+          </span>
         </div>
       </div>
       <div className="flex flex-col gap-[5px]">
