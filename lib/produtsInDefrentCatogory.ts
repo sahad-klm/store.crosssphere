@@ -335,7 +335,7 @@ export const dailyBestSellerProduts = [
 
 	{
 		id: 177,
-		name: 'Fresh Mango',
+		name: 'Fresh `Mango',
 		rating: 4.0,
 		tags: 'black plum, organic, silopy kujjapu',
 		//rate: 10.4,
