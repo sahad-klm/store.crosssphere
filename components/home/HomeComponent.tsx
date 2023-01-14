@@ -48,7 +48,7 @@ const HomeComponent = (): any => {
                   whileInView="show"
                   viewport={{ once: false, amount: 0.25 }}
                   variants={textVariant(0.2, 0.5)}
-                  className="max-w-[780px] font-body font-bold leading-10 text-gray-800 text-7xl"
+                  className="max-w-[780px] font-body font-bold leading-none text-gray-800 text-7xl"
                 >
                   {item.title}
                 </motion.h1>
