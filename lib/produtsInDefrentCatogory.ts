@@ -635,6 +635,100 @@ export const dailyBestSellerProduts = [
 // populerProdust
 
 export const popularProductsData = [
+
+	{
+		id: 101,
+		name: 'Green Cardamom',
+		rating: 4.0,
+		tags: 'Include as spice in food',
+		// rate: 10.4,
+		// offer: 7,
+
+		categorySlug: 'spices',
+		category: 'Spices',
+		picture: '/spices/cardamom.png',
+		partOf : 'popular',
+		bgImage: '/coconut.jpg',
+		
+		bacPicture:
+			'/spices/cardamom.png',
+		smallDetail:
+			`Cardamom is a spice commonly used in cooking and baking, particularly in Middle Eastern, Indian, and Scandinavian cuisines. It has a strong, distinct flavor that can be described as a mix of mint, lemon, and pine. Cardamom is often used in savory dishes such as curries, stews, and rice dishes, as well as in sweet dishes like cakes, pastries, and chai tea. It is also used in traditional medicine in some cultures to treat digestive issues, respiratory problems, and bad breath.`,
+		details: [
+			{
+				id: 1,
+				part: 'Description',
+				items: [
+	
+					{
+						id: 1,
+						title: 'Good for Health',
+						detail: 'The antioxidant compounds in cardamom may help protect cells from damage and slow down and prevent inflammation in your body.Cardamom may protect against digestive issues and has been shown to reduce the number and size of stomach ulcers in rats.Cardamom is often used to treat bad breath and is a component of some chewing gums. This is because cardamom might be able to kill common mouth bacteria and prevent cavities. ',
+					},
+					{
+						id: 2,
+						title: 'Suggested Use',
+						detail: 'Versatile spice, chef recommended, ideal for the discerning home consumer ',
+					},
+					{
+						id: 3,
+						title: 'Nutrition Facts',
+						detail:
+							'Calories 311, Protein 11g, Vitamin C 35%, Calcium 38%, Iron 77%	, Vitamin D	0%, Vitamin B6 10%	, Cobalamin	0%, Magnesium 57% ',
+					},
+					{
+						id: 4,
+						title: 'Benefit',
+						detail:
+							'Cardamom may help lower blood pressure, most likely due to its antioxidant and diuretic properties. Certain compounds in cardamom may fight cancer and stop the growth of tumors in mice and test tubes. Human research is needed to validate if these results apply to humans as well., ',
+					},
+				],
+			},
+			{
+				id: 2,
+				part: 'Additional info',
+				items: [
+					{
+						id: 1,
+						detail: `1. Cardamom is one of the world’s most exotic spices - along with Saffron and Vanilla.
+
+						2. Cardamom belongs to the same botanical family as ginger and turmeric.
+						
+						3. Cardamom is also one of the world’s oldest spices – cultivated for more than 4000 years. It was popular in the ancient civilizations of Rome, Egypt and Greece.
+						
+						4. The earliest references of cardamom were in ancient Sanskrit texts and the ancient Sumer civilization (in modern day Iraq).
+						
+						5. Cardamom is the ‘Doctor of Spices’. Its amazing medicinal properties are useful in alleviating several health issues.
+						
+						6. Cardamom accounts for 3% of the total global spice trade.
+						
+						7. Cardamom is a universally popular spice. It is widely employed in Indian, Middle Eastern, Arabic, and Swedish cuisine.
+						
+						8. Green Cardamom likely has its origins in southwest India. There is even a range called Cardamom Hills here.
+						
+						9. Ancient people believed cardamom had supernatural powers and that it could drive out evil spirits.
+						
+						10. According to Chinese tradition, the consumption of cardamom tea is the secret to long life.`,
+					},
+				],
+			},
+			{
+				id: 3,
+				part: 'Reviews',
+				items: [
+					{
+						id: '1',
+						name: '',
+						date: '',
+						title: '',
+						text: '',
+						rating: 3.5,
+					},
+				],
+			},
+		],
+	},
+
 	{
 		id: 220,
 		name: 'Chilli Powder',
@@ -671,63 +765,6 @@ export const popularProductsData = [
 						detail:
 							' Usually, chile powder has no additives..',
 					},
-					
-				],
-			},
-			{
-				id: 2,
-				part: 'Additional info',
-				items: [
-					{
-						id: 1,
-						detail: '',
-					},
-				],
-			},
-			{
-				id: 3,
-				part: 'Reviews',
-				items: [
-					{
-						id: '1',
-						name: '',
-						date: '',
-						title: '',
-						text: '',
-						rating: 3.5,
-					},
-				],
-			},
-		],
-	},
-
-	{
-		id: 172,
-		name: 'Banana',
-		rating: 4.0,
-		tags: 'black plum, organic, silopy kujjapu',
-		//rate: 10.4,
-		//offer: 7,
-		categorySlug: 'fruits',
-		category: 'Fruits',
-		picture: '/fruits/plantain.png',
-		bacPicture:
-			'/fruits/plantain.png',
-		smallDetail:
-		    `Bananas are a type of fruit that are commonly eaten fresh, they are a staple in many cuisines worldwide. Bananas have a sweet and slightly starchy flavor and are often eaten on their own as a snack, dessert or used in smoothies and baking. They can be eaten at different stages of ripeness, depending on the recipe. They can be green and unripe, which are typically used for savory dishes and can be fried, boiled, grilled or mashed. When they are yellow with brown spots they are considered ripe and are sweeter, they can be eaten as a side dish, fried or used in desserts.
-			`,
-		details: [
-			{
-				id: 1,
-				part: 'Description',
-				items: [
-					{
-						id: 1,
-						title: 'Medicine',
-						detail:
-							`Bananas are also used in traditional medicine, they're believed to have properties that may help improve digestion, reduce fever, and may have antioxidant effects. Bananas are a good source of Vitamin B6, Vitamin C, Vitamin A and dietary fiber, also they are considered a low-calorie food. Additionally, bananas are rich in potassium and can help lower blood pressure.`,
-					},
-					
 					
 				],
 			},
@@ -823,51 +860,33 @@ export const popularProductsData = [
 	},
 
 	{
-		id: 101,
-		name: 'Green Cardamom',
+		id: 172,
+		name: 'Banana',
 		rating: 4.0,
-		tags: 'Include as spice in food',
-		// rate: 10.4,
-		// offer: 7,
-
-		categorySlug: 'spices',
-		category: 'Spices',
-		picture: '/spices/cardamom.png',
-		partOf : 'popular',
-		bgImage: '/coconut.jpg',
-		
+		tags: 'black plum, organic, silopy kujjapu',
+		//rate: 10.4,
+		//offer: 7,
+		categorySlug: 'fruits',
+		category: 'Fruits',
+		picture: '/fruits/plantain.png',
 		bacPicture:
-			'/spices/cardamom.png',
+			'/fruits/plantain.png',
 		smallDetail:
-			`Cardamom is a spice commonly used in cooking and baking, particularly in Middle Eastern, Indian, and Scandinavian cuisines. It has a strong, distinct flavor that can be described as a mix of mint, lemon, and pine. Cardamom is often used in savory dishes such as curries, stews, and rice dishes, as well as in sweet dishes like cakes, pastries, and chai tea. It is also used in traditional medicine in some cultures to treat digestive issues, respiratory problems, and bad breath.`,
+		    `Bananas are a type of fruit that are commonly eaten fresh, they are a staple in many cuisines worldwide. Bananas have a sweet and slightly starchy flavor and are often eaten on their own as a snack, dessert or used in smoothies and baking. They can be eaten at different stages of ripeness, depending on the recipe. They can be green and unripe, which are typically used for savory dishes and can be fried, boiled, grilled or mashed. When they are yellow with brown spots they are considered ripe and are sweeter, they can be eaten as a side dish, fried or used in desserts.
+			`,
 		details: [
 			{
 				id: 1,
 				part: 'Description',
 				items: [
-	
 					{
 						id: 1,
-						title: 'Good for Health',
-						detail: 'The antioxidant compounds in cardamom may help protect cells from damage and slow down and prevent inflammation in your body.Cardamom may protect against digestive issues and has been shown to reduce the number and size of stomach ulcers in rats.Cardamom is often used to treat bad breath and is a component of some chewing gums. This is because cardamom might be able to kill common mouth bacteria and prevent cavities. ',
-					},
-					{
-						id: 2,
-						title: 'Suggested Use',
-						detail: 'Versatile spice, chef recommended, ideal for the discerning home consumer ',
-					},
-					{
-						id: 3,
-						title: 'Nutrition Facts',
+						title: 'Medicine',
 						detail:
-							'Calories 311, Protein 11g, Vitamin C 35%, Calcium 38%, Iron 77%	, Vitamin D	0%, Vitamin B6 10%	, Cobalamin	0%, Magnesium 57% ',
+							`Bananas are also used in traditional medicine, they're believed to have properties that may help improve digestion, reduce fever, and may have antioxidant effects. Bananas are a good source of Vitamin B6, Vitamin C, Vitamin A and dietary fiber, also they are considered a low-calorie food. Additionally, bananas are rich in potassium and can help lower blood pressure.`,
 					},
-					{
-						id: 4,
-						title: 'Benefit',
-						detail:
-							'Cardamom may help lower blood pressure, most likely due to its antioxidant and diuretic properties. Certain compounds in cardamom may fight cancer and stop the growth of tumors in mice and test tubes. Human research is needed to validate if these results apply to humans as well., ',
-					},
+					
+					
 				],
 			},
 			{
@@ -876,42 +895,24 @@ export const popularProductsData = [
 				items: [
 					{
 						id: 1,
-						detail: `1. Cardamom is one of the world’s most exotic spices - along with Saffron and Vanilla.
-
-						2. Cardamom belongs to the same botanical family as ginger and turmeric.
-						
-						3. Cardamom is also one of the world’s oldest spices – cultivated for more than 4000 years. It was popular in the ancient civilizations of Rome, Egypt and Greece.
-						
-						4. The earliest references of cardamom were in ancient Sanskrit texts and the ancient Sumer civilization (in modern day Iraq).
-						
-						5. Cardamom is the ‘Doctor of Spices’. Its amazing medicinal properties are useful in alleviating several health issues.
-						
-						6. Cardamom accounts for 3% of the total global spice trade.
-						
-						7. Cardamom is a universally popular spice. It is widely employed in Indian, Middle Eastern, Arabic, and Swedish cuisine.
-						
-						8. Green Cardamom likely has its origins in southwest India. There is even a range called Cardamom Hills here.
-						
-						9. Ancient people believed cardamom had supernatural powers and that it could drive out evil spirits.
-						
-						10. According to Chinese tradition, the consumption of cardamom tea is the secret to long life.`,
+						detail: '',
 					},
 				],
 			},
-			// {
-			// 	id: 3,
-			// 	part: 'Reviews',
-			// 	items: [
-			// 		{
-			// 			id: '1',
-			// 			name: '',
-			// 			date: '',
-			// 			title: '',
-			// 			text: '',
-			// 			rating: 3.5,
-			// 		},
-			// 	],
-			// },
+			{
+				id: 3,
+				part: 'Reviews',
+				items: [
+					{
+						id: '1',
+						name: '',
+						date: '',
+						title: '',
+						text: '',
+						rating: 3.5,
+					},
+				],
+			},
 		],
 	},
 

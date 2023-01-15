@@ -119,7 +119,7 @@ const Layout = ({
         <div className="mt-[50px] flex flex-col items-center justify-center gap-3 border-t border-emerald-300 px-4 py-4 sm:gap-4 md:flex-row md:justify-between md:gap-5 md:py-6  ">
           <p className="cursor-default select-none text-center font-body text-xs text-gray-500 sm:text-sm md:text-left md:text-base">
             © 2022, <span className="text-emerald-500">Ameen</span>- Copied from
-            Boostify themes <br />
+            Sahad's Github <br />
             No rights reserved
           </p>
           <div className="flex flex-col gap-1 sm:gap-3 lg:flex-row lg:gap-5 xl:gap-10">

@@ -104,7 +104,7 @@ function Header(): any {
             <i className="fa-solid fa-headset text-3xl text-gray-800" />
             <div className="grid">
               <h1 className="font-head text-[26px] tracking-[3px] text-emerald-500 leading-6">
-                7034-405-123
+                7034405123
               </h1>
               <p className="font-body text-sm  tracking-wider ">
                 24/7 Support center

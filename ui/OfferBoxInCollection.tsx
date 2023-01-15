@@ -7,7 +7,7 @@ const OfferBoxInCollection = ({className}:{className?: string}) => {
               <small className="font-body text-gray-600">Organic</small>
               <p className="font-head text-2xl leading-8">
                 Save 17% on <span className="text-emerald-500">Organic</span>{' '}
-                Juice
+                Product
               </p>
 
               <Image width={1440} height={500} loading='lazy'

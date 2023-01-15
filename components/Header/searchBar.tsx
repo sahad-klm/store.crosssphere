@@ -52,6 +52,35 @@ const SearchBar = ({
               className={classNameOfListInSearch}
             >
               Leaves
+            </li><li
+              onClick={handleClickSearchOption}
+              className={classNameOfListInSearch}
+            >
+              Oils
+            </li>
+            <li
+              onClick={handleClickSearchOption}
+              className={classNameOfListInSearch}
+            >
+              Powder
+            </li>
+            <li
+              onClick={handleClickSearchOption}
+              className={classNameOfListInSearch}
+            >
+              Others
+            </li>
+            <li
+              onClick={handleClickSearchOption}
+              className={classNameOfListInSearch}
+            >
+              Flowers
+            </li>
+            <li
+              onClick={handleClickSearchOption}
+              className={classNameOfListInSearch}
+            >
+              Fishes
             </li>
           </ul>
         </div>

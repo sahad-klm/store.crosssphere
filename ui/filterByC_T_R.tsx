@@ -138,7 +138,7 @@ const FilterByC_T_R = ({ onChange }: any) => {
                 : 'text-gray-600'
             } duration-300 `}
           >
-            Baby & Tyler (1)
+            Mixed Veg & Fruit (1)
           </p>
         </div>
         <div
@@ -161,7 +161,7 @@ const FilterByC_T_R = ({ onChange }: any) => {
                 : 'text-gray-600'
             } duration-300 `}
           >
-            Hoodoo Foods (1)
+            Organic Spices (1)
           </p>
         </div>
       </div>
