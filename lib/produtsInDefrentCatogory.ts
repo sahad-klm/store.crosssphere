@@ -105,7 +105,7 @@ export const dealOftheDayProdutsData = [
 		categorySlug: 'spices',
 		category: 'Spices',
 		picture: '/spices/anise.png',
-		bgImage: '/frut.jpeg',
+		bgImage: '/vegd.jpg',
 
 		bacPicture:
 			'/spices/anise.png',
@@ -163,7 +163,7 @@ export const dealOftheDayProdutsData = [
 		categorySlug: 'spices',
 		category: 'Spices',
 		picture: '/spices/cloves.png',
-		bgImage: '/vegba2.jpg',
+		bgImage: '/frut.jpeg',
 
 		bacPicture:
 			'/spices/cloves.png',
@@ -221,7 +221,7 @@ export const dealOftheDayProdutsData = [
 		categorySlug: 'spices',
 		category: 'Spices',
 		picture: '/spices/cordiander.png',
-		bgImage: '/frut.jpeg',
+		bgImage: '/chillid.jpg',
 
 		bacPicture:
 			'/spices/cordiander.png',
@@ -973,19 +973,20 @@ export const popularProductsData = [
 	},
 
 	{
-		id: 190,
-		name: 'Dry Coconut',
+		id: 108,
+		name: 'Pepper',
 		rating: 4.0,
-		tags: 'black plum, organic, silopy kujjapu',
-		//rate: 10.4,
-		//offer: 7,
-		categorySlug: 'others',
-		category: 'Others',
-		picture: '/others/drycoconut.png',
+		tags: 'Dried unripe fruit',
+		// rate: 10.4,
+		// offer: 7,
+
+		categorySlug: 'spices',
+		category: 'Spices',
+		picture: '/spices/pepper.png',
 		bacPicture:
-			'/others/drycoconut.png',
+			'/spices/pepper.png',
 		smallDetail:
-			`Dried coconut, also known as desiccated coconut, is made by removing the water and oil from fresh coconut meat. The resulting product is a dry, shredded or flaked form of coconut that can be used in a variety of ways. Some common uses for dried coconut include:`,
+			'Pepper is a spice that is commonly used in cooking and baking. It is obtained from the berries of the pepper plant and it is available in different forms such as whole peppercorns, ground pepper and cracked pepper.Black pepper is the most common form used in cooking, it has a strong, pungent and slightly hot flavor. It is used in a wide range of dishes, from savory to sweet, it is a staple ingredient in many cuisines around the world. It is used to add flavor to soups, stews, meat dishes, vegetable dishes, and salad dressings.',
 		details: [
 			{
 				id: 1,
@@ -993,21 +994,15 @@ export const popularProductsData = [
 				items: [
 					{
 						id: 1,
-						title: 'Uses',
+						title: 'About',
 						detail:
-							`Cooking and baking: Dried coconut is a popular ingredient in many sweet and savory dishes, such as curries, stews, cakes, and cookies. It can be used as a topping or filling, or added to the dough or batter.
-
-							Snacks: Dried coconut can be eaten on its own as a snack, or used as an ingredient in trail mix, granola, or energy bars.
-							
-							Dairy-free milk and cream: Dried coconut can be blended with water to make a non-dairy milk or cream substitute.
-							
-							Cosmetics: Dried coconut is used in cosmetics and personal care products such as soaps, lotions, and scrubs because of its moisturizing properties.
-							
-							Animal feed: Dried coconut is used as a feed for livestock and poultry.
-							
-							Activated charcoal: The shells of dried coconuts are used to produce activated charcoal which is used as a filter, purifying agent and in medicine to treat poison.
-							
-							Charcoal: The shells of dried coconuts can also be used to produce charcoal which can be used as a fuel.`,
+							'India is the largest producer of pepper in the world. The state of Kerala in southern India is particularly known for its high-quality pepper production. Other major pepper producing states in India include Tamil Nadu, Karnataka, and Andhra Pradesh. Other countries that also produce significant amounts of pepper include Brazil, Indonesia, Vietnam, and China.',
+					},
+					{
+						id: 2,
+						title: 'Medicine',
+						detail:
+							'Pepper is also used in traditional medicine, it is believed to have properties that may help relieve pain, improve digestion, and may have antioxidant effects.',
 					},
 					
 					

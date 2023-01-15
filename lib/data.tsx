@@ -260,33 +260,33 @@ export const homeComponentBig = [
   {
     id: 1,
     picture: '/slider-1-1.webp',
-    title: "Don't miss amazing grossly deals",
+    title: "Welcome to our International Trade",
     subtitle: 'Sign up for daily newsletter',
   },
   {
     id: 2,
     picture: '/slider-1-2.webp',
-    title: "Don't miss amazing grossly deals",
-    subtitle: 'Sign up for become a fool',
+    title: "Exporting for a global future",
+    subtitle: 'Sign up for daily newsletter',
   },
 ];
 
 export const fracturedMainProduct = [
   {
     id: 1,
-    title: 'Everyday Fresh & clean with our products',
+    title: 'freshness of cardamom in every drop of  Oil',
     bg: 'yellow',
     picture: '/featured3/cardamomoil1.png',
   },
   {
     id: 2,
-    title: 'Everyday Fresh & clean with our products',
+    title: 'sun-ripened sweetness of fresh Mangoes',
     bg: 'green',
     picture: '/featured3/mango1.png',
   },
   {
     id: 3,
-    title: 'Everyday Fresh & clean with our products',
+    title: 'Experience the tropical taste of fresh coconut',
     bg: 'blue',
     picture: '/featured3/coconut1.png',
   },
