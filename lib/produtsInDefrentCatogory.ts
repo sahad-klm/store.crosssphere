@@ -5,7 +5,7 @@ export const dealOftheDayProdutsData = [
 		id: 101,
 		name: 'Fresh Tender Coconut',
 		rating: 4.0,
-		tags: 'Include as spice in food',
+		tags: 'Water, Meat, Juice',
 		// rate: 10.4,
 		// offer: 7,
 
@@ -98,17 +98,17 @@ export const dealOftheDayProdutsData = [
 		id: 102,
 		name: 'Mixed Fresh Vegetables',
 		rating: 4.0,
-		tags: 'Used as a flavoring agent',
+		tags: 'Cooking, Nutrition, Variety',
 		// rate: 10.4,
 		// offer: 7,
 
-		categorySlug: 'spices',
-		category: 'Spices',
-		picture: '/spices/anise.png',
+		categorySlug: 'vegetables',
+		category: 'Vegetables',
+		picture: '/vegd.jpg',
 		bgImage: '/vegd.jpg`',
 
 		bacPicture:
-			'/spices/anise.png',
+			'/vegd.jpg',
 		smallDetail:
 			'Anise, also known as aniseed, is a spice that is commonly used in cooking and baking. It has a distinct licorice-like flavor and is often used in savory dishes such as stews and soups, as well as in sweet dishes like cakes, cookies, and candies. Anise is also a key ingredient in liqueurs such as ouzo and sambuca, and it can be used to flavor coffee, tea, and others. It is also used in traditional medicine in some cultures to help with digestion, relieve gas, and as an expectorant.',
 		details: [
@@ -156,7 +156,7 @@ export const dealOftheDayProdutsData = [
 		id: 103,
 		name: 'Mixed Fresh Fruits',
 		rating: 4.0,
-		tags: 'Spice,Flavoring,Fragrance',
+		tags: 'Eating, Juicing, Baking',
 		// rate: 10.4,
 		// offer: 7,
 
@@ -214,7 +214,7 @@ export const dealOftheDayProdutsData = [
 		id: 104,
 		name: 'Mixed Organic Spices',
 		rating: 4.0,
-		tags: 'Boost immunity',
+		tags: 'Flavoring, Preserving, Healing',
 		// rate: 10.4,
 		// offer: 7,
 
@@ -278,7 +278,7 @@ export const dailyBestSellerProduts = [
 		id: 235,
 		name: 'Cardamom Essential Oil',
 		rating: 4.0,
-		tags: 'black plum, organic, silopy kujjapu',
+		tags: 'Aroma, Flavor, Medicine',
 		// rate: 10.4,
 		// offer: 7,
 		categorySlug: 'oils',
@@ -332,12 +332,67 @@ export const dailyBestSellerProduts = [
 			},
 		],
 	},
+	{
+		id: 236,
+		name: 'Fresh Coconut Oil',
+		rating: 4.0,
+		tags: 'Cooking, Hair, Skin',
+		// rate: 10.4,
+		// offer: 7,
+		categorySlug: 'oils',
+		category: 'Oils',
+		picture: '/oils/coconutoil.png',
+		partOf : 'top-rated',
+		bacPicture:
+			'/oils/coconutoil.png',
+		smallDetail:
+			`Coconut oil is a type of oil that is extracted from the meat of mature coconuts. It is high in saturated fats, specifically medium-chain fatty acids, and is often used in cooking and baking. It is also used in cosmetics and hair care products. Some studies have suggested that consuming coconut oil may have health benefits, but it is important to note that the research on this topic is inconclusive and more studies are needed. `,
+		details: [
+			{
+				id: 1,
+				part: 'Description',
+				items: [
+					{
+						id: 1,
+						title: '',
+						detail:
+							`Additionally, coconut oil is high in calories, and consuming too much can contribute to weight gain and other health issues.`,
+					},
+					
+				],
+			},
+			{
+				id: 2,
+				part: 'Additional info',
+				items: [
+					{
+						id: 1,
+						detail: '',
+					},
+				],
+			},
+			{
+				id: 3,
+				part: 'Reviews',
+				items: [
+					{
+						id: '1',
+						name: '',
+						date: '',
+						title: '',
+						text: '',
+						rating: 3.5,
+					},
+				],
+			},
+		],
+	},
 
 	{
 		id: 177,
 		name: 'Fresh `Mango',
 		rating: 4.0,
-		tags: 'black plum, organic, silopy kujjapu',
+		tags: 'Eating, Juicing, Baking',
 		//rate: 10.4,
 		//offer: 7,
 		categorySlug: 'fruits',
@@ -389,70 +444,11 @@ export const dailyBestSellerProduts = [
 		],
 	},
 
-
-	{
-		id: 103,
-		name: 'Cloves',
-		rating: 4.0,
-		tags: 'Spice,Flavoring,Fragrance',
-		// rate: 10.4,
-		// offer: 7,
-
-		categorySlug: 'spices',
-		category: 'Spices',
-		picture: '/spices/cloves.png',
-		bgImage: '/vegba2.jpg',
-
-		bacPicture:
-			'/spices/cloves.png',
-		smallDetail:
-			'Cloves are a spice that is commonly used in cooking and baking, particularly in Asian, African, and Middle Eastern cuisines. They have a strong, pungent, and sweet flavor and are often used in savory dishes such as curries, stews, and meat dishes, as well as in sweet dishes like cakes, pies, and mulled wine.  ',
-		details: [
-			{
-				id: 1,
-				part: 'Description',
-				items: [
-					{
-						id: 1,
-						title: 'Medicine',
-						detail:
-							`Cloves can also be used to make a tea which is known to have medicinal properties, such as reducing pain, relieving nausea, and promoting digestion. Cloves are also used in Ayurvedic`,
-					},
-					
-				],
-			},
-			{
-				id: 2,
-				part: 'Additional info',
-				items: [
-					{
-						id: 1,
-						detail: '',
-					},
-				],
-			},
-			{
-				id: 3,
-				part: 'Reviews',
-				items: [
-					{
-						id: '1',
-						name: '',
-						date: '',
-						title: '',
-						text: '',
-						rating: 3.5,
-					},
-				],
-			},
-		],
-	},
-
 	{
 		id: 104,
 		name: 'Coriander',
 		rating: 4.0,
-		tags: 'Boost immunity',
+		tags: 'Flavoring, Preserving, Healing',
 		// rate: 10.4,
 		// offer: 7,
 
@@ -510,7 +506,7 @@ export const dailyBestSellerProduts = [
 		id: 105,
 		name: 'Ginger',
 		rating: 4.0,
-		tags: 'Spice,Folk medicine',
+		tags: 'Flavoring, Preserving, Healing',
 		// rate: 10.4,
 		// offer: 7,
 
@@ -568,7 +564,7 @@ export const dailyBestSellerProduts = [
 		id: 106,
 		name: 'Nutmeg',
 		rating: 4.0,
-		tags: 'Used in baking',
+		tags: 'Flavoring, Preserving, Healing',
 		// rate: 10.4,
 		// offer: 7,
 
@@ -640,7 +636,7 @@ export const popularProductsData = [
 		id: 101,
 		name: 'Green Cardamom',
 		rating: 4.0,
-		tags: 'Include as spice in food',
+		tags: 'Flavoring, Preserving, Healing',
 		// rate: 10.4,
 		// offer: 7,
 
@@ -733,7 +729,7 @@ export const popularProductsData = [
 		id: 220,
 		name: 'Chilli Powder',
 		rating: 4.0,
-		tags: 'black plum, organic, silopy kujjapu',
+		tags: 'Spice, Flavor, Heat',
 		// rate: 10.4,
 		// offer: 7,
 		categorySlug: 'powder',
@@ -799,7 +795,7 @@ export const popularProductsData = [
 		id: 114,
 		name: 'Turmeric',
 		rating: 4.0,
-		tags: 'black plum,silopy kujjapu,vegetable',
+		tags: 'Flavoring, Preserving, Healing',
 		// rate: 10.4,
 		// offer: 7,
 
@@ -863,7 +859,7 @@ export const popularProductsData = [
 		id: 172,
 		name: 'Banana',
 		rating: 4.0,
-		tags: 'black plum, organic, silopy kujjapu',
+		tags: 'Eating, Juicing, Baking',
 		//rate: 10.4,
 		//offer: 7,
 		categorySlug: 'fruits',
@@ -920,7 +916,7 @@ export const popularProductsData = [
 		id: 224,
 		name: 'Coffee Powder',
 		rating: 4.0,
-		tags: 'black plum, organic, silopy kujjapu',
+		tags: 'Caffeine, Aroma, Flavor',
 		// rate: 10.4,
 		// offer: 7,
 		categorySlug: 'powder',
@@ -976,7 +972,7 @@ export const popularProductsData = [
 		id: 108,
 		name: 'Pepper',
 		rating: 4.0,
-		tags: 'Dried unripe fruit',
+		tags: 'Flavoring, Preserving, Healing',
 		// rate: 10.4,
 		// offer: 7,
 

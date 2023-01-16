@@ -80,7 +80,7 @@ export const navbarLastCategory: {
       subMenu: [
         {
           id: 1,
-          name: 'poowow',
+          name: 'Fruits & Vegetables',
           sunMenu: [
             {
               id: 1,
@@ -106,7 +106,7 @@ export const navbarLastCategory: {
         },
         {
           id: 2,
-          name: 'psfdf',
+          name: 'Organic Spices',
           sunMenu: [
             {
               id: 1,
@@ -132,7 +132,7 @@ export const navbarLastCategory: {
         },
         {
           id: 3,
-          name: 'pooxdfdfwow',
+          name: 'Other Products',
           sunMenu: [
             {
               id: 1,
@@ -159,7 +159,7 @@ export const navbarLastCategory: {
         {
           id: 4,
           name: '',
-          image: 'ivide callia oru pic ind',
+          image: '/map1.webp',
         },
       ],
     },
@@ -260,14 +260,14 @@ export const homeComponentBig = [
   {
     id: 1,
     picture: '/slider-1-1.webp',
-    title: "Welcome to our International Trade",
+    title: "Welcome to International Trade",
     subtitle: 'Sign up for daily newsletter',
   },
   {
     id: 2,
     picture: '/slider-1-2.webp',
-    title: "Exporting for a global future",
-    subtitle: 'Sign up for daily newsletter',
+    title: "Fresh Vegetables & Spices",
+    subtitle: 'Tell your story',
   },
 ];
 
