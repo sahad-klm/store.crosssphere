@@ -650,12 +650,17 @@ export const aboutCompany = [
       {
         id: 1,
         paragraph:
-          "We have done exceptional things in the past. Today, we are doing exceptional things for the future.",
+          "At Fidora , we are a leading exporting company that specializes in sourcing and delivering high-quality products to customers worldwide. Our team of experienced professionals has a deep understanding of international trade regulations and a strong network of suppliers and distributors.",
       },
       {
         id: 2,
         paragraph:
-          "sion Exports has a rich history of raising the bar in the spices,vegetables and fruits industry.the focus has always been on export of live & fresh spices.our company has been expanding rapidly with mission to exceed industry standards by offering an extensive product line, focusing on product innovation and quality control.We stand by our mission to deliver quality products.Merchants from around the world were taking the arduous sea route just to lay their hands on this Queen of products. Realising the global demand for what grew liberally around his kingdom ",
+          "We pride ourselves on our ability to provide personalized service and tailor our offerings to meet the specific needs of each of our clients. We understand the importance of timely delivery and work closely with our partners to ensure that all shipments are delivered on schedule.Our product offerings include a wide range of spices,Vegetables,fruits and others, and we are constantly updating our inventory to include the latest trends and innovations. We have a strong reputation for providing our customers with competitive prices and exceptional customer service",
+      },
+      {
+        id: 3,
+        paragraph:
+          "If you're looking for a reliable and trustworthy exporting partner, look no further than Fidora international.",
       },
     ],
     picture: 'map1.webp',
@@ -709,18 +714,18 @@ export const what_We_Provide = [
 export const ourPerformance = [
   {
     id: 1,
-    title: 'Your Partner for e-commerce grocery solution',
+    title: 'Exceeding Expectations',
     smallPicture: 'oila.jpg',
     head: 'Our Performance',
     bigPicture: 'bananaleaf1.jpeg',
     subtitle: [
       {
         id: 1,
-        text: 'We offer a full range of export services to our clients, including FCL consolidation, container loading, and door-to-door delivery. We are a company that will provide you with a high level of service and goods at the best prices. We have an international team of experts who work closely with our clients to ensure their satisfaction',
+        text: 'At Fidora, we have a proven track record of delivering exceptional performance for our customers. Our extensive experience in the exporting industry and commitment to providing high-quality products and services have enabled us to establish a reputation as a trusted and reliable partner',
       },
       {
         id: 2,
-        text: 'We are leading exporters of organic spices, vegetables, and other edible items. With operations in continent, we operate with a high level of flexibility to suit customer requirements. Our company is dedicated to sourcing only the finest quality products and delivering them to our customers in a timely manner',
+        text: 'We have a deep understanding of the global market and stay up-to-date with the latest industry trends and developments. This enables us to identify new opportunities and provide our customers with a competitive edge.',
       },
     ],
   },
@@ -731,19 +736,19 @@ export const ourThings = [
     id: 1,
     title: 'Who we are',
     subtitle:
-      'Volutpat diam ut venenatis tellus in metus. Nec dui nunc mattis enim ut tellus eros donec ac odio orci ultrices in. ellus eros donec ac odio orci ultrices in.',
+      'we are a team of experienced professionals who are dedicated to providing exceptional exporting services to our customers.Choose us as your exporting partner and let us help you navigate the global market with ease.',
   },
   {
     id: 2,
     title: 'Our history',
     subtitle:
-      'Volutpat diam ut venenatis tellus in metus. Nec dui nunc mattis enim ut tellus eros donec ac odio orci ultrices in. ellus eros donec ac odio orci ultrices in.',
+      'We have a long and rich history of providing exceptional exporting services to customers worldwide. Our company began as a small operation with a focus on spices, but over the years, we have grown to become a leading player in the industry',
   },
   {
     id: 3,
     title: 'Our mission',
     subtitle:
-      'We make your business more profitable. We haveve done the work to find the best products for your customers and negotiate with suppliers for the best prices. We have done everything to help you focus on what you do best',
+      'At Fidora, our mission is to be a reliable and trustworthy partner for our customers by providing exceptional exporting services. We strive to make the process of importing and exporting goods as seamless and efficient as possible',
   },
   {
     id: 4,
@@ -754,8 +759,8 @@ export const ourThings = [
       },
       {
         id: 1,
-        title: 'Glorious years',
-        count: 7,
+        title: 'Products',
+        count: 50,
       },
       {
         id: 2,
@@ -764,13 +769,13 @@ export const ourThings = [
       },
       {
         id: 3,
-        title: 'Projects complete',
-        count: 0,
+        title: 'Countries',
+        count: 10,
       },
       {
         id: 4,
-        title: 'Team advisor',
-        count: 5,
+        title: 'Glorious years',
+        count: 2,
       },
       {
         id: 5,
@@ -789,11 +794,11 @@ export const ourThings = [
         text: [
           {
             id: 1,
-            text: `We are a team of export specialists with years of experience in the industry.`,
+            text: `we have a team of highly skilled and experienced professionals who are dedicated to providing exceptional exporting services.`,
           },
           {
             id: 2,
-            text: 'We are here to help you find the best overseas markets and suppliers for your product. We take care of all the logistics and paperwork, so you can focus on what matters most: getting your product to market.',
+            text: 'They are able to source a wide range of products to meet the diverse needs of our customers and able to provide personalized service to each client',
           },
         ],
         persons: [
