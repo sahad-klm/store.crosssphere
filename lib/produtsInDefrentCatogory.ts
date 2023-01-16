@@ -105,7 +105,7 @@ export const dealOftheDayProdutsData = [
 		categorySlug: 'spices',
 		category: 'Spices',
 		picture: '/spices/anise.png',
-		bgImage: '/vegd.jpg',
+		bgImage: '/vegd.jpg`',
 
 		bacPicture:
 			'/spices/anise.png',
