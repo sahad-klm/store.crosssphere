@@ -11,7 +11,7 @@ const TotalCountsOfDetails = () => {
       animate="show"
       exit="hide"
       variants={fadeAnim}
-      className="relative z-30 mt-5 flex sm:flex-row  flex-col justify-evenly flex-wrap gap-10 overflow-hidden rounded-2xl bg-emerald-400 py-20 px-5 min-[921px]:grid-flow-col  min-[921px]:gap-5 
+      className="relative z-30 mt-5 flex sm:flex-row  flex-col justify-evenly flex-wrap gap-10 overflow-hidden rounded-2xl bg-[#4b675a] py-20 px-5 min-[921px]:grid-flow-col  min-[921px]:gap-5 
       min-[921px]:py-28 "
     >
       {ourThings.map((item) => (
@@ -25,7 +25,7 @@ const TotalCountsOfDetails = () => {
                 
                 alt="bg"
                 loading='lazy'
-                className="absolute top-0 left-0 -z-10 h-full w-full object-cover opacity-10"
+                className="absolute top-0 left-0 -z-10 h-full w-full object-cover opacity-[.3]"
               />
               {total.title && (
                 <motion.div

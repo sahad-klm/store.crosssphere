@@ -663,7 +663,7 @@ export const aboutCompany = [
           "If you're looking for a reliable and trustworthy exporting partner, look no further than Fidora international.",
       },
     ],
-    picture: 'map1.webp',
+    picture: 'aboutus.jpg',
   },
 ];
 
@@ -686,28 +686,28 @@ export const what_We_Provide = [
     id: 3,
     title: 'Air & Sea Shipping',
     subtitle:
-      'we can provide air or sea shipment, and the best part is that you do not need to do anything! Just tell us what you want shipped, we will take care of everything else.',
+      `We offer both air and sea shipment options to our customers for getting your goods to their destination on time and in perfect condition`,
     icon: <DeliveryIcon />,
   },
   {
     id: 4,
     title: 'Packing',
     subtitle:
-      'We provide a good packing service. We offer various types of packing such as poly bag, carton box, thermocol, pallet and thermal packages.',
+      'We provide a good packing service. We offer various types of packing such as poly bag, carton box, pallet and thermal packages.',
     icon: <ConnectIcon />,
   },
   {
     id: 5,
     title: '100% Satisfaction',
     subtitle:
-      'We offer customer satisfaction with a personal touch. We find out what the customer needs and then connect them to the best product at the best price.',
+      `We are committed to providing our customers with the highest level of service and support throughout the entire exporting process`,
     icon: <SatisfactionIcon />,
   },
   {
     id: 6,
     title: 'Great Daily Deal',
     subtitle:
-      'We offer a service that ensures that every product sale is authentic and high quality.inspect every product and verified the quality before on export.',
+      'We ensures that every product sale is authentic and high quality.inspect every product and verified the quality before on export.',
     icon: <DealIcon />,
   },
 ];
@@ -717,7 +717,7 @@ export const ourPerformance = [
     title: 'Exceeding Expectations',
     smallPicture: 'oila.jpg',
     head: 'Our Performance',
-    bigPicture: 'bananaleaf1.jpeg',
+    bigPicture: 'map1.webp',
     subtitle: [
       {
         id: 1,
