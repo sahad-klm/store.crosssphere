@@ -438,110 +438,110 @@ export const footerAccount = [
   },
   {
     id: 2,
-    name: 'Delivery Information',
+    name: 'View Cart',
     to: 'delivery-information',
   },
   {
     id: 3,
-    name: 'Privacy Policy',
+    name: 'My Wishlist',
     to: 'privacy-policy',
   },
   {
     id: 4,
-    name: 'Terms & Condition',
+    name: 'Track My Order',
     to: 'Terms-condition',
   },
   {
     id: 5,
-    name: 'Contact Us',
+    name: 'Help Ticket',
     to: 'Contact-us',
   },
   {
     id: 6,
-    name: 'Support Center',
+    name: 'Shipping Details',
     to: 'support-center',
   },
 
   {
     id: 7,
-    name: 'Career',
+    name: 'Compare products',
     to: 'career',
   },
 ];
 export const footerCoparent = [
   {
     id: 1,
-    name: 'Sing In',
+    name: 'Become a Vendor',
     to: 'AboutUs',
   },
   {
     id: 2,
-    name: 'Delivery Information',
+    name: 'Affiliate Program',
     to: 'delivery-information',
   },
   {
     id: 3,
-    name: 'Privacy Policy',
+    name: 'Farm Business',
     to: 'privacy-policy',
   },
   {
     id: 4,
-    name: 'Terms & Condition',
+    name: 'Farm Careers',
     to: 'Terms-condition',
   },
   {
     id: 5,
-    name: 'Contact Us',
+    name: 'Our Suppliers',
     to: 'Contact-us',
   },
   {
     id: 6,
-    name: 'Support Center',
+    name: 'Accessibility',
     to: 'support-center',
   },
 
   {
     id: 7,
-    name: 'Career',
+    name: 'Promotions',
     to: 'career',
   },
 ];
 export const footerInformation = [
   {
     id: 1,
-    name: 'Sing In',
-    to: 'AboutUs',
+    name: 'Vegetables',
+    to: 'vegetables',
   },
   {
     id: 2,
-    name: 'Delivery Information',
-    to: 'delivery-information',
+    name: 'Spices',
+    to: 'spices',
   },
   {
     id: 3,
-    name: 'Privacy Policy',
-    to: 'privacy-policy',
+    name: 'Fruits',
+    to: 'fruits',
   },
   {
     id: 4,
-    name: 'Marmalades',
-    to: 'Marmalades',
+    name: 'Curry Powders',
+    to: 'powders',
   },
   {
     id: 5,
-    name: 'Sour Cream and Dips',
-    to: 'Sour Cream and Dips',
+    name: 'Leaf Vegetables',
+    to: 'leaves',
   },
   {
     id: 6,
-    name: 'Tea & Kombucha',
-    to: 'teakombucha',
+    name: 'Oils',
+    to: 'oils',
   },
 
   {
     id: 7,
-    name: 'Cheese',
-    to: 'cheese',
+    name: 'Others',
+    to: 'others',
   },
 ];
 export const footerApp_Payments = [
