@@ -23,14 +23,14 @@ const Top = ({ pathName }: any): JSX.Element => (
       loading="lazy"
       className="absolute right-10 bottom-0 -z-50 max-h-[80%] w-[40%] object-contain"
     />
-    <h1 className="z-auto  font-head text-[40px] leading-[50px]  text-gray-800 md:text-h2">
-      Stay home & get your daily <br /> needs in our shop
+    <h1 className="z-auto  font-head text-[46px] leading-[50px]  text-gray-800 md:text-h2">
+    Start your international <br /> expansion with us
     </h1>
     <h4 className="mt-2 font-body text-[16px] leading-9 text-gray-500 md:text-[18px]">
-      Start you'r trading with{' '}
-      <span className="text-emerald-500">Fidora</span>
+    stay updated on our latest news{' '}
+      <span className="text-emerald-500"></span>
     </h4>
-    <form className="relative mt-10 flex h-16 flex-row  items-center overflow-hidden rounded-full bg-white sm:max-w-[500px]">
+    <form className="relative mt-10 flex h-16 flex-row  items-center overflow-hidden rounded-full bg-white sm:max-w-[450px]">
       <PaperPlaneIcon className="ml-1 mr-2 h-4 fill-gray-500 md:ml-6 md:mr-4" />
       <input
         type="text"
