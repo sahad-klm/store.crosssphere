@@ -426,7 +426,7 @@ export const dailyBestSellerProduts = [
 
 	{
 		id: 177,
-		name: 'Fresh `Mango',
+		name: 'Fresh Mango',
 		rating: 4.0,
 		tags: 'Eating, Juicing, Baking',
 		//rate: 10.4,

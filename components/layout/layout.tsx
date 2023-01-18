@@ -114,7 +114,7 @@ const Layout = ({
 
         {/* whatsApp */}
 
-        <FloatingWhatsApp phoneNumber='+91 70344 05123' accountName={'kolkkalm intersry'} avatar='../../public/frut.jpeg' />
+        <FloatingWhatsApp phoneNumber='+91 70344 05123' accountName={'Fidora Exports'} avatar='../../logo.jpg' />
         <Footer />
         <div className="mt-[50px] flex flex-col items-center justify-center gap-3 border-t border-emerald-300 px-4 py-4 sm:gap-4 md:flex-row md:justify-between md:gap-5 md:py-6  ">
           <p className="cursor-default select-none text-center font-body text-xs text-gray-500 sm:text-sm md:text-left md:text-base">
