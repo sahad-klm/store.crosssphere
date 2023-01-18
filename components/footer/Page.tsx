@@ -26,7 +26,14 @@ const Footer = () => {
     <footer className="mt-[80px] flex w-full flex-col items-center justify-center overflow-hidden px-4">
       <ul className="grid w-full grid-flow-row gap-x-5 gap-y-10 md:grid-cols-3 lg:grid-cols-6 lg:justify-items-center ">
         <li className="hidden flex-col gap-[4px] md:flex font ">
-          <Icon className="mb-4 h-16 w-full bg-slate-400" />
+        <Image 
+          width={176} 
+          height={100} 
+          loading='lazy' 
+          alt=''
+          src="/logo.png"
+          className="h-180 w-66 shrink-0  object-cover"
+        />
           <p className="mb-[10px] font-body text-sm text-gray-900 md:text-base">
             prevalent proposers alt holo
           </p>
