@@ -755,7 +755,7 @@ export const ourThings = [
     totalInAll: [
       {
         id: 6,
-        bg: '/vegba2.jpg',
+        bg: '/aveg.jpg',
       },
       {
         id: 1,
