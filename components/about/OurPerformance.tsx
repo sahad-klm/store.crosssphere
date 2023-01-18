@@ -67,7 +67,7 @@ const OurPerformance = () => (
               src={`/${item.bigPicture}`}
               alt="pic"
               loading='lazy'
-              className="h-full w-full object-cover"
+              className="h-full w-full object-cover "
             />
           </m.div>
         </div>

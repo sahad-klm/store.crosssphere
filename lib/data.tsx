@@ -715,9 +715,9 @@ export const ourPerformance = [
   {
     id: 1,
     title: 'Exceeding Expectations',
-    smallPicture: 'oila.jpg',
+    smallPicture: 'plane.jpg',
     head: 'Our Performance',
-    bigPicture: 'map1.webp',
+    bigPicture: 'ship.jpg',
     subtitle: [
       {
         id: 1,
