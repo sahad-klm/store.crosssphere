@@ -256,7 +256,7 @@ export const dealOftheDayProdutsData = [
 
 		categorySlug: 'spices',
 		category: 'Spices',
-		picture: '/spices/cordiander.png',
+		picture: '/spices/chilli.png',
 		bgImage: '/chillid.jpg',
 
 		bacPicture:
@@ -368,61 +368,6 @@ export const dailyBestSellerProduts = [
 			},
 		],
 	},
-	{
-		id: 236,
-		name: 'Fresh Coconut Oil',
-		rating: 4.0,
-		tags: 'Cooking, Hair, Skin',
-		// rate: 10.4,
-		// offer: 7,
-		categorySlug: 'oils',
-		category: 'Oils',
-		picture: '/oils/coconutoil.png',
-		partOf : 'top-rated',
-		bacPicture:
-			'/oils/coconutoil.png',
-		smallDetail:
-			`Coconut oil is a type of oil that is extracted from the meat of mature coconuts. It is high in saturated fats, specifically medium-chain fatty acids, and is often used in cooking and baking. It is also used in cosmetics and hair care products. Some studies have suggested that consuming coconut oil may have health benefits, but it is important to note that the research on this topic is inconclusive and more studies are needed. `,
-		details: [
-			{
-				id: 1,
-				part: 'Description',
-				items: [
-					{
-						id: 1,
-						title: '',
-						detail:
-							`Additionally, coconut oil is high in calories, and consuming too much can contribute to weight gain and other health issues.`,
-					},
-					
-				],
-			},
-			{
-				id: 2,
-				part: 'Additional info',
-				items: [
-					{
-						id: 1,
-						detail: '',
-					},
-				],
-			},
-			{
-				id: 3,
-				part: 'Reviews',
-				items: [
-					{
-						id: '1',
-						name: '',
-						date: '',
-						title: '',
-						text: '',
-						rating: 3.5,
-					},
-				],
-			},
-		],
-	},
 
 	{
 		id: 177,
@@ -481,22 +426,20 @@ export const dailyBestSellerProduts = [
 	},
 
 	{
-		id: 104,
-		name: 'Coriander',
+		id: 224,
+		name: 'Coffee Powder',
 		rating: 4.0,
-		tags: 'Flavoring, Preserving, Healing',
+		tags: 'Caffeine, Aroma, Flavor',
 		// rate: 10.4,
 		// offer: 7,
-
-		categorySlug: 'spices',
-		category: 'Spices',
-		picture: '/spices/cordiander.png',
-		bgImage: '/frut.jpeg',
-
+		categorySlug: 'powder',
+		category: 'Powder',
+		picture: '/powder/coffeepowder.png',
+		partOf : 'popular',
 		bacPicture:
-			'/spices/cordiander.png',
+			'/powder/coffeepowder.png',
 		smallDetail:
-			`Coriander, also known as cilantro or Chinese parsley, is a herb that is commonly used in cooking and baking, particularly in Asian, African, and Latin American cuisines. The leaves and seeds of the coriander plant are used in cooking, and they have a distinct, fresh and citrusy flavor.`,
+			`Coffee powder is a ground form of roasted coffee beans that can be used to brew coffee by adding hot water. It is a convenient and easy way to make coffee as it eliminates the need for grinding beans and can be stored for longer periods of time. Instant coffee is also made from coffee powder.`,
 		details: [
 			{
 				id: 1,
@@ -504,9 +447,9 @@ export const dailyBestSellerProduts = [
 				items: [
 					{
 						id: 1,
-						title: 'About',
+						title: '',
 						detail:
-							` The leaves are often used as a garnish or added to salads, salsas, and dips, while the seeds are used in spice blends, curries, stews, and marinades. The seeds can also be dry-roasted or ground to make a powder that is used as a seasoning. Coriander seeds are also used in traditional medicine as a remedy for digestive issues, anxiety, and to lower blood sugar levels.`,
+							'',
 					},
 					
 				],
@@ -539,22 +482,75 @@ export const dailyBestSellerProduts = [
 	},
 
 	{
-		id: 105,
-		name: 'Ginger',
+		id: 120,
+		name: 'Onion',
 		rating: 4.0,
-		tags: 'Flavoring, Preserving, Healing',
+		tags: 'Cooking, Nutrition, Variety',
 		// rate: 10.4,
 		// offer: 7,
-
-		categorySlug: 'spices',
-		category: 'Spices',
-		picture: '/spices/ginger.png',
-		partOf: 'popular',
-
+		categorySlug: 'vegetables',
+		category: 'Vegetables',
+		picture: '/veg/onion.png',
 		bacPicture:
-			'/spices/ginger.png',
+			'/veg/onion.png',
 		smallDetail:
-			'Ginger is a spice that is commonly used in cooking and baking, particularly in Asian and Indian cuisines. It has a strong, pungent, and slightly sweet flavor and is often used in savory dishes such as stir-fries, curries, stews, and meat dishes, as well as in sweet dishes like cakes, cookies, and candies. ',
+			`Onions are a vegetable that is commonly used in cooking and baking, they are a staple in many cuisines worldwide. They have a pungent, sweet, and slightly spicy flavor and are often used in savory dishes such as soups, stews, salads, sandwiches, and as a topping for pizzas and burgers.Onions are often used as a flavor enhancer in many dishes such as soups, stews, meat dishes, and vegetable dishes.`,
+		details: [
+			{
+				id: 1,
+				part: 'Description',
+				items: [
+					{
+						id: 1,
+						title: '',
+						detail:
+							'',
+					},
+					
+					
+				],
+			},
+			{
+				id: 2,
+				part: 'Additional info',
+				items: [
+					{
+						id: 1,
+						detail: '',
+					},
+				],
+			},
+			{
+				id: 3,
+				part: 'Reviews',
+				items: [
+					{
+						id: '1',
+						name: '',
+						date: '',
+						title: '',
+						text: '',
+						rating: 3.5,
+					},
+				],
+			},
+		],
+	},
+
+	{
+		id: 165,
+		name: 'Grape',
+		rating: 4.0,
+		tags: 'Eating, Juicing, Baking',
+		// rate: 10.4,
+		// offer: 7,
+		categorySlug: 'fruits',
+		category: 'Fruits',
+		picture: '/fruits/grape.png',
+		bacPicture:
+			'/fruits/grape.png',
+		smallDetail:
+			`Grapes are a type of fruit that are commonly used in cooking and baking, they are a staple in many cuisines worldwide. Grapes have a sweet and juicy flavor and can be eaten fresh or dried as raisins. They can also be used to make wine, juice, jelly and jams.`,
 		details: [
 			{
 				id: 1,
@@ -564,8 +560,9 @@ export const dailyBestSellerProduts = [
 						id: 1,
 						title: 'Medicine',
 						detail:
-							`It is also used in traditional medicine in some cultures to treat nausea, morning sickness, and pain relief. Ginger can also be made into a tea, or it can be consumed in supplement form as a natural remedy for various ailments such as upset stomach, inflammation and reducing muscle pain. It is also used in some cultures as a folk remedy to treat common cold, flu and cough.`,
+							`Grapes are also used in traditional medicine, they're believed to have properties that may help improve digestion, reduce fever, and may have antioxidant effects. Grapes are a good source of Vitamin C, Vitamin K, Vitamin A, and dietary fiber, also they are considered a low-calorie food.`,
 					},
+					
 					
 				],
 			},
@@ -597,20 +594,20 @@ export const dailyBestSellerProduts = [
 	},
 
 	{
-		id: 106,
-		name: 'Nutmeg',
+		id: 236,
+		name: 'Fresh Coconut Oil',
 		rating: 4.0,
-		tags: 'Flavoring, Preserving, Healing',
+		tags: 'Cooking, Hair, Skin',
 		// rate: 10.4,
 		// offer: 7,
-
-		categorySlug: 'spices',
-		category: 'Spices',
-		picture: '/spices/nutmeg.png',
+		categorySlug: 'oils',
+		category: 'Oils',
+		picture: '/oils/coconutoil.png',
+		partOf : 'top-rated',
 		bacPicture:
-			'/spices/nutmeg.png',
+			'/oils/coconutoil.png',
 		smallDetail:
-			'Nutmeg is a spice that is commonly used in cooking and baking, particularly in European, Middle Eastern, and Indian cuisines. It has a warm, sweet, and slightly nutty flavor and is often used in savory dishes such as stews, soups, meat dishes, and vegetables. It is also used in sweet dishes like cakes, pies, puddings, and custards.',
+			`Coconut oil is a type of oil that is extracted from the meat of mature coconuts. It is high in saturated fats, specifically medium-chain fatty acids, and is often used in cooking and baking. It is also used in cosmetics and hair care products. Some studies have suggested that consuming coconut oil may have health benefits, but it is important to note that the research on this topic is inconclusive and more studies are needed. `,
 		details: [
 			{
 				id: 1,
@@ -618,21 +615,11 @@ export const dailyBestSellerProduts = [
 				items: [
 					{
 						id: 1,
-						title: 'About',
+						title: '',
 						detail:
-							`Nutmeg is often used in baking, in particular in the holiday season, in dishes like eggnog, pumpkin pie and gingerbread. Nutmeg is also used in traditional medicine, it is believed to have properties that may help relieve pain, soothe digestive issues and may have a calming effect. It is also used in some cultures as a remedy for insomnia and to boost memory.`,
+							`Additionally, coconut oil is high in calories, and consuming too much can contribute to weight gain and other health issues.`,
 					},
 					
-				],
-			},
-			{
-				id: 2,
-				part: '',
-				items: [
-					{
-						id: 1,
-						detail: '',
-					},
 				],
 			},
 			{
@@ -661,6 +648,8 @@ export const dailyBestSellerProduts = [
 			},
 		],
 	},
+
+	
 
 ]
 
@@ -828,6 +817,63 @@ export const popularProductsData = [
 	},
 
 	{
+		id: 172,
+		name: 'Banana',
+		rating: 4.0,
+		tags: 'Eating, Juicing, Baking',
+		//rate: 10.4,
+		//offer: 7,
+		categorySlug: 'fruits',
+		category: 'Fruits',
+		picture: '/fruits/banana.png',
+		bacPicture:
+			'/fruits/banana.png',
+		smallDetail:
+		    `Bananas are a type of fruit that are commonly eaten fresh, they are a staple in many cuisines worldwide. Bananas have a sweet and slightly starchy flavor and are often eaten on their own as a snack, dessert or used in smoothies and baking. They can be eaten at different stages of ripeness, depending on the recipe. They can be green and unripe, which are typically used for savory dishes and can be fried, boiled, grilled or mashed. When they are yellow with brown spots they are considered ripe and are sweeter, they can be eaten as a side dish, fried or used in desserts.
+			`,
+		details: [
+			{
+				id: 1,
+				part: 'Description',
+				items: [
+					{
+						id: 1,
+						title: 'Medicine',
+						detail:
+							`Bananas are also used in traditional medicine, they're believed to have properties that may help improve digestion, reduce fever, and may have antioxidant effects. Bananas are a good source of Vitamin B6, Vitamin C, Vitamin A and dietary fiber, also they are considered a low-calorie food. Additionally, bananas are rich in potassium and can help lower blood pressure.`,
+					},
+					
+					
+				],
+			},
+			{
+				id: 2,
+				part: 'Additional info',
+				items: [
+					{
+						id: 1,
+						detail: '',
+					},
+				],
+			},
+			{
+				id: 3,
+				part: 'Reviews',
+				items: [
+					{
+						id: '1',
+						name: '',
+						date: '',
+						title: '',
+						text: '',
+						rating: 3.5,
+					},
+				],
+			},
+		],
+	},
+
+	{
 		id: 114,
 		name: 'Turmeric',
 		rating: 4.0,
@@ -892,20 +938,19 @@ export const popularProductsData = [
 	},
 
 	{
-		id: 172,
-		name: 'Banana',
+		id: 205,
+		name: 'Drumstick Leaves',
 		rating: 4.0,
-		tags: 'Eating, Juicing, Baking',
+		tags: 'Curry, Soup, Flavor',
 		//rate: 10.4,
 		//offer: 7,
-		categorySlug: 'fruits',
-		category: 'Fruits',
-		picture: '/fruits/plantain.png',
+		categorySlug: 'leaves',
+		category: 'Leaves',
+		picture: '/leaves/drumstickleaves.png',
 		bacPicture:
-			'/fruits/plantain.png',
+			'/leaves/drumstickleaves.png',
 		smallDetail:
-		    `Bananas are a type of fruit that are commonly eaten fresh, they are a staple in many cuisines worldwide. Bananas have a sweet and slightly starchy flavor and are often eaten on their own as a snack, dessert or used in smoothies and baking. They can be eaten at different stages of ripeness, depending on the recipe. They can be green and unripe, which are typically used for savory dishes and can be fried, boiled, grilled or mashed. When they are yellow with brown spots they are considered ripe and are sweeter, they can be eaten as a side dish, fried or used in desserts.
-			`,
+			`Drumstick leaves, also known as moringa leaves, are the leaves of the Moringa Oleifera tree, which is native to India and Pakistan. They are widely used in many parts of the world for their medicinal properties and as a leafy green vegetable.`,
 		details: [
 			{
 				id: 1,
@@ -913,67 +958,12 @@ export const popularProductsData = [
 				items: [
 					{
 						id: 1,
-						title: 'Medicine',
+						title: 'Nutritious',
 						detail:
-							`Bananas are also used in traditional medicine, they're believed to have properties that may help improve digestion, reduce fever, and may have antioxidant effects. Bananas are a good source of Vitamin B6, Vitamin C, Vitamin A and dietary fiber, also they are considered a low-calorie food. Additionally, bananas are rich in potassium and can help lower blood pressure.`,
+							`Drumstick leaves are highly nutritious and are a good source of vitamins A, B, C, and K, as well as minerals such as calcium, iron, and potassium. They are also a good source of protein and dietary fiber.
+							`,
 					},
 					
-					
-				],
-			},
-			{
-				id: 2,
-				part: 'Additional info',
-				items: [
-					{
-						id: 1,
-						detail: '',
-					},
-				],
-			},
-			{
-				id: 3,
-				part: 'Reviews',
-				items: [
-					{
-						id: '1',
-						name: '',
-						date: '',
-						title: '',
-						text: '',
-						rating: 3.5,
-					},
-				],
-			},
-		],
-	},
-
-	{
-		id: 224,
-		name: 'Coffee Powder',
-		rating: 4.0,
-		tags: 'Caffeine, Aroma, Flavor',
-		// rate: 10.4,
-		// offer: 7,
-		categorySlug: 'powder',
-		category: 'Powder',
-		picture: '/powder/coffeepowder.png',
-		partOf : 'popular',
-		bacPicture:
-			'/powder/coffeepowder.png',
-		smallDetail:
-			`Coffee powder is a ground form of roasted coffee beans that can be used to brew coffee by adding hot water. It is a convenient and easy way to make coffee as it eliminates the need for grinding beans and can be stored for longer periods of time. Instant coffee is also made from coffee powder.`,
-		details: [
-			{
-				id: 1,
-				part: 'Description',
-				items: [
-					{
-						id: 1,
-						title: '',
-						detail:
-							'',
-					},
 					
 				],
 			},

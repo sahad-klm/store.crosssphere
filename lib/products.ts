@@ -870,9 +870,65 @@ export const productsData = [
 			},
 		],
 	},
-
 	{
 		id: 115,
+		name: 'Cinnamon',
+		rating: 4.0,
+		tags: 'Flavoring, Preserving, Healing',
+		// rate: 10.4,
+		// offer: 7,
+
+		categorySlug: 'spices',
+		category: 'Spices',
+		picture: '/spices/cinnamon.png',
+		bacPicture:
+			'/spices/cinnamon.png',
+		smallDetail:
+			``,
+		details: [
+			{
+				id: 1,
+				part: 'Description',
+				items: [
+					{
+						id: 1,
+						title: 'Medicine',
+						detail:
+							``,
+					},
+					
+					
+				],
+			},
+			{
+				id: 2,
+				part: 'Additional info',
+				items: [
+					{
+						id: 1,
+						detail: ``,
+					},
+				],
+			},
+			{
+				id: 3,
+				part: 'Reviews',
+				items: [
+					{
+						id: '1',
+						name: '',
+						date: '',
+						title: '',
+						text: '',
+						rating: 3.5,
+					},
+				],
+			},
+		],
+	},
+
+	{
+		id: 116,
 		name: 'Fenugreek',
 		rating: 4.0,
 		tags: 'Flavoring, Preserving, Healing',
@@ -933,185 +989,19 @@ export const productsData = [
 	//vegetables
 
 	{
-		id: 116,
-		name: 'Ash Gourd',
-		rating: 4.0,
-		tags: 'Cooking, Nutrition, Variety',
-		// rate: 10.4,
-		// offer: 7,
-		categorySlug: 'vegetables',
-		category: 'Vegetables',
-		picture: '/veg/ashgourd.png',
-		partOf: 'trending',
-		bacPicture:
-			'/veg/ashgourd.png',
-		smallDetail:
-			`Ash gourd, also known as Winter Melon or White Pumpkin, is a large, white-fleshed fruit that is commonly used in cooking and baking, particularly in Asian cuisine such as Indian, Chinese and Southeast Asian. It has a mild, slightly sweet flavor, and it's often used in savory dishes such as curries, stews, and soups.Ash gourd is often used as a vegetable in cooking and it's a staple ingredient in many traditional dishes like soups and curries. `,
-		details: [
-			{
-				id: 1,
-				part: 'Description',
-				items: [
-					{
-						id: 1,
-						title: '',
-						detail:
-							'',
-					},
-					
-					
-				],
-			},
-			{
-				id: 2,
-				part: 'Additional info',
-				items: [
-					{
-						id: 1,
-						detail: '',
-					},
-				],
-			},
-			{
-				id: 3,
-				part: 'Reviews',
-				items: [
-					{
-						id: '1',
-						name: '',
-						date: '',
-						title: '',
-						text: '',
-						rating: 3.5,
-					},
-				],
-			},
-		],
-	},
-	{
-		id: 117,
-		name: 'Butter Beans',
-		rating: 4.0,
-		tags: 'Cooking, Nutrition, Variety',
-		// rate: 10.4,
-		// offer: 7,
-		categorySlug: 'vegetables',
-		category: 'Vegetables',
-		picture: '/veg/butterbeans.png',
-		bacPicture:
-			'/veg/butterbeans.png',
-		smallDetail:
-			`Butter beans, also known as lima beans, are a type of legume that are commonly used in cooking and baking, particularly in Southern and Mediterranean cuisines. They have a creamy, buttery texture and a mild, nutty flavor.Butter beans are often used in savory dishes such as stews, soups, casseroles, and salads.`,
-		details: [
-			{
-				id: 1,
-				part: 'Description',
-				items: [
-					{
-						id: 1,
-						title: '',
-						detail:
-							'',
-					},
-					
-					
-				],
-			},
-			{
-				id: 2,
-				part: 'Additional info',
-				items: [
-					{
-						id: 1,
-						detail: '',
-					},
-				],
-			},
-			{
-				id: 3,
-				part: 'Reviews',
-				items: [
-					{
-						id: '1',
-						name: '',
-						date: '',
-						title: '',
-						text: '',
-						rating: 3.5,
-					},
-				],
-			},
-		],
-	},
-	{
-		id: 119,
-		name: 'Ridge Gourd',
-		rating: 4.0,
-		tags: 'Cooking, Nutrition, Variety',
-		// rate: 10.4,
-		// offer: 7,
-		categorySlug: 'vegetables',
-		category: 'Vegetables',
-		picture: '/veg/ridgegourd.png',
-		bacPicture:
-			'/veg/ridgegourd.png',
-		smallDetail:
-			`Ridge gourd, also known as Chinese Okra or Turai, is a vegetable that is commonly used in cooking and baking, particularly in Asian cuisine, such as Indian, Chinese, and Southeast Asian. It has a mild, slightly bitter flavor and it's often used in savory dishes such as curries, stews, and soups.Ridge gourd is often used as a vegetable in cooking, it's a staple ingredient in many traditional dishes like curries, soups, and stews.`,
-		details: [
-			{
-				id: 1,
-				part: 'Description',
-				items: [
-					{
-						id: 1,
-						title: '',
-						detail:
-							'',
-					},
-					
-					
-				],
-			},
-			{
-				id: 2,
-				part: 'Additional info',
-				items: [
-					{
-						id: 1,
-						detail: '',
-					},
-				],
-			},
-			{
-				id: 3,
-				part: 'Reviews',
-				items: [
-					{
-						id: '1',
-						name: '',
-						date: '',
-						title: '',
-						text: '',
-						rating: 3.5,
-					},
-				],
-			},
-		],
-	},
-	{
 		id: 120,
-		name: 'Banana Flower',
+		name: 'Onion',
 		rating: 4.0,
 		tags: 'Cooking, Nutrition, Variety',
 		// rate: 10.4,
 		// offer: 7,
 		categorySlug: 'vegetables',
 		category: 'Vegetables',
-		picture: '/veg/bananaflower.png',
+		picture: '/veg/onion.png',
 		bacPicture:
-			'/veg/bananaflower.pn',
+			'/veg/onion.png',
 		smallDetail:
-			`Banana flower, also known as banana blossom or banana heart, is a large, cone-shaped, dark purple or red flower that grows at the end of a banana bunch. It is commonly used in cooking and baking, particularly in Asian, African and South American cuisines. It has a slightly bitter and astringent taste.The banana flower is often used as a vegetable in cooking, it's a staple ingredient in many traditional dishes like curries, soups, and stews.`,
+			`Onions are a vegetable that is commonly used in cooking and baking, they are a staple in many cuisines worldwide. They have a pungent, sweet, and slightly spicy flavor and are often used in savory dishes such as soups, stews, salads, sandwiches, and as a topping for pizzas and burgers.Onions are often used as a flavor enhancer in many dishes such as soups, stews, meat dishes, and vegetable dishes.`,
 		details: [
 			{
 				id: 1,
@@ -1155,18 +1045,18 @@ export const productsData = [
 	},
 	{
 		id: 121,
-		name: 'Cabbage',
+		name: 'Green Chilli',
 		rating: 4.0,
 		tags: 'Cooking, Nutrition, Variety',
 		// rate: 10.4,
 		// offer: 7,
 		categorySlug: 'vegetables',
 		category: 'Vegetables',
-		picture: '/veg/cabbage.png',
+		picture: '/veg/greenchilli.png',
 		bacPicture:
-			'/veg/cabbage.png',
+			'/veg/greenchilli.png',
 		smallDetail:
-			`Cabbage is a vegetable that is commonly used in cooking and baking, it is a staple in many cuisines worldwide. It has a mild, slightly sweet flavor and it's often used in savory dishes such as soups, stews, salads, and slaws.Cabbage is often used as a vegetable in cooking and it's a staple ingredient in many traditional dishes like soups, stews, and slaws.`,
+			`Green chili peppers, also known as green chilies or jalapeños, are a type of chili pepper that are commonly used in cooking and baking, particularly in Mexican, Indian, and Southeast Asian cuisines. They have a spicy and pungent flavor and are often used in savory dishes such as curries, stews, salsas, and sandwiches.Green chili peppers can be used in a variety of dishes such as soups, stews, curries, salsas, and sandwiches. They can be sliced, diced, or chopped and can be used fresh or cooked. They can be used as a garnish, a seasoning, or as a main ingredient. `,
 		details: [
 			{
 				id: 1,
@@ -1174,9 +1064,9 @@ export const productsData = [
 				items: [
 					{
 						id: 1,
-						title: '',
+						title: 'Medicine',
 						detail:
-							'',
+							`They are also used to make traditional dishes like chili con carne, salsas, and guacamole.Green chili peppers are also used in traditional medicine, they're believed to have properties that may help lower blood pressure, improve cholesterol levels, and may have antioxidant effects. They are a good source of Vitamin C, Vitamin A, and other essential nutrients. They are also considered a low-calorie food.`,
 					},
 					
 					
@@ -1265,18 +1155,18 @@ export const productsData = [
 	},
 	{
 		id: 123,
-		name: 'Small Onion',
+		name: 'Bitter Gourd',
 		rating: 4.0,
 		tags: 'Cooking, Nutrition, Variety',
 		// rate: 10.4,
 		// offer: 7,
 		categorySlug: 'vegetables',
 		category: 'Vegetables',
-		picture: '/veg/smallonion.png',
+		picture: '/veg/bittergourd.png',
 		bacPicture:
-			'/veg/smallonion.png',
+			'/veg/bittergourd.png',
 		smallDetail:
-			`Small onions, also known as shallots, are a type of onion that are commonly used in cooking and baking, particularly in Asian, Mediterranean and French cuisines. They have a sweeter and milder flavor than regular onions, and a delicate texture.Small onions are often used as a flavor enhancer in many dishes such as soups, stews, meat dishes, and vegetable dishes. `,
+			`Bitter gourd, also known as bitter melon or karela, is a type of gourd that is commonly used in cooking and baking, particularly in Asian and African cuisines. It has a bitter and slightly sour flavor and is often used in savory dishes such as curries, stews, and soups.Bitter gourd can be sliced, chopped, or grated, and it can be cooked in a variety of ways such as stir-frying, sautéing, or steaming. It's also used to make traditional dishes such as bitter gourd fry, bitter gourd curry, and bitter gourd pickles..`,
 		details: [
 			{
 				id: 1,
@@ -1284,9 +1174,9 @@ export const productsData = [
 				items: [
 					{
 						id: 1,
-						title: '',
+						title: 'Health',
 						detail:
-							'',
+							`Bitter gourd is also used in traditional medicine, it's believed to have properties that may help improve digestion, reduce fever, and may have antioxidant effects. It's also used as a natural remedy for various ailments such as reducing inflammation, improving diabetes symptoms and helping in weight loss. It's also a good source of dietary fiber, potassium, and other essential minerals, and is low in calories`,
 					},
 					
 					
@@ -1320,18 +1210,19 @@ export const productsData = [
 	},
 	{
 		id: 124,
-		name: 'Banana Stem',
+		name: 'Tomato',
 		rating: 4.0,
 		tags: 'Cooking, Nutrition, Variety',
 		// rate: 10.4,
 		// offer: 7,
 		categorySlug: 'vegetables',
 		category: 'Vegetables',
-		picture: '/veg/bananastem.png',
+		picture: '/veg/tomato.png',
 		bacPicture:
-			'/veg/bananastem.png',
+			'/veg/tomato.png',
 		smallDetail:
-			`Banana stem, also known as banana trunk, is a fibrous stem that grows from the base of the banana plant. It is commonly used in cooking and baking, particularly in Indian, Southeast Asian, and African cuisines. It has a slightly sour and astringent flavor and it's often used in savory dishes such as curries, stews, and soups.Banana stem is often used as a vegetable in cooking and it's a staple ingredient in many traditional dishes like curries, soups, and stews. `,
+			`Tomatoes are a fruit that is commonly used in cooking and baking, they are a staple in many cuisines worldwide. Tomatoes have a sweet, tangy, and slightly acidic flavor and are often used in savory dishes such as soups, stews, sauces, salads, sandwiches, and as a topping for pizzas and burgers. Tomatoes can also be used in sweet dishes, such as cakes, cookies, and candies.
+			`,
 		details: [
 			{
 				id: 1,
@@ -1339,9 +1230,9 @@ export const productsData = [
 				items: [
 					{
 						id: 1,
-						title: '',
+						title: 'About',
 						detail:
-							'',
+							`Tomatoes can be eaten raw, cooked, or canned, they can be sliced, diced, or blended, and they are often paired with herbs and spices such as basil, oregano, and garlic. They are also used to make traditional dishes like tomato sauce, tomato soup, and gazpacho.`,
 					},
 					
 					
@@ -1353,7 +1244,7 @@ export const productsData = [
 				items: [
 					{
 						id: 1,
-						detail: '',
+						detail: `Tomatoes are also used in traditional medicine, they're believed to have properties that may help lower blood pressure, improve cholesterol levels, and may have antioxidant effects. Tomatoes are a good source of Vitamin C, Vitamin K, Vitamin A and lycopene, also they are considered a low-calorie food.`,
 					},
 				],
 			},
@@ -1375,18 +1266,18 @@ export const productsData = [
 	},
 	{
 		id: 125,
-		name: 'Chayote',
+		name: 'Carrot',
 		rating: 4.0,
 		tags: 'Cooking, Nutrition, Variety',
 		// rate: 10.4,
 		// offer: 7,
 		categorySlug: 'vegetables',
 		category: 'Vegetables',
-		picture: '/veg/chayote.png',
+		picture: '/veg/carrot.png',
 		bacPicture:
-			'/veg/chayote.png',
+			'/veg/carrot.png',
 		smallDetail:
-			`Chayote, also known as vegetable pear or chocho, is a type of gourd that is commonly used in cooking and baking, particularly in Latin American, Asian and Mediterranean cuisines. It has a mild, slightly sweet flavor and a crisp, watery texture.Chayote is often used as a vegetable in cooking and it's a staple ingredient in many traditional dishes like soups, stews, and curries. `,
+			``,
 		details: [
 			{
 				id: 1,
@@ -1394,7 +1285,7 @@ export const productsData = [
 				items: [
 					{
 						id: 1,
-						title: '',
+						title: 'About',
 						detail:
 							'',
 					},
@@ -1430,18 +1321,18 @@ export const productsData = [
 	},
 	{
 		id: 126,
-		name: 'Long Beans',
+		name: 'Potato',
 		rating: 4.0,
 		tags: 'Cooking, Nutrition, Variety',
 		// rate: 10.4,
 		// offer: 7,
 		categorySlug: 'vegetables',
 		category: 'Vegetables',
-		picture: '/veg/longbeans.png',
+		picture: '/veg/potato.png',
 		bacPicture:
-			'/veg/longbeans.png',
+			'/veg/potato.png',
 		smallDetail:
-			`Long beans, also known as yard-long beans or asparagus beans, are a type of legume that are commonly used in cooking and baking, particularly in Asian, African, and South American cuisines. They have a similar taste and texture to green beans, but they are longer, sometimes growing up to 3 feet long.Long beans are often used in savory dishes such as stews, soups, stir-fries, and curries.`,
+			`Potatoes are a root vegetable that is commonly used in cooking and baking, they are a staple in many cuisines worldwide. Potatoes have a starchy, slightly sweet and earthy flavor and are often used in savory dishes such as soups, stews, casseroles, curries, and roasted as a side dish. They can also be used in sweet dishes, such as pies and cakes.Potatoes can be boiled, fried, mashed, roasted, or baked and they are often paired with butter, cream, cheese, or herbs and spices.`,
 		details: [
 			{
 				id: 1,
@@ -1449,9 +1340,9 @@ export const productsData = [
 				items: [
 					{
 						id: 1,
-						title: '',
+						title: 'Medicine',
 						detail:
-							'',
+							` They are also used to make traditional dishes like French fries, potato chips, mashed potatoes, and potato salad.Potatoes are also used in traditional medicine, they're believed to have properties that may help improve digestion, reduce fever, and may have antioxidant effects. Potatoes are a good source of potassium, Vitamin C, Vitamin B6, and dietary fiber, also they are considered a low-calorie food.`,
 					},
 					
 					
@@ -1485,18 +1376,18 @@ export const productsData = [
 	},
 	{
 		id: 127,
-		name: 'Snake Gourd',
+		name: 'Brinjal',
 		rating: 4.0,
 		tags: 'Cooking, Nutrition, Variety',
 		// rate: 10.4,
 		// offer: 7,
 		categorySlug: 'vegetables',
 		category: 'Vegetables',
-		picture: '/veg/snakegourd.png',
+		picture: '/veg/brinjal.png',
 		bacPicture:
-			'/veg/snakegourd.png',
+			'/veg/brinjal.png',
 		smallDetail:
-			`Snake gourd, also known as chichinda or padwal, is a vegetable that is commonly used in cooking and baking, particularly in Asian cuisine, such as Indian, Chinese, and Southeast Asian. It has a mild, slightly bitter flavor and it's often used in savory dishes such as curries, stews, and soups.Snake gourd is often used as a vegetable in cooking, it's a staple ingredient in many traditional dishes like curries, soups, and stews. `,
+			``,
 		details: [
 			{
 				id: 1,
@@ -1504,9 +1395,9 @@ export const productsData = [
 				items: [
 					{
 						id: 1,
-						title: '',
+						title: 'Medicine',
 						detail:
-							'',
+							``,
 					},
 					
 					
@@ -1540,226 +1431,6 @@ export const productsData = [
 	},
 	{
 		id: 128,
-		name: 'Chinese Potato',
-		rating: 4.0,
-		tags: 'Cooking, Nutrition, Variety',
-		// rate: 10.4,
-		// offer: 7,
-		categorySlug: 'vegetables',
-		category: 'Vegetables',
-		picture: '/veg/chinesepotato.png',
-		bacPicture:
-			'/veg/chinesepotato.png',
-		smallDetail:
-			`Chinese potato, also known as Chinese yam, is a root vegetable that is commonly used in cooking and baking, particularly in Asian cuisine, such as Chinese, Korean and Japanese. It has a slightly sweet and nutty flavor and it's often used in savory dishes such as soups, stews, and stir-fries.Chinese potato is often used as a vegetable in cooking, it's a staple ingredient in many traditional dishes like soups, stews, and stir-fries.`,
-		details: [
-			{
-				id: 1,
-				part: 'Description',
-				items: [
-					{
-						id: 1,
-						title: '',
-						detail:
-							'',
-					},
-					
-					
-				],
-			},
-			{
-				id: 2,
-				part: 'Additional info',
-				items: [
-					{
-						id: 1,
-						detail: '',
-					},
-				],
-			},
-			{
-				id: 3,
-				part: 'Reviews',
-				items: [
-					{
-						id: '1',
-						name: '',
-						date: '',
-						title: '',
-						text: '',
-						rating: 3.5,
-					},
-				],
-			},
-		],
-	},
-	{
-		id: 129,
-		name: 'Onion',
-		rating: 4.0,
-		tags: 'Cooking, Nutrition, Variety',
-		// rate: 10.4,
-		// offer: 7,
-		categorySlug: 'vegetables',
-		category: 'Vegetables',
-		picture: '/veg/onion.png',
-		bacPicture:
-			'/veg/onion.png',
-		smallDetail:
-			`Onions are a vegetable that is commonly used in cooking and baking, they are a staple in many cuisines worldwide. They have a pungent, sweet, and slightly spicy flavor and are often used in savory dishes such as soups, stews, salads, sandwiches, and as a topping for pizzas and burgers.Onions are often used as a flavor enhancer in many dishes such as soups, stews, meat dishes, and vegetable dishes.`,
-		details: [
-			{
-				id: 1,
-				part: 'Description',
-				items: [
-					{
-						id: 1,
-						title: '',
-						detail:
-							'',
-					},
-					
-					
-				],
-			},
-			{
-				id: 2,
-				part: 'Additional info',
-				items: [
-					{
-						id: 1,
-						detail: '',
-					},
-				],
-			},
-			{
-				id: 3,
-				part: 'Reviews',
-				items: [
-					{
-						id: '1',
-						name: '',
-						date: '',
-						title: '',
-						text: '',
-						rating: 3.5,
-					},
-				],
-			},
-		],
-	},
-	{
-		id: 130,
-		name: 'Sweet Potato',
-		rating: 4.0,
-		tags: 'Cooking, Nutrition, Variety',
-		// rate: 10.4,
-		// offer: 7,
-		categorySlug: 'vegetables',
-		category: 'Vegetables',
-		picture: '/veg/sweetpotato.png',
-		bacPicture:
-			'/veg/sweetpotato.png',
-		smallDetail:
-			`Sweet potatoes are a root vegetable that is commonly used in cooking and baking, they are a staple in many cuisines worldwide, particularly in African, Caribbean, and Latin American cuisines. They have a sweet, earthy flavor and are often used in savory dishes such as soups, stews, curries, casseroles, and roasted as a side dish. They can also be used in sweet dishes, such as pies, cakes, and breads.Sweet potatoes can be baked, boiled, fried, mashed, or roasted, and they are often paired with spices such as cinnamon, nutmeg, and allspice.`,
-		details: [
-			{
-				id: 1,
-				part: 'Description',
-				items: [
-					{
-						id: 1,
-						title: '',
-						detail:
-							'',
-					},
-					
-					
-				],
-			},
-			{
-				id: 2,
-				part: 'Additional info',
-				items: [
-					{
-						id: 1,
-						detail: '',
-					},
-				],
-			},
-			{
-				id: 3,
-				part: 'Reviews',
-				items: [
-					{
-						id: '1',
-						name: '',
-						date: '',
-						title: '',
-						text: '',
-						rating: 3.5,
-					},
-				],
-			},
-		],
-	},
-	{
-		id: 131,
-		name: 'Beans',
-		rating: 4.0,
-		tags: 'Cooking, Nutrition, Variety',
-		// rate: 10.4,
-		// offer: 7,
-		categorySlug: 'vegetables',
-		category: 'Vegetables',
-		picture: '/veg/beans.png',
-		bacPicture:
-			'/veg/beans.png',
-		smallDetail:
-			``,
-		details: [
-			{
-				id: 1,
-				part: 'Description',
-				items: [
-					{
-						id: 1,
-						title: '',
-						detail:
-							'',
-					},
-					
-					
-				],
-			},
-			{
-				id: 2,
-				part: 'Additional info',
-				items: [
-					{
-						id: 1,
-						detail: '',
-					},
-				],
-			},
-			{
-				id: 3,
-				part: 'Reviews',
-				items: [
-					{
-						id: '1',
-						name: '',
-						date: '',
-						title: '',
-						text: '',
-						rating: 3.5,
-					},
-				],
-			},
-		],
-	},
-	{
-		id: 132,
 		name: 'Curry Banana',
 		rating: 4.0,
 		tags: 'Cooking, Nutrition, Variety',
@@ -1815,7 +1486,7 @@ export const productsData = [
 		],
 	},
 	{
-		id: 133,
+		id: 129,
 		name: 'Tapioca',
 		rating: 4.0,
 		tags: 'Cooking, Nutrition, Variety',
@@ -1870,19 +1541,19 @@ export const productsData = [
 		],
 	},
 	{
-		id: 134,
-		name: 'Beetroot',
+		id: 130,
+		name: 'Chayote',
 		rating: 4.0,
 		tags: 'Cooking, Nutrition, Variety',
 		// rate: 10.4,
 		// offer: 7,
 		categorySlug: 'vegetables',
 		category: 'Vegetables',
-		picture: '/veg/beetroot.png',
+		picture: '/veg/chayote.png',
 		bacPicture:
-			'/veg/beetroot.png',
+			'/veg/chayote.png',
 		smallDetail:
-			`Beetroot is a root vegetable that is commonly used in cooking and baking, it is a staple in many cuisines worldwide. Beetroot has a sweet and earthy flavor, and it's often used in savory dishes such as soups, stews, salads, sandwiches, and as a topping for pizzas and burgers. Beetroot can also be used in sweet dishes, such as cakes, cookies, and candies.Beetroot can be roasted, boiled, steamed, pickled or grated, it can be eaten raw, cooked or pickled.`,
+			`Chayote, also known as vegetable pear or chocho, is a type of gourd that is commonly used in cooking and baking, particularly in Latin American, Asian and Mediterranean cuisines. It has a mild, slightly sweet flavor and a crisp, watery texture.Chayote is often used as a vegetable in cooking and it's a staple ingredient in many traditional dishes like soups, stews, and curries. `,
 		details: [
 			{
 				id: 1,
@@ -1925,7 +1596,62 @@ export const productsData = [
 		],
 	},
 	{
-		id: 135,
+		id: 131,
+		name: 'Long Beans',
+		rating: 4.0,
+		tags: 'Cooking, Nutrition, Variety',
+		// rate: 10.4,
+		// offer: 7,
+		categorySlug: 'vegetables',
+		category: 'Vegetables',
+		picture: '/veg/longbeans.png',
+		bacPicture:
+			'/veg/longbeans.png',
+		smallDetail:
+			`Long beans, also known as yard-long beans or asparagus beans, are a type of legume that are commonly used in cooking and baking, particularly in Asian, African, and South American cuisines. They have a similar taste and texture to green beans, but they are longer, sometimes growing up to 3 feet long.Long beans are often used in savory dishes such as stews, soups, stir-fries, and curries.`,
+		details: [
+			{
+				id: 1,
+				part: 'Description',
+				items: [
+					{
+						id: 1,
+						title: '',
+						detail:
+							'',
+					},
+					
+					
+				],
+			},
+			{
+				id: 2,
+				part: 'Additional info',
+				items: [
+					{
+						id: 1,
+						detail: '',
+					},
+				],
+			},
+			{
+				id: 3,
+				part: 'Reviews',
+				items: [
+					{
+						id: '1',
+						name: '',
+						date: '',
+						title: '',
+						text: '',
+						rating: 3.5,
+					},
+				],
+			},
+		],
+	},
+	{
+		id: 132,
 		name: 'Drumstick',
 		rating: 4.0,
 		tags: 'Cooking, Nutrition, Variety',
@@ -1980,7 +1706,228 @@ export const productsData = [
 		],
 	},
 	{
+		id: 133,
+		name: 'Bottle Gourd',
+		rating: 4.0,
+		tags: 'Cooking, Nutrition, Variety',
+		// rate: 10.4,
+		// offer: 7,
+		categorySlug: 'vegetables',
+		category: 'Vegetables',
+		picture: '/veg/bottlegourd.png',
+		bacPicture:
+			'/veg/bottlegourd.png',
+		smallDetail:
+			'Bottle gourd, also known as calabash or lauki, is a type of gourd that is commonly used in cooking and baking, particularly in Asian, African, and Latin American cuisines. It has a mild, slightly sweet and slightly bitter flavor and is often used in savory dishes such as curries, stews, and soups.',
+		details: [
+			{
+				id: 1,
+				part: 'Description',
+				items: [
+					{
+						id: 1,
+						title: 'About',
+						detail:
+							`Bottle gourd can be sliced, diced, or grated, and it can be cooked in a variety of ways such as stir-frying, sautéing, or steaming. It's also used to make traditional dishes such as bottle gourd curry, bottle gourd dal, and bottle gourd kofta. Bottle gourd can also be used to make soups, stews, and curries, and it's also used as a filling for dumplings.`,
+					},
+					
+					
+				],
+			},
+			{
+				id: 2,
+				part: 'Additional info',
+				items: [
+					{
+						id: 1,
+						detail: `Bottle gourd is also used in traditional medicine, it's believed to have properties that may help improve digestion, reduce fever, and may have antioxidant effects. It's also used as a natural remedy for various ailments such as reducing inflammation, improving diabetes symptoms and helping in weight loss. It's also a good source of dietary fiber, potassium, and other essential minerals, and is low in calories.`,
+					},
+				],
+			},
+			{
+				id: 3,
+				part: 'Reviews',
+				items: [
+					{
+						id: '1',
+						name: '',
+						date: '',
+						title: '',
+						text: '',
+						rating: 3.5,
+					},
+				],
+			},
+		],
+	},
+	{
+		id: 134,
+		name: 'Ash Gourd',
+		rating: 4.0,
+		tags: 'Cooking, Nutrition, Variety',
+		// rate: 10.4,
+		// offer: 7,
+		categorySlug: 'vegetables',
+		category: 'Vegetables',
+		picture: '/veg/ashgourd.png',
+		partOf: 'trending',
+		bacPicture:
+			'/veg/ashgourd.png',
+		smallDetail:
+			`Ash gourd, also known as Winter Melon or White Pumpkin, is a large, white-fleshed fruit that is commonly used in cooking and baking, particularly in Asian cuisine such as Indian, Chinese and Southeast Asian. It has a mild, slightly sweet flavor, and it's often used in savory dishes such as curries, stews, and soups.Ash gourd is often used as a vegetable in cooking and it's a staple ingredient in many traditional dishes like soups and curries. `,
+		details: [
+			{
+				id: 1,
+				part: 'Description',
+				items: [
+					{
+						id: 1,
+						title: '',
+						detail:
+							'',
+					},
+					
+					
+				],
+			},
+			{
+				id: 2,
+				part: 'Additional info',
+				items: [
+					{
+						id: 1,
+						detail: '',
+					},
+				],
+			},
+			{
+				id: 3,
+				part: 'Reviews',
+				items: [
+					{
+						id: '1',
+						name: '',
+						date: '',
+						title: '',
+						text: '',
+						rating: 3.5,
+					},
+				],
+			},
+		],
+	},
+	{
+		id: 135,
+		name: 'Yam',
+		rating: 4.0,
+		tags: 'Cooking, Nutrition, Variety',
+		// rate: 10.4,
+		// offer: 7,
+		categorySlug: 'vegetables',
+		category: 'Vegetables',
+		picture: '/veg/yam.png',
+		bacPicture:
+			'/veg/yam.png',
+		smallDetail:
+			`Yam is a root vegetable that is commonly used in cooking and baking, particularly in West African, Caribbean, and Asian cuisines. It has a starchy, slightly sweet and nutty flavor and it's often used in savory dishes such as curries, stews, and soups. It can also be used to make sweet dishes like puddings, custards, and candies.Yam can be cooked in a variety of ways, such as boiling, baking, roasting, or frying. `,
+		details: [
+			{
+				id: 1,
+				part: 'Description',
+				items: [
+					{
+						id: 1,
+						title: 'Used for',
+						detail:
+							` It can also be mashed and formed into cakes or dumplings. Yam is also used to make traditional dishes like fufu, a West African dish made from mashed yam root, and it is also a popular ingredient in Caribbean and Asian cuisine.`,
+					},
+					
+					
+				],
+			},
+			{
+				id: 2,
+				part: 'Additional info',
+				items: [
+					{
+						id: 1,
+						detail: `Yam is also used in traditional medicine, it's believed to have properties that may help improve digestion, reduce fever, and may have antioxidant effects. Yam is a good source of carbohydrates, and is low in calories, it's also a good source of energy.`,
+					},
+				],
+			},
+			{
+				id: 3,
+				part: 'Reviews',
+				items: [
+					{
+						id: '1',
+						name: '',
+						date: '',
+						title: '',
+						text: '',
+						rating: 3.5,
+					},
+				],
+			},
+		],
+	},
+	{
 		id: 136,
+		name: 'Snake Gourd',
+		rating: 4.0,
+		tags: 'Cooking, Nutrition, Variety',
+		// rate: 10.4,
+		// offer: 7,
+		categorySlug: 'vegetables',
+		category: 'Vegetables',
+		picture: '/veg/snakegourd.png',
+		bacPicture:
+			'/veg/snakegourd.png',
+		smallDetail:
+			`Snake gourd, also known as chichinda or padwal, is a vegetable that is commonly used in cooking and baking, particularly in Asian cuisine, such as Indian, Chinese, and Southeast Asian. It has a mild, slightly bitter flavor and it's often used in savory dishes such as curries, stews, and soups.Snake gourd is often used as a vegetable in cooking, it's a staple ingredient in many traditional dishes like curries, soups, and stews. `,
+		details: [
+			{
+				id: 1,
+				part: 'Description',
+				items: [
+					{
+						id: 1,
+						title: '',
+						detail:
+							'',
+					},
+					
+					
+				],
+			},
+			{
+				id: 2,
+				part: 'Additional info',
+				items: [
+					{
+						id: 1,
+						detail: '',
+					},
+				],
+			},
+			{
+				id: 3,
+				part: 'Reviews',
+				items: [
+					{
+						id: '1',
+						name: '',
+						date: '',
+						title: '',
+						text: '',
+						rating: 3.5,
+					},
+				],
+			},
+		],
+	},
+	{
+		id: 137,
 		name: 'Papaya Raw',
 		rating: 4.0,
 		tags: 'Cooking, Nutrition, Variety',
@@ -2040,7 +1987,337 @@ export const productsData = [
 		],
 	},
 	{
-		id: 137,
+		id: 138,
+		name: 'Ridge Gourd',
+		rating: 4.0,
+		tags: 'Cooking, Nutrition, Variety',
+		// rate: 10.4,
+		// offer: 7,
+		categorySlug: 'vegetables',
+		category: 'Vegetables',
+		picture: '/veg/ridgegourd.png',
+		bacPicture:
+			'/veg/ridgegourd.png',
+		smallDetail:
+			`Ridge gourd, also known as Chinese Okra or Turai, is a vegetable that is commonly used in cooking and baking, particularly in Asian cuisine, such as Indian, Chinese, and Southeast Asian. It has a mild, slightly bitter flavor and it's often used in savory dishes such as curries, stews, and soups.Ridge gourd is often used as a vegetable in cooking, it's a staple ingredient in many traditional dishes like curries, soups, and stews.`,
+		details: [
+			{
+				id: 1,
+				part: 'Description',
+				items: [
+					{
+						id: 1,
+						title: '',
+						detail:
+							'',
+					},
+					
+					
+				],
+			},
+			{
+				id: 2,
+				part: 'Additional info',
+				items: [
+					{
+						id: 1,
+						detail: '',
+					},
+				],
+			},
+			{
+				id: 3,
+				part: 'Reviews',
+				items: [
+					{
+						id: '1',
+						name: '',
+						date: '',
+						title: '',
+						text: '',
+						rating: 3.5,
+					},
+				],
+			},
+		],
+	},
+	{
+		id: 139,
+		name: 'Cabbage',
+		rating: 4.0,
+		tags: 'Cooking, Nutrition, Variety',
+		// rate: 10.4,
+		// offer: 7,
+		categorySlug: 'vegetables',
+		category: 'Vegetables',
+		picture: '/veg/cabbage.png',
+		bacPicture:
+			'/veg/cabbage.png',
+		smallDetail:
+			`Cabbage is a vegetable that is commonly used in cooking and baking, it is a staple in many cuisines worldwide. It has a mild, slightly sweet flavor and it's often used in savory dishes such as soups, stews, salads, and slaws.Cabbage is often used as a vegetable in cooking and it's a staple ingredient in many traditional dishes like soups, stews, and slaws.`,
+		details: [
+			{
+				id: 1,
+				part: 'Description',
+				items: [
+					{
+						id: 1,
+						title: '',
+						detail:
+							'',
+					},
+					
+					
+				],
+			},
+			{
+				id: 2,
+				part: 'Additional info',
+				items: [
+					{
+						id: 1,
+						detail: '',
+					},
+				],
+			},
+			{
+				id: 3,
+				part: 'Reviews',
+				items: [
+					{
+						id: '1',
+						name: '',
+						date: '',
+						title: '',
+						text: '',
+						rating: 3.5,
+					},
+				],
+			},
+		],
+	},
+	{
+		id: 140,
+		name: 'Small Onion',
+		rating: 4.0,
+		tags: 'Cooking, Nutrition, Variety',
+		// rate: 10.4,
+		// offer: 7,
+		categorySlug: 'vegetables',
+		category: 'Vegetables',
+		picture: '/veg/smallonion.png',
+		bacPicture:
+			'/veg/smallonion.png',
+		smallDetail:
+			`Small onions, also known as shallots, are a type of onion that are commonly used in cooking and baking, particularly in Asian, Mediterranean and French cuisines. They have a sweeter and milder flavor than regular onions, and a delicate texture.Small onions are often used as a flavor enhancer in many dishes such as soups, stews, meat dishes, and vegetable dishes. `,
+		details: [
+			{
+				id: 1,
+				part: 'Description',
+				items: [
+					{
+						id: 1,
+						title: '',
+						detail:
+							'',
+					},
+					
+					
+				],
+			},
+			{
+				id: 2,
+				part: 'Additional info',
+				items: [
+					{
+						id: 1,
+						detail: '',
+					},
+				],
+			},
+			{
+				id: 3,
+				part: 'Reviews',
+				items: [
+					{
+						id: '1',
+						name: '',
+						date: '',
+						title: '',
+						text: '',
+						rating: 3.5,
+					},
+				],
+			},
+		],
+	},
+	{
+		id: 141,
+		name: 'Pumpkin',
+		rating: 4.0,
+		tags: 'Cooking, Nutrition, Variety',
+		// rate: 10.4,
+		// offer: 7,
+		categorySlug: 'vegetables',
+		category: 'Vegetables',
+		picture: '/veg/pumpkin.png',
+		bacPicture:
+			'/veg/pumpkin.png',
+		smallDetail:
+			'Pumpkin is a type of winter squash that is commonly used in cooking and baking, it is a staple in many cuisines worldwide. Pumpkin has a sweet and slightly nutty flavor and is often used in savory dishes such as soups, stews, curries, and roasted as a side dish. It can also be used in sweet dishes, such as pies, cakes, and breads, and in traditional dishes like pumpkin pie, pumpkin bread, and pumpkin soup.',
+		details: [
+			{
+				id: 1,
+				part: 'Description',
+				items: [
+					{
+						id: 1,
+						title: 'About',
+						detail:
+							`Pumpkin can be roasted, boiled, steamed, pureed or grated, and it can be used as a main ingredient or as a garnish. The pumpkin seeds can also be roasted and used as a snack or a garnish.Pumpkin is also used in traditional medicine, it's believed to have properties that may help improve digestion, reduce fever, and may have antioxidant effects. Pumpkin is a good source of Vitamin A, Vitamin C, potassium, and dietary fiber, also they are considered a low-calorie food.`,
+					},
+					
+					
+				],
+			},
+			{
+				id: 2,
+				part: 'Additional info',
+				items: [
+					{
+						id: 1,
+						detail: '',
+					},
+				],
+			},
+			{
+				id: 3,
+				part: 'Reviews',
+				items: [
+					{
+						id: '1',
+						name: '',
+						date: '',
+						title: '',
+						text: '',
+						rating: 3.5,
+					},
+				],
+			},
+		],
+	},
+	{
+		id: 142,
+		name: 'Beetroot',
+		rating: 4.0,
+		tags: 'Cooking, Nutrition, Variety',
+		// rate: 10.4,
+		// offer: 7,
+		categorySlug: 'vegetables',
+		category: 'Vegetables',
+		picture: '/veg/beetroot.png',
+		bacPicture:
+			'/veg/beetroot.png',
+		smallDetail:
+			`Beetroot is a root vegetable that is commonly used in cooking and baking, it is a staple in many cuisines worldwide. Beetroot has a sweet and earthy flavor, and it's often used in savory dishes such as soups, stews, salads, sandwiches, and as a topping for pizzas and burgers. Beetroot can also be used in sweet dishes, such as cakes, cookies, and candies.Beetroot can be roasted, boiled, steamed, pickled or grated, it can be eaten raw, cooked or pickled.`,
+		details: [
+			{
+				id: 1,
+				part: 'Description',
+				items: [
+					{
+						id: 1,
+						title: '',
+						detail:
+							'',
+					},
+					
+					
+				],
+			},
+			{
+				id: 2,
+				part: 'Additional info',
+				items: [
+					{
+						id: 1,
+						detail: '',
+					},
+				],
+			},
+			{
+				id: 3,
+				part: 'Reviews',
+				items: [
+					{
+						id: '1',
+						name: '',
+						date: '',
+						title: '',
+						text: '',
+						rating: 3.5,
+					},
+				],
+			},
+		],
+	},
+	{
+		id: 143,
+		name: 'Sweet Potato',
+		rating: 4.0,
+		tags: 'Cooking, Nutrition, Variety',
+		// rate: 10.4,
+		// offer: 7,
+		categorySlug: 'vegetables',
+		category: 'Vegetables',
+		picture: '/veg/sweetpotato.png',
+		bacPicture:
+			'/veg/sweetpotato.png',
+		smallDetail:
+			`Sweet potatoes are a root vegetable that is commonly used in cooking and baking, they are a staple in many cuisines worldwide, particularly in African, Caribbean, and Latin American cuisines. They have a sweet, earthy flavor and are often used in savory dishes such as soups, stews, curries, casseroles, and roasted as a side dish. They can also be used in sweet dishes, such as pies, cakes, and breads.Sweet potatoes can be baked, boiled, fried, mashed, or roasted, and they are often paired with spices such as cinnamon, nutmeg, and allspice.`,
+		details: [
+			{
+				id: 1,
+				part: 'Description',
+				items: [
+					{
+						id: 1,
+						title: '',
+						detail:
+							'',
+					},
+					
+					
+				],
+			},
+			{
+				id: 2,
+				part: 'Additional info',
+				items: [
+					{
+						id: 1,
+						detail: '',
+					},
+				],
+			},
+			{
+				id: 3,
+				part: 'Reviews',
+				items: [
+					{
+						id: '1',
+						name: '',
+						date: '',
+						title: '',
+						text: '',
+						rating: 3.5,
+					},
+				],
+			},
+		],
+	},
+	{
+		id: 144,
 		name: 'Taro',
 		rating: 4.0,
 		tags: 'Cooking, Nutrition, Variety',
@@ -2095,338 +2372,7 @@ export const productsData = [
 		],
 	},
 	{
-		id: 138,
-		name: 'Bitter Gourd',
-		rating: 4.0,
-		tags: 'Cooking, Nutrition, Variety',
-		// rate: 10.4,
-		// offer: 7,
-		categorySlug: 'vegetables',
-		category: 'Vegetables',
-		picture: '/veg/bittergourd.png',
-		bacPicture:
-			'/veg/bittergourd.png',
-		smallDetail:
-			`Bitter gourd, also known as bitter melon or karela, is a type of gourd that is commonly used in cooking and baking, particularly in Asian and African cuisines. It has a bitter and slightly sour flavor and is often used in savory dishes such as curries, stews, and soups.Bitter gourd can be sliced, chopped, or grated, and it can be cooked in a variety of ways such as stir-frying, sautéing, or steaming. It's also used to make traditional dishes such as bitter gourd fry, bitter gourd curry, and bitter gourd pickles..`,
-		details: [
-			{
-				id: 1,
-				part: 'Description',
-				items: [
-					{
-						id: 1,
-						title: 'Health',
-						detail:
-							`Bitter gourd is also used in traditional medicine, it's believed to have properties that may help improve digestion, reduce fever, and may have antioxidant effects. It's also used as a natural remedy for various ailments such as reducing inflammation, improving diabetes symptoms and helping in weight loss. It's also a good source of dietary fiber, potassium, and other essential minerals, and is low in calories`,
-					},
-					
-					
-				],
-			},
-			{
-				id: 2,
-				part: 'Additional info',
-				items: [
-					{
-						id: 1,
-						detail: '',
-					},
-				],
-			},
-			{
-				id: 3,
-				part: 'Reviews',
-				items: [
-					{
-						id: '1',
-						name: '',
-						date: '',
-						title: '',
-						text: '',
-						rating: 3.5,
-					},
-				],
-			},
-		],
-	},
-	{
-		id: 139,
-		name: 'Green Chilli',
-		rating: 4.0,
-		tags: 'Cooking, Nutrition, Variety',
-		// rate: 10.4,
-		// offer: 7,
-		categorySlug: 'vegetables',
-		category: 'Vegetables',
-		picture: '/veg/greenchilli.png',
-		bacPicture:
-			'/veg/greenchilli.png',
-		smallDetail:
-			`Green chili peppers, also known as green chilies or jalapeños, are a type of chili pepper that are commonly used in cooking and baking, particularly in Mexican, Indian, and Southeast Asian cuisines. They have a spicy and pungent flavor and are often used in savory dishes such as curries, stews, salsas, and sandwiches.Green chili peppers can be used in a variety of dishes such as soups, stews, curries, salsas, and sandwiches. They can be sliced, diced, or chopped and can be used fresh or cooked. They can be used as a garnish, a seasoning, or as a main ingredient. `,
-		details: [
-			{
-				id: 1,
-				part: 'Description',
-				items: [
-					{
-						id: 1,
-						title: 'Medicine',
-						detail:
-							`They are also used to make traditional dishes like chili con carne, salsas, and guacamole.Green chili peppers are also used in traditional medicine, they're believed to have properties that may help lower blood pressure, improve cholesterol levels, and may have antioxidant effects. They are a good source of Vitamin C, Vitamin A, and other essential nutrients. They are also considered a low-calorie food.`,
-					},
-					
-					
-				],
-			},
-			{
-				id: 2,
-				part: 'Additional info',
-				items: [
-					{
-						id: 1,
-						detail: '',
-					},
-				],
-			},
-			{
-				id: 3,
-				part: 'Reviews',
-				items: [
-					{
-						id: '1',
-						name: '',
-						date: '',
-						title: '',
-						text: '',
-						rating: 3.5,
-					},
-				],
-			},
-		],
-	},
-	{
-		id: 140,
-		name: 'Potato',
-		rating: 4.0,
-		tags: 'Cooking, Nutrition, Variety',
-		// rate: 10.4,
-		// offer: 7,
-		categorySlug: 'vegetables',
-		category: 'Vegetables',
-		picture: '/veg/potato.png',
-		bacPicture:
-			'/veg/potato.png',
-		smallDetail:
-			`Potatoes are a root vegetable that is commonly used in cooking and baking, they are a staple in many cuisines worldwide. Potatoes have a starchy, slightly sweet and earthy flavor and are often used in savory dishes such as soups, stews, casseroles, curries, and roasted as a side dish. They can also be used in sweet dishes, such as pies and cakes.Potatoes can be boiled, fried, mashed, roasted, or baked and they are often paired with butter, cream, cheese, or herbs and spices.`,
-		details: [
-			{
-				id: 1,
-				part: 'Description',
-				items: [
-					{
-						id: 1,
-						title: 'Medicine',
-						detail:
-							` They are also used to make traditional dishes like French fries, potato chips, mashed potatoes, and potato salad.Potatoes are also used in traditional medicine, they're believed to have properties that may help improve digestion, reduce fever, and may have antioxidant effects. Potatoes are a good source of potassium, Vitamin C, Vitamin B6, and dietary fiber, also they are considered a low-calorie food.`,
-					},
-					
-					
-				],
-			},
-			{
-				id: 2,
-				part: 'Additional info',
-				items: [
-					{
-						id: 1,
-						detail: '',
-					},
-				],
-			},
-			{
-				id: 3,
-				part: 'Reviews',
-				items: [
-					{
-						id: '1',
-						name: '',
-						date: '',
-						title: '',
-						text: '',
-						rating: 3.5,
-					},
-				],
-			},
-		],
-	},
-	{
-		id: 141,
-		name: 'Yam',
-		rating: 4.0,
-		tags: 'Cooking, Nutrition, Variety',
-		// rate: 10.4,
-		// offer: 7,
-		categorySlug: 'vegetables',
-		category: 'Vegetables',
-		picture: '/veg/yam.png',
-		bacPicture:
-			'/veg/yam.png',
-		smallDetail:
-			`Yam is a root vegetable that is commonly used in cooking and baking, particularly in West African, Caribbean, and Asian cuisines. It has a starchy, slightly sweet and nutty flavor and it's often used in savory dishes such as curries, stews, and soups. It can also be used to make sweet dishes like puddings, custards, and candies.Yam can be cooked in a variety of ways, such as boiling, baking, roasting, or frying. `,
-		details: [
-			{
-				id: 1,
-				part: 'Description',
-				items: [
-					{
-						id: 1,
-						title: 'Used for',
-						detail:
-							` It can also be mashed and formed into cakes or dumplings. Yam is also used to make traditional dishes like fufu, a West African dish made from mashed yam root, and it is also a popular ingredient in Caribbean and Asian cuisine.`,
-					},
-					
-					
-				],
-			},
-			{
-				id: 2,
-				part: 'Additional info',
-				items: [
-					{
-						id: 1,
-						detail: `Yam is also used in traditional medicine, it's believed to have properties that may help improve digestion, reduce fever, and may have antioxidant effects. Yam is a good source of carbohydrates, and is low in calories, it's also a good source of energy.`,
-					},
-				],
-			},
-			{
-				id: 3,
-				part: 'Reviews',
-				items: [
-					{
-						id: '1',
-						name: '',
-						date: '',
-						title: '',
-						text: '',
-						rating: 3.5,
-					},
-				],
-			},
-		],
-	},
-	{
-		id: 142,
-		name: 'Tomato',
-		rating: 4.0,
-		tags: 'Cooking, Nutrition, Variety',
-		// rate: 10.4,
-		// offer: 7,
-		categorySlug: 'vegetables',
-		category: 'Vegetables',
-		picture: '/veg/tomato.png',
-		bacPicture:
-			'/veg/tomato.png',
-		smallDetail:
-			`Tomatoes are a fruit that is commonly used in cooking and baking, they are a staple in many cuisines worldwide. Tomatoes have a sweet, tangy, and slightly acidic flavor and are often used in savory dishes such as soups, stews, sauces, salads, sandwiches, and as a topping for pizzas and burgers. Tomatoes can also be used in sweet dishes, such as cakes, cookies, and candies.
-			`,
-		details: [
-			{
-				id: 1,
-				part: 'Description',
-				items: [
-					{
-						id: 1,
-						title: 'About',
-						detail:
-							`Tomatoes can be eaten raw, cooked, or canned, they can be sliced, diced, or blended, and they are often paired with herbs and spices such as basil, oregano, and garlic. They are also used to make traditional dishes like tomato sauce, tomato soup, and gazpacho.`,
-					},
-					
-					
-				],
-			},
-			{
-				id: 2,
-				part: 'Additional info',
-				items: [
-					{
-						id: 1,
-						detail: `Tomatoes are also used in traditional medicine, they're believed to have properties that may help lower blood pressure, improve cholesterol levels, and may have antioxidant effects. Tomatoes are a good source of Vitamin C, Vitamin K, Vitamin A and lycopene, also they are considered a low-calorie food.`,
-					},
-				],
-			},
-			{
-				id: 3,
-				part: 'Reviews',
-				items: [
-					{
-						id: '1',
-						name: '',
-						date: '',
-						title: '',
-						text: '',
-						rating: 3.5,
-					},
-				],
-			},
-		],
-	},
-	{
-		id: 143,
-		name: 'Bottle Gourd',
-		rating: 4.0,
-		tags: 'Cooking, Nutrition, Variety',
-		// rate: 10.4,
-		// offer: 7,
-		categorySlug: 'vegetables',
-		category: 'Vegetables',
-		picture: '/veg/bottlegourd.png',
-		bacPicture:
-			'/veg/bottlegourd.png',
-		smallDetail:
-			'Bottle gourd, also known as calabash or lauki, is a type of gourd that is commonly used in cooking and baking, particularly in Asian, African, and Latin American cuisines. It has a mild, slightly sweet and slightly bitter flavor and is often used in savory dishes such as curries, stews, and soups.',
-		details: [
-			{
-				id: 1,
-				part: 'Description',
-				items: [
-					{
-						id: 1,
-						title: 'About',
-						detail:
-							`Bottle gourd can be sliced, diced, or grated, and it can be cooked in a variety of ways such as stir-frying, sautéing, or steaming. It's also used to make traditional dishes such as bottle gourd curry, bottle gourd dal, and bottle gourd kofta. Bottle gourd can also be used to make soups, stews, and curries, and it's also used as a filling for dumplings.`,
-					},
-					
-					
-				],
-			},
-			{
-				id: 2,
-				part: 'Additional info',
-				items: [
-					{
-						id: 1,
-						detail: `Bottle gourd is also used in traditional medicine, it's believed to have properties that may help improve digestion, reduce fever, and may have antioxidant effects. It's also used as a natural remedy for various ailments such as reducing inflammation, improving diabetes symptoms and helping in weight loss. It's also a good source of dietary fiber, potassium, and other essential minerals, and is low in calories.`,
-					},
-				],
-			},
-			{
-				id: 3,
-				part: 'Reviews',
-				items: [
-					{
-						id: '1',
-						name: '',
-						date: '',
-						title: '',
-						text: '',
-						rating: 3.5,
-					},
-				],
-			},
-		],
-	},
-	{
-		id: 144,
+		id: 145,
 		name: 'Green peas',
 		rating: 4.0,
 		tags: 'Cooking, Nutrition, Variety',
@@ -2481,19 +2427,19 @@ export const productsData = [
 		],
 	},
 	{
-		id: 145,
-		name: 'Pumpkin',
+		id: 146,
+		name: 'Banana Stem',
 		rating: 4.0,
 		tags: 'Cooking, Nutrition, Variety',
 		// rate: 10.4,
 		// offer: 7,
 		categorySlug: 'vegetables',
 		category: 'Vegetables',
-		picture: '/veg/pumpkin.png',
+		picture: '/veg/bananastem.png',
 		bacPicture:
-			'/veg/pumpkin.png',
+			'/veg/bananastem.png',
 		smallDetail:
-			'Pumpkin is a type of winter squash that is commonly used in cooking and baking, it is a staple in many cuisines worldwide. Pumpkin has a sweet and slightly nutty flavor and is often used in savory dishes such as soups, stews, curries, and roasted as a side dish. It can also be used in sweet dishes, such as pies, cakes, and breads, and in traditional dishes like pumpkin pie, pumpkin bread, and pumpkin soup.',
+			`Banana stem, also known as banana trunk, is a fibrous stem that grows from the base of the banana plant. It is commonly used in cooking and baking, particularly in Indian, Southeast Asian, and African cuisines. It has a slightly sour and astringent flavor and it's often used in savory dishes such as curries, stews, and soups.Banana stem is often used as a vegetable in cooking and it's a staple ingredient in many traditional dishes like curries, soups, and stews. `,
 		details: [
 			{
 				id: 1,
@@ -2501,9 +2447,9 @@ export const productsData = [
 				items: [
 					{
 						id: 1,
-						title: 'About',
+						title: '',
 						detail:
-							`Pumpkin can be roasted, boiled, steamed, pureed or grated, and it can be used as a main ingredient or as a garnish. The pumpkin seeds can also be roasted and used as a snack or a garnish.Pumpkin is also used in traditional medicine, it's believed to have properties that may help improve digestion, reduce fever, and may have antioxidant effects. Pumpkin is a good source of Vitamin A, Vitamin C, potassium, and dietary fiber, also they are considered a low-calorie food.`,
+							'',
 					},
 					
 					
@@ -2535,6 +2481,229 @@ export const productsData = [
 			},
 		],
 	},
+	{
+		id: 147,
+		name: 'Chinese Potato',
+		rating: 4.0,
+		tags: 'Cooking, Nutrition, Variety',
+		// rate: 10.4,
+		// offer: 7,
+		categorySlug: 'vegetables',
+		category: 'Vegetables',
+		picture: '/veg/chinesepotato.png',
+		bacPicture:
+			'/veg/chinesepotato.png',
+		smallDetail:
+			`Chinese potato, also known as Chinese yam, is a root vegetable that is commonly used in cooking and baking, particularly in Asian cuisine, such as Chinese, Korean and Japanese. It has a slightly sweet and nutty flavor and it's often used in savory dishes such as soups, stews, and stir-fries.Chinese potato is often used as a vegetable in cooking, it's a staple ingredient in many traditional dishes like soups, stews, and stir-fries.`,
+		details: [
+			{
+				id: 1,
+				part: 'Description',
+				items: [
+					{
+						id: 1,
+						title: '',
+						detail:
+							'',
+					},
+					
+					
+				],
+			},
+			{
+				id: 2,
+				part: 'Additional info',
+				items: [
+					{
+						id: 1,
+						detail: '',
+					},
+				],
+			},
+			{
+				id: 3,
+				part: 'Reviews',
+				items: [
+					{
+						id: '1',
+						name: '',
+						date: '',
+						title: '',
+						text: '',
+						rating: 3.5,
+					},
+				],
+			},
+		],
+	},
+	{
+		id: 148,
+		name: 'Beans',
+		rating: 4.0,
+		tags: 'Cooking, Nutrition, Variety',
+		// rate: 10.4,
+		// offer: 7,
+		categorySlug: 'vegetables',
+		category: 'Vegetables',
+		picture: '/veg/beans.png',
+		bacPicture:
+			'/veg/beans.png',
+		smallDetail:
+			``,
+		details: [
+			{
+				id: 1,
+				part: 'Description',
+				items: [
+					{
+						id: 1,
+						title: '',
+						detail:
+							'',
+					},
+					
+					
+				],
+			},
+			{
+				id: 2,
+				part: 'Additional info',
+				items: [
+					{
+						id: 1,
+						detail: '',
+					},
+				],
+			},
+			{
+				id: 3,
+				part: 'Reviews',
+				items: [
+					{
+						id: '1',
+						name: '',
+						date: '',
+						title: '',
+						text: '',
+						rating: 3.5,
+					},
+				],
+			},
+		],
+	},
+	{
+		id: 149,
+		name: 'Banana Flower',
+		rating: 4.0,
+		tags: 'Cooking, Nutrition, Variety',
+		// rate: 10.4,
+		// offer: 7,
+		categorySlug: 'vegetables',
+		category: 'Vegetables',
+		picture: '/veg/bananaflower.png',
+		bacPicture:
+			'/veg/bananaflower.pn',
+		smallDetail:
+			`Banana flower, also known as banana blossom or banana heart, is a large, cone-shaped, dark purple or red flower that grows at the end of a banana bunch. It is commonly used in cooking and baking, particularly in Asian, African and South American cuisines. It has a slightly bitter and astringent taste.The banana flower is often used as a vegetable in cooking, it's a staple ingredient in many traditional dishes like curries, soups, and stews.`,
+		details: [
+			{
+				id: 1,
+				part: 'Description',
+				items: [
+					{
+						id: 1,
+						title: '',
+						detail:
+							'',
+					},
+					
+					
+				],
+			},
+			{
+				id: 2,
+				part: 'Additional info',
+				items: [
+					{
+						id: 1,
+						detail: '',
+					},
+				],
+			},
+			{
+				id: 3,
+				part: 'Reviews',
+				items: [
+					{
+						id: '1',
+						name: '',
+						date: '',
+						title: '',
+						text: '',
+						rating: 3.5,
+					},
+				],
+			},
+		],
+	},
+
+
+	{
+		id: 150,
+		name: 'Butter Beans',
+		rating: 4.0,
+		tags: 'Cooking, Nutrition, Variety',
+		// rate: 10.4,
+		// offer: 7,
+		categorySlug: 'vegetables',
+		category: 'Vegetables',
+		picture: '/veg/butterbeans.png',
+		bacPicture:
+			'/veg/butterbeans.png',
+		smallDetail:
+			`Butter beans, also known as lima beans, are a type of legume that are commonly used in cooking and baking, particularly in Southern and Mediterranean cuisines. They have a creamy, buttery texture and a mild, nutty flavor.Butter beans are often used in savory dishes such as stews, soups, casseroles, and salads.`,
+		details: [
+			{
+				id: 1,
+				part: 'Description',
+				items: [
+					{
+						id: 1,
+						title: '',
+						detail:
+							'',
+					},
+					
+					
+				],
+			},
+			{
+				id: 2,
+				part: 'Additional info',
+				items: [
+					{
+						id: 1,
+						detail: '',
+					},
+				],
+			},
+			{
+				id: 3,
+				part: 'Reviews',
+				items: [
+					{
+						id: '1',
+						name: '',
+						date: '',
+						title: '',
+						text: '',
+						rating: 3.5,
+					},
+				],
+			},
+		],
+	},
+
 
 	//Fruits
 
@@ -3233,9 +3402,9 @@ export const productsData = [
 		//offer: 7,
 		categorySlug: 'fruits',
 		category: 'Fruits',
-		picture: '/fruits/plantain.png',
+		picture: '/fruits/banana.png',
 		bacPicture:
-			'/fruits/plantain.png',
+			'/fruits/banana.png',
 		smallDetail:
 		    `Bananas are a type of fruit that are commonly eaten fresh, they are a staple in many cuisines worldwide. Bananas have a sweet and slightly starchy flavor and are often eaten on their own as a snack, dessert or used in smoothies and baking. They can be eaten at different stages of ripeness, depending on the recipe. They can be green and unripe, which are typically used for savory dishes and can be fried, boiled, grilled or mashed. When they are yellow with brown spots they are considered ripe and are sweeter, they can be eaten as a side dish, fried or used in desserts.
 			`,
