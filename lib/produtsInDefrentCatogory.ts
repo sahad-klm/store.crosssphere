@@ -938,19 +938,20 @@ export const popularProductsData = [
 	},
 
 	{
-		id: 205,
-		name: 'Drumstick Leaves',
+		id: 115,
+		name: 'Cinnamon',
 		rating: 4.0,
-		tags: 'Curry, Soup, Flavor',
-		//rate: 10.4,
-		//offer: 7,
-		categorySlug: 'leaves',
-		category: 'Leaves',
-		picture: '/leaves/drumstickleaves.png',
+		tags: 'Flavoring, Preserving, Healing',
+		// rate: 10.4,
+		// offer: 7,
+
+		categorySlug: 'spices',
+		category: 'Spices',
+		picture: '/spices/cinnamon.png',
 		bacPicture:
-			'/leaves/drumstickleaves.png',
+			'/spices/cinnamon.png',
 		smallDetail:
-			`Drumstick leaves, also known as moringa leaves, are the leaves of the Moringa Oleifera tree, which is native to India and Pakistan. They are widely used in many parts of the world for their medicinal properties and as a leafy green vegetable.`,
+			`Cinnamon is a spice made from the bark of trees in the Cinnamomum family. It is most commonly used in cooking, but it can also have medicinal properties. Cinnamon is known for its warm, sweet and woody aroma. The two main types of cinnamon are Ceylon cinnamon (Cinnamomum verum) and Cassia cinnamon (Cinnamomum aromaticum or Cinnamomum cassia).Ceylon cinnamon is lighter in color and has a sweeter, more delicate taste, while Cassia cinnamon is darker, coarser and more pungent.`,
 		details: [
 			{
 				id: 1,
@@ -958,10 +959,9 @@ export const popularProductsData = [
 				items: [
 					{
 						id: 1,
-						title: 'Nutritious',
+						title: '',
 						detail:
-							`Drumstick leaves are highly nutritious and are a good source of vitamins A, B, C, and K, as well as minerals such as calcium, iron, and potassium. They are also a good source of protein and dietary fiber.
-							`,
+							``,
 					},
 					
 					
@@ -973,7 +973,7 @@ export const popularProductsData = [
 				items: [
 					{
 						id: 1,
-						detail: '',
+						detail: ``,
 					},
 				],
 			},

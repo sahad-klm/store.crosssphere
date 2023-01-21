@@ -655,10 +655,14 @@ export const aboutCompany = [
       {
         id: 2,
         paragraph:
-          "We pride ourselves on our ability to provide personalized service and tailor our offerings to meet the specific needs of each of our clients. We understand the importance of timely delivery and work closely with our partners to ensure that all shipments are delivered on schedule.Our product offerings include a wide range of spices,Vegetables,fruits and others, and we are constantly updating our inventory to include the latest trends and innovations. We have a strong reputation for providing our customers with competitive prices and exceptional customer service",
+          "INDIA CONTRIBUTES 70% OF GLOBAL SPICE PRODUCTION.",
+      },{
+        id: 3,
+        paragraph:
+          "India is one of the world's largest producers of spices, responsible for about 70% of global spice production. The country is known for its production of a wide variety of spices, including black pepper, cardamom, cumin, turmeric, and cinnamon. India's favorable climate and rich soil make it well-suited for growing a wide range of spices, and the country has a long history of cultivating and exporting spices.",
       },
       {
-        id: 3,
+        id: 4,
         paragraph:
           "If you're looking for a reliable and trustworthy exporting partner, look no further than Fidora international.",
       },

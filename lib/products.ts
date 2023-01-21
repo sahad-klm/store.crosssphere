@@ -7,15 +7,10 @@ export const productsData = [
 		name: 'Green Cardamom',
 		rating: 4.0,
 		tags: 'Flavoring, Preserving, Healing',
-		// rate: 10.4,
-		// offer: 7,
-
 		categorySlug: 'spices',
 		category: 'Spices',
 		picture: '/spices/cardamom.png',
-		partOf : 'popular',
-		bgImage: '/coconut.jpg',
-		
+		bgImage: '/coconut.jpg',		
 		bacPicture:
 			'/spices/cardamom.png',
 		smallDetail:
@@ -523,6 +518,7 @@ export const productsData = [
 		categorySlug: 'spices',
 		category: 'Spices',
 		picture: '/spices/cumin.png',
+		partOf : 'popular',
 		bacPicture:
 			'/spices/cumin.png',
 		smallDetail:
@@ -693,6 +689,7 @@ export const productsData = [
 		categorySlug: 'spices',
 		category: 'Spices',
 		picture: '/spices/redchilli.png',
+		partOf : 'popular',
 		bacPicture:
 			'/spices/redchilli.png',
 		smallDetail:
@@ -884,7 +881,7 @@ export const productsData = [
 		bacPicture:
 			'/spices/cinnamon.png',
 		smallDetail:
-			``,
+			`Cinnamon is a spice made from the bark of trees in the Cinnamomum family. It is most commonly used in cooking, but it can also have medicinal properties. Cinnamon is known for its warm, sweet and woody aroma. The two main types of cinnamon are Ceylon cinnamon (Cinnamomum verum) and Cassia cinnamon (Cinnamomum aromaticum or Cinnamomum cassia).Ceylon cinnamon is lighter in color and has a sweeter, more delicate taste, while Cassia cinnamon is darker, coarser and more pungent.`,
 		details: [
 			{
 				id: 1,
@@ -892,7 +889,7 @@ export const productsData = [
 				items: [
 					{
 						id: 1,
-						title: 'Medicine',
+						title: '',
 						detail:
 							``,
 					},
@@ -1770,7 +1767,7 @@ export const productsData = [
 		categorySlug: 'vegetables',
 		category: 'Vegetables',
 		picture: '/veg/ashgourd.png',
-		partOf: 'trending',
+		
 		bacPicture:
 			'/veg/ashgourd.png',
 		smallDetail:
@@ -4047,6 +4044,7 @@ export const productsData = [
 		categorySlug: 'leaves',
 		category: 'Leaves',
 		picture: '/leaves/drumstickleaves.png',
+		partOf: 'trending',
 		bacPicture:
 			'/leaves/drumstickleaves.png',
 		smallDetail:
@@ -4679,7 +4677,7 @@ export const productsData = [
 		categorySlug: 'powder',
 		category: 'Powder',
 		picture: '/powder/coffeepowder.png',
-		partOf : 'popular',
+		partOf : '',
 		bacPicture:
 			'/powder/coffeepowder.png',
 		smallDetail:
