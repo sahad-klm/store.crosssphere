@@ -1,4 +1,4 @@
-import { Icon } from '@/lib/icon';
+import { Icon, Love } from '@/lib/icon';
 import Image from 'next/image';
 import Link from 'next/link';
 
@@ -101,21 +101,21 @@ function OneProductWithOffer({
 
         <div className="invisible absolute flex h-9 flex-row items-center justify-center rounded border border-emerald-300 bg-white md:group-hover/body:visible">
           <button name='button' className="group/btn1 group/etd relative outline-none border-none">
-            <Icon className="h-5 fill-emerald-500  duration-300 group-hover/btn1:-translate-y-1 group-hover/btn1:fill-yellow-400" />
+            <Love className="h-5 fill-emerald-500  duration-300 group-hover/btn1:-translate-y-1 group-hover/btn1:fill-yellow-400" />
             <span className="invisible absolute -right-5 -top-[44px] w-max rounded bg-emerald-500 px-2 py-2 font-body text-[10px] text-white transition-all group-hover/etd:visible md:text-xs">
               Add to wishlist
             </span>
           </button>
           <span className=" h-9 w-[1px] bg-slate-300" />
           <button name='button' className="group/btn1 group/etd relative outline-none border-none">
-            <Icon className="h-5 fill-emerald-500  duration-300 group-hover/btn1:-translate-y-1 group-hover/btn1:fill-yellow-400" />
+            <Love className="h-5 fill-emerald-500  duration-300 group-hover/btn1:-translate-y-1 group-hover/btn1:fill-yellow-400" />
             <span className="invisible absolute -right-5 -top-[44px] w-max rounded bg-emerald-500 px-2 py-2 font-body text-[10px] text-white transition-all group-hover/etd:visible md:text-xs">
               Add to campier
             </span>
           </button>
           <span className=" h-9 w-[1px] bg-slate-300" />
           <button name='button' className="group/btn1 group/etd relative">
-            <Icon className="h-5 fill-emerald-500  duration-300 group-hover/btn1:-translate-y-1 outline-none border-none group-hover/btn1:fill-yellow-400" />
+            <Love className="h-5 fill-emerald-500  duration-300 group-hover/btn1:-translate-y-1 outline-none border-none group-hover/btn1:fill-yellow-400" />
             <span className="invisible absolute -right-5 -top-[44px] w-max rounded bg-emerald-500 px-2 py-2 font-body text-[10px] text-white transition-all group-hover/etd:visible md:text-xs ">
               Quick view
             </span>

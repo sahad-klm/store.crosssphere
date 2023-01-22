@@ -334,7 +334,7 @@ export const PalkuppyIcon = (
 
 //icons browse all category:
 
-export const OtherIcon = (
+export const SpicesIcon = (
   props: any,
 ): HtmlHTMLAttributes<SVGAElement> | any => (
   <svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
@@ -348,7 +348,7 @@ export const OtherIcon = (
   </svg>
 );
 
-export const SpicesIcon = (
+export const OtherIcon = (
   props: any,
 ): HtmlHTMLAttributes<SVGAElement> | any => (
   <svg width="30px" height="30px" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -410,6 +410,8 @@ export const LeafIcon = (
     <path d="M63.9417 69.3275C63.941 70.6382 64.4241 71.9028 65.2985 72.8787L67.2828 71.1024C66.6905 70.4406 66.4675 69.5271 66.6879 68.6669C66.9077 67.8061 67.5423 67.1124 68.3797 66.8165L67.4928 64.305C65.3668 65.0598 63.9449 67.0708 63.9417 69.3275Z" fill="#3BB77E"></path>
   </svg>
 );
+
+
 
 //about :
 

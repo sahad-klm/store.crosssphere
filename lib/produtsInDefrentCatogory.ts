@@ -874,7 +874,7 @@ export const popularProductsData = [
 	},
 
 	{
-		id: 114,
+		id: 103,
 		name: 'Turmeric',
 		rating: 4.0,
 		tags: 'Flavoring, Preserving, Healing',
@@ -938,7 +938,7 @@ export const popularProductsData = [
 	},
 
 	{
-		id: 115,
+		id: 108,
 		name: 'Cinnamon',
 		rating: 4.0,
 		tags: 'Flavoring, Preserving, Healing',
@@ -995,7 +995,7 @@ export const popularProductsData = [
 	},
 
 	{
-		id: 108,
+		id: 102,
 		name: 'Pepper',
 		rating: 4.0,
 		tags: 'Flavoring, Preserving, Healing',

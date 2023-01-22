@@ -89,10 +89,9 @@ export const productsData = [
 			// },
 		],
 	},
-
 	{
 		id: 102,
-		name: 'Anise',
+		name: 'Pepper',
 		rating: 4.0,
 		tags: 'Flavoring, Preserving, Healing',
 		// rate: 10.4,
@@ -100,13 +99,12 @@ export const productsData = [
 
 		categorySlug: 'spices',
 		category: 'Spices',
-		picture: '/spices/anise.png',
+		picture: '/spices/pepper.png',
 		bgImage: '/vegd.jpg',
-
 		bacPicture:
-			'/spices/anise.png',
+			'/spices/pepper.png',
 		smallDetail:
-			'Anise, also known as aniseed, is a spice that is commonly used in cooking and baking. It has a distinct licorice-like flavor and is often used in savory dishes such as stews and soups, as well as in sweet dishes like cakes, cookies, and candies. Anise is also a key ingredient in liqueurs such as ouzo and sambuca, and it can be used to flavor coffee, tea, and others. It is also used in traditional medicine in some cultures to help with digestion, relieve gas, and as an expectorant.',
+			'Pepper is a spice that is commonly used in cooking and baking. It is obtained from the berries of the pepper plant and it is available in different forms such as whole peppercorns, ground pepper and cracked pepper.Black pepper is the most common form used in cooking, it has a strong, pungent and slightly hot flavor. It is used in a wide range of dishes, from savory to sweet, it is a staple ingredient in many cuisines around the world. It is used to add flavor to soups, stews, meat dishes, vegetable dishes, and salad dressings.',
 		details: [
 			{
 				id: 1,
@@ -114,10 +112,17 @@ export const productsData = [
 				items: [
 					{
 						id: 1,
-						title: '',
+						title: 'About',
 						detail:
-							'',
+							'India is the largest producer of pepper in the world. The state of Kerala in southern India is particularly known for its high-quality pepper production. Other major pepper producing states in India include Tamil Nadu, Karnataka, and Andhra Pradesh. Other countries that also produce significant amounts of pepper include Brazil, Indonesia, Vietnam, and China.',
 					},
+					{
+						id: 2,
+						title: 'Medicine',
+						detail:
+							'Pepper is also used in traditional medicine, it is believed to have properties that may help relieve pain, improve digestion, and may have antioxidant effects.',
+					},
+					
 					
 				],
 			},
@@ -136,7 +141,7 @@ export const productsData = [
 				part: 'Reviews',
 				items: [
 					{
-						id: '',
+						id: '1',
 						name: '',
 						date: '',
 						title: '',
@@ -147,10 +152,9 @@ export const productsData = [
 			},
 		],
 	},
-
 	{
 		id: 103,
-		name: 'Cloves',
+		name: 'Turmeric',
 		rating: 4.0,
 		tags: 'Flavoring, Preserving, Healing',
 		// rate: 10.4,
@@ -158,13 +162,12 @@ export const productsData = [
 
 		categorySlug: 'spices',
 		category: 'Spices',
-		picture: '/spices/cloves.png',
+		picture: '/spices/turmeric.png',
 		bgImage: '/fruit.jpg',
-
 		bacPicture:
-			'/spices/cloves.png',
+			'/spices/turmeric.png',
 		smallDetail:
-			'Cloves are a spice that is commonly used in cooking and baking, particularly in Asian, African, and Middle Eastern cuisines. They have a strong, pungent, and sweet flavor and are often used in savory dishes such as curries, stews, and meat dishes, as well as in sweet dishes like cakes, pies, and mulled wine.  ',
+			`Turmeric is a spice that is commonly used in cooking and baking, particularly in Indian, Middle Eastern, and Southeast Asian cuisines. It has a warm, earthy, and slightly bitter flavor, and it's often used in savory dishes such as curries, stews, and meat dishes, as well as in some sweet dishes.Turmeric is often used as a spice in cooking, it's a common ingredient in many traditional dishes like curries, soups, and stews. It's also used to make seasoning blends and rubs, and to color and flavor mustard, butter, and cheese.`,
 		details: [
 			{
 				id: 1,
@@ -172,10 +175,18 @@ export const productsData = [
 				items: [
 					{
 						id: 1,
+						title: 'Produce',
+						detail:
+							'India is the largest producer of turmeric in the world. The state of Kerala in southern India are particularly known for their high-quality turmeric production. Other major turmeric producing states in India include Tamil Nadu, Odisha, and West Bengal. Other countries that also produce significant amounts of turmeric include China, Indonesia, and Sri Lanka.',
+					},
+					{
+						id: 2,
 						title: 'Medicine',
 						detail:
-							`Cloves can also be used to make a tea which is known to have medicinal properties, such as reducing pain, relieving nausea, and promoting digestion. Cloves are also used in Ayurvedic`,
+							`Turmeric is also used in traditional medicine, it's believed to have properties that may help relieve pain, improve digestion, and may have anti-inflammatory and antioxidant effects. Curcumin, the active ingredient in turmeric, is being studied for its potential benefits in treating a wide range of health conditions, including cancer, Alzheimer's disease, and heart disease. Turmeric supplements and turmeric tea are also commonly used as natural remedies for various ailments such as reducing inflammation, fighting cancer cells, and improving brain function.`,
 					},
+					
+					
 					
 				],
 			},
@@ -208,7 +219,7 @@ export const productsData = [
 
 	{
 		id: 104,
-		name: 'Coriander',
+		name: 'Chilli',
 		rating: 4.0,
 		tags: 'Flavoring, Preserving, Healing',
 		// rate: 10.4,
@@ -216,13 +227,13 @@ export const productsData = [
 
 		categorySlug: 'spices',
 		category: 'Spices',
-		picture: '/spices/cordiander.png',
+		picture: '/spices/redchilli.png',
+		partOf : 'popular',
 		bgImage: '/chillid.jpg',
-
 		bacPicture:
-			'/spices/cordiander.png',
+			'/spices/redchilli.png',
 		smallDetail:
-			'Coriander, also known as cilantro or Chinese parsley, is a herb that is commonly used in cooking and baking, particularly in Asian, African, and Latin American cuisines. The leaves and seeds of the coriander plant are used in cooking, and they have a distinct, fresh and citrusy flavor.',
+			`Chilli, also spelled chili, is a spice that is commonly used in cooking and baking, particularly in Mexican, Indian, and Asian cuisines. It is made from the dried, ground fruit of various types of chili pepper plants, and it has a strong, spicy flavor.Chilli powder is often used as a spice in cooking, it's a common ingredient in many traditional dishes like chili con carne, curries, stews, and marinades. It can also be used to make seasoning blends and rubs. .`,
 		details: [
 			{
 				id: 1,
@@ -232,7 +243,13 @@ export const productsData = [
 						id: 1,
 						title: 'About',
 						detail:
-							` The leaves are often used as a garnish or added to salads, salsas, and dips, while the seeds are used in spice blends, curries, stews, and marinades. The seeds can also be dry-roasted or ground to make a powder that is used as a seasoning. Coriander seeds are also used in traditional medicine as a remedy for digestive issues, anxiety, and to lower blood sugar levels.`,
+							`It's also used to add heat and flavor to salsas, hot sauces, and other condiments.Fresh or dried chili peppers are also widely used in cooking, they can be added to dishes for a spicy kick, they can also be used to make spicy condiments and salsas`,
+					},
+					{
+						id: 2,
+						title: 'Medicine',
+						detail:
+							`Chilli is also used in traditional medicine, it's believed to have properties that may help relieve pain, improve digestion, and may have antioxidant effects. Capsaicin, the compound that gives chilies their heat, is also used in creams and ointments to alleviate pain caused by conditions such as arthritis and shingles.`,
 					},
 					
 				],
@@ -263,7 +280,6 @@ export const productsData = [
 			},
 		],
 	},
-
 	{
 		id: 105,
 		name: 'Ginger',
@@ -321,9 +337,354 @@ export const productsData = [
 			},
 		],
 	},
-
 	{
 		id: 106,
+		name: 'Tamarind',
+		rating: 4.0,
+		tags: 'Flavoring, Preserving, Healing',
+		// rate: 10.4,
+		// offer: 7,
+
+		categorySlug: 'spices',
+		category: 'Spices',
+		picture: '/spices/taramind.png',
+		bacPicture:
+			'/spices/taramind.png',
+		smallDetail:
+			`Tamarind is a tropical fruit that is commonly used in cooking and baking, particularly in Asian, African, and Latin American cuisines. It has a sour and sweet flavor and is used in both sweet and savory dishes.The pulp from tamarind fruit is often used to make a sweet and sour sauce that is used as a base for curries, stews, and marinades. `,
+		details: [
+			{
+				id: 1,
+				part: 'Description',
+				items: [
+					{
+						id: 1,
+						title: 'Uses',
+						detail:
+							`It's also used to make chutneys and jams, and as a flavoring in drinks such as tamarind juice, and in alcoholic beverages like beer and wine.Tamarind is also used to make a paste, which is used as an ingredient in many traditional dishes such as Sambar, a traditional South Indian lentil-vegetable stew, and in some North African dishes like Harira, a traditional soup.`,
+					},
+					{
+						id: 2,
+						title: 'Medicine',
+						detail:
+							`Tamarind is also used in traditional medicine, it's believed to have properties that may help relieve pain, improve digestion, and may have antioxidant effects. It's also used as a natural remedy for sore throat, fevers, and as a laxative. It's also used in some cultures as a folk remedy for treating skin infections, boils, and wounds.`,
+					},
+					
+					
+				],
+			},
+			{
+				id: 2,
+				part: 'Additional info',
+				items: [
+					{
+						id: 1,
+						detail: '',
+					},
+				],
+			},
+			{
+				id: 3,
+				part: 'Reviews',
+				items: [
+					{
+						id: '1',
+						name: '',
+						date: '',
+						title: '',
+						text: '',
+						rating: 3.5,
+					},
+				],
+			},
+		],
+	},
+	{
+		id: 107,
+		name: 'Cumin',
+		rating: 4.0,
+		tags: 'Flavoring, Preserving, Healing',
+		// rate: 10.4,
+		// offer: 7,
+
+		categorySlug: 'spices',
+		category: 'Spices',
+		picture: '/spices/cumin.png',
+		partOf : 'popular',
+		bacPicture:
+			'/spices/cumin.png',
+		smallDetail:
+			`Cumin is a spice that is commonly used in cooking and baking, particularly in Middle Eastern, Indian, Mexican and Mediterranean cuisines. It has a warm, earthy and slightly bitter flavor, and it's often used in savory dishes such as curries, stews, meat dishes, and vegetables. It's also an essential ingredient in many spice blends such as chili powder, garam masala and baharat.Cumin seeds can be used whole or ground, it is a staple ingredient in many traditional dishes like cumin rice, cumin potatoes, cumin chicken, and cumin lamb.`,
+		details: [
+			{
+				id: 1,
+				part: 'Description',
+				items: [
+					{
+						id: 1,
+						title: 'Medicine',
+						detail:
+							`Cumin is also used in traditional medicine, it's believed to have properties that may help relieve pain, improve digestion, and may have antioxidant effects. Some studies suggest that cumin may also have anti-inflammatory and anti-cancer properties. It's also used to add flavor to some cheeses, and to season breads, crackers, and other baked goods.`,
+					},
+					
+					
+				],
+			},
+			{
+				id: 2,
+				part: 'Additional info',
+				items: [
+					{
+						id: 1,
+						detail: '',
+					},
+				],
+			},
+			{
+				id: 3,
+				part: 'Reviews',
+				items: [
+					{
+						id: '1',
+						name: '',
+						date: '',
+						title: '',
+						text: '',
+						rating: 3.5,
+					},
+				],
+			},
+		],
+	},
+	{
+		id: 108,
+		name: 'Cinnamon',
+		rating: 4.0,
+		tags: 'Flavoring, Preserving, Healing',
+		// rate: 10.4,
+		// offer: 7,
+
+		categorySlug: 'spices',
+		category: 'Spices',
+		picture: '/spices/cinnamon.png',
+		bacPicture:
+			'/spices/cinnamon.png',
+		smallDetail:
+			`Cinnamon is a spice made from the bark of trees in the Cinnamomum family. It is most commonly used in cooking, but it can also have medicinal properties. Cinnamon is known for its warm, sweet and woody aroma. The two main types of cinnamon are Ceylon cinnamon (Cinnamomum verum) and Cassia cinnamon (Cinnamomum aromaticum or Cinnamomum cassia).Ceylon cinnamon is lighter in color and has a sweeter, more delicate taste, while Cassia cinnamon is darker, coarser and more pungent.`,
+		details: [
+			{
+				id: 1,
+				part: 'Description',
+				items: [
+					{
+						id: 1,
+						title: '',
+						detail:
+							``,
+					},
+					
+					
+				],
+			},
+			{
+				id: 2,
+				part: 'Additional info',
+				items: [
+					{
+						id: 1,
+						detail: ``,
+					},
+				],
+			},
+			{
+				id: 3,
+				part: 'Reviews',
+				items: [
+					{
+						id: '1',
+						name: '',
+						date: '',
+						title: '',
+						text: '',
+						rating: 3.5,
+					},
+				],
+			},
+		],
+	},
+
+	{
+		id: 109,
+		name: 'Anise',
+		rating: 4.0,
+		tags: 'Flavoring, Preserving, Healing',
+		// rate: 10.4,
+		// offer: 7,
+
+		categorySlug: 'spices',
+		category: 'Spices',
+		picture: '/spices/anise.png',
+		bacPicture:
+			'/spices/anise.png',
+		smallDetail:
+			'Anise, also known as aniseed, is a spice that is commonly used in cooking and baking. It has a distinct licorice-like flavor and is often used in savory dishes such as stews and soups, as well as in sweet dishes like cakes, cookies, and candies. Anise is also a key ingredient in liqueurs such as ouzo and sambuca, and it can be used to flavor coffee, tea, and others. It is also used in traditional medicine in some cultures to help with digestion, relieve gas, and as an expectorant.',
+		details: [
+			{
+				id: 1,
+				part: 'Description',
+				items: [
+					{
+						id: 1,
+						title: '',
+						detail:
+							'',
+					},
+					
+				],
+			},
+			{
+				id: 2,
+				part: 'Additional info',
+				items: [
+					{
+						id: 1,
+						detail: '',
+					},
+				],
+			},
+			{
+				id: 3,
+				part: 'Reviews',
+				items: [
+					{
+						id: '',
+						name: '',
+						date: '',
+						title: '',
+						text: '',
+						rating: 3.5,
+					},
+				],
+			},
+		],
+	},
+
+	{
+		id: 110,
+		name: 'Cloves',
+		rating: 4.0,
+		tags: 'Flavoring, Preserving, Healing',
+		// rate: 10.4,
+		// offer: 7,
+
+		categorySlug: 'spices',
+		category: 'Spices',
+		picture: '/spices/cloves.png',
+
+		bacPicture:
+			'/spices/cloves.png',
+		smallDetail:
+			'Cloves are a spice that is commonly used in cooking and baking, particularly in Asian, African, and Middle Eastern cuisines. They have a strong, pungent, and sweet flavor and are often used in savory dishes such as curries, stews, and meat dishes, as well as in sweet dishes like cakes, pies, and mulled wine.  ',
+		details: [
+			{
+				id: 1,
+				part: 'Description',
+				items: [
+					{
+						id: 1,
+						title: 'Medicine',
+						detail:
+							`Cloves can also be used to make a tea which is known to have medicinal properties, such as reducing pain, relieving nausea, and promoting digestion. Cloves are also used in Ayurvedic`,
+					},
+					
+				],
+			},
+			{
+				id: 2,
+				part: 'Additional info',
+				items: [
+					{
+						id: 1,
+						detail: '',
+					},
+				],
+			},
+			{
+				id: 3,
+				part: 'Reviews',
+				items: [
+					{
+						id: '1',
+						name: '',
+						date: '',
+						title: '',
+						text: '',
+						rating: 3.5,
+					},
+				],
+			},
+		],
+	},
+
+	{
+		id: 111,
+		name: 'Coriander',
+		rating: 4.0,
+		tags: 'Flavoring, Preserving, Healing',
+		// rate: 10.4,
+		// offer: 7,
+
+		categorySlug: 'spices',
+		category: 'Spices',
+		picture: '/spices/cordiander.png',
+
+		bacPicture:
+			'/spices/cordiander.png',
+		smallDetail:
+			'Coriander, also known as cilantro or Chinese parsley, is a herb that is commonly used in cooking and baking, particularly in Asian, African, and Latin American cuisines. The leaves and seeds of the coriander plant are used in cooking, and they have a distinct, fresh and citrusy flavor.',
+		details: [
+			{
+				id: 1,
+				part: 'Description',
+				items: [
+					{
+						id: 1,
+						title: 'About',
+						detail:
+							` The leaves are often used as a garnish or added to salads, salsas, and dips, while the seeds are used in spice blends, curries, stews, and marinades. The seeds can also be dry-roasted or ground to make a powder that is used as a seasoning. Coriander seeds are also used in traditional medicine as a remedy for digestive issues, anxiety, and to lower blood sugar levels.`,
+					},
+					
+				],
+			},
+			{
+				id: 2,
+				part: 'Additional info',
+				items: [
+					{
+						id: 1,
+						detail: '',
+					},
+				],
+			},
+			{
+				id: 3,
+				part: 'Reviews',
+				items: [
+					{
+						id: '1',
+						name: '',
+						date: '',
+						title: '',
+						text: '',
+						rating: 3.5,
+					},
+				],
+			},
+		],
+	},
+
+	{
+		id: 112,
 		name: 'Nutmeg',
 		rating: 4.0,
 		tags: 'Flavoring, Preserving, Healing',
@@ -389,7 +750,7 @@ export const productsData = [
 	},
 
 	{
-		id: 107,
+		id: 113,
 		name: 'Nutmeg & Mace',
 		rating: 4.0,
 		tags: 'Flavoring, Preserving, Healing',
@@ -445,128 +806,7 @@ export const productsData = [
 	},
 
 	{
-		id: 108,
-		name: 'Pepper',
-		rating: 4.0,
-		tags: 'Flavoring, Preserving, Healing',
-		// rate: 10.4,
-		// offer: 7,
-
-		categorySlug: 'spices',
-		category: 'Spices',
-		picture: '/spices/pepper.png',
-		bacPicture:
-			'/spices/pepper.png',
-		smallDetail:
-			'Pepper is a spice that is commonly used in cooking and baking. It is obtained from the berries of the pepper plant and it is available in different forms such as whole peppercorns, ground pepper and cracked pepper.Black pepper is the most common form used in cooking, it has a strong, pungent and slightly hot flavor. It is used in a wide range of dishes, from savory to sweet, it is a staple ingredient in many cuisines around the world. It is used to add flavor to soups, stews, meat dishes, vegetable dishes, and salad dressings.',
-		details: [
-			{
-				id: 1,
-				part: 'Description',
-				items: [
-					{
-						id: 1,
-						title: 'About',
-						detail:
-							'India is the largest producer of pepper in the world. The state of Kerala in southern India is particularly known for its high-quality pepper production. Other major pepper producing states in India include Tamil Nadu, Karnataka, and Andhra Pradesh. Other countries that also produce significant amounts of pepper include Brazil, Indonesia, Vietnam, and China.',
-					},
-					{
-						id: 2,
-						title: 'Medicine',
-						detail:
-							'Pepper is also used in traditional medicine, it is believed to have properties that may help relieve pain, improve digestion, and may have antioxidant effects.',
-					},
-					
-					
-				],
-			},
-			{
-				id: 2,
-				part: 'Additional info',
-				items: [
-					{
-						id: 1,
-						detail: '',
-					},
-				],
-			},
-			{
-				id: 3,
-				part: 'Reviews',
-				items: [
-					{
-						id: '1',
-						name: '',
-						date: '',
-						title: '',
-						text: '',
-						rating: 3.5,
-					},
-				],
-			},
-		],
-	},
-
-	{
-		id: 109,
-		name: 'Cumin',
-		rating: 4.0,
-		tags: 'Flavoring, Preserving, Healing',
-		// rate: 10.4,
-		// offer: 7,
-
-		categorySlug: 'spices',
-		category: 'Spices',
-		picture: '/spices/cumin.png',
-		partOf : 'popular',
-		bacPicture:
-			'/spices/cumin.png',
-		smallDetail:
-			`Cumin is a spice that is commonly used in cooking and baking, particularly in Middle Eastern, Indian, Mexican and Mediterranean cuisines. It has a warm, earthy and slightly bitter flavor, and it's often used in savory dishes such as curries, stews, meat dishes, and vegetables. It's also an essential ingredient in many spice blends such as chili powder, garam masala and baharat.Cumin seeds can be used whole or ground, it is a staple ingredient in many traditional dishes like cumin rice, cumin potatoes, cumin chicken, and cumin lamb.`,
-		details: [
-			{
-				id: 1,
-				part: 'Description',
-				items: [
-					{
-						id: 1,
-						title: 'Medicine',
-						detail:
-							`Cumin is also used in traditional medicine, it's believed to have properties that may help relieve pain, improve digestion, and may have antioxidant effects. Some studies suggest that cumin may also have anti-inflammatory and anti-cancer properties. It's also used to add flavor to some cheeses, and to season breads, crackers, and other baked goods.`,
-					},
-					
-					
-				],
-			},
-			{
-				id: 2,
-				part: 'Additional info',
-				items: [
-					{
-						id: 1,
-						detail: '',
-					},
-				],
-			},
-			{
-				id: 3,
-				part: 'Reviews',
-				items: [
-					{
-						id: '1',
-						name: '',
-						date: '',
-						title: '',
-						text: '',
-						rating: 3.5,
-					},
-				],
-			},
-		],
-	},
-
-	{
-		id: 110,
+		id: 114,
 		name: 'Fennel',
 		rating: 4.0,
 		tags: 'Flavoring, Preserving, Healing',
@@ -622,7 +862,7 @@ export const productsData = [
 	},
 
 	{
-		id: 111,
+		id: 115,
 		name: 'Garlic',
 		rating: 4.0,
 		tags: 'Flavoring, Preserving, Healing',
@@ -658,252 +898,6 @@ export const productsData = [
 					{
 						id: 1,
 						detail: '',
-					},
-				],
-			},
-			{
-				id: 3,
-				part: 'Reviews',
-				items: [
-					{
-						id: '1',
-						name: '',
-						date: '',
-						title: '',
-						text: '',
-						rating: 3.5,
-					},
-				],
-			},
-		],
-	},
-
-	{
-		id: 112,
-		name: 'Chilli',
-		rating: 4.0,
-		tags: 'Flavoring, Preserving, Healing',
-		// rate: 10.4,
-		// offer: 7,
-
-		categorySlug: 'spices',
-		category: 'Spices',
-		picture: '/spices/redchilli.png',
-		partOf : 'popular',
-		bacPicture:
-			'/spices/redchilli.png',
-		smallDetail:
-			`Chilli, also spelled chili, is a spice that is commonly used in cooking and baking, particularly in Mexican, Indian, and Asian cuisines. It is made from the dried, ground fruit of various types of chili pepper plants, and it has a strong, spicy flavor.Chilli powder is often used as a spice in cooking, it's a common ingredient in many traditional dishes like chili con carne, curries, stews, and marinades. It can also be used to make seasoning blends and rubs. .`,
-		details: [
-			{
-				id: 1,
-				part: 'Description',
-				items: [
-					{
-						id: 1,
-						title: 'About',
-						detail:
-							`It's also used to add heat and flavor to salsas, hot sauces, and other condiments.Fresh or dried chili peppers are also widely used in cooking, they can be added to dishes for a spicy kick, they can also be used to make spicy condiments and salsas`,
-					},
-					{
-						id: 2,
-						title: 'Medicine',
-						detail:
-							`Chilli is also used in traditional medicine, it's believed to have properties that may help relieve pain, improve digestion, and may have antioxidant effects. Capsaicin, the compound that gives chilies their heat, is also used in creams and ointments to alleviate pain caused by conditions such as arthritis and shingles.`,
-					},
-					
-				],
-			},
-			{
-				id: 2,
-				part: 'Additional info',
-				items: [
-					{
-						id: 1,
-						detail: '',
-					},
-				],
-			},
-			{
-				id: 3,
-				part: 'Reviews',
-				items: [
-					{
-						id: '1',
-						name: '',
-						date: '',
-						title: '',
-						text: '',
-						rating: 3.5,
-					},
-				],
-			},
-		],
-	},
-
-	{
-		id: 113,
-		name: 'Tamarind',
-		rating: 4.0,
-		tags: 'Flavoring, Preserving, Healing',
-		// rate: 10.4,
-		// offer: 7,
-
-		categorySlug: 'spices',
-		category: 'Spices',
-		picture: '/spices/taramind.png',
-		bacPicture:
-			'/spices/taramind.png',
-		smallDetail:
-			`Tamarind is a tropical fruit that is commonly used in cooking and baking, particularly in Asian, African, and Latin American cuisines. It has a sour and sweet flavor and is used in both sweet and savory dishes.The pulp from tamarind fruit is often used to make a sweet and sour sauce that is used as a base for curries, stews, and marinades. `,
-		details: [
-			{
-				id: 1,
-				part: 'Description',
-				items: [
-					{
-						id: 1,
-						title: 'Uses',
-						detail:
-							`It's also used to make chutneys and jams, and as a flavoring in drinks such as tamarind juice, and in alcoholic beverages like beer and wine.Tamarind is also used to make a paste, which is used as an ingredient in many traditional dishes such as Sambar, a traditional South Indian lentil-vegetable stew, and in some North African dishes like Harira, a traditional soup.`,
-					},
-					{
-						id: 2,
-						title: 'Medicine',
-						detail:
-							`Tamarind is also used in traditional medicine, it's believed to have properties that may help relieve pain, improve digestion, and may have antioxidant effects. It's also used as a natural remedy for sore throat, fevers, and as a laxative. It's also used in some cultures as a folk remedy for treating skin infections, boils, and wounds.`,
-					},
-					
-					
-				],
-			},
-			{
-				id: 2,
-				part: 'Additional info',
-				items: [
-					{
-						id: 1,
-						detail: '',
-					},
-				],
-			},
-			{
-				id: 3,
-				part: 'Reviews',
-				items: [
-					{
-						id: '1',
-						name: '',
-						date: '',
-						title: '',
-						text: '',
-						rating: 3.5,
-					},
-				],
-			},
-		],
-	},
-
-	{
-		id: 114,
-		name: 'Turmeric',
-		rating: 4.0,
-		tags: 'Flavoring, Preserving, Healing',
-		// rate: 10.4,
-		// offer: 7,
-
-		categorySlug: 'spices',
-		category: 'Spices',
-		picture: '/spices/turmeric.png',
-		bacPicture:
-			'/spices/turmeric.png',
-		smallDetail:
-			`Turmeric is a spice that is commonly used in cooking and baking, particularly in Indian, Middle Eastern, and Southeast Asian cuisines. It has a warm, earthy, and slightly bitter flavor, and it's often used in savory dishes such as curries, stews, and meat dishes, as well as in some sweet dishes.Turmeric is often used as a spice in cooking, it's a common ingredient in many traditional dishes like curries, soups, and stews. It's also used to make seasoning blends and rubs, and to color and flavor mustard, butter, and cheese.`,
-		details: [
-			{
-				id: 1,
-				part: 'Description',
-				items: [
-					{
-						id: 1,
-						title: 'Produce',
-						detail:
-							'India is the largest producer of turmeric in the world. The state of Kerala in southern India are particularly known for their high-quality turmeric production. Other major turmeric producing states in India include Tamil Nadu, Odisha, and West Bengal. Other countries that also produce significant amounts of turmeric include China, Indonesia, and Sri Lanka.',
-					},
-					{
-						id: 2,
-						title: 'Medicine',
-						detail:
-							`Turmeric is also used in traditional medicine, it's believed to have properties that may help relieve pain, improve digestion, and may have anti-inflammatory and antioxidant effects. Curcumin, the active ingredient in turmeric, is being studied for its potential benefits in treating a wide range of health conditions, including cancer, Alzheimer's disease, and heart disease. Turmeric supplements and turmeric tea are also commonly used as natural remedies for various ailments such as reducing inflammation, fighting cancer cells, and improving brain function.`,
-					},
-					
-					
-					
-				],
-			},
-			{
-				id: 2,
-				part: 'Additional info',
-				items: [
-					{
-						id: 1,
-						detail: '',
-					},
-				],
-			},
-			{
-				id: 3,
-				part: 'Reviews',
-				items: [
-					{
-						id: '1',
-						name: '',
-						date: '',
-						title: '',
-						text: '',
-						rating: 3.5,
-					},
-				],
-			},
-		],
-	},
-	{
-		id: 115,
-		name: 'Cinnamon',
-		rating: 4.0,
-		tags: 'Flavoring, Preserving, Healing',
-		// rate: 10.4,
-		// offer: 7,
-
-		categorySlug: 'spices',
-		category: 'Spices',
-		picture: '/spices/cinnamon.png',
-		bacPicture:
-			'/spices/cinnamon.png',
-		smallDetail:
-			`Cinnamon is a spice made from the bark of trees in the Cinnamomum family. It is most commonly used in cooking, but it can also have medicinal properties. Cinnamon is known for its warm, sweet and woody aroma. The two main types of cinnamon are Ceylon cinnamon (Cinnamomum verum) and Cassia cinnamon (Cinnamomum aromaticum or Cinnamomum cassia).Ceylon cinnamon is lighter in color and has a sweeter, more delicate taste, while Cassia cinnamon is darker, coarser and more pungent.`,
-		details: [
-			{
-				id: 1,
-				part: 'Description',
-				items: [
-					{
-						id: 1,
-						title: '',
-						detail:
-							``,
-					},
-					
-					
-				],
-			},
-			{
-				id: 2,
-				part: 'Additional info',
-				items: [
-					{
-						id: 1,
-						detail: ``,
 					},
 				],
 			},
@@ -3736,6 +3730,7 @@ export const productsData = [
 		categorySlug: 'others',
 		category: 'Others',
 		picture: '/others/drycoconut.png',
+		partOf : 'top-rated',
 		bacPicture:
 			'/others/drycoconut.png',
 		smallDetail:
@@ -3804,6 +3799,7 @@ export const productsData = [
 		categorySlug: 'others',
 		category: 'Others',
 		picture: '/others/eggs.png',
+		partOf : 'top-rated',
 		bacPicture:
 			'/others/eggs.png',
 		smallDetail:
@@ -4377,6 +4373,7 @@ export const productsData = [
 		categorySlug: 'leaves',
 		category: 'Leaves',
 		picture: '/leaves/bananaleaf.png',
+		partOf : 'top-rated',
 		bacPicture:
 			'/leaves/bananaleaf.png',
 		smallDetail:
@@ -4561,7 +4558,6 @@ export const productsData = [
 		categorySlug: 'powder',
 		category: 'Powder',
 		picture: '/powder/turmericpowder.png',
-		partOf : 'top-rated',
 		bacPicture:
 			'/powder/turmericpowder.png',
 		smallDetail:
@@ -4622,7 +4618,6 @@ export const productsData = [
 		categorySlug: 'powder',
 		category: 'Powder',
 		picture: '/powder/pepperpowder.png',
-		partOf : 'top-rated',
 		bacPicture:
 			'/powder/pepperpowder.png',
 		smallDetail:
@@ -4735,7 +4730,7 @@ export const productsData = [
 		categorySlug: 'oils',
 		category: 'Oils',
 		picture: '/oils/cardamomoil.png',
-		partOf : 'top-rated',
+		
 		bacPicture:
 			'/oils/cardamomoil.png',
 		smallDetail:
