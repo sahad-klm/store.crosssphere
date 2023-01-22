@@ -73,7 +73,7 @@ const ProductEachDetail = (product: any) => {
       </div>
       <div className="flex flex-col gap-[5px]">
         <p className="text-base text-gray-500">
-          Vender: <span className="text-emerald-500">Nestly coffrisjn</span>
+          Vender: <span className="text-emerald-500">Fidora</span>
         </p>
         <p className="text-base text-gray-500">
           Collection:{' '}

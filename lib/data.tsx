@@ -19,13 +19,13 @@ export const lastOneInNav: Props[] = [
   //   ),
   //   name: 'Compare',
   // },
-  {
-    id: 2,
-    icon: (
-      <Love className="scale-[.4] fill-gray-700 duration-300 hover:fill-emerald-500 group-hover/btn:fill-emerald-500 max-sm:-mx-1 sm:scale-[.6] " />
-    ),
-    name: 'Wishlist',
-  },
+  // {
+  //   id: 2,
+  //   icon: (
+  //     <Love className="scale-[.4] fill-gray-700 duration-300 hover:fill-emerald-500 group-hover/btn:fill-emerald-500 max-sm:-mx-1 sm:scale-[.6] " />
+  //   ),
+  //   name: 'Wishlist',
+  // },
   {
     id: 3,
     icon: (
