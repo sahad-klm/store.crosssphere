@@ -336,32 +336,32 @@ export const dailyBestSellerCategory = [
 export const feathersInTotals = [
   {
     id: 1,
-    title: 'Best prices & offer',
-    subtitle: 'Order %50 or more',
+    title: 'Best prices',
+    subtitle: 'lowest possible price',
     icon: <OfferIcon /> ,
   },
   {
     id: 2,
     title: 'Wide Assortment',
-    subtitle: '24/7 amazing service',
+    subtitle: '',
     icon: <WideIcon /> ,
   },
   {
     id: 3,
     title: 'Shipping',
-    subtitle: 'When you sing in',
+    subtitle: 'Air & Sea shipment',
     icon: <DeliveryIcon /> ,
   },
   {
     id: 4,
     title: 'Great Deal',
-    subtitle: 'Mega discount',
+    subtitle: 'high quality',
     icon: <DealIcon /> ,
   },
   {
     id: 5,
     title: 'Satisfaction',
-    subtitle: 'Within than 1 years',
+    subtitle: '24/7 Service',
     icon: <SatisfactionIcon /> ,
   },
 ];
@@ -602,7 +602,6 @@ export const footerApp_Payments = [
     ],
   },
 ];
-
 export const footerSocialMedia = [
   {
     id: 1,

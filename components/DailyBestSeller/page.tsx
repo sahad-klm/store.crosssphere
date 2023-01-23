@@ -85,10 +85,10 @@ const DailyBestSeller = (): any => {
             alt=""
             loading='lazy'
             width={200}
-            className=" absolute inset-0 -z-10 h-full w-full object-cover bg-[#7e7e7e]  "
+            className=" absolute inset-0 -z-10 h-full w-full object-cover bg-gray-500 opacity-[.9] "
           />
-          <h1 className="font-head text-[38px] leading-9 text-gray-800 md:text-h2 md:leading-10">
-            Bring <br className="hidden md:block" /> Nature Banana Leaves
+          <h1 className="font-head text-[38px] leading-9 text-gray-900 md:text-h2 md:leading-10">
+            Import <br className="hidden md:block" /> Nature Banana Leaves
           </h1>
           <ButtonShopNow paddingAndStyle="px-3 py-2" value="Shop Now" />
         </div>
