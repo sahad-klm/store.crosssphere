@@ -40,6 +40,7 @@ const Welcome2Top = () => {
   return (
     <motion.button
       initial="hide"
+      name='button'
       animate={yPosition >= 300 ? 'show' : 'hide'}
       variants={{
         show: {
