@@ -31,8 +31,8 @@ const Footer = () => {
             height={100}
             loading="lazy"
             alt=""
-            src="/logo.png"
-            className="w-64 shrink-0 object-cover brightness-200"
+            src="/logoWhite.png"
+            className="w-64 shrink-0 object-cover brightness-200 "
           />
           {/* <p className="mb-[10px] font-body text-sm text-gray-900 md:text-base">
             Export and Import
