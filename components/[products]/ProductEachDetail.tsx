@@ -8,8 +8,8 @@ const ProductEachDetail = (product: any) => {
   const [cartCount, setCartCount] = React.useState<number>(1);
   return (
     <div className="ml-5 flex w-full flex-col gap-5 ">
-      <span className="w-max rounded-md bg-pink-200 px-4 py-1 font-head text-sm  text-pink-600">
-        sale off
+      <span className="w-max rounded-md bg-emerald-200 px-4 py-1 font-head text-sm  text-emerald-600">
+        sale on
       </span>
       <h1 className="max-w-[90%] font-head text-h2 leading-[50px] text-gray-700 ">
         {product[0].name}
@@ -26,7 +26,7 @@ const ProductEachDetail = (product: any) => {
       <span className="flex flex-col gap-[10px]">
         <p className="inline-flex items-center gap-[10px] text-base text-gray-900">
           <TickFilledIcon className="-m-3 scale-50 fill-lime-700" />
-          South India
+          Available
           <span className="-ml-1 capitalize">
             Kerala
           </span>
