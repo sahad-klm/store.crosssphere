@@ -35,7 +35,7 @@ const Footer = () => {
           className="h-180 w-66 shrink-0  object-cover"
         />
           <p className="mb-[10px] font-body text-sm text-gray-900 md:text-base">
-            prevalent proposers alt holo
+            Export and Import
           </p>
           {footerAddress?.map((item) => (
             <div key={item.id} className="inline-flex items-start">
