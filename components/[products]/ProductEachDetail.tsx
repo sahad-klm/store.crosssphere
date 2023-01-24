@@ -26,18 +26,16 @@ const ProductEachDetail = (product: any) => {
       <span className="flex flex-col gap-[10px]">
         <p className="inline-flex items-center gap-[10px] text-base text-gray-900">
           <TickFilledIcon className="-m-3 scale-50 fill-lime-700" />
-          Available
+          Air and Sea
           <span className="-ml-1 capitalize">
-            Kerala
+            Shipment
           </span>
         </p>
         <p className="inline-flex items-center gap-[10px] text-base text-gray-500">
-          <TickFilledIcon className="-m-3 scale-50 fill-transparent" /> Usually
-          ready in 24 hours{' '}
+          <TickFilledIcon className="-m-3 scale-50 fill-transparent" /> Depend on product {' '}
         </p>
         <p className="inline-flex items-center gap-[10px] text-base text-emerald-500">
-          <TickFilledIcon className="-m-3 scale-50 fill-red-500" /> Don't check
-          in Other way
+          <TickFilledIcon className="-m-3 scale-50 fill-red-500" /> 
         </p>
       </span>
       <h4 className="max-w-[90%] text-lg text-gray-600">
@@ -73,7 +71,7 @@ const ProductEachDetail = (product: any) => {
       </div>
       <div className="flex flex-col gap-[5px]">
         <p className="text-base text-gray-500">
-          Vender: <span className="text-emerald-500">Fidora</span>
+          Vender: <span className="text-emerald-500">Fidora International</span>
         </p>
         <p className="text-base text-gray-500">
           Collection:{' '}
