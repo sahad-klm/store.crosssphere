@@ -6,17 +6,20 @@ import { pageTransitionSpeed } from '@/lib/motion';
 import { m } from 'framer-motion';
 import Header from 'components/Header/Header';
 import Footer from 'components/footer/Page';
-import { CallIcon, FacebookIcon, HashTagIcon, InstagramIcon, TwitterIcon, YoutubeIcon } from '@/lib/icon';
+import {
+  CallIcon,
+  FacebookIcon,
+  HashTagIcon,
+  InstagramIcon,
+  TwitterIcon,
+  YoutubeIcon,
+} from '@/lib/icon';
 import { footerSocialMedia } from '@/lib/data';
 import Feathers from 'components/feature/Page';
 import { usePathname } from 'next/navigation';
 import Welcome2Top from '@/ui/Welcome2Top';
-import { FloatingWhatsApp } from 'react-floating-whatsapp'
-import whatsAppIcon from 'public/frut.jpeg'
-
-
-      
-
+import { FloatingWhatsApp } from 'react-floating-whatsapp';
+import whatsAppIcon from 'public/frut.jpeg';
 
 const pageTransitionAnim = {
   show: {
@@ -54,7 +57,6 @@ const Layout = ({
   // hide features from collection
   const hideFeatures: boolean = pathName === '/collections' ? false : true;
 
-
   const socialMediaIcon = (platform: string): any => {
     switch (platform) {
       case 'facebook':
@@ -72,9 +74,7 @@ const Layout = ({
     }
   };
 
-
   // set header height
-
 
   useEffect(() => {
     if ((isBrowser && !lockHeight) || !hasChine) {
@@ -114,15 +114,18 @@ const Layout = ({
 
         {/* whatsApp */}
 
-        <FloatingWhatsApp phoneNumber='+91 70344 05123' accountName={'Fidora Exports'} avatar='../../logo.jpg' />
+        <FloatingWhatsApp
+          phoneNumber="+91 70344 05123"
+          accountName={'Fidora Exports'}
+          avatar="../../logo.jpg"
+        />
         <Footer />
-        <div className="flex flex-col items-center justify-center gap-3 border-t border-emerald-300 px-4 py-4 sm:gap-4 md:flex-row md:justify-between md:gap-5 md:py-6  ">
+        <div className="flex flex-col items-center justify-center gap-3 border-t border-emerald-300 px-4 py-2">
           <p className="cursor-default select-none text-center font-body text-xs text-gray-500 sm:text-sm md:text-left md:text-base">
-            © 2022, <span className="text-emerald-500">Shad</span>is the world class thief so he - Copied from
-            dodo's Github <br />
-            No rights reserved
+            © 2022, <span className="text-emerald-500">Shad</span>is the world
+            class thief so he - Copied from dodo's Github | No rights reserved
           </p>
-          <div className="flex flex-col gap-1 sm:gap-3 lg:flex-row lg:gap-5 xl:gap-10">
+          {/* <div className="flex flex-col gap-1 sm:gap-3 lg:flex-row lg:gap-5 xl:gap-10">
             <div className="flex items-center gap-2 lg:gap-3">
               <CallIcon className=" h-7 w-7 fill-gray-400 sm:h-9 sm:w-9 lg:h-10 lg:w-10" />
               <div>
@@ -145,8 +148,8 @@ const Layout = ({
                 </p>
               </div>
             </div>
-          </div>
-          <div>
+          </div> */}
+          {/* <div>
             <div className="inline-flex w-full flex-row items-end justify-center gap-2 md:flex-col lg:flex-row lg:gap-4">
               <h3 className="font-head text-xs text-gray-700 sm:text-sm md:text-base">
                 Follows us
@@ -166,7 +169,7 @@ const Layout = ({
             <p className="mt-[1px] text-center font-body text-[10px] text-gray-500 sm:text-xs md:text-right md:text-sm">
               Upto 15% discount on your first subscribe
             </p>
-          </div>
+          </div> */}
         </div>
         <Welcome2Top />
       </m.div>
