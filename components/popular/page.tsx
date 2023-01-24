@@ -4,7 +4,7 @@ import { TextCategory, TextCategoryMob } from '@/ui/TextCategory';
 import { popularProductCategory } from '@/lib/data';
 import React from 'react';
 import {  productsData } from '@/lib/products';
-import { popularProductsData } from '@/lib/produtsInDefrentCatogory';
+import { popularProductsData } from '@/lib/productsInDeferentCategory';
 
 type Props = {
   id: React.Key;

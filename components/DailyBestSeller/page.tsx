@@ -5,7 +5,7 @@ import DailyBestSellerInOneLine from './inOneLine/DailyBestSellerInOneLine';
 import { dailyBestSellerCategory } from '@/lib/data';
 import Image from 'next/image';
 import { OneProductWithOffer } from '@/ui/OneProductWithOffer';
-import { dailyBestSellerProduts, popularProductsData } from '@/lib/produtsInDefrentCatogory';
+import { dailyBestSellerProducts, popularProductsData } from '@/lib/productsInDeferentCategory';
 import { productsData } from '@/lib/products';
 
 const DailyBestSeller = (): any => {
@@ -16,7 +16,7 @@ const DailyBestSeller = (): any => {
 
   const [mouseOver, setMouseOver] = React.useState<string | any>('');
   const [windowWidth, setWindowWidth] = React.useState<number | any>();
-  const [isproductData, setIsProductData] = React.useState<any[]>(dailyBestSellerProduts)
+  const [isProductData, setIsProductData] = React.useState<any[]>(dailyBestSellerProducts)
 
   React.useEffect(() => {
     if (typeof window !== undefined) {
@@ -34,7 +34,7 @@ const DailyBestSeller = (): any => {
 
 
   React.useEffect(() => {
-    if (isSelectedCatN === 'Featured') return setIsProductData(dailyBestSellerProduts)
+    if (isSelectedCatN === 'Featured') return setIsProductData(dailyBestSellerProducts)
     else if (isSelectedCatN === 'Popular') return setIsProductData(popularProductsData)
     else if (isSelectedCatN === 'New added') return setIsProductData(productsData.sort((a, b) => b.id >= a.id ? 1 : -1))
 
@@ -93,7 +93,7 @@ const DailyBestSeller = (): any => {
           <ButtonShopNow paddingAndStyle="px-3 py-2" value="Shop Now" />
         </div>
         <div className="xl:flex hidden w-full items-start justify-start overflow-scroll gap-3">
-          {isproductData?.map((item) => (
+          {isProductData?.map((item) => (
             <OneProductWithOffer
               {...item}
               key={item.id}

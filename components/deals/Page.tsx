@@ -1,5 +1,5 @@
 import {  productsData } from '@/lib/products';
-import { dealOftheDayProdutsData } from '@/lib/produtsInDefrentCatogory';
+import { dealOftheDayProdutsData } from '@/lib/productsInDeferentCategory';
 import React from 'react';
 import ProductWithTimer from './ProductWithTimer';
 
