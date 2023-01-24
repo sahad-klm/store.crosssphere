@@ -30,7 +30,7 @@ const Cart = ({ isCart, setIsCart }: { isCart: boolean, setIsCart: React.SetStat
           opacity: '1'
         },
         hide: {
-          x: '100%',
+          x: '500%',
           opacity: '0'
         },
       }}

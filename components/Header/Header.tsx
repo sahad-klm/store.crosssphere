@@ -51,24 +51,24 @@ function Header(): any {
     }
   }, []);
 
-  // React.useEffect(() => {
-  //   const scrollFunction = () => {
-  //     let maxScroll = document.body.scrollHeight - window.innerHeight;
+  React.useEffect(() => {
+    const scrollFunction = () => {
+      let maxScroll = document.body.scrollHeight - window.innerHeight;
 
-  //     const currentScrollPos = window.pageYOffset;
+      const currentScrollPos = window.pageYOffset;
 
-  //     setTimeout(() => {
-  //       let currentPotions = window.pageYOffset;
+      setTimeout(() => {
+        let currentPotions = window.pageYOffset;
 
-  //       if (currentPotions === currentScrollPos && currentScrollPos < maxScroll)
-  //         return setBottomHide(true);
-  //       else setBottomHide(false);
-  //     }, 150);
-  //   };
-  //   if (typeof window !== undefined) {
-  //     window.addEventListener('scroll', () => scrollFunction());
-  //   }
-  // }, []);
+        if (currentPotions === currentScrollPos && currentScrollPos < maxScroll)
+          return setBottomHide(true);
+        else setBottomHide(false);
+      }, 150);
+    };
+    if (typeof window !== undefined) {
+      window.addEventListener('scroll', () => scrollFunction());
+    }
+  }, []);
 
   return (
     <>
