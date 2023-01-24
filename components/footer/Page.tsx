@@ -143,7 +143,7 @@ const Footer = () => {
             </span>
             <p className="text-xs text-white sm:text-sm">
               WHATSAPP <br />
-              00099438584325932
+              +917034405123
             </p>
           </li>
           <li className="inline-flex items-center justify-center gap-2">
@@ -174,7 +174,7 @@ const Footer = () => {
             </span>
             <p className="text-xs text-white sm:text-sm">
               TELEPHONE <br />
-              9537398429
+              7034405123
             </p>
           </li>
           <li className="inline-flex items-center justify-center gap-2">
@@ -223,7 +223,7 @@ const Footer = () => {
             </span>
             <p className="text-xs text-white sm:text-sm">
               EMAIL <br />
-              longasticshad@gamil.com
+              info@fidorainternational.com
             </p>
           </li>
         </div>

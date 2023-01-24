@@ -1,6 +1,6 @@
 // deals of the day
 
-export const dailyBestSellerProducts = [
+export const dealOftheDayProdutsData = [
 	{
 		id: 101,
 		name: 'Fresh Tender Coconut',
@@ -309,7 +309,7 @@ export const dailyBestSellerProducts = [
 
 // daily best seller
 
-export const dailyBestSellerProduts = [
+export const dailyBestSellerProducts = [
 	{
 		id: 235,
 		name: 'Cardamom Essential Oil',
