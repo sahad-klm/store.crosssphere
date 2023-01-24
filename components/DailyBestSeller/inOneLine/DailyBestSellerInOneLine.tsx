@@ -8,6 +8,7 @@ const DailyBestSellerInOneLine = ({
   mouseOver,
   setMouseOver,
   slidesPerView,
+  data
 }: any) => {
   return (
     <Swiper
@@ -15,10 +16,10 @@ const DailyBestSellerInOneLine = ({
       spaceBetween={25}
       slidesPerView={slidesPerView}
       navigation
-      autoplay={{ delay: 5000 }}
+      autoplay={{ delay: 2000 }}
       className="w-full"
     >
-      {productsData?.map((item) => (
+      {data?.map((item:any) => (
         <SwiperSlide key={item.id}>
           <OneProductWithOffer
             {...item}
