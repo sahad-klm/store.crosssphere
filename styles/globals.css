@@ -311,6 +311,6 @@ details {
 
 
 
-  .mapboxgl-control-container {
-    display: none;
-  }
+.mapboxgl-control-container {
+  display: none;
+}
