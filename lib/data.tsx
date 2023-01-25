@@ -921,24 +921,9 @@ export const contact = [
         address:
           'Kolkalam,Chengottur Po, Malappuram, Kerala, India 676503',
         phone: '+9170344 05123',
-        email: 'msahad736@gmail.com',
+        email: 'info@fidorainternational.com',
       },
-      {
-        id: 2,
-        title: 'Studio',
-        address:
-          'Kolkalam,Chengottur Po, Malappuram, Kerala, India 676503',
-        phone: '+9170344 05123',
-        email: 'sahadklm759@gmail.com',
-      },
-      {
-        id: 3,
-        title: 'Shop',
-        address:
-          'Kolkalam,Chengottur Po, Malappuram, Kerala, India 676503',
-        phone: '+9170344 05123',
-        email: 'msahad736@gmail.com',
-      },
+      
     ],
   },
 ];
