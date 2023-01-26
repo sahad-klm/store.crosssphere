@@ -122,8 +122,7 @@ const Layout = ({
         <Footer />
         <div className="flex flex-col items-center justify-center gap-3 border-t border-emerald-300 px-4 py-2">
           <p className="cursor-default select-none text-center font-body text-xs text-gray-500 sm:text-sm md:text-left md:text-base">
-            © 2022, <span className="text-emerald-500">Shad</span>is the world
-            class thief so he - Copied from dodo's Github | No rights reserved
+            © Copyright 2023 Dodo, <span className="text-emerald-500">Fidora International</span> All Rights Reserved.
           </p>
           {/* <div className="flex flex-col gap-1 sm:gap-3 lg:flex-row lg:gap-5 xl:gap-10">
             <div className="flex items-center gap-2 lg:gap-3">

@@ -25,14 +25,14 @@ const index = (data: {
       <>
         <div className="mt-52 flex h-full flex-col items-center justify-center">
           <Image width={1440} height={500} loading='lazy'
-            src="/stop.png"
+            src=""
             alt=""
             className="h-[500px] object-contain"
           />
           <h1
             style={{ fontSize: '40px', color: 'red', fontFamily: 'monospace' }}
           >
-            Wait few years
+            
           </h1>
         </div>
       </>
