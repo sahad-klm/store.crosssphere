@@ -26,14 +26,14 @@ const index = (data: {
       <>
         <div className="mt-52 flex h-full flex-col items-center justify-center">
           <Image width={1440} height={500} loading='lazy'
-            src="/404.png"
+            src=""
             alt=""
             className="h-[500px] object-contain"
           />
           <h1
             style={{ fontSize: '40px', color: 'red', fontFamily: 'monospace' }}
           >
-            onn sheriyaakki tharo, demand kaattalli
+            
           </h1>
           
         </div>

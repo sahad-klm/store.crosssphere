@@ -6,7 +6,7 @@ const OfferBoxInCollection = ({className}:{className?: string}) => {
     <div className={`relative z-0 flex flex-col  justify-center gap-1 overflow-hidden rounded-xl bg-cyan-200 p-12 shadow-md ${className}`}>
               <small className="font-body text-gray-600">Organic</small>
               <p className="font-head text-2xl leading-8">
-                Save 17% on <span className="text-emerald-500">Organic</span>{' '}
+                Fresh <span className="text-emerald-500">Organic</span>{' '}
                 Product
               </p>
 
