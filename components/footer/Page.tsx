@@ -24,15 +24,15 @@ const Footer = () => {
 
   return (
     <footer className="mt-[80px] flex w-full flex-col items-center justify-center overflow-hidden">
-      <ul className="flex w-full flex-col items-center justify-between gap-2 bg-emerald-500 px-4 py-2 md:flex-row">
+      <ul className="flex w-full flex-col items-center justify-between gap-2 bg-emerald-500 px-4 py-8 md:flex-row">
         <li className="flex-col gap-[4px]">
           <Image
-            width={176}
+            width={100}
             height={100}
             loading="lazy"
             alt=""
             src="/logoWhite.png"
-            className="w-64 shrink-0 object-cover brightness-200 "
+            className="h-full w-full shrink-0 object-cover brightness-200 "
           />
           {/* <p className="mb-[10px] font-body text-sm text-gray-900 md:text-base">
             Export and Import
