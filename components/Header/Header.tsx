@@ -75,9 +75,9 @@ function Header(): any {
       <nav className="relative top-0 z-[1000] hidden w-full flex-col lg:flex ">
         <div className="flex h-[105px] w-full items-center justify-between border-b-[1px] border-solid border-gray-700 border-opacity-20 bg-white py-7 sm:px-4">
           <Link aria-label="Read more" href="/" className="flex h-full items-center justify-center">
-            <Image width={176} height={100} loading='lazy' alt=''
+            <Image width={106} height={100} loading='lazy' alt=''
               src="/logo.png"
-              className="h-180 w-66 shrink-0  object-cover"
+              className="w-full h-full shrink-0  object-cover"
             />
           </Link>
           <SearchBar
@@ -147,9 +147,9 @@ function Header(): any {
             className="fa-solid fa-bars-staggered w-22 cursor-pointer text-2xl text-gray-700 sm:w-28 sm:text-3xl"
           />
           <Link aria-label="Read more" href="/" className="flex h-full items-center justify-center">
-            <Image width={176} height={1000} alt='' loading='lazy'
+            <Image width={100} height={100} alt='' loading='lazy'
               src="/logo.png"
-              className=" h-144 w-66 shrink-0 cursor-pointer object-contain"
+              className=" h-full w-full shrink-0 cursor-pointer object-contain"
             />
           </Link>
           <div>

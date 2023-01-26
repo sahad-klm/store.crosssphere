@@ -136,7 +136,7 @@ const Description = ({ products }: any) => {
           ),
         )}
       </div>
-      {isSelected === 'Reviews' && (
+      {/* {isSelected === 'Reviews' && (
         <div className="flex w-full flex-col gap-4">
           <>
             <h3 className="mb-3 font-head text-2xl text-gray-800">
@@ -244,7 +244,7 @@ const Description = ({ products }: any) => {
             </div>
           </>
         </div>
-      )}
+      )} */}
     </div>
   );
 };

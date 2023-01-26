@@ -338,31 +338,31 @@ export const feathersInTotals = [
     id: 1,
     title: 'Best prices',
     subtitle: 'lowest possible price',
-    icon: <OfferIcon /> ,
+    icon: <OfferIcon className="h-[50px] w-[50px]" /> ,
   },
   {
     id: 2,
     title: 'Wide Assortment',
     subtitle: '',
-    icon: <WideIcon /> ,
+    icon: <WideIcon className="h-[50px] w-[50px]" /> ,
   },
   {
     id: 3,
     title: 'Shipping',
     subtitle: 'Air & Sea shipment',
-    icon: <DeliveryIcon /> ,
+    icon: <DeliveryIcon className="h-[50px] w-[50px]" /> ,
   },
   {
     id: 4,
     title: 'Great Deal',
     subtitle: 'high quality',
-    icon: <DealIcon /> ,
+    icon: <DealIcon className="h-[50px] w-[50px]" /> ,
   },
   {
     id: 5,
     title: 'Satisfaction',
     subtitle: '24/7 Service',
-    icon: <SatisfactionIcon /> ,
+    icon: <SatisfactionIcon className="h-[50px] w-[50px]" /> ,
   },
 ];
 
