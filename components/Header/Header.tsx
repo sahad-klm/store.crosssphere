@@ -77,7 +77,7 @@ function Header(): any {
           <Link aria-label="Read more" href="/" className="flex h-full items-center justify-center">
             <Image width={106} height={100} loading='lazy' alt=''
               src="/logo.png"
-              className="w-full h-full shrink-0  object-cover"
+              className="w-full h-[120px] shrink-0  object-cover"
             />
           </Link>
           <SearchBar

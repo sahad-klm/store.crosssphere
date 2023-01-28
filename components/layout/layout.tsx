@@ -116,7 +116,7 @@ const Layout = ({
 
         <FloatingWhatsApp
           phoneNumber="+91 70344 05123"
-          accountName={'Fidora International'}
+          accountName={'Aldan International'}
           avatar="../../logo.jpg"
         />
         <Footer />

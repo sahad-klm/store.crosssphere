@@ -31,7 +31,7 @@ const Footer = () => {
             height={100}
             loading="lazy"
             alt=""
-            src="/logoWhite.png"
+            src="/logowhite.png"
             className="h-full w-full shrink-0 object-cover brightness-200 "
           />
           {/* <p className="mb-[10px] font-body text-sm text-gray-900 md:text-base">

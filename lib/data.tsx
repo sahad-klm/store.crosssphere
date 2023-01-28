@@ -649,7 +649,7 @@ export const aboutCompany = [
       {
         id: 1,
         paragraph:
-          "At Aldan , we are a leading exporting company that specializes in sourcing and delivering high-quality products to customers worldwide. Our team of experienced professionals has a deep understanding of international trade regulations and a strong network of suppliers and distributors.",
+          "We are a leading exporting company that specializes in sourcing and delivering high-quality products to customers worldwide. Our team of experienced professionals has a deep understanding of international trade regulations and a strong network of suppliers and distributors.",
       },
       {
         id: 2,
@@ -724,7 +724,7 @@ export const ourPerformance = [
     subtitle: [
       {
         id: 1,
-        text: 'At Fidora, we have a proven track record of delivering exceptional performance for our customers. Our extensive experience in the exporting industry and commitment to providing high-quality products and services have enabled us to establish a reputation as a trusted and reliable partner',
+        text: 'We have a proven track record of delivering exceptional performance for our customers. Our extensive experience in the exporting industry and commitment to providing high-quality products and services have enabled us to establish a reputation as a trusted and reliable partner',
       },
       {
         id: 2,
@@ -751,7 +751,7 @@ export const ourThings = [
     id: 3,
     title: 'Our mission',
     subtitle:
-      'At Fidora, our mission is to be a reliable and trustworthy partner for our customers by providing exceptional exporting services. We strive to make the process of importing and exporting goods as seamless and efficient as possible',
+      'Our mission is to be a reliable and trustworthy partner for our customers by providing exceptional exporting services. We strive to make the process of importing and exporting goods as seamless and efficient as possible',
   },
   {
     id: 4,
