@@ -107,7 +107,7 @@ function MyApp({ Component, pageProps, router }: AppProps) {
   return (
     <>
       <Head>
-        <title>Fidora International</title>
+        <title>Aldan International</title>
       </Head>
 
       <SiteContextProvider data={{ ...data }}>

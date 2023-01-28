@@ -338,31 +338,31 @@ export const feathersInTotals = [
     id: 1,
     title: 'Best prices',
     subtitle: 'lowest possible price',
-    icon: <OfferIcon className="h-[50px] w-[50px]" /> ,
+    icon: <OfferIcon className="h-[55px] w-[55px]" /> ,
   },
   {
     id: 2,
     title: 'Wide Assortment',
     subtitle: '',
-    icon: <WideIcon className="h-[50px] w-[50px]" /> ,
+    icon: <WideIcon className="h-[55px] w-[55px]" /> ,
   },
   {
     id: 3,
     title: 'Shipping',
     subtitle: 'Air & Sea shipment',
-    icon: <DeliveryIcon className="h-[50px] w-[50px]" /> ,
+    icon: <DeliveryIcon className="h-[55px] w-[55px]" /> ,
   },
   {
     id: 4,
     title: 'Great Deal',
     subtitle: 'high quality',
-    icon: <DealIcon className="h-[50px] w-[50px]" /> ,
+    icon: <DealIcon className="h-[55px] w-[55px]" /> ,
   },
   {
     id: 5,
     title: 'Satisfaction',
     subtitle: '24/7 Service',
-    icon: <SatisfactionIcon className="h-[50px] w-[50px]" /> ,
+    icon: <SatisfactionIcon className="h-[55px] w-[55px]" /> ,
   },
 ];
 
@@ -649,7 +649,7 @@ export const aboutCompany = [
       {
         id: 1,
         paragraph:
-          "At Fidora , we are a leading exporting company that specializes in sourcing and delivering high-quality products to customers worldwide. Our team of experienced professionals has a deep understanding of international trade regulations and a strong network of suppliers and distributors.",
+          "At Aldan , we are a leading exporting company that specializes in sourcing and delivering high-quality products to customers worldwide. Our team of experienced professionals has a deep understanding of international trade regulations and a strong network of suppliers and distributors.",
       },
       {
         id: 2,
@@ -663,7 +663,7 @@ export const aboutCompany = [
       {
         id: 4,
         paragraph:
-          "If you're looking for a reliable and trustworthy exporting partner, look no further than Fidora international.",
+          "If you're looking for a reliable and trustworthy exporting partner, look no further than Aldan international.",
       },
     ],
     picture: 'aboutus.jpg',
