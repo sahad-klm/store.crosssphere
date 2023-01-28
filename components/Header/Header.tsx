@@ -149,7 +149,7 @@ function Header(): any {
           <Link aria-label="Read more" href="/" className="flex h-full items-center justify-center">
             <Image width={100} height={100} alt='' loading='lazy'
               src="/logo.png"
-              className=" h-full w-full shrink-0 cursor-pointer object-contain"
+              className=" h-[100px] w-full shrink-0 cursor-pointer object-contain"
             />
           </Link>
           <div>
