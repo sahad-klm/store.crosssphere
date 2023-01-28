@@ -117,7 +117,7 @@ const Layout = ({
         <FloatingWhatsApp
           phoneNumber="+91 70344 05123"
           accountName={'Aldan International'}
-          avatar="../../logo.jpg"
+          avatar="../../icon.jpeg"
         />
         <Footer />
         <div className="flex flex-col items-center justify-center gap-3 border-t border-emerald-300 px-4 py-2">
