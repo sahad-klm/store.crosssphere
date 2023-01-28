@@ -77,7 +77,7 @@ function Header(): any {
           <Link aria-label="Read more" href="/" className="flex h-full items-center justify-center">
             <Image width={106} height={100} loading='lazy' alt=''
               src="/logo.png"
-              className="w-full h-[120px] shrink-0  object-cover"
+              className="w-full h-[260px] shrink-0  object-cover"
             />
           </Link>
           <SearchBar
@@ -149,7 +149,7 @@ function Header(): any {
           <Link aria-label="Read more" href="/" className="flex h-full items-center justify-center">
             <Image width={100} height={100} alt='' loading='lazy'
               src="/logo.png"
-              className=" h-[100px] w-full shrink-0 cursor-pointer object-contain"
+              className=" h-[220px] w-full shrink-0 cursor-pointer object-contain"
             />
           </Link>
           <div>
