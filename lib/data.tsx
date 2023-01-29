@@ -52,6 +52,7 @@ export const navbarLastCategory: {
       id: 1,
       icon: <Fire className="-mr-2 scale-50  fill-emerald-500" />,
       name: 'Deals',
+      slug: ''
     },
     {
       id: 2,
@@ -70,13 +71,14 @@ export const navbarLastCategory: {
       id: 4,
       icon: '',
       name: 'Shop',
-      slug: 'collections/all'
+      slug: 'collections'
 
     },
     {
       id: 6,
       icon: '',
       name: 'Mega menu',
+      slug: '',
       subMenu: [
         {
           id: 1,
@@ -921,7 +923,7 @@ export const contact = [
         address:
           'Kolkalam,Chengottur Po, Malappuram, Kerala, India 676503',
         phone: '+9170344 05123',
-        email: 'info@fidorainternational.com',
+        email: 'info@aldaninternational.com',
       },
       
     ],
