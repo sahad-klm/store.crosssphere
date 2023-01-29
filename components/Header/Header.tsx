@@ -77,7 +77,7 @@ function Header(): any {
           <Link aria-label="Read more" href="/" className="flex h-full items-center justify-center">
             <Image width={106} height={100} loading='lazy' alt=''
               src="/logo.png"
-              className="w-full h-[260px] shrink-0  object-cover"
+              className="w-full h-[144px] shrink-0  object-cover"
             />
           </Link>
           <SearchBar
@@ -149,7 +149,7 @@ function Header(): any {
           <Link aria-label="Read more" href="/" className="flex h-full items-center justify-center">
             <Image width={100} height={100} alt='' loading='lazy'
               src="/logo.png"
-              className=" h-[220px] w-full shrink-0 cursor-pointer object-contain"
+              className=" h-[120px] w-full shrink-0 cursor-pointer object-contain"
             />
           </Link>
           <div>
@@ -180,7 +180,7 @@ function Header(): any {
           >
             <div className="bg-tabNav relative flex items-center justify-center bg-gray-100 p-5 pt-20">
               <h1 className="font-head text-h3 text-slate-100">
-                Exports
+                International
               </h1>
               <i
                 onClick={() => setBrowseAllCategory(false)}
