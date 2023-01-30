@@ -36,7 +36,7 @@ const HomeComponent = (): any => {
               style={{ width: '100%', height: '100%' }}
             >
 
-              {/*  not in mobile  okay ithil ijj vallatum kalikkan nikkanda */}
+              {/*  not in mobile  okay ithil ijj vallatum kalikkan nikkanda. i am the best coder */}
               <div className="relative z-auto md:grid hidden h-full content-center overflow-hidden rounded-3xl pl-20">
                 <Image fill loading='eager' blurDataURL={item.picture}
                   className="absolute top-0 left-0 -z-10 h-full w-full object-cover"
