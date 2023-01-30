@@ -131,7 +131,7 @@ const DailyBestSeller = (): any => {
             data={isProductData}
           />
         </div>
-        <div className="flex w-full items-start justify-start sm:hidden ">
+        <div className="flex w-full items-start justify-start sm:hidden">
           <DailyBestSellerInOneLine
             mouseOver={mouseOver}
             setMouseOver={setMouseOver}
