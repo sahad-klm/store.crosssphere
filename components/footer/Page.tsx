@@ -143,7 +143,7 @@ const Footer = () => {
             </span>
             <p className="text-xs text-white sm:text-sm">
               WHATSAPP <br />
-              +917034405123
+              +918075122414
             </p>
           </li>
           <li className="inline-flex items-center justify-center gap-2">
@@ -174,7 +174,7 @@ const Footer = () => {
             </span>
             <p className="text-xs text-white sm:text-sm">
               TELEPHONE <br />
-              7034405123
+              +917034405123
             </p>
           </li>
           <li className="inline-flex items-center justify-center gap-2">

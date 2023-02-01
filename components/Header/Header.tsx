@@ -104,7 +104,7 @@ function Header(): any {
             <i className="fa-solid fa-headset text-3xl text-gray-800" />
             <div className="grid">
               <h1 className="font-head text-[26px] tracking-[3px] text-emerald-500 leading-6">
-                7034405123
+               8075122414
               </h1>
               <p className="font-body text-sm  tracking-wider ">
                 24/7 Support center
@@ -180,7 +180,7 @@ function Header(): any {
           >
             <div className="bg-tabNav relative flex items-center justify-center bg-gray-100 p-5 pt-20">
               <h1 className="font-head text-h3 text-slate-100">
-                International
+                Aldan International
               </h1>
               <i
                 onClick={() => setBrowseAllCategory(false)}
