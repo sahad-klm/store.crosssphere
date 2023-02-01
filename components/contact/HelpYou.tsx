@@ -29,7 +29,7 @@ const HelpYou = () => {
                   ease: [0.16, 1, 0.3, 1],
                   delay: .25 ,
                 }}
-                className="mb-5 font-head text-2xl text-emerald-500">
+                className="mb-2 font-head text-2xl text-emerald-500">
                   {item.subtitle}
                 </motion.small>
                 <motion.h1 
@@ -50,7 +50,7 @@ const HelpYou = () => {
                   duration: 0.2,
                   ease: [0.16, 1, 0.3, 1],
                   delay: .35 ,
-                }} className="mb-[30px] font-head text-5xl text-gray-700">
+                }} className="mb-[15px] font-head text-4xl text-gray-700">
                   {item.title}
                 </motion.h1>
                 {item.text?.map((text, tex) => (
@@ -84,7 +84,7 @@ const HelpYou = () => {
           </React.Fragment>
         ))}
       </div>
-      <div className="grid gap-4 md:gap-10 lg:grid-cols-2">
+      <div className="grid gap-4 md:gap-6 lg:grid-cols-2">
         {contact.map((item) => (
           <React.Fragment key={item.id}>
             {item.feature?.map((feature, idx) => (

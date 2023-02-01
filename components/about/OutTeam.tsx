@@ -101,7 +101,7 @@ const OutTeam = () => {
                       duration: 0.2,
                       ease: [0.16, 1, 0.3, 1],
                       delay: 0.55,
-                    }} className="mb-[30px] font-head text-5xl text-gray-800">
+                    }} className="mb-[30px] font-head text-4xl text-gray-800">
                     {team.subtitle}
                   </m.h1>
                   {team.text.map((text, te) => (

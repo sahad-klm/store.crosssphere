@@ -656,14 +656,10 @@ export const aboutCompany = [
       {
         id: 2,
         paragraph:
-          "INDIA CONTRIBUTES 70% OF GLOBAL SPICE PRODUCTION.",
-      },{
-        id: 3,
-        paragraph:
           "India is one of the world's largest producers of spices, responsible for about 70% of global spice production. The country is known for its production of a wide variety of spices, including black pepper, cardamom, cumin, turmeric, and cinnamon. India's favorable climate and rich soil make it well-suited for growing a wide range of spices, and the country has a long history of cultivating and exporting spices.",
       },
       {
-        id: 4,
+        id: 3,
         paragraph:
           "If you're looking for a reliable and trustworthy exporting partner, look no further than Aldan international.",
       },
@@ -675,44 +671,44 @@ export const aboutCompany = [
 export const what_We_Provide = [
   {
     id: 1,
-    title: 'Best Prices & Offers',
+    title: 'Best Prices',
     subtitle:
-      'We provide the best price for you. We negotiate with merchants and find the lowest possible price. We always give you the best price!',
+      'We provide the best price for you. We negotiate with merchants and find the lowest possible price.',
     icon: <OfferIcon />,
   },
   {
     id: 2,
     title: 'Wide Assortment',
     subtitle:
-      'We have a wide assortment of products that can be found on our website, and in a few clicks you will find what you are looking for.',
+      'Wide assortment of products that can be found on our website,In a few clicks you will find what you are looking for.',
     icon: <WideIcon />,
   },
   {
     id: 3,
     title: 'Air & Sea Shipping',
     subtitle:
-      `We offer both air and sea shipment options to our customers for getting your goods to their destination on time and in perfect condition`,
+      `We offer air & sea to our customers for getting your goods to their destination on time and in perfect condition`,
     icon: <DeliveryIcon />,
   },
   {
     id: 4,
     title: 'Packing',
     subtitle:
-      'We provide a good packing service. We offer various types of packing such as poly bag, carton box, pallet and thermal packages.',
+      'We offer various types of packing such as poly bag, carton box, pallet and thermal packages.',
     icon: <ConnectIcon />,
   },
   {
     id: 5,
     title: '100% Satisfaction',
     subtitle:
-      `We are committed to providing our customers with the highest level of service and support throughout the entire exporting process`,
+      `We are committed to providing service and support throughout the entire exporting process`,
     icon: <SatisfactionIcon />,
   },
   {
     id: 6,
     title: 'Great Daily Deal',
     subtitle:
-      'We ensures that every product sale is authentic and high quality.inspect every product and verified the quality before on export.',
+      `We ensures that inspect every products and verified the quality before on export.`,
     icon: <DealIcon />,
   },
 ];
@@ -726,7 +722,7 @@ export const ourPerformance = [
     subtitle: [
       {
         id: 1,
-        text: 'We have a proven track record of delivering exceptional performance for our customers. Our extensive experience in the exporting industry and commitment to providing high-quality products and services have enabled us to establish a reputation as a trusted and reliable partner',
+        text: 'We have a proven track record of delivering exceptional performance for our customers. ',
       },
       {
         id: 2,
@@ -741,19 +737,19 @@ export const ourThings = [
     id: 1,
     title: 'Who we are',
     subtitle:
-      'we are a team of experienced professionals who are dedicated to providing exceptional exporting services to our customers.Choose us as your exporting partner and let us help you navigate the global market with ease.',
+      'we are a team of experienced professionals who are dedicated to providing exceptional exporting services to our customers.',
   },
   {
     id: 2,
     title: 'Our history',
     subtitle:
-      'We have a long and rich history of providing exceptional exporting services to customers worldwide. Our company began as a small operation with a focus on spices, but over the years, we have grown to become a leading player in the industry',
+      'We began as a small operation with a focus on spices, but over the years, we have grown to become a leading player in the industry',
   },
   {
     id: 3,
     title: 'Our mission',
     subtitle:
-      'Our mission is to be a reliable and trustworthy partner for our customers by providing exceptional exporting services. We strive to make the process of importing and exporting goods as seamless and efficient as possible',
+      'Our mission is to be a reliable and trustworthy partner for our customers by providing exceptional exporting services.',
   },
   {
     id: 4,
@@ -881,7 +877,7 @@ export const contact = [
       },
       {
         id: 2,
-        text: 'We can help you with all the export formalities. We specialize in export of high-end goods. Our team of agents are experienced in customs clearance and documentation. Contact us now to find out more!',
+        text: 'We can help you with all the export formalities.Our team of agents are experienced in customs clearance and documentation. Contact us now to find out more!',
       },
     ],
   },
@@ -892,13 +888,13 @@ export const contact = [
         id: 1,
         order: '01',
         title: 'Visit Feedback',
-        text: 'We receive feedback from our customers.We want to be able to maintain a high customer rating, provide a consistent experience for each visitor, and work on improvements.',
+        text: 'We receive feedback from our customers.We want to be able to maintain a high customer rating, provide a consistent experience for each Costumer',
       },
       {
         id: 2,
         order: '02',
         title: 'Employer Services',
-        text: 'We take care of every aspect of finding, interviewing, and hiring the best talent for your company.Our mission is to ensure a safe, ethical, and enjoyable workplace for everyone.',
+        text: 'We take care of every aspect of finding, and hiring the best talent for your company.Our mission is to ensure a safe, ethical, and enjoyable workplace for everyone.',
       },
       {
         id: 3,

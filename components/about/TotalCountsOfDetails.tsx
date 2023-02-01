@@ -11,7 +11,7 @@ const TotalCountsOfDetails = () => {
       animate="show"
       exit="hide"
       variants={fadeAnim}
-      className="relative z-30 mt-5 flex sm:flex-row  flex-col justify-evenly flex-wrap gap-10 overflow-hidden rounded-2xl bg-[#4b675a] py-20 px-5 min-[921px]:grid-flow-col  min-[921px]:gap-5 
+      className="hidden relative z-30 mt-5 lg:flex sm:flex-row  flex-col justify-evenly flex-wrap gap-10 overflow-hidden rounded-2xl bg-[#4b675a] py-20 px-5 min-[921px]:grid-flow-col  min-[921px]:gap-5 
       min-[921px]:py-28 "
     >
       {ourThings.map((item) => (

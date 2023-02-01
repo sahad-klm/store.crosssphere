@@ -59,7 +59,7 @@ const OurPerformance = () => (
               ease: [0.16, 1, 0.3, 1],
               delay: 0.35,
             }}
-            className="flex h-[100%] w-[50%] items-center justify-center overflow-hidden rounded-2xl"
+            className="flex h-[100%]  w-[50%] items-center justify-center overflow-hidden rounded-2xl"
           >
             <Image
             width={1000}
