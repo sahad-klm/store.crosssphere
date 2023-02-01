@@ -56,7 +56,7 @@ const WhatWeProvide = () => (
 
             <h3 className="font-head text-2xl text-gray-700">{item.title}</h3>
             <p className="mb-1 text-[17px] text-gray-500">{item.subtitle}</p>
-            <small className="text-base text-emerald-500 ">Read more</small>
+            {/* <small className="text-base cursor-pointer text-emerald-500 ">Read more</small> */}
           </m.div>
         ))}
       </AnimatePresence>

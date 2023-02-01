@@ -29,7 +29,7 @@ const OutTeam = () => {
   };
 
   return (
-    <div className="mt-[50px] w-full">
+    <div className="mt-[-10px] lg:mt-[50px] w-full">
       <m.div
         initial="hide"
         animate="show"
@@ -172,7 +172,7 @@ const OutTeam = () => {
                       exit="hide"
                       variants={fadeAnim}
                       key={person.id}
-                      className="relative  flex w-full items-start justify-center overflow-hidden rounded-2xl"
+                      className="relative flex lg:w-[100%] w-[80%] items-start justify-center overflow-hidden rounded-2xl"
                     >
                       <m.img
                         initial="hide"
@@ -198,7 +198,7 @@ const OutTeam = () => {
                         alt=""
                         className="h-[80%] w-full rounded-2xl object-cover"
                       />
-                      <div className="absolute bottom-1 z-50 flex w-[80%]  flex-col items-center justify-center rounded-2xl bg-white p-[30px] shadow duration-300 hover:-translate-y-1">
+                      <div className="absolute bottom-1 z-50 flex w-[80%]  flex-col items-center justify-center rounded-2xl bg-white p-[20px] lg:p-[30px] shadow duration-300 hover:-translate-y-1">
                         <m.h1
                           initial="hide"
                           whileInView="show"

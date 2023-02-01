@@ -4,10 +4,10 @@ import { m } from 'framer-motion';
 import Image from 'next/image';
 
 const OurPerformance = () => (
-  <div className="mt-[50px] grid gap-5 max-md:grid-rows-2 md:grid-cols-2">
+  <div className="mt-[-2rem] lg:mt-[30px] grid gap-5 max-md:grid-rows-2 md:grid-cols-2">
     {ourPerformance.map((item) => (
       <React.Fragment key={item.id}>
-        <div className="flex h-full items-center justify-center gap-5">
+        <div className="flex h-full items-center justify-center gap-3">
           <m.div
             initial="hide"
             whileInView="show"
@@ -28,7 +28,7 @@ const OurPerformance = () => (
               ease: [0.16, 1, 0.3, 1],
               delay: 0.25,
             }}
-            className="flex h-[80%] w-[40%] items-center justify-center overflow-hidden rounded-2xl"
+            className="flex h-[11rem] w-[8rem] lg:h-[16rem] lg:w-[12rem] items-center justify-center overflow-hidden rounded-2xl"
           >
             <Image
               width={1000}
@@ -59,7 +59,7 @@ const OurPerformance = () => (
               ease: [0.16, 1, 0.3, 1],
               delay: 0.35,
             }}
-            className="flex h-[100%]  w-[50%] items-center justify-center overflow-hidden rounded-2xl"
+            className="flex h-[15rem] w-[11rem] lg:h-[20rem] lg:w-[16rem] items-center justify-center overflow-hidden rounded-2xl"
           >
             <Image
             width={1000}
@@ -92,7 +92,7 @@ const OurPerformance = () => (
               ease: [0.16, 1, 0.3, 1],
               delay: 0.55,
             }}
-            className="mt-4 mb-5 font-head text-2xl text-gray-500"
+            className="mt-[-2rem] lg:mt-4 mb-3 font-head text-2xl text-gray-500"
           >
             {item.head}
           </m.h3>
@@ -116,7 +116,7 @@ const OurPerformance = () => (
               ease: [0.16, 1, 0.3, 1],
               delay: 0.65,
             }}
-            className="mt-3 mb-7 font-head text-h2 leading-[1.3] text-gray-700"
+            className="mt-3 mb-5 font-head text-h2 leading-[1.3] text-gray-700"
           >
             {item.title}
           </m.h1>

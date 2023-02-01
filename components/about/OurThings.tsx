@@ -26,7 +26,7 @@ const OurThings = () => (
           delay: 0.45 * idx,
         }}
         key={item.id}
-        className="grid gap-[26px]"
+        className="grid gap-[18px]"
       >
         <h1 className="font-head text-h3 text-gray-800">{item.title}</h1>
         <p className="text-base text-gray-500">{item.subtitle}</p>

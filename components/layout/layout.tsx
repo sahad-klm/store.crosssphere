@@ -115,7 +115,7 @@ const Layout = ({
         {/* whatsApp */}
 
         <FloatingWhatsApp
-          phoneNumber="+91 70344 05123"
+          phoneNumber="+91 8075122414"
           accountName={'Aldan International'}
           avatar="../../icon.png" 
         />
