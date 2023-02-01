@@ -181,7 +181,7 @@ export const BrowseAllCategories: Props[] = [
     picture: '/featured/vegetables.png',
     slug: 'vegetables',
     bg: '#fffceb',
-    items: 13,
+    items: 31,
   },
   {
     id: 2,
@@ -190,7 +190,7 @@ export const BrowseAllCategories: Props[] = [
     picture: '/featured/spices.png',
     slug: 'spices',
     bg: '#ecffec',
-    items: 15,
+    items: 16,
   },
   {
     id: 3,
@@ -199,7 +199,7 @@ export const BrowseAllCategories: Props[] = [
     picture: '/featured/fruits.png',
     slug: 'fruits',
     bg: '#f2fce4',
-    items: 12,
+    items: 18,
   },
   {
     id: 4,
@@ -208,7 +208,7 @@ export const BrowseAllCategories: Props[] = [
     picture: '/featured/oils.png',
     slug: 'oils',
     bg: '#fff3eb',
-    items: 11,
+    items: 2,
   },
 
   {
@@ -218,7 +218,7 @@ export const BrowseAllCategories: Props[] = [
     picture: '/featured/leafvegetable.png',
     slug: 'leaves',
     bg: '#fff3ff',
-    items: 16,
+    items: 7,
   },
   {
     id: 6,
@@ -227,7 +227,7 @@ export const BrowseAllCategories: Props[] = [
     picture: '/featured/powder.png',
     slug: 'powder',
     bg: '#feefea',
-    items: 18,
+    items: 5,
   },
   {
     id: 7,
@@ -236,7 +236,7 @@ export const BrowseAllCategories: Props[] = [
     picture: '/featured/other.png',
     slug: 'others',
     bg: '#fffceb',
-    items: 11,
+    items: 5,
   },
   {
     id: 8,
@@ -245,7 +245,7 @@ export const BrowseAllCategories: Props[] = [
     picture: '/featured/flowers.png',
     slug: 'flowers',
     bg: '#feefea',
-    items: 17,
+    items: 0,
   },
   {
     id: 9,
@@ -254,7 +254,7 @@ export const BrowseAllCategories: Props[] = [
     picture: '/featured/fishes.png',
     slug: 'fishes',
     bg: '#feefea',
-    items: 17,
+    items: 0,
   },
 ];
 
