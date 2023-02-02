@@ -15,7 +15,7 @@ const ContactForm = () => {
   const [formValue, setFormValue] = useState(initialState);
 
   const handleSubmit = (element: React.FormEvent) => {
-    element.preventDefault()
+    element.preventDefault();
     const valueIsMoreThanZero =
       formValue.email.length > 0 &&
       formValue.email.length &&
@@ -25,17 +25,24 @@ const ContactForm = () => {
       formValue.subject.length;
 
     if (valueIsMoreThanZero) {
-      emailjs.send('service_8iz45q8', 'template_kebta6g',   formValue ,"1Iz_fZjNb2r4dgs7d").then(
-        function (response) {
-          console.log('SUCCESS!', response.status, response.text);
-          setFormValue(initialState);
-        },
-        function (error) {
-          console.log('FAILED...', error);
-        },
-      );
-
-  }; }
+      emailjs
+        .send(
+          'service_8iz45q8',
+          'template_kebta6g',
+          formValue,
+          '1Iz_fZjNb2r4dgs7d',
+        )
+        .then(
+          function (response) {
+            console.log('SUCCESS!', response.status, response.text);
+            setFormValue(initialState);
+          },
+          function (error) {
+            console.log('FAILED...', error);
+          },
+        );
+    }
+  };
   return (
     <div className="mt-24 flex w-full flex-row justify-between gap-12">
       <div className="grid flex-1 auto-rows-max ">
@@ -218,7 +225,7 @@ const ContactForm = () => {
               duration: 0.2,
               ease: [0.16, 1, 0.3, 1],
               delay: 0.65,
-            }} 
+            }}
             onClick={handleSubmit}
             className="h-16 w-max rounded-lg border-none bg-slate-500 px-16 font-head text-2xl text-white outline-none duration-300 hover:bg-emerald-500"
           >
