@@ -919,7 +919,7 @@ export const contact = [
         address:
           'Kolkalam,Chengottur Po, Malappuram, Kerala, India 676503',
         phone: '+91 8075122414',
-        email: 'info@aldaninternational.com',
+        email: 'info.aldaninternational@gmail.com',
       },
       
     ],
