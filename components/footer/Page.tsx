@@ -223,7 +223,7 @@ const Footer = () => {
             </span>
             <p className="text-xs text-white sm:text-sm">
               EMAIL <br />
-              info@aldaninternational.com
+              info.aldaninternational@gmail.com
             </p>
           </li>
         </div>
