@@ -10,7 +10,7 @@ export const productsData = [
 		categorySlug: 'spices',
 		category: 'Spices',
 		picture: '/spices/cardamom.png',
-		bgImage: '/coconut.jpg',		
+		bgImage: '/spices.jpg',		
 		bacPicture:
 			'/spices/cardamom.png',
 		smallDetail:
@@ -229,7 +229,7 @@ export const productsData = [
 		category: 'Spices',
 		picture: '/spices/redchilli.png',
 		partOf : 'popular',
-		bgImage: '/chillid.jpg',
+		bgImage: '/coconut.jpg',
 		bacPicture:
 			'/spices/redchilli.png',
 		smallDetail:
@@ -1422,19 +1422,18 @@ export const productsData = [
 	},
 	{
 		id: 128,
-		name: 'Curry Banana',
+		name: 'Mushroom',
 		rating: 4.0,
 		tags: 'Cooking, Nutrition, Variety',
 		// rate: 10.4,
 		// offer: 7,
 		categorySlug: 'vegetables',
 		category: 'Vegetables',
-		picture: '/veg/currybanana.png',
-		partOf : 'trending',
+		picture: '/veg/mushroom.png',
 		bacPicture:
-			'/veg/currybanana.png',
+			'/veg/mushroom.png',
 		smallDetail:
-		`Plantains are a type of fruit that are closely related to bananas but are typically used as a vegetable. They have a starchy, slightly sweet flavor and are often used in savory dishes such as curries, stews, and soups. Plantains can be eaten at different stages of ripeness, depending on the recipe. They can be green and unripe, which are typically used for savory dishes and can be fried, boiled, grilled or mashed. `,
+			``,
 		details: [
 			{
 				id: 1,
@@ -1442,9 +1441,9 @@ export const productsData = [
 				items: [
 					{
 						id: 1,
-						title: '',
+						title: 'Medicine',
 						detail:
-							`Plantains are also used in traditional medicine, they're believed to have properties that may help improve digestion, reduce fever, and may have antioxidant effects. Plantains are a good source of Vitamin A, Vitamin C, Vitamin B6, and dietary fiber, also they are considered a low-calorie food.`,
+							``,
 					},
 					
 					
@@ -2474,18 +2473,19 @@ export const productsData = [
 	},
 	{
 		id: 147,
-		name: 'Chinese Potato',
+		name: 'Curry Banana',
 		rating: 4.0,
 		tags: 'Cooking, Nutrition, Variety',
 		// rate: 10.4,
 		// offer: 7,
 		categorySlug: 'vegetables',
 		category: 'Vegetables',
-		picture: '/veg/chinesepotato.png',
+		picture: '/veg/currybanana.png',
+		partOf : 'trending',
 		bacPicture:
-			'/veg/chinesepotato.png',
+			'/veg/currybanana.png',
 		smallDetail:
-			`Chinese potato, also known as Chinese yam, is a root vegetable that is commonly used in cooking and baking, particularly in Asian cuisine, such as Chinese, Korean and Japanese. It has a slightly sweet and nutty flavor and it's often used in savory dishes such as soups, stews, and stir-fries.Chinese potato is often used as a vegetable in cooking, it's a staple ingredient in many traditional dishes like soups, stews, and stir-fries.`,
+		`Plantains are a type of fruit that are closely related to bananas but are typically used as a vegetable. They have a starchy, slightly sweet flavor and are often used in savory dishes such as curries, stews, and soups. Plantains can be eaten at different stages of ripeness, depending on the recipe. They can be green and unripe, which are typically used for savory dishes and can be fried, boiled, grilled or mashed. `,
 		details: [
 			{
 				id: 1,
@@ -2495,7 +2495,7 @@ export const productsData = [
 						id: 1,
 						title: '',
 						detail:
-							'',
+							`Plantains are also used in traditional medicine, they're believed to have properties that may help improve digestion, reduce fever, and may have antioxidant effects. Plantains are a good source of Vitamin A, Vitamin C, Vitamin B6, and dietary fiber, also they are considered a low-calorie food.`,
 					},
 					
 					
@@ -2637,10 +2637,64 @@ export const productsData = [
 			},
 		],
 	},
-
-
 	{
 		id: 150,
+		name: 'Chinese Potato',
+		rating: 4.0,
+		tags: 'Cooking, Nutrition, Variety',
+		// rate: 10.4,
+		// offer: 7,
+		categorySlug: 'vegetables',
+		category: 'Vegetables',
+		picture: '/veg/chinesepotato.png',
+		bacPicture:
+			'/veg/chinesepotato.png',
+		smallDetail:
+			`Chinese potato, also known as Chinese yam, is a root vegetable that is commonly used in cooking and baking, particularly in Asian cuisine, such as Chinese, Korean and Japanese. It has a slightly sweet and nutty flavor and it's often used in savory dishes such as soups, stews, and stir-fries.Chinese potato is often used as a vegetable in cooking, it's a staple ingredient in many traditional dishes like soups, stews, and stir-fries.`,
+		details: [
+			{
+				id: 1,
+				part: 'Description',
+				items: [
+					{
+						id: 1,
+						title: '',
+						detail:
+							'',
+					},
+					
+					
+				],
+			},
+			{
+				id: 2,
+				part: 'Additional info',
+				items: [
+					{
+						id: 1,
+						detail: '',
+					},
+				],
+			},
+			{
+				id: 3,
+				part: 'Reviews',
+				items: [
+					{
+						id: '1',
+						name: '',
+						date: '',
+						title: '',
+						text: '',
+						rating: 3.5,
+					},
+				],
+			},
+		],
+	},
+
+	{
+		id: 151,
 		name: 'Butter Beans',
 		rating: 4.0,
 		tags: 'Cooking, Nutrition, Variety',
@@ -4394,6 +4448,68 @@ export const productsData = [
 						title: 'Medicine',
 						detail:
 							'Banana leaves are also used in Ayurveda, traditional Indian medicine, where it is believed to have medicinal properties. They are used to make bandages and poultices, as well as to wrap food as a way to preserve its nutritional value and flavor.',
+					},
+					
+					
+				],
+			},
+			{
+				id: 2,
+				part: 'Additional info',
+				items: [
+					{
+						id: 1,
+						detail: '',
+					},
+				],
+			},
+			{
+				id: 3,
+				part: 'Reviews',
+				items: [
+					{
+						id: '1',
+						name: '',
+						date: '',
+						title: '',
+						text: '',
+						rating: 3.5,
+					},
+				],
+			},
+		],
+	},
+	{
+		id: 211,
+		name: 'Curry Leaves',
+		rating: 4.0,
+		tags: 'Wrapping, Cooking, Flavor',
+		// rate: 10.4,
+		// offer: 7,
+		categorySlug: 'leaves',
+		category: 'Leaves',
+		picture: '/leaves/curryleaves.png',
+		partOf : 'top-rated',
+		bacPicture:
+			'/leaves/curryleaves.png',
+		smallDetail:
+			``,
+		details: [
+			{
+				id: 1,
+				part: 'Description',
+				items: [
+					{
+						id: 1,
+						title: 'About',
+						detail:
+							'',
+					},
+					{
+						id: 2,
+						title: 'Medicine',
+						detail:
+							'',
 					},
 					
 					
