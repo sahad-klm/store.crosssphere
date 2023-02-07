@@ -222,8 +222,6 @@ export const productsData = [
 		name: 'Chilli',
 		rating: 4.0,
 		tags: 'Flavoring, Preserving, Healing',
-		// rate: 10.4,
-		// offer: 7,
 
 		categorySlug: 'spices',
 		category: 'Spices',
