@@ -10,7 +10,7 @@ const HeadSEO = ({ site = {}, page = {}, schema }: any) => {
       <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       <meta name="format-detection" content="telephone=no" />
 
-      <link rel="icon" href="icon.png" sizes="any" />
+      <link rel="icon" href="logo.png" sizes="any" />
 
       <link rel="preconnect" 
       href="https://fonts.googleapis.com" />
