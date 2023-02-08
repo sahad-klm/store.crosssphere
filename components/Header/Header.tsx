@@ -76,8 +76,8 @@ function Header(): any {
         <div className="flex h-[105px] w-full items-center justify-between border-b-[1px] border-solid border-gray-700 border-opacity-20 bg-white py-7 sm:px-4">
           <Link aria-label="Read more" href="/" className="flex h-full items-center justify-center">
             <Image width={106} height={100} loading='lazy' alt=''
-              src="/logo.png"
-              className="w-full h-[144px] shrink-0  object-cover"
+              src="/logo.jpeg"
+              className="w-full h-[40px] shrink-0  object-cover"
             />
           </Link>
           <SearchBar
@@ -148,8 +148,8 @@ function Header(): any {
           />
           <Link aria-label="Read more" href="/" className="flex h-full items-center justify-center">
             <Image width={100} height={100} alt='' loading='lazy'
-              src="/logo.png"
-              className=" h-[120px] w-full shrink-0 cursor-pointer object-contain"
+              src="/logo.jpeg"
+              className=" h-[35px] w-full shrink-0 cursor-pointer object-contain"
             />
           </Link>
           <div>
