@@ -100,7 +100,7 @@ export const productsData = [
 		categorySlug: 'spices',
 		category: 'Spices',
 		picture: '/spices/pepper.png',
-		bgImage: '/vegd.jpg',
+		bgImage: '/veg.jpg',
 		bacPicture:
 			'/spices/pepper.png',
 		smallDetail:
@@ -163,7 +163,7 @@ export const productsData = [
 		categorySlug: 'spices',
 		category: 'Spices',
 		picture: '/spices/turmeric.png',
-		bgImage: '/fruit.jpg',
+		bgImage: '/oils.jpg',
 		bacPicture:
 			'/spices/turmeric.png',
 		smallDetail:
@@ -227,7 +227,7 @@ export const productsData = [
 		category: 'Spices',
 		picture: '/spices/redchilli.png',
 		partOf : 'popular',
-		bgImage: '/coconut.jpg',
+		bgImage: '/fruit.jpg',
 		bacPicture:
 			'/spices/redchilli.png',
 		smallDetail:
