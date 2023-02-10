@@ -5,7 +5,10 @@ import DailyBestSellerInOneLine from './inOneLine/DailyBestSellerInOneLine';
 import { dailyBestSellerCategory } from '@/lib/data';
 import Image from 'next/image';
 import { OneProductWithOffer } from '@/ui/OneProductWithOffer';
-import { dailyBestSellerProducts, popularProductsData } from '@/lib/productsInDeferentCategory';
+import {
+  dailyBestSellerProducts,
+  popularProductsData,
+} from '@/lib/productsInDeferentCategory';
 import { productsData } from '@/lib/products';
 
 const DailyBestSeller = (): any => {
@@ -16,7 +19,9 @@ const DailyBestSeller = (): any => {
 
   const [mouseOver, setMouseOver] = React.useState<string | any>('');
   const [windowWidth, setWindowWidth] = React.useState<number | any>();
-  const [isProductData, setIsProductData] = React.useState<any[]>(dailyBestSellerProducts)
+  const [isProductData, setIsProductData] = React.useState<any[]>(
+    dailyBestSellerProducts,
+  );
 
   React.useEffect(() => {
     if (typeof window !== undefined) {
@@ -32,14 +37,16 @@ const DailyBestSeller = (): any => {
     }
   }, []);
 
-
   React.useEffect(() => {
-    if (isSelectedCatN === 'Featured') return setIsProductData(dailyBestSellerProducts)
-    else if (isSelectedCatN === 'Popular') return setIsProductData(popularProductsData)
-    else if (isSelectedCatN === 'New added') return setIsProductData(productsData.sort((a, b) => b.id >= a.id ? 1 : -1))
-
-  }, [isSelectedCatN])
-
+    if (isSelectedCatN === 'Featured')
+      return setIsProductData(dailyBestSellerProducts);
+    else if (isSelectedCatN === 'Popular')
+      return setIsProductData(popularProductsData);
+    else if (isSelectedCatN === 'New added')
+      return setIsProductData(
+        productsData.sort((a, b) => (b.id >= a.id ? 1 : -1)),
+      );
+  }, [isSelectedCatN]);
 
   return (
     <div className="z-1 relative mt-10 flex w-full flex-col items-start  justify-center overflow-hidden px-4 md:mt-[50px]">
@@ -79,67 +86,65 @@ const DailyBestSeller = (): any => {
       </div>
 
       <div className="flex w-full flex-col justify-start gap-5 md:flex-row md:gap-6">
-        <div className="relative z-[1] flex h-[70vh] w-full min-w-[40%] flex-grow-0 flex-col  items-start gap-12 overflow-hidden rounded-[18px] p-12 md:h-auto md:min-w-[300px] md:justify-evenly md:max-w-[350px]">
-          <Image height={100}
+        <div className="relative z-[1] flex h-[70vh] w-full min-w-[40%] flex-grow-0 flex-col  items-start gap-12 overflow-hidden rounded-[18px] p-12 md:h-auto md:min-w-[300px] md:max-w-[350px] md:justify-evenly">
+          <Image
+            height={100}
             src="/bananaleaf.jpeg"
             alt=""
-            loading='lazy'
+            loading="lazy"
             width={200}
-            className=" absolute inset-0 -z-10 h-full w-full object-cover bg-gray-500 opacity-[.9] "
+            className=" absolute inset-0 -z-10 h-full w-full bg-gray-500 object-cover opacity-[.9] "
           />
           <h1 className="font-head text-[38px] leading-9 text-gray-800 md:text-h2 md:leading-10">
-            Import 
-            <br/> 
+            Import
+            <br />
             Nature Banana Leaves
           </h1>
           <ButtonShopNow paddingAndStyle="px-3 py-2" value="Shop Now" />
         </div>
-        <div className="xl:flex hidden w-full items-start justify-start overflow-scroll gap-3">
-          {isProductData?.map((item) => (
-            <OneProductWithOffer
-              {...item}
-              key={item.id}
-              setMouseOver={setMouseOver}
+        <div className="flex w-full items-center justify-start">
+          <div className="hidden w-full items-start justify-start gap-3 xl:flex">
+            <DailyBestSellerInOneLine
               mouseOver={mouseOver}
-              buttonStyle="add-to-cart"
-              classNameForTotal="max-w-full md:h-full h-full"
-              classNameForPic="h-[37vh] p-1"
+              setMouseOver={setMouseOver}
+              slidesPerView={5}
+              data={isProductData}
             />
-          ))}
-        </div>
+          </div>
 
-        <div className="lapHide w-full items-center justify-center">
-          <DailyBestSellerInOneLine
-            mouseOver={mouseOver}
-            setMouseOver={setMouseOver}
-            slidesPerView={4}
-            data={isProductData}
-          />
-        </div>
-        <div className="tabHide w-full items-center justify-center">
-          <DailyBestSellerInOneLine
-            mouseOver={mouseOver}
-            setMouseOver={setMouseOver}
-            slidesPerView={3}
-            data={isProductData}
-          />
-        </div>
+          <div className="lapHide w-full items-center justify-center">
+            <DailyBestSellerInOneLine
+              mouseOver={mouseOver}
+              setMouseOver={setMouseOver}
+              slidesPerView={4}
+              data={isProductData}
+            />
+          </div>
+          <div className="tabHide w-full items-center justify-center">
+            <DailyBestSellerInOneLine
+              mouseOver={mouseOver}
+              setMouseOver={setMouseOver}
+              slidesPerView={3}
+              data={isProductData}
+            />
+          </div>
 
-        <div className="mobileHide w-full items-center justify-center">
-          <DailyBestSellerInOneLine
-            mouseOver={mouseOver}
-            setMouseOver={setMouseOver}
-            slidesPerView={1}
-            data={isProductData}
-          />
-        </div>
-        <div className="flex w-full items-start justify-start sm:hidden">
-          <DailyBestSellerInOneLine
-            mouseOver={mouseOver}
-            setMouseOver={setMouseOver}
-            slidesPerView={1}
-            data={isProductData}
-          />
+          <div className="mobileHide w-full items-center justify-center">
+            <DailyBestSellerInOneLine
+              mouseOver={mouseOver}
+              setMouseOver={setMouseOver}
+              slidesPerView={1}
+              data={isProductData}
+            />
+          </div>
+          <div className="flex w-full items-start justify-start sm:hidden">
+            <DailyBestSellerInOneLine
+              mouseOver={mouseOver}
+              setMouseOver={setMouseOver}
+              slidesPerView={1}
+              data={isProductData}
+            />
+          </div>
         </div>
       </div>
     </div>

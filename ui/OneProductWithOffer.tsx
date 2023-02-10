@@ -21,7 +21,7 @@ type Props = {
   buttonStyle?: any;
   classNameForPic?: any;
   classNameForTotal?: any;
-  categorySlug?:string
+  categorySlug?: string;
   category?: string;
 };
 function OneProductWithOffer({
@@ -40,32 +40,30 @@ function OneProductWithOffer({
   classNameForPic,
   classNameForTotal,
 
-  categorySlug
+  categorySlug,
 }: Props): any {
   const addBtn = buttonStyle === 'add';
   const addToCartBtn = buttonStyle === 'add-to-cart';
-  const [windowWidth, setWindowWidth] = React.useState<number| any>();
+  const [windowWidth, setWindowWidth] = React.useState<number | any>();
 
   const handleCart = () => {
     // var names = {name: name, picture: picture, category: category}
     // localStorage.setItem("names", JSON.stringify(names));
     // var storedNames = JSON.parse(localStorage.getItem("names"));
     // console.log(storedNames)
-    
-  } 
-  
-  
+  };
 
   React.useEffect(() => {
-    if(typeof window !== undefined ) {
-
+    if (typeof window !== undefined) {
       window.addEventListener('resize', () => {
         setWindowWidth(window.innerWidth);
       });
-      
-      setWindowWidth(window.innerWidth)
-      
-      return window.removeEventListener('resize',() => setWindowWidth(windowWidth))
+
+      setWindowWidth(window.innerWidth);
+
+      return window.removeEventListener('resize', () =>
+        setWindowWidth(windowWidth),
+      );
     }
   }, []);
 
@@ -79,56 +77,39 @@ function OneProductWithOffer({
         </span>
       )} */}
       <div
-        className={`relative flex  w-full  items-center justify-center h-[233px] ${
-          tags?.split(',').map((item: any) => item) === 'vegetable' ? 'bg-gray-100' : 'bg-white'
+        className={`relative flex  h-[233px]  w-full items-center justify-center ${
+          tags?.split(',').map((item: any) => item) === 'vegetable'
+            ? 'bg-gray-100'
+            : 'bg-white'
         } ${classNameForPic}`}
       >
         <Link aria-label="Read more" href={`/${categorySlug}/${name}`}>
-        <Image width={1440} height={1000} loading='lazy'
-          src={
-            bacPicture
-            ? mouseOver === id && windowWidth > 768
-            ? bacPicture
-            : picture
-            : picture
-          }
-          onMouseOver={() => setMouseOver(id)}
-          onMouseLeave={() => setMouseOver('')}
-          alt=""
-          className="h-full w-full object-contain"
+          <Image
+            width={1440}
+            height={1000}
+            loading="lazy"
+            src={
+              bacPicture
+                ? mouseOver === id && windowWidth > 768
+                  ? bacPicture
+                  : picture
+                : picture
+            }
+            onMouseOver={() => setMouseOver(id)}
+            onMouseLeave={() => setMouseOver('')}
+            alt=""
+            className="h-full w-full object-contain"
           />
-          </Link>
+        </Link>
 
-        {/* <div className="invisible absolute flex h-9 flex-row items-center justify-center rounded border border-emerald-300 bg-white md:group-hover/body:visible">
-          <button name='button' className="group/btn1 group/etd relative outline-none border-none">
-            <Love className="scale-[.5] fill-emerald-500  duration-300 group-hover/btn1:-translate-y-1 group-hover/btn1:fill-yellow-400" />
-            <span className="invisible absolute -right-5 -top-[44px] w-max rounded bg-emerald-500 px-2 py-2 font-body text-[10px] text-white transition-all group-hover/etd:visible md:text-xs">
-              Add to wishlist
-            </span>
-          </button>
-          <span className=" h-9 w-[1px] bg-slate-300" />
-          <button name='button' className="group/btn1 group/etd relative outline-none border-none">
-            <Spinner className="scale-[.5] fill-emerald-500  duration-300 group-hover/btn1:-translate-y-1 group-hover/btn1:fill-yellow-400" />
-            <span className="invisible absolute -right-5 -top-[44px] w-max rounded bg-emerald-500 px-2 py-2 font-body text-[10px] text-white transition-all group-hover/etd:visible md:text-xs">
-              Add to campier
-            </span>
-          </button>
-          <span className=" h-9 w-[1px] bg-slate-300" />
-          <button name='button' className="group/btn1 group/etd relative">
-            <View className="scale-[.5] fill-emerald-500  duration-300 group-hover/btn1:-translate-y-1 outline-none border-none group-hover/btn1:fill-yellow-400" />
-            <span className="invisible absolute -right-5 -top-[44px] w-max rounded bg-emerald-500 px-2 py-2 font-body text-[10px] text-white transition-all group-hover/etd:visible md:text-xs ">
-              Quick view
-            </span>
-          </button>
-        </div> */}
       </div>
       <small className="mx-5 mt-3 flex flex-wrap pb-[4px] font-body text-[10px] text-gray-400 md:pb-[6px] md:text-xs">
         {tags}
       </small>
       <Link aria-label="Read more" href={`/${categorySlug}/${name}`}>
-      <h4 className="mx-5 pb-[8px] font-head text-sm text-gray-700 transition-all duration-200 hover:text-emerald-500 md:pb-[10px] md:text-base">
-        {name}
-      </h4>
+        <h4 className="mx-5 pb-[8px] font-head text-sm text-gray-700 transition-all duration-200 hover:text-emerald-500 md:pb-[10px] md:text-base">
+          {name}
+        </h4>
       </Link>
       <span className="mx-5 pb-[8px] md:pb-[10px]">
         {/* {item.rating} */}
@@ -144,11 +125,11 @@ function OneProductWithOffer({
       >
         {/* <RateOfProduct offer={offer} rate={rate} /> */}
         {addBtn && <ButtonAdd />}
-      {addToCartBtn && (
-        // <div className="mb-5 flex w-full justify-center">
+        {addToCartBtn && (
+          // <div className="mb-5 flex w-full justify-center">
           <ButtonAddToCart onClick={handleCart()} />
-        // </div>
-      )}
+          // </div>
+        )}
       </div>
     </div>
   );
@@ -159,9 +140,6 @@ const OneProductLeftPicRightDetail = ({
   limitProductShow = null,
 }: any): any => {
   const [windowWidth, setWindowWidth] = React.useState<any>();
-  
-
-
 
   const limitProduct = (): any => {
     if (windowWidth > 768) return 3;
@@ -169,17 +147,17 @@ const OneProductLeftPicRightDetail = ({
     else if (limitProductShow === null) return productsData?.length;
   };
 
-
   React.useEffect(() => {
-    if(typeof window !== undefined ) {
-
+    if (typeof window !== undefined) {
       window.addEventListener('resize', () => {
         setWindowWidth(window.innerWidth);
       });
-      
-      setWindowWidth(window.innerWidth)
-      
-      return window.removeEventListener('resize',() => setWindowWidth(windowWidth))
+
+      setWindowWidth(window.innerWidth);
+
+      return window.removeEventListener('resize', () =>
+        setWindowWidth(windowWidth),
+      );
     }
   }, []);
 
@@ -188,7 +166,7 @@ const OneProductLeftPicRightDetail = ({
       {productsData?.map((item: Props, idx: number) => (
         <React.Fragment key={item.id}>
           {idx + 1 <= limitProduct() && (
-            <div className="flex-row flex w-full items-center justify-center gap-4 transition-all duration-300 hover:-translate-y-1 h-full ">
+            <div className="flex h-full w-full flex-row items-center justify-center gap-4 transition-all duration-300 hover:-translate-y-1 ">
               <div
                 className={`h-[93px] w-[93px] flex-[40%] items-center justify-center overflow-hidden rounded-md p-1 ${
                   item.tags === 'vegetable' || 'organic'
@@ -196,14 +174,19 @@ const OneProductLeftPicRightDetail = ({
                     : 'bg-white'
                 }`}
               >
-                <Link aria-label="Read more" href={`/${item.categorySlug}/${item.name}`}>
-
-                <Image width={1440} height={1000} loading='lazy'
-                  src={item.picture}
-                  className="h-full w-full object-cover"
-                  alt={item.name}
+                <Link
+                  aria-label="Read more"
+                  href={`/${item.categorySlug}/${item.name}`}
+                >
+                  <Image
+                    width={1440}
+                    height={1000}
+                    loading="lazy"
+                    src={item.picture}
+                    className="h-full w-full object-cover"
+                    alt={item.name}
                   />
-                  </Link>
+                </Link>
               </div>
               <div className="justify-star flex w-full flex-[60%] flex-col items-start md:h-28">
                 <h4 className="font-head text-[14px] text-gray-800 transition duration-200 hover:text-emerald-500 md:text-[16px]">

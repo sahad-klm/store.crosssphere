@@ -244,7 +244,7 @@ export const dailyBestSellerProducts = [
 
 	{
 		id: 177,
-		name: 'Fresh Mango',
+		name: 'Mango',
 		rating: 4.0,
 		tags: 'Eating, Juicing, Baking',
 		//rate: 10.4,
@@ -468,7 +468,7 @@ export const dailyBestSellerProducts = [
 
 	{
 		id: 236,
-		name: 'Fresh Coconut Oil',
+		name: 'Coconut Oil',
 		rating: 4.0,
 		tags: 'Cooking, Hair, Skin',
 		// rate: 10.4,
