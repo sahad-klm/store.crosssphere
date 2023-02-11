@@ -172,7 +172,7 @@ const OutTeam = () => {
                       exit="hide"
                       variants={fadeAnim}
                       key={person.id}
-                      className="relative flex lg:w-[100%] w-[80%] items-start justify-center overflow-hidden rounded-2xl"
+                      className="hidden relative lg:flex lg:w-[100%] w-[80%] items-start justify-center overflow-hidden rounded-2xl"
                     >
                       <m.img
                         initial="hide"
