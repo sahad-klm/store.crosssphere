@@ -22,7 +22,7 @@ const Footer = () => {
             loading="lazy"
             alt=""
             src="/text.png"
-            className="h-[47px] w-full shrink-0 object-cover brightness-50 "
+            className="h-[39px] w-full shrink-0 object-cover brightness-50 "
           />
         </li>
 
