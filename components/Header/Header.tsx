@@ -76,7 +76,7 @@ function Header(): any {
         <div className="flex h-[105px] w-full items-center justify-between border-b-[1px] border-solid border-gray-700 border-opacity-20 bg-white py-7 sm:px-4">
           <Link aria-label="Read more" href="/" className="flex h-full items-center justify-center">
             <Image width={106} height={100} loading='lazy' alt=''
-              src="/namered.svg"
+              src="/namered.png"
               className="w-full h-[39px] shrink-0  object-cover"
             />
           </Link>
@@ -148,7 +148,7 @@ function Header(): any {
           />
           <Link aria-label="Read more" href="/" className="flex h-full items-center justify-center">
             <Image width={100} height={100} alt='' loading='lazy'
-              src="/namered.svg"
+              src="/namered.png"
               className=" h-[35px] w-full shrink-0 cursor-pointer object-contain"
             />
           </Link>
