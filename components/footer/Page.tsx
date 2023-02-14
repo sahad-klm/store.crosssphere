@@ -21,7 +21,7 @@ const Footer = () => {
             height={100}
             loading="lazy"
             alt=""
-            src="/text.png"
+            src="/namered.svg"
             className="h-[39px] w-full shrink-0 object-cover brightness-50 "
           />
         </li>
