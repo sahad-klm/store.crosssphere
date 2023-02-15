@@ -14,8 +14,6 @@ const Cart = ({ isCart, setIsCart }: { isCart: boolean, setIsCart: React.SetStat
 
   }, [isCart])
 
-
-  // console.log(localStorage.getItem('cartItem'));
   
 
 

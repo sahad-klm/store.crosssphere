@@ -19,7 +19,6 @@ const index = (data: {
 
   const productsCatogory  = productsData.filter((item) => item.categorySlug === pathname?.split('/').slice(2).toString())
   
-  console.log(pathname?.split('/').slice(2).toString())
 
   if (pathname === null) {
     return (
