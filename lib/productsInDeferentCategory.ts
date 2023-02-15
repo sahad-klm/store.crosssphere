@@ -691,7 +691,7 @@ export const popularProductsData = [
 
 	{
 		id: 235,
-		name: 'Cardamom Essential Oil',
+		name: 'Cardamom Oil',
 		rating: 4.0,
 		tags: 'Aroma, Flavor, Medicine',
 		// rate: 10.4,
