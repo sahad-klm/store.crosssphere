@@ -1,4 +1,3 @@
-import { productsData } from '@/lib/products';
 import { OneProductWithOffer } from '@/ui/OneProductWithOffer';
 import React from 'react';
 import { Navigation, Scrollbar } from 'swiper';
