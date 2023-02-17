@@ -1,36 +1,8 @@
-import React, { useRef, useEffect, useState } from 'react';
-import mapboxgl from 'mapbox-gl'; // eslint-disable-line import/no-webpack-loader-syntax
 import { AnimatePresence, motion } from 'framer-motion';
 import { fadeAnim } from '@/lib/motion';
-mapboxgl.accessToken =
-  'pk.eyJ1IjoiZG9kb2luZyIsImEiOiJjbGJ3NzJhNnoxemk4M25xbmRlZnJtMDJqIn0.a26BTo_cU6_i6fa8blWJJA';
-
+import Image from 'next/image';
+import map from "public/map.webp"
 export default function LocationMap() {
-  const mapContainer = useRef<any>(null);
-  const map = useRef<any>(null);
-  const [lng, setLng] = useState<number>(76.07555);
-  const [lat, setLat] = useState<number>(11.0405);
-  const [zoom, setZoom] = useState<number>(9);
-
-  useEffect(() => {
-    if (map.current) return; // initialize map only once
-    map.current = new mapboxgl.Map({
-      container: mapContainer.current,
-      style: 'mapbox://styles/dodoing/clbw9qefu002714o2nwqhtnsf',
-      center: [lng, lat],
-      zoom: zoom,
-    });
-  });
-
-  useEffect(() => {
-    if (!map.current) return; // wait for map to initialize
-    map.current.on('move', () => {
-      setLng(map.current.getCenter().lng.toFixed(4));
-      setLat(map.current.getCenter().lat.toFixed(4));
-      setZoom(map.current.getZoom().toFixed(2));
-    });
-  });
-
   return (
     <AnimatePresence mode="wait">
       <motion.div
@@ -41,10 +13,7 @@ export default function LocationMap() {
         className="flex w-full items-center justify-center overflow-hidden rounded-2xl"
       >
         <motion.div className="flex" />
-        <div
-          ref={mapContainer}
-          className="map-container flex h-[350px]  w-full flex-1"
-        />
+        <Image width={10000}  height={1000} alt="map" src={map} loading="lazy" layout='responsive' />
       </motion.div>
     </AnimatePresence>
   );
