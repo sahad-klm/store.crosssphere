@@ -20,24 +20,24 @@ module.exports = {
 
       fontFamily: {
         head: 'Quicksand, sans-serif',
-        body : 'Lato, sans-serif'
+        body: 'Lato, sans-serif',
       },
-      fontWeight : {
+      fontWeight: {
         W_head: '700',
-        W_body:'400'
+        W_body: '400',
       },
       lineHeight: {
-        head:'1.3',
-        body:'1.6'
+        head: '1.3',
+        body: '1.6',
       },
-      fontSize:{
-        body:'15px',
-        h1:'44px',
-        h2:'40px',
-        h3:'32px',
-        h4:'24px',
-        h5:'20px',
-        h6:'16px',
+      fontSize: {
+        body: '15px',
+        h1: '44px',
+        h2: '40px',
+        h3: '32px',
+        h4: '24px',
+        h5: '20px',
+        h6: '16px',
       },
       keyframes: ({ theme }) => ({
         rerender: {
@@ -82,5 +82,5 @@ module.exports = {
       }),
     },
   },
-  plugins: ["tailwindcss ,autoprefixer"],
+  plugins: ['tailwindcss ,autoprefixer'],
 };

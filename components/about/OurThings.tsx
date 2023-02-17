@@ -3,12 +3,12 @@ import React from 'react';
 import { m } from 'framer-motion';
 
 const OurThings = () => (
-  <div className="mt-[31px] grid md:grid-cols-3 gap-5">
+  <div className="mt-[31px] grid gap-5 md:grid-cols-3">
     {ourThings.map((item, idx) => (
       <m.div
         initial="hide"
         whileInView="show"
-        viewport={{once: true}}
+        viewport={{ once: true }}
         exit="hide"
         variants={{
           show: {

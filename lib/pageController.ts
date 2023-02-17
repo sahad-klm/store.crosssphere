@@ -1,14 +1,13 @@
-import { BrowseAllCategories } from "./data";
+import { BrowseAllCategories } from './data';
 
-export const data = BrowseAllCategories.map((item) => item.slug)
+export const data = BrowseAllCategories.map((item) => item.slug);
 
 function categorySlug() {
   for (let index = 0; index < data.length; index++) {
     const element = data[index];
-    return element
+    return element;
   }
 }
-
 
 export const pageController = [
   {
@@ -40,7 +39,7 @@ export const pageController = [
         id: 6,
         pageType: 'footerProducts',
       },
-    ]
+    ],
   },
   {
     id: 2,
@@ -50,9 +49,8 @@ export const pageController = [
       {
         id: 1,
         pageType: 'collection',
-
       },
-    ]
+    ],
   },
   {
     id: 3,
@@ -61,10 +59,9 @@ export const pageController = [
     modules: [
       {
         id: 1,
-        pageType: 'collationSlug'
-
+        pageType: 'collationSlug',
       },
-    ]
+    ],
   },
   {
     id: 4,
@@ -73,10 +70,9 @@ export const pageController = [
     modules: [
       {
         id: 1,
-        pageType: 'collections/[slug]'
-
+        pageType: 'collections/[slug]',
       },
-    ]
+    ],
   },
   {
     id: 5,
@@ -85,10 +81,9 @@ export const pageController = [
     modules: [
       {
         id: 1,
-        pageType: 'about'
-
+        pageType: 'about',
       },
-    ]
+    ],
   },
   {
     id: 6,
@@ -97,9 +92,8 @@ export const pageController = [
     modules: [
       {
         id: 1,
-        pageType: 'contact'
-
+        pageType: 'contact',
       },
-    ]
+    ],
   },
-]
+];

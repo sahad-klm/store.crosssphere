@@ -13,7 +13,6 @@ import { fadeAnim } from '@/lib/motion';
 
 const OutTeam = () => {
   const socialMediaIcon = (platform: string): any => {
-
     switch (platform) {
       case 'facebook':
         return <FacebookIcon className="h-[20px] w-[20px] fill-emerald-500" />;
@@ -29,7 +28,7 @@ const OutTeam = () => {
   };
 
   return (
-    <div className="mt-[-10px] lg:mt-[50px] w-full">
+    <div className="mt-[-10px] w-full lg:mt-[50px]">
       <m.div
         initial="hide"
         animate="show"
@@ -80,10 +79,12 @@ const OutTeam = () => {
                       ease: [0.16, 1, 0.3, 1],
                       delay: 0.45,
                     }}
-                    className="mb-[5px] text-base text-emerald-500">
+                    className="mb-[5px] text-base text-emerald-500"
+                  >
                     {team.title}
                   </m.small>
-                  <m.h1 initial="hide"
+                  <m.h1
+                    initial="hide"
                     whileInView="show"
                     viewport={{ once: true }}
                     exit="hide"
@@ -101,12 +102,15 @@ const OutTeam = () => {
                       duration: 0.2,
                       ease: [0.16, 1, 0.3, 1],
                       delay: 0.55,
-                    }} className="mb-[30px] font-head text-4xl text-gray-800">
+                    }}
+                    className="mb-[30px] font-head text-4xl text-gray-800"
+                  >
                     {team.subtitle}
                   </m.h1>
                   {team.text.map((text, te) => (
                     <React.Fragment key={text.id}>
-                      <m.p initial="hide"
+                      <m.p
+                        initial="hide"
                         whileInView="show"
                         viewport={{ once: true }}
                         exit="hide"
@@ -123,8 +127,10 @@ const OutTeam = () => {
                         transition={{
                           duration: 0.2,
                           ease: [0.16, 1, 0.3, 1],
-                          delay: 0.65 * (te),
-                        }} className="mb-5 text-base text-gray-500">
+                          delay: 0.65 * te,
+                        }}
+                        className="mb-5 text-base text-gray-500"
+                      >
                         {text.text}
                       </m.p>
                     </React.Fragment>
@@ -153,7 +159,8 @@ const OutTeam = () => {
               ease: [0.16, 1, 0.3, 1],
               delay: 0.65,
             }}
-            className="w-max rounded-md border-none bg-emerald-500 py-3 px-8 font-head text-sm text-white outline-none duration-300 hover:bg-yellow-400">
+            className="w-max rounded-md border-none bg-emerald-500 py-3 px-8 font-head text-sm text-white outline-none duration-300 hover:bg-yellow-400"
+          >
             View All Members
           </m.button>
         </div>
@@ -172,7 +179,7 @@ const OutTeam = () => {
                       exit="hide"
                       variants={fadeAnim}
                       key={person.id}
-                      className="hidden relative lg:flex lg:w-[100%] w-[80%] items-start justify-center overflow-hidden rounded-2xl"
+                      className="relative hidden w-[80%] items-start justify-center overflow-hidden rounded-2xl lg:flex lg:w-[100%]"
                     >
                       <m.img
                         initial="hide"
@@ -198,7 +205,7 @@ const OutTeam = () => {
                         alt=""
                         className="h-[80%] w-full rounded-2xl object-cover"
                       />
-                      <div className="absolute bottom-1 z-50 flex w-[80%]  flex-col items-center justify-center rounded-2xl bg-white p-[20px] lg:p-[30px] shadow duration-300 hover:-translate-y-1">
+                      <div className="absolute bottom-1 z-50 flex w-[80%]  flex-col items-center justify-center rounded-2xl bg-white p-[20px] shadow duration-300 hover:-translate-y-1 lg:p-[30px]">
                         <m.h1
                           initial="hide"
                           whileInView="show"
@@ -218,10 +225,13 @@ const OutTeam = () => {
                             duration: 0.2,
                             ease: [0.16, 1, 0.3, 1],
                             delay: 0.55,
-                          }} className="mb-[5px] font-head text-2xl text-gray-700">
+                          }}
+                          className="mb-[5px] font-head text-2xl text-gray-700"
+                        >
                           {person.name}
                         </m.h1>
-                        <m.h5 initial="hide"
+                        <m.h5
+                          initial="hide"
                           whileInView="show"
                           viewport={{ once: true }}
                           exit="hide"
@@ -240,7 +250,8 @@ const OutTeam = () => {
                             ease: [0.16, 1, 0.3, 1],
                             delay: 0.65,
                           }}
-                          className="text-base capitalize text-gray-500">
+                          className="text-base capitalize text-gray-500"
+                        >
                           {person.post}
                         </m.h5>
                         <div className="mt-5 flex gap-3">
@@ -264,8 +275,13 @@ const OutTeam = () => {
                                 duration: 0.2,
                                 ease: [0.16, 1, 0.3, 1],
                                 delay: 0.75 * (ik / 4),
-                              }} key={social.id}>
-                              <Link aria-label="Read more"  href={`${social.id}`}>
+                              }}
+                              key={social.id}
+                            >
+                              <Link
+                                aria-label="Read more"
+                                href={`${social.id}`}
+                              >
                                 {socialMediaIcon(social.platform)}
                               </Link>
                             </m.span>

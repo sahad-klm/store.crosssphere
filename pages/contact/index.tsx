@@ -1,9 +1,6 @@
-import {  Contact } from 'components';
-import React from 'react'
+import { Contact } from 'components';
+import React from 'react';
 
-const index = () => (
-  <Contact />
-)
+const index = () => <Contact />;
 
-
-export default index
+export default index;

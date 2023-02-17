@@ -85,7 +85,6 @@ const HeadingWithFilter = ({
     }
   }, [maxVal, getPercent]);
 
-
   return (
     <>
       {/* mobile */}
@@ -110,7 +109,7 @@ const HeadingWithFilter = ({
       <div className="inline-flex w-full items-center justify-between lg:hidden">
         <p
           onClick={() => setFilterOn({ ...filterOn, state: true })}
-          className="flex items-center gap-3 text-gray-900 cursor-pointer"
+          className="flex cursor-pointer items-center gap-3 text-gray-900"
         >
           {' '}
           <FilterIcon className="-m-3 scale-50 fill-gray-900" />
@@ -121,7 +120,11 @@ const HeadingWithFilter = ({
 
       {/* when click filter */}
 
-      <div className={`${filterOn.state ? "fixed": 'hidden'} inset-0  z-50 flex flex-col justify-end duration-300`}>
+      <div
+        className={`${
+          filterOn.state ? 'fixed' : 'hidden'
+        } inset-0  z-50 flex flex-col justify-end duration-300`}
+      >
         <span
           onClick={() => setFilterOn({ ...filterOn, state: false })}
           className="absolute -z-10 h-full w-full bg-black bg-opacity-30"
@@ -148,44 +151,41 @@ const HeadingWithFilter = ({
           <ul className="relative mt-5 h-full w-full px-4">
             <li
               onClick={() => setFilterOn({ ...filterOn, type: 'Color' })}
-              className="flex h-[54px] w-full items-center justify-between border-b text-gray-800 cursor-pointer "
+              className="flex h-[54px] w-full cursor-pointer items-center justify-between border-b text-gray-800 "
             >
               Color <ArrowNoLine className="-m-3 scale-50 fill-gray-700" />
             </li>
             <li
               onClick={() => setFilterOn({ ...filterOn, type: 'Product type' })}
-              className="flex h-[54px] w-full items-center justify-between border-b text-gray-800 cursor-pointer"
+              className="flex h-[54px] w-full cursor-pointer items-center justify-between border-b text-gray-800"
             >
               Product type{' '}
               <ArrowNoLine className="-m-3 scale-50 fill-gray-700" />
             </li>
             <li
               onClick={() => setFilterOn({ ...filterOn, type: 'Size' })}
-              className="flex h-[54px] w-full items-center justify-between border-b text-gray-800 cursor-pointer"
+              className="flex h-[54px] w-full cursor-pointer items-center justify-between border-b text-gray-800"
             >
               Size <ArrowNoLine className="-m-3 scale-50 fill-gray-700" />
             </li>
             <li
               onClick={() => setFilterOn({ ...filterOn, type: 'Price' })}
-              className="flex h-[54px] w-full items-center justify-between border-b text-gray-800 cursor-pointer"
+              className="flex h-[54px] w-full cursor-pointer items-center justify-between border-b text-gray-800"
             >
               Price <ArrowNoLine className="-m-3 scale-50 fill-gray-700" />
             </li>
             <li
               onClick={() => setFilterOn({ ...filterOn, type: 'Display' })}
-              className="flex h-[54px] w-full items-center justify-between border-b text-gray-800 cursor-pointer"
+              className="flex h-[54px] w-full cursor-pointer items-center justify-between border-b text-gray-800"
             >
               Display <ArrowNoLine className="-m-3 scale-50 fill-gray-700" />
             </li>
             <li
               onClick={() => setFilterOn({ ...filterOn, type: 'Sort by' })}
-              className="flex h-[54px] w-full items-center justify-between border-b text-gray-800 cursor-pointer"
+              className="flex h-[54px] w-full cursor-pointer items-center justify-between border-b text-gray-800"
             >
               Sort by <ArrowNoLine className="-m-3 scale-50 fill-gray-700" />
             </li>
-
-
-
 
             <li>
               {/* when click on color */}

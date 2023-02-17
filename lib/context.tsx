@@ -19,21 +19,21 @@ const SiteContextProvider = ({ data, children }: any): any => {
   const [initContext, setInitContext] = useState(false);
 
   useEffect(() => {
-    if(initContext === false) {
-
+    if (initContext === false) {
       const initialledCheckOut = async () => {
-        const existingCheckOutId = typeof window !== 'undefined' ? localStorage.getItem('shopifyCheckoutID') : false
-        
-      if(existingCheckOutId) {
-        console.log('Invalid item in checkout. This variant was probably unknown.');
-        
-      }
+        const existingCheckOutId =
+          typeof window !== 'undefined'
+            ? localStorage.getItem('shopifyCheckoutID')
+            : false;
+
+        if (existingCheckOutId) {
+          console.log(
+            'Invalid item in checkout. This variant was probably unknown.',
+          );
+        }
+      };
     }
-    
-    
-  }
   }, [initContext, context, setContext]);
-  
 
   return (
     <SiteContext.Provider
@@ -64,7 +64,7 @@ const useTogglePageTransition = () => {
     });
   }
 
-  return togglePageTransition
+  return togglePageTransition;
 };
 
 export { SiteContextProvider, useTogglePageTransition, useSiteContext };

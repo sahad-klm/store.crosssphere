@@ -18,8 +18,8 @@ const nextConfig = {
       'i.pinimg.com',
       'www.wallpaperuse.com',
       'cdn.britannica.com',
-      "mailtrap.io",
-      'cdn.shopify.com'
+      'mailtrap.io',
+      'cdn.shopify.com',
     ],
   },
   typescript: {

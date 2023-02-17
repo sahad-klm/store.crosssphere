@@ -1,4 +1,23 @@
-import { Cart, ConnectIcon, DealIcon, DeliveryIcon, Fire, FruitIcon, Icon, LeafIcon, Love, OfferIcon, OilIcon, OtherIcon, SatisfactionIcon, SpicesIcon, Spinner, User, VegetableIcon, WideIcon } from './icon';
+import {
+  Cart,
+  ConnectIcon,
+  DealIcon,
+  DeliveryIcon,
+  Fire,
+  FruitIcon,
+  Icon,
+  LeafIcon,
+  Love,
+  OfferIcon,
+  OilIcon,
+  OtherIcon,
+  SatisfactionIcon,
+  SpicesIcon,
+  Spinner,
+  User,
+  VegetableIcon,
+  WideIcon,
+} from './icon';
 import { v4 as uuid } from 'uuid';
 
 type Props = {
@@ -48,130 +67,129 @@ export const navbarLastCategory: {
   slug?: string;
   subMenu?: any[];
 }[] = [
-    {
-      id: 1,
-      icon: <Fire className="-mr-2 scale-50  fill-emerald-500" />,
-      name: 'Deals',
-      slug: ''
-    },
-    {
-      id: 2,
-      icon: '',
-      name: 'Home',
-      slug: ''
-    },
+  {
+    id: 1,
+    icon: <Fire className="-mr-2 scale-50  fill-emerald-500" />,
+    name: 'Deals',
+    slug: '',
+  },
+  {
+    id: 2,
+    icon: '',
+    name: 'Home',
+    slug: '',
+  },
 
-    {
-      id: 3,
-      icon: '',
-      name: 'About',
-      slug: 'about',
-    },
-    {
-      id: 4,
-      icon: '',
-      name: 'Shop',
-      slug: 'collections'
-
-    },
-    {
-      id: 6,
-      icon: '',
-      name: 'Mega menu',
-      slug: '',
-      subMenu: [
-        {
-          id: 1,
-          name: 'Fruits & Vegetables',
-          sunMenu: [
-            {
-              id: 1,
-              name: 'kodidiod',
-            },
-            {
-              id: 2,
-              name: 'kodidiod',
-            },
-            {
-              id: 3,
-              name: 'kodidiod',
-            },
-            {
-              id: 4,
-              name: 'kodidiod',
-            },
-            {
-              id: 5,
-              name: 'kodidiod',
-            },
-          ],
-        },
-        {
-          id: 2,
-          name: 'Organic Spices',
-          sunMenu: [
-            {
-              id: 1,
-              name: 'kodidiod',
-            },
-            {
-              id: 2,
-              name: 'kodidiod',
-            },
-            {
-              id: 3,
-              name: 'kodidiod',
-            },
-            {
-              id: 4,
-              name: 'kodidiod',
-            },
-            {
-              id: 5,
-              name: 'kodidiod',
-            },
-          ],
-        },
-        {
-          id: 3,
-          name: 'Other Products',
-          sunMenu: [
-            {
-              id: 1,
-              name: 'kodidiod',
-            },
-            {
-              id: 2,
-              name: 'kodidiod',
-            },
-            {
-              id: 3,
-              name: 'kodidiod',
-            },
-            {
-              id: 4,
-              name: 'kodidiod',
-            },
-            {
-              id: 5,
-              name: 'kodidiod',
-            },
-          ],
-        },
-        {
-          id: 4,
-          name: '',
-          image: '/map1.webp',
-        },
-      ],
-    },
-    {
-      id: 9,
-      icon: '',
-      name: 'Contact',
-      slug: 'contact',
-    },
-  ];
+  {
+    id: 3,
+    icon: '',
+    name: 'About',
+    slug: 'about',
+  },
+  {
+    id: 4,
+    icon: '',
+    name: 'Shop',
+    slug: 'collections',
+  },
+  {
+    id: 6,
+    icon: '',
+    name: 'Mega menu',
+    slug: '',
+    subMenu: [
+      {
+        id: 1,
+        name: 'Fruits & Vegetables',
+        sunMenu: [
+          {
+            id: 1,
+            name: 'kodidiod',
+          },
+          {
+            id: 2,
+            name: 'kodidiod',
+          },
+          {
+            id: 3,
+            name: 'kodidiod',
+          },
+          {
+            id: 4,
+            name: 'kodidiod',
+          },
+          {
+            id: 5,
+            name: 'kodidiod',
+          },
+        ],
+      },
+      {
+        id: 2,
+        name: 'Organic Spices',
+        sunMenu: [
+          {
+            id: 1,
+            name: 'kodidiod',
+          },
+          {
+            id: 2,
+            name: 'kodidiod',
+          },
+          {
+            id: 3,
+            name: 'kodidiod',
+          },
+          {
+            id: 4,
+            name: 'kodidiod',
+          },
+          {
+            id: 5,
+            name: 'kodidiod',
+          },
+        ],
+      },
+      {
+        id: 3,
+        name: 'Other Products',
+        sunMenu: [
+          {
+            id: 1,
+            name: 'kodidiod',
+          },
+          {
+            id: 2,
+            name: 'kodidiod',
+          },
+          {
+            id: 3,
+            name: 'kodidiod',
+          },
+          {
+            id: 4,
+            name: 'kodidiod',
+          },
+          {
+            id: 5,
+            name: 'kodidiod',
+          },
+        ],
+      },
+      {
+        id: 4,
+        name: '',
+        image: '/map1.webp',
+      },
+    ],
+  },
+  {
+    id: 9,
+    icon: '',
+    name: 'Contact',
+    slug: 'contact',
+  },
+];
 
 export const BrowseAllCategories: Props[] = [
   {
@@ -262,13 +280,13 @@ export const homeComponentBig = [
   {
     id: 1,
     picture: '/slider-1-1.webp',
-    title: "Welcome to International Trade",
+    title: 'Welcome to International Trade',
     subtitle: 'Sign up for daily newsletter',
   },
   {
     id: 2,
     picture: '/slider-1-2.webp',
-    title: "Fresh Vegetables & Spices",
+    title: 'Fresh Vegetables & Spices',
     subtitle: 'Tell your story',
   },
 ];
@@ -340,31 +358,31 @@ export const feathersInTotals = [
     id: 1,
     title: 'Best prices',
     subtitle: 'lowest possible price',
-    icon: <OfferIcon className="h-[55px] w-[55px]" /> ,
+    icon: <OfferIcon className="h-[55px] w-[55px]" />,
   },
   {
     id: 2,
     title: 'Wide Assortment',
     subtitle: '',
-    icon: <WideIcon className="h-[55px] w-[55px]" /> ,
+    icon: <WideIcon className="h-[55px] w-[55px]" />,
   },
   {
     id: 3,
     title: 'Shipping',
     subtitle: 'Air & Sea shipment',
-    icon: <DeliveryIcon className="h-[55px] w-[55px]" /> ,
+    icon: <DeliveryIcon className="h-[55px] w-[55px]" />,
   },
   {
     id: 4,
     title: 'Great Deal',
     subtitle: 'high quality',
-    icon: <DealIcon className="h-[55px] w-[55px]" /> ,
+    icon: <DealIcon className="h-[55px] w-[55px]" />,
   },
   {
     id: 5,
     title: 'Satisfaction',
     subtitle: '24/7 Service',
-    icon: <SatisfactionIcon className="h-[55px] w-[55px]" /> ,
+    icon: <SatisfactionIcon className="h-[55px] w-[55px]" />,
   },
 ];
 
@@ -651,7 +669,7 @@ export const aboutCompany = [
       {
         id: 1,
         paragraph:
-          "We are a leading exporting company that specializes in sourcing and delivering high-quality products to customers worldwide. Our team of experienced professionals has a deep understanding of international trade regulations and a strong network of suppliers and distributors.",
+          'We are a leading exporting company that specializes in sourcing and delivering high-quality products to customers worldwide. Our team of experienced professionals has a deep understanding of international trade regulations and a strong network of suppliers and distributors.',
       },
       {
         id: 2,
@@ -686,8 +704,7 @@ export const what_We_Provide = [
   {
     id: 3,
     title: 'Air & Sea Shipping',
-    subtitle:
-      `We offer air & sea to our customers for getting your goods to their destination on time and in perfect condition`,
+    subtitle: `We offer air & sea to our customers for getting your goods to their destination on time and in perfect condition`,
     icon: <DeliveryIcon />,
   },
   {
@@ -700,15 +717,13 @@ export const what_We_Provide = [
   {
     id: 5,
     title: '100% Satisfaction',
-    subtitle:
-      `We are committed to providing service and support throughout the entire exporting process`,
+    subtitle: `We are committed to providing service and support throughout the entire exporting process`,
     icon: <SatisfactionIcon />,
   },
   {
     id: 6,
     title: 'Great Daily Deal',
-    subtitle:
-      `We ensures that inspect every products and verified the quality before on export.`,
+    subtitle: `We ensures that inspect every products and verified the quality before on export.`,
     icon: <DealIcon />,
   },
 ];
@@ -916,12 +931,10 @@ export const contact = [
       {
         id: 1,
         title: 'Office',
-        address:
-          'Kolkalam,Chengottur Po, Malappuram, Kerala, India 676503',
+        address: 'Kolkalam,Chengottur Po, Malappuram, Kerala, India 676503',
         phone: '+91 8075122414',
         email: 'info.aldaninternational@gmail.com',
       },
-      
     ],
   },
 ];

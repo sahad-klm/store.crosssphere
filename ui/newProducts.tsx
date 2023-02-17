@@ -4,7 +4,7 @@ import { Rating } from '@/ui/rating';
 import Image from 'next/image';
 import React from 'react';
 
-const NewProducts = ({limit = 1}: number | any): JSX.Element => {
+const NewProducts = ({ limit = 1 }: number | any): JSX.Element => {
   return (
     <div className="flex flex-col gap-4 rounded-xl border px-4 pb-8 pt-3 shadow-md">
       <h2 className="before:content- relative mb-4 w-full shrink-0 border-b pb-4 font-head text-[24px] text-gray-800 before:absolute before:-bottom-[1px] before:h-[2px] before:w-14 before:bg-gray-300 md:pb-5 md:text-h4">
@@ -13,15 +13,18 @@ const NewProducts = ({limit = 1}: number | any): JSX.Element => {
       {productsData.map((item, idx) => (
         <React.Fragment key={item.id}>
           {idx <= limit && (
-            <div 
-              className={`xl:grid h-full w-full grid-flow-col gap-2 flex items-center ${
+            <div
+              className={`flex h-full w-full grid-flow-col items-center gap-2 xl:grid ${
                 idx <= limit - 1 && 'border-b'
               } pb-3`}
             >
-              <div className=" xl:h-full xl:w-max w-[80px] items-center justify-center p-2">
-                <Image width={100} height={500} loading='lazy'
+              <div className=" w-[80px] items-center justify-center p-2 xl:h-full xl:w-max">
+                <Image
+                  width={100}
+                  height={500}
+                  loading="lazy"
                   src={item.picture}
-                  className="xl:w-[100px] xl:object-contain object-cover w-full"
+                  className="w-full object-cover xl:w-[100px] xl:object-contain"
                   alt={item.name}
                 />
               </div>

@@ -3,7 +3,7 @@ import { OneProductWithOffer } from '@/ui/OneProductWithOffer';
 import { TextCategory, TextCategoryMob } from '@/ui/TextCategory';
 import { popularProductCategory } from '@/lib/data';
 import React from 'react';
-import {  productsData } from '@/lib/products';
+import { productsData } from '@/lib/products';
 import { popularProductsData } from '@/lib/productsInDeferentCategory';
 
 type Props = {
@@ -23,15 +23,19 @@ const PopularProducts = (): any => {
   );
   const [mouseOver, setMouseOver] = React.useState<any>();
   const [toggleOn, setToggleOn] = React.useState<boolean | any>(false);
-  const [isproductData, setIsProductData] = React.useState<any[]>(popularProductsData)
+  const [isproductData, setIsProductData] =
+    React.useState<any[]>(popularProductsData);
   console.log(isSelectedCatN);
 
   React.useEffect(() => {
-    if (isSelectedCatN === 'All') return setIsProductData(popularProductsData)
-    else return setIsProductData(productsData?.filter((item) => item.category === isSelectedCatN && item))
-
-  }, [isSelectedCatN])
-
+    if (isSelectedCatN === 'All') return setIsProductData(popularProductsData);
+    else
+      return setIsProductData(
+        productsData?.filter(
+          (item) => item.category === isSelectedCatN && item,
+        ),
+      );
+  }, [isSelectedCatN]);
 
   return (
     <div className="mt-[50px] flex w-full flex-col items-center justify-center overflow-hidden px-4">
@@ -72,13 +76,10 @@ const PopularProducts = (): any => {
         </div>
       </div>
 
-      <div
-        className="flex w-full flex-row md:flex-wrap justify-start gap-5 overflow-x-scroll md:grid-cols-3 md:grid  md:overflow-visible lg:grid-cols-5"
-      >
+      <div className="flex w-full flex-row justify-start gap-5 overflow-x-scroll md:grid md:grid-cols-3 md:flex-wrap  md:overflow-visible lg:grid-cols-5">
         {isproductData?.map((item: Props, idx: React.Key) => (
           <React.Fragment key={item.id}>
-
-            {idx <= 6 &&
+            {idx <= 6 && (
               <OneProductWithOffer
                 mouseOver={mouseOver}
                 setMouseOver={setMouseOver}
@@ -88,7 +89,7 @@ const PopularProducts = (): any => {
                 classNameForTotal="w-full md:h-auto h-min mx-auto "
                 classNameForPic="p-2"
               />
-            }
+            )}
           </React.Fragment>
         ))}
       </div>

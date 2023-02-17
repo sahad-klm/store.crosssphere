@@ -128,7 +128,6 @@ export function usePagination({
   siblingCount: number;
   currentPage: number;
 }) {
-
   const range = (start: number, end: number) => {
     let length = end - start + 1;
 
@@ -184,7 +183,8 @@ export function usePagination({
   return paginationRange;
 }
 
-export function useCategoryProductsFind (name:any) {
-  return productsData.filter((item) => item.categorySlug === name?.toLocaleString()   && item
-  )
+export function useCategoryProductsFind(name: any) {
+  return productsData.filter(
+    (item) => item.categorySlug === name?.toLocaleString() && item,
+  );
 }

@@ -12,8 +12,7 @@ const HeadSEO = ({ site = {}, page = {}, schema }: any) => {
 
       <link rel="icon" href="redbg.svg" sizes="any" />
 
-      <link rel="preconnect" 
-      href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
       <link
         rel="preconnect"
         href="https://fonts.gstatic.com"

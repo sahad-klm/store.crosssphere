@@ -1,4 +1,4 @@
-export const pageTransitionSpeed = 300
+export const pageTransitionSpeed = 300;
 export const navVariants = {
   hidden: {
     opacity: 0,
@@ -12,7 +12,7 @@ export const navVariants = {
   show: {
     opacity: 1,
     y: 0,
-    transition: {  
+    transition: {
       type: 'spring',
       stiffness: 80,
       delay: 1,
@@ -20,7 +20,12 @@ export const navVariants = {
   },
 };
 
-export const slideIn = (direction: string, type: any, delay: any, duration: any) => ({
+export const slideIn = (
+  direction: string,
+  type: any,
+  delay: any,
+  duration: any,
+) => ({
   hidden: {
     x: direction === 'left' ? '-100%' : direction === 'right' ? '100%' : 0,
     y: direction === 'up' ? '100%' : direction === 'down' ? '100%' : 0,
@@ -47,7 +52,7 @@ export const staggerContainer = (staggerChildren: any, delayChildren: any) => ({
   },
 });
 
-export const textVariant = (delay: number, duration:number ) => ({
+export const textVariant = (delay: number, duration: number) => ({
   hidden: {
     y: 50,
   },
@@ -86,7 +91,12 @@ export const textVariant2 = {
   },
 };
 
-export const fadeIn = (direction: string, type: any, delay: any, duration: any) => ({
+export const fadeIn = (
+  direction: string,
+  type: any,
+  delay: any,
+  duration: any,
+) => ({
   hidden: {
     x: direction === 'left' ? 100 : direction === 'right' ? -100 : 0,
     y: direction === 'up' ? 100 : direction === 'down' ? -100 : 0,
@@ -173,7 +183,7 @@ export const itemAnim = {
       ease: 'linear',
     },
   },
-}
+};
 
 export const fadeAnim = {
   show: {
@@ -193,7 +203,7 @@ export const fadeAnim = {
       when: 'beforeChildren',
     },
   },
-}
+};
 
 export const formAnim = {
   show: {
@@ -212,4 +222,4 @@ export const formAnim = {
       when: 'afterChildren',
     },
   },
-}
+};

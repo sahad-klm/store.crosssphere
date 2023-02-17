@@ -195,7 +195,9 @@ const FilterByC_T_R = ({ onChange }: any) => {
                 setMinVal(value);
                 minValRef.current = value;
               }}
-              className={`thumb thumb--left w-full ${minVal > max - 100 && 'z-[5]'}`}
+              className={`thumb thumb--left w-full ${
+                minVal > max - 100 && 'z-[5]'
+              }`}
             />
             <input
               type="range"
