@@ -669,12 +669,12 @@ export const aboutCompany = [
       {
         id: 1,
         paragraph:
-          'Welcome to Aldan, a leading international exporter of premium quality vegetables,spices and fruits.we take pride in our ability to provide high-quality products that are sourced from the best growers and suppliers from around the world.Our company is dedicated to providing a wide variety of vegetables and spices to our customers, ensuring that they receive the freshest, most delicious, and nutrient-rich produce. We work directly with our partner farmers and suppliers to ensure that our products are sustainably grown, harvested and processed to the highest standards.We are proud to be a part of the global food supply chain, providing our customers with the best quality vegetables and spices that are essential ingredients in the culinary traditions of many cultures. ',
+          'Welcome to Aldan International, a leading international exporter of premium quality vegetables,spices and fruits.we take pride in our ability to provide high-quality products that are sourced from the best growers and suppliers from around the world.Our company is dedicated to providing a wide variety of vegetables,spices and fruits to our customers, ensuring that they receive the freshest, most delicious, and nutrient-rich produce. We work directly with our partner farmers and suppliers to ensure that our products are sustainably grown, harvested and processed to the highest standards.We are proud to be a part of the global food supply chain, providing our customers with the best quality vegetables,spices and fruits that are essential ingredients in the culinary traditions of many cultures. ',
       },
       {
         id: 2,
         paragraph:
-          " Thank you for choosing Aldan as your partner in international vegetable and spice exports.",
+          " Thank you for choosing Aldan International as your partner in international vegetable and spice exports.",
       },
     ],
     picture: 'aboutus.jpg',
