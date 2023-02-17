@@ -674,7 +674,7 @@ export const aboutCompany = [
       {
         id: 2,
         paragraph:
-          " Thank you for choosing Aldan International as your partner in international vegetable and spice exports.",
+          " Thank you for choosing Aldan International as your partner in international vegetable and spice exports",
       },
     ],
     picture: 'aboutus.jpg',
