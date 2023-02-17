@@ -13,7 +13,7 @@ export default function LocationMap() {
         className="flex w-full items-center justify-center overflow-hidden rounded-2xl"
       >
         <motion.div className="flex" />
-        <Image width={10000}  height={1000} alt="map" src={map} loading="lazy" layout='responsive' />
+        <Image width={10000}  height={1000} alt="map" src={map} loading="lazy" layout='responsive' className='object-cover object-center w-full h-auto max-h-[400px]' />
       </motion.div>
     </AnimatePresence>
   );
