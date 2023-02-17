@@ -1,4 +1,3 @@
-import { isBrowser } from '@/lib/helpers';
 import CategorySmallBox from '@/ui/categorySmallBox';
 import Error from 'next/error';
 import React from 'react';
@@ -11,24 +10,18 @@ import Description from './Description';
 import Image from 'next/image';
 import { productsData } from '@/lib/products';
 
-const ProductDetails = ({data}: any) => {
+const ProductDetails = ({ data }: any) => {
   const [mouseOver, setMouseOver] = React.useState(false);
 
-  if (data?.length === 0)
-    return (
-      <Error
-        statusCode={404}
-        title={`Loading `}
-      />
-    );
+  if (data?.length === 0) return <Error statusCode={404} title={`Loading`} />;
   return (
     <div className="relative flex w-full flex-col items-center justify-center overflow-hidden max-lg:mt-[100px] ">
       <HeadRootNames product={data} />
 
-      <div className="mt-5 flex w-full px-4 flex-col">
+      <div className="mt-5 flex w-full flex-col px-4">
         {/* products detail */}
         <div className="flex  flex-col ">
-          <div className="lg:grid-cols-2 mb-8 grid  w-full max-lg:gap-4 ">
+          <div className="mb-8 grid w-full  max-lg:gap-4 lg:grid-cols-2 ">
             <div className="grid">
               <div className="flex items-center justify-center bg-gray-100">
                 <Image
@@ -36,6 +29,7 @@ const ProductDetails = ({data}: any) => {
                   height={1000}
                   src={data[0]?.picture}
                   alt=""
+                  layout='responsive'
                   className="object-contain lg:w-[96%]"
                   loading="lazy"
                 />
@@ -86,9 +80,9 @@ const ProductDetails = ({data}: any) => {
         </div>
 
         {/* sidebar */}
-        <div className="relative hidden shrink-0 gap-5 sm:flex w-full">
+        <div className="relative hidden w-full shrink-0 gap-5 sm:flex">
           <div
-            className={`grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-5 transition-transform duration-1000 ease-linear max-xl:relative w-full h-full`}
+            className={`grid h-full w-full grid-cols-1 gap-5 transition-transform duration-1000 ease-linear max-xl:relative md:grid-cols-2 lg:grid-cols-3`}
           >
             <CategorySmallBox />
             <OfferBoxInCollection className="min-h-[300px]" />

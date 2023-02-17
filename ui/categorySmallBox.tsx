@@ -11,12 +11,16 @@ const CategorySmallBox = () => {
       {BrowseAllCategories?.map((item, idx) => (
         <React.Fragment key={item.id}>
           {idx <= 2 && (
-              <Link aria-label="Read more" href={`/collections/${item.slug}`} className='flex items-center gap-1 rounded border border-gray-300 py-3 px-4 hover:shadow-md cursor-pointer'>
-                {item.icon}
-                <p className="font-head text-base text-emerald-500">
-                  {item.name}
-                </p>
-              </Link>
+            <Link
+              aria-label="Read more"
+              href={`/collections/${item.slug}`}
+              className="flex cursor-pointer items-center gap-1 rounded border border-gray-300 py-3 px-4 hover:shadow-md"
+            >
+              {item.icon}
+              <p className="font-head text-base text-emerald-500">
+                {item.name}
+              </p>
+            </Link>
           )}
         </React.Fragment>
       ))}

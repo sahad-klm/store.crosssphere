@@ -16,7 +16,10 @@ const Home = (data: {
     return (
       <>
         <div className="mt-52 flex h-full flex-col items-center justify-center">
-          <Image width={1440} height={500} loading='lazy'
+          <Image
+            width={1440}
+            height={500}
+            loading="lazy"
             src=""
             alt=""
             className="h-[500px] object-contain"
@@ -33,9 +36,9 @@ const Home = (data: {
 
   return (
     <>
-        {pageName[0].modules.map((page: { id: any; pageType: any }) => (
-          <Module key={page.id} data={page?.pageType} />
-        ))}
+      {pageName[0].modules.map((page: { id: any; pageType: any }) => (
+        <Module key={page.id} data={page?.pageType} />
+      ))}
     </>
   );
 };

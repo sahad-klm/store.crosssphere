@@ -3,15 +3,10 @@
 import React, { useState } from 'react';
 
 import BrowseAllButton from './BrowseAllButton';
-import {
-  NavLAstInFeistBar,
-  NavLAstInFeistBar2,
-} from './NavLAstInFeistBar';
+import { NavLAstInFeistBar, NavLAstInFeistBar2 } from './NavLAstInFeistBar';
 import SearchBar from './searchBar';
 import { motion } from 'framer-motion';
-import {
-  textVariant2,
-} from '@/lib/motion';
+import { textVariant2 } from '@/lib/motion';
 import { NavBigOptionsTab, NavBigOptions } from './NavBigOptions';
 import { footerSocialMedia } from '@/lib/data';
 import Link from 'next/link';
@@ -19,7 +14,7 @@ import Image from 'next/image';
 import Cart from './Cart';
 
 function Header(): any {
-  const [isCart, setIsCart] = useState<boolean>(false)
+  const [isCart, setIsCart] = useState<boolean>(false);
   const [searchOption, setSearchOption] = useState<string | any>(
     'All Catagories',
   );
@@ -74,10 +69,18 @@ function Header(): any {
     <>
       <nav className="relative top-0 z-[1000] hidden w-full flex-col lg:flex ">
         <div className="flex h-[105px] w-full items-center justify-between border-b-[1px] border-solid border-gray-700 border-opacity-20 bg-white py-7 sm:px-4">
-          <Link aria-label="Read more" href="/" className="flex h-full items-center justify-center">
-            <Image width={106} height={100} loading='lazy' alt=''
+          <Link
+            aria-label="Read more"
+            href="/"
+            className="flex h-full items-center justify-center"
+          >
+            <Image
+              width={106}
+              height={100}
+              loading="lazy"
+              alt=""
               src="/namegreen.webp"
-              className="w-full h-[39px] shrink-0  object-cover"
+              className="h-[39px] w-full shrink-0  object-cover"
             />
           </Link>
           <SearchBar
@@ -88,7 +91,7 @@ function Header(): any {
             setIsSearchOptionActive={setIsSearchOptionActive}
           />
 
-          <NavLAstInFeistBar setIsCart={setIsCart}/>
+          <NavLAstInFeistBar setIsCart={setIsCart} />
         </div>
 
         <div className="flex h-[105px] w-full items-center justify-start border-b-[1px] border-solid border-gray-700 border-opacity-20 bg-white py-7 px-4">
@@ -103,8 +106,8 @@ function Header(): any {
           <div className="hidden h-full flex-1 items-center justify-end gap-3 xl:flex">
             <i className="fa-solid fa-headset text-3xl text-gray-800" />
             <div className="grid">
-              <h1 className="font-head text-[26px] tracking-[3px] text-emerald-500 leading-6">
-               8075122414
+              <h1 className="font-head text-[26px] leading-6 tracking-[3px] text-emerald-500">
+                8075122414
               </h1>
               <p className="font-body text-sm  tracking-wider ">
                 24/7 Support center
@@ -146,14 +149,22 @@ function Header(): any {
             onClick={() => setBrowseAllCategory(true)}
             className="fa-solid fa-bars-staggered w-22 cursor-pointer text-2xl text-gray-700 sm:w-28 sm:text-3xl"
           />
-          <Link aria-label="Read more" href="/" className="flex h-full items-center justify-center">
-            <Image width={100} height={100} alt='' loading='lazy'
+          <Link
+            aria-label="Read more"
+            href="/"
+            className="flex h-full items-center justify-center"
+          >
+            <Image
+              width={100}
+              height={100}
+              alt=""
+              loading="lazy"
               src="/namegreen.webp"
               className=" h-[35px] w-full shrink-0 cursor-pointer object-contain"
             />
           </Link>
           <div>
-            <NavLAstInFeistBar2 setIsCart={setIsCart}/>
+            <NavLAstInFeistBar2 setIsCart={setIsCart} />
           </div>
         </div>
 
@@ -189,7 +200,7 @@ function Header(): any {
             </div>
 
             <div className="flex  w-full flex-1 items-start overflow-scroll bg-white">
-              <NavBigOptionsTab setBrowseAllCategory={setBrowseAllCategory}/>
+              <NavBigOptionsTab setBrowseAllCategory={setBrowseAllCategory} />
             </div>
 
             <div className="flex h-24 w-full shrink-0 items-center bg-gray-100 px-4">
@@ -240,9 +251,8 @@ function Header(): any {
         </motion.div>
       </AnimatePresence> */}
 
-
       {/* cart */}
-     <Cart isCart={isCart} setIsCart={setIsCart} />
+      <Cart isCart={isCart} setIsCart={setIsCart} />
     </>
   );
 }

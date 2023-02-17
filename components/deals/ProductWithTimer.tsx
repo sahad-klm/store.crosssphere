@@ -13,7 +13,7 @@ type Props = {
   rate?: number | any;
   offer?: number | any;
   picture?: string | any;
-  bgImage?: any
+  bgImage?: any;
 };
 function ProductWithTimer({
   id,
@@ -23,12 +23,19 @@ function ProductWithTimer({
   tags,
   offer,
   picture,
-  bgImage
+  bgImage,
 }: Props): any {
   return (
-    <div className="group/body relative flex xl:min-w-[310px] lg:min-w-[310px] flex-1 flex-col overflow-hidden rounded-[18px] xl:w-[310px] min-w-[310px]">
+    <div className="group/body relative flex min-w-[310px] flex-1 flex-col overflow-hidden rounded-[18px] lg:min-w-[310px] xl:w-[310px] xl:min-w-[310px]">
       <div className="relative -z-[1] mb-[20%] flex h-[310px] max-w-full overflow-hidden rounded-[18px]">
-        <Image width={1440} height={1000} loading="lazy"  src={bgImage} alt="" className="min-h-full w-full object-cover" />
+        <Image
+          width={1440}
+          height={1000}
+          loading="lazy"
+          src={bgImage}
+          alt=""
+          className="min-h-full w-full object-cover"
+        />
       </div>
       <div className="absolute bottom-4 flex w-full flex-col items-center justify-center transition-transform duration-300 group-hover/body:-translate-y-1">
         {/* <div className="mb-2 flex w-full flex-row items-center justify-center gap-1 rounded md:mb-3">
@@ -59,13 +66,13 @@ function ProductWithTimer({
             <p className="text-body text-sm text-gray-700 md:text-base">Days</p>
           </div>
         </div> */}
-        <div className="mx-7 rounded-[18px] bg-white shadow-lg p-3">
+        <div className="mx-7 rounded-[18px] bg-white p-3 shadow-lg">
           <h4 className="mx-5 pb-[8px] font-head text-sm text-gray-700 transition-all duration-200 hover:text-emerald-500 md:pb-[10px] md:text-base">
             {name}
           </h4>
           <Rating rating={rating} />
           <div
-            className="mx-5 mb-5 flex flex-row flex-wrap items-center gap-1 justify-between 
+            className="mx-5 mb-5 flex flex-row flex-wrap items-center justify-between gap-1 
          "
           >
             {/* <RateOfProduct rate={rate} offer={offer} /> */}

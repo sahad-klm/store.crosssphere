@@ -12,13 +12,12 @@ const Welcome2Top = () => {
 
   const handleKeyDown = (e: KeyboardEvent) => {
     if (e.which === 27) {
-      setYPosition(0)
+      setYPosition(0);
     }
-  }
+  };
 
   React.useEffect(() => {
     if (isBrowser) {
-
       window.addEventListener('scroll', () => {
         const currentPosition = pageYOffset;
         setTimeout(() => {
@@ -36,27 +35,26 @@ const Welcome2Top = () => {
     }
   }, []);
 
-
   return (
     <motion.button
       initial="hide"
-      name='button'
+      name="button"
       animate={yPosition >= 300 ? 'show' : 'hide'}
       variants={{
         show: {
           y: '0%',
-          opacity: 1
+          opacity: 1,
         },
         hide: {
           y: '100%',
-          opacity: 0
+          opacity: 0,
         },
       }}
       transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1] }}
       onKeyDown={() => handleKeyDown}
       onClick={() => {
-        scrollTo(0, 0)
-        navigator.vibrate(200)
+        scrollTo(0, 0);
+        navigator.vibrate(200);
       }}
       className="fixed bottom-24 right-10 z-[900] flex h-8 w-8 cursor-pointer items-center justify-center rounded-full border border-gray-700 bg-white outline-none"
     >

@@ -11,8 +11,8 @@ const TotalCountsOfDetails = () => {
       animate="show"
       exit="hide"
       variants={fadeAnim}
-      className="hidden relative z-30 mt-5 lg:flex sm:flex-row  flex-col justify-evenly flex-wrap gap-10 overflow-hidden rounded-2xl bg-[#4b675a] py-20 px-5 min-[921px]:grid-flow-col  min-[921px]:gap-5 
-      min-[921px]:py-28 "
+      className="relative z-30 mt-5 hidden flex-col flex-wrap  justify-evenly gap-10 overflow-hidden rounded-2xl bg-[#4b675a] py-20 px-5 sm:flex-row min-[921px]:grid-flow-col min-[921px]:gap-5  min-[921px]:py-28 
+      lg:flex "
     >
       {ourThings.map((item) => (
         <React.Fragment key={item.id}>
@@ -22,16 +22,15 @@ const TotalCountsOfDetails = () => {
                 width={1440}
                 height={1000}
                 src={total.bg!}
-                
                 alt="bg"
-                loading='lazy'
+                loading="lazy"
                 className="absolute top-0 left-0 -z-10 h-full w-full object-cover opacity-[.3]"
               />
               {total.title && (
                 <motion.div
                   initial="hide"
                   whileInView="show"
-                  viewport={{once: true}}
+                  viewport={{ once: true }}
                   exit="hide"
                   variants={{
                     show: {
@@ -50,7 +49,7 @@ const TotalCountsOfDetails = () => {
                   }}
                   className="grid place-content-center place-items-center gap-2"
                 >
-                  <h1 className="font-head lg:text-7xl md:text-6xl sm:text-5xl text-4xl  text-white">
+                  <h1 className="font-head text-4xl text-white sm:text-5xl md:text-6xl  lg:text-7xl">
                     {total.count}+
                   </h1>
                   <h4 className="text-2xl text-white">{total.title}</h4>

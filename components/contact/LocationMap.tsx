@@ -1,35 +1,9 @@
-import React, { useRef, useEffect, useState } from 'react';
-import mapboxgl from 'mapbox-gl'; // eslint-disable-line import/no-webpack-loader-syntax
 import { AnimatePresence, motion } from 'framer-motion';
 import { fadeAnim } from '@/lib/motion';
-mapboxgl.accessToken = "pk.eyJ1IjoiZG9kb2luZyIsImEiOiJjbGJ3NzJhNnoxemk4M25xbmRlZnJtMDJqIn0.a26BTo_cU6_i6fa8blWJJA";
-
+import Image from 'next/image';
+import map from "public/map.webp"
+import Link from 'next/link';
 export default function LocationMap() {
-  const mapContainer = useRef<any>(null);
-  const map = useRef<any>(null);
-  const [lng, setLng] = useState<number>(76.07555);
-  const [lat, setLat] = useState<number>(11.0405);
-  const [zoom, setZoom] = useState<number>(9);
-
-  useEffect(() => {
-    if (map.current) return; // initialize map only once
-    map.current = new mapboxgl.Map({
-      container: mapContainer.current,
-      style: 'mapbox://styles/dodoing/clbw9qefu002714o2nwqhtnsf',
-      center: [lng, lat],
-      zoom: zoom,
-    });
-  });
-
-  useEffect(() => {
-    if (!map.current) return; // wait for map to initialize
-    map.current.on('move', () => {
-      setLng(map.current.getCenter().lng.toFixed(4));
-      setLat(map.current.getCenter().lat.toFixed(4));
-      setZoom(map.current.getZoom().toFixed(2));
-    });
-  });
-
   return (
     <AnimatePresence mode="wait">
       <motion.div
@@ -39,11 +13,9 @@ export default function LocationMap() {
         variants={fadeAnim}
         className="flex w-full items-center justify-center overflow-hidden rounded-2xl"
       >
-        <motion.div className="flex" />
-        <div
-          ref={mapContainer}
-          className="map-container flex h-[350px]  w-full flex-1"
-        />
+        <Link href='https://www.google.com/maps/place/Kolkkalam+Kizhakethala+Mosque+%E0%B4%95%E0%B5%8B%E0%B5%BD%E0%B4%95%E0%B5%8D%E0%B4%95%E0%B4%B3%E0%B4%82+%E0%B4%95%E0%B4%BF%E0%B4%B4%E0%B4%95%E0%B5%8D%E0%B4%95%E0%B5%87%E0%B4%A4%E0%B4%B2+%E0%B4%AE%E0%B4%B8%E0%B5%8D%E0%B4%9C%E0%B4%BF%E0%B4%A6%E0%B5%8D/@11.7859673,75.2559655,6z/data=!4m6!3m5!1s0x3ba7b578ebbc63ab:0xedccc61daafddf5c!8m2!3d10.9758243!4d76.0781594!16s%2Fg%2F11fylnt1pd' target="_blank" className='w-full h-full'>
+        <Image width={10000}  height={1000} alt="map" src={map} loading="lazy" layout='responsive' className='object-cover object-center w-full h-auto max-h-[400px]' />
+      </Link>
       </motion.div>
     </AnimatePresence>
   );

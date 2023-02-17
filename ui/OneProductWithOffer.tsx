@@ -87,6 +87,7 @@ function OneProductWithOffer({
           <Image
             width={1440}
             height={1000}
+            layout="responsive"
             loading="lazy"
             src={
               bacPicture
@@ -101,7 +102,6 @@ function OneProductWithOffer({
             className="h-full w-full object-contain"
           />
         </Link>
-
       </div>
       <small className="mx-5 mt-3 flex flex-wrap pb-[4px] font-body text-[10px] text-gray-400 md:pb-[6px] md:text-xs">
         {tags}
@@ -183,6 +183,7 @@ const OneProductLeftPicRightDetail = ({
                     height={1000}
                     loading="lazy"
                     src={item.picture}
+                    layout="responsive"
                     className="h-full w-full object-cover"
                     alt={item.name}
                   />

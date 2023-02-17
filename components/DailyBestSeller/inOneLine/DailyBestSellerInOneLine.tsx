@@ -1,4 +1,3 @@
-import { productsData } from '@/lib/products';
 import { OneProductWithOffer } from '@/ui/OneProductWithOffer';
 import React from 'react';
 import { Navigation, Scrollbar } from 'swiper';
@@ -8,7 +7,7 @@ const DailyBestSellerInOneLine = ({
   mouseOver,
   setMouseOver,
   slidesPerView,
-  data
+  data,
 }: any) => {
   return (
     <Swiper
@@ -19,7 +18,7 @@ const DailyBestSellerInOneLine = ({
       autoplay={{ delay: 2000 }}
       className="w-full"
     >
-      {data?.map((item:any) => (
+      {data?.map((item: any) => (
         <SwiperSlide key={item.id}>
           <OneProductWithOffer
             {...item}

@@ -39,9 +39,12 @@ const Pagination = (props: any): any => {
         <div className="arrow left mr-5" />
       </li>
       {paginationRange.map((pageNumber: any, idx: React.Key) => {
-
         if (pageNumber === DOTS) {
-          return <li key={idx} className="pagination-item dots">&#8230;</li>;
+          return (
+            <li key={idx} className="pagination-item dots">
+              &#8230;
+            </li>
+          );
         }
 
         return (

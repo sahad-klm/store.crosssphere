@@ -12,7 +12,7 @@ const Contact = () => {
       <div className="mx-4  grid lg:mx-[5%] xl:mx-[10%]">
         <HelpYou />
       </div>
-      <div className="px-4 grid w-full ">
+      <div className="grid w-full px-4 ">
         <LocationMap />
       </div>
       <div className="mx-4 grid lg:mx-[5%] xl:mx-[10%]">

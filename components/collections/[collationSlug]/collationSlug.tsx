@@ -31,80 +31,80 @@ const CollationSlug = ({ data }: any) => {
     return data?.slice(firstPageIndex, lastPageRange);
   }, [currentPage]);
 
-  if (!data) return <Error statusCode={505} title="There is no prosucts" />
-  else return (
-    <div className="relative mx-4 mt-[100px] flex flex-col items-center justify-center lg:mt-5">
-      <Head headName={data[0]?.category} tags={data[0]?.tags} />
-      <div className="mt-[40px] mb-7 flex w-full flex-col items-start justify-center gap-4 xl:flex-row">
-        <div className=" flex w-full flex-col items-center justify-between gap-6">
-          <HeadingWithFilter
-            filteringCount={filteringCount}
-            products={data}
-            setFilteringCount={filteringCount}
-          />
+  if (!data) return <Error statusCode={505} title="There is no prosucts" />;
+  else
+    return (
+      <div className="relative mx-4 mt-[100px] flex flex-col items-center justify-center lg:mt-5">
+        <Head headName={data[0]?.category} tags={data[0]?.tags} />
+        <div className="mt-[40px] mb-7 flex w-full flex-col items-start justify-center gap-4 xl:flex-row">
+          <div className=" flex w-full flex-col items-center justify-between gap-6">
+            <HeadingWithFilter
+              filteringCount={filteringCount}
+              products={data}
+              setFilteringCount={filteringCount}
+            />
 
-          <LazyMotion features={domAnimation}>
+            <LazyMotion features={domAnimation}>
+              <m.div
+                initial="hide"
+                animate="show"
+                exit="hide"
+                variants={fadeAnim}
+                className="grid w-full grid-cols-2 gap-x-3 gap-y-5 md:grid-cols-3 lg:grid-cols-4 "
+              >
+                {currentTableData?.map(
+                  (
+                    item: JSX.IntrinsicAttributes & {
+                      id?: React.Key | undefined;
+                      name?: any;
+                      rating?: any;
+                      tags?: string | undefined;
+                      rate?: any;
+                      offer?: any;
+                      picture?: any;
+                      bacPicture?: any;
+                      mouseOver?: any;
+                      setMouseOver?: any;
+                      buttonStyle?: any;
+                      classNameForPic?: any;
+                      classNameForTotal?: any;
+                    },
+                  ) => (
+                    <OneProductWithOffer
+                      mouseOver={mouseOver}
+                      setMouseOver={setMouseOver}
+                      key={item.id}
+                      {...item}
+                      buttonStyle="add"
+                      classNameForTotal="xl:w-auto xl:w-full xl:h-auto w-auto h-[443px] mx-auto"
+                      classNameForPic="p-4 "
+                    />
+                  ),
+                )}
+              </m.div>
+            </LazyMotion>
+            <Pagination
+              className="pagination-bar mt-4 mb-[50px] items-center"
+              currentPage={currentPage}
+              totalCount={Math.ceil(data.length / PageSize)}
+              pageSize={PageSize}
+              onPageChange={(page: any) => setCurrentPage(page)}
+            />
+            <DealsOfTheDayInCollection />
+          </div>
 
-            <m.div
-              initial="hide"
-              animate="show"
-              exit="hide"
-              variants={fadeAnim}
-              className="grid w-full grid-cols-2 gap-x-3 gap-y-5 md:grid-cols-3 lg:grid-cols-4 "
-            >
-              {currentTableData?.map(
-                (
-                  item: JSX.IntrinsicAttributes & {
-                    id?: React.Key | undefined;
-                    name?: any;
-                    rating?: any;
-                    tags?: string | undefined;
-                    rate?: any;
-                    offer?: any;
-                    picture?: any;
-                    bacPicture?: any;
-                    mouseOver?: any;
-                    setMouseOver?: any;
-                    buttonStyle?: any;
-                    classNameForPic?: any;
-                    classNameForTotal?: any;
-                  },
-                ) => (
-                  <OneProductWithOffer
-                    mouseOver={mouseOver}
-                    setMouseOver={setMouseOver}
-                    key={item.id}
-                    {...item}
-                    buttonStyle="add"
-                    classNameForTotal="xl:w-auto xl:w-full xl:h-auto w-auto h-[443px] mx-auto"
-                    classNameForPic="p-4 "
-                  />
-                ),
-              )}
-            </m.div>
-          </LazyMotion>
-          <Pagination
-            className="pagination-bar mt-4 mb-[50px] items-center"
-            currentPage={currentPage}
-            totalCount={Math.ceil(data.length / PageSize)}
-            pageSize={PageSize}
-            onPageChange={(page: any) => setCurrentPage(page)}
-          />
-          <DealsOfTheDayInCollection />
-        </div>
+          <div className="hidden w-full shrink-0 flex-col gap-10 lg:flex xl:w-min">
+            <CategorySmallBox />
 
-        <div className="hidden w-full shrink-0 flex-col gap-10 lg:flex xl:w-min">
-          <CategorySmallBox />
+            <FilterByC_T_R />
 
-          <FilterByC_T_R />
+            <NewProducts />
 
-          <NewProducts />
-
-          <OfferBoxInCollection />
+            <OfferBoxInCollection />
+          </div>
         </div>
       </div>
-    </div>
-  );
+    );
 };
 
 export default CollationSlug;

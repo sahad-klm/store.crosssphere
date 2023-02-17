@@ -4,14 +4,14 @@ import { m } from 'framer-motion';
 import Image from 'next/image';
 
 const OurPerformance = () => (
-  <div className="mt-[-2rem] lg:mt-[30px] grid gap-5 max-md:grid-rows-2 md:grid-cols-2">
+  <div className="mt-[-2rem] grid gap-5 max-md:grid-rows-2 md:grid-cols-2 lg:mt-[30px]">
     {ourPerformance.map((item) => (
       <React.Fragment key={item.id}>
         <div className="flex h-full items-center justify-center gap-3">
           <m.div
             initial="hide"
             whileInView="show"
-            viewport={{once: true}}
+            viewport={{ once: true }}
             exit="hide"
             variants={{
               show: {
@@ -28,7 +28,7 @@ const OurPerformance = () => (
               ease: [0.16, 1, 0.3, 1],
               delay: 0.25,
             }}
-            className="flex h-[11rem] w-[8rem] lg:h-[16rem] lg:w-[12rem] items-center justify-center overflow-hidden rounded-2xl"
+            className="flex h-[11rem] w-[8rem] items-center justify-center overflow-hidden rounded-2xl lg:h-[16rem] lg:w-[12rem]"
           >
             <Image
               width={1000}
@@ -42,7 +42,7 @@ const OurPerformance = () => (
           <m.div
             initial="hide"
             whileInView="show"
-            viewport={{once: true}}
+            viewport={{ once: true }}
             exit="hide"
             variants={{
               show: {
@@ -59,14 +59,14 @@ const OurPerformance = () => (
               ease: [0.16, 1, 0.3, 1],
               delay: 0.35,
             }}
-            className="flex h-[15rem] w-[11rem] lg:h-[20rem] lg:w-[16rem] items-center justify-center overflow-hidden rounded-2xl"
+            className="flex h-[15rem] w-[11rem] items-center justify-center overflow-hidden rounded-2xl lg:h-[20rem] lg:w-[16rem]"
           >
             <Image
-            width={1000}
-            height={1000}
+              width={1000}
+              height={1000}
               src={`/${item.bigPicture}`}
               alt="pic"
-              loading='lazy'
+              loading="lazy"
               className="h-full w-full object-cover "
             />
           </m.div>
@@ -75,7 +75,7 @@ const OurPerformance = () => (
           <m.h3
             initial="hide"
             whileInView="show"
-            viewport={{once: true}}
+            viewport={{ once: true }}
             exit="hide"
             variants={{
               show: {
@@ -92,14 +92,14 @@ const OurPerformance = () => (
               ease: [0.16, 1, 0.3, 1],
               delay: 0.55,
             }}
-            className="mt-[-2rem] lg:mt-4 mb-3 font-head text-2xl text-gray-500"
+            className="mt-[-2rem] mb-3 font-head text-2xl text-gray-500 lg:mt-4"
           >
             {item.head}
           </m.h3>
           <m.h1
             initial="hide"
             whileInView="show"
-            viewport={{once: true}}
+            viewport={{ once: true }}
             exit="hide"
             variants={{
               show: {
@@ -125,7 +125,7 @@ const OurPerformance = () => (
               <m.p
                 initial="hide"
                 whileInView="show"
-                viewport={{once: true}}
+                viewport={{ once: true }}
                 exit="hide"
                 variants={{
                   show: {

@@ -7,7 +7,8 @@ import {
   FooterProducts,
   Collations,
   ProductDetails,
-  About,Contact
+  About,
+  Contact,
 } from 'components';
 import CollationSlug from 'components/collections/[collationSlug]/collationSlug';
 
@@ -17,12 +18,8 @@ const Module = ({
   product,
   activeVariant,
   onVariantChange,
-}: any):JSX.Element | any => {
-
-  
-
-  const ModuleType = (data : any): any => {
-    
+}: any): JSX.Element | any => {
+  const ModuleType = (data: any): any => {
     switch (data?.data) {
       case 'homeContent':
         return <HomeComponent />;
@@ -41,7 +38,6 @@ const Module = ({
       case 'contact':
         return <Contact />;
     }
-
   };
   return (
     <ModuleType

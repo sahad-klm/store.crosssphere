@@ -27,21 +27,20 @@ const ProductEachDetail = (product: any) => {
         <p className="inline-flex items-center gap-[10px] text-base text-gray-900">
           <TickFilledIcon className="-m-3 scale-50 fill-lime-700" />
           Air and Sea
-          <span className="-ml-1 capitalize">
-            Shipment
-          </span>
+          <span className="-ml-1 capitalize">Shipment</span>
         </p>
         <p className="inline-flex items-center gap-[10px] text-base text-gray-500">
-          <TickFilledIcon className="-m-3 scale-50 fill-transparent" /> Depend on product {' '}
+          <TickFilledIcon className="-m-3 scale-50 fill-transparent" /> Depend
+          on product{' '}
         </p>
         <p className="inline-flex items-center gap-[10px] text-base text-emerald-500">
-          <TickFilledIcon className="-m-3 scale-50 fill-red-500" /> 
+          <TickFilledIcon className="-m-3 scale-50 fill-red-500" />
         </p>
       </span>
       <h4 className="max-w-[90%] text-lg text-gray-600">
         {product[0].smallDetail}
       </h4>
-      <div className="mt-6 flex items-center flex-wrap gap-4">
+      <div className="mt-6 flex flex-wrap items-center gap-4">
         <span className="grid h-[50px] w-[100px] grid-flow-col place-content-center items-center justify-between rounded-lg border-[2px] border-emerald-500 ">
           <p className=" ml-7 text-base font-bold text-emerald-500">
             {cartCount}
@@ -59,8 +58,8 @@ const ProductEachDetail = (product: any) => {
             />
           </span>
         </span>
-        <ButtonAddToCart className="mt-0 w-[158px] mx-0" />
-        <div className='flex gap-3'>
+        <ButtonAddToCart className="mx-0 mt-0 w-[158px]" />
+        <div className="flex gap-3">
           <span className=" grid h-[50px] w-[50px] place-content-center rounded-lg border border-gray-300">
             <Love className="-m-3 scale-50 fill-gray-500" />
           </span>

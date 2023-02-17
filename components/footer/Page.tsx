@@ -27,7 +27,7 @@ const Footer = () => {
         </li>
 
         {/* new */}
-        <div className="flex sm:items-start gap-4  flex-wrap items-center justify-center">
+        <div className="flex flex-wrap items-center  justify-center gap-4 sm:items-start">
           <li className="inline-flex items-center justify-center gap-2">
             <span className="flex h-7 w-7 items-center justify-center rounded-full bg-white p-2 sm:h-10 sm:w-10 sm:p-1">
               <svg
