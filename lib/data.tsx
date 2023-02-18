@@ -677,7 +677,7 @@ export const aboutCompany = [
           " Thank you for choosing Aldan International as your partner in international vegetable and spice exports",
       },
     ],
-    picture: 'aboutus.jpg',
+    picture: 'about.jpeg',
   },
 ];
 
