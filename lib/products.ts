@@ -4444,8 +4444,6 @@ export const productsData = [
     name: 'Cardamom Oil',
     rating: 4.0,
     tags: 'Aroma, Flavor, Medicine',
-    // rate: 10.4,
-    // offer: 7,
     categorySlug: 'oils',
     category: 'Oils',
     picture: '/oils/cardamomoil.png',
@@ -4497,8 +4495,6 @@ export const productsData = [
     name: 'Coconut Oil',
     rating: 4.0,
     tags: 'Cooking, Hair, Skin',
-    // rate: 10.4,
-    // offer: 7,
     categorySlug: 'oils',
     category: 'Oils',
     picture: '/oils/coconutoil.png',
@@ -4514,6 +4510,151 @@ export const productsData = [
             id: 1,
             title: '',
             detail: `Additionally, coconut oil is high in calories, and consuming too much can contribute to weight gain and other health issues.`,
+          },
+        ],
+      },
+      {
+        id: 2,
+        part: 'Additional info',
+        items: [
+          {
+            id: 1,
+            detail: '',
+          },
+        ],
+      },
+      {
+        id: 3,
+        part: 'Reviews',
+        items: [
+          {
+            id: '1',
+            name: '',
+            date: '',
+            title: '',
+            text: '',
+            rating: 3.5,
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: 237,
+    name: 'Ginger Oil',
+    rating: 4.0,
+    tags: 'Cooking, Hair, Skin',
+    categorySlug: 'oils',
+    category: 'Oils',
+    picture: '/oils/gingeroil.png',
+    partOf: '',
+    bacPicture: '/oils/gingeroil.png',
+    smallDetail: ``,
+    details: [
+      {
+        id: 1,
+        part: 'Description',
+        items: [
+          {
+            id: 1,
+            title: '',
+            detail: ``,
+          },
+        ],
+      },
+      {
+        id: 2,
+        part: 'Additional info',
+        items: [
+          {
+            id: 1,
+            detail: '',
+          },
+        ],
+      },
+      {
+        id: 3,
+        part: 'Reviews',
+        items: [
+          {
+            id: '1',
+            name: '',
+            date: '',
+            title: '',
+            text: '',
+            rating: 3.5,
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: 238,
+    name: 'Clove Oil',
+    rating: 4.0,
+    tags: 'Cooking, Hair, Skin',
+    categorySlug: 'oils',
+    category: 'Oils',
+    picture: '/oils/cloveoil.png',
+    bacPicture: '/oils/cloveoil.png',
+    smallDetail: ``,
+    details: [
+      {
+        id: 1,
+        part: 'Description',
+        items: [
+          {
+            id: 1,
+            title: '',
+            detail: ``,
+          },
+        ],
+      },
+      {
+        id: 2,
+        part: 'Additional info',
+        items: [
+          {
+            id: 1,
+            detail: '',
+          },
+        ],
+      },
+      {
+        id: 3,
+        part: 'Reviews',
+        items: [
+          {
+            id: '1',
+            name: '',
+            date: '',
+            title: '',
+            text: '',
+            rating: 3.5,
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: 236,
+    name: 'Cinnamon Oil',
+    rating: 4.0,
+    tags: 'Cooking, Hair, Skin',
+    categorySlug: 'oils',
+    category: 'Oils',
+    picture: '/oils/cinnamonoil.png',
+    bacPicture: '/oils/cinnamonoil.png',
+    smallDetail: ``,
+    details: [
+      {
+        id: 1,
+        part: 'Description',
+        items: [
+          {
+            id: 1,
+            title: '',
+            detail: ``,
           },
         ],
       },
