@@ -199,7 +199,7 @@ export const BrowseAllCategories: Props[] = [
     picture: '/featured/vegetables.png',
     slug: 'vegetables',
     bg: '#fffceb',
-    items: 31,
+    items: 32,
   },
   {
     id: 2,
@@ -226,7 +226,7 @@ export const BrowseAllCategories: Props[] = [
     picture: '/featured/oils.png',
     slug: 'oils',
     bg: '#fff3eb',
-    items: 2,
+    items: 5,
   },
 
   {
@@ -236,7 +236,7 @@ export const BrowseAllCategories: Props[] = [
     picture: '/featured/leafvegetable.png',
     slug: 'leaves',
     bg: '#fff3ff',
-    items: 7,
+    items: 8,
   },
   {
     id: 6,

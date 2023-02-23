@@ -1176,7 +1176,7 @@ export const productsData = [
     category: 'Vegetables',
     picture: '/veg/carrot.png',
     bacPicture: '/veg/carrot.png',
-    smallDetail: ``,
+    smallDetail: `Carrots are low in calories and high in fiber, making them a popular and healthy choice for many people. They are also a rich source of vitamins and minerals, including vitamin A, vitamin K, potassium, and beta-carotene, which has been linked to various health benefits such as improved vision and reduced risk of certain cancers. Carrots can be eaten raw, cooked, or juiced`,
     details: [
       {
         id: 1,
@@ -1276,7 +1276,7 @@ export const productsData = [
     category: 'Vegetables',
     picture: '/veg/brinjal.png',
     bacPicture: '/veg/brinjal.png',
-    smallDetail: ``,
+    smallDetail: `Brinjal is a low-calorie food that is rich in dietary fiber, vitamins, and minerals, including potassium, magnesium, and vitamin C. It is also a good source of antioxidants, which can help protect against cell damage and certain chronic diseases. Brinjal is used in a variety of dishes, such as curries, stews, dips, and salads, and can be grilled, roasted, fried, or baked.`,
     details: [
       {
         id: 1,
@@ -1326,7 +1326,7 @@ export const productsData = [
     category: 'Vegetables',
     picture: '/veg/mushroom.png',
     bacPicture: '/veg/mushroom.png',
-    smallDetail: ``,
+    smallDetail: `Mushrooms are a type of fungus that come in a variety of shapes, sizes, and colors. They are widely used in cooking for their unique flavor and texture, as well as their nutritional value. Mushrooms are a low-calorie food that are rich in vitamins and minerals, including vitamin D, potassium, and B vitamins.`,
     details: [
       {
         id: 1,
@@ -4549,7 +4549,7 @@ export const productsData = [
     picture: '/oils/gingeroil.png',
     partOf: '',
     bacPicture: '/oils/gingeroil.png',
-    smallDetail: ``,
+    smallDetail: `Ginger oil contains several bioactive compounds, including gingerol and shogaol, which are known for their anti-inflammatory and antioxidant properties. It is believed to have many potential health benefits, such as reducing nausea, easing digestive issues, and improving circulation.`,
     details: [
       {
         id: 1,
@@ -4597,7 +4597,7 @@ export const productsData = [
     category: 'Oils',
     picture: '/oils/cloveoil.png',
     bacPicture: '/oils/cloveoil.png',
-    smallDetail: ``,
+    smallDetail: `Clove oil contains several bioactive compounds, including eugenol, which is known for its analgesic, antimicrobial, and anti-inflammatory properties. It is believed to have many potential health benefits, such as relieving toothaches, reducing inflammation, and improving respiratory health. `,
     details: [
       {
         id: 1,
@@ -4605,8 +4605,8 @@ export const productsData = [
         items: [
           {
             id: 1,
-            title: '',
-            detail: ``,
+            title: 'Used for',
+            detail: `Clove oil can be used topically or aromatically, but it should not be ingested unless under the guidance of a healthcare professional. It is also important to use high-quality, pure clove oil and to follow proper dilution guidelines`,
           },
         ],
       },
@@ -4645,7 +4645,7 @@ export const productsData = [
     category: 'Oils',
     picture: '/oils/cinnamonoil.png',
     bacPicture: '/oils/cinnamonoil.png',
-    smallDetail: ``,
+    smallDetail: `Cinnamon oil can be used topically, aromatically, or ingested, but it is important to use high-quality, pure cinnamon oil and to follow proper dilution and dosage guidelines. It should also be used with caution by pregnant women and people with certain medical conditions.`,
     details: [
       {
         id: 1,
@@ -4654,7 +4654,7 @@ export const productsData = [
           {
             id: 1,
             title: '',
-            detail: ``,
+            detail: `Cinnamon oil contains several bioactive compounds, including cinnamaldehyde, which is known for its anti-inflammatory, antimicrobial, and antioxidant properties. It is believed to have many potential health benefits, such as regulating blood sugar levels, improving brain function, and reducing inflammation. `,
           },
         ],
       },
