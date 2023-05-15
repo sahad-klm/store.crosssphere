@@ -21,8 +21,8 @@ const Footer = () => {
             height={100}
             loading="lazy"
             alt=""
-            src="/namewhite.webp"
-            className="h-[39px] w-full shrink-0 object-cover  "
+            src="/namewhite.png"
+            className="h-[53px] w-full shrink-0 object-cover  "
           />
         </li>
 
