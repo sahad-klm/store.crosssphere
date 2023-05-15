@@ -79,8 +79,8 @@ function Header(): any {
               height={100}
               loading="lazy"
               alt=""
-              src="/namegreen.webp"
-              className="h-[39px] w-full shrink-0  object-cover"
+              src="/namegreen.png"
+              className="h-[55px] w-full shrink-0  object-cover"
             />
           </Link>
           <SearchBar
@@ -159,8 +159,8 @@ function Header(): any {
               height={100}
               alt=""
               loading="lazy"
-              src="/namegreen.webp"
-              className=" h-[35px] w-full shrink-0 cursor-pointer object-contain"
+              src="/namegreen.png"
+              className=" h-[48px] w-full shrink-0 cursor-pointer object-contain"
             />
           </Link>
           <div>
