@@ -669,12 +669,12 @@ export const aboutCompany = [
       {
         id: 1,
         paragraph:
-          'Welcome to Aldan International, a leading international exporter of premium quality vegetables,spices and fruits.we take pride in our ability to provide high-quality products that are sourced from the best growers and suppliers from around the world.Our company is dedicated to providing a wide variety of vegetables,spices and fruits to our customers, ensuring that they receive the freshest, most delicious, and nutrient-rich produce. We work directly with our partner farmers and suppliers to ensure that our products are sustainably grown, harvested and processed to the highest standards.We are proud to be a part of the global food supply chain, providing our customers with the best quality vegetables,spices and fruits that are essential ingredients in the culinary traditions of many cultures. ',
+          `Aldan International is a renowned company specializing in the export of spices, vegetables, fruits, and various other food products from India. We have quickly gained momentum and experienced rapid growth in the export industry. Despite its relatively short time in operation, the company has managed to make a significant impact and establish a strong presence in the international market., Aldan International has earned a reputation for providing high-quality products sourced directly from the rich agricultural lands of India.India, known as the land of spices, holds a significant position in the global spice trade. Producing an impressive 70% of the world's spices, India has a diverse range of aromatic herbs and spices that are highly sought after in the culinary industry. Aldan International takes pride in being a key player in promoting and exporting these exquisite Indian spices to customers worldwide.Apart from spices, Aldan International also specializes in exporting fresh and premium-quality vegetables and fruits. India's fertile soil and favorable climate contribute to the cultivation of a wide variety of fruits and vegetables, ensuring a bountiful harvest year-round. `,
       },
       {
         id: 2,
         paragraph:
-          " Thank you for choosing Aldan International as your partner in international vegetable and spice exports",
+          " ",
       },
     ],
     picture: 'about.svg',
