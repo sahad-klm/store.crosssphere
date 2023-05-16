@@ -79,8 +79,8 @@ function Header(): any {
               height={100}
               loading="lazy"
               alt=""
-              src="/namegreen.png"
-              className="h-[55px] w-full shrink-0  object-cover"
+              src="/tlogo.png"
+              className="h-[60px] w-full shrink-0  object-cover"
             />
           </Link>
           <SearchBar
@@ -159,8 +159,8 @@ function Header(): any {
               height={100}
               alt=""
               loading="lazy"
-              src="/namegreen.png"
-              className=" h-[48px] w-full shrink-0 cursor-pointer object-contain"
+              src="/tlogo.png"
+              className=" h-[50px] w-full shrink-0 cursor-pointer object-contain"
             />
           </Link>
           <div>
