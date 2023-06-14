@@ -279,14 +279,14 @@ export const BrowseAllCategories: Props[] = [
 export const homeComponentBig = [
   {
     id: 1,
-    picture: '/slider-1-1.webp',
-    title: 'Welcome to International Trade',
-    subtitle: 'Sign up for daily newsletter',
+    picture: '/slider2.jpg',
+    title: 'Flavors of India, Worldwide',
+    subtitle: 'Aldan International',
   },
   {
     id: 2,
-    picture: '/slider-1-2.webp',
-    title: 'Fresh Vegetables & Spices',
+    picture: '/slider1.jpg',
+    title: 'Spicing up the world, one export at a time',
     subtitle: 'Tell your story',
   },
 ];
@@ -296,19 +296,19 @@ export const fracturedMainProduct = [
     id: 1,
     title: 'freshness of cardamom in every drop of  Oil',
     bg: 'yellow',
-    picture: '/featured3/cardamomoil1.png',
+    picture: '/featured3/cardamomoil.png',
   },
   {
     id: 2,
     title: 'sun-ripened sweetness of fresh Mangoes',
     bg: 'green',
-    picture: '/featured3/mango1.png',
+    picture: '/featured3/mango.png',
   },
   {
     id: 3,
     title: 'Experience the tropical taste of fresh coconut',
     bg: 'blue',
-    picture: '/featured3/coconut1.png',
+    picture: '/featured3/coco.png',
   },
 ];
 
@@ -677,7 +677,7 @@ export const aboutCompany = [
           " ",
       },
     ],
-    picture: 'about.svg',
+    picture: 'about.jpg',
   },
 ];
 
@@ -726,7 +726,7 @@ export const ourPerformance = [
   {
     id: 1,
     title: 'Exceeding Expectations',
-    smallPicture: 'plane.jpg',
+    smallPicture: 'plane.jpeg',
     head: 'Our Performance',
     bigPicture: 'ship.jpg',
     subtitle: [

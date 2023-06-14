@@ -3,7 +3,7 @@
 export const dealOftheDayProdutsData = [
   {
     id: 101,
-    name: 'Fresh Organic Spices',
+    name: 'Pure & Fresh: Organic Spices',
     rating: 4.0,
     tags: 'Flavoring, Preserving, Healing',
     // rate: 10.4,
@@ -57,7 +57,7 @@ export const dealOftheDayProdutsData = [
 
   {
     id: 103,
-    name: 'Mixed Vegetables',
+    name: 'Fresh Harvest: Organic Vegetables',
     rating: 4.0,
     tags: 'Cooking, Nutrition, Variety',
     // rate: 10.4,
@@ -65,10 +65,10 @@ export const dealOftheDayProdutsData = [
 
     categorySlug: 'vegetables',
     category: 'Vegetables',
-    picture: '/veg.jpg',
-    bgImage: '/veg.jpg',
+    picture: '/vegetable.jpg',
+    bgImage: '/vegetable.jpg',
 
-    bacPicture: '/veg.jpg',
+    bacPicture: '/vegetable.jpg',
     smallDetail: '',
     details: [
       {
@@ -111,7 +111,7 @@ export const dealOftheDayProdutsData = [
 
   {
     id: 104,
-    name: 'Fresh Organic Oils',
+    name: 'Pure Essence: Organic Essential Oils',
     rating: 4.0,
     tags: 'Aroma, Flavor, Medicine',
     // rate: 10.4,
@@ -119,7 +119,7 @@ export const dealOftheDayProdutsData = [
 
     categorySlug: 'oils',
     category: 'Oils',
-    picture: '/oils.jpg',
+    picture: '/oils,jpg',
     bgImage: '/oils.jpg',
 
     bacPicture: '/oils.jpg',
@@ -165,7 +165,7 @@ export const dealOftheDayProdutsData = [
 
   {
     id: 105,
-    name: 'Fresh Mixed Fruits',
+    name: `Nature's Bounty: Organic Fruits`,
     rating: 4.0,
     tags: 'Eating, Juicing, Baking',
     // rate: 10.4,
