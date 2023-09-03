@@ -60,7 +60,7 @@ const Cart = ({
               />
             </div>
             <div className="flex w-full flex-col">
-              <h1 className="font-head text-base leading-5 text-emerald-500">
+              <h1 className="font-head text-base leading-5 text-[#0062b0]">
                 {productsData[0].name}
               </h1>
               <p className="text-body text-sm text-gray-500">

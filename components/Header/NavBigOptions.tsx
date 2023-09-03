@@ -15,7 +15,7 @@ export function NavBigOptions(): any {
           <Link
             aria-label="Read more"
             href={`/${item.slug}`}
-            className="font-head text-base text-slate-900 hover:text-emerald-500"
+            className="font-head text-base text-slate-900 hover:text-[#0062b0]"
           >
             {item.name}
           </Link>
@@ -34,7 +34,7 @@ export function NavBigOptions(): any {
                     key={subName?.id}
                     className="group/edit flex w-full flex-row items-center"
                   >
-                    <p className="relative w-full font-head text-gray-600 hover:text-emerald-500">
+                    <p className="relative w-full font-head text-gray-600 hover:text-[#0062b0]">
                       {subName?.name}
                     </p>
                     {subName?.subMenu && (
@@ -48,7 +48,7 @@ export function NavBigOptions(): any {
                           {subName?.subMenu?.map(
                             (item: { id: Key; name: string }) => (
                               <ul key={item.id} className="w-full">
-                                <li className="w-full shrink-0 font-head text-base text-gray-600 hover:text-emerald-500">
+                                <li className="w-full shrink-0 font-head text-base text-gray-600 hover:text-[#0062b0]">
                                   {item.name}
                                 </li>
                               </ul>
@@ -89,9 +89,9 @@ export const NavBigOptionsTab = ({
             className=" flex cursor-pointer flex-row place-content-center items-center justify-start border-b border-gray-200 px-4 py-5"
           >
             {item.name === 'Deals' && (
-              <Fire className="-m-3 -rotate-90 scale-50 fill-emerald-500" />
+              <Fire className="-m-3 -rotate-90 scale-50 fill-[#0062b0]" />
             )}
-            <p className="shrink-0 font-head text-base text-slate-900 hover:text-emerald-500">
+            <p className="shrink-0 font-head text-base text-slate-900 hover:text-[#0062b0]">
               {item.name}
             </p>
             {item.subMenu && (
@@ -124,7 +124,7 @@ export const NavBigOptionsTab = ({
                         key={subName?.id}
                         className="flex cursor-pointer flex-row place-content-center items-center justify-start border-b border-gray-200 px-4 py-5"
                       >
-                        <p className="relative w-full font-head text-gray-600 hover:text-emerald-500">
+                        <p className="relative w-full font-head text-gray-600 hover:text-[#0062b0]">
                           {subName?.name}
                         </p>
                         {subName?.subMenu && (

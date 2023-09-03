@@ -15,8 +15,8 @@ export const TextCategory = ({
 }: Props): any => (
   <div
     className={`font-head text-[15px] leading-3  ${
-      isSelectedCatN === name ? 'text-emerald-500' : 'text-gray-800'
-    } cursor-pointer transition hover:-translate-y-1 hover:text-emerald-500`}
+      isSelectedCatN === name ? 'text-[#0062b0]' : 'text-gray-800'
+    } cursor-pointer transition hover:-translate-y-1 hover:text-[#0062b0]`}
     onClick={() => setIsSelectedCatN(name)}
   >
     {name}
