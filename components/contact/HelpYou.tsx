@@ -29,7 +29,7 @@ const HelpYou = () => {
                     ease: [0.16, 1, 0.3, 1],
                     delay: 0.25,
                   }}
-                  className="mb-2 font-head text-2xl text-emerald-500"
+                  className="mb-2 font-head text-2xl text-[#0062b0]"
                 >
                   {item.subtitle}
                 </motion.small>
@@ -115,7 +115,7 @@ const HelpYou = () => {
                   }}
                   className={`mb-2 font-head text-2xl md:mb-5  ${
                     feature.order === '03'
-                      ? 'text-emerald-500'
+                      ? 'text-[#0062b0]'
                       : 'text-gray-600'
                   }`}
                 >

@@ -37,7 +37,7 @@ const OurOffice = () => {
                   ease: [0.16, 1, 0.3, 1],
                   delay: 0.15,
                 }}
-                className="mb-4 font-head text-2xl text-emerald-500"
+                className="mb-4 font-head text-2xl text-[#0062b0]"
               >
                 {office.title}
               </motion.h2>
@@ -136,7 +136,7 @@ const OurOffice = () => {
                   ease: [0.16, 1, 0.3, 1],
                   delay: 0.55,
                 }}
-                className="mt-5 inline-flex w-max items-center justify-center gap-1 rounded-md border-none bg-emerald-500 py-2 px-[18px] font-head text-xs text-white outline-none duration-300 hover:-translate-y-1 hover:bg-yellow-500"
+                className="mt-5 inline-flex w-max items-center justify-center gap-1 rounded-md border-none bg-[#0062b0] py-2 px-[18px] font-head text-xs text-white outline-none duration-300 hover:-translate-y-1 hover:bg-yellow-500"
               >
                 <LocationIcon className="w-4 fill-white" />
                 View Map

@@ -8,7 +8,7 @@ const ProductEachDetail = (product: any) => {
   const [cartCount, setCartCount] = React.useState<number>(1);
   return (
     <div className="ml-5 flex w-full flex-col gap-5 ">
-      <span className="w-max rounded-md bg-emerald-200 px-4 py-1 font-head text-sm  text-emerald-600">
+      <span className="w-max rounded-md bg-emerald-200 px-4 py-1 font-head text-sm  text-[#00539f]">
         sale on
       </span>
       <h1 className="max-w-[90%] font-head text-h2 leading-[50px] text-gray-700 ">
@@ -25,7 +25,7 @@ const ProductEachDetail = (product: any) => {
       /> */}
       <span className="flex flex-col gap-[10px]">
         <p className="inline-flex items-center gap-[10px] text-base text-gray-900">
-          <TickFilledIcon className="-m-3 scale-50 fill-lime-700" />
+          <TickFilledIcon className="-m-3 scale-50 fill-[#00539f]" />
           Air and Sea
           <span className="-ml-1 capitalize">Shipment</span>
         </p>
@@ -33,7 +33,7 @@ const ProductEachDetail = (product: any) => {
           <TickFilledIcon className="-m-3 scale-50 fill-transparent" /> Depend
           on product{' '}
         </p>
-        <p className="inline-flex items-center gap-[10px] text-base text-emerald-500">
+        <p className="inline-flex items-center gap-[10px] text-base text-[#0062b0]">
           <TickFilledIcon className="-m-3 scale-50 fill-red-500" />
         </p>
       </span>
@@ -42,19 +42,19 @@ const ProductEachDetail = (product: any) => {
       </h4>
       <div className="mt-6 flex flex-wrap items-center gap-4">
         <span className="grid h-[50px] w-[100px] grid-flow-col place-content-center items-center justify-between rounded-lg border-[2px] border-emerald-500 ">
-          <p className=" ml-7 text-base font-bold text-emerald-500">
+          <p className=" ml-7 text-base font-bold text-[#0062b0]">
             {cartCount}
           </p>
           <span className="mr-4  ">
             <ArrowNoLine
               onClick={() => setCartCount(cartCount + 1)}
-              className="-m-5 -rotate-90 scale-50 cursor-pointer fill-emerald-400"
+              className="-m-5 -rotate-90 scale-50 cursor-pointer fill-[#0073c2]"
             />
             <ArrowNoLine
               onClick={() =>
                 setCartCount(cartCount >= 2 ? cartCount - 1 : cartCount)
               }
-              className="-m-5 rotate-90 scale-50 cursor-pointer fill-emerald-400"
+              className="-m-5 rotate-90 scale-50 cursor-pointer fill-[#0073c2]"
             />
           </span>
         </span>
@@ -70,14 +70,14 @@ const ProductEachDetail = (product: any) => {
       </div>
       <div className="flex flex-col gap-[5px]">
         <p className="text-base text-gray-500">
-          Vender: <span className="text-emerald-500">Aldan International</span>
+          Vender: <span className="text-[#0062b0]">Aldan International</span>
         </p>
         <p className="text-base text-gray-500">
           Collection:{' '}
-          <span className="text-emerald-500">{product[0].category}</span>
+          <span className="text-[#0062b0]">{product[0].category}</span>
         </p>
         <p className="text-base text-gray-500">
-          Tags: <span className="text-emerald-500">{product[0].tags}</span>
+          Tags: <span className="text-[#0062b0]">{product[0].tags}</span>
         </p>
       </div>
     </div>

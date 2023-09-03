@@ -4,7 +4,7 @@ import React from 'react';
 const ButtonShopNow = ({ paddingAndStyle, value }: any): any => {
   return (
     <button
-      className={`z-[1] mt-4 flex w-max items-center gap-4 rounded-md bg-emerald-500  font-body text-xs text-white outline-none transition-all hover:gap-5 hover:bg-yellow-500 ${paddingAndStyle}`}
+      className={`z-[1] mt-4 flex w-max items-center gap-4 rounded-md bg-[#0062b0]  font-body text-xs text-white outline-none transition-all hover:gap-5 hover:bg-yellow-500 ${paddingAndStyle}`}
     >
       {value}
       <i className="lni lni-arrow-right"></i>
@@ -16,7 +16,7 @@ const ButtonAddToCart = ({ className, onClick }: any): any => {
     <button
       name="button"
       onClick={onClick}
-      className={`group/btn z-[1] mx-[10px] mt-4 flex h-12 w-full items-center justify-center gap-4 rounded-md  bg-emerald-500 px-3 font-body text-xs text-white outline-none transition-all duration-300 hover:-translate-y-1 hover:bg-yellow-500 ${className}`}
+      className={`group/btn z-[1] mx-[10px] mt-4 flex h-12 w-full items-center justify-center gap-4 rounded-md  bg-[#0062b0] px-3 font-body text-xs text-white outline-none transition-all duration-300 hover:-translate-y-1 hover:bg-yellow-500 ${className}`}
     >
       <Cart className="-m-3 scale-50 fill-white" />
       Add to cart
@@ -27,9 +27,9 @@ const ButtonAddToCart = ({ className, onClick }: any): any => {
 const ButtonAdd = (): any => (
   <button
     name="button"
-    className="group/btn inline-flex h-8 items-center gap-2 rounded-md bg-emerald-200 px-3 font-body text-emerald-500 transition-transform duration-500 hover:-translate-y-1 hover:bg-emerald-500 hover:fill-white hover:text-white"
+    className="group/btn inline-flex h-8 items-center gap-2 rounded-md bg-[#a0d9f9] px-3 font-body text-[#0062b0] transition-transform duration-500 hover:-translate-y-1 hover:bg-[#0062b0] hover:fill-white hover:text-white"
   >
-    <Cart className="-m-3 scale-50 fill-emerald-500 group-hover/btn:fill-white" />
+    <Cart className="-m-3 scale-50 fill-[#0062b0] group-hover/btn:fill-white" />
     Add
   </button>
 );
@@ -59,7 +59,7 @@ const ButtonShowLimit = ({ filteringCount, setFilteringCount }: any): any => {
       >
         <li
           onClick={() => setFilteringCount({ ...filteringCount, count: 15 })}
-          className={` flex h-[30px] items-center px-4 font-body text-base hover:bg-emerald-500 ${
+          className={` flex h-[30px] items-center px-4 font-body text-base hover:bg-[#0062b0] ${
             filteringCount === 15
               ? 'bg-emerald-500 text-white'
               : 'bg-white text-gray-700'
@@ -69,9 +69,9 @@ const ButtonShowLimit = ({ filteringCount, setFilteringCount }: any): any => {
         </li>
         <li
           onClick={() => setFilteringCount({ ...filteringCount, count: 20 })}
-          className={` flex h-[30px] items-center px-4 font-body text-base hover:bg-emerald-500 ${
+          className={` flex h-[30px] items-center px-4 font-body text-base hover:bg-[#0062b0] ${
             filteringCount === 20
-              ? 'bg-emerald-500 text-white'
+              ? 'bg-[#0062b0] text-white'
               : 'bg-white text-gray-700'
           }`}
         >
@@ -79,9 +79,9 @@ const ButtonShowLimit = ({ filteringCount, setFilteringCount }: any): any => {
         </li>
         <li
           onClick={() => setFilteringCount({ ...filteringCount, count: 25 })}
-          className={` flex h-[30px] items-center px-4 font-body text-base hover:bg-emerald-500 ${
+          className={` flex h-[30px] items-center px-4 font-body text-base hover:bg-[#0062b0] ${
             filteringCount === 25
-              ? 'bg-emerald-500 text-white'
+              ? 'bg-[#0062b0] text-white'
               : 'bg-white text-gray-700'
           }`}
         >
@@ -89,9 +89,9 @@ const ButtonShowLimit = ({ filteringCount, setFilteringCount }: any): any => {
         </li>
         <li
           onClick={() => setFilteringCount({ ...filteringCount, count: 30 })}
-          className={` flex h-[30px] items-center px-4 font-body text-base hover:bg-emerald-500 ${
+          className={` flex h-[30px] items-center px-4 font-body text-base hover:bg-[#0062b0] ${
             filteringCount === 30
-              ? 'bg-emerald-500 text-white'
+              ? 'bg-[#0062b0] text-white'
               : 'bg-white text-gray-700'
           }`}
         >
@@ -99,9 +99,9 @@ const ButtonShowLimit = ({ filteringCount, setFilteringCount }: any): any => {
         </li>
         <li
           onClick={() => setFilteringCount({ ...filteringCount, count: 50 })}
-          className={` flex h-[30px] items-center px-4 font-body text-base hover:bg-emerald-500 ${
+          className={` flex h-[30px] items-center px-4 font-body text-base hover:bg-[#0062b0] ${
             filteringCount === 50
-              ? 'bg-emerald-500 text-white'
+              ? 'bg-[#0062b0] text-white'
               : 'bg-white text-gray-700'
           }`}
         >
@@ -176,9 +176,9 @@ const ButtonSortBy = ({ filteringCount, setFilteringCount }: any): any => {
             onClick={() =>
               setFilteringCount({ ...filteringCount, filterBy: item.name })
             }
-            className={` flex h-[30px] items-center px-4 font-body text-base hover:bg-emerald-500 ${
+            className={` flex h-[30px] items-center px-4 font-body text-base hover:bg-[#0062b0] ${
               filteringCount.filterBy === item.name
-                ? 'bg-emerald-500 text-white'
+                ? 'bg-[#0062b0] text-white'
                 : 'bg-white text-gray-700'
             }`}
           >

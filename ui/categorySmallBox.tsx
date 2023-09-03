@@ -17,7 +17,7 @@ const CategorySmallBox = () => {
               className="flex cursor-pointer items-center gap-1 rounded border border-gray-300 py-3 px-4 hover:shadow-md"
             >
               {item.icon}
-              <p className="font-head text-base text-emerald-500">
+              <p className="font-head text-base text-[#0062b0]">
                 {item.name}
               </p>
             </Link>

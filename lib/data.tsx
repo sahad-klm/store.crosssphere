@@ -48,7 +48,7 @@ export const lastOneInNav: Props[] = [
   {
     id: 3,
     icon: (
-      <Cart className="scale-[.4] fill-gray-700 duration-300 hover:fill-emerald-500 group-hover/btn:fill-emerald-500 max-sm:-mx-5 sm:scale-[.6] " />
+      <Cart className="scale-[.4] fill-gray-700 duration-300 hover:fill-[#0062b0] group-hover/btn:fill-[#0062b0] max-sm:-mx-5 sm:scale-[.6] " />
     ),
     name: 'Cart',
   },
@@ -69,7 +69,7 @@ export const navbarLastCategory: {
 }[] = [
   {
     id: 1,
-    icon: <Fire className="-mr-2 scale-50  fill-emerald-500" />,
+    icon: <Fire className="-mr-2 scale-50  fill-[#0062b0]" />,
     name: 'Deals',
     slug: '',
   },

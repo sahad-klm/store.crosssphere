@@ -14,9 +14,9 @@ const HeadRootNames = ({
       <Link
         aria-label="Read more"
         href="/"
-        className="inline-flex items-center text-emerald-500"
+        className="inline-flex items-center text-[#0062b0]"
       >
-        <HomeIcon className="-m-3 scale-[.4] fill-emerald-500" /> Home
+        <HomeIcon className="-m-3 scale-[.4] fill-[#0062b0]" /> Home
       </Link>
       <ArrowNoLine className="-m-3 scale-[.4] fill-gray-500" />
       {product && (

@@ -29,8 +29,8 @@ const Description = ({ products }: any) => {
           <React.Fragment key={item.id}>
             <span
               onClick={() => setIsSelected(item.part)}
-              className={`hidden items-center rounded-full border py-3 px-5 font-head text-base duration-300  hover:-translate-y-1  hover:text-emerald-500 hover:shadow-md lg:flex ${
-                isSelected === item.part ? 'text-emerald-500' : 'text-gray-700'
+              className={`hidden items-center rounded-full border py-3 px-5 font-head text-base duration-300  hover:-translate-y-1  hover:text-[#0062b0] hover:shadow-md lg:flex ${
+                isSelected === item.part ? 'text-[#0062b0]' : 'text-gray-700'
               }`}
             >
               {item.part}
