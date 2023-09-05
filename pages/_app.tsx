@@ -107,7 +107,7 @@ function MyApp({ Component, pageProps, router }: AppProps) {
   return (
     <>
       <Head>
-        <title>Aldan International</title>
+        <title>Aldan International - Elevating Culinary Experiences</title>
       </Head>
 
       <SiteContextProvider data={{ ...data }}>
