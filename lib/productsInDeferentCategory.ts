@@ -583,8 +583,8 @@ export const popularProductsData = [
     // offer: 7,
     categorySlug: 'powder',
     category: 'Powder',
-    picture: '/powder/turmeric.jpeg',
-    bacPicture: '/powder/turmeric.jpeg',
+    picture: '/powder/turmric.jpeg',
+    bacPicture: '/powder/turmric.jpeg',
     smallDetail: `Spice up your life with chilli powder! Our chilli powder is made from the freshest chillies and is perfect for adding that extra kick to all your dishes. With its delicate balance of heat and flavour, it's sure to make any dish irresistible. Whether you're looking to add a bit of spice to your tacos, curries or soups, our chilli powder will give your dishes that extra zing they need - without sacrificing any flavour!`,
     details: [
       {
