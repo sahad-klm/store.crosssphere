@@ -286,7 +286,7 @@ export const homeComponentBig = [
   {
     id: 2,
     picture: '/slider1.jpg',
-    title: 'Spicing up the world, one export at a time',
+    title: 'Aldan International - Elevating your culinary journey with premium spice exports. Explore a world of flavors that enhance your dishes, sourced from the finest ingredients and crafted for excellence. Spice up your culinary adventures with us',
     subtitle: 'Tell your story',
   },
 ];
