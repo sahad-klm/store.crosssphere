@@ -7,14 +7,14 @@ const HeadSEO = ({ site = {}, page = {}, schema }: any) => {
       <meta charSet="utf-8" />
       <meta
         name="description"
-        content="Aldan International - Elevating your culinary journey with premium spice exports. Explore a world of flavors that enhance your dishes, sourced from the finest ingredients and crafted for excellence. Spice up your culinary adventures with us."
+        content="CrossSphere Exim - Elevating your culinary journey with premium spice exports. Explore a world of flavors that enhance your dishes, sourced from the finest ingredients and crafted for excellence. Spice up your culinary adventures with us."
       />
 
       <meta httpEquiv="x-ua-compatible" content="ie=edge" />
       <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       <meta name="format-detection" content="telephone=no" />
 
-      <link rel="icon" href="favicon.png" sizes="any" />
+      <link rel="icon" href="micon.png" sizes="any" />
 
       <link rel="preconnect" href="https://fonts.googleapis.com" />
       <link
@@ -46,16 +46,16 @@ const HeadSEO = ({ site = {}, page = {}, schema }: any) => {
       <meta property="fb:app_id" content="123456789" />
       <meta property="og:url" content="https://aldaninternational.com" />
       <meta property="og:type" content="website" />
-      <meta property="og:title" content="Aldan International - Elevating Culinary Experiences" />
+      <meta property="og:title" content="CrossSphere Exim - We specialize in exporting premium spices powders" />
       <meta property="og:image" content="og_image.png" />
       <meta
         property="og:image:alt"
-        content="Aldan International - Elevating your culinary journey with premium spice exports. Explore a world of flavors that enhance your dishes, sourced from the finest ingredients and crafted for excellence. Spice up your culinary adventures with us."
+        content="CrossSphere Exim - Elevating your culinary journey with premium spice exports. Explore a world of flavors that enhance your dishes, sourced from the finest ingredients and crafted for excellence. Spice up your culinary adventures with us."
       />
-      <meta property="og:description" content="Aldan International - Elevating your culinary journey with premium spice exports. Explore a world of flavors that enhance your dishes, sourced from the finest ingredients and crafted for excellence. Spice up your culinary adventures with us." />
-      <meta property="og:site_name" content="Aldan International" />
+      <meta property="og:description" content="CrossSphere Exim - Elevating your culinary journey with premium spice exports. Explore a world of flavors that enhance your dishes, sourced from the finest ingredients and crafted for excellence. Spice up your culinary adventures with us." />
+      <meta property="og:site_name" content="CrossSphere Exim" />
       <meta property="og:locale" content="en_US" />
-      <meta property="article:author" content="shad klm" />
+      <meta property="article:author" content="Sahad" />
     </Head>
   );
 };

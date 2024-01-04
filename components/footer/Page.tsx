@@ -21,8 +21,8 @@ const Footer = () => {
             height={100}
             loading="lazy"
             alt=""
-            src="/bottom.png"
-            className="h-[65px] w-full shrink-0 object-cover  "
+            src="/ficon.webp"
+            className="h-[41px] w-full shrink-0 object-cover  "
           />
         </li>
 
@@ -123,7 +123,7 @@ const Footer = () => {
             </span>
             <p className="text-xs text-white sm:text-sm">
               EMAIL <br />
-              info.aldaninternational@gmail.com
+              crosssphereexim@gmail.com
             </p>
           </li>
         </div>

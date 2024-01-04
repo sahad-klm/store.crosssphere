@@ -79,8 +79,8 @@ function Header(): any {
               height={100}
               loading="lazy"
               alt=""
-              src="/header.png"
-              className="h-[69px] w-full shrink-0  object-cover"
+              src="/header.webp"
+              className="h-[41px] w-full shrink-0  object-cover"
             />
           </Link>
           <SearchBar
@@ -159,8 +159,8 @@ function Header(): any {
               height={100}
               alt=""
               loading="lazy"
-              src="/header.png"
-              className=" h-[63px] w-full shrink-0 cursor-pointer object-contain"
+              src="/header.webp"
+              className=" h-[35px] w-full shrink-0 cursor-pointer object-contain"
             />
           </Link>
           <div>
@@ -191,7 +191,7 @@ function Header(): any {
           >
             <div className="bg-tabNav relative flex items-center justify-center bg-gray-100 p-5 pt-20">
               <h1 className="font-head text-h3 text-slate-100">
-                Aldan International
+                CrossSphere Exim
               </h1>
               <i
                 onClick={() => setBrowseAllCategory(false)}

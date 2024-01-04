@@ -101,13 +101,13 @@ const Layout = ({
         <FloatingWhatsApp
           phoneNumber="+91 8075122414"
           accountName={'Aldan International'}
-          avatar="../../whatsapp.png"
+          avatar="../../micon.png"
         />
         <Footer />
         <div className="flex flex-col items-center justify-center gap-3 border-t border-emerald-300 px-4 py-2">
           <p className="cursor-default select-none text-center font-body text-xs text-gray-500 sm:text-sm md:text-left md:text-base">
             © 2023 Dodo,{' '}
-            <span className="text-emerald-500">Aldan International</span> All
+            <span className="text-emerald-500">CrossSphere Exim</span> All
             Rights Reserved.
           </p>
         </div>

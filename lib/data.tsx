@@ -281,12 +281,12 @@ export const homeComponentBig = [
     id: 1,
     picture: '/slider2.jpg',
     title: 'Flavors of India, Worldwide',
-    subtitle: 'Aldan International',
+    subtitle: 'CrossSphere Exim',
   },
   {
     id: 2,
     picture: '/slider1.jpg',
-    title: 'Aldan International - Elevating your culinary journey with premium spice exports. Explore a world of flavors that enhance your dishes, sourced from the finest ingredients and crafted for excellence. Spice up your culinary adventures with us',
+    title: 'Spices. Export Worldwide',
     subtitle: 'Tell your story',
   },
 ];
@@ -669,7 +669,7 @@ export const aboutCompany = [
       {
         id: 1,
         paragraph:
-          `Aldan International is a renowned company specializing in the export of spices, vegetables, fruits, and various other food products from India. We have quickly gained momentum and experienced rapid growth in the export industry. Despite its relatively short time in operation, the company has managed to make a significant impact and establish a strong presence in the international market., Aldan International has earned a reputation for providing high-quality products sourced directly from the rich agricultural lands of India.India, known as the land of spices, holds a significant position in the global spice trade. Producing an impressive 70% of the world's spices, India has a diverse range of aromatic herbs and spices that are highly sought after in the culinary industry. Aldan International takes pride in being a key player in promoting and exporting these exquisite Indian spices to customers worldwide.Apart from spices, Aldan International also specializes in exporting fresh and premium-quality vegetables and fruits. India's fertile soil and favorable climate contribute to the cultivation of a wide variety of fruits and vegetables, ensuring a bountiful harvest year-round. `,
+          `CrossSphere Exim is a renowned company specializing in the export of spices, vegetables, fruits, and various other food products from India. We have quickly gained momentum and experienced rapid growth in the export industry. Despite its relatively short time in operation, the company has managed to make a significant impact and establish a strong presence in the international market., CrossSphere Exim has earned a reputation for providing high-quality products sourced directly from the rich agricultural lands of India.India, known as the land of spices, holds a significant position in the global spice trade. Producing an impressive 70% of the world's spices, India has a diverse range of aromatic herbs and spices that are highly sought after in the culinary industry. CrossSphere Exim takes pride in being a key player in promoting and exporting these exquisite Indian spices to customers worldwide.Apart from spices, CrossSphere Exim also specializes in exporting fresh and premium-quality vegetables and fruits. India's fertile soil and favorable climate contribute to the cultivation of a wide variety of fruits and vegetables, ensuring a bountiful harvest year-round. `,
       },
       {
         id: 2,
@@ -928,7 +928,7 @@ export const contact = [
         title: 'Office',
         address: 'Kolkalam,Chengottur Po, Malappuram, Kerala, India 676503',
         phone: '+91 8075122414',
-        email: 'info.aldaninternational@gmail.com',
+        email: 'crosssphereexim@gmail.com',
       },
     ],
   },

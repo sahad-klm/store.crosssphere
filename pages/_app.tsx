@@ -107,7 +107,7 @@ function MyApp({ Component, pageProps, router }: AppProps) {
   return (
     <>
       <Head>
-        <title>Aldan International - Elevating Culinary Experiences</title>
+        <title>CrossSphere Exim - Spices Export Worldwide</title>
       </Head>
 
       <SiteContextProvider data={{ ...data }}>
