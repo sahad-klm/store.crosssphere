@@ -33,7 +33,7 @@ function Header(): any {
   };
 
   const classNameOfListInSearch =
-    'h-14 shrink-0 flex items-center text-gray-700 w-full font-head text-base  duration-300 hover:text-[#0062b0]';
+    'h-14 shrink-0 flex items-center text-gray-700 w-full font-head text-base  duration-300 hover:text-emerald-500';
 
   React.useEffect(() => {
     if (typeof window !== undefined) {
@@ -106,7 +106,7 @@ function Header(): any {
           <div className="hidden h-full flex-1 items-center justify-end gap-3 xl:flex">
             <i className="fa-solid fa-headset text-3xl text-gray-800" />
             <div className="grid">
-              <h1 className="font-head text-[26px] leading-6 tracking-[3px] text-[#0062b0]">
+              <h1 className="font-head text-[26px] leading-6 tracking-[3px] text-emerald-500">
                 8075122414
               </h1>
               <p className="font-body text-sm  tracking-wider ">

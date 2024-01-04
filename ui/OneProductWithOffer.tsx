@@ -69,7 +69,7 @@ function OneProductWithOffer({
 
   return (
     <div
-      className={`group/body relative flex max-w-[290px] shrink-0 flex-col overflow-hidden rounded-[18px] border border-gray-300 bg-white hover:border-[#0073c2] hover:shadow-xl ${classNameForTotal}`}
+      className={`group/body relative flex max-w-[290px] shrink-0 flex-col overflow-hidden rounded-[18px] border border-gray-300 bg-white hover:border-emerald-300 hover:shadow-xl ${classNameForTotal}`}
     >
       {/* {offer && (
         <span className="absolute top-0 left-0 z-10  flex self-start rounded-br-[18px] bg-red-700 py-1 px-5 font-body text-sm text-white">
@@ -107,7 +107,7 @@ function OneProductWithOffer({
         {tags}
       </small>
       <Link aria-label="Read more" href={`/${categorySlug}/${name}`}>
-        <h4 className="mx-5 pb-[8px] font-head text-sm text-gray-700 transition-all duration-200 hover:text-[#0062b0] md:pb-[10px] md:text-base">
+        <h4 className="mx-5 pb-[8px] font-head text-sm text-gray-700 transition-all duration-200 hover:text-emerald-500 md:pb-[10px] md:text-base">
           {name}
         </h4>
       </Link>
@@ -190,7 +190,7 @@ const OneProductLeftPicRightDetail = ({
                 </Link>
               </div>
               <div className="justify-star flex w-full flex-[60%] flex-col items-start md:h-28">
-                <h4 className="font-head text-[14px] text-gray-800 transition duration-200 hover:text-[#0062b0] md:text-[16px]">
+                <h4 className="font-head text-[14px] text-gray-800 transition duration-200 hover:text-emerald-500 md:text-[16px]">
                   {item.name}
                 </h4>
 

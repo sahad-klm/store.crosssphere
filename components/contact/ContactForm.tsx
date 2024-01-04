@@ -66,7 +66,7 @@ const ContactForm = () => {
               ease: [0.16, 1, 0.3, 1],
               delay: 0.15,
             }}
-            className="mb-[10px] font-head text-2xl text-[#0062b0]"
+            className="mb-[10px] font-head text-2xl text-emerald-500"
           >
             Contact form
           </motion.h3>
@@ -227,7 +227,7 @@ const ContactForm = () => {
               delay: 0.65,
             }}
             onClick={handleSubmit}
-            className="h-16 w-max rounded-lg border-none bg-slate-500 px-16 font-head text-2xl text-white outline-none duration-300 hover:bg-[#1E2328]"
+            className="h-16 w-max rounded-lg border-none bg-slate-500 px-16 font-head text-2xl text-white outline-none duration-300 hover:bg-emerald-500"
           >
             Send Message
           </motion.button>

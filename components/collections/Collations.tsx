@@ -52,10 +52,10 @@ const Collations = (): any => {
               <Link
                 aria-label="Read more"
                 href={`${usePathname()}/${item.slug}`}
-                className="group/btn flex h-16 w-full items-center justify-start gap-3 rounded bg-gray-100 px-4 font-head text-base text-gray-800 duration-300 hover:text-[#5E665D]"
+                className="group/btn flex h-16 w-full items-center justify-start gap-3 rounded bg-gray-100 px-4 font-head text-base text-gray-800 duration-300 hover:text-emerald-500"
               >
                 {item.name}{' '}
-                <ArrowWithLine className="-m-3 scale-[.55] fill-gray-800 duration-300 group-hover/btn:fill-[#5E665D]" />
+                <ArrowWithLine className="-m-3 scale-[.55] fill-gray-800 duration-300 group-hover/btn:fill-emerald-500" />
               </Link>
             </m.div>
           ))}

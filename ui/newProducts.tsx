@@ -29,7 +29,7 @@ const NewProducts = ({ limit = 1 }: number | any): JSX.Element => {
                 />
               </div>
               <div className="flex-col items-start justify-start ">
-                <h4 className="font-head text-xl text-[#0062b0] ">
+                <h4 className="font-head text-xl text-emerald-500 ">
                   {item.name}
                 </h4>
 

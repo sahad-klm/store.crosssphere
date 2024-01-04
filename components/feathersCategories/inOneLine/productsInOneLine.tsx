@@ -38,8 +38,8 @@ const ProductsInOneLine = ({ swiperRef, slidesPerView }: any): JSX.Element => {
              border-solid 
               border-transparent p-5  lg:w-full  ${
                 isClickedOnThisOne === item.id &&
-                ' border-[#00539f] shadow-md'
-              } group/edit cursor-pointer transition-all duration-300 hover:border-[#00539f] hover:shadow-md`}
+                ' border-emerald-600 shadow-md'
+              } group/edit cursor-pointer transition-all duration-300 hover:border-emerald-600 hover:shadow-md`}
             onClick={() => setIsClickedOnThisOne(item.id)}
           >
             <Link aria-label="Read more" href={`/collections/${item.slug}`}>
@@ -54,7 +54,7 @@ const ProductsInOneLine = ({ swiperRef, slidesPerView }: any): JSX.Element => {
             </Link>
             <div className="flex flex-col items-center justify-center">
               <Link aria-label="Read more" href={`/collections/${item.slug}`}>
-                <h6 className="divide-[#00539f] text-center  font-head text-sm text-gray-800 transition-all group-hover/edit:text-[#0062b0] md:text-base">
+                <h6 className="divide-emerald-600 text-center  font-head text-sm text-gray-800 transition-all group-hover/edit:text-emerald-500 md:text-base">
                   {item.name}
                 </h6>
               </Link>

@@ -27,7 +27,7 @@ const Top = ({ pathName }: any): JSX.Element => (
       Start your international <br /> expansion with us
     </h1>
     <h4 className="mt-2 font-body text-[16px] leading-9 text-gray-500 md:text-[18px]">
-      stay updated on our latest news <span className="text-[#0062b0]"></span>
+      stay updated on our latest news <span className="text-emerald-500"></span>
     </h4>
     <form className="relative mt-10 flex h-16 flex-row  items-center overflow-hidden rounded-full bg-white sm:max-w-[450px]">
       <PaperPlaneIcon className="ml-1 mr-2 h-4 fill-gray-500 md:ml-6 md:mr-4" />
@@ -38,7 +38,7 @@ const Top = ({ pathName }: any): JSX.Element => (
       />
       <button
         name="button"
-        className="absolute right-0 h-full rounded-full bg-[#1E2328] px-6 font-body text-sm tracking-wider text-white outline-none transition hover:bg-[#00539f]"
+        className="absolute right-0 h-full rounded-full bg-emerald-500 px-6 font-body text-sm tracking-wider text-white outline-none transition hover:bg-emerald-600"
       >
         Subscribe
       </button>

@@ -41,7 +41,7 @@ const FooterList = ({
             aria-label="Read more"
             key={item.id}
             href={item.to}
-            className="font-body text-sm text-gray-900 duration-300 hover:translate-x-1 hover:text-[#0062b0] md:text-base"
+            className="font-body text-sm text-gray-900 duration-300 hover:translate-x-1 hover:text-emerald-500 md:text-base"
           >
             {item.name}
           </a>

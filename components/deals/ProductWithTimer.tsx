@@ -67,7 +67,7 @@ function ProductWithTimer({
           </div>
         </div> */}
         <div className="mx-7 rounded-[18px] bg-white p-3 shadow-lg">
-          <h4 className="mx-5 pb-[8px] font-head text-sm text-gray-700 transition-all duration-200 hover:text-[#0062b0] md:pb-[10px] md:text-base">
+          <h4 className="mx-5 pb-[8px] font-head text-sm text-gray-700 transition-all duration-200 hover:text-emerald-500 md:pb-[10px] md:text-base">
             {name}
           </h4>
           <Rating rating={rating} />

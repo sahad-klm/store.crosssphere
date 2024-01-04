@@ -16,11 +16,11 @@ const FeathersCategory: React.FC = () => {
         <span className="grid grid-flow-col gap-2">
           <i
             onClick={() => swiperRef.current?.slidePrev()}
-            className="lni lni-chevron-left grid h-10  w-10 place-content-center rounded-full bg-slate-200 p-2 text-sm font-bold text-gray-800 transition duration-300 hover:bg-[#1E2328] hover:text-white"
+            className="lni lni-chevron-left grid h-10  w-10 place-content-center rounded-full bg-slate-200 p-2 text-sm font-bold text-gray-800 transition duration-300 hover:bg-emerald-500 hover:text-white"
           />
           <i
             onClick={() => swiperRef.current?.slideNext()}
-            className="lni lni-chevron-right grid h-10  w-10 place-content-center rounded-full bg-slate-200 p-2 text-sm font-bold text-gray-800 transition duration-300 hover:bg-[#1E2328] hover:text-white"
+            className="lni lni-chevron-right grid h-10  w-10 place-content-center rounded-full bg-slate-200 p-2 text-sm font-bold text-gray-800 transition duration-300 hover:bg-emerald-500 hover:text-white"
           />
         </span>
       </div>

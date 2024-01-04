@@ -15,15 +15,15 @@ const OutTeam = () => {
   const socialMediaIcon = (platform: string): any => {
     switch (platform) {
       case 'facebook':
-        return <FacebookIcon className="h-[20px] w-[20px] fill-[#5E665D]" />;
+        return <FacebookIcon className="h-[20px] w-[20px] fill-emerald-500" />;
 
       case 'twitter':
-        return <TwitterIcon className="h-[20px] w-[20px] fill-[#5E665D]" />;
+        return <TwitterIcon className="h-[20px] w-[20px] fill-emerald-500" />;
 
       case 'instagram':
-        return <InstagramIcon className="h-[20px] w-[20px] fill-[#5E665D]" />;
+        return <InstagramIcon className="h-[20px] w-[20px] fill-emerald-500" />;
       case 'youtube':
-        return <YoutubeIcon className="h-[20px] w-[20px] fill-[#5E665D]" />;
+        return <YoutubeIcon className="h-[20px] w-[20px] fill-emerald-500" />;
     }
   };
 
@@ -79,7 +79,7 @@ const OutTeam = () => {
                       ease: [0.16, 1, 0.3, 1],
                       delay: 0.45,
                     }}
-                    className="mb-[5px] text-base text-[#5E665D]"
+                    className="mb-[5px] text-base text-emerald-500"
                   >
                     {team.title}
                   </m.small>
@@ -159,7 +159,7 @@ const OutTeam = () => {
               ease: [0.16, 1, 0.3, 1],
               delay: 0.65,
             }}
-            className="w-max rounded-md border-none bg-[#1E2328] py-3 px-8 font-head text-sm text-white outline-none duration-300 hover:bg-yellow-400"
+            className="w-max rounded-md border-none bg-emerald-500 py-3 px-8 font-head text-sm text-white outline-none duration-300 hover:bg-yellow-400"
           >
             View All Members
           </m.button>

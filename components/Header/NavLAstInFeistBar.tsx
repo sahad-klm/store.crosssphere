@@ -14,8 +14,8 @@ export const NavLAstInFeistBar = ({ setIsCart }: React.SetStateAction<any>) => (
       className="flex cursor-pointer items-center "
       onClick={() => setIsCart(true)}
     >
-      <Cart className="scale-[.4] fill-gray-700 duration-300 hover:fill-[#0062b0] group-hover/btn:fill-[#0062b0] max-sm:-mx-5 sm:scale-[.6] " />
-      <p className="font-body text-base font-medium text-stone-800 hover:text-[#0062b0]">
+      <Cart className="scale-[.4] fill-gray-700 duration-300 hover:fill-emerald-500 group-hover/btn:fill-emerald-500 max-sm:-mx-5 sm:scale-[.6] " />
+      <p className="font-body text-base font-medium text-stone-800 hover:text-emerald-500">
         Cart
       </p>
     </span>
@@ -33,7 +33,7 @@ export const NavLAstInFeistBar2 = ({
       className="flex cursor-pointer items-center pr-1"
       onClick={() => setIsCart(true)}
     >
-      <Cart className="scale-[.7] fill-gray-700 duration-300 hover:fill-[#0062b0] group-hover/btn:fill-[#0062b0] max-sm:-mx-5 sm:scale-[.6] " />
+      <Cart className="scale-[.7] fill-gray-700 duration-300 hover:fill-emerald-500 group-hover/btn:fill-emerald-500 max-sm:-mx-5 sm:scale-[.6] " />
     </span>
   </div>
 );

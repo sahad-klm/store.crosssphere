@@ -7,7 +7,7 @@ const SearchBar = ({
   handleClickSearchOption,
   classNameOfListInSearch,
 }: any) => (
-  <form className="relative ml-5 flex h-full w-full max-w-[36rem] flex-1 items-center rounded-md border-[.5px] border-[#0062b0] bg-white px-4 py-2 ">
+  <form className="relative ml-5 flex h-full w-full max-w-[36rem] flex-1 items-center rounded-md border-[.5px] border-emerald-500 bg-white px-4 py-2 ">
     <div
       className="flex w-40 shrink-0 items-center justify-between  font-head text-h6 font-W_head capitalize text-gray-800"
       onClick={() => setIsSearchOptionActive(!isSearchOptionActive)}

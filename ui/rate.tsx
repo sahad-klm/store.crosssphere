@@ -8,7 +8,7 @@ const RateOfProduct = ({
   offer?: number;
 }): JSX.Element => {
   return (
-    <p className="flex flex-wrap items-center gap-2 font-head text-base text-[#0062b0] md:text-lg">
+    <p className="flex flex-wrap items-center gap-2 font-head text-base text-emerald-500 md:text-lg">
       ${rate - (rate * offer) / 100}
       {offer && (
         <span className="text-sm text-gray-500 line-through">${rate}</span>
@@ -25,7 +25,7 @@ export const RateOfProductInProductId = ({
   offer?: number;
 }) => {
   return (
-    <p className="flex flex-wrap items-center gap-2 font-head text-base text-[#0062b0] md:text-[58px]">
+    <p className="flex flex-wrap items-center gap-2 font-head text-base text-emerald-500 md:text-[58px]">
       ${rate - (rate * offer) / 100}
       {offer && (
         <div className="ml-3 flex flex-col">

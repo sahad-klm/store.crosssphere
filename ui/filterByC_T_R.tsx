@@ -214,7 +214,7 @@ const FilterByC_T_R = ({ onChange }: any) => {
 
             <div className="slider w-full">
               <div className="slider__track h-0.5 bg-gray-200" />
-              <div ref={range} className="slider__range h-0.5 bg-[#93A484]" />
+              <div ref={range} className="slider__range h-0.5 bg-emerald-500" />
             </div>
             <div className="mt-5 flex w-full justify-between">
               <div className="flex h-9  items-center overflow-hidden rounded-md border border-gray-400">
