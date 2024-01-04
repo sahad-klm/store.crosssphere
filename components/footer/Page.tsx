@@ -14,7 +14,7 @@ const Footer = () => {
 
   return (
     <footer className="mt-[80px] flex w-full flex-col items-center justify-center overflow-hidden">
-      <ul className="flex w-full flex-col items-center justify-between gap-4 bg-[#0062b0] px-2 py-8 md:flex-row">
+      <ul className="flex w-full flex-col items-center justify-between gap-4 bg-[#1E2328] px-2 py-8 md:flex-row">
         <li className="flex-col gap-[4px]">
           <Image
             width={100}

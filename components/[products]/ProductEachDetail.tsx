@@ -33,7 +33,7 @@ const ProductEachDetail = (product: any) => {
           <TickFilledIcon className="-m-3 scale-50 fill-transparent" /> Depend
           on product{' '}
         </p>
-        <p className="inline-flex items-center gap-[10px] text-base text-[#0062b0]">
+        <p className="inline-flex items-center gap-[10px] text-base text-[#5E665D]">
           <TickFilledIcon className="-m-3 scale-50 fill-red-500" />
         </p>
       </span>
@@ -42,7 +42,7 @@ const ProductEachDetail = (product: any) => {
       </h4>
       <div className="mt-6 flex flex-wrap items-center gap-4">
         <span className="grid h-[50px] w-[100px] grid-flow-col place-content-center items-center justify-between rounded-lg border-[2px] border-emerald-500 ">
-          <p className=" ml-7 text-base font-bold text-[#0062b0]">
+          <p className=" ml-7 text-base font-bold text-[#5E665D]">
             {cartCount}
           </p>
           <span className="mr-4  ">
@@ -70,14 +70,14 @@ const ProductEachDetail = (product: any) => {
       </div>
       <div className="flex flex-col gap-[5px]">
         <p className="text-base text-gray-500">
-          Vender: <span className="text-[#0062b0]">Aldan International</span>
+          Vender: <span className="text-[#5E665D]">Aldan International</span>
         </p>
         <p className="text-base text-gray-500">
           Collection:{' '}
-          <span className="text-[#0062b0]">{product[0].category}</span>
+          <span className="text-[#5E665D]">{product[0].category}</span>
         </p>
         <p className="text-base text-gray-500">
-          Tags: <span className="text-[#0062b0]">{product[0].tags}</span>
+          Tags: <span className="text-[#5E665D]">{product[0].tags}</span>
         </p>
       </div>
     </div>

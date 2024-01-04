@@ -11,7 +11,7 @@ const BrowseAllButton = ({
   return (
     <button
       name="button"
-      className="relative flex shrink-0 items-center gap-1 rounded-md border-none bg-[#0062b0] px-2 font-head text-base text-white outline-none hover:bg-[#00539f]"
+      className="relative flex shrink-0 items-center gap-1 rounded-md border-none bg-[#1E2328] px-2 font-head text-base text-white outline-none hover:bg-[#00539f]"
       onClick={() => setBrowseAllCategory(!browseAllCategory)}
     >
       <GridApps className="scale-[.7] fill-white" />

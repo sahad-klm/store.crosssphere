@@ -76,7 +76,7 @@ const HomeComponent = (): any => {
                   />
                   <button
                     name="button"
-                    className="absolute -right-1 h-full rounded-full bg-[#0062b0] px-5 font-body  text-sm tracking-wider text-white outline-none transition hover:bg-[#00539f] sm:px-10"
+                    className="absolute -right-1 h-full rounded-full bg-[#1E2328] px-5 font-body  text-sm tracking-wider text-white outline-none transition hover:bg-[#00539f] sm:px-10"
                   >
                     Subscribe
                   </button>
@@ -109,7 +109,7 @@ const HomeComponent = (): any => {
                   />
                   <button
                     name="button"
-                    className="absolute -right-1 h-full rounded-full bg-[#0062b0] px-5 font-body  text-sm tracking-wider text-white outline-none transition hover:bg-[#00539f] "
+                    className="absolute -right-1 h-full rounded-full bg-[#1E2328] px-5 font-body  text-sm tracking-wider text-white outline-none transition hover:bg-[#00539f] "
                   >
                     Subscribe
                   </button>

@@ -227,7 +227,7 @@ const ContactForm = () => {
               delay: 0.65,
             }}
             onClick={handleSubmit}
-            className="h-16 w-max rounded-lg border-none bg-slate-500 px-16 font-head text-2xl text-white outline-none duration-300 hover:bg-[#0062b0]"
+            className="h-16 w-max rounded-lg border-none bg-slate-500 px-16 font-head text-2xl text-white outline-none duration-300 hover:bg-[#1E2328]"
           >
             Send Message
           </motion.button>

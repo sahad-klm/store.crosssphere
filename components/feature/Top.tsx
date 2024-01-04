@@ -38,7 +38,7 @@ const Top = ({ pathName }: any): JSX.Element => (
       />
       <button
         name="button"
-        className="absolute right-0 h-full rounded-full bg-[#0062b0] px-6 font-body text-sm tracking-wider text-white outline-none transition hover:bg-[#00539f]"
+        className="absolute right-0 h-full rounded-full bg-[#1E2328] px-6 font-body text-sm tracking-wider text-white outline-none transition hover:bg-[#00539f]"
       >
         Subscribe
       </button>

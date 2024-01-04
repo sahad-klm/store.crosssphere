@@ -231,7 +231,7 @@ const HeadingWithFilter = ({
                     }
                     className={`flex h-4 w-4 items-center justify-center border border-gray-200 ${
                       isType.type === 'Baby & Tyler'
-                        ? 'border-[#0062b0] bg-[#0062b0] text-opacity-100'
+                        ? 'border-[#0062b0] bg-[#1E2328] text-opacity-100'
                         : 'text-opacity-0'
                     } text-white`}
                   >
@@ -255,7 +255,7 @@ const HeadingWithFilter = ({
                     }
                     className={`flex h-4 w-4 items-center justify-center border border-gray-200 ${
                       isType.type === 'Hoodoo Foods'
-                        ? 'border-[#0062b0] bg-[#0062b0] text-opacity-100'
+                        ? 'border-[#0062b0] bg-[#1E2328] text-opacity-100'
                         : 'text-opacity-0'
                     } text-white`}
                   >
@@ -322,7 +322,7 @@ const HeadingWithFilter = ({
                       <div className="slider__track h-0.5 bg-gray-200" />
                       <div
                         ref={range}
-                        className="slider__range h-0.5 bg-[#0062b0]"
+                        className="slider__range h-0.5 bg-[#1E2328]"
                       />
                     </div>
                     <div className="mt-5 flex w-full justify-between">
